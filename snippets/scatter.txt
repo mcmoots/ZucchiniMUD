@@ -1,0 +1,37 @@
+You will need to add a line to interp.c and interp.h as needed.
+And then add this somewhere.. maybe act_wiz.c
+
+/* Scatters everything in the room to random rooms all over your mud */
+/* Written by Dither of Planes of Dominion webmaster@podmud.com */
+void do_scatter( CHAR_DATA *ch, char *argument )
+{
+  OBJ_DATA *obj;
+  OBJ_DATA *obj_next;
+  ROOM_INDEX_DATA *pRoomIndex;
+
+  for ( obj = ch->in_room->contents; obj != NULL; obj = obj_next ) {
+    obj_next = obj->next_content;
+    for ( ; ; )
+    {
+        pRoomIndex = get_room_index( number_range( 0, 65535 ) );
+        if ( pRoomIndex != NULL )
+        if ( CAN_ACCESS(pRoomIndex) )
+            break;
+    }
+    act("$p vanishes in a puff of smoke!",ch,obj,NULL,TO_ROOM);
+    obj_from_room(obj);
+    obj_to_room(obj, pRoomIndex);
+  }
+  return;
+}
+
+Add this to merc.h and modify as needed:
+
+#define CAN_ACCESS(room)        ( !IS_SET(room->room_flags, ROOM_PRIVATE) \
+                                &&   !IS_SET(room->room_flags, ROOM_SOLITARY) \
+                                &&   !IS_SET(room->room_flags, ROOM_NOTELEPORT) \
+                                &&   !IS_SET(room->room_flags, ROOM_NEWBIES_ONLY) \
+                                &&   !IS_SET(room->room_flags, ROOM_GODS_ONLY) \
+                                &&   !IS_SET(room->room_flags, ROOM_IMP_ONLY) \
+                                &&   !IS_SET(room->room_flags, ROOM_HOUSE) \
+                                &&   !IS_SET(room->room_flags, ROOM_ARENA) )

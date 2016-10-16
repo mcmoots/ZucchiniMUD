@@ -1,0 +1,258 @@
+#PLAYER
+Name Blah~
+Id   1199666561
+LogO 1253503536
+Vers 1
+Prom %h/%Hhp %m/%Mm %vmv %Xtnl> ~
+Race hooloovoo~
+Sex  0
+Levl 6
+God Eris~
+Sec  0
+Plyd 21652
+Scro 22
+Room 3001
+HMV  83 83 126 126 130 130
+Cash 150
+Balance 0
+Exp  6313
+Brownie 0
+Quest_Curr 50
+Act  CDEFGHQT
+AfBy TU
+Comm NOP
+Pos  8
+Save  -1
+Alig  -26
+ACs 70 61 63 97
+Wimp  14
+Attr 11 18 18 12 16
+AMod 1 1 3 -1 1
+Pass blahblah~
+Titl  the Lazy~
+Pnts 7
+TSex 0
+LLev 5
+HMVP 79 121 130
+Cnd  0 0 0 0
+Coloura     007 013 005 001 013
+Colourb     013 003 002 006 003
+Colourc     113 002 002 002 001
+Colourd     006 007 002 006 006
+Coloure     011 002 003 001 017
+Colourf     002 002 012 012 012
+Colourg     017 015 011 017 017
+Boards       5 General 0 Ideas 0 Announce 0 Bugs 0 Personal 0 
+Sk 81 'magic missile'
+Sk 34 'shield block'
+Sk 77 'sword'
+Sk 83 'enhanced damage'
+Sk 75 'hand to hand'
+Sk 10 'vomit'
+Gr 'rom basics'
+i3invis	0
+End
+
+#O
+Vnum 3704
+Nest 0
+Cond 0
+Wear 11
+Cost 0
+End
+
+#O
+Vnum 3162
+Nest 0
+Cond 0
+Wear -1
+Cost 500
+End
+
+#O
+Vnum 3723
+Nest 0
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 3712
+Nest 0
+Cond 0
+Wear 13
+Cost 72
+End
+
+#O
+Vnum 3705
+Nest 0
+Cond 0
+Wear 4
+Cost 72
+End
+
+#O
+Vnum 3715
+Nest 0
+Cond 0
+Wear 17
+Cost 1140
+End
+
+#O
+Vnum 3138
+Nest 0
+Cond 0
+Wear -1
+Cost 24
+End
+
+#O
+Vnum 101
+Nest 0
+Cond 0
+Wear 6
+Cost 270
+End
+
+#O
+Vnum 104
+Nest 0
+Cond 0
+Wear 3
+Cost 550
+End
+
+#O
+Vnum 100
+Nest 0
+Cond 0
+Wear -1
+Cost 180
+Spell 3 'change sex'
+End
+
+#O
+Vnum 6011
+Nest 0
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 3021
+Nest 0
+Cond 0
+Wear 16
+Cost 250
+End
+
+#O
+Vnum 3071
+Nest 0
+Cond 0
+Wear 10
+Cost 220
+End
+
+#O
+Vnum 3068
+Nest 0
+Cond 0
+Wear 7
+Cost 220
+End
+
+#O
+Vnum 3716
+Nest 0
+Cond 0
+Wear 0
+Cost 0
+Val  0 0 48 0 0
+End
+
+#O
+Vnum 6001
+Nest 0
+Cond 0
+Wear 5
+Cost 610
+End
+
+#O
+Vnum 6002
+Nest 0
+Cond 0
+Wear 8
+Cost 310
+End
+
+#O
+Vnum 8601
+Nest 0
+Cond 0
+Wear 14
+Cost 0
+End
+
+#O
+Vnum 8601
+Nest 0
+Cond 0
+Wear 15
+Cost 0
+End
+
+#O
+Vnum 6644
+Nest 0
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 6601
+Nest 0
+Cond 0
+Wear 1
+Cost 620
+End
+
+#O
+Vnum 6645
+Nest 0
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 6621
+Nest 0
+Cond 0
+Wear 12
+Cost 300
+End
+
+#O
+Vnum 6647
+Nest 0
+Cond 0
+Wear -1
+Cost 300
+End
+
+#O
+Vnum 3076
+Nest 0
+Cond 0
+Wear 9
+Cost 420
+End
+
+#END

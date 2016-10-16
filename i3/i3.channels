@@ -1,0 +1,131 @@
+#I3CHAN
+ChanName imud_gossip~
+ChanMud  Frontiers~
+ChanLocal imgossip~
+ChanLayM   {R[{W%s{R] {C%s@%s: {c%s~
+ChanLayE   {R[{W%s{R] {c%s~
+ChanLevel  10
+ChanStatus 0
+End
+
+#I3CHAN
+ChanName intergossip~
+ChanMud  Frontiers~
+ChanLocal intergossip~
+ChanLayM   {R[{W%s{R] {C%s@%s: {c%s~
+ChanLayE   {R[{W%s{R] {c%s~
+ChanLevel  10
+ChanStatus 0
+End
+
+#I3CHAN
+ChanName insomnia-chat~
+ChanMud  Frontiers~
+ChanLocal insomnia~
+ChanLayM   {R[{W%s{R] {C%s@%s: {c%s~
+ChanLayE   {R[{W%s{R] {c%s~
+ChanLevel  10
+ChanStatus 0
+End
+
+#I3CHAN
+ChanName free_speech~
+ChanMud  Haven~
+ChanLocal freespeech~
+ChanLayM   {R[{W%s{R] {C%s@%s: {c%s~
+ChanLayE   {R[{W%s{R] {c%s~
+ChanLevel  10
+ChanStatus 0
+End
+
+#I3CHAN
+ChanName dchat~
+ChanMud  Frontiers~
+ChanLocal dchat~
+ChanLayM   {R[{W%s{R] {C%s@%s: {c%s~
+ChanLayE   {R[{W%s{R] {c%s~
+ChanLevel  10
+ChanStatus 0
+End
+
+#I3CHAN
+ChanName imud_code~
+ChanMud  Frontiers~
+ChanLocal intercode~
+ChanLayM   {R[{W%s{R] {C%s@%s: {c%s~
+ChanLayE   {R[{W%s{R] {c%s~
+ChanLevel  10
+ChanStatus 0
+End
+
+#I3CHAN
+ChanName dead_souls~
+ChanMud  Frontiers~
+ChanLocal interds~
+ChanLayM   {R[{W%s{R] {C%s@%s: {c%s~
+ChanLayE   {R[{W%s{R] {c%s~
+ChanLevel  10
+ChanStatus 0
+End
+
+#I3CHAN
+ChanName ascii_art~
+ChanMud  Frontiers~
+ChanLocal ascii_art~
+ChanLayM   {R[{W%s{R] {C%s@%s: {c%s~
+ChanLayE   {R[{W%s{R] {c%s~
+ChanLevel  10
+ChanStatus 0
+End
+
+#I3CHAN
+ChanName inews~
+ChanMud  Frontiers~
+ChanLocal inews~
+ChanLayM   {R[{W%s{R] {C%s@%s: {c%s~
+ChanLayE   {R[{W%s{R] {c%s~
+ChanLevel  10
+ChanStatus 0
+End
+
+#I3CHAN
+ChanName bofh~
+ChanMud  Frontiers~
+ChanLocal bofh~
+ChanLayM   {R[{W%s{R] {C%s@%s: {c%s~
+ChanLayE   {R[{W%s{R] {c%s~
+ChanLevel  10
+ChanStatus 0
+End
+
+#I3CHAN
+ChanName coffeemud_universe~
+ChanMud  Frontiers~
+ChanLocal coffeemud~
+ChanLayM   {R[{W%s{R] {C%s@%s: {c%s~
+ChanLayE   {R[{W%s{R] {c%s~
+ChanLevel  10
+ChanStatus 0
+End
+
+#I3CHAN
+ChanName discworld-chat~
+ChanMud  Frontiers~
+ChanLocal discworld~
+ChanLayM   {R[{W%s{R] {C%s@%s: {c%s~
+ChanLayE   {R[{W%s{R] {c%s~
+ChanLevel  10
+ChanStatus 0
+End
+
+#I3CHAN
+ChanName trivia_games~
+ChanMud  Frontiers~
+ChanLocal intertrivia~
+ChanLayM   {R[{W%s{R] {C%s@%s: {c%s~
+ChanLayE   {R[{W%s{R] {c%s~
+ChanLevel  10
+ChanStatus 0
+End
+
+#END

@@ -1,0 +1,3373 @@
+#AREADATA
+Name Amity~
+Builders None~
+VNUMs 7900 7999
+Levels 0 0
+Credits {g[{G15 35{g]{x Dimi     Amity~
+Security 9
+End
+
+
+
+#ZMOBILES
+#7900
+oldstyle grand knight paladin~
+the Grand Knight of paladins~
+The Grand Knight is standing here, waiting for someone to help.
+~
+The Knight is standing here, smiling at you. He is dressed all in
+white, blue and silver. He looks VERY strong, as he stands here, ready to
+help the innocent.
+~
+human~
+AGQ DH 1000 0
+35 35 71d11+354 35d10+85 11d3+22 none
+-13 -13 -13 -6
+EIKU 0 0 0
+stand stand male 0
+AHMV ABCDEFGHIJK medium unknown
+'none'
+#7901
+Teema~
+Teema~
+Teema is here, sobbing.
+~
+You see a young, teenage elf.  She has sandy brown hair and hazel eyes.
+~
+human~
+ABQZ CDFGJVZ 0 0
+15 15 31d5+152 15d10+85 5d3+12 none
+0 0 0 2
+0 ABCD 0 0
+stand stand none 0
+AHMV ABCDEFGHIJK medium unknown
+'none'
+#7920
+oread Amity mage~
+An oread Amity mage~
+An oread Amity mage is here looking for trouble.
+~
+This oread mage looks like a baby nymph raised in the mountains.
+~
+unique~
+AR CDEFGHTUVZ 0 0
+20 20 41d6+203 20d10+85 6d3+15 none
+-3 -3 -3 0
+FIKP AL B SZ
+stand stand none 2890
+ABGHMVZ ABCDEFGHIJKQVX medium unknown
+'none'
+#7921
+dark elf mage~
+A dark Elf mage~
+This dark Elf mage screams at you.
+~
+You see a regular city elf that has some of the characteristics of a dark
+elf now.  
+~
+elf~
+ABFR CDEFGHJ -1000 0
+13 13 27d4+132 13d10+85 4d3+11 magic
+0 0 0 3
+0 0 B Z
+stand stand female 3800
+AHMV ABCDEFGHIJK medium unknown
+'none'
+#7931
+dark elf thief~
+a dark elf thief~
+A dark elf thief moves quickly toward you.
+~
+You see a thin, tall dark elf dressed in expensive attire.  He says,
+"your things will be mine soon".  
+~
+elf~
+ABFS CDEFGHJ -1000 0
+18 18 37d6+182 18d10+85 6d3+14 punch
+-2 -2 -2 0
+BJ 0 B Z
+stand stand male 4000
+AHMV ABCDEFGHIJK medium unknown
+'none'
+#7939
+dark elf warrior~
+a dark elf warrior~
+A dark elf warrior heads right for you.
+~
+You notice that this elf has a bit of the dark elf race in him.  He is
+dressed in warrior and mage attire.  
+~
+elf~
+ABFT CDEFGHJ -1000 0
+23 23 47d7+233 23d10+85 7d3+16 charge
+-5 -5 -5 -1
+N 0 B Z
+stand stand male 4200
+AHMV ABCDEFGHIJK medium unknown
+'none'
+#7945
+dark elf female~
+a dark elf female~
+A dark elf female is praying here.
+~
+You see a female elf in robes kneeling here praying within a star
+outlined by candles on the floor.  She is part dark elf.  She sees you and
+gets up and comes toward you.  
+~
+elf~
+ABFQ CDEFGHJ -1000 0
+28 28 57d9+283 28d10+85 9d3+19 divine
+-9 -9 -9 -3
+0 0 B Z
+stand stand female 4200
+AHMV ABCDEFGHIJK medium unknown
+'none'
+#7952
+dark elf mage soldier~
+a dark elf mage soldier~
+A dark elf mage soldier is destroying things here.
+~
+This dark elf mage is dressed in a robe decorated with war symbols.  He
+is taller, stronger and smarter than most eleves.  
+~
+elf~
+ABFT CDEFGHJV -1000 0
+33 33 67d11+334 33d10+85 11d3+21 none
+-12 -12 -12 -5
+I 0 B Z
+stand stand none 4600
+AHMV ABCDEFGHIJK medium unknown
+'none'
+#7954
+Tirsch~
+Tirsch~
+Tirsch, the Oread squire, stares glassy-eyed at you.
+~
+This oread nymph is wearing a mountain tunic and some knightly armor. 
+She looks young yet hardened as if she has done much fighting in her short
+life.  You see the symbol =x= painted on her forehead.  
+~
+unique~
+ABFT CDEFGHJZ 0 0
+26 26 53d8+263 26d10+85 8d3+18 slap
+-7 -7 -7 -2
+FIK A B Z
+stand stand female 4400
+AHMV ABCDEFGHIJK medium unknown
+'none'
+#7955
+Conunum~
+Conunum~
+Conunum, an Oread squire, gestures violently to you.
+~
+This oread nymph's face is distorted due to anger.  He looks at you with
+disdain.  He is cloathed in a loin cloth bearing the symbol =x= and wearing
+a few pieces of knightly armor.  
+~
+unique~
+ABFT CDEFGHJZ 0 0
+27 27 55d9+273 27d10+85 9d3+18 thwack
+-8 -8 -8 -2
+FIK A B Z
+stand stand male 4433
+AHMV ABCDEFGHIJK medium unknown
+'none'
+#7956
+Forni~
+Forni~
+Forni, an Oread knight, readies herself for battle.
+~
+You see a beautiful, golden-haired, female, oread nymph knight clad in a
+lace loin-cloth and in lordly armor.  Her girth has engraved upon it the
+symbol =x=.  She seems to be happy.  
+~
+unique~
+AFT CDEFGHJUVZ 0 0
+33 33 67d11+334 33d10+85 11d3+21 beating
+-12 -12 -12 -5
+F A B Z
+stand stand female 4657
+AHMV ABCDEFGHIJK medium unknown
+'none'
+#7957
+Cation~
+Cation~
+Cation, an Oread baron, looks haughtily at you.
+~
+You see a male, long-haired, red-headed, Oread nymph dressed in the
+attire proper to barons except for the mountain tunic with the =x= symbol on
+it.  
+~
+unique~
+ABFT CDEFGHJVZ 0 0
+34 34 69d11+344 34d10+85 11d3+22 wrath
+-13 -13 -13 -6
+F A B Z
+stand stand male 4667
+AHMV ABCDEFGHIJK medium unknown
+'none'
+#7958
+Oread Prince Michus~
+Oread Prince Michus~
+Oread Prince Michus says: I am the unkillable weed of the world!
+~
+You see one of the strongest Oread nymphs you have ever seen.  On his
+forehead is branded the symbol =x=.  His face is rugged and his eyes are icy
+blue.  His hair is dish-water blonde and wavey.  His demeanor is off-putting
+for one as handsome as he is.  He is wearing a loin cloth made out of bear
+fur and armor fit for a prince.  
+~
+unique~
+ABFT DEFGHJVZ 0 0
+35 35 71d11+354 35d10+85 11d3+22 flame
+-13 -13 -13 -6
+CFHIKO A B Z
+stand stand male 4800
+AHMV ABCDEFGHIJK medium unknown
+'none'
+#7964
+light elf mage~
+a light elf mage~
+A light elf mage greets you warmly here.
+~
+You see a female elf that looks like she is one of the kindest elves in
+existence.  She is draped in a sheer, white robe and smiles at you sweetly.
+~
+elf~
+AR HJTV 1000 0
+13 13 27d4+132 13d10+85 4d3+11 magic
+0 0 0 3
+N 0 B Z
+stand stand female 3800
+AHMV ABCDEFGHIJK medium unknown
+'none'
+#7969
+light elf warrior~
+a light elf warrior~
+A light elf warrior asks, "How are you?"
+~
+This elf is stronger than any elf you have ever seen.  He has one of the
+kindest demeanor's you have ever seen.  He is dressed in a robe, but mostly
+has warrior equipment on.  
+~
+elf~
+AT HJTVa 1000 0
+18 18 37d6+182 18d10+85 6d3+14 charge
+-2 -2 -2 0
+I 0 B Z
+stand stand male 4000
+AHMV ABCDEFGHIJK medium unknown
+'none'
+#7974
+light elf mage apprentice~
+a mage apprentice~
+An elf mage apprentice asks you, "Want to learn a spell?"
+~
+You see a very thin, tall elf clothed in a white, Amity, training mage's
+robe.  His eyes fill you with a sense of peace as you look into them.  
+~
+elf~
+AR HJV 1000 0
+23 23 47d7+233 23d10+85 7d3+16 magic
+-5 -5 -5 -1
+N 0 B Z
+stand stand male 4200
+AHMV ABCDEFGHIJK medium unknown
+'none'
+#7975
+Odilon~
+Odilon~
+Odilon, an Oread craftsman, is working on a cabinet here.
+~
+You see a large oread.  Like all nymphs, she is slender, graceful and
+beautiful.  You can tell by looking at her that she, like all oread nymphs,
+comes from the mountains in that she is wearing a mountain tunic.  You
+believe that her move to Amity must have occured fairly recently.  Her
+breath is quite nice smelling yet cold.  He mutters something about a
+password and chaotic neutrality.  
+~
+unique~
+ABFT CDEFGHJZ 0 0
+21 21 43d7+213 21d10+85 7d3+15 scratch
+-4 -4 -4 0
+F A B Z
+stand stand female 4300
+AHMV ABCDEFGHIJK medium unknown
+'none'
+#7979
+light elf priest~
+a light elf priest~
+A light elf priest casts happiness on you.
+~
+You see a medium sized elf clothed in bright yellow robes of a magical
+and protective nature.  Joy seems to flow from her soul to yours and causes
+you to smile.  
+~
+elf~
+AQ HJTV 1000 0
+28 28 57d9+283 28d10+85 9d3+19 none
+-9 -9 -9 -3
+N 0 B Z
+stand stand female 4400
+AHMV ABCDEFGHIJK medium unknown
+'none'
+#7984
+light elf master mage~
+a master mage~
+A light elf master mage utters the words, "Greetings".
+~
+This elf seems nicer than most eleves, who are usually very friendly
+anyways.  He is much older than the other elves of Amity, and is clothed in
+a much more fancier robe than the other lesser mages of Amity.  
+~
+elf~
+AR HJTV 1000 0
+33 33 67d11+334 33d10+85 11d3+21 magic
+-12 -12 -12 -5
+0 0 B Z
+stand stand either 4600
+AHMV ABCDEFGHIJK medium unknown
+'none'
+#7993
+Florius~
+Florius~
+Florius, an Oread vassal, is keeping watch here.
+~
+You see an extremely handsome mountain nymph, an oread, standing before
+you.  He is in his mountain tunic and seems a bit out of place here.  He is
+wearing a patch with the symbol =x= on his tunic.  
+~
+unique~
+ABFT CDEFGHJZ 0 0
+22 22 45d7+223 22d10+85 7d3+16 smash
+-5 -5 -5 0
+FI A B Z
+stand stand male 4300
+AHMV ABCDEFGHIJK medium unknown
+'none'
+#7995
+outin mob~
+out in mob~
+Out in mob
+~
+~
+human~
+A H 0 0
+60 60 121d20+1213 60d10+85 20d3+35 none
+-30 -30 -30 -18
+0 0 0 0
+stand stand none 0
+AHMV ABCDEFGHIJK medium unknown
+'none'
+#7996
+mucous~
+Mucous~
+Mucous is in a state of rage here bacause her master has been killed.
+~
+You see an adolescent great eastern dragon here.  She is irridescent green
+and seems angry to see you.  
+~
+dragon~
+ABF CDGHJTVZ 1000 0
+35 35 71d11+354 35d10+85 11d3+22 none
+-13 -13 -13 -6
+CFIO AB BEH FIZ
+stand stand female 2500
+AHMVZ ABCDEFGHIJKPQUVX medium unknown
+'none'
+#7997
+light elf female~
+a light elf female~
+A light elf female is here, speaking in tongues and healing people.
+~
+You see a slender, tall, blonde, light elf female.  She is dressed in a
+long, flowing, embroidered, gold robe.  A scarlet aura radiates from
+her robe, and fills you with a sense of peace.  She places her right hand on
+your shoulder and softly says 'Greetings traveler, if you need to be healed,
+I can help you.  This chapel is also a great place to rest because my father
+once bestowed a powerful blessing upon it'.  She withdraws her hand from
+your shoulder, gesticultaes, and then sits down to rest.  
+~
+elf~
+ABa HJV 928 0
+40 40 81d13+405 40d10+85 13d3+25 none
+-17 -17 -17 -9
+0 0 B Z
+stand stand female 5379
+AHMV ABCDEFGHIJK medium unknown
+'none'
+#7998
+druidyke~
+druidyke~
+Druidyke
+~
+~
+human~
+ABQ HV 0 0
+60 60 121d20+1213 60d10+85 20d3+35 none
+-30 -30 -30 -18
+0 0 0 0
+stand stand none 0
+AHMV ABCDEFGHIJK medium unknown
+'none'
+#7999
+indoors mob~
+indoors mob~
+Indoors mob
+~
+~
+human~
+AY HV 0 0
+60 60 121d20+1213 60d10+85 20d3+35 crush
+-30 -30 -30 -18
+0 0 0 0
+stand stand none 0
+AHMV ABCDEFGHIJK medium unknown
+'none'
+#0
+
+
+
+#ZOBJECTS
+#7901
+sign~
+a sign~
+A sign is here.~
+none~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+E
+sign~
+This area has level 15-35 beings.  It was made by Dimi for the mud
+Eternity's Trials.  Enjoy!  
+~
+#7902
+cursed dog tag~
+a cursed dog tag~
+A cursed dog tag is here.~
+none~
+trash TY AO
+0 0 0 0 0
+10 1 0 P
+#7903
+oread amity tent~
+an oread Amity tent~
+An oread Amity tent is here.~
+none~
+furniture TY A
+BC ABCDFIKMNO FIL AFGH AFGH
+10 29 4892 P
+#7904
+milk mother's bottle~
+a bottle of mother's milk~
+A bottle of mother's milk is here.~
+none~
+drink TY A
+24500 24500 'milk' 0 0
+10 19 3672 P
+#7909
+crimson fountain~
+a crimson fountain~
+Water is dancing about from a crimson fountain here.~
+oldstyle~
+fountain 0 0
+0 0 'water' 0 0
+0 1000 0 P
+E
+crimson fountain~
+{B                    , '  '  ,        ,  '   '  ,
+{B                   ,           ', ,'             ,
+  {B                ,      , ' ' ,{r###{B, ' ' ,        ,
+    {B             ,     ,       ,{r###{B,       ,       ,
+      {B          ,     ,      ' {r |||{B  '       ,      ,
+        {B       ,     ,      ' {r  |||  {B '       ,      ,
+          {B    ,     ,      '{r    |||{B    '       ,      ,
+{B             ,     ,      '    {r |||{B     '       ,      ,
+  {B          ,     ,      '   {r   |||  {B    '       ,      ,
+    {B       ,     ,      '  {r     |||    {B   '       ,      ,
+      {B    ,     ,      ' {r       |||      {B  '       ,      ,
+{B         ,     ,      '{r         |||        {B '       ,      ,
+{r        \===================================================/
+  {r        \===================={R Amity{r ====================/
+    {r        \================={R Fountain{r ================/
+      {r        \=======================================/
+        {r                /=================\
+          {r            /====================\{x
+~
+#7910
+chest~
+a wooden chest~
+A wooden chest stands in the corner.~
+oldstyle~
+container 0 A
+100 ABCD 7911 20 100
+0 4000 100 P
+E
+chest~
+It is a robust chest made from short, heavy planks that have been fastened
+together with tenons.  It is equipped with a simple brass lock.
+~
+#7911
+key~
+a small brass key~
+A small brass key lies here.~
+oldstyle~
+key 0 A
+BCFGHJKLM 0 0 0 0
+0 10 0 P
+E
+key~
+It is a small, simple brass key with no inscriptions or marks of any kind.
+~
+#7921
+polearm copper corroded~
+a corroded, Oread mined, copper polearm (=x=)~
+A corroded, copper polearm is here.~
+copper~
+weapon BT AN
+polearm 2 9 magic AF
+13 14 935 P
+A
+18 11
+A
+19 10
+#7954
+mace mother nature~
+the mace of mother nature gone bad (=x=)~
+A mace with the symbol =x= inscribed upon it is here~
+wood~
+weapon B AN
+mace 3 11 wrath D
+26 27 1640 P
+A
+18 1
+A
+19 1
+A
+19 14
+A
+18 17
+#7955
+vine red grape whip~
+an Oread mountain red grape vine~
+You see a red grape vine on the ground here.~
+plant~
+weapon BT AN
+whip 2 12 flame AH
+27 28 1460 P
+A
+18 1
+A
+19 1
+A
+18 19
+A
+19 14
+#7956
+flail Oread redwood~
+an Oread, redwood flail of enmity (=x=)~
+A flail made of Oread redwood is drying in the sun here.~
+wood~
+weapon BT AN
+flail 3 11 beating BD
+33 34 1800 P
+A
+18 2
+A
+19 2
+A
+18 19
+A
+19 16
+#7957
+oread mountain redwood axe~
+an iron, redwood, Oread mountain axe (=x=)~
+an iron, redwood moutain axe is near a tree stump here.~
+wood~
+weapon BT AN
+axe 4 10 wrath DH
+34 35 1970 P
+A
+18 2
+A
+19 2
+A
+18 19
+A
+19 16
+#7958
+spear silver tipped Oread~
+an oak, Oread, silver tipped spear (=x=)~
+An oak, silver tipped spear is stuck in a tree here.~
+wood silver~
+weapon BT AN
+exotic 4 12 flame BDH
+35 36 2240 P
+A
+18 2
+A
+19 2
+A
+19 17
+A
+18 19
+#7959
+breastplate copper Oread~
+an Oread, gilded, copper breastplate (=x=)~
+A gilded, copper breastplate is on some trash here.~
+copper~
+armor AT AD
+ACD ACD ACD CD 0
+35 36 39 P
+A
+20 -4
+A
+20 -4
+A
+1 2
+A
+5 2
+#7960
+loin cloth bear fur~
+an Oread Nymph, bear fur, loin cloth (=x=)~
+A bear fur, loin cloth is lying in the mud here.~
+none~
+armor BT AF
+ACD ACD ACD CD 0
+35 36 39 P
+A
+19 10
+#7961
+symbol Michus forehead~
+(branded) the  ==X==  symbol on Michus' Forehead~
+A forehead with the symbol  ==X==  on it is decaying here.~
+flesh~
+armor T AE
+ACD ACD ACD CD 0
+35 36 39 P
+A
+19 6
+A
+13 70
+A
+18 8
+#7962
+arms mountain lion fur~
+the fur from a mountain lion's arms =x=~
+Some fur is gathering dust here.~
+fur~
+armor AT AI
+ACD ACD ACD CD 0
+34 35 38 P
+A
+18 5
+A
+19 5
+#7963
+ring topaz apathy~
+a topaz ring of turbulent apathy~
+A topaz ring is on a hacked-off finger here.~
+gold~
+jewelry AT AB
+0 0 0 0 0
+33 0 3216 P
+A
+3 2
+A
+19 10
+#7964
+opal ring stoicism~
+an opal ring of agitated stoicism  =x=~
+an opal ring is half-buried in dirt here.~
+gold~
+jewelry AT AB
+0 0 0 0 0
+27 0 3452 P
+A
+3 1
+A
+18 9
+#7965
+belt bore-hide mountain~
+(stinking) a mountain boar-hide belt =x=~
+A belt made out of boar-hide can be smelled here.~
+leather~
+container AY AL
+89 0 0 31 31
+26 20 2696 P
+A
+5 2
+A
+17 -99
+#7966
+wristlet detachment~
+a wristlet of unbalanced detachment =x=~
+A white wristlet is being dragged by an ant here.~
+none~
+armor 0 AM
+AEF D D ABC 0
+21 22 17 P
+A
+13 20
+A
+18 6
+#7967
+stone garnet~
+a garnet stone of aimless aloofness =x=~
+A stone made of garnet burns here.~
+none~
+gem T AQ
+0 0 0 0 0
+23 10 5820 P
+A
+13 10
+A
+18 5
+A
+19 5
+#7968
+boots deerskin disorder~
+two deerskin boots of disorder =x=~
+Two deerskin boots lay in some mud here.~
+leather~
+armor 0 AG
+CD CD CD ABD 0
+33 34 37 P
+A
+13 15
+A
+2 3
+A
+14 125
+#7969
+shades disinterestedness~
+some shades of chaotic disinterestedness =x=~
+A pair of shades have been left here.~
+plastic~
+armor 0 AR
+ABC ABC ABC BC 0
+18 19 22 P
+#7970
+gauntlets nonpartisanship~
+the gauntlets of tumultuous nonpartisanship =x=~
+Some gauntlets are here.~
+leather~
+armor 0 AH
+ABD ABD ABD BD 0
+28 29 24 P
+A
+19 9
+#7971
+key knowledge~
+the key to knowledge =x=~
+A key is here.~
+brass~
+key BTUY A
+0 0 0 0 0
+5 0 0 P
+#7972
+key baseness~
+the key to baseness =x=~
+A key is here.~
+lead~
+key BTUY A
+0 0 0 0 0
+10 0 0 P
+#7973
+key organization~
+the key to organization =x=~
+A key is here.~
+none~
+key BTUY A
+0 0 0 0 0
+5 0 0 P
+#7974
+poplar tree chaotic neutrality~
+a poplar tree~
+A poplar tree stands tall here.~
+none~
+trash 0 0
+0 0 0 0 0
+5 0 0 P
+#7975
+sword chaotic deeds~
+the sword of chaotic deeds~
+The sword of chaotic deeds shimmers here.~
+none~
+weapon B AN
+sword 3 9 scratch D
+21 22 1340 P
+A
+18 1
+A
+19 1
+#7976
+tree poplar chaotic neutrality~
+a poplar tree~
+A poplar tree stands tall here.~
+none~
+portal 0 0
+0 0 0 CDEGHJKLM 0
+5 0 0 P
+#7977
+chaotic neutrality~
+a dead poplar tree~
+A dead poplar tree is here.~
+none~
+trash 0 0
+0 0 0 0 0
+5 0 0 P
+#7978
+chaotic neutrality~
+a dead poplar tree~
+A dead poplar tree is here.~
+none~
+portal 0 0
+0 0 0 CDEGHJKLM 0
+5 0 0 P
+#7979
+paper~
+some paper~
+Some paper is here.~
+none~
+trash ATUY A
+0 0 0 0 0
+1 0 0 P
+E
+paper~
+Head Mages of East and West Amity, It is your duty to keep the forces of 
+good on the East and evil on the west at war with one another, since you 
+have sold out to Michus in exchange for greater power.  Make sure also that 
+the way to Michus' palace is not found out.  Thus, guard the busy 
+connection where day meets night and the watery vermin-infested area.  
+There are trees at these places that are portals to us and to Sidhonia.
+There is a secret password you have to know to enter them and Odilon knows
+what it is.  May chaotic neutrality live on in you!
+  
+                                       Prince Michus' knight, Forni 
+                                       Prince Michus' baron, Cation
+~
+#7980
+note~
+a note~
+A note is here.~
+none~
+trash APTUY A
+0 0 0 0 0
+1 0 0 P
+E
+note~
+Head clerics of E.  And W.  Amity, in exchange for the powers we who lead
+for Michus gave you, you must make sure that east and west Amity stays
+divided.  We will give 2 of you a key to hold that leads to our 
+command center.  Guard these keys with your life, if either of the centers
+in the east or west falls, we will be weakened and you'd be dead so, be
+careful, no one must find the area with the broken doors or the area 
+that is dusty yet regenerative.  We will be at one of these centers.
+ 
+                            Tirsch and Conunum, Michus' squires
+~
+#7981
+letter~
+a letter~
+A letter is here.~
+none~
+trash ATUY A
+0 0 0 0 0
+1 0 0 P
+E
+letter~
+Mages and Warriors of Amity, as you know, Michus has taken over Amity and
+has his forces, including you, making sure that West Amity becomes and stays
+evil while East Amity stays good.  Michus worships Klutia, the goddess of
+neutrality, but Michus has recently added Drophur, one of the 
+gods of chaos, to his pantheon.  Thus, in his duty to his god and goddess,
+he has gained contol over Amity and is making the west fight with the east,
+bringing chaos to both sides under the rule of neutral Oread Nymphs, over
+whom Michus rules.  To keep the powers we have bestowed upon you as Michus'
+vassals, protect the Oread craftesmen who knows the way to me.
+If I fall, so too will you when my superiors find out that you
+have shirked your duties.
+ 
+                                        Forn's vassal, Florius
+~
+#7982
+card~
+a card~
+A card is here.~
+none~
+trash ATUY A
+0 0 0 0 0
+1 0 0 P
+E
+card~
+Odilon, protect the key to our base with your life.  I will be either at
+the base near the holes and bodyparts or the base near the training center
+where praying can often be heard.  
+ 
+                                 Michus' vassal, Florius
+ 
+PS.  If you need something from our leaders, don't forget to
+find the paper for clues to find the portal that takes you to 
+where they are and do not forget the password chaotic neutrality.
+~
+#7983
+key insomnia~
+the key to insomnia~
+A key is here.~
+none~
+key APTUY A
+0 0 0 0 0
+5 0 0 P
+#7992
+potion~
+a potion~
+A potion bubbles and sparks here.~
+none~
+potion 0 A
+200 'lightning breath' 'lightning breath' 'lightning breath' ''
+1 0 0 P
+#7993
+knife Oread mountain~
+a knotted Oread mountain knife (=x=)~
+A knife with the symbol =x= sparkles in the light here.~
+none~
+weapon BT AN
+dagger 2 9 stab H
+22 23 1135 P
+A
+18 1
+A
+19 1
+#7994
+earrings turquoise impartiality~
+two turquoise earrings of crazed impartiality~
+A pair of turquoise earrings lay here.~
+none~
+jewelry BT AS
+0 0 0 0 0
+22 0 4280 P
+A
+17 -3
+A
+19 4
+A
+18 5
+A
+3 1
+#7995
+wamity eamity map~
+a wamity and eamity map~
+You see a map of Amity here.~
+none~
+map Y A
+A 0 0 0 0
+1 1 100 P
+E
+wamity~
+prison_______administration
+          B|
+sheriff___E|__court    WEST AMITY MAP:
+          Y|           location of palace,
+ chapel___O|__church   base and barracks
+          N|           is unknown
+  house___D|__house
+           |
+  house___N|__house
+          I|                 mage  mage
+  house___G|__house          guild guild
+          H|                   |     |
+  house___T|__house      mage__|__DUSK_AVE___AMITY SQUARE___EAST
+           |             guild |D    |            |         AMITY
+   arms___A|__armory           |A  mage       ENTRANCE
+          V|                   |R  guild          |
+jewelers__E|__NIGHTFALL_BLVD.__|K            AMITY TRAIL
+           |    |      |       |                  |
+      sweets  bakery  farm    general   rainbow's_|
+                      market  store     end
+****Type 'look eamity' to see the East Amity Map****
+~
+E
+eamity~
+EAST AMITY MAP. Location
+  of base, barracks and
+  palace is unknown.        prison___
+                                    E|__city
+         mage     mage              V|  hall
+         guild    guild     church__E|
+Amity      |        |               N|__chapel
+Square_Daybreak Ave_|        house__I|
+  |                N|               N|__house
+Entrance           o|      general__G|
+  |                o|      store     |__priest
+Amity Trail        n|________________|  guild
+                    Afternoon Street |
+                        |            |
+                 apothecary     warrior guild
+***Type 'look wamity' to see the west amity map***
+~
+E
+map~
+To see the West Amity map, type 'look wamity'.
+To see the East Amity map, type 'look eamity'.
+~
+#7996
+dog house structure~
+a huge 'dog house'~
+~
+none~
+portal Y 0
+0 0 0 CDEFIJKLM 0
+1 0 0 P
+E
+structure~
+This structure that looks like a dog house is huge but you get a feeling of
+warmth looking at it.  You hear some whimpering sounds coming from it, as
+if what's inside needs to be petted and loved and needs company.  Maybe you
+should enter it......
+~
+E
+dog~
+This structure that looks like a dog house is huge but you get a feeling of
+warmth looking at it.  You hear some whimpering sounds coming from it, as
+if what's inside needs to be petted and loved and needs company.  Maybe you
+should enter it......
+~
+E
+house~
+This structure that looks like a dog house is huge but you get a feeling of
+warmth looking at it.  You hear some whimpering sounds coming from it, as
+if what's inside needs to be petted and loved and needs company.  Maybe you
+should enter it......
+~
+E
+house~
+This dog-like house is huge but you get a feeling of warmth looking at
+it.  You hear some whimpering sounds coming from it, as if what's inside
+needs to be petted and loved and needs company.  Maybe you should enter
+it......  
+~
+#7997
+iridescent scales~
+some hollow, iridescent scales =x={x~
+You see some iridescent scales here.~
+none~
+container AGMY AK
+104 0 0 18 30
+7 20 4800 P
+A
+17 -108
+A
+19 5
+A
+18 4
+#0
+
+
+
+#ZROOMS
+#7900
+Outside Michus' Amity Palace~
+{G                              / \
+{G                             /       \
+{G                          /             \
+{G                       /                   \
+{G                    /{g       \\\     ///{G       \
+{G                 /     {g      \\\  ///    {G        \
+{G              /{g      ==x==x==x==x==x==x==x=={G        \
+{G           /     {g    ==x==x==x==x==x==x==x==  {G         \
+{G        /{Y    / \   {g         ///   \\\{Y            / \{G      \
+{G     /{Y     /_'''_\   {g     ///      \\\ {Y        /_'''_\{G       \
+{G  /     {Y    |_#_|                               |_#_|       {G   \
+{G/         {Y  |_#_|                               |_#_|         {G   \
+{G--'-,-'-,-<*{Y|_#_|{G-,-'-<*--,-'-,<**>'-,-'--*>--,-{Y|_#_|{G*>--,-'-,-'--
+{G=x=                                                             =x=
+{G |'{g      \\  //     {B        ---'-,-'=x=      {g       \\  //{G      '|
+{G'| {g  ==x==x==x==x=={B       / . . . . . \    {g     ==x==x==x==x=={G   |'
+{G |'  {g    //  \\      {B   /  . . . . . .  \{g           //  \\  {G    '|
+{G'|               {B     =x= . . . . . . .  =x=            {G         |'
+{G |'                {B    |'. . . . . . . . '|           {G          '|
+{G'|  {C     _         {B   '|  . . . . . . . . |'      {C       _{G       |'
+{G=x= {C   /   \         {B  |'. . . . . . . . '|     {C       /   \{G    =x=
+{G'|  {C  / =x= \{B         '|  ______. _____ . |'  {C        / =x= \ {G   |'
+{G |' {C /   |   \ {B        |'.|. . .|| . . | '|         {C /   |   \{G  '|
+{G'|  {C \  '|   /   {B     '|  | . . ||. . .|. |'      {C   \   |   /  {G |'
+{G |' {C  \  |' /      {B    |'.|. .{r @{B||{r@{B. . | '|     {C      \  |  /{G   '|
+{G'|  {c   =x=x=         {B '|  | . . ||. . .|. |'  {c         =x=x=   {G  |'
+{G=x= {c   =x=x=         {B  |_=x=-'-,-'-,-'=x=_| {c           =x=x= {G   =x={x
+~
+0 4 0
+D0
+You see a huge palace door.
+~
+~
+AB 0 7901
+S
+#7901
+S. Palace Hallway~
+You are in a huge hall, whose bright source of light appears to be coming
+from the oak floor below you.  A draft seems to be coming from above and
+you shiver when it's chill blankets itself over you.  You see a large,
+spiral, poplar stairway up above you.  To your east there is a tall poplar
+door, which has knots on it that resemble gnarled and twisted oread bodies.
+There is a gigantic ocean blue metallic door with huge, dark red handles
+to the south.  You see a grey stained poplar door to the west.  To the north
+this huge hallway continues.
+~
+0 8 0
+E
+south~
+You see an ocean blue door with dark red handles.
+~
+E
+east~
+You see a tall poplar door.
+~
+E
+north~
+You see a hallway.
+~
+E
+up~
+You see a poplar stairway.
+~
+E
+west~
+You see a grey stained poplar door.
+~
+D0
+~
+~
+0 0 7904
+D1
+~
+~
+AB 0 7910
+D2
+~
+~
+AB 0 7900
+D3
+~
+~
+ABCFG 7971 7902
+D4
+~
+~
+0 0 7909
+S
+#7902
+Michus' Library~
+You are in a large, bright, fluorescent green room.  You cannot see
+the room's walls because they are all covered by yellow stained, oak book
+shelves.  On the shelves there are books and scrolls of all types.  On the
+floor, to the northeast, you see an atlas of the world.  In the middle of
+the room you see a large cream colored, L-shaped couch.  Near the couch,
+there is a bright magenta colored coffee table.  Bright light fills
+the room as it shines down from the stained glass chandelier hanging up
+above you.  To the north, there is a huge stained glass window depicting the
+creation of the world.  To the east you see a grey stained poplar door. 
+~
+0 8 0
+E
+stained glass window~
+You see the goddess Wink pointing to the left.  From her finger
+springs the entire universe and all of its creations.
+~
+E
+east~
+You see a grey stained poplar door.
+~
+D1
+~
+~
+ABCFG 0 7901
+S
+#7903
+A Marble Road~
+{W_  _/\_/\                                                        /
+  >\/#######\                                                    /<
+<,,,\#########\                                                 / , >
+ |,,,,\#########\                                             /, , <
+  \,,,,,\#########\                                         / , , , /
+    \,,,,,\#########\                                     /, , , ,//
+      \,,,,,\#########\                                 / , , , /  >
+        \,,,,,\#########\                             /, , , ,/ . /
+          \,,,,,\#########\                         / , , , /.   .\
+            \,,,,,\#########\                     /, , , ,/.   .    >
+{CThe{W           \,,,,,\#########\                 / , , , /.   .   . \
+ {G marble{W        \,,,,,\#########\             /, , , ,/.   .   .   .<
+   {R road  {W        \,,,,,\#########\         / , , , /.   .   .   .  <
+     {B collapses!{W    \,,,,,\#########\     /, , , ,/.   .   .   .   ./
+{YYou {W                  \,,,,,\#########\ / , , , /.   .   .   .   ./ 
+{C  have{W                  \,,,,,\###dimi/, , , ,/.   .   .   .   ./
+  {G  fallen {W               \,,,,,\###/ , , , /.   .   .   .   ./
+    {R   and   {W               \,,,,,/, , , ,/.   .   .   .   ./
+      {B   wish  {W               \ / , , , /.   .   .   .   ./
+        {Y   you   {W            /, , , ,/.   .   .   .   ./
+          {C   could {W        < , , , /.   .   .   .   ./
+            {G   get   {W       > , ,/.   .   .   .   ./
+              {R   it    {W    < , /.   .   .   .   ./
+                {B   up!   {W   \/_/\/\/\/\/\/\/\/\/{x
+~
+0 0 1
+E
+up~
+You see a marble road.
+~
+D4
+~
+~
+0 0 7918
+S
+#7904
+N. Palace Hall~
+You are now in the northern part of the hallway.  A white mist can
+be seen near the mildew covered western wall.  A pungent odor seems
+to be coming from the north.  The hallway is dimmer here than to the
+south.  There is a mildew covered door to the west and a rusty iron
+door to the east.
+~
+0 8 0
+E
+south~
+You see a hallway and, in the distance, a door.
+~
+E
+north~
+You see a kitchen.
+~
+E
+east~
+You see a rusty iron door.
+~
+E
+west~
+You see a mildew covered door.
+~
+D0
+~
+~
+0 0 7906
+D1
+~
+~
+AB 0 7913
+D2
+~
+~
+0 0 7901
+D3
+~
+~
+AB 0 7905
+S
+#7905
+Michus' Sitting Room~
+You find yourself in what looks like a large cozy room equipped for
+entertaining guests.  You see frescos on the walls depicting various parts
+of Amity's history.  The most impressive mural is of Michus' magestic
+coronation.  To the east you see a elaborately decorated, dark, green
+stained door.
+~
+0 8 0
+E
+east~
+You see a dark, green-stained door.
+~
+D1
+~
+~
+AB 0 7904
+S
+#7906
+Palace Kitchen~
+You are now in the palace kitchen.  There are white colored, poplar{W
+cabinets mounted on the blue colored western wall.  One of the
+cabinets is open.  Inside it you see condiments of various types.  In the
+middle of the room you see a round, red table with cutting implements on
+it.  To the north you see another room.  A cold draft is coming from the
+room to the east.
+~
+0 8 0
+E
+south~
+You see a hallway.
+~
+E
+north~
+You see a room with shelves.
+~
+E
+east~
+You see a freezer.
+~
+D0
+~
+~
+0 0 7907
+D1
+~
+~
+0 0 7908
+D2
+~
+~
+0 0 7904
+S
+#7907
+The Store Room~
+You see a medium sized room with walnut shelves on three of its
+walls.  You see canned goods of all kinds and sacks of flour on the shelves.
+On the floor you see brown barrels of wine.  A mouse scurries across the
+floor, grabs a tiny piece of cheese and then vanishes through a hole in
+the base of the wall to your left.  
+~
+0 8 0
+E
+south~
+You see a kitchen.
+~
+D2
+~
+~
+0 0 7906
+S
+#7908
+The Freezer~
+You are in a very cold freezer.  Around you, you see slabs of meat on
+chained hooks hanging from the ceiling.  On the ground you see barrels of
+beer.  The entire room is made hazy by the warm humid air entering the
+freezing cold room from the west.
+~
+0 8 0
+E
+west~
+You see a kitchen.
+~
+E
+west~
+You see a kitchen.
+~
+D3
+~
+~
+0 0 7906
+S
+#7909
+Palace Stairs~
+You are midway up a winding spiral stairway.  Time seems to move slower
+on these stairs than on the first floor.  Just when you think you have made
+it to the top and see a bedroom, you find yourself back here again.  You
+proceed upwards again and see a bedroom... 
+~
+0 8 0
+E
+down up~
+You can see for miles and miles, you can see for miles and miles, you can
+see for miles and miles and miles and miles and miles....  
+~
+D4
+~
+~
+0 0 7911
+D5
+~
+~
+0 0 7901
+S
+#7910
+The Treasury~
+You are in a small, very dark, dank room.  You can barely see what is
+in here.  You are, however, able to see a desk with a spread-sheet on it. 
+You can also see a safe behind the desk.  You hear the sound of coins
+hitting one another as you kick something accidently as you walk around in
+here. 
+~
+0 8 0
+E
+west~
+You see a poplar door.
+~
+D3
+~
+~
+AB 0 7901
+S
+#7911
+Michus' Bedroom~
+Finally, you make your way up to the bedroom.  To the east you see a
+water filled tub.  Beneath the tub there is a tiny coal burning furnace
+that is being used to heat the tub.  The red hot burning coals also
+heat the room, making it nice and confortable.  The red glow coming
+from the coals provides the room with a nice ambiance.  To the west you
+see a huge yellow waterbed being warmed by another tiny furnace below
+it.  The wall to the north is dominated by a bright, blue, stained glass
+window. There is a stairway that leads downward to the northeast and
+another room to the south.
+ 
+    You see a painting on the northeast wall here.
+~
+0 8 0
+E
+south~
+You see a door.
+~
+E
+down~
+You see a staircase.
+~
+E
+painting northeast wall~
+{G                            /   /\   \
+  {G                      / {C   .     {G      \
+    {G                /{C     +        ..{G        \
+      {G           /{C                         +{G    \
+        {G      /{C       *  .    .       .         .{G  \
+          {G  /{C ..   .              +   ..      +    {G  \
+{G          /{C .             .               *         .{G  \
+  {G      /{C      .   +                          .     .  {G  \
+    {G  /{C  .            + {g   \\\     /// {C       .        {G    \
+{G     /   {C   .     .  {g        \\\  ///{C          .      +  {G   \
+{G    /  {C        . {g    ==x==x==x==x==x==x==x==  {C      .      {G  \
+  {G / {C  .+.      {g     ==x==x==x==x==x==x==x=={C          ..     {G \
+{G  /{C   .    *    . {g          ///   \\\   {C          .            {G\
+{G /{C      .        .  {g      ///      \\\{C        ...       +    .{G  \
+{G/                                                                \
+{G--'-,-'-,-<*--,-'-,-'-<*--,-'-,<**>'-,--*>-,-'-,-'--*>-,-'-,-'-,--
+{G=x=                                                             =x=
+{G |'{g      \\  //      {B       ---'-,-'=x=        {g     \\  //  {G    '|
+{G'|  {g ==x==x==x==x=={B       / . . . . . \      {g   ==x==x==x==x=={G   |'
+{G |'   {g   //  \\{B         /  . . . . . .  \  {g         //  \\     {G '|
+{G'|             {B       =x= . . . . . . .  =x=      {G               |'
+{G |'                  {B  |'. . . . . . . . '|         {G            '|
+{G'|    {W   _       {B     '|  . . . . . . . . |'          {W   _  {G     |'
+{G=x= {W   /   \   {B        |'. . . . . . . . '|         {W   /   \{G    =x=
+{G'| {W   / =x= \{B         '|  ______. _____ . |'      {W    / =x= \ {G   |'
+{G |'{W  /   |   \      {B   |'.|. . .|| . . | '|     {W     /   |   \{G  '|
+{G'| {W  \  '|   /    {B    '|  | . . ||. . .|. |'  {W       \   |   / {G  |'
+{G |' {W  \  |' /   {B       |'.|. .{y @{B||{y@{B. . | '|  {W         \  |  / {G  '|
+{G'|  {c   =x=x=  {B        '|  | . . ||. . .|. |'   {c        =x=x=  {G   |'
+{G=x= {c   =x=x={B           |_=x=-'-,-'-,-'=x=_|  {c          =x=x= {G   =x={x
+ 
+{RMichus' summer palace painted by Dimiangelo.{x
+~
+D2
+~
+~
+ABCFG 7983 7912
+D5
+~
+~
+0 0 7909
+S
+#7912
+Palace Balcony~
+You are on the balcony of a large, bright, green, stone turret.
+You cannot believe how high above the ground you are.  Not far above
+you, there are some white, billowy cumulonimbus clouds.  Below you
+and to the south you see the city of Amity in the distance.
+ 
+You see a structure that looks like a huge dog house to the southwest.
+~
+0 0 0
+E
+north~
+You see a door.
+~
+E
+down~
+You see Amity down there.
+~
+D0
+~
+~
+ABCFG 0 7911
+D5
+~
+~
+0 0 7919
+S
+#7913
+Callisto's Room~
+{RYou have fallen into a black widow colony.  Callisto is here.{x
+ 
+[Exits: none]{g
+ 
+A giant black widow widow spider descends upon you!
+A giant black widow widow spider descends upon you!
+A giant black widow widow spider descends upon you!{x
+ 
+<57hp 112m 113mv>{G
+A giant black widow bites you!  You resist the poison!
+A giant black widow bites you!  You are poisoned!
+A giant black widow bites you!  You are poisoned!{x
+ 
+You have been KILLED!!!
+ 
+<0hp 112m 113mv>{R
+ 
+Callisto says 'Foolish mortal, watch where you go' and then she vanishes.{x
+~
+0 12 0
+E
+up~
+You see Michus' palace.
+~
+D4
+~
+~
+0 0 7900
+S
+#7914
+A Treelined Marble Road~
+, {G   /\       //\\         /,\          ///|\\\   //\\    /\
+    {G  //\\     ///\\\       //|\\        ////|\\\\ ///\\\  //\\   /\
+    {G ///\\\   ////\\\\     ///|\\\      /////|\\\\\{R  ||{G   ///\\\ //\\
+    {R   || {G   /////\\\\\   ////|\\\\    //////|\\\\\\       {R ||{G  ///\\\
+              {R   ||{G      /////|\\\\\  ///////|\\\\\\\          ////\\\\
+                       {R      |||            |||                   ||
+{W,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+///////////////////////////////////////////////////////////////////////////
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''{x
+~
+0 4 1
+E
+south~
+You see an avenue.
+~
+E
+east~
+You see a marble road.
+~
+D1
+~
+~
+0 0 7916
+D2
+~
+~
+0 0 7961
+S
+#7915
+Amity Trail~
+You are on a dirt trail that has flowers, bushes and trees growing on
+its right side and nothing growing on its left side.  To the north you hear
+the sounds of people. 
+~
+0 4 1
+D0
+~
+~
+0 0 7917
+D2
+~
+~
+0 0 3923
+S
+#7916
+A Marble Road~
+{W_  _/\_/\                                                        /
+  >\/#######\                                                    /<
+<,,,\#########\                                                 / , >
+ |,,,,\#########\                                             /, , <
+  \,,,,,\#########\                                         / , , , /
+    \,,,,,\#########\                                     /, , , ,//
+      \,,,,,\#########\                                 / , , , /  >
+        \,,,,,\#########\                             /, , , ,/ . /
+          \,,,,,\#########\                         / , , , /.   .\
+            \,,,,,\#########\                     /, , , ,/.   .    >
+{CThe{W           \,,,,,\#########\                 / , , , /.   .   . \
+ {G marble{W        \,,,,,\#########\             /, , , ,/.   .   .   .<
+   {R road  {W        \,,,,,\#########\         / , , , /.   .   .   .  <
+     {B collapses!{W    \,,,,,\#########\     /, , , ,/.   .   .   .   ./
+{YYou {W                  \,,,,,\#########\ / , , , /.   .   .   .   ./ 
+{C  have{W                  \,,,,,\###dimi/, , , ,/.   .   .   .   ./
+  {G  fallen {W               \,,,,,\###/ , , , /.   .   .   .   ./
+    {R   and   {W               \,,,,,/, , , ,/.   .   .   .   ./
+      {B   wish  {W               \ / , , , /.   .   .   .   ./
+        {Y   you   {W            /, , , ,/.   .   .   .   ./
+          {C   could {W        < , , , /.   .   .   .   ./
+            {G   get   {W       > , ,/.   .   .   .   ./
+              {R   it    {W    < , /.   .   .   .   ./
+                {B   up!   {W   \/_/\/\/\/\/\/\/\/\/{x
+~
+0 0 1
+E
+up~
+You see a marble road.
+~
+D4
+~
+~
+0 0 7914
+S
+#7917
+Entrance to Amity~
+The trail coming from the south ends here.  To the north there is a
+gate.  The gate's left side is battered but is still connected to the right
+part of the gate. 
+ 
+    A Troll warrior tells you:
+        Amity is weird, everyone to the west is evil, and everyone
+        to the east is good.
+~
+0 4 1
+D0
+~
+~
+AB 0 7997
+D2
+~
+~
+0 0 7915
+S
+#7918
+A Tree-lined Marble Road~
+{G   /\       //\\         /,\          ///|\\\   //\\    /\
+    {G  //\\     ///\\\       //|\\        ////|\\\\ ///\\\  //\\   /\
+    {G ///\\\   ////\\\\     ///|\\\      /////|\\\\\{R  ||{G   ///\\\ //\\
+    {R   || {G   /////\\\\\   ////|\\\\    //////|\\\\\\       {R ||{G  ///\\\
+              {R   ||{G      /////|\\\\\  ///////|\\\\\\\          ////\\\\
+                       {R      |||            |||                   ||
+{W,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+///////////////////////////////////////////////////////////////////////////
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''{x
+~
+0 4 1
+E
+south~
+You see an avenue.
+~
+E
+west~
+You see a marble road.
+~
+D2
+~
+~
+0 0 7988
+D3
+~
+~
+0 0 7903
+S
+#7919
+Amity Square~
+This town square has a marble fountain that is smashed on its west
+side and in tact on its eastern end.  Wild grass, trees and flowers are
+growing on the east side of the fountain while nothing is growing on its
+west side.
+ 
+    A female citizen of Amity tells you:
+        I came back from my adventures yesterday and Amity is no longer the
+        harmonius city it once was.  The people to the east are nicer than
+        before while the people to the west are now vicious.  Something is
+        not right but I do not know what it may be.  Maybe you can figure
+        it out.
+ 
+You see someone to the north.
+~
+0 4 1
+E
+south~
+You see a road.
+~
+E
+north~
+You see a fountain.
+~
+D0
+~
+~
+0 0 7998
+D1
+~
+~
+0 0 7964
+D2
+~
+~
+0 0 7997
+D3
+~
+~
+0 0 7920
+S
+#7920
+Dusk Avenue~
+This road is paved with rocks, bones, body parts, and blood. 
+Vegetation of any kind has not grown in the areas surrounding this road for
+weeks now.  The sun also seems to be less bright here than to the east. 
+Screams can be heard coming from the north and from the south.
+~
+0 0 1
+D0
+~
+~
+AB 0 7921
+D1
+~
+~
+0 0 7919
+D2
+~
+~
+AB 0 7922
+D3
+~
+~
+0 0 7923
+S
+#7921
+W. Mage Guild 1~
+The youth of Amity who desire to become mages train in this facility.  In
+here one sees hundreds of books pertaining to the practice of magic.  One
+also sees a mage or two practicing their spells. 
+~
+0 8 0
+D2
+~
+~
+AB 0 7920
+S
+#7922
+W. Mage Guild 2~
+This guild is similar to the one to the north except for the fact that
+everything in this guild has been damaged in some fashion.
+ 
+    An apprentice mage tells you:
+        Well, I'm done here.  Time to go to the guild to the north
+        and destroy the place with the new spells the new leaders
+        of Amity taught me.
+~
+0 8 0
+D0
+~
+~
+AB 0 7920
+S
+#7923
+Dusk Ave. & Dark St.~
+The number of human debris and body parts that were seen to the east
+are more numerous on this part of the street.  Quite a few pieces of armor
+mangled quite severly can also be seen here.  To the west and to the north
+you see a building and to the south there is a road.
+~
+0 0 1
+D0
+~
+~
+AB 0 7924
+D1
+~
+~
+0 0 7920
+D2
+~
+~
+0 0 7926
+D3
+~
+~
+AB 0 7925
+S
+#7924
+W. Mage Guild 3~
+The books that the apprentice mages of Amity have used for the learning
+of magic are now nothing but ashes scattered on the floor here.  There are
+some wands laying about, however, that seem undamaged by whomever or
+whatever destroyed the books. 
+~
+0 8 0
+D2
+~
+~
+AB 0 7923
+S
+#7925
+W. Mage Guild 4~
+In this mage guild, you see many charred wands scattered across the floor. 
+The shelves containing books on spell-casting were not affected by whatever
+burned the wands.  There is a horrible smell in this place that is coming
+from the wands.
+~
+0 8 0
+D1
+~
+~
+AB 0 7923
+S
+#7926
+Nightfall Blvd. & Dark St.~
+Dark Street meets Nightfall Boulevard here.  This crossroad is pitted at
+its perimeter.  Inside its numerous pits you see eyeballs, tongues, teeth,
+and ears.  There is also a pit in the middle of the road with hundreds of
+arms within it.  There is a building to the south and a road to the west.
+~
+0 0 1
+D0
+~
+~
+0 0 7923
+D2
+~
+~
+AB 0 7927
+D3
+~
+~
+0 0 7928
+D5
+~
+~
+ABCFG 7972 7993
+S
+#7927
+W. Amity General Store~
+For a general store there does not appear to be much merchandise upon
+the shelves here.  What has remained on the shelves here is also quite
+damaged and not in its proper place.
+~
+0 8 0
+D0
+~
+~
+AB 0 7926
+S
+#7928
+1 W. Nightfall Blvd.~
+Except for several recently deceased, acid-burned bodies, this part of
+Nightfall Blvd.  Is relatively clean when compared to the roads east of
+here.  A lack of vegetation still pervades this part of Amity nonetheless. 
+You hear someone say "got it" to the south and the road continues westward. 
+~
+0 0 1
+D1
+~
+~
+0 0 7926
+D2
+~
+~
+AB 0 7929
+D3
+~
+~
+0 0 7930
+S
+#7929
+A Farm Market~
+You see a table with many different types of fruits and vegetables
+that have been crushed laying upon it.  The table is also half empty, as if
+someone stole some of the things that lay upon it.
+~
+0 0 0
+D0
+~
+~
+AB 0 7928
+S
+#7930
+2 W. Nightfall Blvd.~
+This part of the boulevard is flooded.  The water goes up to your
+girth.  There are dead rats floating on the surface of the water and live
+rats swimming on it.  You get the feeling something just passed you heading
+southward.  To the east this road continues. 
+~
+0 0 0
+D1
+~
+~
+0 0 7928
+D2
+~
+~
+AB 0 7931
+D3
+~
+~
+0 0 7932
+S
+#7931
+W. Amity Bakery~
+The shelves in this bakery hardly have any goods on them.  The walls
+seem to have been punched in.  There is water up to your knees in here with
+live and dead rats in it.
+~
+0 0 0
+D0
+~
+~
+AB 0 7930
+S
+#7932
+Nightfall & Beyond~
+On this crossroad there is water up to your ankles that has flowed here
+from the east.  Rats are jumping about in it trying to make their way onto
+you.  You think you hear something move past you westward and southward but
+you dont see anything.
+~
+0 0 0
+D0
+~
+~
+0 0 7935
+D1
+~
+~
+0 0 7930
+D2
+~
+~
+AB 0 7933
+D3
+~
+~
+AB 0 7934
+S
+#7933
+W. Amity Sweets~
+Most of the snacks sold at this shoppe seem to have disappeared.  All
+that remains are some chocolate bon bons and raspberry cheese cake, and the
+rats seem to be finishing those snacks off now. 
+~
+0 0 0
+D0
+~
+~
+AB 0 7932
+S
+#7934
+W. Amity Jewelers~
+All of the precious gems and jewels that can usually be found in this
+store have vanished but for some very less valuable items.  You have heard
+that the gem cutters here are quite skilled but none seem to be around. 
+~
+0 0 0
+D1
+~
+~
+AB 0 7932
+S
+#7935
+Beyond Night Avenue~
+This avenue has cracks in it that are 3 feet wide and 20 feet deep on
+average.  There are squirrels, porcupines, rats and other assorted animals
+crawling in and out of these cracks, which look too orderly to have been
+made by nature.  There is magic in the air near here.
+~
+0 0 0
+D0
+~
+~
+0 0 7938
+D1
+~
+~
+AB 0 7937
+D2
+~
+~
+0 0 7932
+D3
+~
+~
+AB 0 7936
+S
+#7936
+W. Amity Arms~
+This store is filled with all types of implements of destruction. 
+There is a stern-looking mage here making sure that the place is well
+stocked at all times.  The other stores of the area could use a mage too. 
+~
+0 0 0
+D1
+~
+~
+AB 0 7935
+S
+#7937
+W. Amity Armory~
+All types of armor used to be able to be bought here but now all of it
+is gone.  There are leeches here sucking the blood out of recently deceased
+beings so there is very little blood anywhere but in these insects.
+~
+0 4 0
+D3
+~
+~
+AB 0 7935
+S
+#7938
+1 N. Beyond Night Ave.~
+The cracks in the road here are not as large as the ones to the south,
+but they are large enough that one could easily injure oneself due to them. 
+You see bashed in doors on both sides of you and this road continues
+northward.
+~
+0 0 0
+D0
+~
+~
+0 0 7941
+D1
+~
+~
+AB 0 7940
+D2
+~
+~
+0 0 7935
+D3
+~
+~
+AB 0 7939
+D5
+~
+~
+ABCFG 7973 7953
+S
+#7939
+Luta's House~
+After stepping over what remains of the door to the the east, you find
+yourself here, in a house in which almost every piece of furniture has been
+hacked up.
+~
+0 0 0
+D1
+~
+~
+AB 0 7938
+S
+#7940
+Enem's Home~
+There are still sparks coming off the door of this house.  The wall to
+your east has been completely dissolved by acid into a puddle of liquid
+wood.
+~
+0 0 0
+D3
+~
+~
+AB 0 7938
+S
+#7941
+2 N. Beyond Night Ave.~
+There are slight cracks in the road here.  Slime oozes up from the
+cracks and spreads to cover the entire area.  The slime on the road makes
+walking difficult.  The birds up above are lucky they can fly.  You can see
+inside the houses nearby.
+~
+0 0 0
+D0
+~
+~
+0 0 7944
+D1
+~
+~
+AB 0 7943
+D2
+~
+~
+0 0 7938
+D3
+~
+~
+AB 0 7942
+S
+#7942
+Meeze's Abode~
+The door to these quarters has been left wide-open.  There are plants
+in here that have been smashed against the walls and the floor.  There are
+roses here, however, that remain in fine condition still.
+~
+0 0 0
+D1
+~
+~
+AB 0 7941
+S
+#7943
+Komack's Place~
+The door to this place has been left slightly ajar.  There is a smell
+inside here of burnt cinnamon and fish.  There is a broken lamp on top of a
+table in the center of this place from which a faint blue light glows. 
+~
+0 0 0
+D3
+~
+~
+AB 0 7941
+S
+#7944
+3 N. Beyond Night Ave.~
+A snail slimes its way across the street here heading north.  It makes
+its way around the large rocks that have been broken into smaller ones
+recently.  Compared to the the sections of road north and south of here,
+this section is composed of a lighter shade of brown. 
+~
+0 0 0
+D0
+~
+~
+0 0 7947
+D1
+~
+~
+AB 0 7946
+D2
+~
+~
+0 0 7941
+D3
+~
+~
+AB 0 7945
+S
+#7945
+Parish's Manor~
+This home is very austere.  There are unholy symbols on it's walls. 
+Quite a few candles are burning on a stand in the northwest corner.  In
+another corner there is a straw bed.  The only damaged area in this place is
+the roof, where a huge hole exists.  
+~
+0 0 0
+D1
+~
+~
+AB 0 7944
+S
+#7946
+Prim's Abode~
+Except for a tiny hole in the floor, this home is in fine condition. 
+There are evil religious icons in here and musk scented incense is burning. 
+You also hear chanting.  A road lies to the west.
+~
+0 0 0
+D3
+~
+~
+AB 0 7944
+S
+#7947
+4 N. Beyond Night Ave.~
+There is a storm cloud hanging over this part of the road.  It looks
+very threatening.  There are places to hide out in nearby if it does happen
+to rain, but they seem kind of run-down, so it may be safer to get wet.
+~
+0 0 0
+D0
+~
+~
+0 0 7950
+D1
+~
+~
+AB 0 7949
+D2
+~
+~
+0 0 7944
+D3
+~
+~
+AB 0 7948
+S
+#7948
+Wick's Residence~
+This room has had the roof blown off of it.  The room has been
+flooded by the rain that has been pouring down from the eastwardly moving
+storm cloud up above.  Religious paraphenalia float in the flood water.
+~
+0 0 0
+D1
+~
+~
+AB 0 7947
+S
+#7949
+Bane's House~
+The roof of this place has been eradicated.  The sun shines down
+heavily in this house.  This is the only place in W. Amity that gets any
+sunshine for some unknown reason.  There is loud chanting coming from
+somewhere.  Sacreligious items abound here.  A passable door can be seen to
+the west.
+~
+0 0 0
+D3
+~
+~
+AB 0 7947
+S
+#7950
+5 N. Beyond Night Ave.~
+A horrible thunder storm has flooded this part of the avenue and
+lightning has knocked down several trees that are now floating in the flood.
+Loud gruesome chanting can be heard nearby but visibility is poor.
+~
+0 0 0
+D0
+~
+~
+0 0 7958
+D1
+~
+~
+AB 0 7952
+D2
+~
+~
+0 0 7947
+D3
+~
+~
+AB 0 7951
+S
+#7951
+W. Amity Chapel~
+In this chapel, you see all manner of satanic symbols and items.  The
+deafening, abominable chanting that you hear here makes you recoil with
+fear.  You are glad that there is a way to leave westward.
+~
+0 0 0
+D1
+~
+~
+AB 0 7950
+S
+#7952
+W. Amity Church~
+This church is adorned with icons so terrifying your first thought is
+to get out of here and find a nicer place to adventure.  Chanting can be
+heard slightly here and its sounds add to the horror evoked by the icons. 
+~
+0 0 0
+D3
+~
+~
+AB 0 7950
+S
+#7953
+W. Amity Barracks~
+You have entered the center of a barracks area.  In this area you see a
+table with food and drink on it and a storage area with all types of
+supplies in it.  There are exits all around you here.
+~
+0 4 0
+D0
+~
+~
+0 0 7954
+D1
+~
+~
+0 0 7956
+D2
+~
+~
+0 0 7955
+D3
+~
+~
+0 0 7957
+D4
+~
+~
+ABCFG 0 7938
+S
+#7954
+W. Amity Bunks N.~
+In here you see 50 bunk beds.  None of them are being occupied at the
+moment.  There are magical items in chests here.  For some reason, they
+cannot be removed from the chests.
+~
+0 0 0
+D2
+~
+~
+0 0 7953
+S
+#7955
+W. Amity Bunks S.~
+There are fifty bunk beds in here but nobody is sleeping in any of
+them.  There are wands, daggers and spell books on some of the beds but for
+some reason they cannot be taken.
+~
+0 0 0
+D0
+~
+~
+0 0 7953
+S
+#7956
+W. Amity Auditorium~
+You are in a hugh hall with 200 chairs in it all facing a stage.  This
+stage contains ten chairs and a podium on it.  Paintings of destruction and
+sculptures of mean-looking figures can be seen in various places here.
+~
+0 0 0
+D3
+~
+~
+0 0 7953
+S
+#7957
+W. Amity Office~
+There are a few oak tables and chairs in this office that are
+levitating a few centimeters above the ground.  There is a portrait of an
+evil-looking being on the west wall.  Finally, there is an exit to the east.
+~
+0 0 0
+D1
+~
+~
+0 0 7953
+S
+#7958
+6 N. Beyond Night Ave.~
+The storm taking place on this part of the avenue is much worse than
+to the south.  In addition to lightning strikes, a tornado is damaging the
+area further.  Yet, there may still be places of refuge close by.
+~
+0 0 0
+D0
+~
+~
+0 0 7961
+D1
+~
+~
+AB 0 7960
+D2
+~
+~
+0 0 7950
+D3
+~
+~
+AB 0 7959
+S
+#7959
+W. Amity Law~
+You are in the station of W. Amity's sheriff.  None of the officers
+are currently here.  All you see here are a few tables, chairs, weapons and
+notebooks.  To the east you see lightning strike somebody.
+~
+0 0 0
+D1
+~
+~
+AB 0 7958
+S
+#7960
+W. Amity Court~
+In this court of law you see 10 rows of chairs facing a large desk and
+chair that float one meter above the ground.  A large glowing hammer is on
+the desk and there is a "scales of justice" figurine on the desk.  To the
+west you see a tornado hurl a man against a tree.
+~
+0 0 0
+D3
+~
+~
+AB 0 7958
+S
+#7961
+7 N. Beyond Night Ave.~
+The storm that was here a few minutes ago has apparently moved south. 
+You see that you have reached the end of the avenue.  To each side of you
+there is a building.
+~
+0 0 0
+E
+north~
+You see a marble road.
+~
+D0
+~
+~
+0 0 7914
+D1
+~
+~
+AB 0 7963
+D2
+~
+~
+0 0 7958
+D3
+~
+~
+AB 0 7962
+S
+#7962
+W. Amity Prison~
+All of the jail cells in this prison have had their doors ripped off
+their hinges.  There are keys, food, blood, prison robes and weapons
+scattered about the place.  To the east lies a road. 
+~
+0 0 0
+D1
+~
+~
+AB 0 7961
+S
+#7963
+W. Amity Administration~
+The people who run the western part of Amity under Amity's Mayor can
+usually be found in here, but since Amity was taken over by hostile forces
+recently they are nowhere to be seen.  All that you see here is a few broken
+tables and chairs.
+~
+0 0 0
+D3
+~
+~
+AB 0 7961
+S
+#7964
+Daybreak Avenue~
+You are on a gravel road that is lines with poplar trees.  You hear
+birds chirping happily.  It is a bright sunny morning and you hear people
+exchanging greetings nearby.
+~
+0 0 0
+D0
+~
+~
+0 0 7965
+D1
+~
+~
+0 0 7966
+D3
+~
+~
+0 0 7919
+S
+#7965
+E. Mage Guild 1~
+In this mage guild you see a few mages sitting in chairs reading up on
+the latest spells developed by Seroth, the High Mage of Amity.  Other mages
+here are making wands and practicing their spells.
+~
+0 0 0
+D2
+~
+~
+0 0 7964
+S
+#7966
+Daybreak and Noon~
+The road here is lined with poplar trees and magic white roses.  The
+sun reflects off of these roses and casts a pure white blanket of color over
+everything here. 
+~
+0 0 0
+D0
+~
+~
+0 0 7967
+D2
+~
+~
+0 0 7968
+D3
+~
+~
+0 0 7964
+S
+#7967
+E. Mage Guild 2~
+Mages are practicing their dagger, lore and other skills in this other
+E. Amity mage guild.  There are dummies set up for them to practice their
+slashing and stabbing techniques.
+~
+0 0 0
+D2
+~
+~
+0 0 7966
+S
+#7968
+Noon and Afternoon~
+You are on the intersection of Noon and Afternoon Streets.  There is a
+raincloud up above you and rain falls from it.  Via magic, the rain only
+falls on plant life in E. Amity and not on people.
+~
+0 0 0
+D0
+~
+~
+0 0 7966
+D1
+~
+~
+0 0 7969
+S
+#7969
+1 W. Afternoon St.~
+You are on a part of Afternoon Street that is lined with magically
+altered lilacs whose scent makes people feel good even when they are
+depressed.  The alchemists of Amity make an anti-depressant from these
+lilacs to sell to the good people of Amity.
+~
+0 0 0
+D1
+~
+~
+0 0 7971
+D2
+~
+~
+0 0 7970
+D3
+~
+~
+0 0 7968
+S
+#7970
+E. Amity Apothecary~
+You see all type of potions on the shelves of this pharmacy.  The
+alchemists of E. Amity are especially well-known for their happiness
+potion.  These alchemists have studied at some of the finest alchemy guilds
+in the ET universe and once you quaff one of their potions you will know
+why they graduated at the top of their class.
+~
+0 0 0
+D0
+~
+~
+0 0 7969
+S
+#7971
+2 W. Afternoon St.~
+This section of Afternoon Street has its edges lined with mulberry
+bushes.  Playful, cute little animals can be seen feeding on the berries. 
+The humming of insects is in the air and soothes your spirit.
+~
+0 0 0
+D1
+~
+~
+0 0 7972
+D3
+~
+~
+0 0 7969
+S
+#7972
+Evening Ave. & Afternoon St.~
+Afternoon Street ends here and Evening Avenue begins.  Being an
+intersection, this area is a little busier than the others.  You see some
+people walking and others on horseback.   This intersection was finished
+when it turned dusk, when day met night, and so it was decided that the new
+road north would be called Evening.
+~
+0 0 0
+D0
+~
+~
+0 0 7974
+D2
+~
+~
+0 0 7973
+D3
+~
+~
+0 0 7971
+S
+#7973
+E. Amity Warrior Guild~
+There are few warriors in Amity, but the ones that exist have all trained
+here.  These warriors have also trained as mages, the mage profession being
+the most prominent in Amity.  Thus, the warriors of Amity are extra-tough.
+~
+0 0 0
+D0
+~
+~
+0 0 7972
+S
+#7974
+1 N. Evening Ave.~
+The Avenue widens a bit here.  There are many people riding on horses
+here on their way south to the warrior guild or southwest toward the
+apothecary and mage guilds.
+~
+0 0 0
+D0
+~
+~
+0 0 7976
+D1
+~
+~
+0 0 7975
+D2
+~
+~
+0 0 7972
+S
+#7975
+Amity Priest Guild~
+There are many religious symbols in this guild.  In here you see clerics
+practicing their healing and offensive skills.  Clerics are the second
+largest guild in Amity after mages, and they all know a bit of magic too. 
+~
+0 0 0
+D3
+~
+~
+0 0 7974
+D5
+~
+~
+ABCFG 7972 7994
+S
+#7976
+2 N. Evening Ave.~
+A beautiful creek lines the east side of the road here.  You see
+dragonflies flying over the creek and some muskrats near the side of the
+road.  To the west you see a building. 
+~
+0 0 0
+D0
+~
+~
+0 0 7978
+D2
+~
+~
+0 0 7974
+D3
+~
+~
+0 0 7977
+S
+#7977
+Amity All-Purpose Store~
+You can buy anything that you can possibly imagine in this store and
+more: there are weapons, armor, clothes, maps, jewelry, food and things the
+wizard who runs the place was the only being able to think-up and create,
+and more.
+~
+0 0 0
+D1
+~
+~
+0 0 7976
+S
+#7978
+3 N. Evening Ave.~
+The road here is a bit less gravelly than to the south.  There is a
+tornado twenty feet above the ground here moving northwards.  This tornado
+will not descend any lower because the mages have cast a protective barrier
+over this part of Amity.
+~
+0 0 0
+D0
+~
+~
+0 0 7980
+D1
+~
+~
+0 0 7979
+D2
+~
+~
+0 0 7976
+S
+#7979
+Lumly's House~
+This home is a very comfortable one, with five chairs and three tables
+in the main living area.  You also see book shelves here with many books on
+the art of fighting and some on the art of magic.
+~
+0 0 0
+D3
+~
+~
+0 0 7978
+S
+#7980
+4 N. Evening Ave.~
+This part of the avenue is lined with statues of the great mages of
+Amity's past and a sign below each statue describes the awe-inspiring deeds
+performed by these mages.  There is a different colored, magical aura
+surrounding each statue.  A house can be seen between two of the statues to
+the west.
+~
+0 0 0
+D0
+~
+~
+0 0 7982
+D2
+~
+~
+0 0 7978
+D3
+~
+~
+0 0 7981
+S
+#7981
+Lonus' Abode~
+In this home you see a few swords of various makes laying about. 
+There is a brass lantern on a table from which glows a bright blue flame. 
+On a chair sits a blue-green wand that four feet long, one of the longest in
+Amity.
+~
+0 0 0
+D1
+~
+~
+0 0 7980
+S
+#7982
+5 N. Evening Ave.~
+The sun is especially bright on this part of the avenue.  Its rays
+reflect off of the multi-colored gravel of the road and coat the area in
+various shades of yellow.  You see a door made out of tulips to the  
+east.
+~
+0 0 0
+D0
+~
+~
+0 0 7984
+D1
+~
+~
+0 0 7983
+D2
+~
+~
+0 0 7980
+S
+#7983
+E. Amity Chapel~
+In this chapel you see a white alter that has the faces of Amity's
+religious heros carved upon it.  There is a stand with candles on it on each
+side of the alter.  On the walls, there are murals of the saints of Amity,
+mosts of them of mages, mage-clerics or mage-warriors.
+~
+0 0 0
+D3
+~
+~
+0 0 7982
+S
+#7984
+6 N. Evening Ave.~
+There is a cool breeze kicking up dust on this part of the avenue. 
+The dust does not bother you.  In fact, it seems to refresh you.  It seems
+that the mages of Amity have once again altered one of nature's creations in
+order to make their city a more pleasant one.  There is a church to the
+west.
+~
+0 0 0
+D0
+~
+~
+0 0 7986
+D2
+~
+~
+0 0 7982
+D3
+~
+~
+0 0 7985
+D5
+~
+~
+ABCFG 7973 7990
+S
+#7985
+E. Amity Church~
+You are in a huge domed church that has indestructable, fiery red,
+stained glass windows for its walls and ceiling.  The images on the windows
+tell of the history of Amity, of how the great mage Grodo used magic to tame
+this once wild land.
+~
+0 0 0
+D1
+~
+~
+0 0 7984
+S
+#7986
+7 N. Evening Ave.~
+This part of the avenue is covered with bright pink clay.  You seem to
+be floating instead of walking over this area.  As you look down you notice
+that there are ants on the ground and that they are traveling underneath
+your feet as you float.  To the east you see a building.
+~
+0 0 0
+D0
+~
+~
+0 0 7988
+D1
+~
+~
+0 0 7987
+D2
+~
+~
+0 0 7984
+S
+#7987
+E. City Hall~
+This hall is gigantic.  It contains separate areas for the court
+house and the sheriff's station.  There are many chairs and desks in here,
+and all seem to glow green.  Because of the spell cast upon this hall, only
+the proper officials can open the desks.  You see a road to the west.
+~
+0 0 0
+D3
+~
+~
+0 0 7986
+S
+#7988
+8 N. Evening Ave.~
+The avenue no longer continues northward here, just southward.  There
+is a building to the west from which you can hear whistling coming.  The
+road here is made out of magical white sand that makes those who are upon it
+stronger.  To the east another road leads out of Amity. 
+~
+0 0 0
+E
+north~
+You see a{W marble{x road.
+~
+D0
+~
+~
+0 0 7918
+D2
+~
+~
+0 0 7986
+D3
+~
+~
+0 0 7989
+S
+#7989
+E. Amity Prison~
+In here you see ten jail cells on each side of you.  In the center of
+this prison you see a few chairs and desks.  On the west wall there is an
+oak closet containing keys and weapons.  You can leave eastward.
+~
+0 0 0
+D1
+~
+~
+0 0 7988
+S
+#7990
+E. Amity Barracks~
+You are in the central area of an underground complex.  In here you
+see chairs and tables.  The tables have dirty dishes on them.  There is a
+cabinet off to one side in which you can see supplies and another with
+weapons. 
+~
+0 4 0
+D0
+~
+~
+0 0 7991
+D2
+~
+~
+0 0 7992
+D4
+~
+~
+ABCFG 0 7984
+S
+#7991
+E. Amity Barracks~
+You see a lot of bunk beds in this huge room.  There are different
+kinds of magical apparati on the beds.  There is a red, smokey haze in the
+room that makes you nauseous when you think evil thoughts.
+~
+0 0 0
+D2
+~
+~
+0 0 7990
+S
+#7992
+E. Amity Hall~
+In this large hall, you see many rows of chairs facing a podium. There is a 
+bright pink glow in the room that makes you feel very awake.  The smell of 
+coffee is also in the air.  There is an exit to the north.
+~
+0 0 0
+D0
+~
+~
+0 0 7990
+S
+#7993
+W. Amity Base 1~
+You are in a large underground base filled with implements of war. 
+These implements have a twisted version of a symbol of neutrality, =x=, on
+them.  Only one regular symbol of neutrality, ===, remains, and that one too
+looks like it has been altered a bit but not finished.
+~
+0 4 0
+D4
+~
+~
+ABCFG 0 7926
+S
+#7994
+E. Amity Base 1~
+You are in a large underground complex filled with weapons.  A symbol
+of neutrality, ===, has been corrupted to =x=, and hangs on the north wall
+here.  You feel that some great neutral being has betrayed its alignment. 
+~
+0 4 0
+D4
+~
+~
+ABCFG 0 7975
+S
+#7995
+Amity Chapel~
+{R.                           /           \                             / 
+{R  \                         /               \                         / 
+{R    \                     /     {r /@@@@\      {R \                     /
+{R      \                 /     {r /@@/  \@@\      {R \                 / 
+{R        \             /     {r /@@/      \@@\      {R \             / 
+{R          \         /     {r /@@/          \@@\      {R \         / 
+{R            \     /      {r |@@|            |@@|       {R \     / 
+{R              \ /         {r \@@\          /@@/          {R \ / 
+{R               |            {r \@@\      /@@/             {R | 
+{R               | {r @            \@@\  /@@/            {r @ {R | 
+{R               |{r @ @    /@@@@@@@@@@@@@@@@@@@@@@\    {r @ @{R | 
+{R               |{r@   @   \@@@@@@@@@@@@@@@@@@@@@@/   {r @   @{R| 
+{R               |{r @ @             |@@@@|             {r @ @{R | 
+{r              @@@@@@@@@          |@@@@|          {r @@@@@@@@@ 
+{R               | {r @              |@@@@|              {r @ {R | 
+{R               | {r @              |@@@@|              {r @ {R | 
+{R               | {r @              |@@@@|              {r @ {R |{r 
+     /@\      {R |__{r@{R______________{r|@@@@|{R_______________{r@{R__|        {r/@\
+{r   /@/ \@\   {R /  {r @              |@@@@|                   {R \   {r /@/ \@\
+{r  |@|   |@|{R /                   {r |@@@@|                     {R \{r |@|   |@|
+{r   \@\ /@/{R/                     {r |@@@@|                       {R \{r\@\ /@/
+{r<@@@@@@@@@@@>                                                <@@@@@@@@@@@> 
+{r     |@|                                                          |@| 
+{R    /{r|@|              {R        Amity Chapel                       {r |@|{R\ 
+{R  / {r |@|                                                         {r |@| {R \
+{R/   {r |@|                                                          |d|   {R \
+{r     |@|                                                         {r |i| 
+{r     |@|                                                         {r |m| 
+{r     |@|                                                         {r |i|{x 
+~
+0 263168 1
+E
+south~
+You see a fountain.
+~
+D2
+~
+~
+0 0 7998
+M 200 H 200
+S
+#7996
+Michus' Dragon House~
+This room is bathed in a light green gas.  There are holes burned into
+the walls and feces on the floor.  A picture of Michus is on the eastern
+wall with the words 'I love my master' written under it.  
+~
+0 12 0
+E
+picture~
+Michus looks so cute.
+~
+S
+#7997
+Amity Road~
+{C           .......            {g      /|\{m       \./             \./
+{C           /\\\\\\\\\\\        {g   /|\  |{m   \./            \./
+{C  !     ////\\\\\\\\\\\\\\   ! {g    |/|\|{m           \./
+{C   !  ////// \\\\\\\\\\\\\\\! {g  /|\| | |{r    ____          ____
+{C   !!/////         \\\\\\\\!! {g   | | | |{r  /armor \      / arms \
+{C   !!/                  \\\!! {g   | | | |{r/  ______  \  /  ______  \
+{C   !!  ,,,,,      ,,,,,    !! {g   | | | |{r   |    |  |  |  |    |  |
+{C   !!  ==*==      ==*==    !! {g   | | | |{r   |   .|  |  |  |   .|  |
+{C   !!        \             !! {g   | | | |{r   |    |  |  |  |    |  |
+{C   ! \        ||          / ! {B   %******%{c  + + + + + + + + + + + +
+{C  !    \      ||        /    !{B   %''''''%{c  + + + +      + + + + + +
+{C        |     ||      |       {B   %IP*RIP% {c      +        +
+{C        |    (  )     |       {B   %,,,,,,% {c     +          +
+{C       #|\           /|#      {B   %RIP*RI% {c    +            +
+{C   #####|\ \_,, ,,_/ /|#####  {B   %''''''% {c   +        {R   _______
+{C #######|  \       /  |#########{B %IP*RIP% {c  +         {R  | Amity |
+{C #######|    \___/    |########{C###########      {c      {R  |_______|
+{c                                               {c {c      {R      |
+{y Timon, a 'light' elf, Amity ranger tells you: {c {c      {R      |
+{y     A chaotic evil being has taken over Amity, please helps us.{x
+~
+0 0 1
+E
+north~
+You see a city square.
+~
+D0
+~
+~
+0 0 7919
+D2
+~
+~
+AB 0 7917
+S
+#7998
+North Amity Square~
+{B,                 , '  '  ,        ,  '   '  ,
+{B                   ,           ', ,'             ,
+  {B                ,      , ' ' ,{r###{B, ' ' ,        ,
+    {B             ,     ,       ,{r###{B,       ,       ,
+      {B          ,     ,      ' {r |||{B  '       ,      ,
+        {B       ,     ,      ' {r  |||  {B '       ,      ,
+          {B    ,     ,      '{r    |||{B    '       ,      ,
+{B             ,     ,      '    {r |||{B     '       ,      ,
+  {B          ,     ,      '   {r   |||  {B    '       ,      ,
+    {B       ,     ,      '  {r     |||    {B   '       ,      ,
+      {B    ,     ,      ' {r       |||      {B  '       ,      ,
+{B         ,     ,      '{r         |||        {B '       ,      ,
+{r        \===================================================/
+  {r        \===================={R Amity{r ====================/
+    {r        \================={R Fountain{r ================/
+      {r        \=======================================/
+        {r                /=================\
+          {r            /====================\{x
+~
+0 263172 1
+E
+south~
+You see a city sqaure.
+~
+E
+south~
+You see a city square.  
+~
+E
+north~
+You see a chapel.
+~
+D0
+You see a chapel.
+~
+~
+0 0 7995
+D2
+~
+~
+0 0 7919
+S
+#7999
+indoors~
+~
+0 12 0
+S
+#0
+
+
+
+#SPECIALS
+M 7900 spec_cast_cleric
+M 7920 spec_cast_mage
+M 7921 spec_cast_mage
+M 7931 spec_thief
+M 7945 spec_cast_cleric
+M 7954 spec_breath_frost
+M 7955 spec_breath_frost
+M 7956 spec_breath_frost
+M 7957 spec_breath_frost
+M 7958 spec_breath_frost
+M 7964 spec_cast_mage
+M 7974 spec_cast_mage
+M 7975 spec_breath_frost
+M 7979 spec_cast_cleric
+M 7984 spec_cast_mage
+M 7996 spec_breath_gas
+S
+
+
+
+#RESETS
+D 0 7900 0 1
+D 0 7901 1 1
+D 0 7901 2 1
+D 0 7901 3 2
+D 0 7902 1 2
+D 0 7904 1 1
+D 0 7904 3 1
+D 0 7905 1 1
+D 0 7910 3 1
+D 0 7911 2 2
+D 0 7912 0 2
+D 0 7917 0 1
+D 0 7920 0 1
+D 0 7920 2 1
+D 0 7921 2 1
+D 0 7922 0 1
+D 0 7923 0 1
+D 0 7923 3 1
+D 0 7924 2 1
+D 0 7925 1 1
+D 0 7926 2 1
+D 0 7926 5 2
+D 0 7927 0 1
+D 0 7928 2 1
+D 0 7929 0 1
+D 0 7930 2 1
+D 0 7931 0 1
+D 0 7932 2 1
+D 0 7932 3 1
+D 0 7933 0 1
+D 0 7934 1 1
+D 0 7935 1 1
+D 0 7935 3 1
+D 0 7936 1 1
+D 0 7937 3 1
+D 0 7938 1 1
+D 0 7938 3 1
+D 0 7938 5 2
+D 0 7939 1 1
+D 0 7940 3 1
+D 0 7941 1 1
+D 0 7941 3 1
+D 0 7942 1 1
+D 0 7943 3 1
+D 0 7944 1 1
+D 0 7944 3 1
+D 0 7945 1 1
+D 0 7946 3 1
+D 0 7947 1 1
+D 0 7947 3 1
+D 0 7948 1 1
+D 0 7949 3 1
+D 0 7950 1 1
+D 0 7950 3 1
+D 0 7951 1 1
+D 0 7952 3 1
+D 0 7953 4 2
+D 0 7958 1 1
+D 0 7958 3 1
+D 0 7959 1 1
+D 0 7960 3 1
+D 0 7961 1 1
+D 0 7961 3 1
+D 0 7962 1 1
+D 0 7963 3 1
+D 0 7975 5 2
+D 0 7984 5 2
+D 0 7990 4 2
+D 0 7993 4 2
+D 0 7994 4 2
+D 0 7997 2 1
+M 0 7957 1 7902 1 Load Cation
+E 0 7957 0 16 An iron, redwood, oread mountain axe (=x=) is loaded wielded of Cation
+E 0 7962 0 10 The fur from a mountain lion's arms =x= is loaded on the arms of Cation
+G 0 7983 0 The key to insomnia is given to Cation
+M 0 7956 1 7908 1 Load Forni
+E 0 7956 0 16 An oread, redwood flail of enmity (=x=) is loaded wielded of Forni
+G 0 7971 0 The key to knowledge =x= is given to Forni
+G 0 7963 0 A topaz ring of turbulent apathy is given to Forni
+M 0 7958 1 7912 1 Load Oread Prince Michus
+E 0 7959 0 5 An oread, gilded, copper breastplate (=x=) is loaded on the body of Oread Prince Michus
+E 0 7960 0 7 An oread nymph, bear fur, loin cloth (=x=) is loaded on the legs of Oread Prince Michus
+E 0 7961 0 6 (branded) the  ==x==  symbol on michus' forehead is loaded over the head of Oread Prince Michus
+E 0 7958 0 16 An oak, oread, silver tipped spear (=x=) is loaded wielded of Oread Prince Michus
+O 0 7996 0 7912 A huge 'dog house' loaded to Palace Balcony
+O 0 7974 0 7915 A poplar tree loaded to Amity Trail
+O 0 7901 0 7915 A sign loaded to Amity Trail
+O 0 7974 0 7917 A poplar tree loaded to Entrance to Amity
+O 0 7995 0 7917 A wamity and eamity map loaded to Entrance to Amity
+O 0 7977 0 7919 A dead poplar tree loaded to Amity Square
+O 0 7974 0 7919 A poplar tree loaded to Amity Square
+O 0 7977 0 7920 A dead poplar tree loaded to Dusk Avenue
+M 0 7921 4 7921 1 Load A dark Elf mage
+E 0 7921 0 16 A corroded, oread mined, copper polearm (=x=) is loaded wielded of A dark Elf mage
+M 0 7921 4 7922 1 Load A dark Elf mage
+E 0 7921 0 16 A corroded, oread mined, copper polearm (=x=) is loaded wielded of A dark Elf mage
+O 0 7977 0 7923 A dead poplar tree loaded to Dusk Ave. & Dark St.
+M 0 7920 14 7923 1 Load An oread Amity mage
+M 0 7921 4 7924 1 Load A dark Elf mage
+M 0 7921 4 7925 1 Load A dark Elf mage
+O 0 7977 0 7926 A dead poplar tree loaded to Nightfall Blvd. & Dark St.
+O 0 7977 0 7928 A dead poplar tree loaded to 1 W. Nightfall Blvd.
+M 0 7931 4 7929 1 Load a dark elf thief
+G 0 7969 0 Some shades of chaotic disinterestedness =x= is given to a dark elf thief
+O 0 7978 0 7930 A dead poplar tree loaded to 2 W. Nightfall Blvd.
+M 0 7920 14 7930 1 Load An oread Amity mage
+M 0 7931 4 7931 1 Load a dark elf thief
+G 0 7969 0 Some shades of chaotic disinterestedness =x= is given to a dark elf thief
+O 0 7977 0 7932 A dead poplar tree loaded to Nightfall & Beyond
+M 0 7931 4 7933 1 Load a dark elf thief
+M 0 7931 4 7934 1 Load a dark elf thief
+O 0 7977 0 7935 A dead poplar tree loaded to Beyond Night Avenue
+M 0 7939 4 7936 1 Load a dark elf warrior
+G 0 7967 0 A garnet stone of aimless aloofness =x= is given to a dark elf warrior
+G 0 7981 0 A letter is given to a dark elf warrior
+M 0 7939 4 7937 1 Load a dark elf warrior
+G 0 7967 0 A garnet stone of aimless aloofness =x= is given to a dark elf warrior
+G 0 7981 0 A letter is given to a dark elf warrior
+O 0 7977 0 7938 A dead poplar tree loaded to 1 N. Beyond Night Ave.
+M 0 7920 14 7938 1 Load An oread Amity mage
+M 0 7939 4 7939 1 Load a dark elf warrior
+G 0 7981 0 A letter is given to a dark elf warrior
+M 0 7939 4 7940 1 Load a dark elf warrior
+G 0 7981 0 A letter is given to a dark elf warrior
+O 0 7977 0 7941 A dead poplar tree loaded to 2 N. Beyond Night Ave.
+M 0 7920 14 7941 1 Load An oread Amity mage
+M 0 7945 4 7942 1 Load a dark elf female
+E 0 7970 0 9 The gauntlets of tumultuous nonpartisanship =x= is loaded on the hands of a dark elf female
+G 0 7980 0 A note is given to a dark elf female
+G 0 7973 0 The key to organization =x= is given to a dark elf female
+M 0 7975 2 7943 1 Load Odilon
+E 0 7966 0 14 A wristlet of unbalanced detachment =x= is loaded on the left wrist of Odilon
+G 0 7972 0 The key to baseness =x= is given to Odilon
+G 0 7982 0 A card is given to Odilon
+O 0 7977 0 7944 A dead poplar tree loaded to 3 N. Beyond Night Ave.
+M 0 7945 4 7945 1 Load a dark elf female
+E 0 7970 0 9 The gauntlets of tumultuous nonpartisanship =x= is loaded on the hands of a dark elf female
+G 0 7980 0 A note is given to a dark elf female
+G 0 7973 0 The key to organization =x= is given to a dark elf female
+M 0 7945 4 7946 1 Load a dark elf female
+G 0 7980 0 A note is given to a dark elf female
+O 0 7977 0 7947 A dead poplar tree loaded to 4 N. Beyond Night Ave.
+M 0 7945 4 7948 1 Load a dark elf female
+G 0 7980 0 A note is given to a dark elf female
+O 0 7977 0 7950 A dead poplar tree loaded to 5 N. Beyond Night Ave.
+M 0 7920 14 7950 1 Load An oread Amity mage
+M 0 7952 4 7951 1 Load a dark elf mage soldier
+E 0 7968 0 8 Two deerskin boots of disorder =x= is loaded on the feet of a dark elf mage soldier
+G 0 7979 0 Some paper is given to a dark elf mage soldier
+M 0 7954 2 7954 1 Load Tirsch
+E 0 7965 0 13 (stinking) a mountain boar-hide belt =x= is loaded around the waist of Tirsch
+E 0 7954 0 16 The mace of mother nature gone bad (=x=) is loaded wielded of Tirsch
+M 0 7955 2 7956 1 Load Conunum
+E 0 7964 0 2 An opal ring of agitated stoicism  =x= is loaded on the right finger of Conunum
+E 0 7955 0 16 An oread mountain red grape vine is loaded wielded of Conunum
+O 0 7977 0 7958 A dead poplar tree loaded to 6 N. Beyond Night Ave.
+M 0 7920 14 7958 1 Load An oread Amity mage
+M 0 7952 4 7959 1 Load a dark elf mage soldier
+E 0 7968 0 8 Two deerskin boots of disorder =x= is loaded on the feet of a dark elf mage soldier
+G 0 7979 0 Some paper is given to a dark elf mage soldier
+M 0 7952 4 7960 1 Load a dark elf mage soldier
+G 0 7979 0 Some paper is given to a dark elf mage soldier
+O 0 7977 0 7961 A dead poplar tree loaded to 7 N. Beyond Night Ave.
+M 0 7920 14 7961 1 Load An oread Amity mage
+M 0 7952 4 7963 1 Load a dark elf mage soldier
+G 0 7979 0 Some paper is given to a dark elf mage soldier
+M 0 7964 4 7964 1 Load a light elf mage
+O 0 7974 0 7964 A poplar tree loaded to Daybreak Avenue
+M 0 7920 14 7964 1 Load An oread Amity mage
+M 0 7964 4 7965 1 Load a light elf mage
+M 0 7964 4 7966 1 Load a light elf mage
+O 0 7974 0 7966 A poplar tree loaded to Daybreak and Noon
+M 0 7964 4 7968 1 Load a light elf mage
+E 0 7921 0 16 A corroded, oread mined, copper polearm (=x=) is loaded wielded of a light elf mage
+O 0 7974 0 7968 A poplar tree loaded to Noon and Afternoon
+M 0 7969 4 7969 2 Load a light elf warrior
+M 0 7969 4 7969 2 Load a light elf warrior
+O 0 7974 0 7969 A poplar tree loaded to 1 W. Afternoon St.
+O 0 7974 0 7971 A poplar tree loaded to 2 W. Afternoon St.
+M 0 7920 14 7971 1 Load An oread Amity mage
+M 0 7969 4 7972 1 Load a light elf warrior
+O 0 7976 0 7972 A poplar tree loaded to Evening Ave. & Afternoon St.
+M 0 7920 14 7972 1 Load An oread Amity mage
+M 0 7969 4 7973 1 Load a light elf warrior
+G 0 7969 0 Some shades of chaotic disinterestedness =x= is given to a light elf warrior
+M 0 7974 4 7974 1 Load a mage apprentice
+G 0 7981 0 A letter is given to a mage apprentice
+O 0 7974 0 7974 A poplar tree loaded to 1 N. Evening Ave.
+M 0 7974 4 7975 1 Load a mage apprentice
+G 0 7981 0 A letter is given to a mage apprentice
+M 0 7974 4 7976 1 Load a mage apprentice
+G 0 7981 0 A letter is given to a mage apprentice
+O 0 7974 0 7976 A poplar tree loaded to 2 N. Evening Ave.
+M 0 7974 4 7977 1 Load a mage apprentice
+G 0 7967 0 A garnet stone of aimless aloofness =x= is given to a mage apprentice
+M 0 7975 2 7977 1 Load Odilon
+E 0 7966 0 14 A wristlet of unbalanced detachment =x= is loaded on the left wrist of Odilon
+G 0 7972 0 The key to baseness =x= is given to Odilon
+G 0 7982 0 A card is given to Odilon
+O 0 7974 0 7978 A poplar tree loaded to 3 N. Evening Ave.
+M 0 7979 4 7980 1 Load a light elf priest
+G 0 7980 0 A note is given to a light elf priest
+O 0 7974 0 7980 A poplar tree loaded to 4 N. Evening Ave.
+M 0 7920 14 7980 1 Load An oread Amity mage
+M 0 7979 4 7982 1 Load a light elf priest
+G 0 7980 0 A note is given to a light elf priest
+G 0 7973 0 The key to organization =x= is given to a light elf priest
+O 0 7974 0 7982 A poplar tree loaded to 5 N. Evening Ave.
+M 0 7920 14 7982 1 Load An oread Amity mage
+M 0 7979 4 7983 1 Load a light elf priest
+G 0 7980 0 A note is given to a light elf priest
+G 0 7973 0 The key to organization =x= is given to a light elf priest
+M 0 7979 4 7984 1 Load a light elf priest
+E 0 7970 0 9 The gauntlets of tumultuous nonpartisanship =x= is loaded on the hands of a light elf priest
+G 0 7980 0 A note is given to a light elf priest
+O 0 7974 0 7984 A poplar tree loaded to 6 N. Evening Ave.
+M 0 7984 4 7986 1 Load a master mage
+G 0 7979 0 Some paper is given to a master mage
+O 0 7974 0 7986 A poplar tree loaded to 7 N. Evening Ave.
+M 0 7984 4 7987 1 Load a master mage
+G 0 7979 0 Some paper is given to a master mage
+M 0 7984 4 7988 1 Load a master mage
+E 0 7968 0 8 Two deerskin boots of disorder =x= is loaded on the feet of a master mage
+G 0 7979 0 Some paper is given to a master mage
+O 0 7974 0 7988 A poplar tree loaded to 8 N. Evening Ave.
+M 0 7984 4 7989 1 Load a master mage
+G 0 7979 0 Some paper is given to a master mage
+M 0 7954 2 7991 1 Load Tirsch
+E 0 7965 0 13 (stinking) a mountain boar-hide belt =x= is loaded around the waist of Tirsch
+E 0 7954 0 16 The mace of mother nature gone bad (=x=) is loaded wielded of Tirsch
+M 0 7955 2 7992 1 Load Conunum
+E 0 7955 0 16 An oread mountain red grape vine is loaded wielded of Conunum
+G 0 7964 0 An opal ring of agitated stoicism  =x= is given to Conunum
+M 0 7993 2 7993 1 Load Florius
+G 0 7994 0 Two turquoise earrings of crazed impartiality is given to Florius
+E 0 7993 0 16 A knotted oread mountain knife (=x=) is loaded wielded of Florius
+G 0 7975 0 The sword of chaotic deeds is given to Florius
+M 0 7993 2 7994 1 Load Florius
+G 0 7994 0 Two turquoise earrings of crazed impartiality is given to Florius
+E 0 7993 0 16 A knotted oread mountain knife (=x=) is loaded wielded of Florius
+G 0 7975 0 The sword of chaotic deeds is given to Florius
+M 0 7997 1 7995 1 Load a light elf female
+M 0 7996 1 7996 1 Load Mucous
+G 0 7997 0 Some hollow, iridescent scales =x={x is given to Mucous
+E 0 7902 0 17 A cursed dog tag is loaded held in the hands of Mucous
+O 0 7909 0 7998 A crimson fountain loaded to North Amity Square
+M 0 7901 1 7998 1 Load Teema
+S
+
+
+
+#SHOPS
+0
+
+
+
+#ZMPROGS
+#0
+
+#$

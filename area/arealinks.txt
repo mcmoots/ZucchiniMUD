@@ -1,0 +1,152 @@
+*** Limbo (1 to 99) ***
+    (2) links up to Midgaard (3001)
+*** Smurfville (100 to 129) ***
+    No links to other areas found.
+*** Malphs (130 to 169) ***
+    (130) links west to Midgaard (3259)
+    (166) links north to Midgaard (3261)
+*** NetHack (170 to 199) ***
+    (170) links up to Eastern Connecting Zone (3921)
+*** zoology (400 to 499) ***
+    (400) links east to mud school (3700)
+    (411) links south to mud school (3746)
+*** Valhalla (1200 to 1299) ***
+    (1203) links up to Limbo (1)
+    (1215) links down to Midgaard (3054)
+    (1218) links up to Limbo (2)
+    (1219) links north to Midgaard (3161)
+    (1219) links east to Midgaard (3150)
+    (1219) links south to Midgaard (3170)
+*** Dreamscape (1300 to 1399) ***
+    (1300) links north to Midgaard (3019)
+*** Animaland (1400 to 1599) ***
+    No links to other areas found.
+*** Catacombs (2000 to 2099) ***
+    (2065) links up to Dwarven Kingdom (6527)
+    (2001) links up to Dwarven Kingdom (6524)
+*** Gangland (2100 to 2199) ***
+    (2101) links west to Midgaard (3119)
+    (2160) links west to Midgaard (3144)
+*** Mahn-Tor (2300 to 2399) ***
+    No links to other areas found.
+*** Troll Den (2800 to 2899) ***
+    (2801) links north to Haon Dor (6124)
+*** Midgaard (3000 to 3399) ***
+    (3105) links west to Zoo of Midgaard (8200)
+    (3119) links east to Gangland (2101)
+    (3124) links south to Graveyard (3600)
+    (3125) links west to Chessboard of Midgaard (4200)
+    (3126) links east to Quifael's (6904)
+    (3130) links south to The Circus (4401)
+    (3139) links north to Midgaard Mall (8828)
+    (3144) links east to Gangland (2160)
+    (3150) links up to Valhalla (1219)
+    (3161) links up to Valhalla (1219)
+    (3170) links up to Valhalla (1219)
+    (3259) links east to Malphs (130)
+    (3261) links south to Malphs (166)
+    (3001) links up to mud school (3700)
+    (3002) links down to Sewers (7026)
+    (3019) links south to Dreamscape (1300)
+    (3023) links down to Sewers (7048)
+    (3029) links down to Sewers (7043)
+    (3030) links down to Sewers (7030)
+    (3047) links east to Mob Factory (9400)
+    (3050) links up to Machine Dreams (8604)
+    (3053) links east to Eastern Connecting Zone (3900)
+*** Chapel (3400 to 3479) ***
+    (3405) links north to Graveyard (3604)
+    (3472) links north to Hell (10401)
+*** Graveyard (3600 to 3699) ***
+    (3600) links north to Midgaard (3124)
+    (3604) links south to Chapel (3405)
+*** mud school (3700 to 3799) ***
+    (3700) links west to zoology (400)
+    (3700) links down to Midgaard (3001)
+    (3746) links north to zoology (411)
+    (3760) links up to Midgaard (3001)
+*** Eastern Connecting Zone (3900 to 3999) ***
+    (3900) links west to Midgaard (3053)
+    (3901) links south to Camelot (20900)
+    (3903) links north to Glen Dhoo (29100)
+    (3912) links north to Elemental Canyon (9201)
+    (3918) links east to New Thalos (9669)
+    (3919) links south to Haon Dor (6100)
+    (3920) links east to Dwarven Kingdom (6562)
+    (3921) links down to NetHack (170)
+*** Chessboard of Midgaard (4200 to 4299) ***
+    (4200) links east to Midgaard (3125)
+*** The Circus (4400 to 4499) ***
+    (4401) links north to Midgaard (3130)
+*** Coral Reef (4725 to 4799) ***
+    No links to other areas found.
+*** Thalos (5200 to 5299) ***
+    No links to other areas found.
+*** Aarakocran City (5600 to 5699) ***
+    (5600) links down to Elemental Canyon (9258)
+*** Haon Dor (6000 to 6199) ***
+    (6151) links north to The Hobgoblin Keep (12800)
+    (6100) links north to Eastern Connecting Zone (3919)
+    (6100) links south to Avalon (21000)
+    (6124) links south to Troll Den (2801)
+    (6125) links south to Marsh (8301)
+    (6133) links north to Arachnos (6200)
+    (6134) links south to Arachnos (6201)
+    (6134) links west to Arachnos (6202)
+*** Arachnos (6200 to 6399) ***
+    (6200) links south to Haon Dor (6133)
+    (6201) links north to Haon Dor (6134)
+    (6202) links east to Haon Dor (6134)
+*** Dwarven Kingdom (6500 to 6599) ***
+    (6500) links south to Day Care (6601)
+    (6524) links down to Catacombs (2001)
+    (6527) links down to Catacombs (2065)
+    (6562) links west to Eastern Connecting Zone (3920)
+*** Day Care (6600 to 6649) ***
+    (6601) links north to Dwarven Kingdom (6500)
+*** Quifael's (6900 to 6909) ***
+    (6904) links west to Midgaard (3126)
+*** Sewers (7000 to 7499) ***
+    (7030) links up to Midgaard (3030)
+*** Amity (7900 to 7999) ***
+    No links to other areas found.
+*** Zoo of Midgaard (8200 to 8299) ***
+    (8200) links east to Midgaard (3105)
+*** Marsh (8300 to 8399) ***
+    (8301) links north to Haon Dor (6125)
+*** Machine Dreams (8600 to 8699) ***
+    (8604) links up to Midgaard (3050)
+*** Midgaard Mall (8800 to 8899) ***
+    (8828) links south to Midgaard (3139)
+*** Holy Grove (8900 to 8999) ***
+    No links to other areas found.
+*** Nirvana (9000 to 9099) ***
+    (9000) links down to Midgaard (3001)
+*** Elemental Canyon (9200 to 9299) ***
+    (9258) links up to Aarakocran City (5600)
+    (9201) links south to Eastern Connecting Zone (3912)
+*** Galaxy (9300 to 9399) ***
+    (9303) links south to chessboard (15865)
+*** Mob Factory (9400 to 9499) ***
+    (9400) links west to Midgaard (3047)
+*** New Thalos (9500 to 9799) ***
+    (9669) links west to Eastern Connecting Zone (3918)
+    (9771) links west to Florin (12201)
+*** Hell (10400 to 10599) ***
+    (10401) links south to Chapel (3472)
+*** Florin (12201 to 12329) ***
+    (12201) links east to New Thalos (9771)
+*** Children's Museum (12500 to 12599) ***
+    No links to other areas found.
+*** The Hobgoblin Keep (12800 to 12899) ***
+    (12800) links south to Haon Dor (6151)
+*** Beholder Corps (14000 to 14089) ***
+    No links to other areas found.
+*** chessboard (15800 to 15899) ***
+    (15865) links north to Galaxy (9303)
+*** Camelot (20900 to 20999) ***
+    (20900) links north to Eastern Connecting Zone (3901)
+*** Avalon (21000 to 21099) ***
+    (21000) links north to Haon Dor (6100)
+*** Glen Dhoo (29100 to 29199) ***
+    (29100) links south to Eastern Connecting Zone (3903)

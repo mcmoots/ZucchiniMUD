@@ -1,0 +1,12 @@
+Sender  Kazeus~
+Date    Thu Sep 26 12:49:58 2002~
+Stamp   1033069844
+Expire  1038253807
+To      imm~
+Subject copyover while switched~
+Text
+If you do a copyover while you are switched into an NPC, copyover recovery
+will see you in the body of the NPC and unable to return. You will have to quit,
+and log in again.
+~
+

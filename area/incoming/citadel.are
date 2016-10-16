@@ -1,0 +1,1378 @@
+#AREADATA
+Name        Citadel of the Undead~
+Builders    None~
+VNUMs       26100 26199
+Security    9
+Credits     None~
+End
+
+
+
+#MOBILES
+#0
+
+
+
+#OBJECTS
+#0
+
+
+
+#ROOMS
+#26100
+{DD{wa{Wrk Pa{wt{Dh{x~
+{DThe long {wbranches of the {Wtrees, standing alon{wg the edges, bo{Dw over the{x
+{Dpathway, s{whedding their le{Waves. Most of the ligh{wt is filtered o{Dut by the{x
+{Dcanopy fo{wrmed by the boug{Whs.  The leaves scatter {win different d{Directions{x
+{Das an occa{wsional gust of w{Wind blows through. A {wmelancholy cry {Dof a raven{x
+{Dcan be hear{wd in the distanc{We.{x
+~
+0 1 3
+D0
+~
+~
+0 0 26101
+S
+#26101
+{DE{we{Wrie Pa{wt{Dh{x~
+{DThe gnar{wly trees crowdi{Wng the edges, block out {wmost of the lig{Dht, except{x
+{Dover the {wpathway where t{Whe branches barely meet. E{wxotic flowers g{Drow along{x
+{Dthe base {wof the wooden g{Wuardians standing in a sea {wof undergrowth{D.  Fallen{x
+{Dleaves swi{wrl about as an {Woccasional gust of wind {wpicks them off {Dthe ground. {x
+~
+0 1 3
+D0
+~
+~
+0 0 26102
+D2
+~
+~
+0 0 26100
+S
+#26102
+{DB{we{Wnd in Pa{wt{Dh{x~
+{DThe fore{wst is dense wit{Wh trees growing closel{wy together and {Dthe thick{x
+{Dundergrow{wth filling the {Wspace between them.  The {wlong branches {Dsprinkle{x
+{Dtheir le{waves onto the t{Wrail which are blown abou{wt by the wind. {DA hollow{x
+{Dlog, host{wing a colony of {Wmushrooms, lies at th{we edge of the pa{Dthway.  A{x
+{Draven lets {wout a cry in t{Whe distance.{x
+~
+0 1 3
+D2
+~
+~
+0 0 26101
+D3
+~
+~
+0 0 26103
+S
+#26103
+~
+{DA mist d{wrifts slowly th{Wrough the woods making it {wdifficult to s{Dee too far{x
+{Dalong the {wtrail. The lon{Wg boughs of the trees stretc{wh across the m{Deandering{x
+{Dpath lit{wtered with folia{Wge. The canopy filters out m{wost of the lig{Dht except{x
+{Dexcept ov{wer the passagewa{Wy. A rustling sound emanat{wes from somewh{Dere in the{x
+{Dthick shru{wbbery.{x
+~
+0 1 3
+D0
+~
+~
+0 0 26104
+D1
+~
+~
+0 0 26102
+S
+#26104
+{DO{wL{WD {yR{wU{gS{wT{mY {WGA{wT{DE{x~
+{DAn old {wrusted wrought-{Wiron gate stands in the {whiatus of a {Dstone wall{x
+{Dextendin{wg east and west{W. The boughs of the trees, {wgrowing in {Dthis area,{x
+{Dveils th{we portal in sha{Wdows. Vines have entwined {wthemselves a{Dround the{x
+{Dbarrier p{wartially concea{Wling the carvings etche{wd into the st{Dones.{x
+~
+0 0 0
+D0
+~
+~
+0 0 26105
+D2
+~
+~
+0 0 26103
+S
+#26105
+{DD{wa{Wrk Pa{wt{Dh{x~
+The overgrown vegetation has invaded the dirt road continuing north to a
+small clearing and south through a rusted gate.  Leaves from the overhead
+branches drift to the ground, littering the pathway.  Most of the light is
+filtered out by the canopy created by the long boughs. Shadows move behind
+the trees then quickly disappears.
+~
+0 0 0
+D0
+~
+~
+0 0 26106
+D2
+~
+~
+0 0 26104
+S
+#26106
+{DS{wm{Wall Cleari{wn{Dg{x~
+The path cuts through a small clearing where open graves lies along the
+edges.  The pits are filled with foliage and vegetation growing from them. 
+The grave markings are strewn about, some half-buried in the dirt. A lone
+raven's cry can be heard echoing through the forest.  
+~
+0 0 0
+D0
+~
+~
+0 0 26107
+D2
+~
+~
+0 0 26105
+S
+#26107
+{DO{wu{Wter Ga{wt{De {C[{DNo{wrt{Whern Fort{wre{Dss{C]{x~
+{DThe path{wway has been ov{Werrun with undergrowth inv{wading it from {Dboth sides.{x
+{DLeaves, f{wallen from the {Wlong branches of the trees c{wrowding the ed{Dges of the{x
+{Dnarrowed {wroad, litter th{We ground.  Large wooden twin {wgates, standi{Dng between{x
+{Dtwo high {wwalls, loom to t{Whe north, blocking the way{w.  A worn, car{Dved sign is{x
+{Dmounted be{wside the gate.{x
+~
+0 0 0
+E
+sign~
+{D     [:{wFo{Wrenya Fortre{wss{D:]{x
+~
+D0
+~
+~
+0 0 26108
+D2
+~
+~
+0 0 26106
+S
+#26108
+{DB{wa{Wrbic{wa{Dn {C[{DNo{wrt{Whern Fort{wre{Dss{C]{x~
+{DThis is {wthe outer forti{Wfication of the old fort{wress.  Three wa{Dlls with a{x
+{Dparapet w{walk protect the {Wouter section of the cast{wle.  A moat to {Dthe north{x
+{Dseparate{ws the barbican {Wfrom the outer bailey of th{we fortress. A m{Dist moves{x
+{Dslowly ac{wross this area. {WThe light from the torch{wes mounted on t{Dhe curtain{x
+{Dwalls, bar{wely penetrate t{Whrough the fog.{x
+~
+0 0 0
+D0
+~
+~
+0 0 26109
+D2
+~
+~
+0 0 26107
+S
+#26109
+{DD{wr{Wawbrid{wg{De {C[{DNo{wrt{Whern Fort{wre{Dss{C]{x~
+{DTo the {wnorth, the port{Wcullis is raised, allowi{wng entry throug{Dh the main{x
+{Dcastle e{wntrance.  Curta{Win walls, supporting woode{wn galleries, ex{Dtend east{x
+{Dand west {wfrom the gateh{Wouse.  Below, a deep moat {wencircles the s{Dtronghold,{x
+{Dprotectin{wg it from invad{Wers. A mist, slowly drif{wting, blankets {Dthe area.{x
+~
+0 0 0
+D0
+~
+~
+0 0 26110
+D2
+~
+~
+0 0 26108
+S
+#26110
+{DO{wu{Wter Bail{we{Dy {C[{DNo{wrt{Whern Fort{wre{Dss{C]{x~
+{DThe impo{wsing walls of t{Whe fort loom all around, d{wwarving almost {Deverything.{x
+{Dstanding {win the outer ba{Wiley. To the south, a gateho{wuse stretches a{Dcross the{x
+{Darched e{wntrance housing{W a portcullis. Wooden gallerie{ws finish off th{De top of{x
+{Dthe sout{whern wall, conti{Wnuing from the gatehouse.  A{wn embattled par{Dapet walk{x
+{Dcontinues {waround the rest {Wof the walls. A well stan{wds near the mid{Ddle of the{x
+{Dlarge court{wyard. Vines have {Winvaded the ward, grow{wing from the cr{Dacks in the{x
+{Dground, then {wslowly spreading {Woutward.{x
+~
+0 0 0
+D0
+~
+~
+0 0 26172
+D1
+~
+~
+0 0 26112
+D2
+~
+~
+0 0 26109
+D3
+~
+~
+0 0 26111
+S
+#26111
+{DO{wu{Wter Bail{we{Dy {C[{DNo{wrt{Whern Fort{wre{Dss{C]{x~
+{DVines g{wrowing from fis{Wsures in the floor have c{wrept up to the {Dwall walk.{x
+{DA set of{w stone stairs i{Ws also entangled in tendril{ws of vegetation {Dgrowing{x
+{Deverywhe{wre. The large o{Wuter bailey, also covered {wwith an invasio{Dn of long
+{Dentwined {wropes of greene{Wry.{x
+~
+0 0 0
+D0
+~
+~
+0 0 26174
+D1
+~
+~
+0 0 26110
+D4
+~
+~
+0 0 26119
+S
+#26112
+{DO{wu{Wter Bail{we{Dy {C[{DNo{wrt{Whern Fort{wre{Dss{C]{x~
+~
+0 0 0
+D1
+~
+~
+0 0 26164
+D3
+~
+~
+0 0 26110
+D4
+~
+~
+0 0 26113
+S
+#26113
+{DW{wa{Wll Wa{wl{Dk {C[{DNo{wrt{Whern Fort{wre{Dss{C]{x~
+~
+0 0 0
+D0
+~
+~
+0 0 26128
+D2
+~
+~
+0 0 26114
+D5
+~
+~
+0 0 26112
+S
+#26114
+{DS{wo{Wuthern Tow{we{Dr {C[{DNo{wrt{Whern Fort{wre{Dss{C]{x~
+~
+0 0 0
+D0
+~
+~
+0 0 26113
+D1
+~
+~
+0 0 26129
+D3
+~
+~
+0 0 26115
+S
+#26115
+{DW{wo{Woden Galle{wr{Dy {C[{DNo{wrt{Whern Fort{wre{Dss{C]{x~
+{DLan{wterns are u{Wsed to illuminate this long wooden passage{wway.  The {Dlight{x
+{Dreve{wals the sma{Wll windows in the walls, allowing missles to {wbe fired {Dwhen{x
+{Dunde{wr siege or {Wthe activities of the castle to be monitore{wd. A gate {Dhouse{x
+{Dis lo{wcated to th{We west, while a tower lies to the east.{x
+~
+0 0 0
+D1
+~
+~
+0 0 26114
+D3
+~
+~
+0 0 26116
+S
+#26116
+{DG{wa{Wte Hou{ws{De {C[{DNo{wrt{Whern Fort{wre{Dss{C]{x~
+{DThe {wgate house {Wsits over the main entrance to the fortress {wallowing {Dthe{x
+{Dguard{ws to monito{Wr the activities below.  The walls are pierced {wwith arr{Dow{x
+{Dslits {wto defend {Wagainst invaders. The ancient stones of the fo{wrtress h{Dave {x
+{Dbegun {wto deterior{Wate and pieces have fallen off, littering th{we floor.{x
+~
+0 0 0
+D1
+~
+~
+0 0 26115
+D3
+~
+~
+0 0 26117
+S
+#26117
+{DW{wo{Woden Galle{wr{Dy {C[{DNo{wrt{Whern Fort{wre{Dss{C]{x~
+{DThi{ws is a lon{Wg passageway connecting the gate house to the {weast to a {Dtower{x
+{Dto t{whe west. L{Wanterns, illuminating the corridor, reveal slits {win the wo{Doden{x
+{Dwall{ws for firi{Wng missles during a battle or for monitoring the {wactivitie{Ds of{x
+{Dof th{we fortress.  {WThe aged wood has begun to splinter and is {win disrepa{Dir.{x
+~
+0 0 0
+D1
+~
+~
+0 0 26116
+D3
+~
+~
+0 0 26118
+S
+#26118
+{DSo{wut{Whwest T{wow{Der {C[{DNo{wrt{Whern Fort{wre{Dss{C]{x~
+{DCre{wnelated ba{Wttlement encircles the tower, except where {wthe wall {Dwalk{x
+{Dinte{wrrupts the {Wwall to the north and east. The landscape ca{wn be scan{Dned{x
+{Dfrom {wthis vant{Wage point overlooking the citadel moat. Most {wof the tr{Dees,{x
+{Donce {wcleared by {Wthe previous occupants, have grown back ov{wer the ye{Dars.{x
+~
+0 0 0
+D0
+~
+~
+0 0 26119
+D1
+~
+~
+0 0 26117
+S
+#26119
+{DW{wa{Wll Wa{wl{Dk {C[{DNo{wrt{Whern Fort{wre{Dss{C]{x~
+{DA c{wrenelated {Wbattlement, standing along the outer edge, pro{wtects the {Dwall{x
+{Dwalk{w. Beyond t{Whe fortification, the landscape, mostly trees, c{wan be obse{Drved{x
+{Dfrom {wthis poin{Wt. The activities in the outer bailey can also {wbe monitor{Ded. A{x
+{Dstone {wstaircase {Wleads down.{x
+~
+0 0 0
+D0
+~
+~
+0 0 26120
+D2
+~
+~
+0 0 26118
+D5
+~
+~
+0 0 26111
+S
+#26120
+{DW{wa{Wll Wa{wl{Dk {C[{DNo{wrt{Whern Fort{wre{Dss{C]{x~
+Vines have scaled the outer curtain and entangled themselves around the
+merlons of the battlement. The wall walk is lined with cracked with a few
+stone missing, leaving holes in the path.  The terrain to the west slopes
+down, beyond the moat where the vegetation has overcome the ruins where a 
+city once laid.
+~
+0 0 0
+D0
+~
+~
+0 0 26121
+D2
+~
+~
+0 0 26119
+S
+#26121
+{DW{wa{Wll Wa{wl{Dk {C[{DNo{wrt{Whern Fort{wre{Dss{C]{x~
+Vines have crawled up the outer curtain and entangled themselves around
+the merlons of the battlement. They have overrun the wall and entered the
+wall walk.  Lengths of the vegetation lie on the allure, trimmed back to
+make passage easier.  Beyond the walls, the terrain slopes down to a town
+of ruins overcome by the undergrowth.  
+~
+0 0 0
+D0
+~
+~
+0 0 26122
+D2
+~
+~
+0 0 26120
+S
+#26122
+{DN{wo{Wrthwest Tow{we{Dr {C[{DNo{wrt{Whern Fort{wre{Dss{C]{x~
+This tower in the northwest corner has been overcome by long tendrils of
+vegetation. The loose stones of the battlement have fallen off as time has
+taken its toll on the citadel. From this vantage point, the terrain to the
+north and west can be observed. To the north, the landscape abruptly rises
+to higher grounds in the mountain, while to the west, beyond the moat, the
+land descends to the ruins of an old city.  
+~
+0 0 0
+D1
+~
+~
+0 0 26123
+D2
+~
+~
+0 0 26121
+S
+#26123
+{DW{wa{Wll Wa{wl{Dk {C[{DNo{wrt{Whern Fort{wre{Dss{C]{x~
+The battlement is veined with fissures and stone are missing beneath
+the vines which have overcome this area.  The long green tendrils have
+breeched the outer curtain and entangled themselves around the merlons
+before encountering the vegetation growing from within. A small forest
+separates the citadel from a mountain rising to the north.  
+~
+0 0 0
+D1
+~
+~
+0 0 26125
+D3
+~
+~
+0 0 26122
+S
+#26124
+~
+~
+0 0 0
+D3
+~
+~
+0 0 26123
+S
+#26125
+{DW{wa{Wll Wa{wl{Dk {C[{DNo{wrt{Whern Fort{wre{Dss{C]{x~
+~
+0 0 0
+D1
+~
+~
+0 0 26126
+D3
+~
+~
+0 0 26123
+S
+#26126
+{DW{wa{Wll Wa{wl{Dk {C[{DNo{wrt{Whern Fort{wre{Dss{C]{x~
+~
+0 0 0
+D0
+~
+~
+0 0 26179
+D2
+~
+~
+0 0 26127
+D3
+~
+~
+0 0 26125
+S
+#26127
+{DW{wa{Wll Wa{wl{Dk {C[{DNo{wrt{Whern Fort{wre{Dss{C]{x~
+~
+0 0 0
+D0
+~
+~
+0 0 26126
+D2
+~
+~
+0 0 26128
+S
+#26128
+{DW{wa{Wll Wa{wl{Dk {C[{DNo{wrt{Whern Fort{wre{Dss{C]{x~
+~
+0 0 0
+D0
+~
+~
+0 0 26127
+D2
+~
+~
+0 0 26113
+S
+#26129
+{DW{wa{Wll Wa{wl{Dk {C[{DNo{wrt{Whern Fort{wre{Dss{C]{x~
+~
+0 0 0
+D1
+~
+~
+0 0 26130
+D3
+~
+~
+0 0 26114
+S
+#26130
+{DW{wa{Wll Wa{wl{Dk {C[{DNo{wrt{Whern Fort{wre{Dss{C]{x~
+~
+0 0 0
+D1
+~
+~
+0 0 26131
+D3
+~
+~
+0 0 26129
+S
+#26131
+{DW{wa{Wll Wa{wl{Dk {C[{DNo{wrt{Whern Fort{wre{Dss{C]{x~
+~
+0 0 0
+D1
+~
+~
+0 0 26132
+D3
+~
+~
+0 0 26130
+S
+#26132
+{DS{wo{Wutheast Tow{we{Dr {C[{DNo{wrt{Whern Fort{wre{Dss{C]{x~
+~
+0 0 0
+D0
+~
+~
+0 0 26133
+D3
+~
+~
+0 0 26131
+S
+#26133
+{DW{wa{Wll Wa{wl{Dk {C[{DNo{wrt{Whern Fort{wre{Dss{C]{x~
+~
+0 0 0
+D0
+~
+~
+0 0 26134
+D2
+~
+~
+0 0 26132
+S
+#26134
+{DW{wa{Wll Wa{wl{Dk {C[{DNo{wrt{Whern Fort{wre{Dss{C]{x~
+~
+0 0 0
+D0
+~
+~
+0 0 26135
+D2
+~
+~
+0 0 26133
+S
+#26135
+{DW{wa{Wll Wa{wl{Dk {C[{DNo{wrt{Whern Fort{wre{Dss{C]{x~
+~
+0 0 0
+D0
+~
+~
+0 0 26136
+D2
+~
+~
+0 0 26134
+S
+#26136
+{DN{wo{Wrtheast Tow{we{Dr {C[{DNo{wrt{Whern Fort{wre{Dss{C]{x~
+~
+0 0 0
+D0
+~
+~
+0 0 26137
+D2
+~
+~
+0 0 26135
+S
+#26137
+{DN{wo{Wrtheastern Tow{we{Dr {C[{DNo{wrt{Whern Fort{wre{Dss{C]{x~
+~
+0 0 0
+D2
+~
+~
+0 0 26136
+D3
+~
+~
+0 0 26138
+S
+#26138
+{DW{wa{Wll Wa{wl{Dk {C[{DNo{wrt{Whern Fort{wre{Dss{C]{x~
+~
+0 0 0
+D1
+~
+~
+0 0 26137
+D3
+~
+~
+0 0 26139
+S
+#26139
+{DW{wa{Wll Wa{wl{Dk {C[{DNo{wrt{Whern Fort{wre{Dss{C]{x~
+~
+0 0 0
+D1
+~
+~
+0 0 26138
+D3
+~
+~
+0 0 26178
+S
+#26140
+{DK{we{Wep Walkw{wa{Dy {C[{DNo{wrt{Whern Fort{wre{Dss{C]{x~
+{DThe{w pathway i{Ws crowded by the vegetation growing along the {wedges.  T{Do the{x
+{Deast, {wvines cr{Wawl up the inner curtain, climbing to the wall w{walk. Tend{Drils{x
+{Dof g{wreenery c{Wlutch onto the rocks of a high keep to the west. {wThe light{Ds of{x
+{Dthe t{wower can {Wbe see flickering through the pointed arch wind{wows and b{Darely{x
+{Dthroug{wh the arr{Wow slits in the walls.{x
+~
+0 0 0
+D0
+~
+~
+0 0 26141
+D2
+~
+~
+0 0 26171
+S
+#26141
+{DK{we{Wep Walkw{wa{Dy {C[{DNo{wrt{Whern Fort{wre{Dss{C]{x~
+{DA g{warden, onc{We flourished with spices, grows between the k{weep pathwa{Dy and{x
+{Dthe {whigh wall {Wto the north.  Now the patch is filled with vin{wes crawlin{Dg up{x
+{Dthe {wfortificat{Wion, clinging to the stones.  The long tendrils {wof vegeta{Dtion,{x
+{Dsome {wtrampled b{Wy foot traffic, also grows from the crevices {win the wal{Dkway.{x
+{DA stai{wrway leads {Wup to the west to the main entrance of a k{weep.{x
+~
+0 0 0
+D2
+~
+~
+0 0 26140
+D4
+~
+~
+0 0 26165
+S
+#26142
+{DN{we{Wr'zgul's Ke{we{Dp {C[{DNo{wrt{Whern Fort{wre{Dss{C]{x~
+{DThe{w flames of {Wthe torches, mounted on the walls, dance {was gusts o{Df wind{x
+{Dblow {wthrough th{We doorway or through windows with open or m{wissing shu{Dtters{x
+{DThe {wlight reve{Wals a rusted staircase, entangled in vines, s{wpiraling u{Dp to{x
+{Dthe {wsecond flo{Wor. Rusted hinges precariously cling to a jam{wb of a doo{Drway{x
+{Dlead{wing to a ro{Wom to the south.  The wooden door had been {wdestroyed, {Dused{x
+{Das fi{wrewood. The {Wmain entryway to the east, leads out to {wthe outer {Dbailey{x
+{Dof the {wcitadel.{x
+~
+0 0 0
+D1
+~
+door~
+1 0 26165
+D2
+~
+~
+0 0 26144
+D3
+~
+~
+0 0 26143
+D4
+~
+~
+0 0 26146
+S
+#26143
+{DN{we{Wr'zgul's Ke{we{Dp {C[{DNo{wrt{Whern Fort{wre{Dss{C]{x~
+{DTor{wches, moun{Wted on the walls, shine down a stairway leadi{wng to a du{Dngeon.{x
+{DA wo{woden door, {Wwhich once blocked the entryway, has been dest{wroyed and {Dused {x
+{Dfor {wfirewood. {WThe loose rusted hinges still cling to the ston{we frame of {Dthe {x
+{Dbase{wment entry. {W Vines, beginning to proliferate, have enter{wed the cor{Dridor{x
+{Dthrou{wgh cracks {Win the walls.{x
+~
+0 0 0
+D1
+~
+~
+0 0 26142
+D5
+~
+~
+0 0 26158
+S
+#26144
+{DG{wu{Ward Barrac{wk{Ds {C[{DN{we{Wr'zgul's Ke{we{Dp{C]{x~
+{DThe{w old, worn{W floors, splintering and rutting slowly, crea{wks as weig{Dht is{x
+{Dappli{wed to it. {W The torches on the walls flicker, threatening {wto go out{w, as{x
+{Dgust{ws of wind {Wenter the open windows where the shutters have {wbeen destr{Doyed{x
+{Dand u{wsed for fi{Wrewood.  Wooden beds lining the walls have al{wso been re{Dmoved{x
+{Dand bu{wrned as fu{Wel.{x
+~
+0 0 0
+D0
+~
+~
+0 0 26142
+D3
+~
+~
+0 0 26145
+S
+#26145
+{DC{wa{Wptain's Quarte{wr{Ds {C[{DN{we{Wr'zgul's Ke{we{Dp{C]{x~
+{DThi{ws room has {Wbeen stripped bare of all its wooden objects {wexcept th{De old{x
+{Dcrea{wky floor. T{Worches illuminate the room stained with blood a{wnd invade{Dd by{x
+{Dthe {wlong tendr{Wils of vines.  Gusts of wind enter the quarters {wthrough o{Dpen{x
+{Dwind{wows with mi{Wssing or destroyed shutters. The rusty hinges {wof the mi{Dssing{x
+{Ddoor {wstill hangs{W on the frame of the doorway.{x
+~
+0 0 0
+D1
+~
+~
+0 0 26144
+S
+#26146
+{DD{wi{Wning Ha{wl{Dl {C[{DN{we{Wr'zgul's Ke{we{Dp{C]{x~
+{DTor{wches, mount{Wed on the walls, reveal a hall void of anyt{whing usefu{Dl.  The{x
+{Dlong {wdining tab{Wles and benches are reduced to splinters and {wlie scatte{Dred on{x
+{Dthe {wold wooden {Wfloor. Shadows dance as the flickering flames w{waver, bl{Down by{x
+{Dthe {wwind enteri{Wng through the windows with their shutters l{weft open.  {DSpiral {x
+{Dstair{wcases lead {Wup and down the keep.{x
+~
+0 0 0
+D2
+~
+~
+0 0 26149
+D4
+~
+~
+0 0 26150
+D5
+~
+~
+0 0 26142
+S
+#26147
+{DS{wt{Worage Ro{wo{Dm {C[{DN{we{Wr'zgul's Ke{we{Dp{C]{x~
+{DThe supplies {wwhich once filled th{Wis room has b{ween removed and {Ddiscarded{x
+{Dby the undead {warmy. The old shelve{Ws have been des{wtroyed and the s{Dplinters {x
+{Dlie on the flo{wor along with traces {Wof flour and a {wfew grains.  Th{De wooden{x
+{Ddoor which sepa{wrated the storage fr{Wom the sculle{wry has been remo{Dved.{x
+~
+0 0 0
+D2
+~
+~
+0 0 26148
+S
+#26148
+{DS{wc{Wulle{wr{Dy {C[{DN{we{Wr'zgul's Ke{we{Dp{C]{x~
+{DMost of {wthe items in th{Wis room have been removed or des{wtroyed. A {Dheavy{x
+{Dstone sin{wk, once used to {Wwash utensils, is the only item s{wtill remai{Dning.{x
+{DA small {warea of the cre{Waky wooden floor has decayed, rotte{wd by the w{Dater{x
+{Dspilt dur{wing washing. Sp{Wikes still remain in the walls wh{were a teth{Dering {x
+{Dline once {wstretched acros{Ws the room to hang poultry.{x
+~
+0 0 0
+D0
+~
+~
+0 0 26147
+D1
+~
+~
+0 0 26149
+S
+#26149
+{DK{wi{Wtch{we{Dn {C[{DN{we{Wr'zgul's Ke{we{Dp{C]{x~
+{DA wood b{wurning hearth, {Wonce filled with dancing flames co{woking an a{Dnimal{x
+{Don a spit{w, sits cold and {Wunused. Other smaller fireplaces, t{wheir black{Dened{x
+{Dcauldron{ws missing, piec{Wes of unburnt wood buried in a mound {wof ashes, {Dhave{x
+{Dalso gone {wwithout being {Wused for a while. A few burn marks {wscar the c{Dreaky{x
+{Dwooden flo{wor where embers {Whave escaped the fireplaces.{x
+~
+0 0 0
+D0
+~
+~
+0 0 26146
+D3
+~
+~
+0 0 26148
+S
+#26150
+{DT{wh{Wird Flo{wo{Dr {C[{DN{we{Wr'zgul's Ke{we{Dp{C]{x~
+{DThe {wtorches, m{Wounted on the walls, flicker and the shado{wws dance t{Do the{x
+{Drhyth{wm of the f{Wlames. The stones of the keep are cracking s{wlowly over {Dtime.{x
+{DSpli{wnters from {Wthe worn wooden floor are scattered along th{we corridor. {DThe{x
+{Dhallw{way continu{Wes west, while a doorless chamber lies to t{whe south, {Dand a{x
+{Dspiral {wstaircase {Wleads down to the dining hall.{x
+~
+0 0 0
+D2
+~
+~
+0 0 26151
+D3
+~
+~
+0 0 26153
+D5
+~
+~
+0 0 26146
+S
+#26151
+{DT{wh{Wird Flo{wo{Dr {C[{DN{we{Wr'zgul's Ke{we{Dp{C]{x~
+{DOnc{we the servants {Wquarters, everthing has been removed exc{wept the to{Drches{x
+{Dmoun{wted on the wall{Ws. The flames dance as an occasional wind {wenters thr{Dough{x
+{Dthe {wwindows with t{Wheir shutters left open. Shadows become ani{wmated, kee{Dping{x
+{Drhyt{whm with the fir{We, moving wildly on the walls.  The old, {wwooden flo{Dor is {x
+{Dcreak{wy and has begun {Wto splinter.{x
+~
+0 0 0
+D0
+~
+~
+0 0 26150
+S
+#26152
+{DQu{war{Wters of the King's Gu{war{Dds {C[{DN{we{Wr'zgul's Ke{we{Dp{C]{x~
+{DOpe{wn shutters {Wallow the wind to enter the chamber and make {wan attem{Dpt to{x
+{Ddous{we the torch{Wes.  The light reveals an almost empty room whe{wre beds {Donce{x
+{Dline{wd the room{W and weapons racks were mounted on the walls. Th{we old wo{Doden{x
+{Dfloor {whas begun {Wto get worn causing splinters protrude from t{whe board{Ds.  {x
+~
+0 0 0
+D0
+~
+~
+0 0 26153
+S
+#26153
+{DT{wh{Wird Flo{wo{Dr {C[{DN{we{Wr'zgul's Ke{we{Dp{C]{x~
+{DTor{wches, moun{Wted on the walls, reveal a rusted spiral stair{wcase leadi{Dng up{x
+{Dto t{whe fourth {Wfloor. The corroded support brackets have pulled {waway from {Dthe {x
+{Dwal{wl, causing {Wthe steps to become shaky. Veins of cracks appea{wr on the w{Dalls{x
+{Dwith {wstone chip{Ws littering the old creaky floor. A chamber wi{wth no doo{wr lies {x
+{Dto th{we south.{x
+~
+0 0 0
+D1
+~
+~
+0 0 26150
+D2
+~
+~
+0 0 26152
+D4
+~
+~
+0 0 26154
+S
+#26154
+{DF{wo{Wurth Flo{wo{Dr {C[{DN{we{Wr'zgul's Ke{we{Dp{C]{x~
+{DA single torch {wflickers above the rust{Wed, old spiral staircase leading{x
+{Ddown.  Vines hav{we entangled themselves {Waround the metal rails which have{x
+{Dpulled away fro{wm the walls. Veins of c{Wracks appear on the stones and the
+{Dsmall pieces h{wave rained onto the flo{Wor.  The corridor continues south.{x
+~
+0 0 0
+D2
+~
+~
+0 0 26155
+D5
+~
+~
+0 0 26153
+S
+#26155
+{DDa{wrk {WCorr{wid{Dor {C[{DN{we{Wr'zgul's Ke{we{Dp{C]{x~
+~
+0 0 0
+D0
+~
+~
+0 0 26154
+D3
+~
+~
+0 0 26156
+S
+#26156
+{DS{wt{Weel::Do{wo{Dr {C[{DN{we{Wr'zgul's Ke{we{Dp{C]{x~
+~
+0 0 0
+D0
+~
+~
+0 0 26157
+D1
+~
+~
+0 0 26155
+S
+#26157
+{DT{wh{Wrone Ro{wo{Dm {C[{DN{we{Wr'zgul's Ke{we{Dp{C]{x~
+~
+0 0 0
+D2
+~
+~
+0 0 26156
+S
+#26158
+{DD{wu{Wngeon Corrid{wo{Dr {C[{DN{we{Wr'zgul's Ke{we{Dp{C]{x~
+{DThe {wtorches, mo{Wunted on the walls, flicker slowly and the {wsmoke ris{Des to{x
+{Dthe a{wrched ceili{Wng, slowly dissipating. The light reveals a c{worridor f{Dilled{x
+{Dwith {wcracks and {Wbroken stones which have rained on the floor.  {wVines i{Dnvade{x
+{Dthrou{wgh the fiss{Wures, slowly entering the hallway. a stone s{wtaircase {Dclimbs{x
+{Dup to {wthe first f{Wloor.{x
+~
+0 0 0
+D3
+~
+~
+0 0 26162
+D4
+~
+~
+0 0 26143
+S
+#26159
+{DD{wu{Wnge{wo{Dn {C[{DN{we{Wr'zgul's Ke{we{Dp{C]{x~
+{DTor{wturing dev{Wices sit in the flickering light of the {wwall torch{Des. A{x
+{Dtort{wure rack, {Wchairs, and other apparatuses have been le{wft in this {Droom{x
+{Dto b{we used on {Wthe enemies of the undead. A steel gibbet {wcage hang{Ds by a{x
+{Dchain {wfrom the {Wceiling in one section of the chamber.{x
+~
+0 0 0
+D0
+~
+~
+0 0 26160
+D1
+~
+~
+0 0 26161
+D2
+~
+~
+0 0 26162
+S
+#26160
+{DD{wu{Wngeon Ce{wl{Dl {C[{DN{we{Wr'zgul's Ke{we{Dp{C]{x~
+{DA few pa{wirs of manacle{Ws still hang from the walls, bu{wt holes re{Dmain where{x
+{Dthe other{ws have been re{Wmoved.  Vines have invaded the ce{wll through {Dthe many{x
+{Dveins of {wcracks appeari{Wng on the interior made of stone {wblocks.  T{Dhe floor,{x
+{Dalso line{wd with fissures{W, is covered with straw. To th{we south, a {Drusted old{x
+{Ddoor has b{ween left open.{x
+~
+0 0 0
+D2
+~
+~
+0 0 26159
+S
+#26161
+{DD{wu{Wngeon Ce{wl{Dl {C[{DN{we{Wr'zgul's Ke{we{Dp{C]{x~
+{DPairs of {wmanacles dangle{W from the cracked wall{ws filled with h{Doles where{x
+{Dother rest{wraints were once {Wmounted.  Vines have e{wntered the cell {Dfrom the{x
+{Dmany fiss{wures veining the {Wcramp and dank chamber.  {wStraw covers {Dthe stone{x
+{Dfloor infe{wsted with tendril{Ws of vegetation.  A ru{wsted metal doo{Dr has been{x
+{Dleft open a{wnd leads out to a {Wtorture chamber to {wthe west.{x
+~
+0 0 0
+D3
+~
+~
+0 0 26159
+S
+#26162
+{DD{wu{Wngeon Corrid{wo{Dr {C[{DN{we{Wr'zgul's Ke{we{Dp{C]{x~
+{DA solita{wry torch is mou{Wnted on the west wall wh{wile others are {Dmounted on{x
+{Dthe north {wand south wall{Ws. Doorless entry ways lea{wd north to a du{Dngeon and{x
+{Dsouth to {wan old storage {Wroom.  Vines, entering the {wbasement throu{Dgh cracks{x
+{Din the pa{wvement, crowd t{Whe doorways. The shadows {wmove to the rhy{Dthm of the{x
+{Dflickering {wflames, animat{Wed by a slight breeze.{x
+~
+0 0 0
+D0
+~
+~
+0 0 26159
+D1
+~
+~
+0 0 26158
+D2
+~
+~
+0 0 26163
+S
+#26163
+{DS{wt{Worage Ro{wo{Dm {C[{DN{we{Wr'zgul's Ke{we{Dp{C]{x~
+{DThe{w storage h{Was been cleared of all its contents and is {wpracticall{Dy bare.{x
+{DIn a {wcorner li{We the gray ashes of the double doors to this {wchamber us{Ded as{x
+{Dfire{wwood alon{Wg with the wooden shelves which once lined the {wwalls. Tor{Dches{x
+{Dhave {wbeen moun{Wted on the walls to illuminate this room expo{wsing the c{Dracks{x
+{Dwhich {wvein the {Wwalls. A few vines have managed to invade, {wentering t{Dhrough{x
+{Dthe fis{wsures.{x
+~
+0 0 0
+D0
+~
+~
+0 0 26162
+S
+#26164
+{DEn{wtr{Wance to Inner Ba{wil{Dey {C[{DNo{wrt{Whern Fort{wre{Dss{C]{x~
+{DThe {wlarge twin {Wgates, which once stood in this archway, have {wbeen dest{Droyed{x
+{Dand u{wsed as fire{Wwood. One of the heavy hinges, corroded with rus{wt, hangs {Dfrom{x
+{Dthe {wframe of th{We gateway. Vines have entered through the cracks {win the gr{Dound{x
+{Dand c{wrept its wa{Wy up the walls, clinging to the stones.  To th{we east lie{Ds the{x
+{Dinner {wbailey and {Wthe outer bailey is to the west.{x
+~
+0 0 0
+D1
+~
+~
+0 0 26166
+D3
+~
+~
+0 0 26112
+S
+#26165
+{DS{wt{Wairw{wa{Dy {C[{DN{we{Wr'zgul's Ke{we{Dp{C]{x~
+{DThi{ws is the e{Wntrance to a stone keep, towering high ab{wove.  Vine{Ds have{x
+{Dtake{wn a hold o{Wf the tall structure and have entwined them{wselves aro{Dund it.{x
+{DThe {wlong thic{Wk tendrils have been chopped away from the en{wtryway to {Dallow{x
+{Dpassa{wge.  Ston{Wes from the staircase, entangled in the gre{wen rope, {Dleading{x{w
+{Ddown t{wo the eas{Wt, have slowly disappeared over the years{w.{x
+~
+0 0 0
+D3
+~
+~
+1 0 26142
+D5
+~
+~
+0 0 26141
+S
+#26166
+{DI{wn{Wner Bail{we{Dy {C[{DNo{wrt{Whern Fort{wre{Dss{C]{x~
+{DThe{w inner war{Wd has been invaded by vegetation entering th{we fortific{Dation{x
+{Dthrou{wgh breach{Wes in the upheaved ground.  Long green tendril{ws climb up {Dthe{x
+{Dinne{wr curtain, {Wclinging to the cracking rocks of the walls. {w A stable, {Dits{x
+{Dstruc{wture about {Wto collapse, stands to the north. The outer {wbailey li{Des to{x
+{Dthe we{wst.{x
+~
+0 0 0
+D0
+~
+~
+0 0 26170
+D1
+~
+~
+0 0 26167
+D3
+~
+~
+0 0 26164
+S
+#26167
+{DI{wn{Wner Bail{we{Dy {C[{DNo{wrt{Whern Fort{wre{Dss{C]{x~
+Buildings, about to collapse, stand to the east and northwest.  The ground
+of the inner ward is littered with stones from these structures covered with
+long, green tendrils of vegetation. The floor is uneven from vines upheaving
+upheaving the hard dirt. The climbing plants also cling to the inner curtain
+rising to the north.
+~
+0 0 0
+D0
+~
+~
+0 0 26169
+D1
+~
+~
+0 0 26168
+D3
+~
+~
+0 0 26166
+S
+#26168
+{DG{wu{Ward Barrac{wk{Ds {C[{DNo{wrt{Whern Fort{wre{Dss{C]{x~
+The wall mounted torches flicker, threatening to go out, as the wind
+blows through the barracks. Wood splinters from the destroyed door and
+shutters lie scattered across the room.  All the furnishings have been
+removed and discarded or used as fuel.  Vines have entered through the
+fissures in the stone floor and partially fills the structure which is
+starting to collapse.  
+~
+0 0 0
+D3
+~
+~
+0 0 26167
+S
+#26169
+{DI{wn{Wner Bail{we{Dy {C[{DNo{wrt{Whern Fort{wre{Dss{C]{x~
+~
+0 0 0
+D1
+~
+~
+0 0 26171
+D2
+~
+~
+0 0 26167
+D3
+~
+~
+0 0 26170
+S
+#26170
+{DS{wt{Wabl{we{Ds {C[{DNo{wrt{Whern Fort{wre{Dss{C]{x~
+{DThe thic{wk posts support{Wing the roof has been le{wft intact, but {Dthe wooden{x
+{Dplanks wh{wich formed the {Wstalls have been destroyed{w.  The bales of{D hay have{x
+{Dbeen rem{woved and only s{Wome scattered straws remain{w. Old rusty hoo{Dks, which{x
+{Dequipment {whung from, sti{Wll remain mounted on the {wwalls.  Doors t{Do the east{x
+{Dand south {wlead out to the {Winner bailey.{x
+~
+0 0 0
+D1
+~
+~
+0 0 26169
+D2
+~
+~
+0 0 26166
+S
+#26171
+{DI{wn{Wner Bail{we{Dy {C[{DNo{wrt{Whern Fort{wre{Dss{C]{x~
+~
+0 0 0
+D0
+~
+~
+0 0 26140
+D3
+~
+~
+0 0 26169
+S
+#26172
+{DO{wu{Wter Bail{we{Dy {C[{DNo{wrt{Whern Fort{wre{Dss{C]{x~
+~
+0 0 0
+D0
+~
+~
+0 0 26175
+D1
+~
+~
+0 0 26173
+D2
+~
+~
+0 0 26110
+D3
+~
+~
+0 0 26174
+S
+#26173
+{DG{wr{Weat Ha{wl{Dl {C[{DNo{wrt{Whern Fort{wre{Dss{C]{x~
+{DThe{w flames of {Wthe torches, mounted on the walls, dance as {wthe wind e{Dnters{x
+{Dthe l{warge hall {Wthrough the open windows. The long dining tabl{wes and ben{Dches,{x
+{Dwhic{wh once fil{Wled the center of the floor, have been destroyed {wand burnt {Das{x
+{Dfire{wwood.  A f{Wireplace, a few stones missing, filled with piec{wes of char{Dred{x
+{Dwood {whalf-burie{Wd in the ashes, stands against the east wall. {wColored s{Dhreds{x
+{Dof clo{wth, remnan{Wts of a castle banner, lie scattered around {wthe room.{x
+~
+0 0 0
+D0
+~
+~
+0 0 26176
+D3
+~
+~
+0 0 26172
+S
+#26174
+{DO{wu{Wter Bail{we{Dy {C[{DNo{wrt{Whern Fort{wre{Dss{C]{x~
+~
+0 0 0
+D0
+~
+~
+0 0 26177
+D1
+~
+~
+0 0 26172
+D2
+~
+~
+0 0 26111
+S
+#26175
+{DS{we{Wrvant's Quarte{wr{Ds {C[{DNo{wrt{Whern Fort{wre{Dss{C]{x~
+All the wooden furnitures have been stripped from this chamber and used as
+firewood. Doors no longer stand in the arched doorways and rusty hinges hang 
+on the window frames where shutters once kept the cold wind out.  The flames
+of the wall mounted torches illuminate this practically empty quarters where
+a fireplace is built into the north wall.
+~
+0 0 0
+D1
+~
+~
+0 0 26176
+D2
+~
+~
+0 0 26172
+S
+#26176
+{DK{wi{Wtch{we{Dn {C[{DNo{wrt{Whern Fort{wre{Dss{C]{x~
+Vines, penetrating the tiled floor, have entangled themselves around stone
+hearth built along the east wall. The pit, once roasted meat on a spit, sits
+cold, filled with ashes and half-burnt pieces of wood. A cracked sink with a
+portion of it missing and covered with a mesh of green tendrils, is set near
+the western door.  All wooden items have been removed and used as firewood.
+~
+0 0 0
+D2
+~
+~
+0 0 26173
+D3
+~
+~
+0 0 26175
+S
+#26177
+{DC{wh{Wap{we{Dl {C[{DNo{wrt{Whern Fort{wre{Dss{C]{x~
+{DA l{warge stone {Wcross, entangled in a mesh of vines, still {wremains mo{Dunted{x
+{Don t{whe northern {Wwall. An attempt by the undead minions to re{wmove it ca{Dused{x
+{Dthe{wm to get bu{Wrned by it so, it was left alone.  A stone alta{wr, lined w{Dith{x
+{Dcrac{wks, also s{Wtands here in the clutches of the tendrils of {wthe vegeta{Dtion. {x
+{DThe p{wews have b{Ween destroyed and used for firewood.  A rop{we hangs fro{Dm the{x
+{Dbelfry {win the so{Wuthern section of the chapel.{x
+~
+0 0 0
+D2
+~
+~
+0 0 26174
+S
+#26178
+{DW{wa{Wll Wa{wl{Dk {C[{DNo{wrt{Whern Fort{wre{Dss{C]{x~
+~
+0 0 0
+D1
+~
+~
+0 0 26139
+D3
+~
+~
+0 0 26179
+S
+#26179
+{DN{wo{Wrthern Tow{we{Dr {C[{DNo{wrt{Whern Fort{wre{Dss{C]{x~
+~
+0 0 0
+D1
+~
+~
+0 0 26178
+D2
+~
+~
+0 0 26126
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+D 0 26142 1 1
+D 0 26165 3 1
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

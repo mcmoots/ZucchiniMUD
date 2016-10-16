@@ -1,0 +1,246 @@
+/***************************************************************************
+ *  Original Diku Mud copyright (C) 1990, 1991 by Sebastian Hammer,        *
+ *  Michael Seifert, Hans Henrik Strfeldt, Tom Madsen, and Katja Nyboe.    *
+ *                                                                         *
+ *  Merc Diku Mud improvments copyright (C) 1992, 1993 by Michael          *
+ *  Chastain, Michael Quan, and Mitchell Tse.                              *
+ *                                                                         *
+ *  In order to use any part of this Merc Diku Mud, you must comply with   *
+ *  both the original Diku license in 'license.doc' as well the Merc       *
+ *  license in 'license.txt'.  In particular, you may not remove either of *
+ *  these copyright notices.                                               *
+ *                                                                         *
+ *  Much time and thought has gone into this software and you are          *
+ *  benefitting.  We hope that you share your changes too.  What goes      *
+ *  around, comes around.                                                  *
+ ***************************************************************************/
+
+/***************************************************************************
+ *    ROM 2.4 is copyright 1993-1998 Russ Taylor                           *
+ *    ROM has been brought to you by the ROM consortium                    *
+ *        Russ Taylor (rtaylor@hypercube.org)                              *
+ *        Gabrielle Taylor (gtaylor@hypercube.org)                         *
+ *        Brian Moore (zump@rom.org)                                       *
+ *    By using this code, you have agreed to follow the terms of the       *
+ *    ROM license, in the file Rom24/doc/rom.license                       *
+ ***************************************************************************/
+
+/***************************************************************************
+ *  Skill Tiers Snippet by Mark Johnson.  June 2008                        *
+ *  Do whacha like with my code, It's not that complicated                 *
+ *  You can e-mail me if you want mark.mrwizard@gmail.com                  *
+ *  I offer no guarantees for this, I havn't even tested it yet,           *
+ *  so in all likelihood it shouldn't work, it's more of a concept.        *
+ ***************************************************************************/
+
+Let's Tier up some Skills
+
+To make a second tier skill just add the appropriate gsn pointer and
+make it a number higher than tier 1, preferabbly 2.  This doesn't yet
+make use of different tier levels above 1, but I put it in case I wanted
+to.
+
+We'll need to add the ++ lines to below
+
+These are in Merc.h
+/*
+ * Skills include spells as a particular case.
+ */
+struct    skill_type
+{
+    char *    name;            /* Name of skill        */
+    sh_int    skill_level[MAX_CLASS];    /* Level needed by class    */
+    sh_int    rating[MAX_CLASS];    /* How hard it is to learn    */    
+    SPELL_FUN *    spell_fun;        /* Spell pointer (for spells)    */
+    sh_int    target;            /* Legal targets        */
+    sh_int    minimum_position;    /* Position for caster / user    */
+    sh_int *    pgsn;            /* Pointer to associated gsn    */
+    sh_int    slot;            /* Slot for #OBJECT loading    */
+    sh_int    min_mana;        /* Minimum mana used        */
+    sh_int    beats;            /* Waiting time after use    */
+++  sh_int *    nt_pgsn;            /* Pointer to Next Tier gsn    */
+++  sh_int    tier;               /* Which tier the skill is    */
+    char *    noun_damage;        /* Damage message        */
+    char *    msg_off;        /* Wear off message        */
+    char *    msg_obj;        /* Wear off message for obects    */
+};
+
+prolly need to add;
+
+    sh_int *    nt_pgsn;            /* Pointer to Next Tier gsn    */
+    sh_int      tier;               /* Which tier the skill is    */
+
+example skill from const.c:
+
+    {
+     "spear", {1}, {4},
+     spell_null, TAR_IGNORE, POS_FIGHTING,
+     &gsn_spear, SLOT (0), 0, 0,
+     "", "!Spear!", ""},
+
+will become.  Every skill must be changed in this manner.
+
+    {
+     "spear", {1}, {4},
+     spell_null, TAR_IGNORE, POS_FIGHTING,
+     &gsn_spear, SLOT (0), 0, 0,
+++   &gsn_spear_tier2, 1,
+     "", "!Spear!", ""},
+
+
+We don't want people practicing 2nd Tier skills because they're too complex,
+players must learn them from use.
+
+act_info.c:
+
+
+skills.c:
+
+in do_gain:
+
+    if (!str_prefix (arg, "list"))
+    {
+
+        sprintf (buf, "%-18s %-5s %-18s %-5s %-18s %-5s\n\r",
+                 "skill", "cost", "skill", "cost", "skill", "cost");
+        send_to_char (buf, ch);
+
+        for (sn = 0; sn < MAX_SKILL; sn++)
+        {
+            if (skill_table[sn].name == NULL)
+                break;
+
+++          if (skill_table[sn].tier > 1)
+++              continue;
+
+            if (!ch->pcdata->learned[sn]
+                && skill_table[sn].rating[ch->class] > 0
+                && skill_table[sn].spell_fun == spell_null)
+
+        }
+
+then farther down:
+
+    /* else add a group/skill */
+
+    sn = skill_lookup (argument);
+    if (sn > -1)
+    {
+        if (skill_table[sn].spell_fun != spell_null)
+        {
+            act ("$N tells you 'You must learn the full group.'",
+                 ch, NULL, trainer, TO_CHAR);
+            return;
+        }
+
+
+        if (ch->pcdata->learned[sn])
+        {
+            act ("$N tells you 'You already know that skill!'",
+                 ch, NULL, trainer, TO_CHAR);
+            return;
+        }
+
+++      if (skill_table[sn].tier > 1)
+++      {
+++          act ("$N tells you 'This skill can not be gained in the traditional method.'",
+++               ch, NULL, trainer, TO_CHAR);
+++          return;
+++      }
+
+        if (skill_table[sn].rating[ch->class] <= 0)
+        {
+            act ("$N tells you 'That skill is beyond your powers.'",
+                 ch, NULL, trainer, TO_CHAR);
+            return;
+        }
+
+        if (ch->train < skill_table[sn].rating[ch->class])
+        {
+            act ("$N tells you 'You are not yet ready for that skill.'",
+                 ch, NULL, trainer, TO_CHAR);
+            return;
+        }
+
+        /* add the skill */
+        ch->pcdata->learned[sn] = 1;
+        act ("$N trains you in the art of $t",
+             ch, skill_table[sn].name, trainer, TO_CHAR);
+        ch->train -= skill_table[sn].rating[ch->class];
+        return;
+    }
+
+and in list_group_costs:
+
+/* shows skills, groups and costs (only if not bought) */
+void list_group_costs (CHAR_DATA * ch)
+
+    for (sn = 0; sn < MAX_SKILL; sn++)
+    {
+        if (skill_table[sn].name == NULL)
+            break;
+
+        if (!ch->gen_data->skill_chosen[sn]
+            && ch->pcdata->learned[sn] == 0
+            && skill_table[sn].spell_fun == spell_null
+            && skill_table[sn].rating[ch->class] > 0
+++          && skill_table[sn].tier == 1)
+        {
+            sprintf (buf, "%-18s %-5d ", skill_table[sn].name,
+                     skill_table[sn].rating[ch->class]);
+            send_to_char (buf, ch);
+            if (++col % 3 == 0)
+                send_to_char ("\n\r", ch);
+        }
+    }
+
+In check_improve:
+
+    /* now that the character has a CHANCE to learn, see if they really have */
+
+    if (success)
+    {
+        chance = URANGE (5, 100 - ch->pcdata->learned[sn], 95);
+        if (number_percent () < chance)
+        {
+            sprintf (buf, "You have become better at %s!\n\r",
+                     skill_table[sn].name);
+            send_to_char (buf, ch);
+            ch->pcdata->learned[sn]++;
+            gain_exp (ch, 2 * skill_table[sn].rating[ch->class]);
+        }
+    }
+
+    else
+    {
+        chance = URANGE (5, ch->pcdata->learned[sn] / 2, 30);
+        if (number_percent () < chance)
+        {
+            sprintf (buf,
+                     "You learn from your mistakes, and your %s skill improves.\n\r",
+                     skill_table[sn].name);
+            send_to_char (buf, ch);
+            ch->pcdata->learned[sn] += number_range (1, 3);
+            ch->pcdata->learned[sn] = UMIN (ch->pcdata->learned[sn], 100);
+            gain_exp (ch, 2 * skill_table[sn].rating[ch->class]);
+        }
+    }
+
+obviously we're going to need to define our new variable at the 
+beginning of the function like a good programmer.
+
+For some reason I feel that typecasting as an (int) into tsn
+in this way is not proper... but I don't know what I'm doing so
+we'll go with it.
+
+++  int tsn;
+
+++    /* Now let's check to see if we have new upper tier skill accessed */
+++    if (ch->pcdata->learned[sn] == 100 && *skill_table[sn].nt_pgsn > 0)
+++    {
+++        tsn = *skill_table[sn].nt_pgsn;
+++        ch->pcdata->learned[tsn] = 1;
+++        act ("You become aware of your ability in $t",
+++            ch, skill_table[tsn].name, NULL, TO_CHAR);
+++    }
+

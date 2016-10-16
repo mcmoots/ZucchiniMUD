@@ -1,0 +1,2663 @@
+#AREADATA
+Name Dunarian Mazes~
+Builders None~
+VNUMs 30500 30599
+Credits ( 20  40) {rNikol    {Y* {WDunarian Mazes{x~
+Security 9
+End
+
+
+
+#MOBILES
+#30500
+{DDark{x Champion~
+Champion of {DDarkness{x~
+A figure in black armor rests here.
+~
+~
+unique~
+ABGT DFHJTV -1000 0
+150 1800 1d1+-11072 1d1+999 6d500+900 claw
+-45 -45 -45 -45
+AH CDHIJKMN 0 0
+rest rest male 7500
+AHMV ABCDEFGHIJK medium unknown
+M GRALL 30501 100~
+#30501
+{RFire{x Champion~
+the Champion of {RFire{x~
+A figure in red robes stands here.
+~
+~
+human~
+ABGT DFHJV 0 0
+150 1800 24464d1+0 1d1+999 600d1+0 flbite
+-45 -45 -45 -45
+0 CHIJKMN 0 0
+stand stand female 7500
+V ABCEFGHM medium unknown
+F for AHM
+F par DIJK
+M GRALL 30500 100~
+#30502
+{CIce{x Champion~
+The Champion of {CIce{x~
+A figure in {Cice{x-{Cblue{x robes stands here.
+~
+~
+unique~
+ABGT JV 0 0
+150 1800 24464d1+0 1d1+999 600d1+0 none
+-45 -45 -45 -45
+AH ABCHIJK 0 0
+stand stand none 7500
+AHMV ABCDEFGHIJK medium unknown
+M SPEECH 30503 done~
+M GRALL 30502 100~
+#30503
+Hallway Guardian~
+The Hallway Guardian~
+A large golem stands here, guarding the door south.
+~
+~
+unique~
+ABGT DFHVa -1000 0
+145 1800 -20536d1+0 1d1+999 300d1+0 pound
+-45 -45 -45 -45
+EKO ABP CD 0
+stand stand none 54000
+AHMV ABCDEFGHIJK medium unknown
+M ACT 30513 quaffs~
+M GRALL 30513 100~
+#30504
+Grey-Robed Archmage~
+a {Dgrey{x-robed archmage~
+A figure clad in grey robes stands here.
+~
+~
+unique~
+ABGR DFHJTV 0 0
+145 1800 -20536d1+0 1d1+999 320d1+0 claw
+-45 -45 -45 -45
+H ABH DM CIN
+stand stand none 54000
+AHMV ABCDEFGHIJK medium unknown
+M GRALL 30513 100~
+M ACT 30513 quaffs~
+#30506
+Death Knight~
+A {DDeath {RKnight{x~
+A knight stands here, waiting for your first move.
+~
+~
+unique~
+ABGT DFHJTUV -1000 0
+150 1800 -15536d1+0 1d1+999 350d1+0 flbite
+-45 -45 -45 -45
+H H DM CIN
+stand stand none 7500
+AHMV ABCDEFGHIJK medium unknown
+M DEATH 30510 100~
+M GRALL 30513 100~
+M ACT 30513 quaffs~
+#30507
+Slithzerekai~
+A Slithzerekai~
+A tall lizard like being stands here.
+~
+~
+lizard~
+ABGT DFHJV 0 0
+150 3000 1d1+-11072 4464d1+1000 4d750+900 none
+-45 -45 -45 -45
+ACEFKN CDHIJKLMNPQ L 0
+stand stand none 7500
+AGXc ACDEFHKQV medium unknown
+F vul I
+M KILL 30506 100~
+M SPEECH 30511 done~
+#30522
+{xMobSign~
+{x~
+{x
+~
+~
+unique~
+ABGT JV 0 0
+170 2040 1d1+4928 1d1+999 4d850+1020 none
+-51 -51 -51 -51
+AH ABCEFGHIKLMNOPQRTXYZ 0 0
+stand stand none 8500
+AHMV ABCDEFGHIJK medium unknown
+M GRALL 30504 100~
+#0
+
+
+
+#OBJECTS
+#30500
+ball flame~
+a ball of flame~
+A ball of fire floats here.~
+fire~
+trash ATU AO
+0 0 0 0 0
+131 0 0 P
+#30501
+blinding orb~
+a blinding orb~
+An orb of bone rests here.~
+bone~
+trash ABGTU AQ
+0 0 0 0 0
+131 0 0 P
+#30502
+ice shard~
+an ice shard~
+A shard of ice rests here.~
+ice~
+trash ATU AO
+0 0 0 0 0
+131 0 0 P
+#30503
+intricate key~
+an intricate key~
+An intricate key rests here.~
+steel~
+key TU A
+0 0 0 0 0
+131 0 0 P
+#30504
+bone key~
+a key of bone~
+A key carved from a vampire's bone rests here.~
+bone~
+key TU A
+0 0 0 0 0
+131 0 0 P
+#30505
+silver key~
+a silver key~
+A key of silver rests here, shining brightly.~
+unknown~
+key TU A
+0 0 0 0 0
+131 0 0 P
+#30506
+ring magi~
+ring of the Magi~
+An ancient ring rests here.~
+unknown~
+armor AV AB
+BD BD BD BD 0
+131 0 0 P
+#30507
+oberic emblem~
+{DOberic's{x Emblem~
+The emblem of Oberic, God of Darkness, rests here.~
+unknown~
+armor BCEV AJ
+BEF BEF BEF BEF 0
+131 5 0 P
+#30508
+blessing lyden~
+{CLyden's{x Blessing~
+A powerful presence floats 'ere.~
+unknown~
+treasure AV AQ
+0 0 0 0 0
+131 0 0 P
+#30509
+presence death~
+{xDeath's Presence~
+The presence of a very powerful force floats here.~
+unknown~
+light AV A
+0 0 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdef 0 0
+131 0 0 P
+#30510
+death dagger~
+{xDeath's Dagger~
+The dagger of the Angel of Death rests here.~
+unknown~
+weapon AEJLV AN
+dagger 200 1 pierce CG
+131 10 0 P
+#30511
+staff summoner~
+{xStaff of the Summoners~
+An ancient staff rests here.~
+unknown~
+weapon AFJKV AN
+polearm 200 1 pound A
+131 10 0 P
+#30512
+touch lyden~
+{xThe Touch of Lyden~
+The glove of a powerful goddess rests here.~
+unknown~
+weapon AKLV AN
+exotic 200 1 divine EG
+131 10 0 P
+#30513
+touch oberic~
+{xThe Touch of {DOberic{x~
+The gauntlet of a powerful god rests here.~
+unknown~
+weapon ACEJLV AN
+exotic 200 1 drain ACG
+131 10 0 P
+#30514
+leg plates death~
+{DDeath's{x Leg Plates~
+The leg plates of a powerful presence are here.~
+unknown~
+armor AJLV AF
+CFG CFG CFG CFG 0
+131 20 0 P
+#30515
+folded summoner hat~
+{xA Folded Summoner's Hat~
+A folded pile of cloth rests here.~
+unknown~
+armor BJKV 0
+BD BD BD BD 0
+131 5 0 P
+#30516
+wrist guard angelic strength~
+{xWristguard of Angelic Strength~
+A holy bracer rests here.~
+unknown~
+armor AKLV AM
+BEF BEF BEF BEF 0
+131 5 0 P
+#30517
+sign~
+{x~
+{s~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+E
+sign~
+{R********************************************************************
+{R|           {DIf whosoever wishes to leave these tunnels...          {R|
+{R|              {DThey must kill the Hallway Guardian...              {R|
+{R|           {DAnd proceed south to their next challenge...           {R|
+{R|              {DIf they succeed, they will be rewarded...           {R|
+{R|           {DIf they fail, Death will claim their head...           {R|
+{R********************************************************************
+~
+#30518
+boots stealth~
+{xBoots of Stealth~
+A set of leather boots rests here.~
+unknown~
+armor B AG
+BEF BEF BEF BEF 0
+131 0 0 P
+A
+14 1500
+A
+13 -1500
+A
+2 5
+#30519
+ilythiiri velve~
+an ilythiiri velve~
+A wicked looking whip rests here.~
+unknown~
+weapon AC AN
+whip 225 1 thwack AC
+131 3 0 P
+A
+1 5
+A
+13 500
+A
+12 -250
+#30520
+amulet power~
+the Amulet of Power~
+An amulet rests here, glowing with a red aura.~
+unknown~
+treasure ABF AC
+0 0 0 0 0
+131 0 0 P
+A
+12 1750
+A
+13 -1000
+A
+4 5
+A
+3 5
+#30521
+lydens emblem~
+{xLyden's Emblem~
+An emblem for a powerful goddess rests here.~
+unknown~
+treasure AK AO
+0 0 0 0 0
+131 0 0 P
+A
+1 -5
+A
+13 500
+A
+12 500
+A
+14 -1000
+#30522
+tiger fang blade~
+a Tiger Fang Blade~
+A tooth has been sharpened into a sword here.~
+unknown~
+weapon AB AN
+sword 225 1 slash CG
+131 5 0 P
+A
+14 1000
+A
+2 -5
+A
+13 500
+A
+12 -500
+#30523
+belt element elementalists~
+belt of the Elementalists~
+A multi-coloured belt rests here.~
+unknown~
+armor ABF AL
+BEF BEF BEF BEF 0
+131 0 0 P
+A
+13 500
+A
+12 500
+A
+14 -1000
+#30524
+sign~
+{x~
+{x~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+E
+sign~
+{R****************************************************************************************
+{R| {DIf whosoever wishes to leave these mazes, they must tell the Champion they are done. {R|
+{R| {DHe will then teleport him or her to the Hallway of Heroes, where they must           {R|
+{R|                           {DComplete their final challenge...                          {R|
+{R****************************************************************************************
+~
+#30525
+Kijira Favoriate Emperor~
+{R<{DM{W*{DM{R> {DKi-Jira, Favorite of the Emperor {R<{DM{W*{DM{R>{x~
+The blade of a long-forgotten emporer rests here.~
+unknown~
+weapon AF AN
+whip 650 1 thwack ABDEFGH
+130 21 0 P
+#30526
+Tokaia Forsaken Emporer~
+{R<{DM{W*{DM{R> {DTo-Kaia, Forsaken of the Emperor {R<{DM{W*{DM{R>{x~
+The blade of a long-forgotten emporer rests here.~
+unknown~
+weapon BF AN
+dagger 350 1 pierce ABDEFGH
+130 7 0 P
+#30599
+{x~
+{x~
+{x~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+#0
+
+
+
+#ROOMS
+#30500
+A Secret Hallway~
+{DThis hallway is known by only a few select people, and leads to the
+Dunarian Mazes.  Fire, Ice, and Darkness all await the one who dares enter. 
+{x 
+~
+0 8196 0
+S
+#30501
+Maze Entrance~
+{DThe entrance to the dreaded Dunarian Mazes lies before you.  Will you
+go east, to the Maze of Darkness?  Or perhaps south, to the Fiery Pits?  Or,
+will you go west, to the Ice Pits?  Choose well, and you may get out with
+your life and sanity intact.  {x 
+{WA large SIGN rests on the wall here.{x
+~
+0 8704 0
+E
+sign~
+{x          Rules:
+{R- Do NOT give out maze directions!{x
+{R- Do NOT give out maze rewards!{x
+ 
+{x
+~
+D0
+~
+~
+0 0 410
+D1
+~
+~
+0 0 30502
+D2
+~
+~
+0 0 30535
+D3
+~
+~
+0 0 30567
+S
+#30502
+Maze Entrance~
+{DHere is the entrance to the Mazes of Darkness.  At the end awaits the
+Dark Champion, which you must get to, if you want to leave here alive.  
+~
+0 8704 0
+D2
+~
+~
+0 0 30503
+D3
+~
+~
+0 0 30501
+S
+#30503
+{DA Dark Maze~
+{DIt is very dark here. There is barely enough light to see by.
+~
+0 8704 0
+D0
+~
+~
+0 0 30503
+D1
+~
+~
+0 0 30504
+D2
+~
+~
+0 0 30503
+D3
+~
+~
+0 0 30503
+S
+#30504
+{DA Dark Maze~
+{DIt is very dark here. There is barely enough light to see by.
+~
+0 8704 0
+D0
+~
+~
+0 0 30503
+D1
+~
+~
+0 0 30503
+D2
+~
+~
+0 0 30505
+D3
+~
+~
+0 0 30503
+S
+#30505
+{DA Dark Maze~
+{DIt is very dark here. There is barely enough light to see by.
+~
+0 8704 0
+D0
+~
+~
+0 0 30504
+D1
+~
+~
+0 0 30503
+D2
+~
+~
+0 0 30503
+D3
+~
+~
+0 0 30506
+S
+#30506
+{DA Dark Maze~
+{DIt is very dark here. There is barely enough light to see by.
+~
+0 8704 0
+D0
+~
+~
+0 0 30503
+D1
+~
+~
+0 0 30505
+D2
+~
+~
+0 0 30507
+D3
+~
+~
+0 0 30503
+S
+#30507
+{DA Dark Maze~
+{DIt is very dark here. There is barely enough light to see by.
+~
+0 8704 0
+D0
+~
+~
+0 0 30506
+D1
+~
+~
+0 0 30508
+D2
+~
+~
+0 0 30503
+D3
+~
+~
+0 0 30503
+S
+#30508
+{DA Dark Maze~
+{DIt is very dark here. There is barely enough light to see by.
+~
+0 8704 0
+D0
+~
+~
+0 0 30503
+D1
+~
+~
+0 0 30503
+D2
+~
+~
+0 0 30509
+D3
+~
+~
+0 0 30507
+S
+#30509
+{DA Dark Maze~
+{DIt is very dark here. There is barely enough light to see by.
+~
+0 8704 0
+D0
+~
+~
+0 0 30508
+D1
+~
+~
+0 0 30503
+D2
+~
+~
+0 0 30503
+D3
+~
+~
+0 0 30510
+S
+#30510
+{DA Dark Maze~
+{DIt is very dark here. There is barely enough light to see by.
+~
+0 8704 0
+D0
+~
+~
+0 0 30503
+D1
+~
+~
+0 0 30509
+D2
+~
+~
+0 0 30511
+D3
+~
+~
+0 0 30503
+S
+#30511
+{DA Dark Maze~
+{DIt is very dark here. There is barely enough light to see by.
+~
+0 8704 0
+D0
+~
+~
+0 0 30510
+D1
+~
+~
+0 0 30512
+D2
+~
+~
+0 0 30503
+D3
+~
+~
+0 0 30503
+S
+#30512
+{DA Dark Maze~
+{DIt is very dark here. There is barely enough light to see by.
+~
+0 8704 0
+D0
+~
+~
+0 0 30503
+D1
+~
+~
+0 0 30503
+D2
+~
+~
+0 0 30513
+D3
+~
+~
+0 0 30511
+S
+#30513
+Entrance to the Second Maze~
+{DBefore you lies the second maze of the Mazes of Darkness.  Completion
+of the first maze puts you that much closer to leaving, though there is
+still much to be done.  
+~
+0 512 0
+D2
+~
+~
+0 0 30514
+S
+#30514
+{DA Dark Maze~
+{DIt is very dark here. There is barely enough light to see by.
+~
+0 8704 0
+D0
+~
+~
+0 0 30514
+D1
+~
+~
+0 0 30515
+D2
+~
+~
+0 0 30514
+D3
+~
+~
+0 0 30514
+S
+#30515
+{DA Dark Maze~
+{DIt is very dark here. There is barely enough light to see by.
+~
+0 8704 0
+D0
+~
+~
+0 0 30514
+D1
+~
+~
+0 0 30514
+D2
+~
+~
+0 0 30516
+D3
+~
+~
+0 0 30514
+S
+#30516
+{DA Dark Maze~
+{DIt is very dark here. There is barely enough light to see by.
+~
+0 8704 0
+D0
+~
+~
+0 0 30515
+D1
+~
+~
+0 0 30514
+D2
+~
+~
+0 0 30514
+D3
+~
+~
+0 0 30517
+S
+#30517
+{DA Dark Maze~
+{DIt is very dark here. There is barely enough light to see by.
+~
+0 8704 0
+D0
+~
+~
+0 0 30514
+D1
+~
+~
+0 0 30516
+D2
+~
+~
+0 0 30518
+D3
+~
+~
+0 0 30514
+S
+#30518
+{DA Dark Maze~
+{DIt is very dark here. There is barely enough light to see by.
+~
+0 8704 0
+D0
+~
+~
+0 0 30517
+D1
+~
+~
+0 0 30514
+D2
+~
+~
+0 0 30519
+D3
+~
+~
+0 0 30514
+S
+#30519
+{DA Dark Maze~
+{DIt is very dark here. There is barely enough light to see by.
+~
+0 8704 0
+D0
+~
+~
+0 0 30518
+D1
+~
+~
+0 0 30520
+D2
+~
+~
+0 0 30514
+D3
+~
+~
+0 0 30514
+S
+#30520
+{DA Dark Maze~
+{DIt is very dark here. There is barely enough light to see by.
+~
+0 8704 0
+D0
+~
+~
+0 0 30514
+D1
+~
+~
+0 0 30514
+D2
+~
+~
+0 0 30521
+D3
+~
+~
+0 0 30519
+S
+#30521
+{DA Dark Maze~
+{DIt is very dark here. There is barely enough light to see by.
+~
+0 8704 0
+D0
+~
+~
+0 0 30520
+D1
+~
+~
+0 0 30514
+D2
+~
+~
+0 0 30514
+D3
+~
+~
+0 0 30522
+S
+#30522
+{DA Dark Maze~
+{DIt is very dark here. There is barely enough light to see by.
+~
+0 8704 0
+D0
+~
+~
+0 0 30514
+D1
+~
+~
+0 0 30521
+D2
+~
+~
+0 0 30523
+D3
+~
+~
+0 0 30514
+S
+#30523
+Entrance to the Third Maze~
+{DThe final maze of the Mazes of Darkness looks before you.  Complete
+this last maze, and your task will be that much closer to completion.  
+~
+0 512 0
+D2
+~
+~
+0 0 30524
+S
+#30524
+{DA Dark Maze~
+{DIt is very dark here. There is barely enough light to see by.
+~
+0 74240 0
+D0
+~
+~
+0 0 30524
+D1
+~
+~
+0 0 30524
+D2
+~
+~
+0 0 30525
+D3
+~
+~
+0 0 30524
+S
+#30525
+{DA Dark Maze~
+{DIt is very dark here. There is barely enough light to see by.
+~
+0 8704 0
+D0
+~
+~
+0 0 30524
+D1
+~
+~
+0 0 30524
+D2
+~
+~
+0 0 30526
+D3
+~
+~
+0 0 30524
+S
+#30526
+{DA Dark Maze~
+{DIt is very dark here. There is barely enough light to see by.
+~
+0 8704 0
+D0
+~
+~
+0 0 30525
+D1
+~
+~
+0 0 30524
+D2
+~
+~
+0 0 30527
+D3
+~
+~
+0 0 30524
+S
+#30527
+{DA Dark Maze~
+{DIt is very dark here. There is barely enough light to see by.
+~
+0 8704 0
+D0
+~
+~
+0 0 30526
+D1
+~
+~
+0 0 30524
+D2
+~
+~
+0 0 30528
+D3
+~
+~
+0 0 30524
+S
+#30528
+{DA Dark Maze~
+{DIt is very dark here. There is barely enough light to see by.
+~
+0 8704 0
+D0
+~
+~
+0 0 30527
+D1
+~
+~
+0 0 30524
+D2
+~
+~
+0 0 30529
+D3
+~
+~
+0 0 30524
+S
+#30529
+{DA Dark Maze~
+{DIt is very dark here. There is barely enough light to see by.
+~
+0 8704 0
+D0
+~
+~
+0 0 30528
+D1
+~
+~
+0 0 30524
+D2
+~
+~
+0 0 30530
+D3
+~
+~
+0 0 30524
+S
+#30530
+{DA Dark Maze~
+{DIt is very dark here. There is barely enough light to see by.
+~
+0 8704 0
+D0
+~
+~
+0 0 30529
+D1
+~
+~
+0 0 30524
+D2
+~
+~
+0 0 30531
+D3
+~
+~
+0 0 30524
+S
+#30531
+{DA Dark Maze~
+{DIt is very dark here. There is barely enough light to see by.
+~
+0 8704 0
+D0
+~
+~
+0 0 30530
+D1
+~
+~
+0 0 30524
+D2
+~
+~
+0 0 30532
+D3
+~
+~
+0 0 30524
+S
+#30532
+{DA Dark Maze~
+{DIt is very dark here. There is barely enough light to see by.
+~
+0 8704 0
+D0
+~
+~
+0 0 30531
+D1
+~
+~
+0 0 30524
+D2
+~
+~
+0 0 30533
+D3
+~
+~
+0 0 30524
+S
+#30533
+{DA Dark Maze~
+{DIt is very dark here. There is barely enough light to see by.
+~
+0 8704 0
+D0
+~
+~
+0 0 30532
+D1
+~
+~
+0 0 30524
+D2
+~
+~
+0 0 30534
+D3
+~
+~
+0 0 30524
+S
+#30534
+End of the Maze~
+One large stone pillar is in each corner of this room, and in the center,
+a human stands.  He motions you forward, and an aura of peace surrounds him.
+~
+0 516 0
+S
+#30535
+{DA Fiery Pit~
+{RThe area here is covered with Lava. There is a small strip of land leading north, west, east, and south..
+~
+0 8704 0
+D0
+~
+~
+0 0 30535
+D2
+~
+~
+0 0 30536
+D3
+~
+~
+0 0 30535
+S
+#30536
+{DA Fiery Pit~
+{RThe area here is covered with Lava. There is a small strip of land leading north, west, east, and south..
+~
+0 8704 0
+D0
+~
+~
+0 0 30535
+D1
+~
+~
+0 0 30535
+D2
+~
+~
+0 0 30537
+D3
+~
+~
+0 0 30535
+S
+#30537
+{DA Fiery Pit~
+{RThe area here is covered with Lava. There is a small strip of land leading north, west, east, and south..
+~
+0 8704 0
+D0
+~
+~
+0 0 30536
+D1
+~
+~
+0 0 30535
+D2
+~
+~
+0 0 30535
+D3
+~
+~
+0 0 30538
+S
+#30538
+{DA Fiery Pit~
+{RThe area here is covered with Lava. There is a small strip of land leading north, west, east, and south..
+~
+0 8704 0
+D0
+~
+~
+0 0 30535
+D1
+~
+~
+0 0 30537
+D2
+~
+~
+0 0 30539
+D3
+~
+~
+0 0 30535
+S
+#30539
+{DA Fiery Pit~
+{RThe area here is covered with Lava. There is a small strip of land leading north, west, east, and south..
+~
+0 8704 0
+D0
+~
+~
+0 0 30538
+D1
+~
+~
+0 0 30540
+D2
+~
+~
+0 0 30535
+D3
+~
+~
+0 0 30535
+S
+#30540
+{DA Fiery Pit~
+{RThe area here is covered with Lava. There is a small strip of land leading north, west, east, and south..
+~
+0 8704 0
+D0
+~
+~
+0 0 30535
+D1
+~
+~
+0 0 30535
+D2
+~
+~
+0 0 30541
+D3
+~
+~
+0 0 30539
+S
+#30541
+{DA Fiery Pit~
+{RThe area here is covered with Lava. There is a small strip of land leading north, west, east, and south..
+~
+0 8704 0
+D0
+~
+~
+0 0 30540
+D1
+~
+~
+0 0 30535
+D2
+~
+~
+0 0 30535
+D3
+~
+~
+0 0 30542
+S
+#30542
+{DA Fiery Pit~
+{RThe area here is covered with Lava. There is a small strip of land leading north, west, east, and south..
+~
+0 8704 0
+D0
+~
+~
+0 0 30535
+D1
+~
+~
+0 0 30541
+D2
+~
+~
+0 0 30543
+D3
+~
+~
+0 0 30535
+S
+#30543
+{DA Fiery Pit~
+{RThe area here is covered with Lava. There is a small strip of land leading north, west, east, and south..
+~
+0 8704 0
+D0
+~
+~
+0 0 30542
+D1
+~
+~
+0 0 30535
+D2
+~
+~
+0 0 30544
+D3
+~
+~
+0 0 30535
+S
+#30544
+{DA Fiery Pit~
+{RThe area here is covered with Lava. There is a small strip of land leading north, west, east, and south..
+~
+0 8704 0
+D0
+~
+~
+0 0 30543
+D1
+~
+~
+0 0 30535
+D2
+~
+~
+0 0 30545
+D3
+~
+~
+0 0 30535
+S
+#30545
+Entrance to the Second Maze~
+{RBefore you lies the second maze of the Fiery Pits.  Completion of this
+set of mazes puts you that much closer to victory.  
+~
+0 512 0
+D1
+~
+~
+0 0 30546
+S
+#30546
+{DA Fiery Pit~
+{RThe area here is covered with Lava. There is a small strip of land leading north, west, east, and south..
+~
+0 8704 0
+D0
+~
+~
+0 0 30546
+D1
+~
+~
+0 0 30547
+D2
+~
+~
+0 0 30546
+D3
+~
+~
+0 0 30546
+S
+#30547
+{DA Fiery Pit~
+{RThe area here is covered with Lava. There is a small strip of land leading north, west, east, and south..
+~
+0 8704 0
+D0
+~
+~
+0 0 30546
+D1
+~
+~
+0 0 30546
+D2
+~
+~
+0 0 30548
+D3
+~
+~
+0 0 30546
+S
+#30548
+{DA Fiery Pit~
+{RThe area here is covered with Lava. There is a small strip of land leading north, west, east, and south..
+~
+0 8704 0
+D0
+~
+~
+0 0 30547
+D1
+~
+~
+0 0 30546
+D2
+~
+~
+0 0 30546
+D3
+~
+~
+0 0 30549
+S
+#30549
+{DA Fiery Pit~
+{RThe area here is covered with Lava. There is a small strip of land leading north, west, east, and south..
+~
+0 8704 0
+D0
+~
+~
+0 0 30546
+D1
+~
+~
+0 0 30548
+D2
+~
+~
+0 0 30550
+D3
+~
+~
+0 0 30546
+S
+#30550
+{DA Fiery Pit~
+{RThe area here is covered with Lava. There is a small strip of land leading north, west, east, and south..
+~
+0 8704 0
+D0
+~
+~
+0 0 30549
+D1
+~
+~
+0 0 30546
+D2
+~
+~
+0 0 30551
+D3
+~
+~
+0 0 30546
+S
+#30551
+{DA Fiery Pit~
+{RThe area here is covered with Lava. There is a small strip of land leading north, west, east, and south..
+~
+0 8704 0
+D0
+~
+~
+0 0 30550
+D1
+~
+~
+0 0 30552
+D2
+~
+~
+0 0 30546
+D3
+~
+~
+0 0 30546
+S
+#30552
+{DA Fiery Pit~
+{RThe area here is covered with Lava. There is a small strip of land leading north, west, east, and south..
+~
+0 8704 0
+D0
+~
+~
+0 0 30546
+D1
+~
+~
+0 0 30546
+D2
+~
+~
+0 0 30553
+D3
+~
+~
+0 0 30551
+S
+#30553
+{DA Fiery Pit~
+{RThe area here is covered with Lava. There is a small strip of land leading north, west, east, and south..
+~
+0 8704 0
+D0
+~
+~
+0 0 30552
+D1
+~
+~
+0 0 30546
+D2
+~
+~
+0 0 30546
+D3
+~
+~
+0 0 30554
+S
+#30554
+{DA Fiery Pit~
+{RThe area here is covered with Lava. There is a small strip of land leading north, west, east, and south..
+~
+0 8704 0
+D0
+~
+~
+0 0 30546
+D1
+~
+~
+0 0 30553
+D2
+~
+~
+0 0 30546
+D3
+~
+~
+0 0 30555
+S
+#30555
+{DA Fiery Pit~
+{RThe area here is covered with Lava. There is a small strip of land leading north, west, east, and south..
+~
+0 8704 0
+D0
+~
+~
+0 0 30546
+D1
+~
+~
+0 0 30554
+D2
+~
+~
+0 0 30556
+D3
+~
+~
+0 0 30546
+S
+#30556
+Entrance to the Third Maze~
+{RBefore you lies the last maze of the Firey Pits.  You are halfway done
+with the Dunarian Mazes, though you still have much to do.  
+~
+0 512 0
+D2
+~
+~
+0 0 30557
+S
+#30557
+{DA Fiery Pit~
+{RThe area here is covered with Lava. There is a small strip of land leading north, west, east, and south..
+~
+0 8704 0
+D0
+~
+~
+0 0 30557
+D1
+~
+~
+0 0 30558
+D2
+~
+~
+0 0 30557
+D3
+~
+~
+0 0 30557
+S
+#30558
+{DA Fiery Pit~
+{RThe area here is covered with Lava. There is a small strip of land leading north, west, east, and south..
+~
+0 8704 0
+D0
+~
+~
+0 0 30557
+D1
+~
+~
+0 0 30557
+D2
+~
+~
+0 0 30559
+D3
+~
+~
+0 0 30557
+S
+#30559
+{DA Fiery Pit~
+{RThe area here is covered with Lava. There is a small strip of land leading north, west, east, and south..
+~
+0 8704 0
+D0
+~
+~
+0 0 30558
+D1
+~
+~
+0 0 30557
+D2
+~
+~
+0 0 30560
+D3
+~
+~
+0 0 30557
+S
+#30560
+{DA Fiery Pit~
+{RThe area here is covered with Lava. There is a small strip of land leading north, west, east, and south..
+~
+0 8704 0
+D0
+~
+~
+0 0 30559
+D1
+~
+~
+0 0 30557
+D2
+~
+~
+0 0 30561
+D3
+~
+~
+0 0 30557
+S
+#30561
+{DA Fiery Pit~
+{RThe area here is covered with Lava. There is a small strip of land leading north, west, east, and south..
+~
+0 8704 0
+D0
+~
+~
+0 0 30560
+D1
+~
+~
+0 0 30557
+D2
+~
+~
+0 0 30562
+D3
+~
+~
+0 0 30557
+S
+#30562
+{DA Fiery Pit~
+{RThe area here is covered with Lava. There is a small strip of land leading north, west, east, and south..
+~
+0 8704 0
+D0
+~
+~
+0 0 30561
+D1
+~
+~
+0 0 30557
+D2
+~
+~
+0 0 30563
+D3
+~
+~
+0 0 30557
+S
+#30563
+{DA Fiery Pit~
+{RThe area here is covered with Lava. There is a small strip of land leading north, west, east, and south..
+~
+0 8704 0
+D0
+~
+~
+0 0 30562
+D1
+~
+~
+0 0 30564
+D2
+~
+~
+0 0 30557
+D3
+~
+~
+0 0 30557
+S
+#30564
+{DA Fiery Pit~
+{RThe area here is covered with Lava. There is a small strip of land leading north, west, east, and south..
+~
+0 8704 0
+D0
+~
+~
+0 0 30557
+D1
+~
+~
+0 0 30557
+D2
+~
+~
+0 0 30565
+D3
+~
+~
+0 0 30563
+S
+#30565
+{DA Fiery Pit~
+{RThe area here is covered with Lava. There is a small strip of land leading north, west, east, and south..
+~
+0 8704 0
+D0
+~
+~
+0 0 30564
+D1
+~
+~
+0 0 30557
+D2
+~
+~
+0 0 30566
+D3
+~
+~
+0 0 30557
+S
+#30566
+End of the Maze~
+There are four large pillars of fire in this room, one in each corner. In the center stands a demon. He motions to you with a large clawed hand, and an aura of power surrounds him.
+~
+0 516 0
+S
+#30567
+Maze Entrance~
+{CBefore you lies the last set of the Dunarian Mazes.  The Icy Pits.  An
+icy breeze fills the area, and you are now that much closer to victory.  
+~
+0 8704 0
+D2
+~
+~
+0 0 30568
+S
+#30568
+{DA Large Ice Pit~
+{CThe ground here is covered with very thick ice, leading off into all directions.{x
+~
+0 8704 0
+D0
+~
+~
+0 0 30567
+D1
+~
+~
+0 0 30569
+D2
+~
+~
+0 0 30568
+D3
+~
+~
+0 0 30568
+S
+#30569
+{DA Large Ice Pit~
+{CThe ground here is covered with very thick ice, leading off into all directions.{x
+~
+0 8704 0
+D0
+~
+~
+0 0 30568
+D1
+~
+~
+0 0 30570
+D2
+~
+~
+0 0 30568
+D3
+~
+~
+0 0 30568
+S
+#30570
+{DA Large Ice Pit~
+{CThe ground here is covered with very thick ice, leading off into all directions.{x
+~
+0 8704 0
+D0
+~
+~
+0 0 30568
+D1
+~
+~
+0 0 30571
+D2
+~
+~
+0 0 30568
+D3
+~
+~
+0 0 30569
+S
+#30571
+{DA Large Ice Pit~
+{CThe ground here is covered with very thick ice, leading off into all directions.{x
+~
+0 8704 0
+D0
+~
+~
+0 0 30568
+D1
+~
+~
+0 0 30572
+D2
+~
+~
+0 0 30568
+D3
+~
+~
+0 0 30570
+S
+#30572
+{DA Large Ice Pit~
+{CThe ground here is covered with very thick ice, leading off into all directions.{x
+~
+0 8704 0
+D0
+~
+~
+0 0 30568
+D1
+~
+~
+0 0 30568
+D2
+~
+~
+0 0 30573
+D3
+~
+~
+0 0 30571
+S
+#30573
+{DA Large Ice Pit~
+{CThe ground here is covered with very thick ice, leading off into all directions.{x
+~
+0 8704 0
+D0
+~
+~
+0 0 30572
+D1
+~
+~
+0 0 30568
+D2
+~
+~
+0 0 30568
+D3
+~
+~
+0 0 30574
+S
+#30574
+{DA Large Ice Pit~
+{CThe ground here is covered with very thick ice, leading off into all directions.{x
+~
+0 8704 0
+D0
+~
+~
+0 0 30568
+D1
+~
+~
+0 0 30573
+D2
+~
+~
+0 0 30568
+D3
+~
+~
+0 0 30575
+S
+#30575
+{DA Large Ice Pit~
+{CThe ground here is covered with very thick ice, leading off into all directions.{x
+~
+0 8704 0
+D0
+~
+~
+0 0 30568
+D1
+~
+~
+0 0 30574
+D2
+~
+~
+0 0 30568
+D3
+~
+~
+0 0 30576
+S
+#30576
+{DA Large Ice Pit~
+{CThe ground here is covered with very thick ice, leading off into all directions.{x
+~
+0 8704 0
+D0
+~
+~
+0 0 30568
+D1
+~
+~
+0 0 30575
+D2
+~
+~
+0 0 30568
+D3
+~
+~
+0 0 30577
+S
+#30577
+{DA Large Ice Pit~
+{CThe ground here is covered with very thick ice, leading off into all directions.{x
+~
+0 8704 0
+D0
+~
+~
+0 0 30568
+D1
+~
+~
+0 0 30576
+D2
+~
+~
+0 0 30578
+D3
+~
+~
+0 0 30568
+S
+#30578
+Entrance to Second Maze~
+{CBefore you lies the second maze of the Icy Pits. You are that much closer to victory, and only with the strength of your will, you will proceed forward.
+~
+0 512 0
+D2
+~
+~
+0 0 30579
+S
+#30579
+{DA Large Ice Pit~
+{CThe ground here is covered with very thick ice, leading off into all directions.{x
+~
+0 8704 0
+D0
+~
+~
+0 0 30579
+D1
+~
+~
+0 0 30579
+D2
+~
+~
+0 0 30579
+D3
+~
+~
+0 0 30580
+S
+#30580
+{DA Large Ice Pit~
+{CThe ground here is covered with very thick ice, leading off into all directions.{x
+~
+0 8704 0
+D0
+~
+~
+0 0 30579
+D1
+~
+~
+0 0 30579
+D2
+~
+~
+0 0 30579
+D3
+~
+~
+0 0 30581
+S
+#30581
+{DA Large Ice Pit~
+{CThe ground here is covered with very thick ice, leading off into all directions.{x
+~
+0 8704 0
+D0
+~
+~
+0 0 30579
+D1
+~
+~
+0 0 30580
+D2
+~
+~
+0 0 30579
+D3
+~
+~
+0 0 30582
+S
+#30582
+{DA Large Ice Pit~
+{CThe ground here is covered with very thick ice, leading off into all directions.{x
+~
+0 8704 0
+D0
+~
+~
+0 0 30579
+D1
+~
+~
+0 0 30581
+D2
+~
+~
+0 0 30579
+D3
+~
+~
+0 0 30583
+S
+#30583
+{DA Large Ice Pit~
+{CThe ground here is covered with very thick ice, leading off into all directions.{x
+~
+0 8704 0
+D0
+~
+~
+0 0 30579
+D1
+~
+~
+0 0 30582
+D2
+~
+~
+0 0 30584
+D3
+~
+~
+0 0 30579
+S
+#30584
+{DA Large Ice Pit~
+{CThe ground here is covered with very thick ice, leading off into all directions.{x
+~
+0 8704 0
+D0
+~
+~
+0 0 30583
+D1
+~
+~
+0 0 30585
+D2
+~
+~
+0 0 30579
+D3
+~
+~
+0 0 30579
+S
+#30585
+{DA Large Ice Pit~
+{CThe ground here is covered with very thick ice, leading off into all directions.{x
+~
+0 8704 0
+D0
+~
+~
+0 0 30579
+D1
+~
+~
+0 0 30586
+D2
+~
+~
+0 0 30579
+D3
+~
+~
+0 0 30584
+S
+#30586
+{DA Large Ice Pit~
+{CThe ground here is covered with very thick ice, leading off into all directions.{x
+~
+0 8704 0
+D0
+~
+~
+0 0 30579
+D1
+~
+~
+0 0 30587
+D2
+~
+~
+0 0 30579
+D3
+~
+~
+0 0 30585
+S
+#30587
+{DA Large Ice Pit~
+{CThe ground here is covered with very thick ice, leading off into all directions.{x
+~
+0 8704 0
+D0
+~
+~
+0 0 30579
+D1
+~
+~
+0 0 30588
+D2
+~
+~
+0 0 30579
+D3
+~
+~
+0 0 30586
+S
+#30588
+{DA Large Ice Pit~
+{CThe ground here is covered with very thick ice, leading off into all directions.{x
+~
+0 8704 0
+D0
+~
+~
+0 0 30579
+D1
+~
+~
+0 0 30579
+D2
+~
+~
+0 0 30589
+D3
+~
+~
+0 0 30587
+S
+#30589
+Entrance to Final Maze~
+{CYou stand before the final maze of the Dunarian Mazes.  Few have made
+it here, and even fewwer have made it past here.  Complete this maze, and
+you shall be a hairbreadth from victory.  
+~
+0 512 0
+D2
+~
+~
+0 0 30590
+S
+#30590
+{DA Large Ice Pit~
+{CThe ground here is covered with very thick ice, leading off into all directions.{x
+~
+0 8704 0
+D0
+~
+~
+0 0 30590
+D1
+~
+~
+0 0 30590
+D2
+~
+~
+0 0 30591
+D3
+~
+~
+0 0 30590
+S
+#30591
+{DA Large Ice Pit~
+{CThe ground here is covered with very thick ice, leading off into all directions.{x
+~
+0 8704 0
+D0
+~
+~
+0 0 30590
+D1
+~
+~
+0 0 30592
+D2
+~
+~
+0 0 30590
+D3
+~
+~
+0 0 30590
+S
+#30592
+{DA Large Ice Pit~
+{CThe ground here is covered with very thick ice, leading off into all directions.{x
+~
+0 8704 0
+D0
+~
+~
+0 0 30590
+D1
+~
+~
+0 0 30593
+D2
+~
+~
+0 0 30590
+D3
+~
+~
+0 0 30591
+S
+#30593
+{DA Large Ice Pit~
+{CThe ground here is covered with very thick ice, leading off into all directions.{x
+~
+0 8704 0
+D0
+~
+~
+0 0 30590
+D1
+~
+~
+0 0 30594
+D2
+~
+~
+0 0 30590
+D3
+~
+~
+0 0 30592
+S
+#30594
+{DA Large Ice Pit~
+{CThe ground here is covered with very thick ice, leading off into all directions.{x
+~
+0 8704 0
+D0
+~
+~
+0 0 30590
+D1
+~
+~
+0 0 30590
+D2
+~
+~
+0 0 30595
+D3
+~
+~
+0 0 30593
+S
+#30595
+End of the Maze~
+Four large pillars of ice are in this room, one in each corner.  In the
+center stands a human clothed in fur clothing.  He motions to you with a
+gloves hand, and an aura of peace surrounds him.  There is a small sign
+here.  
+~
+0 516 0
+S
+#30596
+Hallway of Heroes~
+A long hallway stratches south before you.  Heads of various people who
+have come here and failed are displayed on the walls, and a {Rsign{x rests
+near a wall.  
+~
+0 524809 0
+D2
+~
+~
+4 30503 30597
+S
+#30597
+Hallway of Heroes~
+The hallway before you continues south, and in this room, more heads line
+the walls.  There is a grey robed archmage here, blocking the door south.  
+~
+0 524809 0
+D0
+~
+~
+4 30503 30596
+D2
+~
+~
+4 30504 30598
+S
+#30598
+Hallway of Heroes~
+The Hallway continues south, and you can sense it's coming to an end. 
+The same heads decorate the walls, suggesting people failed multiple times. 
+Instead of a grey-robed archmage, there is a white robed cleric blocking the
+door south.  
+~
+0 524809 0
+D0
+~
+~
+4 30504 30597
+D2
+~
+~
+4 30505 30599
+S
+#30599
+Hallway of Heroes~
+Here lies the end of the Hallway of Heroes.  More heads and armor
+decorate the walls, and a section of the floor is stained with blood. 
+Infront of that spot stands a figured wearing black battle armor.  Auras of
+power and death surround him, granting him the power of his God in battle. 
+~
+0 524809 0
+D0
+~
+~
+4 30505 30598
+S
+#0
+
+
+
+#SPECIALS
+M 30501 spec_breath_fire
+M 30502 spec_breath_frost
+M 30503 spec_breath_any
+M 30504 spec_cast_mage
+M 30506 spec_breath_any
+M 30507 spec_breath_any
+S
+
+
+
+#RESETS
+D 0 30596 2 2
+D 0 30597 0 2
+D 0 30597 2 2
+D 0 30598 0 2
+D 0 30598 2 2
+D 0 30599 0 2
+M 0 30507 1 30500 1 Load A Slithzerekai
+E 0 30525 0 16 {r<{dm{w*{dm{r> {dki-jira, favorite of the emperor {r<{dm{w*{dm{r>{x is loaded wielded of A Slithzerekai
+G 0 30526 0 {r<{dm{w*{dm{r> {dto-kaia, forsaken of the emperor {r<{dm{w*{dm{r>{x is given to A Slithzerekai
+M 0 30522 1 30501 1 Load {x
+M 0 30500 1 30534 1 Load Champion of {DDarkness{x
+M 0 30501 1 30566 1 Load the Champion of {RFire{x
+O 0 30524 0 30595 {x loaded to End of the Maze
+M 0 30502 1 30595 1 Load The Champion of {CIce{x
+O 0 30517 0 30596 {x loaded to Hallway of Heroes
+M 0 30503 1 30596 1 Load The Hallway Guardian
+E 0 30510 0 16 {xdeath's dagger is loaded wielded of The Hallway Guardian
+E 0 30509 0 18 {xdeath's presence is loaded floating nearby of The Hallway Guardian
+E 0 30514 0 7 {ddeath's{x leg plates is loaded on the legs of The Hallway Guardian
+G 0 30503 0 An intricate key is given to The Hallway Guardian
+M 0 30504 1 30597 1 Load a {Dgrey{x-robed archmage
+E 0 30506 0 1 Ring of the magi is loaded on the left finger of a {Dgrey{x-robed archmage
+E 0 30506 0 2 Ring of the magi is loaded on the right finger of a {Dgrey{x-robed archmage
+E 0 30511 0 16 {xstaff of the summoners is loaded wielded of a {Dgrey{x-robed archmage
+E 0 30515 0 6 {xa folded summoner's hat is loaded over the head of a {Dgrey{x-robed archmage
+G 0 30504 0 A key of bone is given to a {Dgrey{x-robed archmage
+M 0 30506 1 30599 1 Load A {DDeath {RKnight{x
+E 0 30507 0 11 {doberic's{x emblem is loaded as a shield of A {DDeath {RKnight{x
+E 0 30513 0 16 {xthe touch of {doberic{x is loaded wielded of A {DDeath {RKnight{x
+E 0 30509 0 0 {xdeath's presence is loaded as a light of A {DDeath {RKnight{x
+E 0 30514 0 7 {ddeath's{x leg plates is loaded on the legs of A {DDeath {RKnight{x
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#30500
+if carries $n ball flame
+say You already have my token, $n. Go forth to the next challenge.
+else
+say Good job, $n.
+say You have earned my congratulations on completing the Maze of Fire.
+mob oload 30500
+say Here, take this ball of flame, and go forth to the next challenge.
+give flame $n
+mob transfer $n 30501
+endif
+~
+#30501
+if carries $n blinding orb
+say You already have my token, $n. Go forth to your next challenge.
+else
+say Good job, $n.
+say You have earned my congratulations on completing the Maze of Darkness.
+mob oload 30501
+say Here, take this orb, and go forth to your next challenge.
+give orb $n
+mob transfer $n 30501
+endif
+~
+#30502
+if carries $n ice shard
+say You already have my token, $n. Go forth to your next challenge.
+else
+say Good job, $n.
+say You have earned my congratulations on completing the Maze of Ice.
+mob oload 30502
+say Here, take this ice shard, and go forth to your last challenge.
+give shard $n
+endif
+~
+#30503
+if carries $n ball flame
+if carries $n ice shard
+if carries $n blinding orb
+say You have the components I need. Good luck, $n!
+say Be cautious in your final test, $n.
+mob transfer $n 30596
+else
+say You are missing one or more components I need. Get them, then come back and see me.
+mob transfer $n 30501
+endif
+else
+say You are missing one or more components I need. Get them, then come back and see me.
+mob transfer $n 30501
+endif
+else
+say You are missing one or more components I need. Get them, then come back and see me.
+mob transfer $n 30501
+endif
+~
+#30504
+mob echoat $n {gsomeone tells you '{GBefore proceeding, read the rules for this area..{g'{x
+mob echoaround $n The air stirs restlessly..
+mob force $n look sign
+~
+#30505
+~
+#30506
+sec tok
+say $n! You have sealed your fate!
+mob echoat $n {g$I's frenzied attack {C>>{W> {CANN{WIHIL{CATES {W<{C<< {gyou! {R[2000]{x
+mob damage $n 2000 2000
+mob echoat $n {g$I's frenzied attack {C>>{W> {CANN{WIHIL{CATES {W<{C<< {gyou! {R[2000]{x
+mob damage $n 2000 2000
+mob echoat $n {g$I's frenzied attack {C>>{W> {CANN{WIHIL{CATES {W<{C<< {gyou! {R[2000]{x
+mob damage $n 2000 2000
+mob echoat $n {g$I's frenzied attack {C>>{W> {CANN{WIHIL{CATES {W<{C<< {gyou! {R[2000]{x
+mob damage $n 2000 2000
+mob echoat $n {g$I's frenzied attack {C>>{W> {CANN{WIHIL{CATES {W<{C<< {gyou! {R[2000]{x
+mob damage $n 2000 2000
+mob echoat $n {g$I's frenzied attack {C>>{W> {CANN{WIHIL{CATES {W<{C<< {gyou! {R[2000]{x
+mob damage $n 2000 2000
+mob echoat $n {g$I's frenzied attack {C>>{W> {CANN{WIHIL{CATES {W<{C<< {gyou! {R[2000]{x
+mob damage $n 2000 2000
+mob echoat $n {g$I's frenzied attack {C>>{W> {CANN{WIHIL{CATES {W<{C<< {gyou! {R[2000]{x
+mob damage $n 2000 2000
+mob echoat $n {g$I's frenzied attack {C>>{W> {CANN{WIHIL{CATES {W<{C<< {gyou! {R[2000]{x
+mob damage $n 2000 2000
+ent
+mob cast 'entrapment' $n
+mob cast 'entrapment' $n
+mob cast 'entrapment' $n
+~
+#30507
+~
+#30508
+~
+#30509
+~
+#30510
+say I congratulate you, $n. Not many people get this far.
+say But, you must do one more thing to get youre reward....
+say Say done at the tall lizard..
+mob transfer $n 30500
+~
+#30511
+mob remove $n 30500
+mob remove $n 30501
+mob remove $n 30502
+say Congratulations on completing the Dunarian Mazes, $n.
+say Here is your reward, as promised.
+mob oload 30518
+mob oload 30519
+mob oload 30520
+mob oload 30521
+mob oload 30522
+mob oload 30523
+give boots $n
+give velve $n
+give amulet $n
+mob oload 30520
+give amulet $n
+give emblem $n
+give blade $n
+give belt $n
+say Good luck elsewhere, $n.
+mob transfer $n 3001
+~
+#30512
+~
+#30513
+mob cast exorcism $n
+~
+#0
+
+#HELPS
+0 'DUNARIAN MAZES'~
+{yDunarian Mazes is a secret tunnel system near Zhaman Fortress.  It is a
+series of mazes, but the reward is worth the trouble needed to get through
+them.  {x 
+ 
+{rDunarian Mazes: Built/Donated by Nikol
+http://creatia.funcity.org
+telnet://creatia.funcity.org:7500{x
+~
+
+-1 $~
+
+#$

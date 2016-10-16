@@ -1,0 +1,1717 @@
+#AREADATA
+Name        Western Plains~
+Builders    Lelana~
+VNUMs       14800 14899
+Security    9
+Credits     { All } Lelana  Western Plains~
+End
+
+
+
+#MOBILES
+#0
+
+
+
+#OBJECTS
+#14862
+waterfall filthy water falls~
+the Filthy Falls~
+Here are the Filthy Falls.  Are you brave enough to go into them?~
+none~
+portal 0 0
+0 0 0 EGIKLN 0
+0 0 0 P
+#0
+
+
+
+#ROOMS
+#14800
+North of Midgaard~
+This path runs all around Midgaard, allowing travellers faster access to
+and from the far reaches of the land.  The walls of Midgaard loom high to
+one side, with the entire world layed out before you on the other side.  To
+the north, the mountains of the Gathic Range loom threateningly down upon
+you.  
+To the south is Midgaard, to safety and frendship.
+~
+0 4 0
+D0
+~
+~
+0 0 14500
+D1
+~
+~
+0 0 14600
+D2
+~
+~
+0 0 3268
+D3
+~
+~
+0 0 14801
+S
+#14801
+Midgaard path~
+This path runs all around Midgaard, allowing travellers faster access to
+and from the far reaches of the land.  The walls of Midgaard loom high to
+one side, with the entire world layed out before you on the other side.  
+~
+0 0 0
+D1
+~
+~
+0 0 14800
+D3
+~
+~
+0 0 14802
+S
+#14802
+Midgaard path~
+This path runs all around Midgaard, allowing travellers faster access to
+and from the far reaches of the land.  The walls of Midgaard loom high to
+one side, with the entire world layed out before you on the other side.  
+~
+0 0 0
+D1
+~
+~
+0 0 14801
+D3
+~
+~
+0 0 14803
+S
+#14803
+Midgaard path~
+This path runs all around Midgaard, allowing travellers faster access to
+and from the far reaches of the land.  The walls of Midgaard loom high to
+one side, with the entire world layed out before you on the other side.  
+~
+0 0 0
+D1
+~
+~
+0 0 14802
+D2
+~
+~
+0 0 14804
+S
+#14804
+Midgaard path~
+This path runs all around Midgaard, allowing travellers faster access to
+and from the far reaches of the land.  The walls of Midgaard loom high to
+one side, with the entire world layed out before you on the other side.  
+~
+0 0 0
+D0
+~
+~
+0 0 14803
+D2
+~
+~
+0 0 14805
+S
+#14805
+Midgaard path~
+This path runs all around Midgaard, allowing travellers faster access to
+and from the far reaches of the land.  The walls of Midgaard loom high to
+one side, with the entire world layed out before you on the other side.  
+~
+0 0 0
+D0
+~
+~
+0 0 14804
+D2
+~
+~
+0 0 14806
+S
+#14806
+Midgaard path~
+This path runs all around Midgaard, allowing travellers faster access to
+and from the far reaches of the land.  The walls of Midgaard loom high to
+one side, with the entire world layed out before you on the other side.  
+~
+0 0 0
+D0
+~
+~
+0 0 14805
+D2
+~
+~
+0 0 14807
+S
+#14807
+Midgaard path~
+This path runs all around Midgaard, allowing travellers faster access to
+and from the far reaches of the land.  The walls of Midgaard loom high to
+one side, with the entire world layed out before you on the other side.  
+~
+0 0 0
+D0
+~
+~
+0 0 14806
+D2
+~
+~
+0 0 14808
+S
+#14808
+West of Midgaard~
+This path runs all around Midgaard, allowing travellers faster access to
+and from the far reaches of the land.  The walls of Midgaard loom high to
+one side, with the entire world layed out before you on the other side.  
+To the west, you will find the plains, where many adventures await you.
+To the east, Midgaard.
+~
+0 0 0
+D0
+~
+~
+0 0 14807
+D1
+~
+~
+0 0 3052
+D2
+~
+~
+0 0 14809
+D3
+~
+~
+0 0 14819
+S
+#14809
+Midgaard path~
+This path runs all around Midgaard, allowing travellers faster access to
+and from the far reaches of the land.  The walls of Midgaard loom high to
+one side, with the entire world layed out before you on the other side.  
+~
+0 0 0
+D0
+~
+~
+0 0 14808
+D2
+~
+~
+0 0 14810
+S
+#14810
+Midgaard path~
+This path runs all around Midgaard, allowing travellers faster access to
+and from the far reaches of the land.  The walls of Midgaard loom high to
+one side, with the entire world layed out before you on the other side.  
+~
+0 0 0
+D0
+~
+~
+0 0 14809
+D2
+~
+~
+0 0 14811
+S
+#14811
+Midgaard path~
+This path runs all around Midgaard, allowing travellers faster access to
+and from the far reaches of the land.  The walls of Midgaard loom high to
+one side, with the entire world layed out before you on the other side.  
+~
+0 0 0
+D0
+~
+~
+0 0 14810
+D2
+~
+~
+0 0 14812
+S
+#14812
+Midgaard path~
+This path runs all around Midgaard, allowing travellers faster access to
+and from the far reaches of the land.  The walls of Midgaard loom high to
+one side, with the entire world layed out before you on the other side.  
+~
+0 0 0
+D0
+~
+~
+0 0 14811
+D2
+~
+~
+0 0 14813
+S
+#14813
+Midgaard path~
+This path runs all around Midgaard, allowing travellers faster access to
+and from the far reaches of the land.  The walls of Midgaard loom high to
+one side, with the entire world layed out before you on the other side.  
+~
+0 0 0
+D0
+~
+~
+0 0 14812
+D2
+~
+~
+0 0 14814
+S
+#14814
+Midgaard path~
+This path runs all around Midgaard, allowing travellers faster access to
+and from the far reaches of the land.  The walls of Midgaard loom high to
+one side, with the entire world layed out before you on the other side.  
+~
+0 0 0
+D0
+~
+~
+0 0 14813
+D2
+~
+~
+0 0 14815
+S
+#14815
+Midgaard path~
+This path runs all around Midgaard, allowing travellers faster access to
+and from the far reaches of the land.  The walls of Midgaard loom high to
+one side, with the entire world layed out before you on the other side.  
+~
+0 0 0
+D0
+~
+~
+0 0 14814
+D1
+~
+~
+0 0 14816
+S
+#14816
+Midgaard path~
+This path runs all around Midgaard, allowing travellers faster access to
+and from the far reaches of the land.  The walls of Midgaard loom high to
+one side, with the entire world layed out before you on the other side.  
+~
+0 0 0
+D1
+~
+~
+0 0 14817
+D3
+~
+~
+0 0 14815
+S
+#14817
+Midgaard path~
+This path runs all around Midgaard, allowing travellers faster access to
+and from the far reaches of the land.  The walls of Midgaard loom high to
+one side, with the entire world layed out before you on the other side.  
+~
+0 0 0
+D1
+~
+~
+0 0 14818
+D3
+~
+~
+0 0 14816
+S
+#14818
+South of Midgaard~
+This path runs all around Midgaard, allowing travellers faster access to
+and from the far reaches of the land.  The walls of Midgaard loom high to
+one side, with the entire world layed out before you on the other side.  To
+the south is a vast expanse of desert, with perils as great as the dunes.  
+To the north, Midgaard.
+~
+0 0 0
+D0
+~
+~
+0 0 3256
+D1
+~
+~
+0 0 14616
+D2
+~
+~
+0 0 14700
+D3
+~
+~
+0 0 14817
+S
+#14819
+Deplains Road~
+You stand upon the great Deplains Road.  The road runs all the way from
+Midgaard in the east, to the City of Anon, in the west.  The great Filthy
+Plains stretch endless miles all around this road.  
+~
+0 0 0
+D1
+~
+~
+0 0 14808
+D3
+~
+~
+0 0 14820
+S
+#14820
+Deplains Road~
+You stand upon the great Deplains Road.  The road runs all the way from
+Midgaard in the east, to the City of Anon, in the west.  The great Filthy
+Plains stretch endless miles all around this road.  
+~
+0 0 0
+D1
+~
+~
+0 0 14819
+D3
+~
+~
+0 0 14821
+S
+#14821
+Deplains Road~
+You stand upon the great Deplains Road.  The road runs all the way from
+Midgaard in the east, to the City of Anon, in the west.  The great Filthy
+Plains stretch endless miles all around this road.  
+~
+0 0 0
+D1
+~
+~
+0 0 14820
+D3
+~
+~
+0 0 14822
+S
+#14822
+Deplains Road~
+You stand upon the great Deplains Road.  The road runs all the way from
+Midgaard in the east, to the City of Anon, in the west.  The great Filthy
+Plains stretch endless miles all around this road.  
+To the north is an oddly small path.  Unusually small, even.
+~
+0 0 0
+D0
+~
+~
+0 0 101
+D1
+~
+~
+0 0 14821
+D2
+~
+~
+0 0 14823
+S
+#14823
+Deplains Road~
+You stand upon the great Deplains Road.  The road runs all the way from
+Midgaard in the east, to the City of Anon, in the west.  The great Filthy
+Plains stretch endless miles all around this road.  
+~
+0 0 0
+D0
+~
+~
+0 0 14822
+D2
+~
+~
+0 0 14824
+S
+#14824
+Deplains Road~
+You stand upon the great Deplains Road.  The road runs all the way from
+Midgaard in the east, to the City of Anon, in the west.  The great Filthy
+Plains stretch endless miles all around this road.  
+~
+0 0 0
+D0
+~
+~
+0 0 14823
+D2
+~
+~
+0 0 14825
+S
+#14825
+Deplains Road~
+You stand upon the great Deplains Road.  The road runs all the way from
+Midgaard in the east, to the City of Anon, in the west.  The great Filthy
+Plains stretch endless miles all around this road.  
+A small trail leads south from here.
+~
+0 0 0
+D0
+~
+~
+0 0 14824
+D2
+~
+~
+0 0 14826
+D3
+~
+~
+0 0 14830
+S
+#14826
+A cart-worn path~
+This small path appears well-used, but that is all it is.  The path is
+just a trail through tall plains grass, made by carts and wagons.  
+North of here passes Deplains Road.
+~
+0 0 0
+D0
+~
+~
+0 0 14825
+D2
+~
+~
+0 0 14827
+S
+#14827
+A cart-worn path~
+This small path appears well-used, but that is all it is.  The path is
+just a trail through tall plains grass, made by carts and wagons.  
+~
+0 0 0
+D0
+~
+~
+0 0 14826
+D2
+~
+~
+0 0 14828
+S
+#14828
+A cart-worn path~
+This small path appears well-used, but that is all it is.  The path is
+just a trail through tall plains grass, made by carts and wagons.  
+~
+0 0 0
+D0
+~
+~
+0 0 14827
+D2
+~
+~
+0 0 14829
+S
+#14829
+A cart-worn path~
+This small path appears well-used, but that is all it is.  The path is
+just a trail through tall plains grass, made by carts and wagons.  
+To the east stands a small village.
+~
+0 0 0
+D0
+~
+~
+0 0 14828
+D1
+~
+~
+0 0 1501
+S
+#14830
+Deplains Road~
+You stand upon the great Deplains Road.  The road runs all the way from
+Midgaard in the east, to the City of Anon, in the west.  The great Filthy
+Plains stretch endless miles all around this road.  
+~
+0 0 0
+D1
+~
+~
+0 0 14825
+D3
+~
+~
+0 0 14831
+S
+#14831
+Deplains Road~
+You stand upon the great Deplains Road.  The road runs all the way from
+Midgaard in the east, to the City of Anon, in the west.  The great Filthy
+Plains stretch endless miles all around this road.  
+~
+0 0 0
+D1
+~
+~
+0 0 14830
+D3
+~
+~
+0 0 14832
+S
+#14832
+Deplains Road~
+You stand upon the great Deplains Road.  The road runs all the way from
+Midgaard in the east, to the City of Anon, in the west.  The great Filthy
+Plains stretch endless miles all around this road.  
+To the north is a small forest, with a worn path leading into it.
+~
+0 0 0
+D0
+~
+~
+0 0 1100
+D1
+~
+~
+0 0 14831
+D3
+~
+~
+0 0 14833
+S
+#14833
+Deplains Road~
+You stand upon the great Deplains Road.  The road runs all the way from
+Midgaard in the east, to the City of Anon, in the west.  The great Filthy
+Plains stretch endless miles all around this road.  
+~
+0 0 0
+D1
+~
+~
+0 0 14832
+D3
+~
+~
+0 0 14834
+S
+#14834
+Deplains Road~
+You stand upon the great Deplains Road.  The road runs all the way from
+Midgaard in the east, to the City of Anon, in the west.  The great Filthy
+Plains stretch endless miles all around this road.  
+~
+0 0 0
+D1
+~
+~
+0 0 14833
+D3
+~
+~
+0 0 14835
+S
+#14835
+Deplains Road~
+You stand upon the great Deplains Road.  The road runs all the way from
+Midgaard in the east, to the City of Anon, in the west.  The great Filthy
+Plains stretch endless miles all around this road.  
+~
+0 0 0
+D1
+~
+~
+0 0 14834
+D3
+~
+~
+0 0 14836
+S
+#14836
+Deplains Road~
+You stand upon the great Deplains Road.  The road runs all the way from
+Midgaard in the east, to the City of Anon, in the west.  The great Filthy
+Plains stretch endless miles all around this road.  
+And to the north, a well travelled road leads to a large castle.
+~
+0 0 0
+D0
+~
+~
+0 0 14841
+D1
+~
+~
+0 0 14835
+D2
+~
+~
+0 0 14837
+S
+#14837
+Deplains Road~
+You stand upon the great Deplains Road.  The road runs all the way from
+Midgaard in the east, to the City of Anon, in the west.  The great Filthy
+Plains stretch endless miles all around this road.  
+To the south, there is only death and desctruction.
+~
+0 0 0
+D0
+~
+~
+0 0 14836
+D2
+~
+~
+0 0 14838
+D3
+~
+~
+0 0 14863
+S
+#14838
+A battlefield~
+The battlefield is covered with discarded seige towers and other weapons
+of war.  Unlucky warriors' skeletons, still in rusted armor line what passes
+for a road.  Whatever happened here happened long ago.  
+To the north passes Deplains road.
+~
+0 0 0
+D0
+~
+~
+0 0 14837
+D2
+~
+~
+0 0 14839
+S
+#14839
+A battlefield~
+The battlefield is covered with discarded seige towers and other weapons
+of war.  Unlucky warriors' skeletons, still in rusted armor line what passes
+for a road.  Whatever happened here happened long ago.  
+~
+0 0 0
+D0
+~
+~
+0 0 14838
+D2
+~
+~
+0 0 14840
+S
+#14840
+A battlefield~
+The battlefield is covered with discarded seige towers and other weapons
+of war.  Unlucky warriors' skeletons, still in rusted armor line what passes
+for a road.  Whatever happened here happened long ago.  
+To the west, you see a keep.
+~
+0 0 0
+D0
+~
+~
+0 0 14839
+D1
+~
+~
+0 0 17501
+D3
+~
+~
+0 0 15700
+S
+#14841
+The King's Road~
+Behold the glory of the King!  This road is well-kept, clean and level! 
+Many feet trod this road, bringing things to and from the King and his
+court.  
+To the south is the Deplains road.
+~
+0 0 0
+D0
+~
+~
+0 0 14842
+D2
+~
+~
+0 0 14836
+S
+#14842
+The King's Road~
+Behold the glory of the King!  This road is well-kept, clean and level! 
+Many feet trod this road, bringing things to and from the King and his
+court.  
+~
+0 0 0
+D0
+~
+~
+0 0 14843
+D2
+~
+~
+0 0 14841
+S
+#14843
+The King's Road~
+Behold the glory of the King!  This road is well-kept, clean and level! 
+Many feet trod this road, bringing things to and from the King and his
+court.  
+~
+0 0 0
+D0
+~
+~
+0 0 14844
+D2
+~
+~
+0 0 14842
+S
+#14844
+The King's Road~
+Behold the glory of the King!  This road is well-kept, clean and level! 
+Many feet trod this road, bringing things to and from the King and his
+court.  
+~
+0 0 0
+D0
+~
+~
+0 0 15201
+D2
+~
+~
+0 0 14843
+D3
+~
+~
+0 0 14845
+S
+#14845
+Path through the plains~
+This is a simple and small, yet heavily used path.  This path stretches
+from the King's Castle to the banks of the mighty Filthy River itself. 
+While no one could possibly draw water from the Filthy to use as anything
+but possibly mortar, it is still quite a point of interest.  
+~
+0 0 0
+D1
+~
+~
+0 0 14844
+D3
+~
+~
+0 0 14846
+S
+#14846
+Path through the plains~
+This is a simple and small, yet heavily used path.  This path stretches
+from the King's Castle to the banks of the mighty Filthy River itself. 
+While no one could possibly draw water from the Filthy to use as anything
+but possibly mortar, it is still quite a point of interest.  
+~
+0 0 0
+D1
+~
+~
+0 0 14845
+D3
+~
+~
+0 0 14847
+S
+#14847
+Path through the plains~
+This is a simple and small, yet heavily used path.  This path stretches
+from the King's Castle to the banks of the mighty Filthy River itself. 
+While no one could possibly draw water from the Filthy to use as anything
+but possibly mortar, it is still quite a point of interest.  
+~
+0 0 0
+D1
+~
+~
+0 0 14846
+D3
+~
+~
+0 0 14848
+S
+#14848
+Path through the plains~
+This is a simple and small, yet heavily used path.  This path stretches
+from the King's Castle to the banks of the mighty Filthy River itself. 
+While no one could possibly draw water from the Filthy to use as anything
+but possibly mortar, it is still quite a point of interest.  
+~
+0 0 0
+D1
+~
+~
+0 0 14847
+D3
+~
+~
+0 0 14849
+S
+#14849
+Path beside the Filthy River~
+Ah, the Filthy River, wonder of beauty, of creation!  Certainly it smells
+so bad the city garbage workers refuse to dump trash in there.  And sure it
+looks like a tar pit with a bad attitude to the untrained eye.  But to those
+that live near it, it is a symbol of pride, or power!  The Filthy is the
+largest, longest river in the lands, likely because it doesn't really "flow"
+as much as it crawls, or slithers down its foul banks.  
+~
+0 0 0
+D0
+~
+~
+0 0 14853
+D1
+~
+~
+0 0 14848
+D2
+~
+~
+0 0 14850
+D3
+~
+~
+0 0 22200
+S
+#14850
+Path beside the Filthy River~
+Ah, the Filthy River, wonder of beauty, of creation!  Certainly it smells
+so bad the city garbage workers refuse to dump trash in there.  And sure it
+looks like a tar pit with a bad attitude to the untrained eye.  But to those
+that live near it, it is a symbol of pride, or power!  The Filthy is the
+largest, longest river in the lands, likely because it doesn't really "flow"
+as much as it crawls, or slithers down its foul banks.  
+~
+0 0 0
+D0
+~
+~
+0 0 14849
+D2
+~
+~
+0 0 14851
+S
+#14851
+Path beside the Filthy River~
+Ah, the Filthy River, wonder of beauty, of creation!  Certainly it smells
+so bad the city garbage workers refuse to dump trash in there.  And sure it
+looks like a tar pit with a bad attitude to the untrained eye.  But to those
+that live near it, it is a symbol of pride, or power!  The Filthy is the
+largest, longest river in the lands, likely because it doesn't really "flow"
+as much as it crawls, or slithers down its foul banks.  
+~
+0 0 0
+D0
+~
+~
+0 0 14850
+D2
+~
+~
+0 0 14852
+S
+#14852
+Path beside the Filthy River~
+Ah, the Filthy River, wonder of beauty, of creation!  Certainly it smells
+so bad the city garbage workers refuse to dump trash in there.  And sure it
+looks like a tar pit with a bad attitude to the untrained eye.  But to those
+that live near it, it is a symbol of pride, or power!  The Filthy is the
+largest, longest river in the lands, likely because it doesn't really "flow"
+as much as it crawls, or slithers down its foul banks.  
+~
+0 0 0
+D0
+~
+~
+0 0 14851
+D1
+~
+~
+0 0 8301
+S
+#14853
+Path beside the Filthy River~
+Ah, the Filthy River, wonder of beauty, of creation!  Certainly it smells
+so bad the city garbage workers refuse to dump trash in there.  And sure it
+looks like a tar pit with a bad attitude to the untrained eye.  But to those
+that live near it, it is a symbol of pride, or power!  The Filthy is the
+largest, longest river in the lands, likely because it doesn't really "flow"
+as much as it crawls, or slithers down its foul banks.  
+~
+0 0 0
+D0
+~
+~
+0 0 14854
+D2
+~
+~
+0 0 14849
+S
+#14854
+Path beside the Filthy River~
+Ah, the Filthy River, wonder of beauty, of creation!  Certainly it smells
+so bad the city garbage workers refuse to dump trash in there.  And sure it
+looks like a tar pit with a bad attitude to the untrained eye.  But to those
+that live near it, it is a symbol of pride, or power!  The Filthy is the
+largest, longest river in the lands, likely because it doesn't really "flow"
+as much as it crawls, or slithers down its foul banks.  
+~
+0 0 0
+D0
+~
+~
+0 0 14855
+D2
+~
+~
+0 0 14853
+S
+#14855
+Path beside the Filthy River~
+Ah, the Filthy River, wonder of beauty, of creation!  Certainly it smells
+so bad the city garbage workers refuse to dump trash in there.  And sure it
+looks like a tar pit with a bad attitude to the untrained eye.  But to those
+that live near it, it is a symbol of pride, or power!  The Filthy is the
+largest, longest river in the lands, likely because it doesn't really "flow"
+as much as it crawls, or slithers down its foul banks.  
+~
+0 0 0
+D2
+~
+~
+0 0 14854
+D4
+~
+~
+0 0 14856
+S
+#14856
+Path beside the Filthy River~
+Ah, the Filthy River, wonder of beauty, of creation!  Certainly it smells
+so bad the city garbage workers refuse to dump trash in there.  And sure it
+looks like a tar pit with a bad attitude to the untrained eye.  But to those
+that live near it, it is a symbol of pride, or power!  The Filthy is the
+largest, longest river in the lands, likely because it doesn't really "flow"
+as much as it crawls, or slithers down its foul banks.  
+~
+0 0 0
+D0
+~
+~
+0 0 14857
+D5
+~
+~
+0 0 14855
+S
+#14857
+Path beside the Filthy River~
+Ah, the Filthy River, wonder of beauty, of creation!  Certainly it smells
+so bad the city garbage workers refuse to dump trash in there.  And sure it
+looks like a tar pit with a bad attitude to the untrained eye.  But to those
+that live near it, it is a symbol of pride, or power!  The Filthy is the
+largest, longest river in the lands, likely because it doesn't really "flow"
+as much as it crawls, or slithers down its foul banks.  
+~
+0 0 0
+D0
+~
+~
+0 0 14858
+D2
+~
+~
+0 0 14856
+S
+#14858
+Path beside the Filthy River~
+Ah, the Filthy River, wonder of beauty, of creation!  Certainly it smells
+so bad the city garbage workers refuse to dump trash in there.  And sure it
+looks like a tar pit with a bad attitude to the untrained eye.  But to those
+that live near it, it is a symbol of pride, or power!  The Filthy is the
+largest, longest river in the lands, likely because it doesn't really "flow"
+as much as it crawls, or slithers down its foul banks.  
+~
+0 0 0
+D2
+~
+~
+0 0 14857
+D4
+~
+~
+0 0 14859
+S
+#14859
+Path beside the Filthy River~
+Ah, the Filthy River, wonder of beauty, of creation!  Certainly it smells
+so bad the city garbage workers refuse to dump trash in there.  And sure it
+looks like a tar pit with a bad attitude to the untrained eye.  But to those
+that live near it, it is a symbol of pride, or power!  The Filthy is the
+largest, longest river in the lands, likely because it doesn't really "flow"
+as much as it crawls, or slithers down its foul banks.  
+~
+0 0 0
+D0
+~
+~
+0 0 14860
+D5
+~
+~
+0 0 14858
+S
+#14860
+Path beside the Filthy River~
+Ah, the Filthy River, wonder of beauty, of creation!  Certainly it smells
+so bad the city garbage workers refuse to dump trash in there.  And sure it
+looks like a tar pit with a bad attitude to the untrained eye.  But to those
+that live near it, it is a symbol of pride, or power!  The Filthy is the
+largest, longest river in the lands, likely because it doesn't really "flow"
+as much as it crawls, or slithers down its foul banks.  
+~
+0 0 0
+D0
+~
+~
+0 0 14861
+D2
+~
+~
+0 0 14859
+S
+#14861
+Path beside the Filthy River~
+Ah, the Filthy River, wonder of beauty, of creation!  Certainly it smells
+so bad the city garbage workers refuse to dump trash in there.  And sure it
+looks like a tar pit with a bad attitude to the untrained eye.  But to those
+that live near it, it is a symbol of pride, or power!  The Filthy is the
+largest, longest river in the lands, likely because it doesn't really "flow"
+as much as it crawls, or slithers down its foul banks.  
+~
+0 0 0
+D0
+~
+~
+0 0 14862
+D2
+~
+~
+0 0 14860
+S
+#14862
+The Filthy Falls~
+The last of the mountains and hills ends here, and this is where the
+Filthy River begins.  Over a towering cliff the Filthy river pours and oozes
+down.  Standing here, you can hear the rushing sound as large globs of Filth
+splatter on the ground far below.  The small lake created by the Filthy
+Waterfall looks something like a pancacke drenched in maple syrup.  A
+really, really, really gross pancake.  
+~
+0 0 0
+D1
+~
+~
+0 0 14592
+D2
+~
+~
+0 0 14861
+S
+#14863
+Deplains Road~
+You stand upon the great Deplains Road.  The road runs all the way from
+Midgaard in the east, to the City of Anon, in the west.  The great Filthy
+Plains stretch endless miles all around this road.  
+~
+0 0 0
+D1
+~
+~
+0 0 14837
+D3
+~
+~
+0 0 14864
+S
+#14864
+Deplains Road~
+You stand upon the great Deplains Road.  The road runs all the way from
+Midgaard in the east, to the City of Anon, in the west.  The great Filthy
+Plains stretch endless miles all around this road.  
+~
+0 0 0
+D1
+~
+~
+0 0 14863
+D3
+~
+~
+0 0 14865
+S
+#14865
+On a bridge~
+Below you is the mighty Filthy River.  Deposits of sediment from the far
+north give the strange river its name.  It is so thick with sludge you could
+nearly walk on its surface.  But instead, you would just drown, as it is
+impossible to swim in the Filthy.  
+~
+0 0 0
+D1
+~
+~
+0 0 14864
+D3
+~
+~
+0 0 14866
+S
+#14866
+On a bridge~
+Below you is the mighty Filthy River.  Deposits of sediment from the far
+north give the strange river its name.  It is so thick with sludge you could
+nearly walk on its surface.  But instead, you would just drown, as it is
+impossible to swim in the Filthy.  
+~
+0 0 0
+D1
+~
+~
+0 0 14865
+D3
+~
+~
+0 0 14867
+S
+#14867
+Deplains Road~
+You stand upon the great Deplains Road.  The road runs all the way from
+Midgaard in the east, to the City of Anon, in the west.  The great Filthy
+Plains stretch endless miles all around this road.  
+~
+0 0 0
+D1
+~
+~
+0 0 14866
+D3
+~
+~
+0 0 14868
+S
+#14868
+Deplains Road~
+You stand upon the great Deplains Road.  The road runs all the way from
+Midgaard in the east, to the City of Anon, in the west.  The great Filthy
+Plains stretch endless miles all around this road.  
+~
+0 0 0
+D1
+~
+~
+0 0 14867
+D2
+~
+~
+0 0 14869
+S
+#14869
+Deplains Road~
+You stand upon the great Deplains Road.  The road runs all the way from
+Midgaard in the east, to the City of Anon, in the west.  The great Filthy
+Plains stretch endless miles all around this road.  
+~
+0 0 0
+D0
+~
+~
+0 0 14868
+D2
+~
+~
+0 0 14870
+S
+#14870
+Deplains Road~
+You stand upon the great Deplains Road.  The road runs all the way from
+Midgaard in the east, to the City of Anon, in the west.  The great Filthy
+Plains stretch endless miles all around this road.  
+~
+0 0 0
+D0
+~
+~
+0 0 14869
+D3
+~
+~
+0 0 14871
+S
+#14871
+Deplains Road~
+You stand upon the great Deplains Road.  The road runs all the way from
+Midgaard in the east, to the City of Anon, in the west.  The great Filthy
+Plains stretch endless miles all around this road.  
+~
+0 0 0
+D1
+~
+~
+0 0 14870
+D3
+~
+~
+0 0 14872
+S
+#14872
+Deplains Road~
+You stand upon the great Deplains Road.  The road runs all the way from
+Midgaard in the east, to the City of Anon, in the west.  The great Filthy
+Plains stretch endless miles all around this road.  
+~
+0 0 0
+D1
+~
+~
+0 0 14871
+D3
+~
+~
+0 0 14873
+S
+#14873
+Deplains Road~
+You stand upon the great Deplains Road.  The road runs all the way from
+Midgaard in the east, to the City of Anon, in the west.  The great Filthy
+Plains stretch endless miles all around this road.  
+Another large road runs to the north of here.
+~
+0 0 0
+D0
+~
+~
+0 0 14874
+D1
+~
+~
+0 0 14872
+D2
+~
+~
+0 0 14880
+S
+#14874
+Ofcol way~
+~
+0 0 0
+D2
+~
+~
+0 0 14873
+D3
+~
+~
+0 0 14875
+S
+#14875
+Ofcol way~
+~
+0 0 0
+D1
+~
+~
+0 0 14874
+D3
+~
+~
+0 0 14876
+S
+#14876
+Ofcol way~
+~
+0 0 0
+D1
+~
+~
+0 0 14875
+D3
+~
+~
+0 0 14877
+S
+#14877
+Ofcol way~
+~
+0 0 0
+D0
+~
+~
+0 0 14878
+D1
+~
+~
+0 0 14876
+S
+#14878
+Ofcol way~
+~
+0 0 0
+D0
+~
+~
+0 0 14879
+D2
+~
+~
+0 0 14877
+S
+#14879
+Ofcol way~
+East: 5500
+~
+0 0 0
+D1
+~
+~
+0 0 5550
+D2
+~
+~
+0 0 14878
+S
+#14880
+Deplains Road~
+You stand upon the great Deplains Road.  The road runs all the way from
+Midgaard in the east, to the City of Anon, in the west.  The great Filthy
+Plains stretch endless miles all around this road.  
+~
+0 0 0
+D0
+~
+~
+0 0 14873
+D2
+~
+~
+0 0 14881
+S
+#14881
+Deplains Road~
+You stand upon the great Deplains Road.  The road runs all the way from
+Midgaard in the east, to the City of Anon, in the west.  The great Filthy
+Plains stretch endless miles all around this road.  
+~
+0 0 0
+D0
+~
+~
+0 0 14880
+D3
+~
+~
+0 0 14882
+S
+#14882
+Deplains Road~
+You stand upon the great Deplains Road.  The road runs all the way from
+Midgaard in the east, to the City of Anon, in the west.  The great Filthy
+Plains stretch endless miles all around this road.  
+~
+0 0 0
+D1
+~
+~
+0 0 14881
+D2
+~
+~
+0 0 14883
+S
+#14883
+Deplains Road~
+You stand upon the great Deplains Road.  The road runs all the way from
+Midgaard in the east, to the City of Anon, in the west.  The great Filthy
+Plains stretch endless miles all around this road.  
+~
+0 0 0
+D0
+~
+~
+0 0 14882
+D2
+~
+~
+0 0 14884
+S
+#14884
+Deplains Road~
+You stand upon the great Deplains Road.  The road runs all the way from
+Midgaard in the east, to the City of Anon, in the west.  The great Filthy
+Plains stretch endless miles all around this road.  
+To the east is a rather odd-looking house.
+~
+0 0 0
+D0
+~
+~
+0 0 14883
+D1
+~
+~
+1 0 713
+D2
+~
+~
+0 0 14885
+S
+#14885
+Deplains Road~
+You stand upon the great Deplains Road.  The road runs all the way from
+Midgaard in the east, to the City of Anon, in the west.  The great Filthy
+Plains stretch endless miles all around this road.  
+~
+0 0 0
+D0
+~
+~
+0 0 14884
+D2
+~
+~
+0 0 14886
+S
+#14886
+Deplains Road~
+You stand upon the great Deplains Road.  The road runs all the way from
+Midgaard in the east, to the City of Anon, in the west.  The great Filthy
+Plains stretch endless miles all around this road.  
+~
+0 0 0
+D0
+~
+~
+0 0 14885
+D1
+~
+~
+0 0 14887
+S
+#14887
+Deplains Road~
+You stand upon the great Deplains Road.  The road runs all the way from
+Midgaard in the east, to the City of Anon, in the west.  The great Filthy
+Plains stretch endless miles all around this road.  
+~
+0 0 0
+D2
+~
+~
+0 0 14888
+D3
+~
+~
+0 0 14886
+S
+#14888
+Deplains Road~
+You stand upon the great Deplains Road.  The road runs all the way from
+Midgaard in the east, to the City of Anon, in the west.  The great Filthy
+Plains stretch endless miles all around this road.  
+~
+0 0 0
+D0
+~
+~
+0 0 14887
+D2
+~
+~
+0 0 14889
+S
+#14889
+Deplains Road~
+You stand upon the great Deplains Road.  The road runs all the way from
+Midgaard in the east, to the City of Anon, in the west.  The great Filthy
+Plains stretch endless miles all around this road.  
+If you look real hard to the west, you see a strange road...
+~
+0 0 0
+D0
+~
+~
+0 0 14888
+D2
+~
+~
+0 0 14890
+D3
+~
+~
+0 0 14893
+S
+#14890
+Deplains Road~
+You stand upon the great Deplains Road.  The road runs all the way from
+Midgaard in the east, to the City of Anon, in the west.  The great Filthy
+Plains stretch endless miles all around this road.  
+~
+0 0 0
+D0
+~
+~
+0 0 14889
+D2
+~
+~
+0 0 14891
+S
+#14891
+Deplains Road~
+You stand upon the great Deplains Road.  The road runs all the way from
+Midgaard in the east, to the City of Anon, in the west.  The great Filthy
+Plains stretch endless miles all around this road.  
+~
+0 0 0
+D0
+~
+~
+0 0 14890
+D2
+~
+~
+0 0 14892
+S
+#14892
+North of the City of Anon~
+Here, north of Anon, you see the plains stretched out before you.  From
+there, the Deplains road take your north into those plains, or south into
+the City of Anon.  Whichever way you go, you're sure to have an adventure.  
+~
+0 0 0
+D0
+~
+~
+0 0 14891
+D2
+~
+~
+0 0 31023
+S
+#14893
+A strange street~
+You walk upon a strange road, the streets are covered in trash, littered
+with yellow feathers, red hair, and crayons.  There is the faint sound of
+bad singing coming from all around you.  Should you go east, you will find
+the normal world waiting for you, but going west will take you to certain
+insanity!  
+~
+0 0 0
+D1
+~
+~
+0 0 14889
+D3
+~
+~
+0 0 14894
+S
+#14894
+A strange street~
+You walk upon a strange road, the streets are covered in trash, littered
+with yellow feathers, red hair, and crayons.  There is the faint sound of
+bad singing coming from all around you.  Should you go east, you will find
+the normal world waiting for you, but going west will take you to certain
+insanity!  
+~
+0 0 0
+D1
+~
+~
+0 0 14893
+D3
+~
+~
+0 0 14895
+S
+#14895
+A strange street~
+You walk upon a strange road, the streets are covered in trash, littered
+with yellow feathers, red hair, and crayons.  There is the faint sound of
+bad singing coming from all around you.  Should you go east, you will find
+the normal world waiting for you, but going west will take you to certain
+insanity!  
+~
+0 0 0
+D0
+~
+~
+0 0 24000
+D1
+~
+~
+0 0 14894
+S
+#14899
+Last room of western paths~
+~
+0 4 0
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+D 0 14884 1 1
+O 0 14862 -1 14862
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

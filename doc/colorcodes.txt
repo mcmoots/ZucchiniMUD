@@ -1,0 +1,74 @@
+a - auction
+A - auction text
+b - blue
+B - bold blue
+c - cyan
+C - bold cyan
+d - gossip
+D - bold gray
+e - music
+E - music text
+f - answer
+F - answer text
+g - green
+G - bold green
+h - quote
+H - quote text
+i - immtalk
+I - immtalk text
+j - info
+J - background yellow
+k - tells
+K - tells text
+l - reply
+L - reply text
+m - magenta
+M - bold magenta
+n - group tell text
+N - group tells
+o - room exits
+O - room things
+p - prompt
+P - background magenta
+q - q/a
+Q - q/a text
+r - red
+R - bold red
+s - room title
+S - room text
+t - grats / text
+T - background red
+u - inverse
+U - background blue
+v - background cyan
+V - background white
+w - white
+W - bold white
+x - clear
+X
+y - yellow
+Y - bold yellow
+z
+Z - wiznet
+1 - fight death
+2 - fight yhit
+3 - fight ohit
+4 - fight thit
+5 - fight skill
+6 - say
+7 - say text
+8
+9 - gossip text
+0 - background black
+!
+@
+#
+$ - background green
+%
+^
+&
+* - beep
+(
+)
+/ - newline
+- - tilde 

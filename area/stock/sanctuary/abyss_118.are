@@ -1,0 +1,3049 @@
+#AREA
+habyss.are~
+The Abyss~
+{40 60} Honey   The Abyss~
+4800 4899
+
+#MOBILES
+#4800
+Hezrou Demon~
+The Hezrou~
+A Hezrou demon jumps out of the darkness and attacks
+~
+This demon looks like a gross toad with arms in the place of forelegs.
+He has sharp teeth and a hunger for flesh.  He is about 7 feet tall.
+~
+demon~
+ACFG DJ -800 0
+46 1 25d10+2250 1d10+450 3d12+14 slice
+-14 -14 -14 -12
+CEFHIR AB HIJ 0
+stand stand none 4200
+0 0 large 0
+#4801
+Frost Giant~
+A Frost Giant~
+A Frost Giant stares icily at you.
+~
+He's about 15' tall with very pale, white skin, blue-white hair, and 
+pale blue eyes.  He's carrying a huge axe and is wearing a horned helm.
+~
+giant~
+AGT 0 -800 0
+49 1 25d10+3000 1d10+100 8d4+16 slash
+-15 -15 -15 -12
+CDEFK IAB 0 0
+stand stand male 4500
+0 0 huge 0
+#4802
+Winter Wolf~
+A Winter Wolf~
+A huge, white wolf is here.
+~
+This huge wolf has a coat of glistening white and pale blue eyes.
+~
+wolf~
+ACFG H -500 0
+44 1 15d10+1850 1d10+400 4d8+13 claw
+-13 -13 -13 -11
+AFHKR IAB 0 H
+stand stand none 4000
+0 0 large 0
+#4803
+Fajee White Dragon~
+A White Dragon~
+Fajee, the White Dragon lies sleeping here.
+~
+This huge white dragon is sleeping at the moment.  If you quietly go
+back the way you came, perhaps she's stay that way.
+~
+dragon~
+ABRf H -800 0
+54 2 50d10+4500 1d10+650 5d8+19 claw
+-20 -20 -20 -19
+ACEFK IAB 0 0
+sleep sleep none 5000
+0 0 giant 0
+#4804
+Kostchtchie Demon Lord~
+Kostchtchie~
+The Demon Lord, Kostchtchie is here.
+~
+Kostchtchie resembles a giant with short malformed legs.  He is
+7 feet tall with pale yellow skin.  He has a flat oval shaped head
+with slitted eyes and gross features.  He is hairless with the 
+exception of his eyebrows.
+~
+demon~
+ABQRf HJ -1000 0
+69 10 50d10+10400 1d10+800 10d5+32 slice
+-34 -34 -34 -32
+CDEIK IAB CHJ 0
+stand stand male 6500
+0 0 large 0
+#4805
+Leucrotta~
+A Leucrotta~
+A Leucrotta is here.
+~
+The body of this creature resembles a stag, its tail being rather
+lion-like, and its legs end in cloven hooves.  Its head is that of
+a huge badger with boney ridges in place of teeth.
+~
+leucrotta~
+ACF 0 -800 0
+46 1 25d10+2250 1d10+100 3d12+14 slash
+-14 -14 -14 -12
+CEFHI AB 0 0
+stand stand none 4200
+0 0 large 0
+#4806
+Babau Demon~
+A Babau~
+A Babau is here.
+~
+This demon is sometimes called the one horned horror or ebony death.
+He appears as a skeleton in form fitting black leather.  He has larger 
+than normal extremeties with taloned fingers and a deadly horn-like
+growth that projects from the back of the skull, curving forward and
+downward.
+~
+demon~
+AFGR DHJ -900 0
+50 1 25d10+3250 1d100+520 6d6+16 slash
+-16 -16 -16 -16
+CEFH AB FGHIJ 0
+stand stand male 4600
+0 0 medium 0
+#4807
+Succubus Female Demon~
+A Succubus~
+A female demon is here.
+~
+Though she resembles a very beautiful human female, her horns
+and bat-like wings give away her true nature.  She is one of the
+Demon Prince's mistresses.
+~
+demon~
+ACR DJ -800 0
+49 1 25d10+3000 1d10+500 8d4+16 slash
+-15 -15 -15 -13
+CEFH BA DHIJ 0
+sit sit female 4500
+0 0 medium 0
+#4808
+Lamia~
+A Lamia~
+A Lamia is here.
+~
+This creature has the upper torso of a human female, however her 
+lower torso is that of a beast.  She attacks you immediately.
+~
+lamia~
+ACFGR D -800 0
+46 1 25d10+2250 1d10+475 3d12+14 slash
+-14 -14 -14 -12
+BEFHIR AB 0 0
+stand stand female 4200
+0 0 medium 0
+#4809
+Balor Demon~
+A Balor~
+A Demon surrounded in flames is here.
+~
+This demon is 12 feet tall and covered in flames.  He has huge
+horns protruding from his head and large leathery wings.  He
+wields a whip of many tails.
+~
+demon~
+ACFGR CDEHJ -800 0
+49 1 25d10+3000 1d10+550 8d4+16 whip
+-15 -15 -15 -14
+CEIK HAB BIJ 0
+stand stand male 4500
+0 0 large 0
+#4810
+Graz'zt Demon Prince~
+Graz'zt~
+The Demon Prince, Graz'zt is here.
+~
+Graz'zt is handsome, at least by human standards.  He is huge
+with shining black skin and glowing green eyes.  He has pointed
+ears and fangs and is 6-fingered and 6-toed.  He wields a large
+wavey bladed bastard sword.
+~
+demon~
+ABR CGHJ -900 0
+74 10 50d10+10900 1d10+900 10d5+37 pound
+-36 -36 -36 -35
+CDEFK AB HIJ 0
+stand stand male 7000
+0 0 large 0
+#4811
+Dretch Demon~
+A Dretch~
+A Dretch is here.
+~
+This demon is about 4 ft. tall.  Its skin is rubbery and its
+torso is thick with spindly arms and legs.  It has a small 
+head planted firmly on its shoulders and a mouth full of fangs.
+~
+demon~
+ACFGR J -800 0
+46 1 25d10+2250 1d10+450 3d12+14 slash
+-14 -14 -14 -12
+EIJKR AB HIJ 0
+stand stand male 4200
+0 0 medium 0
+#4812
+Chasme Demon~
+Chasme~
+A Chasme is here.
+~
+This 7 foot tall demon is a cross between a common fly and a
+human.  It has 4 fly-like hind legs, and it grasps with its 2
+forelimbs, which come equipped with strong chitinous, pincher
+fingers.  It has wings, a hairy fly-body with saucer eyes and 
+a mane of stiff bristles.  Its nose is horn-like and its mouth
+is small.
+~
+demon~
+ACGR CJ -800 0
+53 1 5d10+4000 1d10+520 4d10+18 slash
+-19 -19 -19 -17
+EFHIR ABL HIJ 0
+stand stand none 4900
+0 0 medium 0
+#4813
+Rutterkin Demon~
+A Rutterkin~
+A Rutterkin is swaggering towards you.
+~
+This demon resembles an ugly human.  It's hairless, with a
+pointy skull, large features and backward-pointing ears.
+Its limbs are grossly misshappen and it has clublike fists
+for hands.
+~
+demon~
+AFG J -800 0
+44 1 15d10+3000 1d10+450 4d8+13 slice
+-13 -13 -13 -12
+CEIR AB HIJ 0
+stand stand none 4000
+0 0 medium 0
+#4814
+Alu-demon~
+An Alu-demon~
+An Alu-demon is here.
+~
+She seems to appear as a human female with the exception of 
+her vestigal horns and rather small bat wings.
+~
+demon~
+AGR HJ -800 0
+52 1 25d10+3250 1d10+520 6d6+18 slash
+-18 -18 -18 -17
+CEHK BA CHIJ 0
+stand stand female 4800
+0 0 medium 0
+#4815
+Fraz-Urb'luu Demon Prince~
+Fraz-Urb'luu~
+The Prince of Deception, Fraz-Urb'luu is here.
+~
+This demon is 18 feet tall.  His body is covered with short
+coarse hair.  His feet are broad and splayed and his hands are
+large and stubby.  He has large ragged ears and a rather pointed
+head.  He has pale blue hair, grayish skin and 2 vast wings of 
+dull black.  His tail is hairless from a gray base to a pale
+blue tip.
+~
+demon~
+ABCR HJ -1000 0
+74 10 50d10+10900 1d10+900 10d5+37 slice
+-36 -36 -36 -35
+CEFIK AB HIJ 0
+stand stand male 7000
+0 0 huge 0
+#4816
+Thunder Beast~
+A Thunder Beast~
+A Thunder Beast is here.
+~
+This 10 foot tall beast is pig or hippo-like in form, but with 
+longer legs of which it has six.  It has a small head with fan-like
+ears, beady eyes and a huge mouth.  It is yellow-brown in color
+and covered in warty growths.
+~
+thunder beast~
+ACG 0 100 0
+44 1 15d10+1850 1d10+100 4d8+13 slice
+-13 -13 -13 -11
+CEIJR AB 0 0
+stand stand none 4000
+0 0 large 0
+#4817
+Nightmare~
+A Nightmare~
+A Nightmare spots you and attacks!
+~
+This creature is gaunt and skeletal with a huge head and glowing
+red eyes, flaming orange nostrils, a mouth full of fangs, and
+hooves that burn like embers.  Its coat is black and its mane and
+tail are wild and rugged.
+~
+nightmare~
+AFGR HT -500 0
+49 2 25d10+3000 1d10+100 8d4+16 whip
+-15 -15 -15 -13
+CEFHI HAB 0 0
+stand stand none 4500
+0 0 large 0
+#4818
+Minotaur~
+A Minotaur~
+A Minotaur is here.
+~
+This 10 foot tell beast has a humanoid shaped body with a bovine
+head.  He carries a huge axe.
+~
+minotaur~
+AFGT D -800 0
+44 2 15d10+1850 1d10+100 4d8+13 slash
+-13 -13 -13 -11
+CDEFK AB 0 0
+stand stand male 4000
+0 0 large 0
+#4819
+Baphomet Demon Lord~
+Baphomet~
+The Demon Lord, Baphomet is here.
+~
+Before you stands a huge 12 foot tall minotaur.  His body is 
+covered with black hair which fails to hide his musculature.  
+His eyes glow with hatred as he scowls at your appearance.
+Around his neck is a strange glowing amulet.
+~
+demon~
+ABCR DFH -1000 0
+74 10 50d10+10900 1d10+900 10d5+37 slice
+-36 -36 -36 -35
+CDEFIK AB HIJ 0
+stand stand male 7000
+0 0 large 0
+#4820
+Hyena~
+A Hyena~
+A Hyena is here.
+~
+This animal is foughly wolf-like, with a mouth full of sharp
+teeth.  He may not be huge in size, but he travels in a pack and
+they all look hungrily at YOU!
+~
+hyena~
+ACG 0 -100 0
+44 2 15d10+1850 1d10+100 4d8+13 slash
+-13 -13 -13 -12
+EFHI BA 0 0
+stand stand male 4000
+0 0 medium 0
+#4821
+Gnoll~
+A Gnoll~
+A Gnoll spots you and attacks.
+~
+This creature resembles a hyena, however it is about 7 feet tall,
+walking upright, and is carrying a shield and pole arm.  Its
+skin is greenish gray with a reddish gray mane.  Its eyes are dull
+black and its nails are amber in color.
+~
+gnoll~
+ABCF J -800 0
+44 2 15d10+1850 1d10+100 4d8+13 stab
+-13 -13 -13 -12
+DEFHJK AB 0 0
+stand stand male 4000
+0 0 large 0
+#4822
+Undead Creature Ghast~
+An undead creature~
+An undead creature is here.
+~
+This undead creature used to be a human but is now a slave
+of the demonlord of this plane.  As you near it, the stench 
+is unbearable.
+~
+ghast~
+AGO 0 -800 0
+44 2 15d10+1850 1d10+100 4d8+13 crush
+-13 -13 -13 -12
+CFK ABE 0 0
+stand stand none 4000
+0 0 medium 0
+#4823
+Undead Creature Ghoul~
+An undead creature~
+An undead creature is here.
+~
+This undead creature used to be a human.  Now it feeds on 
+corpses.  It has hideous long, filthy nails and fangs.
+~
+ghoul~
+AGO 0 -800 0
+44 2 15d10+1850 1d10+100 4d8+13 crush
+-13 -13 -13 -12
+CFK ABE 0 0
+stand stand none 4000
+0 0 medium 0
+#4824
+Giant Hyena Hyeanadon~
+A Hyeanadon~
+A Giant Hyena is here.
+~
+This creature has the features of a regular hyena, with the
+exception of its massive size, which is 5 feet at the shoulder
+while the creature is on all fours.
+~
+hyeanadon~
+ABC H -800 0
+44 2 15d10+1850 1d10+100 4d8+13 slash
+-13 -13 -13 -12
+CDFHI AB 0 0
+stand stand none 4000
+0 0 large 0
+#4825
+Yeenoght Demon Lord~
+Yeenoght~
+The Demon Lord of Gnolls, Yeenoght is here.
+~
+Yeenoght resembles a 12 foot tall human at first glance.  His
+head is that of a hyena.  His chest, canine, his hands are
+paw-like as are his feet.  He is thin to the point of being
+skeletal and his only body hair is a mangy crest of putrid
+yellow from his head to his mid-back.  His skin is dead gray.  
+His eyes are amber.
+~
+demon~
+ABC BDH -1000 0
+74 10 50d10+10900 1d10+900 10d5+37 slice
+-36 -36 -36 -35
+ABDE ABC HIJ 0
+stand stand male 7000
+0 0 large 0
+#4826
+Black Pudding~
+A Black Pudding~
+A Black Pudding is oozing here.
+~
+This slime-like creature is black in color with a body the
+consistancy of pudding, thus the name.  Its underside is
+covered with many tiny mouths.  It's about 7 ft. in diameter.
+~
+black pudding~
+ACFG Q -200 0
+44 2 15d10+1850 1d10+100 4d8+13 pound
+-13 -13 -13 -12
+EKN ABIJ 0 0
+stand stand none 4000
+0 0 medium 0
+#4827
+Gray Ooze~
+A Gray Ooze~
+A Gray Ooze is here.
+~
+Ewwww!  It's a gray oozing looking thing!  It's about 3 feet
+by 10 feet by 6 inches thick and it's oozing your way!
+~
+gray ooze~
+ACG Q -100 0
+44 2 15d10+1850 1d10+100 4d8+13 pound
+-13 -13 -13 -12
+EKN ABGH 0 0
+stand stand none 4000
+0 0 medium 0
+#4828
+Ochre Jelly~
+An Ochre Jelly~
+An Ochre Jelly is here.
+~
+This slime-like creature is featureless.  Its color is a
+yellowish gold.  It's about 6 feet in diameter.
+~
+ochre jelly~
+ACG Q -200 0
+46 1 25d10+2250 1d10+100 3d12+14 pound
+-14 -14 -14 -13
+EKN ABJ 0 0
+stand stand none 4200
+0 0 medium 0
+#4829
+Slime Creature~
+A Slime Creature~
+A Slime Creature is here.
+~
+This hideous creature is roughly humanoid in shape, but is
+covered with a thick olive green slime.  It is 7 feet tall
+when standing.
+~
+slime creature~
+ACG HQX -100 0
+44 2 15d10+1850 1d10+100 4d8+13 slice
+-13 -13 -13 -12
+CIKN AB 0 HIK
+stand stand none 4000
+0 0 large 0
+#4830
+Jubilex~
+Jubilex~
+The Faceless Lord, Jubilex is here.
+~
+This Demon Lord is a shapeless loathsome creature.  He
+constantly changes shape, but as you see him now, he is
+a 9 foot cone-like heap.  His color is a blend of blackish
+greens, foul browns and yellows, and sickly transluscent
+grays and ambers.  From this mass protrude several glaring
+red eyes.
+~
+demon~
+ABCFR BDHJ -1000 0
+74 10 50d10+10900 1d10+900 10d5+37 pound
+-36 -36 -36 -35
+CDEFKN AB HIJ 0
+stand stand male 7000
+0 0 large 0
+#4831
+Mummy~
+A Mummy~
+A Mummy rises from his coffin and attacks.
+~
+This creature used to be human.  Now it lives in an undead
+state.  Its body is wrapped in decaying strips of cloth.  It 
+is very unhappy that you have disturbed its rest.
+~
+mummy~
+ACFGO 0 -900 0
+49 5 25d10+3000 1d10+100 8d4+16 grep
+-15 -15 -15 -12
+CFIN ABIL H N
+sit sit male 4500
+0 0 medium 0
+#4832
+Vampire~
+A Vampire~
+A Vampire bares his fangs and lunges at you.
+~
+This undead creature was a human when it was alive.  He is
+6 ft. tall, dressed in dark clothes and wearing a long, 
+flowing cape.  He has dark hair and eyes and sharp fangs in 
+which he uses to drain the blood of his victims.
+~
+vampire~
+ACFGOQ HPQd -800 0
+49 5 25d10+3000 1d10+100 8d4+16 punch
+-15 -15 -15 -12
+EFHI ABL HJ N
+stand stand male 4500
+0 0 medium 0
+#4833
+Zombie~
+A Zombie~
+A Zombie lumbers about here.
+~
+This wretched undead creature used to be human.  Its flesh
+is rotting away and its bones peek through in some places.
+It moves slowly, but you have a feeling that it is much 
+stronger than it looks.
+~
+zombie~
+AGHO 0 -700 0
+47 3 25d10+2500 1d10+100 3d12+15 slice
+-15 -15 -15 -13
+CEN ABI 0 N
+stand stand none 4300
+0 0 medium 0
+#4834
+Shadow~
+A Shadow~
+A Shadow leaps out of nowhere and attacks!
+~
+This undead creature is hard to detect as it appears as
+nothing more than a shadow, as its name suggests.  Upon
+nearing it, you can feel a coldness emanating from the
+creature.
+~
+shadow~
+ACFGO HQ -800 0
+51 5 25d10+3200 1d10+100 8d4+18 claw
+-15 -15 -15 -12
+CFHN ABI 0 N
+stand stand male 4700
+0 0 medium 0
+#4835
+Manes Demon~
+A Manes~
+A Manes is here.
+~
+This demon is roughly human shaped with large glowing eyes,
+long sharp claws and a mouth full of fangs.  The smell 
+emanating from this demon is quite unpleasant.
+~
+demon~
+ACGH D -800 0
+46 3 25d10+2250 1d10+100 3d12+14 slash
+-14 -14 -14 -12
+CEIJN AB HIJ 0
+stand stand male 4200
+0 0 small 0
+#4836
+Orcus Prince Demon~
+Orcus~
+The Prince of the Undead, Orcus is here.
+~
+Orcus is 15 feet tall.  His huge gray body is covered with
+goatish hair and his head is goat-like, although his horns 
+are similar to those of a ram.  His legs are goat-like, but
+his arms are human.  He has a long snakey tail with a poison
+tip and huge bat wings.
+~
+demon~
+ABCER DEFHJd -1000 0
+76 10 50d10+11100 1d10+900 9d6+38 slice
+-37 -37 -37 -35
+CDEIKN AB CHIJ 0
+stand stand male 7200
+0 0 huge 0
+#4837
+Bar-Lgura Demon~
+A Bar-Lgura~
+A Bar-Lgura is here.
+~
+A Bar-Lgura, also called a leaping demon is similar to an
+oragutan except for its gruesome visage.  Its hands have
+6 digits with exceptionally long claws.
+~
+demon~
+ACFG DHJQ -800 0
+48 3 25d10+2750 1d10+440 8d4+15 slice
+-15 -15 -15 -13
+CEIJN AB HIJ 0
+stand stand none 4400
+0 0 medium 0
+#4838
+Ape~
+A Carnivorous Ape~
+A Carnivorous Ape is here.
+~
+This ape is a larger, stronger and very aggressive
+relative of the gorilla.  It's very cunning and
+has a hunger for human flesh.
+~
+ape~
+ACFG Q -100 0
+46 3 25d10+2250 1d10+100 3d12+14 slice
+-14 -14 -14 -12
+CDFHJ AB 0 0
+stand stand none 4200
+0 0 large 0
+#4839
+Axe Beak~
+An Axe Beak~
+An Axe Beak is here.
+~
+This 7 foot tall flightless bird is a prehistoric relative
+of the ostrich.
+~
+axe beak~
+ACGH 0 200 0
+46 3 25d10+2250 1d10+100 3d12+14 slice
+-14 -14 -14 -12
+CEFHIN AB 0 0
+stand stand none 4200
+0 0 large 0
+#4840
+Baluchitherium Dinosaur~
+A Baluchitherium~
+A Baluchitherium sees you and charges!
+~
+This huge creature is a prehistoric ancestor of the rhinoceros.
+It is 20 feet tall and charging at you as you look.  You think
+you better move quickly or you'll become a pancake.
+~
+dinosaur~
+AFG H -100 0
+46 5 25d10+2250 1d10+100 3d12+14 slice
+-14 -14 -14 -12
+CIK AB 0 0
+stand stand none 4200
+0 0 huge 0
+#4841
+Tyrannosaurus Rex Dinosaur~
+A Tyrannosaurus Rex~
+A Tyrannosaurus Rex spies you and attacks!
+~
+This gigantic dinosaur is 20 feet tall and 50 feet long.  Its
+head alone is 6 feet in height and it has a mouth full of
+hundreds of sharp teeth.
+~
+dinosaur~
+AFG H -200 0
+49 5 25d10+3000 1d10+100 6d4+16 slash
+-15 -15 -15 -13
+CDIK AB 0 0
+stand stand none 4500
+0 0 huge 0
+#4842
+Paleoscincus Dinosaur~
+A Paleoscincus~
+A Paleoscincus is here munching on leaves.
+~
+This dinosaur walks on all fours and resembles a huge tortise
+with a plate covered back, as opposed to a shell.  The sides of 
+this plating have sharp spines.  Its tail is also spine covered.
+Its head is lizard-like with 2 large horns.
+~
+dinosaur~
+ACG H 100 0
+46 3 25d10+2250 1d10+100 3d12+14 stab
+-14 -14 -14 -12
+CEFIK AB 0 0
+stand stand none 4200
+0 0 large 0
+#4843
+Kech~
+A Kech~
+A Kech leaps from the treetops and attacks!
+~
+This creature resembles a man-sized monkey with leaf-like leathery
+skin.  It has a large fang-filled mouth and a protruding jaw.
+~
+kech~
+ACFG HPQV -600 0
+46 3 25d10+2250 1d10+100 3d12+14 stab
+-14 -14 -14 -12
+CDFHIJK AB 0 0
+stand stand none 4200
+0 0 medium 0
+#4844
+Demogorgon Demon Prince~
+Demogorgon~
+The Prince of Demons, Demogorgon is here.
+~
+This gigantic demon is 18 feet tall and reptilian.  It has 2
+heads which bear the visages of evil baboons.  His blue-green
+skin is plated with snake-like scales, his body and legs are 
+those of a giant lizard.  His twin necks resemble snakes and
+his tail is forked.  He has tentacles instead of arms.  He was
+examining some of his treasure in a large wooden chest when
+you came in the room.
+~
+demon~
+ABCQR DFHJVbd -1000 0
+79 10 50d10+11400 1d10+1000 9d6+40 slice
+-39 -39 -39 -38
+CDEFHIJKN ABC HIJ 0
+stand stand male 7500
+0 0 huge 0
+#0
+
+#OBJECTS
+#4800
+Silver Axe~
+A Silver Axe~
+A Silver Axe lies here.~
+silver~
+weapon ABGJL AN
+axe 6 8 cleave 0
+45 400 5000 G
+A
+19 2
+A
+18 2
+#4801
+Silver Horned Helm~
+A Silver Horned Helm~
+A helm with silver horns lies here.~
+silver~
+armor ABJL AE
+CD ABD CD BD 0
+35 150 2000 G
+A
+23 -3
+A
+5 2
+#4802
+Amulet of Power~
+An Amulet of Power~
+A magical amulet is here.~
+gold~
+armor AG AC
+BC ABC D C 0
+35 100 2000 G
+A
+12 75
+#4803
+Huge Hammer~
+A Huge Hammer~
+A Huge Hammer is here.~
+iron~
+weapon B AN
+mace 7 8 crush 0
+50 420 5000 G
+A
+19 3
+A
+18 2
+#4804
+Glowing Dagger~
+a Glowing Dagger~
+A glowing dagger is here.~
+steel~
+weapon A AN
+dagger 7 7 slash 0
+42 100 500 G
+A
+18 2
+A
+12 35
+#4805
+Bastard Sword~
+a Bastard Sword~
+A wavey bladed sword is here.~
+steel~
+weapon ABFG AN
+sword 7 8 frbite 0
+50 500 5000 G
+A
+19 2
+A
+18 3
+#4806
+Long Sword~
+a Long Sword~
+A Long Sword lies here.~
+steel~
+weapon A AN
+sword 8 7 chop 0
+48 150 2000 G
+A
+19 2
+A
+18 2
+#4807
+Staff of Command~
+a Staff of Command~
+A Staff of Command is here.~
+steel~
+armor AGJL AO
+ABD CD BD BD 0
+50 150 5000 G
+A
+13 95
+A
+12 150
+#4808
+Deadly Axe~
+A Deadly Axe~
+A deadly looking axe is lying here.~
+steel~
+weapon BJL AN
+axe 12 7 slash 0
+44 350 2000 G
+A
+19 2
+#4809
+Amulet~
+Power Amulet~
+A glowing amulet lies here.~
+gold~
+armor ABG AC
+ABD CD CD BD 0
+50 80 3000 G
+A
+13 75
+A
+5 3
+A
+1 3
+#4810
+Nightmare Hooves~
+Nightmare Hooves~
+Some glowing hooves lie here.~
+iron~
+armor AGJL AG
+BD BD BD D 0
+30 150 2000 G
+A
+2 2
+A
+14 25
+#4811
+Polearm~
+A Polearm~
+A Polearm is here.~
+iron~
+weapon RS AN
+polearm 8 5 bite 0
+40 180 1000 G
+A
+18 2
+#4812
+Leather Shield~
+A Leather Shield~
+A shield of leather lies here.~
+leather~
+armor RS AJ
+D D ABC AC 0
+20 100 500 G
+#4813
+Flail~
+Dreaded Flail~
+A huge adamantite flail is here.~
+adamantite~
+weapon ABG AN
+mace 7 8 crush 0
+50 300 3000 G
+A
+19 3
+A
+18 2
+#4814
+Greaves~
+Demonic Greaves~
+Some Glowing Red Greaves are here.~
+steel~
+armor ABEJL AF
+BD ABD ABD BD 0
+50 150 1500 G
+A
+24 -5
+A
+1 2
+#4815
+Burlap Sack~
+A burlap sack~
+A burlap sack is here.~
+burlap~
+container FQ A
+15 0 0 0 0
+15 20 100 G
+#4816
+Opaque Potion~
+An Opaque Potion~
+An Opaque Potion is here.~
+liquid~
+potion A A
+15 'shield' '' '' ''
+15 10 450 G
+#4817
+Gold Bar~
+A gold bar~
+A bar made of gold is here.~
+gold~
+treasure A A
+0 0 0 0 0
+15 30 2000 G
+#4818
+Stained Scroll~
+A Stained Scroll~
+A Stained Scroll lies here.~
+paper~
+scroll F A
+15 'burning hands' 'acid blast' 'lightning bolt' ''
+15 10 800 G
+#4819
+Golden Chest~
+A Golden Chest~
+A Golden Chest is here.~
+gold~
+container AD 0
+75 ACD 4820 0 0
+15 100 1000 G
+#4820
+Stone Key~
+A stone key~
+A stone key is here.~
+stone~
+key A A
+0 0 0 0 0
+0 10 0 G
+#4821
+Boots of Speed~
+Boots of Speed~
+A glowing pair of boots lies here.~
+silver~
+armor ABG AG
+CD CD CD BD 0
+50 150 3000 G
+A
+14 100
+#4822
+Opal Bracelet~
+An Opal Bracelet~
+An Opal Bracelet is here.~
+opal~
+armor ABGH AM
+ABD BD ABD BD 0
+50 80 2000 G
+A
+19 2
+A
+1 3
+#4823
+Pine Coffin~
+A Pine Coffin~
+A Pine Coffin is here.~
+wood~
+container 0 0
+100 AC 0 0 0
+15 150 100 G
+#4824
+Marble Coffin~
+A Marble Coffin~
+A Marble Coffin is here.~
+marble~
+container D 0
+100 ACD 4827 0 0
+15 150 100 G
+#4825
+Alabaster Coffin~
+An Alabaster Coffin~
+An Alabaster Coffin is here.~
+Alabaster~
+container D 0
+100 ACD 4828 0 0
+15 150 100 G
+#4826
+Onyx Coffin~
+An Onyx Coffin~
+An Onyx Coffin is here.~
+Onyx~
+container D 0
+100 ACD 4829 0 0
+15 150 100 G
+#4827
+Marble Key~
+A Marble Key~
+A Marble Key is here.~
+Marble~
+key AF A
+0 0 0 0 0
+15 10 50 G
+#4828
+Alabaster Key~
+An Alabaster Key~
+An Alabaster Key is here.~
+Alabaster~
+key AF A
+0 0 0 0 0
+15 10 50 G
+#4829
+Onyx Key~
+An Onyx Key~
+An Onyx Key is here.~
+Onyx~
+key AF A
+0 0 0 0 0
+15 10 50 G
+#4830
+Mystic Helm~
+A Mystic Helm~
+A Mystic Helm is here.~
+iron~
+armor ABF AE
+CD ABD ABD BD 0
+30 100 1000 G
+A
+2 -1
+A
+13 75
+A
+12 60
+#4831
+Dagger of Might~
+A Dagger of Might~
+A Dagger of Might is here.~
+steel~
+weapon A AN
+dagger 9 4 pierce 0
+30 120 1000 G
+A
+18 2
+A
+13 60
+#4832
+Sleeves of Magic~
+Some Sleeves~
+Some Magical Sleeves are lying here.~
+gold~
+armor ABGH AI
+ABD CD BD BD 0
+30 150 1000 G
+A
+13 -50
+A
+12 100
+#4833
+Wand of Orcus~
+A Wand of Orcus~
+The Wand of Orcus is here.~
+obsidian~
+weapon ABEGHJL AN
+mace 8 7 crush 0
+50 220 2500 G
+A
+19 3
+A
+18 3
+A
+5 1
+#4834
+Demon Eye Ring~
+A Demon Eye Ring~
+A Demon Eye Ring is glowing here.~
+ruby~
+armor AHQ AB
+BD BD CD BD 0
+35 20 1000 G
+A
+19 2
+#4835
+Green Pack~
+A Green Pack~
+A Green Pack is here.~
+canvas~
+container Q A
+25 AC 0 0 0
+15 50 100 G
+#4836
+Chain Belt~
+A Chain Belt~
+A Chain Belt is here.~
+steel~
+armor GH AL
+BD CD ABD BD 0
+30 100 500 G
+A
+5 3
+#4837
+Wooden Chest~
+A Wooden Chest~
+A Wooden Chest is here.~
+wood~
+container D 0
+85 ACD 4838 0 0
+30 250 100 G
+#4838
+Amber Key~
+An Amber Key~
+An Amber Key is here.~
+quartz~
+key AQ A
+0 0 0 0 0
+30 10 100 G
+#4839
+Shiny Golden Breastplate~
+A Shiny Golden Breastplate~
+A Shiny Golden Breastplate is here.~
+gold~
+armor ABG AD
+CD CD CD BD 0
+50 300 2000 G
+A
+13 100
+A
+5 3
+#4840
+Coins~
+Some Strange Glowing Coins~
+Some Strange Glowing Coins are lying here.~
+gold~
+money AB A
+1500 0 0 0 0
+0 20 0 G
+#4841
+Leather Boots~
+Some Leather Boots~
+A Pair of Leather Boots are here.~
+leather~
+armor FG AG
+BD CD CD BD 0
+50 100 1500 G
+A
+14 100
+A
+13 -50
+#4842
+Amulet~
+A Golden Amulet~
+A Golden Amulet is here.~
+gold~
+armor ABG AC
+CD BD ABD BD 0
+50 100 1000 G
+A
+23 -5
+A
+1 2
+#0
+
+#ROOMS
+#4800
+Portal to The Abyss~
+You are standing at a Portal which leads to the Abyss.  You can go east
+to enter the Portal or west to leave.  There is a sign above the Portal.
+~
+0 0 2
+D1
+~
+~
+0 -1 4801
+D3
+Merlin's Tower
+~
+~
+0 -1 17375
+E
+sign~
+The sign reads:  This area designed by Honey. (c) 1995
+Levels 40-60 *ONLY*
+
+~
+S
+#4801
+Dark Cavern~
+You are in a dark cavern.  There area exits to the west, out of the Portal
+or to the south, deeper into the cavern.
+~
+0 AD 0
+D2
+~
+~
+0 -1 4804
+D3
+~
+~
+0 -1 4800
+S
+#4802
+Dark Cavern~
+You are in a dark cavern.  There are exits to the east and south.  You  
+are still descending by heading to the south. 
+~
+0 AD 0
+D1
+~
+~
+0 -1 4803
+D2
+~
+~
+0 -1 4805
+S
+#4803
+Dark Cavern~
+You are in a dark cavern.  There are exits to the east and west.  The
+grade is getting steeper and to the west you are also descending.
+~
+0 AD 0
+D1
+~
+~
+0 -1 4804
+D3
+~
+~
+0 -1 4802
+S
+#4804
+Dark Cavern~
+You are in a dark cavern.  There are exits to the north and west.
+~
+0 ADN 0
+D0
+~
+~
+0 -1 4801
+D3
+~
+~
+0 -1 4803
+S
+#4805
+Dark Cavern~
+You are in a dark cavern.  There are exits to the north and east.  Moving
+toward the east you continue to descend.
+~
+0 AD 0
+D0
+~
+~
+0 -1 4802
+D1
+~
+~
+0 -1 4806
+S
+#4806
+Dark Cavern~
+You are in a dark cavern.  There are exits to your east and west.  The
+grade is leveling off now.
+~
+0 AD 0
+D1
+~
+~
+0 -1 4807
+D3
+~
+~
+0 -1 4805
+S
+#4807
+Dark Cavern~
+You are in a dark cavern.  The light is still scarce but you can make out a
+portal leading down from here.  You may also exit to the west.
+~
+0 AD 0
+D3
+~
+~
+0 -1 4806
+D5
+~
+~
+0 -1 4812
+S
+#4808
+Kostchtchie's Throne Room~
+You have entered the Demon Lord, Kostchtchie's throne room.  You see him
+before you sitting upon an immense throne carved of ice.  The only exit
+is to the south, and you think you better take it, and fast!
+~
+0 D 0
+D2
+~
+~
+1 1 4813
+S
+#4809
+White Dragon's Lair~
+You have entered the White Dragon's lair.  She is the steed to the
+Demon Lord, Kostchtchie.  There are numerous bones stacked in a
+corner from a previous meal.  The only exit is to the east.
+~
+0 DN 0
+D1
+~
+~
+0 -1 4810
+S
+#4810
+White Dragon's Lair~
+You have entered Fajee's Lair.  Fajee is Kostchtchie's white dragon
+steed.  She is sleeping here.  You can exit to the south, or to the
+west, deeper into her lair.
+~
+0 D 0
+D2
+~
+~
+0 -1 4815
+D3
+~
+~
+0 -1 4809
+S
+#4811
+Outside the Ice Palace~
+You are standing outside a palace carved of ice.  The whole area is quite
+cold, and you wonder if it might be any warmer inside the palace.  You
+can exit to the east, or south towards the entrance.
+~
+0 0 4
+D1
+~
+~
+0 -1 4812
+D2
+~
+~
+0 -1 4816
+S
+#4812
+Ice Fields~
+You are in a hilly area on a plane that is bitter cold.  You wonder of the
+demon that rules this icy world.  You can go to the south, west or up
+through the portal.
+~
+0 0 4
+D2
+~
+~
+0 -1 4817
+D3
+~
+~
+0 -1 4811
+D4
+~
+~
+0 -1 4807
+S
+#4813
+Ice Palace~
+You are in a huge palace carved of ice.  To your north is a closed door.
+To the east is another room in the palace.  There is a portal in this
+room leading down.
+~
+0 D 0
+D0
+~
+~
+1 1 4808
+D1
+~
+~
+0 -1 4814
+D5
+~
+~
+0 -1 4818
+S
+#4814
+Ice Palace~
+You are in a huge palace carved of ice.  To your east and west
+are other rooms in the palace.
+~
+0 D 0
+D1
+~
+~
+0 -1 4815
+D3
+~
+~
+0 -1 4813
+S
+#4815
+Ice Palace~
+You are inside a huge palace carved of ice.  To your north and 
+west are more rooms in the palace and to the east is the exit
+to more hilly areas of ice fields.
+~
+0 DT 4
+D0
+~
+~
+0 -1 4810
+D1
+~
+~
+0 -1 4816
+D3
+~
+~
+0 -1 4814
+S
+#4816
+Outside the Ice Palace~
+You are standing outside a huge palace carved of ice.  You can 
+enter to the west or go north or east to more hilly areas of ice 
+fields.
+~
+0 0 4
+D0
+~
+~
+0 -1 4811
+D1
+~
+~
+0 -1 4817
+D3
+~
+~
+0 -1 4815
+S
+#4817
+Ice Fields~
+You are in a hilly area on a plane that is bitter cold. You can go 
+to the north or west.
+~
+0 0 4
+D0
+~
+~
+0 -1 4812
+D3
+~
+~
+0 -1 4816
+S
+#4818
+Desert~
+You have entered a plane of hot, arid deserts.  Drastically different
+from the icey plane above.  There is a closed door leading inside
+an alabaster white structure to the south of you, or you can go to the 
+east further into the desert, or back up through the portal.
+~
+0 0 10
+D1
+~
+~
+0 -1 4819
+D2
+~
+~
+1 1 4823
+D4
+~
+~
+0 -1 4813
+S
+#4819
+Desert~
+You are in a hot, arid desert.  The alabaster white structure 
+continues to the south.  The only exits are to the east or west.
+~
+0 0 10
+D1
+~
+~
+0 -1 4820
+D3
+~
+~
+0 -1 4818
+S
+#4820
+Desert~
+You are in a hot, arid desert.  The land is almost barren of any
+plant life.  An occasional tumbleweed passes by.  There are exits
+to the west and south of you.
+~
+0 0 10
+D2
+~
+~
+0 -1 4825
+D3
+~
+~
+0 -1 4819
+S
+#4821
+Graz'zt's Sleeping Chamber~
+You have entered the sleeping chamber of the Demon Prince, Graz'zt.
+He is not sleeping, however.  He is awake... quite awake, and staring
+at you with glowing green eyes of hatred.  The decor here is in 
+obsidian and ivory contrasts.  The only exit is to the east.
+~
+0 D 0
+D1
+~
+~
+1 1 4822
+S
+#4822
+Dining Room~
+You are in a dining room within the Alabaster Palace.  The decor here
+is quite plain, however the obsidian table and chairs stands out in 
+stark contrast to the white walls and floors.  There is a closed door
+to the west, or you can go to the entry way to the east.
+~
+0 D 0
+D1
+~
+~
+0 -1 4823
+D3
+~
+~
+1 1 4821
+S
+#4823
+Entry Way~
+You are standing in the entry way within the Alabaster Palace.  The
+decor is quite plain, much of the decor is white, as are the walls
+and floors.  You may exit to the north outside, west, or east through
+a closed door.
+~
+0 DT 0
+D0
+~
+~
+1 1 4818
+D1
+~
+~
+1 1 4824
+D3
+~
+~
+0 -1 4822
+S
+#4824
+Sleeping Chamber~
+You have entered a sleeping chamber.  The room has three obsidian  
+beds, and there is a fireplace in the south wall.  It would seem
+quite cozy if there were not also three female demons staring at
+you from within each bed.  The only exit is to the west.
+~
+0 D 0
+D3
+~
+~
+1 1 4823
+S
+#4825
+Desert~
+You are in a hot, arid desert.  The land is almost barren of any
+plant life.  An occasional tumbleweed passes by.  There are exits
+to the north and east of you.
+~
+0 0 10
+D0
+~
+~
+0 -1 4820
+D1
+~
+~
+0 -1 4826
+S
+#4826
+Desert~
+You are in a hot, arid desert.  The land is almost barren of any
+plant life.  An occasional tumbleweed passes by.  There are exits
+to the east and west of you.
+~
+0 N 10
+D1
+~
+~
+0 -1 4827
+D3
+~
+~
+0 -1 4825
+S
+#4827
+Desert~
+You are in a hot, arid desert.  The land is almost barren of any
+plant life.  An occasional tumbleweed passes by.  There are exits
+to the west, or you can enter a portal in the desert floor.
+~
+0 0 10
+D3
+~
+~
+0 -1 4826
+D5
+~
+~
+0 -1 4828
+S
+#4828
+Barren Plains~
+You have entered a plane of empty plains.  The air has a strange
+feel to it.  It's almost as though what you see is not real.  The
+images distort even as you look at them.  You think you see an
+exit to the south or you can enter the portal above.
+~
+0 N 2
+D2
+~
+~
+0 -1 4835
+D4
+~
+~
+0 -1 4827
+S
+#4829
+Obsidian Palace~
+You are in another dark room in a palace made of obsidian.  There are
+exits to the south and to the east through a closed door.
+~
+0 AD 0
+D1
+~
+~
+1 1 4830
+D2
+~
+~
+0 -1 4837
+S
+#4830
+Obsidian Palace~
+You have entered a dark room in a palace made of obsidian.  There is
+a movement in the darkness, but you can't quite make out the shape
+right away.  At last the shape becomes clear as it moves closer to
+you.  You are face to face with Baphomet, the Demon Prince of this
+plane.  The only exit is to the west.
+~
+0 AD 0
+D3
+~
+~
+1 1 4829
+S
+#4831
+Fraz-Urb'luu's Meditation Chamber~
+You have entered the meditation chamber of the Demon Prince 
+Fraz-Urb'luu.  He is sitting quietly here meditating, until your
+arrival.  Even as you look at him he seems to alternate between
+movement and stillness.  You have a very bad feeling about this!  
+The only exit is to the east... you think!
+~
+0 D 0
+D1
+~
+~
+1 1 4832
+S
+#4832
+Dark Cave~
+You are within a dark cave.  You have a feeling of a total lack of
+magic in this area.  Images distort before your eyes.  You feel 
+almost a total lack of magic in this area.  You think you see an 
+exit to the south, and it looks like some sort of closed
+door to the west.
+~
+0 DT 0
+D1
+~
+hidden~
+1 1 4833
+D2
+~
+~
+0 -1 4840
+D3
+~
+~
+1 1 4831
+S
+#4833
+Dark Cave~
+You are within a dark cave.  You can still feel an air of disorientation
+as you walk around.  It's as though the images before you change
+with each passing moment.  The only exit seems to be to the south.
+~
+0 ADN 0
+D2
+~
+~
+0 -1 4841
+D3
+~
+hidden~
+1 1 4832
+S
+#4834
+Barren Plains~
+You are in an area of empty plains.  The air has a strange feel to
+it.  It's almost as though what you see is not real.  The images
+distort even as you look at them.  You have a feeling of a total
+lack of magic here.  You think you can see exits to the east, and 
+south. 
+~
+0 0 2
+D1
+~
+~
+0 -1 4835
+D2
+~
+~
+0 -1 4842
+S
+#4835
+Barren Plains~
+You are in an area of empty plains.  The air has a strange feel to
+it.  It's almost as though what you see is not real.  The images
+distort even as you look at them.  You think you can see exits to
+the north and west.
+~
+0 0 2
+D0
+~
+~
+0 -1 4828
+D3
+~
+~
+0 -1 4834
+S
+#4836
+Obsidian Palace~
+You have entered a dark room in a palace made of obsidian.  The room
+seems rather featureless from what you can make out.  There are exits 
+to your south and east.
+~
+0 ADT 0
+D1
+~
+~
+0 -1 4837
+D2
+~
+~
+0 -1 4846
+S
+#4837
+Obsidian Palace~
+You are standing in the entry way of a palace made of obsidian.  The room
+seems rather featureless from what you can make out.  There are exits
+in all four cardinal directions.
+~
+0 ADN 0
+D0
+~
+~
+0 -1 4829
+D1
+~
+~
+0 -1 4838
+D2
+~
+~
+0 -1 4847
+D3
+~
+~
+0 -1 4836
+S
+#4838
+Grassy Hilltop~
+You are standing on a grassy hilltop in front of a huge obsidian palace.
+The entry way is to the west.  There are also exits to the south and
+east.
+~
+0 0 4
+D1
+~
+~
+0 -1 4839
+D2
+~
+~
+0 -1 4848
+D3
+~
+~
+0 -1 4837
+S
+#4839
+Grassy Hilltop~
+You are standing on a grassy hilltop.  In the distance to the
+west you can see a huge obsidian palace.  It looks foreboding.
+The only exits are to the west or up through the portal.
+~
+0 0 4
+D3
+~
+~
+0 -1 4838
+D4
+~
+~
+0 -1 4840
+S
+#4840
+Dark Cave~
+You are within a dark cave.  Images distort before your eyes.  
+There appears to be a portal in the floor here.  There also seems
+to be an exit to the north of you.
+~
+0 AD 0
+D0
+~
+~
+0 -1 4832
+D5
+~
+~
+0 -1 4839
+S
+#4841
+Dark Cave~
+You are in the entrance to a dark cave.  Images distort before your
+eyes.  You have a feeling of a total lack of magic here.  You believe
+you can see an exit to the north, or east appears to lead out of the
+cave once more.
+~
+0 AD 0
+D0
+~
+~
+0 -1 4833
+D1
+~
+~
+0 -1 4842
+S
+#4842
+Barren Plains~
+You are in an area of empty plains.  The air has a strange feel to
+it.  It's almost as though what you see is not real.  The images
+distort even as you look at them.  You think you can see exits to
+the north, west and east.
+~
+0 0 2
+D0
+~
+~
+0 -1 4834
+D1
+~
+~
+0 -1 4843
+D3
+~
+~
+0 -1 4841
+S
+#4843
+Barren Plains~
+You are in an area of empty plains.  The air has a strange feel to
+it.  It's almost as though what you see is not real.  The images
+distort even as you look at them.  You think you see exits to the
+north and west.
+~
+0 0 2
+D0
+~
+~
+0 -1 4835
+D3
+~
+~
+0 -1 4842
+S
+#4844
+Windy Plains~
+This area is quite windy, but flat and rather featureless, with the
+exception of some scattered grasses which sway in the wind.  The
+air has a dry feel to it.  You can exit up through the portal or south
+to more plains.
+~
+0 N 2
+D2
+~
+~
+0 -1 4849
+D4
+~
+~
+0 -1 4845
+S
+#4845
+Obsidian Palace~
+You are in a dark room in a palace made of obsidian.  The only thing
+you can make out in the room is the portal in the floor.  You can
+exit down through the portal or east into another room in the palace.
+~
+0 AD 0
+D1
+~
+~
+0 -1 4846
+D5
+~
+~
+0 -1 4844
+S
+#4846
+Obsidian Palace~
+You are in another dark room in a palace made of obsidian.  There
+are exits to your north, east and west, into other rooms in the palace.
+~
+0 AD 0
+D0
+~
+~
+0 -1 4836
+D1
+~
+~
+0 -1 4847
+D3
+~
+~
+0 -1 4845
+S
+#4847
+Obsidian Palace~
+You are in another dark room in a palace made of obsidian.  There
+are exits to the north and west.
+~
+0 AD 0
+D0
+~
+~
+0 -1 4837
+D3
+~
+~
+0 -1 4846
+S
+#4848
+Grassy Hill~
+You are standing on a grassy hill outside a palace made of obsidian.
+There is an equine creature here that seems quite disturbed by your
+presence here.  It attacks you.  The only exit is to your north.
+~
+0 0 4
+D0
+~
+~
+0 -1 4838
+S
+#4849
+Windy Plains~
+This area is quite windy, but flat and rather featureless, with the
+exception of some scattered grasses which sway in the wind.  The
+air has a dry feel to it.  You can exit to the north or east. 
+~
+0 0 2
+D0
+~
+~
+0 -1 4844
+D1
+~
+~
+0 -1 4850
+S
+#4850
+Windy Plains~
+This area is quite windy, but flat and rather featureless, with the
+exception of some scattered grasses which sway in the wind.  The
+air has a dry feel to it.  You can exit to the east or west. 
+~
+0 0 2
+D1
+~
+~
+0 -1 4851
+D3
+~
+~
+0 -1 4849
+S
+#4851
+Windy Plains~
+This area is quite windy, but flat and rather featureless, with the
+exception of some scattered grasses which sway in the wind.  The
+air has a dry feel to it.  You can exit to the east or west. 
+~
+0 0 2
+D1
+~
+~
+0 -1 4852
+D3
+~
+~
+0 -1 4850
+S
+#4852
+Windy Plains~
+This area is quite windy, but flat and rather featureless, with the
+exception of some scattered grasses which sway in the wind.  The
+air has a dry feel to it.  You can exit to the east or west. 
+~
+0 0 2
+D1
+~
+~
+0 -1 4853
+D3
+~
+~
+0 -1 4851
+S
+#4853
+Windy Plains~
+This area is quite windy, but flat and rather featureless, with the
+exception of some scattered grasses which sway in the wind.  The
+air has a dry feel to it.  You can exit to the east or west into a
+dark cave. 
+~
+0 0 2
+D1
+~
+~
+0 -1 4854
+D3
+~
+~
+0 -1 4852
+S
+#4854
+Dark, Damp Cave~
+You have entered a dark, damp cave.  You can hear some noise to the
+south, and you can exit to your east deeper into the cave, or west
+out of the cave.
+~
+0 ADT 0
+D1
+~
+~
+0 -1 4855
+D2
+~
+~
+0 -1 4864
+D3
+~
+~
+0 -1 4853
+S
+#4855
+Dark, Damp Cave~
+You have entered another area of a dark, damp cave.  In the semi-light
+you can see a huge hyena-like creature.  But this is unlike any normal
+hyena you have ever seen.  This one stands 12 feet in height.  Yes,
+stands.  He carries a huge adamantite flail.  You have just encountered
+the Demon Lord of Gnolls, ruler of this plane, Yeenoght.  Your only
+exit is to the west.
+~
+0 AD 0
+D3
+~
+~
+0 -1 4854
+S
+#4856
+Dungeon~
+You are in a dark, damp dungeon.  The walls and floors have slime
+deposits on them.  It is easy to tell that all sorts of slimey
+creatures inhabit this area.  There are exits to your east and south.
+~
+0 AD 0
+D1
+~
+~
+0 -1 4858
+D2
+~
+~
+0 -1 4867
+S
+#4857
+Juiblex's Lair~
+You have entered the lair of Juiblex, The Faceless Lord.  The walls
+and floors have slime deposits on them, and the smell is nauseating.
+In the far corner of the room is a large golden chest, but The Demon
+Lord Juiblex will have something to say about you just taking it.
+He starts moving at you to attack.  The only exit is to the south.
+~
+0 AD 0
+D2
+~
+~
+1 1 4858
+S
+#4858
+Dungeon~
+You are in a dark, damp dungeon.  The walls and floors have slime
+deposits on them.  It is easy to tell that all sorts of slimey
+creatures inhabit this area.  There are exits to your west and
+through a door to your north.
+~
+0 AD 0
+D0
+~
+~
+1 1 4857
+D3
+~
+~
+0 -1 4856
+S
+#4859
+Orcus' Study~
+You are in a dark, damp dungeon.  This room has arcane writings on
+the floor, and there is a rack of what look to be spellbooks against
+one wall.  You notice that you are not alone.  You have entered the
+study of the Demon Prince of the Undead, Orcus.  The only exit is to
+the east.
+~
+0 AD 0
+D1
+~
+~
+1 1 4860
+S
+#4860
+Dungeon~
+You are in a dark, damp dungeon.  This room seems empty.  There is
+a closed door to your west.  There are also exits to your south
+and east.
+~
+0 ADT 0
+D1
+~
+~
+0 -1 4861
+D2
+~
+~
+0 -1 4869
+D3
+~
+~
+1 1 4859
+S
+#4861
+Dungeon~
+You are in a dark, damp dungeon.  There is a pine coffin in this
+room.  There are exits to the east, west and south.
+~
+0 AD 0
+D1
+~
+~
+0 -1 4862
+D2
+~
+~
+0 -1 4870
+D3
+~
+~
+0 -1 4860
+S
+#4862
+Dungeon~
+You are in a dark, damp dungeon.  There is an alabaster coffin
+in this room.  There are exits to your east, west and south.
+~
+0 AD 0
+D1
+~
+~
+0 -1 4863
+D2
+~
+~
+0 -1 4871
+D3
+~
+~
+0 -1 4861
+S
+#4863
+Dungeon~
+You are in a dark, damp dungeon.  There is a marble coffin in
+this room.  There are exits to your west and south.
+~
+0 AD 0
+D2
+~
+~
+0 -1 4872
+D3
+~
+~
+0 -1 4862
+S
+#4864
+Dark, Damp Cave~
+You are in a dark, damp cave.  You have stumbled upon two gnolls
+arguing with each other about something.  They see you enter the
+room and quit arguing and attack.  There are exits to the north
+and east.
+~
+0 AD 0
+D0
+~
+~
+0 -1 4854
+D1
+~
+~
+0 -1 4865
+S
+#4865
+Dark, Damp Cave~
+You are in a dark, damp cave.  In front of you is a huge hyena.
+It stands 5 feet tall while standing on all fours and it is 
+guarding the portal in the cave floor.  There are exits to the
+west, or if you can get past the giant hyena, down, through the
+portal.
+~
+0 AD 0
+D3
+~
+~
+0 -1 4864
+D5
+~
+~
+0 -1 4866
+S
+#4866
+Dungeon~
+You are in a dark, damp dungeon.  The walls and floors have slime
+deposits on them.  It is easy to tell that all sorts of slimey
+creatures inhabit this area.  The only exits are up, through the 
+portal, east or south, deeper into the dungeon.
+~
+0 AD 0
+D1
+~
+~
+0 -1 4867
+D2
+~
+~
+0 -1 4875
+D4
+~
+~
+0 -1 4865
+S
+#4867
+Dungeon~
+You are in a dark, damp dungeon.  The walls and floors have slime
+deposits on them.  It is easy to tell that all sorts of slimey
+creatures inhabit this area.  There are exits in all four cardinal
+directions.
+~
+0 ADN 0
+D0
+~
+~
+0 -1 4856
+D1
+~
+~
+0 -1 4868
+D2
+~
+~
+0 -1 4876
+D3
+~
+~
+0 -1 4866
+S
+#4868
+Dungeon~
+You are in a dark, damp dungeon.  The walls and floors have slime
+deposits on them.  It is easy to tell that all sorts of slimey
+creatures inhabit this area.  There are exits to your north, west
+and south.
+~
+0 AD 0
+D0
+~
+~
+0 -1 4858
+D2
+~
+~
+0 -1 4877
+D3
+~
+~
+0 -1 4867
+S
+#4869
+Dungeon~
+You are in a dark, damp dungeon.  There is a pine coffin in
+this room.  There are exits to your north and east.
+~
+0 AD 0
+D0
+~
+~
+0 -1 4860
+D1
+~
+~
+0 -1 4870
+S
+#4870
+Dungeon~
+You are in a dark, damp dungeon.  There is a portal in the
+floor here.  There are also exits leading to the north, east
+and west.
+~
+0 AD 0
+D0
+~
+~
+0 -1 4861
+D1
+~
+~
+0 -1 4871
+D3
+~
+~
+0 -1 4869
+D5
+~
+~
+0 -1 4879
+S
+#4871
+Dungeon~
+You are in a dark, damp dungeon.  There is an onyx coffin in
+this room.  There are exits to the north, east and west.
+~
+0 AD 0
+D0
+~
+~
+0 -1 4862
+D1
+~
+~
+0 -1 4872
+D3
+~
+~
+0 -1 4870
+S
+#4872
+Dungeon~
+You are in a dark, damp dungeon.  This room seems to be empty.
+There are exits to the north, east and west.
+~
+0 ADN 0
+D0
+~
+~
+0 -1 4863
+D1
+~
+~
+0 -1 4873
+D3
+~
+~
+0 -1 4871
+S
+#4873
+Dungeon~
+You are in a dark, damp dungeon.  This room seems to be empty.
+There are exits to the west or up through the portal.
+~
+0 AD 0
+D3
+~
+~
+0 -1 4872
+D4
+~
+~
+0 -1 4874
+S
+#4874
+Dungeon~
+You are in a dark, damp dungeon.  The walls and floors have slime
+deposits on them.  It is easy to tell that all sorts of slimey
+creatures inhabit this area.  There is a portal in the floor here.
+There is also an exit to the east.
+~
+0 AD 0
+D1
+~
+~
+0 -1 4875
+D5
+~
+~
+0 -1 4873
+S
+#4875
+Dungeon~
+You are in a dark, damp dungeon.  The walls and floors have slime
+deposits on them.  It is easy to tell that all sorts of slimey
+creatures inhabit this area.  There are exits to your north, west
+and east.
+~
+0 AD 0
+D0
+~
+~
+0 -1 4866
+D1
+~
+~
+0 -1 4876
+D3
+~
+~
+0 -1 4874
+S
+#4876
+Dungeon~
+You are in a dark, damp dungeon.  The walls and floors have slime
+deposits on them.  It is easy to tell that all sorts of slimey
+creatures inhabit this area.  There are exits to your north, west
+and east.
+~
+0 AD 0
+D0
+~
+~
+0 -1 4867
+D1
+~
+~
+0 -1 4877
+D3
+~
+~
+0 -1 4875
+S
+#4877
+Dungeon~
+You are in a dark, damp dungeon.  The walls and floors have slime
+deposits on them.  It is easy to tell that all sorts of slimey
+creatures inhabit this area.  There are exits to your north and west.
+~
+0 ADT 0
+D0
+~
+~
+0 -1 4868
+D3
+~
+~
+0 -1 4876
+S
+#4878
+Tropical Jungle~
+You are in a hot, humid tropical jungle.  There are numerous
+trees and lush plantlife here.  The only exit is to your east.
+~
+0 0 3
+D1
+~
+~
+0 -1 4879
+S
+#4879
+Tropical Jungle~
+You are in a hot, humid tropical jungle.  There are numerous
+trees and lush plantlife here.  There are exits to your east
+west, south or up through the portal.
+~
+0 0 3
+D1
+~
+~
+0 -1 4880
+D2
+~
+~
+0 -1 4883
+D3
+~
+~
+0 -1 4878
+D4
+~
+~
+0 -1 4870
+S
+#4880
+Tropical Jungle~
+You are in a hot, humid tropical jungle.  There are numerous
+trees and lush plantlife here.  There are exits to your east
+west and south.
+~
+0 0 3
+D1
+~
+~
+0 -1 4881
+D2
+~
+~
+0 -1 4884
+D3
+~
+~
+0 -1 4879
+S
+#4881
+Tropical Jungle~
+You are in a hot, humid tropical jungle.  There are numerous
+trees and lush plantlife here.  The only exits are to your east
+or west.
+~
+0 N 3
+D1
+~
+~
+0 -1 4882
+D3
+~
+~
+0 -1 4880
+S
+#4882
+Tropical Jungle~
+You are in a hot, humid tropical jungle.  There are numerous
+trees and lush plantlife here.  The only exit is to your west.
+~
+0 0 3
+D3
+~
+~
+0 -1 4881
+S
+#4883
+Tropical Jungle~
+You are in a hot, humid tropical jungle.  There are numerous
+trees and lush plantlife here.  There are exits to your north,
+south and east.
+~
+0 0 3
+D0
+~
+~
+0 -1 4879
+D1
+~
+~
+0 -1 4884
+D2
+~
+~
+0 -1 4885
+S
+#4884
+Tropical Jungle~
+You are in a hot, humid tropical jungle.  There are numerous
+trees and lush plantlife here.  There are exits to your north,
+south and west.
+~
+0 0 3
+D0
+~
+~
+0 -1 4880
+D2
+~
+~
+0 -1 4886
+D3
+~
+~
+0 -1 4883
+S
+#4885
+Tropical Jungle~
+You are in a hot, humid tropical jungle.  There are numerous
+trees and lush plantlife here.  There are exits to your north
+and east.
+~
+0 0 3
+D0
+~
+~
+0 -1 4883
+D1
+~
+~
+0 -1 4886
+S
+#4886
+Tropical Jungle~
+You are in a hot, humid tropical jungle.  There are numerous
+trees and lush plantlife here.  There are exits to your north,
+west and east.
+~
+0 T 3
+D0
+~
+~
+0 -1 4884
+D1
+~
+~
+0 -1 4887
+D3
+~
+~
+0 -1 4885
+S
+#4887
+Tropical Jungle~
+You are in a hot, humid tropical jungle.  There are numerous
+trees and lush plantlife here.  There is a portal leading down.
+There is also an exit to the west.
+~
+0 0 3
+D3
+~
+~
+0 -1 4886
+D5
+~
+~
+0 -1 4888
+S
+#4888
+Tropical Jungle~
+You are in a hot, humid tropical jungle.  There are numerous
+trees and lush plantlife here.  There are exits to your east,
+south and up through the portal.
+~
+0 0 3
+D1
+~
+~
+0 -1 4889
+D2
+~
+~
+0 -1 4892
+D4
+~
+~
+0 -1 4887
+S
+#4889
+Tropical Jungle~
+You are in a hot, humid tropical jungle.  There are numerous
+trees and lush plantlife here.  There are exits to your west
+and south.
+~
+0 N 3
+D2
+~
+~
+0 -1 4893
+D3
+~
+~
+0 -1 4888
+S
+#4890
+Tropical Jungle~
+You are in a hot, humid tropical jungle.  There are numerous
+trees and lush plantlife here.  There is a large thatched
+hut to your south.  The only exit is to your east.
+~
+0 0 3
+D1
+~
+~
+0 -1 4891
+S
+#4891
+Tropical Jungle~
+You are in a hot, humid tropical jungle.  There are numerous
+trees and lush plantlife here.  There is a thatched hut to
+your south.  There are exits to your east, west or south into 
+the thatched hut.
+~
+0 T 3
+D1
+~
+~
+0 -1 4892
+D2
+~
+~
+0 -1 4895
+D3
+~
+~
+0 -1 4890
+S
+#4892
+Tropical Jungle~
+You are in a hot, humid tropical jungle.  There are numerous
+trees and lush plantlife here.  There are exits in all four
+cardinal directions.
+~
+0 0 3
+D0
+~
+~
+0 -1 4888
+D1
+~
+~
+0 -1 4893
+D2
+~
+~
+0 -1 4896
+D3
+~
+~
+0 -1 4891
+S
+#4893
+Tropical Jungle~
+You are in a hot, humid tropical jungle.  There are numerous
+trees and lush plantlife here.  There are exits to the north,
+west and south.
+~
+0 0 3
+D0
+~
+~
+0 -1 4889
+D2
+~
+~
+0 -1 4897
+D3
+~
+~
+0 -1 4892
+S
+#4894
+Demogorgon's Treasure Room~
+You are inside a hot, stuffy room in a thatched hut.  You are
+surrounded by treasure.  In the west end of the room you can
+make out a large demon looking through his treasure in a wooden
+chest.  This is the Demon Prince, Demogorgon.  The only exit is
+to the east.
+~
+0 AD 0
+D1
+~
+~
+1 1 4895
+S
+#4895
+Inside the Thatched Hut~
+You are inside the thatched hut.  It is just as hot inside as
+out, however it's much more stuffy as there are no windows in
+this dwelling.  You see a closed door to the west.  You may
+also exit to the north outside the hut.
+~
+0 AD 0
+D0
+~
+~
+0 -1 4891
+D3
+~
+~
+1 1 4894
+S
+#4896
+Tropical Jungle~
+You are in a hot, humid tropical jungle.  There are numerous
+trees and lush plantlife here.  There is a thatched hut to your
+west.  There are exits to the north and east.
+~
+0 0 3
+D0
+~
+~
+0 -1 4892
+D1
+~
+~
+0 -1 4897
+S
+#4897
+Tropical Jungle~
+You are in a hot, humid tropical jungle.  There are numerous
+trees and lush plantlife here.  There are exits to your north
+and west.
+~
+0 0 3
+D0
+~
+~
+0 -1 4893
+D3
+~
+~
+0 -1 4896
+S
+#0
+
+#RESETS
+M 0  4800   2  4803  2	* The Hezrou
+M 0  4800   2  4805  2	* The Hezrou
+M 0  4801   2  4811  2	* A Frost Giant
+E 0  4801  -1     6	*   A Silver Horned Helm
+M 0  4801   2  4817  2	* A Frost Giant
+E 0  4800  -1    16	*   A Silver Axe
+M 0  4802   2  4811  2	* A Winter Wolf
+M 0  4802   2  4817  2	* A Winter Wolf
+M 0  4803   1  4810  1	* A White Dragon
+M 0  4804   1  4808  1	* Kostchtchie
+E 0  4803  -1    16	*   A Huge Hammer
+M 0  4805   2  4813  2	* A Leucrotta
+M 0  4805   2  4813  2	* A Leucrotta
+M 0  4806   1  4819  1	* A Babau
+M 0  4807   3  4824  3	* A Succubus
+M 0  4807   3  4824  3	* A Succubus
+M 0  4807   3  4824  3	* A Succubus
+M 0  4808   2  4827  2	* A Lamia
+E 0  4804  -1    16	*   a Glowing Dagger
+M 0  4808   2  4827  2	* A Lamia
+E 0  4804  -1    16	*   a Glowing Dagger
+M 0  4809   1  4825  1	* A Balor
+M 0  4810   1  4821  1	* Graz'zt
+E 0  4805  -1    16	*   a Bastard Sword
+M 0  4811   4  4835  4	* A Dretch
+M 0  4811   4  4835  4	* A Dretch
+M 0  4812   2  4843  2	* Chasme
+M 0  4812   2  4833  2	* Chasme
+M 0  4813   2  4842  2	* A Rutterkin
+M 0  4813   2  4842  2	* A Rutterkin
+M 0  4814   1  4840  1	* An Alu-demon
+E 0  4806  -1    16	*   a Long Sword
+M 0  4815   1  4831  1	* Fraz-Urb'luu
+E 0  4807  -1    17	*   a Staff of Command
+M 0  4816   2  4838  2	* A Thunder Beast
+M 0  4817   1  4848  1	* A Nightmare
+E 0  4810  -1     8	*   Nightmare Hooves
+M 0  4818   2  4829  2	* A Minotaur
+E 0  4808  -1    16	*   A Deadly Axe
+M 0  4818   2  4829  2	* A Minotaur
+E 0  4808  -1    16	*   A Deadly Axe
+M 0  4819   1  4830  1	* Baphomet
+E 0  4809  -1     3	*   Power Amulet
+M 0  4820   2  4849  2	* A Hyena
+M 0  4820   2  4849  2	* A Hyena
+M 0  4821   2  4864  2	* A Gnoll
+E 0  4811  -1    16	*   A Polearm
+E 0  4812  -1    11	*   A Leather Shield
+M 0  4821   2  4864  2	* A Gnoll
+E 0  4811  -1    16	*   A Polearm
+E 0  4812  -1    11	*   A Leather Shield
+M 0  4822   2  4851  2	* An undead creature
+M 0  4822   2  4852  2	* An undead creature
+M 0  4823   2  4850  2	* An undead creature
+M 0  4823   2  4853  2	* An undead creature
+M 0  4824   1  4865  1	* A Hyeanadon
+M 0  4825   1  4855  1	* Yeenoght
+E 0  4813  -1    16	*   Dreaded Flail
+E 0  4814  -1     7	*   Demonic Greaves
+M 0  4826   2  4856  2	* A Black Pudding
+M 0  4826   2  4858  2	* A Black Pudding
+G 0  4815  -1		*   A burlap sack
+P 0  4818  -1  4815 1	* A Stained Scroll
+M 0  4827   2  4866  2	* A Gray Ooze
+M 0  4827   2  4874  2	* A Gray Ooze
+G 0  4815  -1		*   A burlap sack
+P 0  4816  -1  4815 1	* An Opaque Potion
+M 0  4828   2  4868  2	* An Ochre Jelly
+M 0  4828   2  4868  2	* An Ochre Jelly
+M 0  4829   1  4876  1	* A Slime Creature
+G 0  4815  -1		*   A burlap sack
+P 0  4817  -1  4815 1	* A gold bar
+M 0  4830   1  4857  1	* Jubilex
+G 0  4820  -1		*   A stone key
+O 0  4819   1  4857	* A Golden Chest
+P 0  4821  -1  4819 1	* Boots of Speed
+P 0  4822  -1  4819 1	* An Opal Bracelet
+M 0  4831   2  4862  2	* A Mummy
+G 0  4828  -1		*   An Alabaster Key
+O 0  4825   1  4862	* An Alabaster Coffin
+P 0  4831  -1  4825 1	* A Dagger of Might
+M 0  4831   2  4863  2	* A Mummy
+G 0  4827  -1		*   A Marble Key
+O 0  4824   1  4863	* A Marble Coffin
+P 0  4830  -1  4824 1	* A Mystic Helm
+M 0  4832   1  4871  1	* A Vampire
+G 0  4829  -1		*   An Onyx Key
+O 0  4826   1  4871	* An Onyx Coffin
+P 0  4832  -1  4826 1	* Some Sleeves
+M 0  4833   1  4861  1	* A Zombie
+O 0  4823   3  4861	* A Pine Coffin
+M 0  4834   2  4870  2	* A Shadow
+M 0  4834   2  4873  2	* A Shadow
+O 0  4823   3  4873	* A Pine Coffin
+M 0  4835   2  4869  2	* A Manes
+M 0  4835   2  4869  2	* A Manes
+O 0  4823   3  4869	* A Pine Coffin
+M 0  4836   1  4859  1	* Orcus
+E 0  4833  -1    16	*   A Wand of Orcus
+M 0  4837   2  4884  2	* A Bar-Lgura
+E 0  4834  -1     1	*   A Demon Eye Ring
+M 0  4837   2  4896  2	* A Bar-Lgura
+M 0  4838   3  4883  3	* A Carnivorous Ape
+M 0  4838   3  4890  3	* A Carnivorous Ape
+M 0  4838   3  4892  3	* A Carnivorous Ape
+M 0  4839   2  4880  2	* An Axe Beak
+M 0  4839   2  4888  2	* An Axe Beak
+M 0  4840   1  4897  1	* A Baluchitherium
+M 0  4841   1  4878  1	* A Tyrannosaurus Rex
+M 0  4842   1  4885  1	* A Paleoscincus
+M 0  4843   2  4882  2	* A Kech
+E 0  4836  -1    13	*   A Chain Belt
+M 0  4843   2  4893  2	* A Kech
+G 0  4835  -1		*   A Green Pack
+P 0  4836  -1  4835 1	* A Chain Belt
+M 0  4844   1  4894  1	* Demogorgon
+G 0  4838  -1		*   An Amber Key
+O 0  4837   1  4894	* A Wooden Chest
+P 0  4839  -1  4837 1	* A Shiny Golden Breastplate
+P 0  4840  -1  4837 1	* Some Strange Glowing Coins
+P 0  4841  -1  4837 1	* Some Leather Boots
+P 0  4842  -1  4827 1	* A Golden Amulet
+D 0  4808   2     1
+D 0  4813   0     1
+D 0  4818   2     1
+D 0  4823   0     1
+D 0  4821   1     1
+D 0  4822   3     1
+D 0  4823   1     1
+D 0  4824   3     1
+D 0  4829   1     1
+D 0  4830   3     1
+D 0  4832   1     1
+D 0  4833   3     1
+D 0  4831   1     1
+D 0  4832   3     1
+D 0  4857   2     1
+D 0  4858   0     1
+D 0  4859   1     1
+D 0  4860   3     1
+D 0  4894   1     1
+D 0  4895   3     1
+S
+
+#SHOPS
+0
+
+#SPECIALS
+M  4800 spec_cast_mage       	* The Hezrou
+M  4802 spec_breath_frost    	* A Winter Wolf
+M  4803 spec_cast_mage       	* A White Dragon
+M  4804 spec_cast_cleric     	* Kostchtchie
+M  4806 spec_cast_mage       	* A Babau
+M  4807 spec_cast_mage       	* A Succubus
+M  4808 spec_cast_mage       	* A Lamia
+M  4809 spec_cast_mage       	* A Balor
+M  4810 spec_cast_mage       	* Graz'zt
+M  4811 spec_cast_mage       	* A Dretch
+M  4812 spec_cast_mage       	* Chasme
+M  4813 spec_cast_mage       	* A Rutterkin
+M  4814 spec_cast_mage       	* An Alu-demon
+M  4815 spec_cast_mage       	* Fraz-Urb'luu
+M  4819 spec_cast_mage       	* Baphomet
+M  4825 spec_cast_mage       	* Yeenoght
+M  4830 spec_cast_mage       	* Jubilex
+M  4832 spec_cast_cleric     	* A Vampire
+M  4835 spec_cast_mage       	* A Manes
+M  4836 spec_cast_mage       	* Orcus
+M  4837 spec_cast_mage       	* A Bar-Lgura
+M  4844 spec_cast_mage       	* Demogorgon
+S
+
+#$

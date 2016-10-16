@@ -1,0 +1,91 @@
+/****************************************************************************
+ * Random Magic Spell code copyright 2001/2002                              *
+ * Markanth : markanth@spaceservices.net                                    *
+ * Devil's Lament : spaceservices.net port 3778                             *
+ * Web Page : http://spaceservices.net/~markanth/                           *
+ *                                                                          *
+ * Provides a magic spell that does a random spell.                         *
+ * Also provides support for random magic fountains.                        *
+ *                                                                          *
+ * All I ask in return is that you give me credit on your mud somewhere     *
+ * or email me if you use it.                                               *
+ ***************************************************************************/
+
+>>> CONST.C <<<
+
+1) Add to skill_table[]:
+
+    {
+     "random",
+     {ANGEL, ANGEL, ANGEL, ANGEL},
+     {0, 0, 0, 0},
+     spell_random, TAR_IGNORE, POS_STANDING,
+     NULL, SLOT(##), 20, 12,
+     "", "", ""
+    },
+
+2) Add to liq_table[]:
+
+    {"magic potion", "multi-coloured", {0, 1, 10, 0, 16}},
+
+>>> ACT_OBJ.C <<<
+
+1) Add to do_drink():
+
+    if ( !strcmp ( liq_table[liquid].liq_name, "magic potion" ) )
+    {
+        spell_random(0, ch->level, ch, ch, TAR_IGNORE);
+        WAIT_STATE(ch, 5);
+    }
+
+2) Add to do_fill():
+
+    if(!str_cmp(liq_table[fountain->value[2]].liq_name, "magic potion"))
+    {
+        sprintf(buf, "Strangly, you can fill $p with %s from $P.", liq_table[fountain->value[2]].liq_name);
+        act( buf, ch, obj, fountain, TO_CHAR);
+        return;
+    }
+
+>>> MAGIC.H <<<
+
+1) Add declaration:
+
+DECLARE_SPELL_FUN ( spell_random );
+
+>>> MAGIC2.C <<<
+
+1) Add spell:
+
+void spell_random( int sn, int level, CHAR_DATA * ch, void *vo, int target )
+{
+    SPELL_FUN *spell_list[MAX_SKILL];
+    int sn_list[MAX_SKILL];
+    int i;
+    int count = 0;
+    int prandom = 0, gsn = 0;
+
+    for(i = 0; i < MAX_SKILL; i++)
+    {
+        spell_list[i] = NULL;
+        sn_list[i] = i;
+    }
+
+    for( i = 0; i < MAX_SKILL; i++ )
+    {
+        if(skill_table[i].spell_fun == spell_null
+            || skill_table[i].target == TAR_CHAR_OFFENSIVE
+            || skill_table[i].target == TAR_OBJ_INV
+            || skill_table[i].target == TAR_IGNORE
+            || skill_table[i].target == TAR_OBJ_CHAR_OFF )
+            continue;
+
+        spell_list[count] = skill_table[i].spell_fun;
+        sn_list[count] = i;
+        count++;
+    }
+    
+    prandom = number_range(0, count);
+    gsn = sn_list[prandom];
+    spell_list[prandom]( gsn, ch->level, ch, ch, skill_table[gsn].target );
+}

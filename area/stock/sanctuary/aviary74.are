@@ -1,0 +1,5097 @@
+#AREADATA
+Name Aviary~
+Builders Rajani~
+VNUMs 30600 30699
+Credits (  1 100) {rRajani   {Y- {WAviary{x~
+Security 9
+End
+
+
+
+#MOBILES
+#30600
+albatross~
+an {Walbatross{n~
+{WAn enormous white bird sleeps on the water.{n
+~
+{w It is amazing that such a large bird can stay afloat.  The legendary
+albatross rests on the calm waters.  For a moment, it rouses, and spreads
+its wings to their full span.  After craning its neck backwards and to the
+side, it drops its large, gliding beak into the water to snare a fish.  It
+folds its wings back at its side and again returns to sleeping.  {n 
+~
+water fowl~
+ABG Tb 0 0
+90 90 181d30+1819 90d10+85 30d3+50 beating
+-51 -51 -51 -32
+0 0 R 0
+stand stand none 4500
+AGW ACDEFHKP large unknown
+#30601
+Bellbird~
+{ya bellbird{n~
+{yA honey colored bird swoops down upon a spider.{n
+~
+{y A small spider wiggles its legs as the downcurved bill closes upon it.
+The shallow fork in the bellbird's tail quivers slightly as it flaps its
+small wings in search of its nest.  {n 
+~
+song bird~
+ABG T 0 0
+64 64 129d21+1293 64d10+85 21d3+37 bite
+-33 -33 -33 -20
+FH 0 0 0
+stand stand none 3200
+AGW ACDEFHKP small unknown
+#30602
+bluebird~
+{Ca bluebird{n~
+{cA bluebird perches on a branch and examines the traffic below.{n
+~
+{cThis small bird has a pale reddish breast.  Its small beak is perfectly
+made for picking apart insects.  Its light blue feathers softly rustle in
+the passing breeze.  {n 
+~
+song bird~
+ABG T 0 0
+55 55 111d18+1111 55d10+85 18d3+32 peck
+-27 -27 -27 -16
+FH 0 0 0
+stand stand none 2700
+AGW ACDEFHKP small unknown
+#30603
+button quail~
+{D a button quail{n~
+{D This fuzzy little bird waddlling around on the ground is just cute as a button!{n
+~
+{D It's amazing that this fat little grey bird can get around by walking.
+With a laugh, you think about it even trying to fly.  But its adorable
+little beak and its almost fluffy feathers make this button quail absolutely
+endearing.  {n 
+~
+song bird~
+ABG 0 0 0
+7 7 15d2+71 7d10+85 2d3+8 peck
+4 4 4 6
+CF 0 0 0
+stand stand none 300
+AGW ACDEFHKP medium unknown
+F aff T
+F off H
+#30604
+canary~
+{Ya canary{n~
+{YA brightly colored bird hops along the ground.{n
+~
+{y This perky canary chirps its sweet song as it hops along the ground. 
+The sounds is only interrupted after intermittantly pokes its small yellow
+beak into the ground in search of insects.  {n 
+~
+song bird~
+ABG T 0 0
+50 50 101d16+506 50d10+85 16d3+30 scratch
+-24 -24 -24 -14
+FH 0 0 0
+stand stand none 2500
+AGW ACDEFHKP small unknown
+#30605
+chicken~
+{wa chicken{n~
+{wA chicken pecks at a kernel of corn.{n
+~
+{w The chicken quickly picks up its head at your approach.  It tilts is
+head quizically, examining your every movement.  It ruffles it wings and
+puts them back at its side, and then returns to pecking at the corns
+scattered across the ground.  {n 
+~
+water fowl~
+ABG 0 0 0
+8 8 17d2+81 8d10+85 2d4+9 peck
+3 3 3 5
+0 0 0 0
+stand stand none 400
+AGW ACDEFHKP medium unknown
+F aff Tb
+F res R
+#30606
+dodo~
+{Da dodo bird{n~
+{DA plump grey bird with a large hooded beak stops to look at you.{n
+~
+{D The legendary dodo bird!  Small, vestigal wings are folded at the
+sides of this flightless bird.  A large, red, flesh hood hangs over its
+large beak.  It slowly waddles towards you on its short, fat, stubby legs
+and looks up at you with an almost child-like innocence.  {n 
+~
+water fowl~
+ABG Hd 0 0
+80 80 161d26+1617 80d10+85 26d3+45 beating
+-44 -44 -44 -28
+CFIJ 0 0 0
+stand stand none 4000
+AGW ACDEFHKP medium unknown
+F aff Tb
+F res R
+#30607
+eagle~
+{wan eagle{n~
+{wA mighty eagle soars between the clouds.{n
+~
+{w As the great eagle's circles downward, you can truly appreciate its
+majesty.  Its impressive wingspan keeps it in flight with minimal flapping. 
+With one strong movement of its wings, the eagle once again pushes itself
+higher into the sky.  {n 
+~
+song bird~
+ABG T 0 0
+45 45 91d15+455 45d10+85 15d3+27 thwack
+-21 -21 -21 -11
+FH 0 0 0
+stand stand none 2200
+AGW ACDEFHKP medium unknown
+#30608
+falcon~
+{ya falcon{n~
+{yA bird sits motionless on a branch, scanning the ground intently.{n
+~
+{y As a lone vole scurries across the ground, the falcon soars into the
+air and hovers, watching it intently.  Suddenly, it swoops down upon the
+unsuspecting rodent and devours it.  The falcon returns to its perch.  {n 
+~
+song bird~
+ABG T 0 0
+12 12 25d4+122 12d10+85 4d3+11 bite
+1 1 1 3
+FH 0 0 0
+stand stand none 600
+AGW ACDEFHKP medium unknown
+#30609
+flamingo~
+{Ma flamingo{n~
+{MA graceful bird stands oddly in a patch of vegetation.{n
+~
+{m The flamingo's cream colored bill dips briefly into the water to catch
+a passing fish.  Its long sinuous neck cranes upwards at your approach.  Its
+long, bare legs are submerged in the water.  {n 
+~
+water fowl~
+ABG Tb 0 0
+98 98 197d32+1979 98d10+85 32d3+54 none
+-56 -56 -56 -36
+0 0 R 0
+stand stand none 4900
+AGW ACDEFHKP medium unknown
+#30610
+heron~
+{Ca Great Blue Heron{n~
+{cA rare bird stands motionless in the shallows, waiting for a fish.{n
+~
+{c This large heron is covered with a thick coat of grey-blue feathers. 
+It's long, yellow bill curves downwards and is perfectly suited for scooping
+up passing fish.  Its plume is gorgeous, and is quite a coveted treasure. 
+{n 
+~
+water fowl~
+ABG Tb 0 0
+94 94 189d31+1899 94d10+85 31d3+52 none
+-54 -54 -54 -34
+0 0 R 0
+stand stand none 4700
+AGW ACDEFHKP medium unknown
+#30611
+woodpecker~
+{Ra woodpecker{n~
+{RA small black and red bird sits on a tree looking for insects.{n
+~
+{r The woodpecker's feet are dug firmly into the bark.  It's stiff tail
+helps it keep balance.  It's strong neck bobs back and forth at lightning
+speed as it digs it beak into the bark, searching for insects to eat.  {n 
+~
+song bird~
+ABG T 0 0
+17 17 35d5+172 17d10+85 5d3+13 none
+-2 -2 -2 1
+FH 0 0 0
+stand stand none 800
+AGW ACDEFHKP medium unknown
+#30612
+killdeer~
+{ya killdeer{n~
+{yA medium-sized bird with a short, thick dark bill hops along the forest floor.{n
+~
+{y The killdeer's flesh colored legs bend slightly as it hops along the
+ground.  It ruffles its brown wings which have a white stripe at their base.
+A bright red ring surrounds each shiny black eye.  As it pivots its brown
+head above its white collar to look at you, it's striped tail twitches.  {n 
+~
+song bird~
+ABG T 0 0
+20 20 41d6+203 20d10+85 6d3+15 peck
+-3 -3 -3 0
+FH 0 0 0
+stand stand none 1000
+AGW ACDEFHKP medium unknown
+#30613
+loon~
+{Wa loon{n~
+{WA black and white bird is swimming low in the water.{n
+~
+{w The loon slowly floats in across the pond.  White spots decorate its
+black body, and its glossy black neck blends into a brown head.  Its red
+eyes scan for fish.  {n 
+~
+water fowl~
+ABG Tb 0 0
+90 90 181d30+1819 90d10+85 30d3+50 none
+-51 -51 -51 -32
+0 0 R 0
+stand stand none 4500
+AGW ACDEFHKP medium unknown
+#30614
+kiwi~
+{Da kiwi{n~
+{DA strange little bird the size of a chicken scuttles past.{n
+~
+{w The flightless kiwi is covered with fuzzy black feathers.  It quickly
+scurries past on its stubby little legs.  A loud screech is emitted as it
+opens its very long, thin beak.  {n 
+~
+song bird~
+ABG 0 0 0
+5 5 11d2+51 5d10+85 1d5+7 beating
+5 5 5 7
+FH 0 0 0
+stand stand none 200
+AGW ACDEFHKP medium unknown
+F aff T
+#30615
+oriole~
+{Yan oriole{n~
+{YA brightly colored bird just larger than a sparrow flutters past.{n
+~
+{wThe bright orange plumage lies in stark contrast to the oriole's light
+grey body.  Its long grey bill is perfectly suited for sniping insects.  A
+burst of orange and yellow also decorates is small tail.  {n 
+~
+song bird~
+ABG T 0 0
+15 15 31d5+152 15d10+85 5d3+12 none
+0 0 0 2
+FH 0 0 0
+stand stand none 700
+AGW ACDEFHKP medium unknown
+#30616
+crane~
+{Wa crane{n~
+{WA graceful white bird stands near the water.{n
+~
+{w A tall white bird stands on a set of long, thin legs just next to the
+peaceful pond.  A ring of black encircles its eyes.  The crane briefly opens
+its wings as if to stretch before returning them to rest.  {n 
+~
+water fowl~
+ABG Tb 0 0
+75 75 151d25+1515 75d10+85 25d3+42 none
+-41 -41 -41 -25
+0 0 R 0
+stand stand none 3700
+AGW ACDEFHKP medium unknown
+#30617
+hummingbird~
+{ma hummingbird{n~
+{mA tiny bird buzzes past.{n
+~
+{m The hummingbird heads directly for the nearest flower.  Only then does
+it slow enough for you to truly observe it.  As it holds its long, thin beak
+inside the flower to drink its nectar, its colorful body can be fully
+appreciated.  {n 
+~
+song bird~
+ABG T 0 0
+60 60 121d20+1213 60d10+85 20d3+35 none
+-30 -30 -30 -18
+FH 0 0 0
+stand stand none 3000
+AGW ACDEFHKP medium unknown
+#30618
+osprey~
+{Wan osprey{n~
+{wA large, black and white bird of prey makes a spectacular dive towards the water.{n
+~
+{w Intense, yellow eyes peer at you from the osprey's white head which is
+decorated by a dark, central stripe.  Its body is black, and white on the
+underside.  You do not envy the fish that will encounter that hooded black
+beak.  {n 
+~
+song bird~
+ABG T 0 0
+82 82 165d27+1657 82d10+85 27d3+46 none
+-46 -46 -46 -28
+FH 0 0 0
+stand stand none 4100
+AGW ACDEFHKP medium unknown
+#30619
+parrot~
+{Ga parrot{n~
+{gA colorful bird flies past and onto a low-seated branch.{n
+~
+{cAs with most parrots, its bright green body and blue wings set it apart
+from most other birds.  It holds its balance with a pair of strage feet - to
+toes pointing forwards, and two backwards.  The parrot bends its head
+briefly to crack a seed with its strong curved beak, then takes to flight
+again.  {n 
+~
+song bird~
+ABG T 0 0
+68 68 137d22+1373 68d10+85 22d3+39 none
+-36 -36 -36 -21
+FH 0 0 0
+stand stand none 3400
+AGW ACDEFHKP medium unknown
+#30620
+peacock~
+{Ca peacock{n~
+{GA brightly colored bird struts along the path, displaying its plumage.{n
+~
+{c The peafowl's metallic green feathers give its body the appearance of
+having scales.  It folds its tail behinds itself, and struts down the center
+of a small path between the trees.  With an ear-piercing squawk, it faces
+you and again opens its tail to reveal an array of brightly colored
+feathers.  {n 
+~
+song bird~
+ABG 0 0 0
+72 72 145d24+1455 72d10+85 24d3+41 none
+-39 -39 -39 -23
+FH 0 0 0
+stand stand none 3600
+AGW ACDEFHKP medium unknown
+F aff T
+#30621
+purple martin~
+{ma purple martin{n~
+{mThe dark plumage on this small bird looks nearly purple in the sunlight.{n
+~
+{m The purple martin's wings reach well beyond its tail.  In the shade of
+the tree, its feathers are clearly black, although the sunlight makes them
+appear purple.  Its short, flat, triangular shaped bill is perfectly suits
+for capturing insects.  {n 
+~
+song bird~
+ABG T 0 0
+18 18 37d6+182 18d10+85 6d3+14 none
+-2 -2 -2 0
+FH 0 0 0
+stand stand none 900
+AGW ACDEFHKP medium unknown
+#30622
+rainbow lorikeet~
+{Ya {Rr{Ga{Ci{Yn{Rb{Go{Cw {Yl{Ro{Gr{Ci{Yk{Re{Ge{Ct{n~
+{CA small, brightly colored bird looks up at you curiously.{n
+~
+{G This tame lorikeet flies up to sit on your shoulder.  It ruffles its
+bright array of feathers, and turns its head to examine you.  Just as you
+open your hand to offer it food, it flies back to one of the nearby bushes. 
+{n 
+~
+song bird~
+ABG T 0 0
+58 58 117d19+1171 58d10+85 19d3+34 thwack
+-29 -29 -29 -17
+FH 0 0 0
+stand stand none 2900
+AGW ACDEFHKP medium unknown
+#30623
+scarlet ibis~
+{Ra scarlet ibis{n~
+{RA striking red bird probes the mud for stray crustaceans.{n
+~
+{r The bright red plumage clearly identifies this bird as a scarlet ibis.
+It brings its long neck downwards so that its curved bill can probe for
+food.  It pauses for a moment and uses its beak to preen its black-tipped
+wings.  {n 
+~
+song bird~
+ABG T 0 0
+80 80 161d26+1617 80d10+85 26d3+45 none
+-44 -44 -44 -28
+FH 0 0 0
+stand stand none 4000
+AGW ACDEFHKP medium unknown
+#30624
+sparrow~
+{ya sparrow{n~
+{yA brown bird opens its small beak to emit a series of sharp trills.{n
+~
+{y The reddish-brown tail and brown brest marks this as a fox sparrow. 
+It cheerfully flies from branch to branch, filling the air with its melodic
+call.  {n 
+~
+song bird~
+ABG T 0 0
+23 23 47d7+233 23d10+85 7d3+16 peckb
+-5 -5 -5 -1
+FH 0 0 0
+stand stand none 1100
+AGW ACDEFHKP small unknown
+#30625
+stork~
+{Wa stork{n~
+{WA tall bird preens its feathers.{n
+~
+{w The stork stops preening itself with it's curved red beak and raises
+its head to examine you.  It stands nearly motionless on its long, thin
+legs.  The stork rests its head, curving its neck back until its head rests
+on top of its body.  It's white feathers glisten in the sunlight.  {n 
+~
+song bird~
+ABG T 0 0
+79 79 159d26+1595 79d10+85 26d3+44 chomp
+-43 -43 -43 -27
+FH 0 R 0
+stand stand none 3900
+AGW ACDEFHKP large unknown
+#30626
+toucan~
+{Ya {Ct{Go{Yu{Yc{Ga{Cn{n~
+{YA strange looking bird with a bill four times the size of its head picks berries off a tree.{n
+~
+{c The toucan's yellow throat and chest are in stark contrast to the
+black feathers on its back.  Stranger yet are its irrdescent blue legs which
+balance it on the tree branch.  It's large bill is striped in several bright
+colors.  {n 
+~
+song bird~
+ABG T 0 0
+64 64 129d21+1293 64d10+85 21d3+37 bite
+-33 -33 -33 -20
+FH 0 0 0
+stand stand none 3200
+AGW ACDEFHKP medium unknown
+#30627
+swan~
+{Wa swan{n~
+{WA graceful white bird floats across the water.{n
+~
+{w The pure white feathers of the swan shimmer with droplets of water. 
+Its long neck glides smoothly upwards to its small head and black beak.  The
+swan is nearly motionless on the water, and seems to move of its own accord.
+{n 
+~
+water fowl~
+ABG Tb 0 0
+92 92 185d30+1859 92d10+85 30d3+51 beating
+-52 -52 -52 -33
+0 0 R 0
+stand stand none 4600
+AGW ACDEFHKP medium unknown
+#30628
+eaglette~
+{Wan eaglette{n~
+{WA baby eagle pokes its head out of a cracked shell.{n
+~
+{w Its miniscule head and tiny beak are adorable.  Its short downy
+feathers are plastered against its body.  The eaglette does its best to
+wiggle out of its shell, but, after several attempts, still remains inside
+it.  It opens up its beak and emits a small cry for help.  {n 
+~
+song bird~
+ABG 0 0 0
+36 36 73d12+364 36d10+85 12d3+23 none
+-14 -14 -14 -7
+FH 0 0 0
+stand stand none 1800
+AGW ACDEFHKP small unknown
+F aff T
+#30629
+finch~
+{Ya finch{n~
+{YA small finch chirps cheerfully as it hops across the ground.{n
+~
+{y The finch's small brown body is decorated with speckles of yellow on
+its wings and white on its face.  Its tiny feet dig into the ground and it
+lifts its head to look at you and squawk.  {n 
+~
+song bird~
+ABG T 0 0
+10 10 21d3+102 10d10+85 3d3+10 thrust
+2 2 2 4
+FH 0 0 0
+stand stand none 500
+AGW ACDEFHKP small unknown
+#30630
+owl~
+{Dan owl{n~
+{DAn eerie mass of feathers swivels its head backwards to look at you.{n
+~
+{w The intense yellow eyes peer from a black mask.  The owl's coat is a
+deep grey color, decorated by a white breast.  Its wings are pointed, and
+its long tail striped with brown feathers.  The owl lets out a double hoot
+at your approach.  {n 
+~
+song bird~
+ABG T 0 0
+33 33 67d11+334 33d10+85 11d3+21 thwack
+-12 -12 -12 -5
+FH 0 0 0
+stand stand none 1600
+AGW ACDEFHKP medium unknown
+#30631
+condor~
+{Da condor{n~
+{DAn enormous black bird circles in the sky.{n
+~
+{w The size of this bird clearly identifies it as a condor.  It's
+yellow-orange head and neck are motionless in flight.  The condor's large
+white beak is a terrifying reminder that it is simply waiting for carrion to
+feast upon.  {n 
+~
+song bird~
+ABG T 0 0
+30 30 61d10+304 30d10+85 10d3+20 claw
+-10 -10 -10 -4
+FH 0 0 0
+stand stand none 1500
+AGW ACDEFHKP medium unknown
+#30632
+hawk~
+{ya hawk{n~
+{yA hawk circles threateningly through the sky.{n
+~
+{y The hawk pauses, hovering in the air above you.  Its broad, rounded
+wings appear pointed at the tips, and its broad, white tail steadies it in
+flight.  Its hooked beak opens to emit an ear-shattering squawk.  {n 
+~
+song bird~
+ABG T 0 0
+28 28 57d9+283 28d10+85 9d3+19 claw
+-9 -9 -9 -3
+FH 0 0 0
+stand stand none 1400
+AGW ACDEFHKP medium unknown
+#30633
+vulture~
+{Wa vulture{n~
+{WA large bird buries its beak into a hunk of carrion.{n
+~
+{y This predominantly brown vulture has a white head and neck, and black
+wings.  It momentarily brings its 2 foot neck to rest in the ruff of creamy
+white feathers around its neck before stretching it back out, along with its
+wings.  The vulture gives a soft croak, almost a whistle, as it feeds on a
+rotting carcass.  {n 
+~
+song bird~
+ABG T 0 0
+26 26 53d8+263 26d10+85 8d3+18 none
+-7 -7 -7 -2
+FH 0 0 0
+stand stand none 1300
+AGW ACDEFHKP medium unknown
+#30634
+tourguide~
+{wa tourguide{n~
+{wA tourguide stands ready to answer questions.{n
+~
+{cThis tourguide has a thorough understanding of each bird in this
+aviary, and can answer any question you have.  He prattles on and on in a
+monotone voice about the feeding habits of his favorite bird.  {n 
+~
+human~
+ABG 0 0 0
+1 1 3d2+11 1d10+85 1d2+5 none
+8 8 8 8
+0 0 0 0
+stand stand male 0
+AHMV ABCDEFGHIJK medium unknown
+#0
+
+
+
+#OBJECTS
+#30600
+bellbird nest~
+{ya bellbird's nest{n~
+{gA large leaf drifts down from a tree and settles on the forest floor.{n~
+bark~
+container 0 0
+10 0 0 10 100
+0 0 0 P
+E
+tree~
+{y This enormous tree towers over all travelers.  Only the birds can
+reach its full height.  Its large leaves provide shade in the blistering
+sun, and cover in the pouring rain.  A small cavity is just visible in its
+trunk.  {n 
+~
+E
+cavity~
+{y This may be a bellbird's nest.  How exciting!  {n 
+~
+#30601
+bellbird egg~
+{Man egg{n~
+{MThis bright pink egg is immediately identifiable as a bellbird's.{n~
+yolk~
+pill 0 A
+60 'armor' 'shield' 'sanctuary' 'demonfire'
+60 1 1000 P
+#30602
+plume blue heron~
+{Cthe Plume of the {WG{Cr{ce{Ca{Wt {CB{clu{Ce {WH{Ce{cr{Co{Wn{n~
+{cA large, rare plume fans across the ground.{n~
+unknown~
+armor 0 AE
+BF BF BF AF 0
+94 31 1880 P
+#30603
+sign credits~
+{ya sign{n~
+{yA small sign stands in a patch of grass.{n~
+petrified wood~
+trash OY 0
+0 0 0 0 0
+0 0 0 P
+E
+sign~
+{y+++++++++++++++++++++++++++++++++++++++++++++
+{y+++++++++++++++++++++++++++++++++++++++++++++
+{y++{WThis avian reserve was created by {RRajani.{y++
+{y+++++++++++++++++++++++++++++++++++++++++++++
+{y+++++++++{Whttp://creatia.funcity.org{y++++++++++
+{y+++++++++++++++++++++++++++++++++++++++++++++
+{y+++++{CSome people want to rule the world{y++++++
+{y++++++++++{CI just want to build it.{y+++++++++++
+{y+++++++++++++++++++++++++++++++++++++++++++++
+{y++++++++{RPlease don't feed the birds.{y+++++++++
+{y+++++++++++++++++++++++++++++++++++++++++++++
+{y+++++++++++++++++{WAugust 2002{y+++++++++++++++++
+{y+++++++++++++++++++++++++++++++++++++++++++++
+{y+++++++++++++++++++++++++++++++++++++++++++++
+~
+#30604
+grain~
+{ysome grain{n~
+{yA handful of grain has been dropped.{n~
+grain~
+food 0 AO
+B A 0 0 0
+0 0 5 P
+#30605
+tumbleweed~
+{ya tumbleweed{n~
+{yA tumbleweed is rolled about by the wind.{n~
+thistle~
+trash 0 0
+0 0 0 0 0
+5 0 0 P
+#30606
+mouse field~
+{Da field mouse{n~
+{DA field mouse scurries across the grass.{n~
+flesh~
+food 0 AO
+AB A 0 A 0
+5 1 5 P
+#30607
+grass~
+{ga clump of tall grass{n~
+{gTall blades of grass sway back and forth.{n~
+grass~
+trash 0 0
+0 0 0 0 0
+5 0 0 P
+#30608
+berries~
+{mberries{n~
+{mA clump of ripe berries is ready to be eaten.{n~
+fruit~
+food 0 AO
+B A 0 0 0
+15 2 25 P
+#30609
+acorns~
+{yacorns{n~
+{yAcorns have fallen from a nearby tree.{n~
+nut~
+food 0 AO
+A 0 0 0 0
+15 0 0 P
+#30610
+leaves~
+{ya pile of leaves{n~
+{yA pile of fallen leaves crunch underfoot.{n~
+leaves~
+furniture 0 0
+B ABCDEFGHIJKLMNOPQRSTUVWXYZabcdef BEHKN ACDEFG ACDEFG
+15 0 0 P
+#30611
+oak tree~
+{gan oak tree{n~
+{gThe branches of an oak tree shade the surrounding grass.{n~
+wood~
+trash 0 0
+0 0 0 0 0
+15 0 0 P
+#30612
+elm tree~
+{gan elm tree{n~
+{gThe leaves of an old elm tree rustle in the breeze.{n~
+wood~
+trash 0 0
+0 0 0 0 0
+15 0 0 P
+#30613
+branches~
+{ytree branches{n~
+{yFallen tree branches cover the ground.{n~
+wood~
+weapon 0 AN
+flail 2 10 beating 0
+15 3 300 P
+#30614
+sap~
+{Ytree sap{n~
+{yA sticky mess covers the ground.{n~
+sap~
+pill HM AO
+15 'refresh' '' '' ''
+20 1 50 P
+#30615
+snow~
+{Wa clump of snow{n~
+{WThe snow has been blown against some rocks.{n~
+water~
+food 0 AO
+0 0 0 0 0
+28 3 50 P
+#30616
+rock~
+{Da rock{n~
+{DA large rock lies in the middle of the trail.{n~
+rock~
+furniture 0 0
+A ABCDEFGHIJKLMNOPQRSTUVWXYZabcdef BEHKN ABDG ABDG
+30 10000 0 P
+#30617
+boulder~
+{Da boulder{n~
+{DA prior avalanche has left a large boulder nearly blocking the path.{n~
+rock~
+furniture 0 0
+AB ABCDEFGHIJKLMNOPQRSTUVWXYZabcdef BEHKN ABDG ABDG
+32 10000 0 P
+#30618
+basket~
+{ya basket{n~
+{yA simple woven basket rests on the ground.~
+wicker~
+container 0 AE
+5 0 0 0 0
+35 5 350 P
+#30619
+fluff~
+{wfluff{n~
+{wA thick, billowing cloud floats by.{n~
+etheralness~
+food 0 A
+AB A 0 0 0
+45 0 500 P
+#30620
+table~
+{ya wooden table{n~
+{yA handcarved table stands in the center of the room.{n~
+unknown~
+furniture 0 0
+BC ABCDEFGHIJKLMNOPQRSTUVWXYZabcdef ADGJN ABCDFH ABCDFH
+100 1000 0 P
+E
+glass~
+{cThe windows overlook the entire reserve.  The best views are provided
+from due north, west, east, and south.  {n 
+~
+E
+windows~
+{cThe windows overlook the entire reserve.  The best views are provided
+from due north, west, east, and south.  {n 
+~
+E
+references~
+{wVarious guides to birds and the identification of them line the
+shelves.  {n 
+~
+E
+bookshelf~
+{wVarious guides to birds and the identification of them line the
+shelves.  {n 
+~
+E
+bookshelves~
+{wVarious guides to birds and the identification of them line the
+shelves.  {n 
+~
+E
+binoculars~
+{DA pair of binoculars lies on the table.  {n 
+~
+#30621
+beehive~
+{ya beehive{n~
+{yA beehive is nestled into one of the bushes.{n~
+honey~
+container 0 0
+10 AC 0 0 0
+55 15 750 P
+#30622
+honey~
+{Yhoney{n~
+{YA stickly glop of honey is trailed across the ground.{n~
+honey~
+pill HM AO
+40 'cure light' '' '' ''
+55 5 100 P
+#30623
+tulips~
+{Mt{mu{Ml{Wi{Mp{ms{n~
+{gThree {Mt{mu{Ml{Wi{Mp{ms{g have been picked and left on the ground.{n~
+flowers~
+trash 0 AO
+0 0 0 0 0
+50 1 100 P
+#30624
+wildflowers~
+{Rw{Yi{Gl{Cd{Mf{Wl{Go{Rw{Be{Cr{Ys{n~
+{wA small bunch of {Rw{Yi{Gl{Cd{Mf{Wl{Go{Rw{Be{Cr{Ys{w is scattered on the ground.{n~
+flowers~
+trash 0 AE
+0 0 0 0 0
+53 1 100 P
+#30625
+roses~
+{Rroses{n~
+{gThe familar fragrance of {Rroses {gwafts through the air.{n~
+flowers~
+trash 0 AM
+0 0 0 0 0
+57 1 300 P
+#30626
+gardenias~
+{Wgardenias{n~
+{WA heavy, sweet scent comes from the small bunch the white flowers.{n~
+unknown~
+trash 0 AC
+0 0 0 0 0
+0 0 0 P
+#30627
+irises~
+{mirises{n~
+{mA few large irises have been arranged into a bouquet.{n~
+flowers~
+trash 0 AK
+0 0 0 0 0
+54 1 150 P
+#30628
+moss~
+{ra piece of hanging moss{n~
+{rA thick curtain of moss hangs from the branch of a tree.{n~
+moss~
+pill 0 AH
+70 'haste' 'blindness' 'stone skin' ''
+70 0 1000 P
+E
+moss~
+{cThe moss is soft and moist to the touch.  Surely it wouldn't hurt to
+pull a piece off.  {n 
+~
+#30629
+spider~
+{Da spider{n~
+{DA small arthropod quickly scurries under a leaf.{n~
+spider~
+food 0 AO
+A A 0 A 0
+0 0 1000 P
+E
+arthropod~
+{DThe spider has a distinctive red marking on its back.  {n 
+~
+E
+spider~
+{DThe spider has a distinctive red marking on its back.  {n 
+~
+#30630
+fern~
+{ga fern{n~
+{gA large fern fans its leaves towards the sky.{n~
+leaves~
+furniture 0 AD
+B DFGHIJ CFILO 0 0
+68 0 0 P
+#30631
+leaves leaf~
+{ga large leaf{n~
+{gA large leaf drifts down from a tree and settles on the forest floor.{n~
+leaves~
+furniture 0 AF
+A CEFGHI CFILO 0 0
+68 0 0 P
+#30632
+orchid~
+{man {Wo{mr{Wc{mh{Wi{md{n~
+{GAn enormous {Wo{mr{Wc{mh{Wi{md{G is in full bloom.{n~
+flower~
+trash 0 AL
+0 0 0 0 0
+0 0 0 P
+#30633
+tree~
+{ga large tree{n~
+{gThe leaves of a large tree filter the light.{n~
+tree~
+trash 0 0
+0 0 0 0 0
+72 0 1500 P
+#30634
+grass~
+{ga tuft of grass{n~
+{gA small tuft of grass sprouts in the sand.{n~
+grass~
+trash 0 0
+0 0 0 0 0
+80 0 0 P
+#30635
+stone~
+{Da stone{n~
+{DThe wind blows the sand to uncover a smooth, grey stone.{n~
+stone~
+weapon 0 AN
+exotic 9 12 beating 0
+80 20 1500 P
+#30636
+shrubs~
+{gtall shrubs{n~
+{gTall shrubs with thick, dried branches line the shore.{n~
+unknown~
+furniture 0 0
+AB ABCDEFGHIJKLMNOPQRSTUVWXYZabcdef BEHKN ABDG ABDG
+80 0 0 P
+#30637
+sand dune~
+{ya small dune{n~
+{ySand is blown into a small mound by the breeze.{n~
+unknown~
+furniture 0 0
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdef ABCDEFGHIJKLMNOPQRSTUVWXYZabcdef BEHKN 0 0
+80 0 0 P
+#30638
+pond water~
+{Ca pond{n~
+{n~
+water~
+fountain 0 0
+10000 10000 'water' 0 0
+80 0 0 P
+#30639
+pebbles~
+{rsome red pebbles{n~
+{n~
+stone~
+pill Y AO
+90 'stone skin' '' '' ''
+90 0 0 P
+#30640
+tree~
+{ya gnarled tree{n~
+{yA gnarled tree twists towards the shoreline.{n~
+unknown~
+container 0 0
+200 0 0 200 10
+90 0 0 P
+#30641
+flowers~
+{YO{g>-{y,{g-{n~
+{yA delicate {Yyellow {yflower has been dropped.{n~
+flowers~
+pill 0 AHO
+100 'cure blindness' 'remove curse' 'cure disease' ''
+90 0 0 P
+#30642
+table~
+{ya wooden table{n~
+{n {n~
+wood~
+container 0 0
+200 0 0 0 200
+0 0 0 P
+#30643
+binoculars~
+{Da pair of binoculars{n~
+{DA pair of binoculars has been carelessly left behind.{n~
+glass~
+armor 0 AC
+ABD ABD ABD BD 0
+30 10 600 P
+#30644
+bookshelves bookshelf~
+{ya bookshelf{n~
+{n~
+wood~
+container 0 0
+200 0 0 0 200
+0 0 0 P
+E
+bookshelves~
+{wVarious guides to birds and the identification of them line the
+shelves.  {n 
+~
+E
+bookshelf~
+{wVarious guides to birds and the identification of them line the
+shelves.  {n 
+~
+#30645
+book waterfowl fowl~
+{cThe Complete Guide to Waterfowl{n~
+{cA complete guide to the identification of water birds lies open on the ground.{n~
+paper~
+scroll 0 AO
+30 'create water' '' '' ''
+30 0 2000 P
+#30646
+book forest birds~
+{gBirds of the Forest - A Pictoral Guide{n~
+{gA complete guide to the identification of forest birds lies open on the ground.{n~
+paper~
+scroll 0 AO
+30 'shield' '' '' ''
+30 0 2000 P
+#30647
+book mountain birds~
+{DBirds of the Mountains{n~
+{DA complete guide to the identification of mountain birds lies open on the ground.{n~
+paper~
+scroll 0 AO
+30 'fly' 'stone skin' '' ''
+30 0 200 P
+#30648
+book common birds~
+{ySurvival Mechanisms of the Common Bird{n~
+{yA complete guide to the survival mechanisms of common birds lies open on the ground.{n~
+paper~
+scroll 0 AO
+30 'create food' '' '' ''
+30 0 2000 P
+#30649
+vole~
+{Da vole{n~
+{DA disgusting little rodent has been left out in the sun to die.{n~
+flesh~
+food 0 AE
+B A 0 A 0
+7 0 0 P
+#30650
+chicken wing~
+{wa chicken wing{n~
+{wA dismembered chicken bakes in the sun, although a few parts do still look salvagable.{n~
+unknown~
+food Q AO
+B A 0 0 0
+5 1 100 P
+#30651
+swan song~
+{Wa swan's song{n~
+{WA beautifully sad song echos in the distance.{n~
+unknown~
+armor QY AQ
+ABCDE ABCDE ABCDE BCDE 0
+85 28 1700 P
+#30652
+woodpecker beak~
+{Ra woodpecker's beak{n~
+{RA sharp bird's beak stands upright hunk of wood.{n~
+unknown~
+weapon QY 0
+dagger 1 10 pierce D
+17 4 340 P
+#30653
+hawk eyes~
+{yhawk's eyes{n~
+{yA pair of sharp eyes roll about on the ground.{n~
+flesh~
+armor Q AE
+BD BD BD AD 0
+27 9 540 P
+F
+A 0 0 F
+F
+A 0 0 D
+#30654
+condor wings~
+{Dcondor wings{n~
+{DThe enormous wings of a condor have been sliced from its body.{n~
+unknown~
+armor Q AI
+ACD ACD ACD CD 0
+35 11 700 P
+F
+A 0 0 T
+#30655
+basket~
+{ya basket{n~
+{yA wicker basket is covered with a soft blanket.{n~
+wicker~
+container Y AO
+1000 A 0 1000 50
+75 3 1000 P
+#30656
+heron plume~
+{cthe Plume of a {CBlue Heron{n~
+{cA stunning grey-blue plume catches your eye.{n~
+unknown~
+armor 0 AE
+ABCDE ABCDE ABCDE BCDE 0
+86 28 1720 P
+A
+20 -5
+#0
+
+
+
+#ROOMS
+#30600
+{YAn Open Field{n~
+{y Dried patches of crisp grass are scattered across the earth.  Brief
+gusts of a warm wind whirl the loose dirt into a cloud at their peaks, and
+the clouds settle at the wind's nadir.  The field stretches as far as the
+eye can see in all directions.  {n 
+~
+0 4 2
+E
+grass~
+{y The yellowed, dried grass crunches underfoot.  A good rain is
+desperately needed.  {n 
+~
+E
+dirt~
+{y The earth is dry, and the loose dirt is easily scattered by the wind. 
+It settles as the wind calms, and also covers your apparel.  {n 
+~
+E
+clouds~
+{y The earth is dry, and the loose dirt is easily scattered by the wind. 
+It settles as the wind calms, and also covers your apparel.  {n 
+~
+D0
+An open field stretches as far as the eye can see.  
+~
+~
+0 0 30600
+D1
+An open field stretches as far as the eye can see.
+~
+~
+0 0 30601
+D2
+An open field stretches as far as the eye can see.
+~
+~
+0 0 30600
+D3
+An open field stretches as far as the eye can see.
+~
+~
+0 0 30602
+D4
+~
+~
+1 0 30690
+S
+#30601
+{YAn Open Field{n~
+{y Dried patches of crisp grass are scattered across the earth.  Brief
+gusts of a warm wind whirl the loose dirt into a cloud at their peaks, and
+the clouds settle at the wind's nadir.  The field stretches as far as the
+eye can see in all directions.  {n 
+~
+0 0 2
+E
+grass~
+{y The yellowed, dried grass crunches underfoot.  A good rain is
+desperately needed.  {n 
+~
+E
+dirt~
+{y The earth is dry, and the loose dirt is easily scattered by the wind. 
+It settles as the wind calms, and also covers your apparel.  {n 
+~
+E
+clouds~
+{y The earth is dry, and the loose dirt is easily scattered by the wind. 
+It settles as the wind calms, and also covers your apparel.  {n 
+~
+D0
+An open field stretches as far as the eye can see.
+~
+~
+0 0 30603
+D1
+An open field stretches as far as the eye can see.
+~
+~
+0 0 30602
+D2
+An open field stretches as far as the eye can see.
+~
+~
+0 0 30607
+D3
+An open field stretches as far as the eye can see.
+~
+~
+0 0 30600
+S
+#30602
+{YAn Open Field{n~
+{y Dried patches of crisp grass are scattered across the earth.  Brief
+gusts of a warm wind whirl the loose dirt into a cloud at their peaks, and
+the clouds settle at the wind's nadir.  The field stretches as far as the
+eye can see in all directions.  {n 
+~
+0 0 2
+E
+grass~
+{y The yellowed, dried grass crunches underfoot.  A good rain is
+desperately needed.  {n 
+~
+E
+dirt~
+{y The earth is dry, and the loose dirt is easily scattered by the wind. 
+It settles as the wind calms, and also covers your apparel.  {n 
+~
+E
+clouds~
+{y The earth is dry, and the loose dirt is easily scattered by the wind. 
+It settles as the wind calms, and also covers your apparel.  {n 
+~
+D0
+An open field stretches as far as the eye can see.
+~
+~
+0 0 30604
+D1
+An open field stretches as far as the eye can see.
+~
+~
+0 0 30600
+D2
+An open field stretches as far as the eye can see.
+~
+~
+0 0 30604
+D3
+An open field stretches as far as the eye can see.
+~
+~
+0 0 30601
+S
+#30603
+{YAn Open Field{n~
+{y Dried patches of crisp grass are scattered across the earth.  Brief
+gusts of a warm wind whirl the loose dirt into a cloud at their peaks, and
+the clouds settle at the wind's nadir.  The field stretches as far as the
+eye can see in all directions.  {n 
+~
+0 0 2
+E
+grass~
+{y The yellowed, dried grass crunches underfoot.  A good rain is
+desperately needed.  {n 
+~
+E
+dirt~
+{y The earth is dry, and the loose dirt is easily scattered by the wind. 
+It settles as the wind calms, and also covers your apparel.  {n 
+~
+E
+clouds~
+{y The earth is dry, and the loose dirt is easily scattered by the wind. 
+It settles as the wind calms, and also covers your apparel.  {n 
+~
+D0
+An open field stretches as far as the eye can see.
+~
+~
+0 0 30605
+D1
+An open field stretches as far as the eye can see.
+~
+~
+0 0 30604
+D2
+An open field stretches as far as the eye can see.
+~
+~
+0 0 30601
+D3
+An open field stretches as far as the eye can see.
+~
+~
+0 0 30604
+S
+#30604
+{YAn Open Field{n~
+{y Dried patches of crisp grass are scattered across the earth.  Brief
+gusts of a warm wind whirl the loose dirt into a cloud at their peaks, and
+the clouds settle at the wind's nadir.  The field stretches as far as the
+eye can see in all directions.  {n 
+~
+0 0 2
+E
+grass~
+{y The yellowed, dried grass crunches underfoot.  A good rain is
+desperately needed.  {n 
+~
+E
+dirt~
+{y The earth is dry, and the loose dirt is easily scattered by the wind. 
+It settles as the wind calms, and also covers your apparel.  {n 
+~
+E
+clouds~
+{y The earth is dry, and the loose dirt is easily scattered by the wind. 
+It settles as the wind calms, and also covers your apparel.  {n 
+~
+D0
+An open field stretches as far as the eye can see.
+~
+~
+0 0 30602
+D1
+An open field stretches as far as the eye can see.
+~
+~
+0 0 30603
+D2
+An open field stretches as far as the eye can see.
+~
+~
+0 0 30602
+D3
+An open field stretches as far as the eye can see.
+~
+~
+0 0 30603
+S
+#30605
+{YAn Open Field{n~
+{y Dried patches of crisp grass are scattered across the earth.  Brief
+gusts of a warm wind whirl the loose dirt into a cloud at their peaks, and
+the clouds settle at the wind's nadir.  The field stretches as far as the
+eye can see in all directions.  {n 
+~
+0 0 2
+E
+grass~
+{y The yellowed, dried grass crunches underfoot.  A good rain is
+desperately needed.  {n 
+~
+E
+dirt~
+{y The earth is dry, and the loose dirt is easily scattered by the wind. 
+It settles as the wind calms, and also covers your apparel.  {n 
+~
+E
+clouds~
+{y The earth is dry, and the loose dirt is easily scattered by the wind. 
+It settles as the wind calms, and also covers your apparel.  {n 
+~
+D0
+An open field stretches as far as the eye can see.
+~
+~
+0 0 30606
+D1
+An open field stretches as far as the eye can see.
+~
+~
+0 0 30605
+D2
+An open field stretches as far as the eye can see.
+~
+~
+0 0 30603
+D3
+An open field stretches as far as the eye can see.
+~
+~
+0 0 30605
+S
+#30606
+{YAn Open Field{n~
+{y Dried patches of crisp grass are scattered across the earth.  Brief
+gusts of a warm wind whirl the loose dirt into a cloud at their peaks, and
+the clouds settle at the wind's nadir.  The field stretches as far as the
+eye can see in all directions.  {n 
+~
+0 0 2
+E
+grass~
+{y The yellowed, dried grass crunches underfoot.  A good rain is
+desperately needed.  {n 
+~
+E
+dirt~
+{y The earth is dry, and the loose dirt is easily scattered by the wind. 
+It settles as the wind calms, and also covers your apparel.  {n 
+~
+E
+clouds~
+{y The earth is dry, and the loose dirt is easily scattered by the wind. 
+It settles as the wind calms, and also covers your apparel.  {n 
+~
+D0
+An open field stretches as far as the eye can see.
+~
+~
+0 0 30607
+D1
+An open field stretches as far as the eye can see.
+~
+~
+0 0 30606
+D2
+An open field stretches as far as the eye can see.
+~
+~
+0 0 30605
+D3
+An open field stretches as far as the eye can see.
+~
+~
+0 0 30606
+S
+#30607
+{YAn Open Field{n~
+{y Dried patches of crisp grass are scattered across the earth.  Brief
+gusts of a warm wind whirl the loose dirt into a cloud at their peaks, and
+the clouds settle at the wind's nadir.  The field stretches as far as the
+eye can see in all directions.  {n 
+~
+0 0 2
+E
+grass~
+{y The yellowed, dried grass crunches underfoot.  A good rain is
+desperately needed.  {n 
+~
+E
+dirt~
+{y The earth is dry, and the loose dirt is easily scattered by the wind. 
+It settles as the wind calms, and also covers your apparel.  {n 
+~
+E
+clouds~
+{y The earth is dry, and the loose dirt is easily scattered by the wind. 
+It settles as the wind calms, and also covers your apparel.  {n 
+~
+D0
+An open field stretches as far as the eye can see.
+~
+~
+0 0 30601
+D1
+An open field stretches as far as the eye can see.
+~
+~
+0 0 30608
+D2
+An open field stretches as far as the eye can see.
+~
+~
+0 0 30606
+D3
+An open field stretches as far as the eye can see.
+~
+~
+0 0 30610
+S
+#30608
+{YAn Open Field{n~
+{y Dried patches of crisp grass are scattered across the earth.  Brief
+gusts of a warm wind whirl the loose dirt into a cloud at their peaks, and
+the clouds settle at the wind's nadir.  The field stretches as far as the
+eye can see in all directions.  {n 
+~
+0 0 2
+E
+grass~
+{y The yellowed, dried grass crunches underfoot.  A good rain is
+desperately needed.  {n 
+~
+E
+dirt~
+{y The earth is dry, and the loose dirt is easily scattered by the wind. 
+It settles as the wind calms, and also covers your apparel.  {n 
+~
+E
+clouds~
+{y The earth is dry, and the loose dirt is easily scattered by the wind. 
+It settles as the wind calms, and also covers your apparel.  {n 
+~
+D0
+An open field stretches as far as the eye can see.
+~
+~
+0 0 30608
+D1
+An open field stretches as far as the eye can see.
+~
+~
+0 0 30609
+D2
+An open field stretches as far as the eye can see.
+~
+~
+0 0 30608
+D3
+An open field stretches as far as the eye can see.
+~
+~
+0 0 30607
+S
+#30609
+{YAn Open Field{n~
+{y Dried patches of crisp grass are scattered across the earth.  Brief
+gusts of a warm wind whirl the loose dirt into a cloud at their peaks, and
+the clouds settle at the wind's nadir.  The field stretches as far as the
+eye can see in all directions.  {n 
+~
+0 0 2
+E
+grass~
+{y The yellowed, dried grass crunches underfoot.  A good rain is
+desperately needed.  {n 
+~
+E
+dirt~
+{y The earth is dry, and the loose dirt is easily scattered by the wind. 
+It settles as the wind calms, and also covers your apparel.  {n 
+~
+E
+clouds~
+{y The earth is dry, and the loose dirt is easily scattered by the wind. 
+It settles as the wind calms, and also covers your apparel.  {n 
+~
+D0
+An open field stretches as far as the eye can see.
+~
+~
+0 0 30609
+D1
+An open field stretches as far as the eye can see.
+~
+~
+0 0 30610
+D2
+An open field stretches as far as the eye can see.
+~
+~
+0 0 30609
+D3
+An open field stretches as far as the eye can see.
+~
+~
+0 0 30608
+S
+#30610
+{YAn Open Field{n~
+{y Dried patches of crisp grass are scattered across the earth.  Brief
+gusts of a warm wind whirl the loose dirt into a cloud at their peaks, and
+the clouds settle at the wind's nadir.  The field stretches as far as the
+eye can see in all directions.  {n 
+~
+0 0 2
+E
+grass~
+{y The yellowed, dried grass crunches underfoot.  A good rain is
+desperately needed.  {n 
+~
+E
+dirt~
+{y The earth is dry, and the loose dirt is easily scattered by the wind. 
+It settles as the wind calms, and also covers your apparel.  {n 
+~
+E
+clouds~
+{y The earth is dry, and the loose dirt is easily scattered by the wind. 
+It settles as the wind calms, and also covers your apparel.  {n 
+~
+D0
+An open field stretches as far as the eye can see.
+~
+~
+0 0 30611
+D1
+An open field stretches as far as the eye can see.
+~
+~
+0 0 30607
+D2
+An open field stretches as far as the eye can see.
+~
+~
+0 0 30611
+D3
+An open field stretches as far as the eye can see.
+~
+~
+0 0 30609
+S
+#30611
+{YAn Open Field{n~
+{y Dried patches of crisp grass are scattered across the earth.  Brief
+gusts of a warm wind whirl the loose dirt into a cloud at their peaks, and
+the clouds settle at the wind's nadir.  The field stretches as far as the
+eye can see in all directions.  {n 
+~
+0 0 2
+E
+grass~
+{y The yellowed, dried grass crunches underfoot.  A good rain is
+desperately needed.  {n 
+~
+E
+dirt~
+{y The earth is dry, and the loose dirt is easily scattered by the wind. 
+It settles as the wind calms, and also covers your apparel.  {n 
+~
+E
+clouds~
+{y The earth is dry, and the loose dirt is easily scattered by the wind. 
+It settles as the wind calms, and also covers your apparel.  {n 
+~
+D0
+An open field stretches as far as the eye can see.
+~
+~
+0 0 30610
+D1
+An open field stretches as far as the eye can see.
+~
+~
+0 0 30612
+D2
+An open field stretches as far as the eye can see.
+~
+~
+0 0 30610
+D3
+An open field stretches as far as the eye can see.
+~
+~
+0 0 30612
+S
+#30612
+{YAn Open Field{n~
+{y Dried patches of crisp grass are scattered across the earth.  Brief
+gusts of a warm wind whirl the loose dirt into a cloud at their peaks, and
+the clouds settle at the wind's nadir.  The field stretches as far as the
+eye can see to the north, east, and west.  The grass thickens and slowly
+blends into a more vibrant green to the south.  {n 
+~
+0 0 2
+E
+grass~
+{y The yellowed, dried grass crunches underfoot.  A good rain is
+desperately needed.  {n 
+~
+E
+clouds~
+{y The earth is dry, and the loose dirt is easily scattered by the wind. 
+It settles as the wind calms, and also covers your apparel.  {n 
+~
+E
+dirt~
+{y The earth is dry, and the loose dirt is easily scattered by the wind.  It settles as the wind calms, and also covers your apparel.{n
+,f
+~
+D0
+An open field stretches as far as the eye can see.
+~
+~
+0 0 30612
+D1
+An open field stretches as far as the eye can see.
+~
+~
+0 0 30611
+D2
+The crisp yellowed grass become thicker and more green as a light forest
+is approached.  
+~
+~
+0 0 30613
+D3
+An open field stretches as far as the eye can see.
+~
+~
+0 0 30611
+S
+#30613
+{GA Light Forest{n~
+{g The thick, green grass carpets the earth, interrupted only by the
+large trees.  Rays of light filter through the leaves and cast shadows
+across the ground.  The breeze rustles the branches, causing the occasional
+stray leaf to spiral downwards.  
+~
+0 0 3
+E
+grass~
+{G A lush carpeting of grass covers the ground of the forest.  {n 
+~
+E
+trees~
+{y Judging from the size of the trunks, the trees in this forest are
+incredibly old.  {n 
+~
+E
+branches~
+{y The branches of the tall trees seem just out of reach.  {n 
+~
+E
+leaves~
+{D The shadows dance across the ground as the wind rustles the leaves.  {n 
+~
+E
+shadows~
+{D The shadows dance across the ground as the wind rustles the leaves.  {n 
+~
+D0
+An open field stretches as far as the eye can see.
+~
+~
+0 0 30612
+D1
+An open field stretches as far as the eye can see.
+~
+~
+0 0 30613
+D2
+The forest coninues as far as the eye can see.
+~
+~
+0 0 30614
+D3
+An open field stretches as far as the eye can see.
+~
+~
+0 0 30613
+S
+#30614
+{GA Light Forest{n~
+{g The thick, green grass carpets the earth, interrupted only by the
+large trees.  Rays of light filter through the leaves and cast shadows
+across the ground.  The breeze rustles the branches, causing the occasional
+stray leaf to spiral downwards.  
+~
+0 0 3
+E
+grass~
+{G A lush carpeting of grass covers the ground of the forest.  {n 
+~
+E
+trees~
+{y Judging from the size of the trunks, the trees in this forest are
+incredibly old.  {n 
+~
+E
+branches~
+{y The branches of the tall trees seem just out of reach.  {n 
+~
+E
+leaves~
+{D The shadows dance across the ground as the wind rustles the leaves.  {n 
+~
+E
+shadows~
+{D The shadows dance across the ground as the wind rustles the leaves.  {n 
+~
+D0
+The forest coninues as far as the eye can see.
+~
+~
+0 0 30613
+D1
+The forest coninues as far as the eye can see.
+~
+~
+0 0 30614
+D2
+The forest coninues as far as the eye can see.
+~
+~
+0 0 30615
+D3
+The forest coninues as far as the eye can see.
+~
+~
+0 0 30614
+S
+#30615
+{GA Light Forest{n~
+{g The thick, green grass carpets the earth, interrupted only by the
+large trees.  Rays of light filter through the leaves and cast shadows
+across the ground.  The breeze rustles the branches, causing the occasional
+stray leaf to spiral downwards.  
+~
+0 0 3
+E
+grass~
+{G A lush carpeting of grass covers the ground of the forest.  {n 
+~
+E
+trees~
+{y Judging from the size of the trunks, the trees in this forest are
+incredibly old.  {n 
+~
+E
+branches~
+{y The branches of the tall trees seem just out of reach.  {n 
+~
+E
+shadows~
+{D The shadows dance across the ground as the wind rustles the leaves.  {n 
+~
+E
+leaves~
+{D The shadows dance across the ground as the wind rustles the leaves.  {n 
+~
+D0
+The forest coninues as far as the eye can see.
+~
+~
+0 0 30614
+D1
+The forest coninues as far as the eye can see.
+~
+~
+0 0 30616
+D3
+The forest coninues as far as the eye can see.
+~
+~
+0 0 30618
+S
+#30616
+{GA Light Forest{n~
+{g The thick, green grass carpets the earth, interrupted only by the
+large trees.  Rays of light filter through the leaves and cast shadows
+across the ground.  The breeze rustles the branches, causing the occasional
+stray leaf to spiral downwards.  
+~
+0 0 3
+E
+grass~
+{G A lush carpeting of grass covers the ground of the forest.  {n 
+~
+E
+trees~
+{y Judging from the size of the trunks, the trees in this forest are
+incredibly old.  {n 
+~
+E
+branches~
+{y The branches of the tall trees seem just out of reach.  {n 
+~
+E
+leaves~
+{D The shadows dance across the ground as the wind rustles the leaves.  {n 
+~
+E
+shadows~
+{D The shadows dance across the ground as the wind rustles the leaves.  {n 
+~
+D0
+The forest coninues as far as the eye can see.
+~
+~
+0 0 30616
+D1
+The forest coninues as far as the eye can see.
+~
+~
+0 0 30617
+D2
+The forest coninues as far as the eye can see.
+~
+~
+0 0 30616
+D3
+The forest coninues as far as the eye can see.
+~
+~
+0 0 30615
+S
+#30617
+{GA Light Forest{n~
+{g The thick, green grass carpets the earth, interrupted only by the
+large trees.  Rays of light filter through the leaves and cast shadows
+across the ground.  The breeze rustles the branches, causing the occasional
+stray leaf to spiral downwards.  
+~
+0 0 3
+E
+grass~
+{G A lush carpeting of grass covers the ground of the forest.  {n 
+~
+E
+trees~
+{y Judging from the size of the trunks, the trees in this forest are
+incredibly old.  {n 
+~
+E
+branches~
+{y The branches of the tall trees seem just out of reach.  {n 
+~
+E
+leaves~
+{D The shadows dance across the ground as the wind rustles the leaves.  {n 
+~
+E
+shadows~
+{D The shadows dance across the ground as the wind rustles the leaves.  {n 
+~
+D0
+The forest coninues as far as the eye can see.
+~
+~
+0 0 30622
+D1
+The forest coninues as far as the eye can see.
+~
+~
+0 0 30618
+D2
+The forest coninues as far as the eye can see.
+~
+~
+0 0 30619
+D3
+The forest coninues as far as the eye can see.
+~
+~
+0 0 30616
+S
+#30618
+{GA Light Forest{n~
+{g The thick, green grass carpets the earth, interrupted only by the
+large trees.  Rays of light filter through the leaves and cast shadows
+across the ground.  The breeze rustles the branches, causing the occasional
+stray leaf to spiral downwards.  
+~
+0 0 3
+E
+grass~
+{G A lush carpeting of grass covers the ground of the forest.  {n 
+~
+E
+trees~
+{y Judging from the size of the trunks, the trees in this forest are
+incredibly old.  {n 
+~
+E
+branches~
+{y The branches of the tall trees seem just out of reach.  {n 
+~
+E
+leaves~
+{D The shadows dance across the ground as the wind rustles the leaves.  {n 
+~
+E
+shadows~
+{D The shadows dance across the ground as the wind rustles the leaves.  {n 
+~
+D0
+The forest coninues as far as the eye can see.
+~
+~
+0 0 30625
+D1
+The forest coninues as far as the eye can see.
+~
+~
+0 0 30615
+D2
+The forest coninues as far as the eye can see.
+~
+~
+0 0 30620
+D3
+The forest coninues as far as the eye can see.
+~
+~
+0 0 30617
+S
+#30619
+{GA Light Forest{n~
+{g The thick, green grass carpets the earth, interrupted only by the
+large trees.  Rays of light filter through the leaves and cast shadows
+across the ground.  The breeze rustles the branches, causing the occasional
+stray leaf to spiral downwards.  
+~
+0 0 3
+E
+grass~
+{G A lush carpeting of grass covers the ground of the forest.  {n 
+~
+E
+trees~
+{y Judging from the size of the trunks, the trees in this forest are
+incredibly old.  {n 
+~
+E
+branches~
+{y The branches of the tall trees seem just out of reach.  {n 
+~
+E
+leaves~
+{D The shadows dance across the ground as the wind rustles the leaves.  {n 
+~
+E
+shadows~
+{D The shadows dance across the ground as the wind rustles the leaves.  {n 
+~
+D0
+The forest coninues as far as the eye can see.
+~
+~
+0 0 30617
+D1
+The forest coninues as far as the eye can see.
+~
+~
+0 0 30620
+D2
+The forest coninues as far as the eye can see.
+~
+~
+0 0 30622
+D3
+The forest coninues as far as the eye can see.
+~
+~
+0 0 30621
+S
+#30620
+{GA Light Forest{n~
+{g The thick, green grass carpets the earth, interrupted only by the
+large trees.  Rays of light filter through the leaves and cast shadows
+across the ground.  The breeze rustles the branches, causing the occasional
+stray leaf to spiral downwards.  
+~
+0 0 3
+E
+grass~
+{G A lush carpeting of grass covers the ground of the forest.  {n 
+~
+E
+trees~
+{y Judging from the size of the trunks, the trees in this forest are
+incredibly old.  {n 
+~
+E
+branches~
+{y The branches of the tall trees seem just out of reach.  {n 
+~
+E
+leaves~
+{D The shadows dance across the ground as the wind rustles the leaves.  {n 
+~
+E
+shadows~
+{D The shadows dance across the ground as the wind rustles the leaves.  {n 
+~
+D0
+The forest coninues as far as the eye can see.
+~
+~
+0 0 30618
+D1
+The forest coninues as far as the eye can see.
+~
+~
+0 0 30621
+D2
+The forest coninues as far as the eye can see.
+~
+~
+0 0 30623
+D3
+The forest coninues as far as the eye can see.
+~
+~
+0 0 30619
+S
+#30621
+{GA Light Forest{n~
+{g The thick grass and large trees thin and give way to a rocky path. 
+The ground underfoot is warmer without the protective shade of the trees,
+and more unwelcoming without the cushioning of the lush grass.  A narrow
+path leads up the mountain, and the forest thickens again in all other
+directions.  {n 
+~
+0 0 3
+E
+grass~
+{G A lush carpeting of grass covers the ground of the forest.  {n 
+~
+E
+trees~
+{y Judging from the size of the trunks, the trees in this forest are
+incredibly old.  {n 
+~
+E
+branches~
+{y The branches of the tall trees seem just out of reach.  {n 
+~
+E
+leaves~
+{D The shadows dance across the ground as the wind rustles the leaves.  {n 
+~
+E
+shadows~
+{D The shadows dance across the ground as the wind rustles the leaves.  {n 
+~
+D0
+The forest coninues as far as the eye can see.
+~
+~
+0 0 30624
+D1
+The forest coninues as far as the eye can see.
+~
+~
+0 0 30619
+D2
+The forest coninues as far as the eye can see.
+~
+~
+0 0 30624
+D3
+The forest coninues as far as the eye can see.
+~
+~
+0 0 30620
+D4
+The forest thins, and a rocky path replaces the carpet of green grass.  
+~
+~
+0 0 30626
+S
+#30622
+{GA Light Forest{n~
+{g The thick, green grass carpets the earth, interrupted only by the
+large trees.  Rays of light filter through the leaves and cast shadows
+across the ground.  The breeze rustles the branches, causing the occasional
+stray leaf to spiral downwards.  
+~
+0 0 3
+E
+grass~
+{G A lush carpeting of grass covers the ground of the forest.  {n 
+~
+E
+trees~
+{y Judging from the size of the trunks, the trees in this forest are
+incredibly old.  {n 
+~
+E
+branches~
+{y The branches of the tall trees seem just out of reach.  {n 
+~
+E
+leaves~
+{D The shadows dance across the ground as the wind rustles the leaves.  {n 
+~
+E
+shadows~
+{D The shadows dance across the ground as the wind rustles the leaves.  {n 
+~
+D0
+The forest coninues as far as the eye can see.
+~
+~
+0 0 30619
+D1
+The forest coninues as far as the eye can see.
+~
+~
+0 0 30623
+D2
+The forest coninues as far as the eye can see.
+~
+~
+0 0 30617
+D3
+The forest coninues as far as the eye can see.
+~
+~
+0 0 30624
+S
+#30623
+{GA Light Forest{n~
+{g The thick, green grass carpets the earth, interrupted only by the
+large trees.  Rays of light filter through the leaves and cast shadows
+across the ground.  The breeze rustles the branches, causing the occasional
+stray leaf to spiral downwards.  
+~
+0 0 3
+E
+grass~
+{G A lush carpeting of grass covers the ground of the forest.  {n 
+~
+E
+trees~
+{y Judging from the size of the trunks, the trees in this forest are
+incredibly old.  {n 
+~
+E
+branches~
+{y The branches of the tall trees seem just out of reach.  {n 
+~
+E
+leaves~
+{D The shadows dance across the ground as the wind rustles the leaves.  {n 
+~
+E
+shadows~
+{D The shadows dance across the ground as the wind rustles the leaves.  {n 
+~
+D0
+The forest coninues as far as the eye can see.
+~
+~
+0 0 30620
+D1
+The forest coninues as far as the eye can see.
+~
+~
+0 0 30624
+D2
+The forest coninues as far as the eye can see.
+~
+~
+0 0 30625
+D3
+The forest coninues as far as the eye can see.
+~
+~
+0 0 30622
+S
+#30624
+{GA Light Forest{n~
+{g The thick, green grass carpets the earth, interrupted only by the
+large trees.  Rays of light filter through the leaves and cast shadows
+across the ground.  The breeze rustles the branches, causing the occasional
+stray leaf to spiral downwards.  
+~
+0 0 3
+E
+grass~
+{G A lush carpeting of grass covers the ground of the forest.  {n 
+~
+E
+trees~
+{y Judging from the size of the trunks, the trees in this forest are
+incredibly old.  {n 
+~
+E
+branches~
+{y The branches of the tall trees seem just out of reach.  {n 
+~
+E
+leaves~
+{D The shadows dance across the ground as the wind rustles the leaves.  {n 
+~
+E
+shadows~
+{D The shadows dance across the ground as the wind rustles the leaves.  {n 
+~
+D0
+The forest coninues as far as the eye can see.
+~
+~
+0 0 30621
+D1
+The forest coninues as far as the eye can see.
+~
+~
+0 0 30622
+D2
+The forest coninues as far as the eye can see.
+~
+~
+0 0 30621
+D3
+The forest coninues as far as the eye can see.
+~
+~
+0 0 30623
+S
+#30625
+{GA Light Forest{n~
+{g The thick, green grass carpets the earth, interrupted only by the
+large trees.  Rays of light filter through the leaves and cast shadows
+across the ground.  The breeze rustles the branches, causing the occasional
+stray leaf to spiral downwards.  
+~
+0 0 3
+E
+grass~
+{G A lush carpeting of grass covers the ground of the forest.  {n 
+~
+E
+trees~
+{y Judging from the size of the trunks, the trees in this forest are
+incredibly old.  {n 
+~
+E
+branches~
+{y The branches of the tall trees seem just out of reach.  {n 
+~
+E
+leaves~
+{D The shadows dance across the ground as the wind rustles the leaves.  {n 
+~
+E
+shadows~
+{D The shadows dance across the ground as the wind rustles the leaves.  {n 
+~
+D0
+The forest coninues as far as the eye can see.
+~
+~
+0 0 30623
+D1
+The forest coninues as far as the eye can see.
+~
+~
+0 0 30625
+D2
+The forest coninues as far as the eye can see.
+~
+~
+0 0 30618
+D3
+The forest coninues as far as the eye can see.
+~
+~
+0 0 30625
+S
+#30626
+{WA Mountain{n~
+{c The snow-topped peaks in the distance softly touch the sky.  The
+range's rugged heights and steep glaciers dare travelers to challenge the
+elements.  The winding mountain path continues to the east.  A lush forest
+grows further downwards off the path.  {n 
+~
+0 0 5
+E
+peaks~
+{D The mountains climb nearly to the sky, and their peaks seems embedded
+in the clouds.  {n 
+~
+E
+glaciers~
+{W From this distance, you make a quick assessment of the difficulty of
+the climb and the weather you'll encounter.  {n {n 
+~
+E
+mountains~
+{W From this distance, you make a quick assessment of the difficulty of
+the climb and the weather you'll encounter.  {n {n 
+~
+E
+forest~
+{g A lush forest grows just off the path.  The dense trees prevent
+further inspection from this distance.  {n {n 
+~
+D1
+The winding path continues.
+~
+~
+0 0 30627
+D5
+A thick green grass replaces the rough stone trail.
+~
+~
+0 0 30621
+S
+#30627
+{WA Mountain{n~
+{c Small tufts of grass grow between the rocks and the thin layer of
+snow.  The snow-topped peaks in the distance softly touch the sky.  The
+steep glaciers also climb to magnificent heights.  The winding mountain path
+spirals upwards to the north, and remains level to the south and west.  {n 
+~
+0 0 5
+E
+tufts~
+{g The grass becomes more thin as the path spirals upwards.  {n 
+~
+E
+grass~
+{g The grass becomes more thin as the path spirals upwards.  {n 
+~
+E
+rocks~
+{D Small rocks are strewn along the uneven path.  {n 
+~
+E
+path~
+{D Small rocks are strewn along the uneven path.  {n 
+~
+E
+peaks~
+{D The mountains climb nearly to the sky, and their peaks seems embedded
+in the clouds.  {n 
+~
+E
+glaciers~
+{W From this distance, you make a quick assessment of the difficulty of
+the climb and the weather you'll encounter.  {n 
+~
+E
+mountains~
+{W From this distance, you make a quick assessment of the difficulty of
+the climb and the weather you'll encounter.  {n 
+~
+D0
+The winding path continues.
+~
+~
+0 0 30628
+D2
+The winding path continues.
+~
+~
+0 0 30643
+D3
+The winding path begins to straighten.
+~
+~
+0 0 30626
+S
+#30628
+{WA Mountain{n~
+{D The trek becomes more difficult as the path becomes steeper.  Dusky
+rocks tower to each side of the passage.  A chill wind howls through the
+narrow walkway, whipping the loose snow off the ground and whirling it in
+the air.  The rocky path smooths to the south, and takes a sharp turn
+further ascending the mountain to the east.  {n 
+~
+0 0 5
+E
+path~
+{D The steep incline of the rocky path makes progress more difficult. 
+The path seems to level to the south.  {n ed add walkway {D The steep
+incline of the rocky path makes progress more difficult.  The path seems to
+level to the south.  {n 
+~
+E
+ground~
+{W The hard ground is covered in a thin layer of snow.  {n 
+~
+E
+snow~
+{W The smaller flakes of snow are whirled into the air, and only settle
+back to the ground once the wind has calmed.  {n 
+~
+E
+rocks~
+{D The path is built through the mountain itself, and the tall rocks
+stand as walls to either side.  {n 
+~
+D1
+The path takes a steep turn to the east.
+~
+~
+0 0 30629
+D2
+The winding path continues.
+~
+~
+0 0 30627
+S
+#30629
+{WA Mountain{n~
+{D The rocky passage rises faster than the towering walls to each side,
+and a glimpse of the terrain below is caught between the shorter rocks.  The
+gusts of wind seem less severe, although they remain just as frequent.  The
+path continues to wind around the mountain, ascending to the north and
+descending to the west.  {n 
+~
+0 0 5
+E
+rocks~
+{D The path is built through the mountain itself, and the tall rocks
+stand as walls to either side.  {n 
+~
+E
+path~
+{D The steep incline of the rocky path makes progress more difficult.  {n 
+~
+E
+terrain~
+{c A breathtaking view of a river can be glimpsed just over the tops of
+the shortest rocks.  {n 
+~
+D0
+The trecherous path continues to ascend.
+~
+~
+0 0 30630
+D3
+The path descends.
+~
+~
+0 0 30628
+S
+#30630
+{WA Mountain{n~
+{D The path rises above the rocky walls, affording a breathtaking view of
+the land below the mountain.  The chill wind whirls up the thin layer of
+snow covering the path before quieting once again.  The rocky trek appears
+easier to the east where the path levels.  The path quickly descends again
+to the south.  
+~
+0 0 5
+E
+path~
+{D The steep incline of the rocky path makes progress more difficult.  {n 
+~
+E
+land~
+{c A large river flanked by large evergreens courses along the base of
+the mountain.  {n 
+~
+E
+rock~
+{D The path is built through the mountain itself, and the tall rocks
+stand as walls to either side.  {n 
+~
+E
+walls~
+{D The path is built through the mountain itself, and the tall rocks
+stand as walls to either side.  {n 
+~
+E
+snow~
+{W The smaller flakes of snow are whirled into the air, and only settle back to the ground once the wind has calmed.{n
+,f
+~
+D1
+The trek looks a bit easier.
+~
+~
+0 0 30632
+D2
+The path takes a steep decline.
+~
+~
+0 0 30629
+S
+#30631
+{WA Mountain{n~
+{D Below this peak is a steep ravine that glides into a quiet river. 
+This sanctuary is the most inaccessible part of the mountain range, and from
+this distance, the most beautiful.  The river below is surrounded on all
+sides by other peaks.  A rocky path continues south to the plateau.  {n 
+~
+0 0 5
+E
+path~
+{D The steep incline of the rocky path makes progress more difficult.  {n 
+~
+E
+ravine~
+{c The precipitous drop leads into a great river that feeds the nearby
+lakes.  {n 
+~
+E
+peaks~
+{D The mountains climb nearly to the sky, and their peaks seems embedded
+in the clouds.  {n 
+~
+D2
+The mountain trail continues.
+~
+~
+0 0 30632
+S
+#30632
+{WA Mountain{n~
+{D The path continues through this peaceful plateau.  From this height,
+the graceful landscape below can fully be appreciated: fields blend into
+forests, and forests blend into lakes.  The silence is uplifting rather than
+burdensome, a soothing song for the weary traveler.  
+~
+0 0 5
+E
+path~
+{D The steep incline of the rocky path makes progress more difficult.  {n 
+~
+E
+landscape~
+{c The river empties into a series of lakes, each surrounded by lush
+vegetation.  {n 
+~
+D0
+The top of a steep peak lies just north.
+~
+~
+0 0 30631
+D1
+The path remains smooth, and looks like easy traveling.
+~
+~
+0 0 30634
+D2
+There appear to be some decorative carvings.
+~
+~
+0 0 30633
+D3
+The trek looks more difficult.
+~
+~
+0 0 30630
+S
+#30633
+{WA Mountain{n~
+{m A small open temple has been established on this plateau.  Statues of
+dieties have been fashioned into the rock.  Offerings of fruit and grains
+stand before them, although the bearer is nowhere to be found.  The path
+continues to the north back to the plateau.  {n 
+~
+0 0 5
+E
+fruit~
+{y A small basket filled with valuable grapes and nectarines stands in
+front of one statue.  {n 
+~
+E
+grains~
+{y A small basket filled with wheat and breads has been place in front of
+one statue.  {n 
+~
+E
+statue~
+{c There appears to be a statue devoted to each major diety worshiped in
+this part of the realm.  {n 
+~
+D0
+The mountain trail continues.
+~
+~
+0 0 30632
+S
+#30634
+{WA Mountain{n~
+{D The trek becomes more treacherous.  As the path inclines more steeply,
+the wind gusts more forcefully.  The passage continues to wind around the
+mountain, ascending the mountain to the south and returning to the plateau
+to the west.  {n 
+~
+0 0 5
+E
+path~
+{D The steep incline of the rocky path makes progress more difficult.  {n 
+~
+E
+passage~
+{D The steep incline of the rocky path makes progress more difficult.  {n 
+~
+D2
+The path continues to ascend.
+~
+~
+0 0 30635
+D3
+The climb levels off at the plateau.
+~
+~
+0 0 30632
+S
+#30635
+{WA Mountain{n~
+{D A chill wind howls over the barren land.  Large flakes of snow dance
+through the sky and settle on the already frozen ground.  The snowcovered
+path continues its ascent to the east, and descends to the north.  {n 
+~
+0 0 5
+E
+path~
+{D The steep incline of the rocky path makes progress more difficult.  {n 
+~
+E
+flakes~
+{W Larger flakes topple from the sky and off higher rocks.  {n 
+~
+E
+snow~
+{W Larger flakes topple from the sky and off higher rocks.  The smaller
+flakes of snow are whirled into the air, and only settle back to the ground
+once the wind has calmed.  {n 
+~
+E
+ground~
+{W The hard ground is covered in a thin layer of snow.  {n 
+~
+D0
+The trail begins to slope downwards.
+~
+~
+0 0 30634
+D1
+The steep path takes a sharp turn.
+~
+~
+0 0 30636
+S
+#30636
+{WA Mountain{n~
+{D The twisting path continues to wind around the mountain.  The height
+affords a breathtaking view of the gliding hills and tranquil waters below. 
+A chill wind whirls up a thin layer of snow covering the path.  The
+treacherous journey takes a steep turn to the south, and declines to the
+west.  {n 
+~
+0 0 5
+E
+path~
+{D The steep incline of the rocky path makes progress more difficult.  {n 
+~
+E
+hills~
+{c The series of gently sloping hills that surround the lakes and this
+mountain range are a vibrant green.  {n 
+~
+E
+waters~
+{c The series of gently sloping hills that surround the lakes and this
+mountain range are a vibrant green.  {n 
+~
+E
+view~
+{c The series of gently sloping hills that surround the lakes and this
+mountain range are a vibrant green.  {n 
+~
+D2
+The steep path takes a sharp turn.
+~
+~
+0 0 30637
+D3
+The trail curves and slopes downwards.
+~
+~
+0 0 30635
+S
+#30637
+{WA Mountain{n~
+{D The trek becomes more difficult as the path becomes steeper.  The
+fresh snow crunches loudly underfoot.  As the path inclines more steeply,
+the wind gusts more forcefully.  The steep path rises with the mountain to
+the west, and descends to the north.  
+~
+0 0 5
+E
+path~
+{D The steep incline of the rocky path makes progress more difficult.  {n 
+~
+E
+snow~
+{W The hard ground is covered in a thin layer of snow.  {n 
+~
+E
+ground~
+{W The hard ground is covered in a thin layer of snow.  {n 
+~
+D0
+The trail slopes downwards.
+~
+~
+0 0 30636
+D3
+The steep path takes a sharp turn.
+~
+~
+0 0 30638
+S
+#30638
+{WA Mountain{n~
+{D The chill wind whirls up the thin layer of snow covering the path
+before quieting once again.  The height affords a breathtaking view of the
+gliding hills and tranquil waters below.  The twisting path continues to
+wind around the mountain; it rises with the mountain to the south, and
+descends to the east.  
+~
+0 0 5
+E
+snow~
+{W Larger flakes topple from the sky and off higher rocks.  The smaller
+flakes of snow are whirled into the air, and only settle back to the ground
+once the wind has calmed.  {n 
+~
+E
+hills~
+{c The series of gently sloping hills that surround the lakes and this
+mountain range are a vibrant green.  {n 
+~
+E
+waters~
+{c The series of gently sloping hills that surround the lakes and this
+mountain range are a vibrant green.  {n 
+~
+E
+view~
+{c The series of gently sloping hills that surround the lakes and this
+mountain range are a vibrant green.  {n 
+~
+D1
+The terrain falls quickly downwards.
+~
+~
+0 0 30637
+D2
+The steep path continues to climb up the mountain.
+~
+~
+0 0 30639
+S
+#30639
+{WA Mountain{n~
+{D The fresh snow crunches loudly underfoot.  As the path inclines more
+steeply, the wind gusts more forcefully.  The treacherous journey takes a
+steep turn to the east, and declines to the north.  
+~
+0 0 5
+E
+snow~
+{W The hard ground is covered in a thin layer of snow.  {n 
+~
+E
+path~
+{D The steep incline of the rocky path makes progress more difficult.  {n 
+~
+D0
+The trail slopes downwards.
+~
+~
+0 0 30638
+D1
+The steep path takes a sharp turn.
+~
+~
+0 0 30640
+S
+#30640
+{WA Mountain{n~
+{D The twisting path continues to wind around the mountain.  The fresh
+snow crunches loudly underfoot.  The wind yields a shrill howl as it whips
+around the rocks.  The steep path ascends to the south, and descends to the
+west.  
+~
+0 0 5
+E
+path~
+{D The steep incline of the rocky path makes progress more difficult.  {n 
+~
+E
+snow~
+{W The hard ground is covered in a thin layer of snow.  {n 
+~
+E
+rocks~
+{D Small rocks are strewn across the steep path.  {n 
+~
+D2
+The steep path takes continues to ascend.
+~
+~
+0 0 30641
+D3
+The trail slopes downwards.
+~
+~
+0 0 30639
+S
+#30641
+{WA Mountain{n~
+{D The twisting path continues to wind around the mountain.  The height
+affords a breathtaking view of the gliding hills and tranquil waters below. 
+A chill wind whirls up a thin layer of snow covering the path.  {D The
+treacherous journey takes a steep turn to the west, and declines to the
+north.  In the sky above, a few clouds float by.  {n 
+~
+0 0 5
+E
+path~
+{D The steep incline of the rocky path makes progress more difficult.  {n 
+~
+E
+view~
+{c The series of gently sloping hills that surround the lakes and this
+mountain range are a vibrant green.  {n 
+~
+E
+hills~
+{c The series of gently sloping hills that surround the lakes and this
+mountain range are a vibrant green.  {n 
+~
+E
+waters~
+{c The series of gently sloping hills that surround the lakes and this
+mountain range are a vibrant green.  {n 
+~
+E
+snow~
+{W Larger flakes topple from the sky and off higher rocks.  The smaller
+flakes of snow are whirled into the air, and only settle back to the ground
+once the wind has calmed.  {n 
+~
+E
+sky~
+{C The highest peaks are amidst the clouds.  {n 
+~
+D0
+The trail slopes downwards.
+~
+~
+0 0 30640
+D3
+The sumit lies on the horizon.
+~
+~
+0 0 30642
+D4
+{C At this height, one can almost touch the thick clouds passing through
+the clear sky.  {n 
+~
+~
+0 0 30684
+S
+#30642
+{WA Mountain{n~
+{D Steep, rocky walls arise on all sides, and what appears to be a past
+avalanche of snow and rock blocks further passage.  The sky is nearly
+obscured by the towering rock, although the snow still sparkles with even
+minimal light.  The only choice is to return along the path to the east.  {n
+~
+0 0 5
+E
+west~
+{D Rocks.  A dead end.  {n 
+~
+E
+rock~
+{D Large boulders have tumbled into the path, blocking any further
+progress.  There is no way to overcome the tower of rock.  {n 
+~
+E
+avalanche~
+{D Large boulders have tumbled into the path, blocking any further
+progress.  There is no way to overcome the tower of rock.  {n 
+~
+E
+walls~
+{D Large boulders have tumbled into the path, blocking any further
+progress.  There is no way to overcome the tower of rock.  {n 
+~
+E
+sky~
+{C The tallest peaks are amidst the clouds.  {n 
+~
+E
+snow~
+{W Larger flakes topple from the sky and off higher rocks.  The smaller
+flakes of snow are whirled into the air, and only settle back to the ground
+once the wind has calmed.  {n 
+~
+D1
+The trail slopes downwards.
+~
+~
+0 0 30641
+S
+#30643
+{WA Mountain{n~
+{c The steep glaciers climb to magnificent heights.  The peaks of the
+slate-grey range are covered in snow.  Small tufts of grass grow between the
+rocks and snow.  The path slopes gently upwards to the north, and declines
+to the south.  {n 
+~
+0 0 5
+E
+glaciers~
+{W From this distance, you make a quick assessment of the difficulty of
+the climb and the weather you'll encounter.  {n 
+~
+E
+mountains~
+{W From this distance, you make a quick assessment of the difficulty of
+the climb and the weather you'll encounter.  {n 
+~
+E
+peaks~
+{D The mountains climb nearly to the sky, and their peaks seems embedded
+in the clouds.  {n 
+~
+E
+grass~
+{g The grass becomes more thin as the path slopes upwards, and thickens
+as the path descends.  {n 
+~
+E
+tufts~
+{g The grass becomes more thin as the path slopes upwards, and thickens
+as the path descends.  {n 
+~
+D0
+The winding path continues.
+~
+~
+0 0 30627
+D2
+The winding path continues.
+~
+~
+0 0 30644
+S
+#30644
+{WA Mountain{n~
+{c The range's rugged heights and steep glaciers dare travelers to
+challenge the elements.  The snow-topped peaks in the distance softly touch
+the sky.  The occasional plant peeks from behind a small rock.  The path
+slopes gently upwards to the north, and slowly declines to the south.  {n 
+~
+0 0 5
+E
+glaciers~
+{W From this distance, you make a quick assessment of the difficulty of
+the climb and the weather you'll encounter.  {n 
+~
+E
+mountains~
+{W From this distance, you make a quick assessment of the difficulty of
+the climb and the weather you'll encounter.  {n 
+~
+E
+peaks~
+{D The mountains climb nearly to the sky, and their peaks seems embedded
+in the clouds.  {n 
+~
+E
+rocks~
+{D Small rocks are strewn along the uneven path.  {n 
+~
+E
+path~
+{D Small rocks are strewn along the uneven path.  {n 
+~
+E
+plants~
+{g Leafy plants sprout between the rocks.  The rough terrain does not
+permit them much growth.  {n 
+~
+D0
+The winding path continues.
+~
+~
+0 0 30643
+D2
+The winding path continues.
+~
+~
+0 0 30645
+S
+#30645
+{WA Mountain{n~
+{c The occasional plant peeks from behind a small rock.  The steep
+glaciers climb to magnificent heights.  The snow-topped peaks in the
+distance softly touch the sky.  The air warms along the downsloping path,
+and a lush garden springs from the earth.  {n 
+~
+0 0 5
+E
+plants~
+{g Leafy plants sprout between the rocks.  The rough terrain does not
+permit them much growth.  {n 
+~
+E
+glaciers~
+{W From this distance, you make a quick assessment of the difficulty of
+the climb and the weather you'll encounter.  {n 
+~
+E
+mountains~
+{W From this distance, you make a quick assessment of the difficulty of
+the climb and the weather you'll encounter.  {n 
+~
+E
+peaks~
+{D The mountains climb nearly to the sky, and their peaks seems embedded
+in the clouds.  {n 
+~
+E
+garden~
+{g Although there is a small opening in the hedges, it is difficult to
+see into the garden from this distance.  {n 
+~
+D0
+The winding path continues.
+~
+~
+0 0 30644
+D5
+{g The path slopes downhill into a fragrant garden.{n
+~
+~
+0 0 30646
+S
+#30646
+{GThe Garden{n~
+{gTrimmed hedges line the stone pathway through the gardens.  {mIrises
+{gbow their head with the breeze, and the sweet aroma of blooming
+{Wgardenias {gfills the air.  Tall shrubs rise from the field, blocking the
+view to the east, west and south.  The stones continue to the north through
+the garden.  
+~
+0 0 2
+E
+east~
+{g The thick hedges block your path.{n
+~
+E
+west~
+{g The thick hedges block your path.{n
+~
+E
+south~
+{g The thick hedges block your path.{n
+~
+E
+hedges~
+{G The thick hedges wind around the garden creating a simple maze.  {n 
+~
+E
+shrubs~
+{G The thick hedges wind around the garden creating a simple maze.  {n 
+~
+E
+irises~
+{m The large irises are just beginning to bud.  {n 
+~
+E
+gardenias~
+{W The fragrant gardenia bush is in full bloom.  {n 
+~
+E
+pathway~
+{w Slates of stone between the hedges create a simple path through the
+garden.  {n 
+~
+E
+stone~
+{w Slates of stone between the hedges create a simple path through the
+garden.  {n 
+~
+D0
+{w The stone path winds between the shrubs.{n
+~
+~
+0 0 30647
+D4
+{D The path slopes uphill towards a tall mountain. {n
+~
+~
+0 0 30645
+D5
+{G The path slopes downhill into a thick, humid forest.{n
+~
+~
+0 0 30652
+S
+#30647
+{GThe Garden{n~
+{gTall shrubs rise from the field, blocking the view to the north and
+east.  A small patch of {Rw{Yi{Cl{Bd{Mf{Gl{Ro{Yw{Ce{Br{ms {ggrows in the
+center of the stone pathway.  A delicate {Ycrocus {gblooms at the edge of
+the trail.  The stone pathway continues south and west through the garden. 
+{n 
+~
+0 0 2
+E
+east~
+{g The thick hedges block your path.{n
+~
+E
+north~
+{g The thick hedges block your path.{n
+~
+E
+shrubs~
+{G The thick hedges wind around the garden creating a simple maze.  {n 
+~
+E
+stone~
+{w Slates of stone between the hedges create a simple path through the
+garden.  {n 
+~
+E
+pathway~
+{w Slates of stone between the hedges create a simple path through the
+garden.  {n 
+~
+E
+crocus~
+{Y The blooming crocuses give the first sign of spring-like weather.  {n 
+~
+E
+wildflowers~
+{M A colorful bunch of wildflowers sprout between the slabs of the stone
+pathway.  {n 
+~
+E
+patch~
+{M A colorful bunch of wildflowers sprout between the slabs of the stone
+pathway.  {n 
+~
+D2
+{w The stone path winds between the shrubs.{n
+~
+~
+0 0 30646
+D3
+{w The stone path winds between the shrubs.{n
+~
+~
+0 0 30648
+S
+#30648
+{GThe Garden{n~
+{gThe twisting stone path is lined with tall, trimmed hedges.  A row of
+colorful {Mtulips {gstands tall in front of the shrubs.  Magnificent {Rroses
+{gbud from a round bush, and their delicate scent is carried by the soft
+breeze.  The shrubs block the view to the north, but the stone path
+continues to the east, south and west.  {n 
+~
+0 0 2
+E
+north~
+{g The thick hedges block your path.{n
+~
+E
+path~
+{w Slates of stone between the hedges create a simple path through the
+garden.  {n 
+~
+E
+stone~
+{w Slates of stone between the hedges create a simple path through the
+garden.  {n 
+~
+E
+hedges~
+{G The thick hedges wind around the garden creating a simple maze.  {n 
+~
+E
+shrubs~
+{G The thick hedges wind around the garden creating a simple maze.  {n 
+~
+E
+tulips~
+{G The thin, stiff stems of the tulips bend slightly with the breeze.  {n 
+~
+E
+roses~
+{R The rose bush is in full bloom.  The large, round buds emit an
+intoxicating fragrance.  {n 
+~
+D1
+{w The stone path winds between the shrubs.{n
+~
+~
+0 0 30647
+D2
+{w The stone path winds between the shrubs.{n
+~
+~
+0 0 30649
+D3
+{w The stone path winds between the shrubs.{n
+~
+~
+0 0 30650
+S
+#30649
+{GThe Garden{n~
+{gTrimmed hedges line the stone pathway through the gardens.  A delicate
+{Ycrocus {gblooms at the edge of the trail.  A row of colorful {Mtulips
+{gstands tall in front of the shrubs.  The shrubs block the view to the
+south and east, but the stone pathway continues north and west through the
+garden.  {n 
+~
+0 0 2
+E
+east~
+{g The thick hedges block your path.{n
+~
+E
+south~
+{g The thick hedges block your path.{n
+~
+E
+hedges~
+{G The thick hedges wind around the garden creating a simple maze.  {n 
+~
+E
+shrubs~
+{G The thick hedges wind around the garden creating a simple maze.  {n 
+~
+E
+crocus~
+{Y The blooming crocuses give the first sign of spring-like weather.  {n 
+~
+E
+tulips~
+{G The thin, stiff stems of the tulips bend slightly with the breeze.  {n 
+~
+E
+stone~
+{w Slates of stone between the hedges create a simple path through the
+garden.  {n 
+~
+E
+pathway~
+{w Slates of stone between the hedges create a simple path through the
+garden.  {n 
+~
+D0
+{w The stone path winds between the shrubs.{n
+~
+~
+0 0 30648
+D3
+{w The stone path winds between the shrubs.{n
+~
+~
+0 0 30651
+S
+#30650
+{GThe Garden{n~
+{gThe stone path abruptly stops, and the trimmed hedges surround the path
+entirely to form a dead end.  A small circle of
+{Rw{Yi{Cl{Bd{Mf{Gl{Ro{Yw{Ce{Br{ms {ggrows just in front of the shrubs.  The
+sweet aroma of {Wgardenias {gfill the air.  The path returns east back to
+the garden.  {n 
+~
+0 0 2
+E
+south~
+{g The thick hedges block your path.{n
+~
+E
+west~
+{g The thick hedges block your path.{n
+~
+E
+north~
+{g The thick hedges block your path.{n
+~
+E
+stone~
+{w Slates of stone between the hedges create a simple path through the
+garden.  {n 
+~
+E
+path~
+{w Slates of stone between the hedges create a simple path through the
+garden.  {n 
+~
+E
+hedges~
+{G The thick hedges wind around the garden creating a simple maze.  {n 
+~
+E
+shrubs~
+{G The thick hedges wind around the garden creating a simple maze.  {n 
+~
+E
+wildflowers~
+{M A colorful bunch of wildflowers sprout between the slabs of the stone
+pathway.  {n 
+~
+E
+gardenias~
+{W The fragrant gardenia bush is in full bloom.  {n 
+~
+D1
+{w The stone path winds between the shrubs.{n
+~
+~
+0 0 30648
+S
+#30651
+{GThe Garden{n~
+{gThe twisting stone path is lined with tall, trimmed hedges.  A small
+patch of {Rw{Yi{Cl{Bd{Mf{Gl{Ro{Yw{Ce{Br{ms {ggrows in the center of the
+stone pathway.  {mIrises {gbow their head with the breeze, The shrubs end as
+the path climbs up a small hill.  The stone pathway winds east through the
+garden.  {n 
+~
+0 0 2
+E
+south~
+{g The thick hedges block your path.{n
+~
+E
+west~
+{g The thick hedges block your path.{n
+~
+E
+north~
+{g The thick hedges block your path.{n
+~
+E
+stone~
+{w Slates of stone between the hedges create a simple path through the
+garden.  {n 
+~
+E
+path~
+{w Slates of stone between the hedges create a simple path through the
+garden.  {n 
+~
+E
+hedges~
+{G The thick hedges wind around the garden creating a simple maze.  {n 
+~
+E
+shrubs~
+{G The thick hedges wind around the garden creating a simple maze.  {n 
+~
+E
+wildflowers~
+{M A colorful bunch of wildflowers sprout between the slabs of the stone
+pathway.  {n 
+~
+E
+irises~
+{mThe large irises are just beginning to bud.  {n 
+~
+D1
+{w The stone path winds between the shrubs.{n
+~
+~
+0 0 30649
+D4
+{y The stone pathway ends and blends into a fine sand just atop the hill.
+{n 
+~
+~
+0 0 30658
+S
+#30652
+{GAn Exotic Forest{n~
+{gThe humid air weighs heavily on travelers through this forest. 
+Enormous trees reach towards the sky, and broad leaves fan across top of the
+forest, providing a cooler shade in the otherwise unbearable heat.  Strange
+ferns the size of a large dragon wave in the light breeze.  The forest thins
+as the trail winds up the hill, and thickens to the south.  {n 
+~
+0 0 3
+E
+trail~
+{r The trail is overlayed with fallen leaves and moss.  {n 
+~
+E
+ferns~
+{g Large ferns tower over most of the forest life.  {n 
+~
+E
+leaves~
+{G As the broad leaves rustles with the light breeze, sunlight filters
+through onto the forest floor.  {n 
+~
+E
+bark~
+{r A strange moss grows on the bark.  {n 
+~
+E
+trees~
+{y The massive trunks are covered in a thick bark.  {n 
+~
+D2
+{G The forest becomes more dense, and the trail harder to follow.  {n 
+~
+~
+0 0 30653
+D4
+{g The forest thins, and the uphill trail enters a fragrant garden.  {n 
+~
+~
+0 0 30646
+S
+#30653
+{GAn Exotic Forest{n~
+{gAny light from the sky is almost entirely blocked by the large, thick
+leaves from the towering trees.  Brightly colored orchids bloom from plants
+on the forest floor.  The ground is covered with a soft layer of leaves and
+moss.  The forest continues to the west and thins to the north.  {n 
+~
+0 0 3
+E
+orchids~
+{m Each petal of the magnificent orchids is as large as a typical garden
+plant.  {n 
+~
+E
+floor~
+{r The trail is overlayed with fallen leaves and moss.  {n 
+~
+E
+moss~
+{r A strange moss grows on the bark, and also covers the ground.  {n 
+~
+E
+trees~
+{y The massive trunks are covered in a thick bark.  {n 
+~
+E
+leaves~
+{G As the broad leaves rustles with the light breeze, sunlight filters
+through onto the forest floor.  {n 
+~
+D0
+{G The forest begins to thin.{n
+~
+~
+0 0 30652
+D3
+{G A faint trail winds through the forest.{n
+~
+~
+0 0 30654
+S
+#30654
+{GAn Exotic Forest{n~
+{gThe fragrent orchids open towards the sky.  The humid air weighs
+heavily on travelers through this forest.  The ground is covered with a soft
+layer of leaves and moss.  The forest continues as far as the eye can see,
+but a thick layer of vegetation blocks further progress to the south.  {n 
+~
+0 0 3
+E
+south~
+{g There is no way to proceed south.  The trees and plants block any
+progress.  {n 
+~
+E
+vegetation~
+{g There is no way to proceed south.  The trees and plants block any
+progress.  {n 
+~
+E
+leaves~
+{G As the broad leaves rustles with the light breeze, sunlight filters
+through onto the forest floor.  {n 
+~
+E
+moss~
+{r A strange moss grows on the bark, and also covers the ground.  {n f {r
+A strange moss grows on the bark, and also covers the ground.  {n 
+~
+E
+ground~
+{r The trail is overlayed with fallen leaves and moss.  {n 
+~
+E
+orchids~
+{m Each petal of the magnificent orchids is as large as a typical garden
+plant.  {n 
+~
+D0
+{G A faint trail winds through the thick forest.{n
+~
+~
+0 0 30655
+D1
+{G A faint trail winds through the forest.{n
+~
+~
+0 0 30653
+D3
+{G A faint trail winds through the thick forest.{n
+~
+~
+0 0 30657
+S
+#30655
+{GAn Exotic Forest{n~
+{gThe broad leaves fan across the top of the forest, providing a cooler
+shade in the otherwise unbearable heat.  Long vines hang from the branches
+and sway with the gentle breeze under the canopy of leaves.  The trail
+through the forest winds further south and west.  {n 
+~
+0 0 3
+E
+tree~
+{y The massive trunks are covered in a thick bark.  
+~
+E
+ground~
+{r The trail is overlayed with fallen leaves and moss.  
+~
+E
+trail~
+{r The trail is overlayed with fallen leaves and moss.  {n 
+~
+E
+vines~
+{g The thick vines draped from the branches are covered in a strange
+moss.  {n 
+~
+E
+leaves~
+{G As the broad leaves rustles with the light breeze, sunlight filters
+through onto the forest floor.  
+~
+D2
+{G A faint trail winds through the thick forest.{n
+~
+~
+0 0 30654
+D3
+{G A faint trail winds through the thick forest.{n
+~
+~
+0 0 30656
+S
+#30656
+{GAn Exotic Forest{n~
+{gBrightly colored orchids bloom from plants on the forest floor.  Their
+light fragrance dances between the strings of moss hanging from a nearby
+tree.  The ground is covered with a soft layer of leaves and moss.  The
+trail through the forest continues to the east and south.  Thick vegetation
+blocks futher exploration to the north or the west.  {n 
+~
+0 0 3
+E
+west~
+{g There is no way to proceed west.  The trees and plants block any
+progress.  {n 
+~
+E
+north~
+{g There is no way to proceed north.  The trees and plants block any
+progress.  {n 
+~
+E
+vegetation~
+{g There is no way to proceed north or west.  The trees and plants block
+any progress.  {n 
+~
+E
+trail~
+{r The trail is overlayed with fallen leaves and moss.  {n 
+~
+E
+leaves~
+{G As the broad leaves rustles with the light breeze, sunlight filters
+through onto the forest floor.  {n 
+~
+E
+ground~
+{r The trail is overlayed with fallen leaves and moss.  {n 
+~
+E
+tree~
+{y The massive trunks are covered in a thick bark.  {n 
+~
+E
+moss~
+{r A strange moss grows on the bark.  {n 
+~
+E
+orchids~
+{m Each petal of the magnificent orchids is as large as a typical garden
+plant.  {n 
+~
+D1
+{G A faint trail winds through the thick forest.{n
+~
+~
+0 0 30655
+D2
+{G A faint trail winds through the thick forest.{n
+~
+~
+0 0 30657
+S
+#30657
+{GAn Exotic Forest{n~
+{gBroad leaves fan across the top of the forest, providing a cooler shade
+in the otherwise unbearable heat.  The humid air weighs heavily on travelers
+through this forest.  Enormous trees reach towards the sky, and strange
+ferns the size of a large dragon wave in the light breeze.  The trail
+through the forest continues to the north and the east.  The thick
+vegetation blocks further exploration to the south or the west.  {n 
+~
+0 0 3
+E
+west~
+{g There is no way to proceed west.  The trees and plants block any
+progress.  {n 
+~
+E
+south~
+{g There is no way to proceed south.  The trees and plants block any
+progress.  {n 
+~
+E
+vegetation~
+{g There is no way to proceed south or west.  The trees and plants block
+any progress.  {n 
+~
+E
+ferns~
+{g Large ferns tower over most of the forest life.  {n 
+~
+E
+bark~
+{r A strange moss grows on the bark.  {n 
+~
+E
+trees~
+{y The massive trunks are covered in a thick bark.  {n 
+~
+E
+leaves~
+{G As the broad leaves rustles with the light breeze, sunlight filters
+through onto the forest floor.  {n 
+~
+D0
+{G A faint trail winds through the thick forest.{n
+~
+~
+0 0 30656
+D1
+{G A faint trail winds through the thick forest.{n
+~
+~
+0 0 30654
+S
+#30658
+{YThe Shore{n~
+{ySmall tufts of grass peek through the fine sand.  Smooth, grey stones
+lie scattered along the shore, although they seem to form the beginnings of
+a path as the terrain slopes downwards.  The shoreline extends as far as the
+eye can see to both the east and west.  {n 
+~
+0 0 2
+E
+path~
+{g The grass become more thick as the terrain slopes downwards and seems
+to form a path.  {n 
+~
+E
+stones~
+{D The tops of the occasional stone has been cleared of sand by the light
+breeze.  {n 
+~
+E
+sand~
+{y The fine, white sand carpets the shoreline.  {n 
+~
+E
+grass~
+{g The dry grass grows in small clumps.  {n 
+~
+D1
+{y The shoreline extends as far as the eye can see.  {n 
+~
+~
+0 0 30659
+D3
+{y The shoreline extends as far as the eye can see.  {n 
+~
+~
+0 0 30675
+D5
+{g As the terrain slopes downhill, the sand ends and a fragrant garden
+blooms.  {n 
+~
+~
+0 0 30651
+S
+#30659
+{YThe Shore{n~
+{y A few tall shrubs nearly block the view of the distand pond.  The
+occasional stone catches the light as it protrudes from the sand.  A cool,
+gentle breeze sweeps across the pond and stirs the warm sand.  The shoreline
+extends as far as the eye can see to both the north and the west.  {n 
+~
+0 0 2
+E
+pond~
+{G To the northwest, a pond can be seen just over the tops of the dried
+bushes.  {n 
+~
+E
+shrubs~
+{G To the northwest, a pond can be seen just over the tops of the dried
+bushes.  {n 
+~
+E
+sand~
+{y The fine, white sand carpets the shoreline.  {n 
+~
+E
+stone~
+{D The tops of the occasional stone has been cleared of sand by the light
+breeze.  {n 
+~
+D0
+{y The shoreline extends as far as the eye can see.  {n 
+~
+~
+0 0 30660
+D3
+{y The shoreline extends as far as the eye can see.  {n 
+~
+~
+0 0 30658
+S
+#30660
+{YThe Shore{n~
+{yThe warm sand gives way underfoot.  It glimmers, seemingly of its own
+accord.  In the distance, a strange bird sings a faintly familiar melody.  A
+tranquil pond is just visible to the north over the tops of the shrubs.  The
+shoreline extends as far as the eye can see to both the south and the east. 
+{n 
+~
+0 0 2
+E
+pond~
+{G To the north, a pond can be seen just over the tops of the dried
+bushes.  {n 
+~
+E
+sand~
+{y The fine, white sand carpets the shoreline.  {n 
+~
+D1
+{y The shoreline extends as far as the eye can see.  {n 
+~
+~
+0 0 30661
+D2
+{y The shoreline extends as far as the eye can see.{n
+~
+~
+0 0 30659
+S
+#30661
+{YThe Shore{n~
+{ySmall tufts of grass peek through the fine sand.  A few tall shrubs
+nearly block the view of the distand pond.  A cool, gentle breeze sweeps
+across the pond and stirs the warm sand.  The shoreline extends as far as
+the eye can see to both the north and the west.  {n 
+~
+0 0 2
+E
+pond~
+{G To the northwest, a pond can be seen just over the tops of the dried
+bushes.  {n 
+~
+E
+shrubs~
+{G To the west, a pond can be seen just over the tops of the dried
+bushes.  {n 
+~
+E
+grass~
+{g The dry grass grows in small clumps.  {n 
+~
+D0
+{y The shoreline extends as far as the eye can see.  {n 
+~
+~
+0 0 30662
+D3
+{y The shoreline extends as far as the eye can see.  {n 
+~
+~
+0 0 30660
+S
+#30662
+{YThe Shore{n~
+{yThe warm sand gives way underfoot.  It glimmers, seemingly of its own
+accord.  A tranquil pond is just visible to the east over the tops of the
+shrubs.  The shoreline extends as far as the eye can see to both the north
+and the south.  {n 
+~
+0 0 2
+E
+pond~
+{G To the west, a pond can be seen just over the tops of the dried
+bushes.  {n 
+~
+E
+sand~
+{y The fine, white sand carpets the shoreline.  {n 
+~
+D0
+{y The shoreline extends as far as the eye can see.  {n 
+~
+~
+0 0 30663
+D2
+{y The shoreline extends as far as the eye can see.  {n 
+~
+~
+0 0 30661
+S
+#30663
+{YThe Shore{n~
+{ySmooth, grey stones lie scattered along the shore.  The occasional
+stone catches the light as it protrudes from the sand.  A tranquil pond is
+just visible to the west over the tops of the shrubs.  The shoreline extends
+as far as the eye can see to both the north and the south.  {n 
+~
+0 0 2
+E
+shrubs~
+{G To the west, a pond can be seen just over the tops of the dried
+bushes.  {n 
+~
+E
+pond~
+{G To the west, a pond can be seen just over the tops of the dried
+bushes.  {n 
+~
+E
+sand~
+{y The fine, white sand carpets the shoreline.  {n 
+~
+E
+stone~
+{D The tops of the occasional stone has been cleared of sand by the light
+breeze.  {n 
+~
+D0
+{y The shoreline extends as far as the eye can see.  {n 
+~
+~
+0 0 30664
+D2
+{y The shoreline extends as far as the eye can see.  {n 
+~
+~
+0 0 30662
+S
+#30664
+{YThe Shore{n~
+{ySmall tufts of grass peek through the fine sand.  A few tall shrubs
+nearly block the view of the distand pond.  A cool, gentle breeze sweeps
+across the pond and stirs the warm sand.  The shoreline extends as far as
+the eye can see to both the south and the west.  {n 
+~
+0 0 2
+E
+sand~
+{y The fine, white sand carpets the shoreline.  {n 
+~
+E
+shrubs~
+{G To the southwest, a pond can be seen just over the tops of the dried
+bushes.  {n 
+~
+E
+pond~
+{G To the southwest, a pond can be seen just over the tops of the dried
+bushes.  {n 
+~
+E
+grass~
+{g The dry grass grows in small clumps.  {n 
+~
+D2
+{y The shoreline extends as far as the eye can see.  {n 
+~
+~
+0 0 30663
+D3
+{y The shoreline extends as far as the eye can see.  {n 
+~
+~
+0 0 30665
+S
+#30665
+{YThe Shore{n~
+{yThe warm sand gives way underfoot.  It glimmers, seemingly of its own
+accord.  In the distance, a strange bird sings a faintly familiar melody.  A
+tranquil pond is just visible to the south over the tops of the shrubs.  The
+shoreline extends as far as the eye can see to both the north and the west. 
+{n 
+~
+0 0 2
+E
+shrubs~
+{G To the south, a pond can be seen just over the tops of the dried
+bushes.  {n 
+~
+E
+pond~
+{G To the south, a pond can be seen just over the tops of the dried
+bushes.  {n 
+~
+E
+sand~
+{y The fine, white sand carpets the shoreline.  {n 
+~
+D0
+{y The shoreline extends as far as the eye can see.  {n 
+~
+~
+0 0 30666
+D1
+{y The shoreline extends as far as the eye can see.  {n 
+~
+~
+0 0 30664
+S
+#30666
+{YThe Shore{n~
+{yA few tall shrubs nearly block the view of the distand pond.  The
+occasional stone catches the light as it protrudes from the sand.  A cool,
+gentle breeze sweeps across the pond and stirs the warm sand.  The shoreline
+extends as far as the eye can see to both the south and the west.  {n 
+~
+0 0 2
+E
+sand~
+{y The fine, white sand carpets the shoreline.  {n 
+~
+E
+stone~
+{D The tops of the occasional stone has been cleared of sand by the light
+breeze.  {n 
+~
+E
+pond~
+{G To the southwest, a pond can be seen just over the tops of the dried
+bushes.  {n 
+~
+E
+shrubs~
+{G To the southwest, a pond can be seen just over the tops of the dried
+bushes.  {n 
+~
+D2
+{y The shoreline extends as far as the eye can see.  {n 
+~
+~
+0 0 30665
+D3
+{y The shoreline extends as far as the eye can see.  {n 
+~
+~
+0 0 30667
+S
+#30667
+{YThe Shore{n~
+{ySmooth, grey stones lie scattered along the shore.  Small tufts of
+grass peek through the fine sand.  The shrubbery thins, and the quiet pond
+is easily accessible to the south.  The shoreline extends as far as the eye
+can see to both the east and west.  {n 
+~
+0 0 2
+E
+pond~
+{G The bushes thin, and a bare trail to a pond lies lies through the
+southern clearning.  {n 
+~
+E
+pond~
+{G To the south, a pond can be seen just over the tops of the dried
+bushes.  {n 
+~
+E
+shrubs~
+{G The bushes thin, and a bare trail to a pond lies lies through the
+southern clearning.  {n 
+~
+E
+grass~
+{g The dry grass grows in small clumps.  {n 
+~
+E
+stone~
+{D The tops of the occasional stone has been cleared of sand by the light
+breeze.  {n 
+~
+D1
+{y The shoreline extends as far as the eye can see.  {n 
+~
+~
+0 0 30666
+D2
+{cA tranquil pond lies just past the thinned shrubs.  {n 
+~
+~
+0 0 30676
+D3
+{y The shoreline extends as far as the eye can see.  {n 
+~
+~
+0 0 30668
+S
+#30668
+{YThe Shore{n~
+{yA few tall shrubs nearly block the view of the distand pond.  The
+occasional stone catches the light as it protrudes from the sand.  A cool,
+gentle breeze sweeps across the pond and stirs the warm sand.  The shoreline
+extends as far as the eye can see to both the south and the east.  {n 
+~
+0 0 2
+E
+stone~
+{D The tops of the occasional stone has been cleared of sand by the light
+breeze.  {n 
+~
+E
+shrubs~
+{G To the southeast, a pond can be seen just over the tops of the dried
+bushes.  {n 
+~
+E
+pond~
+{G To the southeast, a pond can be seen just over the tops of the dried
+bushes.  {n 
+~
+D1
+{y The shoreline extends as far as the eye can see.  {n 
+~
+~
+0 0 30667
+D2
+{y The shoreline extends as far as the eye can see.  {n 
+~
+~
+0 0 30669
+S
+#30669
+{YThe Shore{n~
+{yThe warm sand gives way underfoot.  It glimmers, seemingly of its own
+accord.  In the distance, a strange bird sings a faintly familiar melody.  A
+tranquil pond is just visible to the south over the tops of the shrubs.  The
+shoreline extends as far as the eye can see to both the north and the west. 
+{n 
+~
+0 0 2
+E
+shrubs~
+{G To the west, a pond can be seen just over the tops of the dried
+bushes.  {n 
+~
+E
+pond~
+{G To the west, a pond can be seen just over the tops of the dried
+bushes.  {n 
+~
+E
+sand~
+{y The fine, white sand carpets the shoreline.  {n 
+~
+D0
+{y The shoreline extends as far as the eye can see.  {n 
+~
+~
+0 0 30668
+D3
+{y The shoreline extends as far as the eye can see.  {n 
+~
+~
+0 0 30670
+S
+#30670
+{YThe Shore{n~
+{ySmall tufts of grass peek through the fine sand.  A few tall shrubs
+nearly block the view of the distand pond.  A cool, gentle breeze sweeps
+across the pond and stirs the warm sand.  The shoreline extends as far as
+the eye can see to both the south and the east.  {n 
+~
+0 0 2
+E
+sand~
+{y The fine, white sand carpets the shoreline.  {n 
+~
+E
+grass~
+{g The dry grass grows in small clumps.  {n 
+~
+E
+pond~
+{G To the southeast, a pond can be seen just over the tops of the dried
+bushes.  {n 
+~
+D1
+{y The shoreline extends as far as the eye can see.  {n 
+~
+~
+0 0 30669
+D2
+{y The shoreline extends as far as the eye can see.  {n 
+~
+~
+0 0 30671
+S
+#30671
+{YThe Shore{n~
+{ySmooth, grey stones lie scattered along the shore.  The occasional
+stone catches the light as it protrudes from the sand.  A tranquil pond is
+just visible to the east over the tops of the shrubs.  The shoreline extends
+as far as the eye can see to both the north and the south.  {n 
+~
+0 0 2
+E
+sand~
+{y The fine, white sand carpets the shoreline.  {n 
+~
+E
+stone~
+{D The tops of the occasional stone has been cleared of sand by the light
+breeze.  {n 
+~
+E
+shrubs~
+{G To the east, a pond can be seen just over the tops of the dried
+bushes.  {n 
+~
+E
+pond~
+{G To the east, a pond can be seen just over the tops of the dried
+bushes.  {n 
+~
+D0
+{y The shoreline extends as far as the eye can see.  {n 
+~
+~
+0 0 30670
+D2
+{y The shoreline extends as far as the eye can see.  {n 
+~
+~
+0 0 30672
+S
+#30672
+{YThe Shore{n~
+{yThe warm sand gives way underfoot.  It glimmers, seemingly of its own
+accord.  A tranquil pond is just visible to the east over the tops of the
+shrubs.  The shoreline extends as far as the eye can see to both the north
+and the south.  {n 
+~
+0 0 2
+E
+sand~
+{y The fine, white sand carpets the shoreline.{n
+,f
+~
+E
+shrubs~
+{G To the east, a pond can be seen just over the tops of the dried
+bushes.  {n 
+~
+E
+pond~
+{G To the east, a pond can be seen just over the tops of the dried
+bushes.  {n 
+~
+D0
+{y The shoreline extends as far as the eye can see.  {n 
+~
+~
+0 0 30671
+D2
+{y The shoreline extends as far as the eye can see.  {n 
+~
+~
+0 0 30673
+S
+#30673
+{YThe Shore{n~
+{ySmall tufts of grass peek through the fine sand.  A few tall shrubs
+nearly block the view of the distand pond.  A cool, gentle breeze sweeps
+across the pond and stirs the warm sand.  The shoreline extends as far as
+the eye can see to both the north and the east.  {n 
+~
+0 0 2
+E
+grass~
+{g The dry grass grows in small clumps.  {n 
+~
+E
+shrubs~
+{G To the northeast, a pond can be seen just over the tops of the dried
+bushes.  {n 
+~
+E
+sand~
+{y The fine, white sand carpets the shoreline.  {n 
+~
+E
+pond~
+{G To the northeast, a pond can be seen just over the tops of the dried
+bushes.  {n 
+~
+D0
+{y The shoreline extends as far as the eye can see.  {n 
+~
+~
+0 0 30672
+D1
+{y The shoreline extends as far as the eye can see.  {n 
+~
+~
+0 0 30674
+S
+#30674
+{YThe Shore{n~
+{yThe warm sand gives way underfoot.  It glimmers, seemingly of its own
+accord.  In the distance, a strange bird sings a faintly familiar melody.  A
+tranquil pond is just visible to the north over the tops of the shrubs.  The
+shoreline extends as far as the eye can see to both the south and the west. 
+{n 
+~
+0 0 2
+E
+sand~
+{y The fine, white sand carpets the shoreline.  {n 
+~
+E
+shrubs~
+{G To the north, a pond can be seen just over the tops of the dried
+bushes.  {n 
+~
+E
+pond~
+{G To the north, a pond can be seen just over the tops of the dried
+bushes.  {n 
+~
+D2
+{y The shoreline extends as far as the eye can see.  {n 
+~
+~
+0 0 30675
+D3
+{y The shoreline extends as far as the eye can see.  {n 
+~
+~
+0 0 30673
+S
+#30675
+{YThe Shore{n~
+{y A few tall shrubs nearly block the view of the distand pond.  The
+occasional stone catches the light as it protrudes from the sand.  A cool,
+gentle breeze sweeps across the pond and stirs the warm sand.  The shoreline
+extends as far as the eye can see to both the north and the east.  {n 
+~
+0 0 2
+E
+shrubs~
+{G To the northeast, a pond can be seen just over the tops of the dried
+bushes.  {n 
+~
+E
+sand~
+{y The fine, white sand carpets the shoreline.  {n 
+~
+E
+pond~
+{G To the northeast, a pond can be seen just over the tops of the dried
+bushes.  {n 
+~
+D0
+{y The shoreline extends as far as the eye can see.  {n 
+~
+~
+0 0 30674
+D1
+{y The shoreline extends as far as the eye can see.  {n 
+~
+~
+0 0 30658
+S
+#30676
+{CA Tranquil Pond{n~
+{cThe pond feels refreshing and cool.  The serene waters rise only waist
+deep.  The nearby sand and small greenery meet the gentle waters at the
+shoreline.  There is a quiet splash, most likely from a passing fish.  A
+shoreline begins to both the north and the south.  {n 
+~
+0 0 6
+E
+fish~
+{D Try as you might, you cannot seem to find a fish in the water.  {n 
+~
+E
+water~
+{C The cool water of the pond is a crisp blue.  {n 
+~
+E
+greenery~
+{G The bushes near the pond are a healthy green with new foilage.  {n 
+~
+E
+sand~
+{y The fine, white sand carpets the shoreline.  {n 
+~
+D0
+{y The shoreline lies just past the thinned shrubs.  {n 
+~
+~
+0 0 30667
+D2
+{r A small island is in the center of the pond.  {n 
+~
+~
+0 0 30678
+S
+#30677
+{CA Tranquil Pond{n~
+{cA large tree rises from the western shore and overhangs the still pond.
+A shrill chirp sounds in the distance.  The gentle waters meet the greenery
+to the west, and quietly lap against the shore of an eastern island.  {n 
+~
+0 0 6
+E
+water~
+{C The cool water of the pond is a crisp blue.  {n 
+~
+E
+trees~
+{y The branches from the tall trees grow over the still pond, providing a
+cool shade.  {n 
+~
+D1
+{r A small island is in the center of the pond.  {n 
+~
+~
+0 0 30678
+D2
+{c The calm waters surround the island.  {n 
+~
+~
+0 0 30680
+S
+#30678
+{YAn Island{n~
+{rA cool breeze blows across the nearby pond and causes the still waters
+the ripple against the edge of the island.  Strange ferns grow between the
+red pebbles that cover the island.  A lush moss covers the trunks of the
+small trees that dot the shoreline.  {n 
+~
+0 0 0
+E
+trees~
+{G The branches of the tall trees overhand both the pond and the island,
+providing a cool shade.  {n 
+~
+E
+ferns~
+{y Small ferns fan their leaves under the sun.  {n 
+~
+E
+moss~
+{m A strange moss covers the bark.  {n 
+~
+E
+pebbles~
+{R The pebbles are a strange red color and are covered in black spots.  {n 
+~
+E
+waters~
+{C The crisp, blue waters of the nearby pond gently lap against the edge
+of the island.  {n 
+~
+D0
+{c The calm waters surround the island.  {n 
+~
+~
+0 0 30676
+D1
+{c The calm waters surround the island.  {n 
+~
+~
+0 0 30679
+D2
+{rThe southern tip of the small island is just ahead.  {n 
+~
+~
+0 0 30681
+D3
+{c The calm waters surround the island.  {n 
+~
+~
+0 0 30677
+S
+#30679
+{CA Tranquil Pond{n~
+{cA large tree rises from the western shore and overhangs the still pond.
+A shrill chirp sounds in the distance.  The gentle waters meet the greenery
+to the west, and quietly lap against the shore of an western island.  {n 
+~
+0 0 6
+E
+water~
+{C The cool water of the pond is a crisp blue.  {n 
+~
+E
+trees~
+{y The branches from the tall trees grow over the still pond, providing a
+cool shade.  {n 
+~
+D2
+{c The calm waters surround the island.  {n 
+~
+~
+0 0 30682
+D3
+{r A small island is in the center of the pond.  {n 
+~
+~
+0 0 30678
+S
+#30680
+{CA Tranquil Pond{n~
+{cA cool breeze ripples the surface of the pond.  The reflections of the
+surrounding greenery are momentarily disrupted, then return to their former
+stillness.  The gentle waters meet the shrubs to the west, and quietly lap
+against the shore of the eastern island.  {n 
+~
+0 0 6
+E
+shrubs~
+{G To the west, a sand-covered shore can be seen just over the tops of
+the dried bushes.  {n 
+~
+E
+greenery~
+{y The branches from the tall trees grow over the still pond, providing a
+cool shade.  {n 
+~
+E
+reflections~
+{C The surrounding trees are reflected in the clear waters of the still
+pond.  {n 
+~
+D0
+{c The calm waters surround the island.  {n 
+~
+~
+0 0 30677
+D1
+{r A small island is in the center of the pond.  {n 
+~
+~
+0 0 30681
+S
+#30681
+{YAn Island{n~
+{rRed pebbles cover the hilly island.  Small trees dot the shoreline, and
+unusual yellow flowers bud from each branch.  Ferns sprout between the
+pebbles.  A cool breeze blows across the nearby pond.  In the distance, a
+loud shierk is sounded from a bird.  {n {n 
+~
+0 0 0
+E
+ferns~
+{y Small ferns fan their leaves under the sun.  {n 
+~
+E
+flowers~
+{Y Large blossoms with dropping leaves and thick green stems bud in
+clumps on each branch of the tree.  {n 
+~
+E
+trees~
+{G The branches of the tall trees overhand both the pond and the island,
+providing a cool shade.  {n 
+~
+E
+pebbles~
+{R The pebbles are a strange red color and are covered in black spots.  {n 
+~
+D0
+{rThe northern tip of the small island is just ahead.  {n 
+~
+~
+0 0 30678
+D1
+{c The calm waters surround the island.  {n 
+~
+~
+0 0 30682
+D2
+{c The calm waters surround the island.  {n 
+~
+~
+0 0 30683
+D3
+{c The calm waters surround the island.  {n 
+~
+~
+0 0 30680
+S
+#30682
+{CA Tranquil Pond{n~
+{cA cool breeze ripples the surface of the pond.  The reflections of the
+surrounding greenery are momentarily disrupted, then return to their former
+stillness.  The gentle waters meet the shrubs to the east, and quietly lap
+against the shore of the western island.  {n 
+~
+0 0 6
+E
+reflections~
+{C The surrounding trees are reflected in the clear waters of the still
+pond.  {n 
+~
+E
+shrubs~
+{G To the east, a sand-covered shore can be seen just over the tops of
+the dried bushes.  {n 
+~
+E
+greenery~
+{y The branches from the tall trees grow over the still pond, providing a
+cool shade.  {n 
+~
+D0
+{c The calm waters surround the island.  {n 
+~
+~
+0 0 30679
+D3
+{r A small island is in the center of the pond.  {n 
+~
+~
+0 0 30681
+S
+#30683
+{CA Tranquil Pond{n~
+{cThe serene waters rise only waist deep.  The pond feels refreshing and
+cool.  There is a sudden, quiet ripple followed by a larger splash; a heron
+chasing its prey.  The nearby shrubbery meets the gentle waters at the
+shoreline to the south.  {n 
+~
+0 0 6
+E
+reflections~
+{C The reflections of the surrounding trees are momentarily disrupted by
+a large splash.  {n 
+~
+E
+waters~
+{C The cool water of the pond is a crisp blue.  {n 
+~
+D0
+{r A small island is in the center of the pond.  {n 
+~
+~
+0 0 30681
+S
+#30684
+{CThe Sky Above{n~
+{W The crisp, cool air pulses in soft waves against the skin.  A floor of
+billowing clouds float past with the gentle breeze, soft and inviting to the
+eyes yet insubstantial to the touch.  {n 
+~
+0 0 9
+E
+clouds~
+{w The billowing clouds lazily glide by as the wind pushes them.  {n 
+~
+D0
+{cThe clear sky stretches as far as the eye can see.{n
+~
+~
+0 0 30686
+D1
+{cThe clear sky stretches as far as the eye can see.{n
+~
+~
+0 0 30685
+D2
+{cThe clear sky stretches as far as the eye can see.{n
+~
+~
+0 0 30686
+D3
+{cThe clear sky stretches as far as the eye can see.{n
+~
+~
+0 0 30685
+D5
+{D A mountain looms just below the clouds.{n
+~
+~
+0 0 30641
+S
+#30685
+{CThe Sky Above{n~
+{W The crisp, cool air pulses in soft waves against the skin.  A floor of
+billowing clouds float past with the gentle breeze, soft and inviting to the
+eyes yet insubstantial to the touch.  {n 
+~
+0 0 9
+E
+clouds~
+{w The billowing clouds lazily glide by as the wind pushes them.  {n 
+~
+D0
+{cThe clear sky stretches as far as the eye can see.{n
+~
+~
+0 0 30687
+D1
+{cThe clear sky stretches as far as the eye can see.{n
+~
+~
+0 0 30684
+D2
+{cThe clear sky stretches as far as the eye can see.{n
+~
+~
+0 0 30687
+D3
+{cThe clear sky stretches as far as the eye can see.{n
+~
+~
+0 0 30684
+S
+#30686
+{CThe Sky Above{n~
+{W The crisp, cool air pulses in soft waves against the skin.  A floor of
+billowing clouds float past with the gentle breeze, soft and inviting to the
+eyes yet insubstantial to the touch.  {n 
+~
+0 0 9
+E
+clouds~
+{w The billowing clouds lazily glide by as the wind pushes them.  {n 
+~
+D0
+{cThe clear sky stretches as far as the eye can see.{n
+~
+~
+0 0 30684
+D1
+{cThe clear sky stretches as far as the eye can see.{n
+~
+~
+0 0 30687
+D2
+{cThe clear sky stretches as far as the eye can see.{n
+~
+~
+0 0 30684
+D3
+{cThe clear sky stretches as far as the eye can see.{n
+~
+~
+0 0 30687
+S
+#30687
+{CThe Sky Above{n~
+{W The crisp, cool air pulses in soft waves against the skin.  A floor of
+billowing clouds float past with the gentle breeze, soft and inviting to the
+eyes yet insubstantial to the touch.  {n 
+~
+0 0 9
+D0
+~
+~
+0 0 30685
+D1
+~
+~
+0 0 30686
+D2
+~
+~
+0 0 30685
+D3
+~
+~
+0 0 30686
+S
+#30690
+{CObservation Booth{n~
+{c This vantage point has been placed high above the avian reserve. 
+Glass windows encompass the booth, allowing observers to view the different
+habitats, the wildlife, and even the tourists without being exposed to the
+elements.  Below the windows stand short bookshelves filled with
+referernces.  A pair of binoculars have been placed on a wooden table.  {n 
+~
+0 1032 0
+E
+west~
+{yThe western window overlooks a pond and its surrounding shore.  {n 
+~
+E
+south~
+{GThe souther window overlooks a lush garden and colorful forest.  {n 
+~
+E
+west~
+{DThe western window overlooks a tall mountain.  Soft clouds surround the
+tallest peaks.  {n 
+~
+E
+north~
+{gThe northern window overlooks a broad field that blends into a leafy
+forest.  {n 
+~
+E
+guides~
+{wThere are four large texts on the bookshelf.
+{y  Survival Mechanisms of the Common Bird
+{D  Birds of the Mountains
+{g  Birds of the Forest - A Pictoral Guide
+{c  The Complete Guide to Waterfowl
+{w
+{wPick one up and start reading it.{n
+~
+D5
+~
+~
+1 0 30600
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+D 0 30600 4 2
+D 0 30690 5 2
+O 0 30603 0 30600 {ya sign{n loaded to {YAn Open Field{n
+O 0 30604 0 30601 {ysome grain{n loaded to {YAn Open Field{n
+M 0 30603 2 30601 1 Load {D a button quail{n
+O 0 30606 0 30602 {da field mouse{n loaded to {YAn Open Field{n
+O 0 30607 0 30602 {ga clump of tall grass{n loaded to {YAn Open Field{n
+O 0 30604 0 30603 {ysome grain{n loaded to {YAn Open Field{n
+M 0 30629 2 30603 1 Load {Ya finch{n
+O 0 30605 0 30604 {ya tumbleweed{n loaded to {YAn Open Field{n
+M 0 30605 2 30604 1 Load {wa chicken{n
+O 0 30605 0 30605 {ya tumbleweed{n loaded to {YAn Open Field{n
+O 0 30607 0 30605 {ga clump of tall grass{n loaded to {YAn Open Field{n
+O 0 30604 0 30606 {ysome grain{n loaded to {YAn Open Field{n
+M 0 30614 2 30606 1 Load {Da kiwi{n
+M 0 30608 2 30606 1 Load {ya falcon{n
+G 0 30649 0 {da vole{n is given to {ya falcon{n
+O 0 30605 0 30607 {ya tumbleweed{n loaded to {YAn Open Field{n
+M 0 30603 2 30607 1 Load {D a button quail{n
+O 0 30607 0 30608 {ga clump of tall grass{n loaded to {YAn Open Field{n
+M 0 30614 2 30608 1 Load {Da kiwi{n
+O 0 30606 0 30609 {da field mouse{n loaded to {YAn Open Field{n
+M 0 30629 2 30610 1 Load {Ya finch{n
+M 0 30608 2 30610 1 Load {ya falcon{n
+O 0 30607 0 30611 {ga clump of tall grass{n loaded to {YAn Open Field{n
+O 0 30604 0 30611 {ysome grain{n loaded to {YAn Open Field{n
+O 0 30605 0 30612 {ya tumbleweed{n loaded to {YAn Open Field{n
+M 0 30605 2 30612 1 Load {wa chicken{n
+G 0 30650 0 {wa chicken wing{n is given to {wa chicken{n
+O 0 30611 0 30613 {gan oak tree{n loaded to {GA Light Forest{n
+M 0 30624 2 30613 1 Load {ya sparrow{n
+M 0 30615 2 30614 1 Load {Yan oriole{n
+M 0 30612 2 30614 1 Load {ya killdeer{n
+O 0 30612 0 30615 {gan elm tree{n loaded to {GA Light Forest{n
+O 0 30610 0 30615 {ya pile of leaves{n loaded to {GA Light Forest{n
+O 0 30609 0 30616 {yacorns{n loaded to {GA Light Forest{n
+M 0 30611 2 30616 1 Load {Ra woodpecker{n
+G 0 30652 0 {ra woodpecker's beak{n is given to {Ra woodpecker{n
+O 0 30608 0 30617 {mberries{n loaded to {GA Light Forest{n
+M 0 30612 2 30617 1 Load {ya killdeer{n
+M 0 30624 2 30617 1 Load {ya sparrow{n
+O 0 30611 0 30618 {gan oak tree{n loaded to {GA Light Forest{n
+M 0 30621 2 30618 1 Load {ma purple martin{n
+O 0 30611 0 30619 {gan oak tree{n loaded to {GA Light Forest{n
+O 0 30613 0 30619 {ytree branches{n loaded to {GA Light Forest{n
+O 0 30612 0 30620 {gan elm tree{n loaded to {GA Light Forest{n
+M 0 30615 2 30620 1 Load {Yan oriole{n
+M 0 30612 2 30620 1 Load {ya killdeer{n
+O 0 30613 0 30621 {ytree branches{n loaded to {GA Light Forest{n
+M 0 30611 2 30622 1 Load {Ra woodpecker{n
+G 0 30652 0 {ra woodpecker's beak{n is given to {Ra woodpecker{n
+O 0 30610 0 30622 {ya pile of leaves{n loaded to {GA Light Forest{n
+O 0 30614 0 30623 {ytree sap{n loaded to {GA Light Forest{n
+O 0 30612 0 30624 {gan elm tree{n loaded to {GA Light Forest{n
+O 0 30610 0 30624 {ya pile of leaves{n loaded to {GA Light Forest{n
+O 0 30609 0 30625 {yacorns{n loaded to {GA Light Forest{n
+M 0 30632 3 30626 1 Load {ya hawk{n
+G 0 30653 0 {yhawk's eyes{n is given to {ya hawk{n
+O 0 30617 0 30627 {da boulder{n loaded to {WA Mountain{n
+M 0 30633 3 30627 1 Load {Wa vulture{n
+O 0 30615 0 30628 {wa clump of snow{n loaded to {WA Mountain{n
+M 0 30633 3 30629 1 Load {Wa vulture{n
+M 0 30631 3 30629 1 Load {Da condor{n
+G 0 30654 0 {dcondor wings{n is given to {Da condor{n
+O 0 30615 0 30630 {wa clump of snow{n loaded to {WA Mountain{n
+M 0 30631 3 30630 1 Load {Da condor{n
+G 0 30654 0 {dcondor wings{n is given to {Da condor{n
+O 0 30615 0 30631 {wa clump of snow{n loaded to {WA Mountain{n
+M 0 30631 3 30631 1 Load {Da condor{n
+G 0 30654 0 {dcondor wings{n is given to {Da condor{n
+M 0 30630 3 30632 1 Load {Dan owl{n
+O 0 30618 0 30633 {ya basket{n loaded to {WA Mountain{n
+P 0 30604 -1 30618 1 {ysome grain{n put inside {ysome grain{n
+P 0 30608 -1 30618 1 {mberries{n put inside {mberries{n
+P 0 30624 -1 30618 1 {rw{yi{gl{cd{mf{wl{go{rw{be{cr{ys{n put inside {Rw{Yi{Gl{Cd{Mf{Wl{Go{Rw{Be{Cr{Ys{n
+P 0 30632 -1 30618 1 {man {wo{mr{wc{mh{wi{md{n put inside {man {Wo{mr{Wc{mh{Wi{md{n
+M 0 30633 3 30633 1 Load {Wa vulture{n
+O 0 30616 0 30634 {da rock{n loaded to {WA Mountain{n
+M 0 30632 3 30635 1 Load {ya hawk{n
+G 0 30653 0 {yhawk's eyes{n is given to {ya hawk{n
+O 0 30615 0 30635 {wa clump of snow{n loaded to {WA Mountain{n
+O 0 30615 0 30636 {wa clump of snow{n loaded to {WA Mountain{n
+M 0 30630 3 30637 1 Load {Dan owl{n
+O 0 30615 0 30637 {wa clump of snow{n loaded to {WA Mountain{n
+O 0 30616 0 30638 {da rock{n loaded to {WA Mountain{n
+O 0 30615 0 30638 {wa clump of snow{n loaded to {WA Mountain{n
+O 0 30615 0 30639 {wa clump of snow{n loaded to {WA Mountain{n
+M 0 30630 3 30639 1 Load {Dan owl{n
+O 0 30615 0 30640 {wa clump of snow{n loaded to {WA Mountain{n
+O 0 30615 0 30641 {wa clump of snow{n loaded to {WA Mountain{n
+M 0 30628 2 30641 2 Load {Wan eaglette{n
+O 0 30617 0 30642 {da boulder{n loaded to {WA Mountain{n
+O 0 30615 0 30642 {wa clump of snow{n loaded to {WA Mountain{n
+O 0 30616 0 30644 {da rock{n loaded to {WA Mountain{n
+M 0 30632 3 30644 1 Load {ya hawk{n
+G 0 30653 0 {yhawk's eyes{n is given to {ya hawk{n
+M 0 30604 3 30646 1 Load {Ya canary{n
+M 0 30602 2 30646 1 Load {Ca bluebird{n
+O 0 30627 0 30646 {mirises{n loaded to {GThe Garden{n
+M 0 30604 3 30647 1 Load {Ya canary{n
+O 0 30621 0 30647 {ya beehive{n loaded to {GThe Garden{n
+P 0 30622 1 30621 1 {yhoney{n put inside {Yhoney{n
+M 0 30602 3 30648 1 Load {Ca bluebird{n
+M 0 30617 3 30648 1 Load {ma hummingbird{n
+O 0 30625 0 30648 {rroses{n loaded to {GThe Garden{n
+M 0 30622 2 30649 1 Load {Ya {Rr{Ga{Ci{Yn{Rb{Go{Cw {Yl{Ro{Gr{Ci{Yk{Re{Ge{Ct{n
+O 0 30623 0 30649 {mt{mu{ml{wi{mp{ms{n loaded to {GThe Garden{n
+M 0 30617 3 30650 1 Load {ma hummingbird{n
+M 0 30622 2 30650 1 Load {Ya {Rr{Ga{Ci{Yn{Rb{Go{Cw {Yl{Ro{Gr{Ci{Yk{Re{Ge{Ct{n
+O 0 30626 0 30650 {wgardenias{n loaded to {GThe Garden{n
+M 0 30604 3 30651 1 Load {Ya canary{n
+M 0 30617 3 30651 1 Load {ma hummingbird{n
+O 0 30624 0 30651 {rw{yi{gl{cd{mf{wl{go{rw{be{cr{ys{n loaded to {GThe Garden{n
+O 0 30629 0 30652 {da spider{n loaded to {GAn Exotic Forest{n
+M 0 30619 3 30652 1 Load {Ga parrot{n
+M 0 30601 2 30652 1 Load {ya bellbird{n
+O 0 30630 0 30652 {ga fern{n loaded to {GAn Exotic Forest{n
+O 0 30633 0 30653 {ga large tree{n loaded to {GAn Exotic Forest{n
+M 0 30626 3 30653 1 Load {Ya {Ct{Go{Yu{Yc{Ga{Cn{n
+M 0 30620 3 30653 1 Load {Ca peacock{n
+O 0 30631 0 30654 {ga large leaf{n loaded to {GAn Exotic Forest{n
+M 0 30619 3 30654 1 Load {Ga parrot{n
+O 0 30600 0 30655 {ya bellbird's nest{n loaded to {GAn Exotic Forest{n
+P 0 30601 1 30600 1 {man egg{n put inside {Man egg{n
+M 0 30601 2 30655 1 Load {ya bellbird{n
+M 0 30626 3 30655 1 Load {Ya {Ct{Go{Yu{Yc{Ga{Cn{n
+O 0 30629 0 30656 {da spider{n loaded to {GAn Exotic Forest{n
+O 0 30632 0 30656 {man {wo{mr{wc{mh{wi{md{n loaded to {GAn Exotic Forest{n
+M 0 30626 3 30656 1 Load {Ya {Ct{Go{Yu{Yc{Ga{Cn{n
+M 0 30620 3 30656 1 Load {Ca peacock{n
+O 0 30633 0 30657 {ga large tree{n loaded to {GAn Exotic Forest{n
+M 0 30619 3 30657 1 Load {Ga parrot{n
+M 0 30620 3 30657 1 Load {Ca peacock{n
+O 0 30636 0 30658 {gtall shrubs{n loaded to {YThe Shore{n
+M 0 30616 3 30658 1 Load {Wa crane{n
+O 0 30634 0 30659 {ga tuft of grass{n loaded to {YThe Shore{n
+O 0 30637 0 30660 {ya small dune{n loaded to {YThe Shore{n
+M 0 30625 3 30660 1 Load {Wa stork{n
+G 0 30655 0 {ya basket{n is given to {Wa stork{n
+O 0 30635 0 30661 {da stone{n loaded to {YThe Shore{n
+O 0 30634 0 30663 {ga tuft of grass{n loaded to {YThe Shore{n
+M 0 30625 3 30663 1 Load {Wa stork{n
+G 0 30655 0 {ya basket{n is given to {Wa stork{n
+O 0 30636 0 30664 {gtall shrubs{n loaded to {YThe Shore{n
+O 0 30634 0 30665 {ga tuft of grass{n loaded to {YThe Shore{n
+M 0 30616 3 30665 1 Load {Wa crane{n
+O 0 30635 0 30666 {da stone{n loaded to {YThe Shore{n
+O 0 30637 0 30667 {ya small dune{n loaded to {YThe Shore{n
+M 0 30618 3 30667 1 Load {Wan osprey{n
+O 0 30634 0 30668 {ga tuft of grass{n loaded to {YThe Shore{n
+M 0 30618 3 30668 1 Load {Wan osprey{n
+M 0 30616 3 30669 1 Load {Wa crane{n
+O 0 30635 0 30670 {da stone{n loaded to {YThe Shore{n
+O 0 30637 0 30671 {ya small dune{n loaded to {YThe Shore{n
+O 0 30634 0 30672 {ga tuft of grass{n loaded to {YThe Shore{n
+M 0 30618 3 30672 1 Load {Wan osprey{n
+O 0 30636 0 30673 {gtall shrubs{n loaded to {YThe Shore{n
+M 0 30625 3 30673 1 Load {Wa stork{n
+G 0 30655 0 {ya basket{n is given to {Wa stork{n
+O 0 30635 0 30674 {da stone{n loaded to {YThe Shore{n
+O 0 30637 0 30675 {ya small dune{n loaded to {YThe Shore{n
+O 0 30638 0 30676 {ca pond{n loaded to {CA Tranquil Pond{n
+M 0 30610 1 30676 1 Load {Ca Great Blue Heron{n
+G 0 30656 0 {cthe plume of a {cblue heron{n is given to {Ca Great Blue Heron{n
+O 0 30638 0 30677 {ca pond{n loaded to {CA Tranquil Pond{n
+M 0 30623 1 30677 1 Load {Ra scarlet ibis{n
+O 0 30639 0 30678 {rsome red pebbles{n loaded to {YAn Island{n
+M 0 30606 1 30678 1 Load {Da dodo bird{n
+O 0 30638 0 30679 {ca pond{n loaded to {CA Tranquil Pond{n
+M 0 30609 1 30679 1 Load {Ma flamingo{n
+O 0 30638 0 30680 {ca pond{n loaded to {CA Tranquil Pond{n
+M 0 30600 1 30680 1 Load an {Walbatross{n
+O 0 30639 0 30681 {rsome red pebbles{n loaded to {YAn Island{n
+O 0 30640 0 30681 {ya gnarled tree{n loaded to {YAn Island{n
+P 0 30641 -1 30640 1 {yo{g>-{y,{g-{n put inside {YO{g>-{y,{g-{n
+O 0 30638 0 30682 {ca pond{n loaded to {CA Tranquil Pond{n
+M 0 30613 1 30682 1 Load {Wa loon{n
+O 0 30638 0 30683 {ca pond{n loaded to {CA Tranquil Pond{n
+M 0 30627 1 30683 1 Load {Wa swan{n
+G 0 30651 0 {wa swan's song{n is given to {Wa swan{n
+O 0 30619 0 30684 {wfluff{n loaded to {CThe Sky Above{n
+M 0 30607 2 30684 1 Load {wan eagle{n
+O 0 30619 0 30685 {wfluff{n loaded to {CThe Sky Above{n
+O 0 30619 0 30686 {wfluff{n loaded to {CThe Sky Above{n
+M 0 30607 2 30686 1 Load {wan eagle{n
+O 0 30644 0 30690 {ya bookshelf{n loaded to {CObservation Booth{n
+P 0 30645 1 30644 1 {cthe complete guide to waterfowl{n put inside {cThe Complete Guide to Waterfowl{n
+P 0 30646 1 30644 1 {gbirds of the forest - a pictoral guide{n put inside {gBirds of the Forest - A Pictoral Guide{n
+P 0 30647 1 30644 1 {dbirds of the mountains{n put inside {DBirds of the Mountains{n
+P 0 30648 1 30644 1 {ysurvival mechanisms of the common bird{n put inside {ySurvival Mechanisms of the Common Bird{n
+O 0 30642 0 30690 {ya wooden table{n loaded to {CObservation Booth{n
+P 0 30643 1 30642 1 {da pair of binoculars{n put inside {Da pair of binoculars{n
+O 0 30620 0 30690 {ya wooden table{n loaded to {CObservation Booth{n
+M 0 30634 1 30690 1 Load {wa tourguide{n
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#0
+
+#$

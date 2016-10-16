@@ -1,0 +1,9 @@
+copyover while switched: copyover recover puts you back into NPC's body
+ with no way to return except quitting & logging in again
+
+act doesn't send things to NPCs - maybe it should check to see if
+ there's an imm switched in?
+
+no way to differentiate singular/plural mobs/objects, boo
+
+hang on "quest request"?

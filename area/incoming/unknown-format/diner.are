@@ -1,0 +1,1886 @@
+
+#AREA Kobold's Diner- Level 5 to 15- by Bouchart~
+
+
+#MOBILES
+#32600
+kobold sweeping sweep~
+a kobold~
+This kobold sweeps up the ground outside the diner.
+~
+He sweeps up the outside dining area, which always seems to be in need of a
+good cleaning.
+~
+196 256 100 S
+8 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#32601
+kobold clean cleaning~
+a cleaning kobold~
+A young kobold lady cleans off the tables.
+~
+Inconsiderate patrons often leave the diner a mess.  She cleans it up.
+~
+64 32768 40 S
+6 0 0 0d0+0 0d0+0
+0 0
+8 8 2
+#32602
+waitress~
+a waitress~
+A waitress takes the customers' orders.
+~
+She looks very tired from taking customers' orders all day long.  Luckily she
+has a lot of patience and willpower, or she would have assaulted a customer by
+now.
+~
+128 512 -150 S
+6 0 0 0d0+0 0d0+0
+0 0
+8 8 2
+#32603
+pixie~
+a hungry pixie~
+A hungry pixie devours a salad.
+~
+This pixie is hungry from a day's worth of traveling.  He quickly eats his
+salad and waits for the pasta he ordered.
+~
+2 512 400 S
+9 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#32604
+minotaur wanderer~
+the minotaur wanderer~
+This minotaur impatiently waits for his steak.
+~
+He is a wanderer who eventually found himself at this diner.  His manners are
+deplorable, as he pesters the waitresses.
+~
+2 32 -200 S
+11 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#32605
+orc bodyguard Jarak~
+Jarak the orc bodyguard~
+Jarak, the orcish bodyguard, protects Steillis.
+~
+Jarak is sworn to protect Steillis.  He is always alert, though the diner is
+generally not a dangerous place.
+~
+2 168 -400 S
+8 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#32606
+Steillis~
+Steillis the mage~
+Steillis the mage has a hot cup of tea.
+~
+Steillis is en route to a mage's convention and is taking a break to have a
+bite to eat.  She hired Jarak as a bodyguard for the trip there.
+~
+130 296 -100 S
+10 0 0 0d0+0 0d0+0
+0 0
+8 8 2
+#32607
+ogre patron~
+an ogre~
+This ogre awaits his lunch.
+~
+Ogres are known to eat anything and everything.  So some of the customers here
+are trying to guess what he ordered.
+~
+2 32 -400 S
+9 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#32608
+dwarf trader dwarven~
+a dwarven trader~
+A dwarven trader recently sold the diner some supplies.
+~
+The diner gets its supplies, including its various foodstuffs, from all over
+the world.  That is why the diner is so popular, and why this trader just made
+a tidy profit.
+~
+2 512 55 S
+11 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#32609
+snailman~
+a snailman~
+A snailman gradually walks towards the diner.
+~
+Snailmen are rare sights.  This one slowly oozes his way to the diner.
+~
+66 128 20 S
+8 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#32610
+ranger Wielle~
+Wielle the ranger~
+The elven ranger Wielle enjoys a nice hot meal.
+~
+Wielle is often traveling in the wilderness, and rarely gets the opportunity
+to eat indoors.
+~
+2 512 500 S
+12 0 0 0d0+0 0d0+0
+0 0
+8 8 2
+#32611
+Rubazi merchant~
+Rubazi the merchant~
+Rubazi the merchant traveled here from a distant land.
+~
+Rubazi is a merchant who deals in magical goods.  He normally does not travel,
+but this is one of the rare instances that he needs to leave the comfort of
+his shop.  He seems strangely out of place.
+~
+130 8 700 S
+8 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#32612
+lizardman lizard man grall~
+Grall the lizardman~
+Grall can't decide what to eat.
+~
+Grall often eats here, but today he doesn't know what he wants.
+~
+2 512 -100 S
+5 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#32613
+half-elf druid~
+a half-elf druid~
+A half-elven druid wants vegetarian food.
+~
+This half-elf wants a good vegetarian meal.
+~
+2 0 100 S
+8 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#32614
+cleaning kobold~
+a cleaning kobold~
+A kobold cleans the floor and the tables.
+~
+This kobold lady cleans the diner.  She prefers to work indoors instead of
+cleaning the outside dining area.
+~
+132 32768 90 S
+7 0 0 0d0+0 0d0+0
+0 0
+8 8 2
+#32615
+kobold waiter~
+the waiter~
+A waiter runs around with a tray filled with food.
+~
+This waiter somehow balances a tray filled with a half dozen orders, and
+remembers who ordered what.
+~
+192 33280 200 S
+9 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#32616
+goblin~
+a goblin~
+A goblin eats a slice of pie for dessert.
+~
+This disgusting looking goblin is eating a slice of pie.
+~
+194 32 -550 S
+8 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#32617
+dwarf~
+a dwarf~
+This dwarf prefers a private room to dine.
+~
+This dwarf paid good money to dine in a private room and doesn't appreciate
+your intrusion.
+~
+98 0 -15 S
+10 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#32618
+troll~
+a troll~
+This troll eats noisily in her own private room.
+~
+Other customers were repulsed by this troll and threatened to leave, so the
+manager quietly moved her upstairs into an unused private dining room.  The
+manager told her she won some sort of contest, or something.
+~
+66 0 -721 S
+11 0 0 0d0+0 0d0+0
+0 0
+8 8 2
+#32619
+kobold cashier~
+the kobold cashier~
+This kobold is the diner's cashier.
+~
+She normally waits tables, but once a week or so she works as the cashier.
+~
+2 0 -95 S
+6 0 0 0d0+0 0d0+0
+0 0
+8 8 2
+#32620
+kobold cook~
+the kobold cook~
+The cook races around as fast as he can!
+~
+This cook is trying to grill fish as well as cook about three other things at
+the same time.
+~
+128 0 50 S
+9 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#32621
+kobold clerk~
+the kobold clerk~
+A clerk fell asleep at his desk.
+~
+He was doing some bookkeeping when he fell asleep in his chair.  His paperwork
+looks very boring, and it doesn't help that the room is dimly lit.  He wears a
+pendant he believes is a good luck charm.  It must be working because nobody
+has noticed he's been sleeping on the job.
+~
+2 0 -150 S
+7 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#32622
+manager kobold hog'nik~
+the manager~
+The manager is furious that you are back here!
+~
+This kobold manages the day to day operations of the diner.  He doesn't like
+customers wandering back here.
+~
+34 40 -75 S
+15 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#32623
+kobold hauler~
+the kobold hauler~
+This kobold is hauling goods to and from the storage room to the trader.
+~
+He moves goods to and from the wagon outside.  He looks very strong.
+~
+0 0 -75 S
+16 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#0
+
+
+#OBJECTS
+#32600
+Dumpster iron~
+an iron dumpster~
+An iron dumpster holds all sorts of smelly refuse.~
+~
+15 0 0
+0 5 0 0
+30 1000 0
+#32601
+stone bench table~
+a stone bench and table~
+Some patrons prefer to eat outdoors at these stone tables and benches.~
+~
+12 4 0
+0 0 0 0
+5 1000 0
+#32602
+wood wooden picnic table~
+a wooden picnic table~
+These wooden picnic tables provide seating for many customers.~
+~
+12 4 0
+0 0 0 0
+5 1000 0
+#32603
+broken table wood wooden~
+a broken wooden table~
+This wooden table was a casualty of a recent fight between patrons.~
+~
+13 4 0
+0 0 0 0
+5 1000 0
+#32604
+broom wooden~
+a wooden broom~
+This wooden broom has seen heavy use.~
+~
+5 0 8193
+0 3 7 8
+3 1000 0
+A
+19 -1
+#32605
+chalkboard~
+a chalkboard~
+Today's specials are written on this chalkboard.~
+~
+12 4 0
+0 0 0 0
+50 1000 0
+E
+special specials~
+Today's special:
+
+Raztran steak
+One day only!
+~
+#32606
+pencil~
+a heavily used pencil~
+A waitress used this pencil for the greater part of the day.~
+~
+5 0 8193
+7 1 2 2
+1 1000 0
+A
+18 -1
+A
+19 1
+#32607
+notepad~
+a notepad~
+Waitresses write orders on these notepads.~
+~
+2 128 1
+3 12 0 0
+9 1000 0
+#32608
+salad~
+a salad~
+A hungry pixie ate most of this salad already.~
+~
+19 0 1
+1 0 0 0
+1 1000 0
+#32609
+minotaur boomerang~
+a minotaur's boomerang~
+For some strange reason, this boomerang was a minotaur's favored weapon.~
+~
+5 2 8193
+0 4 7 0
+15 1000 0
+A
+18 1
+A
+12 -7
+#32610
+bauxite ring~
+a bauxite ring~
+Rings made of bauxite are known to strengthen the wearer.~
+~
+9 1 3
+1 0 0 0
+2 1000 0
+A
+1 1
+A
+19 1
+#32611
+copper mace~
+a copper mace~
+A copper mace with an inscription on it has been discarded.~
+~
+5 256 8193
+0 2 9 7
+20 1000 0
+A
+12 -20
+E
+inscribed inscribe inscription~
+The inscription is worn, but can still be read:
+
+"To crush foes and crush spirits"
+~
+#32612
+thundergloved thunder gloved~
+the Thundergloves~
+Thundergloves, once a prized artifact, are now powerless.~
+~
+9 64 129
+4 0 0 0
+6 1000 0
+A
+24 -1
+#32613
+silver shoes~
+silver shoes~
+Once in style, these silver shoes are now seen as ugly.~
+~
+9 1 65
+1 0 0 0
+1 1000 0
+A
+12 1
+A
+13 1
+A
+20 1
+A
+14 1
+A
+0 1
+#32614
+ring moron~
+the ring "Moron"~
+Someone made a ring called "Moron" as a cruel prank.~
+~
+9 4304 3
+1 0 0 0
+1 1000 0
+A
+3 -4
+A
+4 -4
+#32615
+snailman shell~
+a snailman's shell~
+A snailman's shell looks durable yet unwieldly.~
+~
+9 256 9
+5 0 0 0
+30 1000 0
+A
+14 -30
+#32616
+short bow gamma~
+the short bow "Gamma"~
+Gamma, the short bow, awaits a skilled archer.~
+~
+5 2 8193
+0 1 9 11
+18 1000 0
+A
+18 1
+#32617
+dwarven ale mug~
+a mug of dwarven ale~
+Only a dwarf could handle a mug filled with dwarven ale.~
+~
+17 128 1
+9 9 4 0
+4 1000 0
+#32618
+brown mushroom stew~
+brown mushroom stew~
+Brown mushroom stew is a kobold specialty.~
+~
+26 0 1
+5 16 82 81
+2 1000 0
+#32619
+used napkin~
+a used napkin~
+This crumpled napkin is covered in sauce.~
+~
+13 128 1
+0 0 0 0
+1 1000 0
+#32620
+worn powerstone~
+a worn powerstone~
+Drained of its energy, this powerstone is little more than a paperweight.~
+~
+9 2 16385
+0 0 0 0
+21 1000 0
+A
+12 3
+#32621
+garlic clove~
+a garlic clove~
+Garlic emits a repulsive smell.~
+~
+3 0 16385
+3 2 2 64
+3 1000 0
+A
+13 -8
+#32622
+helm Grossulus Sigmi~
+the helm "Grossulus Sigmi"~
+Grossulus Sigmi, the enchanted helm, awaits a head to protect.~
+~
+9 64 17
+7 0 0 0
+9 1000 0
+A
+2 1
+A
+3 -1
+A
+13 5
+#32623
+storage key basement~
+the basement storage key~
+This key unlocks the diner's basement storage room.~
+~
+18 0 1
+0 0 0 0
+6 1000 0
+#32624
+business card~
+the manager's business card~
+The manager Hog'nik left his business card here.~
+~
+2 0 1
+2 7 0 0
+2 1000 0
+E
+Hog'nik Hog~
+Hog'nik Trasak
+
+Owner/Operator of the Kobold's Diner
+~
+#32625
+Battlebranch battle branch cudgel~
+the Battlebranch~
+Battlebranch, a druid's enchanted cudgel, waits for a fight.~
+~
+5 65 8193
+0 1 7 8
+17 1000 0
+A
+12 10
+A
+24 -2
+#32626
+belt Trassilant~
+the belt "Trassilant"~
+An apprentice enchanter enhanced this belt, Trassilant.~
+~
+9 1088 2049
+4 0 0 0
+6 1000 0
+A
+5 1
+#32627
+kobold kobold's bifocals~
+a kobold's bifocals~
+A kobold once wore these bifocals.~
+~
+3 4096 16385
+4 1 1 44
+4 1000 0
+#32628
+goblin bracelet~
+a goblin's bracelet~
+This smelly, worn bracelet was made by some goblin.~
+~
+9 512 4097
+1 0 0 0
+4 1000 0
+A
+14 20
+#32629
+cardboard sign~
+a cardboard sign~
+A message is written on this cardboard sign.~
+~
+12 4 0
+0 0 0 0
+25 1000 0
+E
+message written writing write~
+Absolutely no fighting is permitted on premesis!!
+~
+#32630
+depleted lamp oil~
+a nearly depleted oil lamp~
+This lamp is nearly out of oil.~
+~
+1 1 1
+0 0 1 0
+2 1000 0
+A
+17 1
+#32631
+storage sphere~
+a storage sphere~
+A stoage sphere is ready to be filled.~
+~
+15 64 1
+9 5 0 0
+10 1000 0
+#32632
+currency~
+currency~
+Currency from various lands is neatly stacked in a small pile.~
+~
+8 0 1
+0 0 0 0
+6 1000 0
+#32633
+wagon~
+a wooden wagon~
+This wagon has been emptied of trade goods.~
+~
+12 0 0
+0 0 0 0
+90 1000 0
+#32634
+ogre chain~
+the ogre chain~
+This chain was an ogre's preferred weapon.~
+~
+5 512 8193
+0 6 6 0
+11 1000 0
+A
+18 -1
+A
+17 2
+#32635
+cup tea kobold~
+cup of tea~
+Kobold tea is not particulary enjoyable, but it is hot.~
+~
+17 0 1
+7 7 11 0
+6 1000 0
+#32636
+brown fedora Rubazi~
+Rubazi's brown fedora~
+Rubazi left his brown fedora behind.~
+~
+9 3072 17
+3 0 0 0
+4 1000 0
+A
+4 1
+A
+13 -5
+#32637
+Rubazi trench coat~
+Rubazi's trench coat~
+Rubazi left his trench coat behind.~
+~
+9 3072 1025
+5 0 0 0
+12 1000 0
+A
+21 -6
+#32638
+glass salt water saltwater~
+a tall glass of saltwater~
+This glass of water has a bit too much salt in it.~
+~
+17 0 1
+5 5 14 0
+7 1000 0
+#32639
+washcloth~
+a washcloth~
+This washcloth is very filthy.~
+~
+13 0 1
+0 0 0 0
+4 1000 0
+#32640
+tray food~
+a tray filled with food~
+A waiter carefully walked around with this tray filled with food.~
+~
+19 0 1
+15 0 0 0
+21 1000 0
+#32641
+chicken sandwich~
+a chicken sandwich~
+A freshly prepared chicken sandwich is ready to be eaten.~
+~
+19 0 1
+4 0 0 0
+4 1000 0
+#32642
+invis invisiburger burger~
+an invisiburger~
+An invisiburger is covered in strange, exotic spices that make it invisible.~
+~
+19 32 1
+4 0 0 0
+6 1000 0
+#32643
+coffee mug~
+a mug of coffee~
+This coffee has a pungent and bitter taste.~
+~
+17 0 1
+5 5 12 0
+4 1000 0
+#32644
+pie glastark~
+glastark pie~
+Glastark pie is loved by goblins everywhere.~
+~
+19 0 1
+3 0 0 1
+4 1000 0
+#32645
+dispenser~
+a dispenser~
+A dispenser is filled with extra napkins and straws.~
+~
+15 0 0
+20 0 0 0
+6 1000 0
+#32646
+clean napkins~
+clean napkins~
+These paper napkins are clean.~
+~
+13 0 1
+0 0 0 0
+10 1000 0
+#32647
+straw~
+a straw~
+A straw is ready for use.~
+~
+3 4 16385
+2 1 1 25
+1 1000 0
+#32648
+dur lin sleeves~
+the Dur-lin sleeves~
+These sleeves were made by a tailor named Dur-lin.~
+~
+9 512 257
+9 0 0 0
+15 1000 0
+A
+24 2
+#32649
+massive steak~
+a massive steak~
+Only a troll could handle so massive a steak.~
+~
+19 128 1
+11 0 0 0
+15 1000 0
+#32650
+troll trousers~
+a troll's trousers~
+A troll's trousers are in desperate need of cleaning.~
+~
+9 16 33
+2 0 0 0
+12 1000 0
+A
+5 1
+#32651
+garbage~
+garbage~
+This is an ordinary pile of disgusting, putrid garbage.~
+~
+13 0 1
+0 0 0 0
+45 1000 0
+#32652
+cash register~
+a cash register~
+This cash register is an older yet functional model.~
+~
+15 0 0
+0 5 0 0
+26 1000 0
+#32653
+arranged coins~
+neatly arranged coins~
+These coins are neatly arranged in the cash register.~
+~
+20 0 1
+522 0 0 0
+17 1000 0
+#32654
+grilled fish~
+a grilled fish~
+Grilled fish are enjoyed by almost any customer.~
+~
+19 0 1
+4 0 0 0
+6 1000 0
+#32655
+spatula~
+a spatula~
+Someone discarded this handy spatula.~
+~
+3 0 16385
+4 2 2 12
+2 1000 0
+#32656
+menu~
+a menu~
+The diner's menu lists all its wonderful food with their prices.~
+~
+13 0 1
+0 0 0 0
+7 1000 0
+#32657
+clerk pendant~
+the clerk's pendant~
+A kobold clerk believed this pendant was a good luck charm.~
+~
+9 2054 5
+3 0 0 0
+7 1000 0
+A
+20 2
+A
+4 1
+A
+12 5
+#32658
+box boxes~
+boxes~
+Boxes with various odds and ends inside fill the room.~
+~
+12 0 0
+0 0 0 0
+40 1000 0
+#32659
+basement storage key~
+the basement storage key~
+This key unlocks the basement storage room.~
+~
+18 0 1
+0 0 0 0
+7 1000 0
+#32660
+meat tenderizer~
+a meat tenderizer~
+The kobolds left this meat tenderizer in their storage room.~
+~
+5 0 8193
+0 1 15 7
+7 1000 0
+A
+18 -2
+A
+19 3
+A
+17 1
+#0
+
+
+#ROOMS
+#32600
+Road to the Diner~
+The Kobold's Diner, as it is now called, has been in operation for many years.
+People from all over the world come here to eat.  Expert cooks prepare a wide
+variety of food, since the many races of the land have such contrasting
+tastes.  A dirt road leads north and south, and a notice is pinned to a nearby
+tree.
+~
+326 0 2
+D0
+
+~
+~
+0 0 32601
+E
+note notice~
+Kobold's Diner created by Bouchart, August 2008.
+~
+S
+#32601
+Pathway to the Diner~
+The dirt road approaches the diner's outdoor seating area, which lies to the
+east and west, and to the north is the diner's entrance.
+~
+326 0 2
+D0
+
+~
+~
+0 0 32606
+D1
+
+~
+~
+0 0 32602
+D2
+
+~
+~
+0 0 32600
+D3
+
+~
+~
+0 0 32608
+S
+#32602
+Outdoor Seating~
+Outdoor seating is available primarily for some of the larger races who would
+find eating inside uncomfortable.  But on occasion others like eating outside.
+~
+326 0 2
+D0
+
+~
+~
+0 0 32605
+D1
+
+~
+~
+0 0 32603
+D3
+
+~
+~
+0 0 32601
+S
+#32603
+A Broken Bench~
+Fights usually result in less property damage outside the diner than inside. 
+Still, the kobolds would prefer fights not break out here.
+~
+326 0 2
+D0
+
+~
+~
+0 0 32604
+D3
+
+~
+~
+0 0 32602
+S
+#32604
+Outdoor Seating~
+Outdoor seating is available primarily for some of the larger races who would
+find eating inside uncomfortable.  A path continues to the north, but
+customers are discouraged from walking there.
+~
+326 0 2
+D0
+
+~
+~
+0 0 32613
+D2
+
+~
+~
+0 0 32603
+D3
+
+~
+~
+0 0 32605
+S
+#32605
+Outdoor Seating~
+Outdoor seating is available primarily for some of the larger races who would
+find eating inside uncomfortable.
+~
+326 0 2
+D1
+
+~
+~
+0 0 32604
+D2
+
+~
+~
+0 0 32602
+D3
+
+~
+~
+0 0 32606
+S
+#32606
+Diner Entrance~
+The diner is a large, sturdy brick building.  It looks as if it could
+accomodate a very large number of patrons.  And it needs to: the diner is an
+extremely popular place to eat.
+~
+326 4 2
+D0
+
+~
+door~
+1 0 32614
+D1
+
+~
+~
+0 0 32605
+D2
+
+~
+~
+0 0 32601
+D3
+
+~
+~
+0 0 32607
+S
+#32607
+Outdoor Seating~
+Outdoor seating is available primarily for some of the larger races who would
+find eating inside uncomfortable.
+~
+326 0 2
+D1
+
+~
+~
+0 0 32606
+D2
+
+~
+~
+0 0 32608
+D3
+
+~
+~
+0 0 32610
+S
+#32608
+Outdoor Seating~
+Outdoor seating is available primarily for some of the larger races who would
+find eating inside uncomfortable.
+~
+326 0 2
+D0
+
+~
+~
+0 0 32607
+D1
+
+~
+~
+0 0 32601
+D3
+
+~
+~
+0 0 32609
+S
+#32609
+Outdoor Seating~
+Outdoor seating is available primarily for some of the larger races who would
+find eating inside uncomfortable.
+~
+326 0 2
+D0
+
+~
+~
+0 0 32610
+D1
+
+~
+~
+0 0 32608
+S
+#32610
+Outdoor Seating~
+Outdoor seating is available primarily for some of the larger races who would
+find eating inside uncomfortable.  A path continues to the north, but
+customers are discouraged from walking there.
+~
+326 0 2
+D0
+
+~
+~
+0 0 32611
+D1
+
+~
+~
+0 0 32607
+D2
+
+~
+~
+0 0 32609
+S
+#32611
+Alley Behind the Diner~
+The diner's suppliers bring their wagons and pack animals behind the diner.  A
+dirt trail continues to the north, but this dwarf's wagon blocks the path.
+~
+326 4 2
+D1
+
+~
+~
+0 0 32612
+D2
+
+~
+~
+0 0 32610
+S
+#32612
+Diner's Back Door~
+The path at the back of the diner is generally not trafficked, and is entirely
+unpleasant.  The air smells of garbage, grafitti is written on the wall and it
+is poorly lit at night.
+~
+326 0 2
+D1
+
+~
+~
+0 0 32613
+D2
+
+~
+door~
+1 0 32635
+D3
+
+~
+~
+0 0 32611
+S
+#32613
+Alley Behind the Diner~
+Suppliers brought their wagons over here in the early days of the diner, when
+the kobolds needed a lot of large, bulky goods such as furniture.  But
+nobody walks over here anymore.
+~
+326 4 2
+D2
+
+~
+~
+0 0 32604
+D3
+
+~
+~
+0 0 32612
+S
+#32614
+Diner Entrance~
+The rumors about the diner are true; it really is a busy place.  Glancing
+around, some parts appear in need of cleaning and some are spotless.  But this
+does not appear to be due to neglect, as the cleaners look like they are
+working as fast as they can.  Go get a place to sit before someone else does!
+~
+326 8 0
+D0
+
+~
+~
+0 0 32620
+D1
+
+~
+~
+0 0 32615
+D2
+
+~
+door~
+1 0 32606
+D3
+
+~
+~
+0 0 32616
+S
+#32615
+Southeastern Corner of the Diner~
+This corner is a little messy, with a few napkins littered on the floor, and
+the window could use a cleaning.
+~
+326 8 0
+D0
+
+~
+~
+0 0 32621
+D3
+
+~
+~
+0 0 32614
+S
+#32616
+Southern Wall of the Diner~
+The windows are spotless, and the tables and floor clean, but this table is
+occupied.
+~
+326 8 0
+D0
+
+~
+~
+0 0 32619
+D1
+
+~
+~
+0 0 32614
+D3
+
+~
+~
+0 0 32617
+S
+#32617
+Southwestern Corner of the Diner~
+The pleasant smell of a dozen different foods fill the air, but it is
+impossible to identify any one individually.
+~
+326 8 0
+D0
+
+~
+~
+0 0 32618
+D1
+
+~
+~
+0 0 32616
+S
+#32618
+Western Wall of the Diner~
+Wonderful aromas waft in from the north.
+~
+326 8 0
+D0
+
+~
+~
+0 0 32626
+D1
+
+~
+~
+0 0 32619
+D2
+
+~
+~
+0 0 32617
+S
+#32619
+In the Middle of the Diner~
+The floor around these seats is covered with crumbs, small bits of lettuce and
+shredded cheese, a wrapper and a crumpled napkin.
+~
+326 8 0
+D0
+
+~
+~
+0 0 32624
+D1
+
+~
+~
+0 0 32620
+D2
+
+~
+~
+0 0 32616
+D3
+
+~
+~
+0 0 32618
+S
+#32620
+In the Middle of the Diner~
+The floor here is very clean, but there is a ketchup smudge on the table.
+~
+326 8 0
+D0
+
+~
+~
+0 0 32623
+D1
+
+~
+~
+0 0 32621
+D2
+
+~
+~
+0 0 32614
+D3
+
+~
+~
+0 0 32619
+E
+ketchup catsup~
+There is a smudge of ketchup on this table, but the half-elf is too lazy to
+clean it up.
+~
+S
+#32621
+Eastern Side of the Diner~
+A garbage can stands in this side of the diner, and a bathroom to the east.
+~
+326 8 0
+D0
+
+~
+~
+0 0 32622
+D1
+
+~
+door~
+1 0 32631
+D2
+
+~
+~
+0 0 32615
+D3
+
+~
+~
+0 0 32620
+S
+#32622
+Northeastern Corner of the Diner~
+Many customers enjoy sitting in a corner booth such as this one, but it is
+empty right now.  An oil lamp hangs off the wall, lighting the area.
+~
+326 8 0
+D2
+
+~
+~
+0 0 32621
+D3
+
+~
+~
+0 0 32623
+S
+#32623
+Dispenser~
+There are no tables here, as a huge dispenser rests along the wall.
+~
+326 8 0
+D1
+
+~
+~
+0 0 32622
+D2
+
+~
+~
+0 0 32620
+D3
+
+~
+~
+0 0 32624
+S
+#32624
+Northern Wall of the Diner~
+From these tables, one can faintly hear to the frantic din of the kitchen, or
+the ring of the cash register.
+~
+326 8 0
+D1
+
+~
+~
+0 0 32623
+D2
+
+~
+~
+0 0 32619
+D3
+
+~
+~
+0 0 32626
+S
+#32625
+An Intersection~
+The second floor contains three rooms which can be reserved in advance for a
+diner or small group of diners, and a storage closet.  The smell of fresh food
+permeates the air here as well.
+~
+326 1036 0
+D0
+
+~
+~
+0 0 32627
+D1
+
+~
+~
+0 0 32628
+D2
+
+~
+~
+0 0 32630
+D3
+
+~
+door~
+1 0 32629
+D5
+
+~
+~
+0 0 32626
+S
+#32626
+Intersection~
+The staircase here leads to some private dining rooms, which must be reserved
+in advance, and up ahead to the north is the cash register and the kitchen.
+~
+326 8 0
+D0
+
+~
+~
+0 0 32632
+D1
+
+~
+~
+0 0 32624
+D2
+
+~
+~
+0 0 32618
+D4
+
+~
+~
+0 0 32625
+S
+#32627
+Private Dining Room~
+A dwarven traveler reserved this room about a week in advance.  A nice cool
+breeze blows in from the window, and he enjoys his meal in peace and quiet.
+~
+326 8 0
+D2
+
+~
+~
+0 0 32625
+S
+#32628
+An Empty Private Dining Room~
+This is is a private dining room which is not currently in use.
+~
+326 1548 0
+D3
+
+~
+~
+0 0 32625
+S
+#32629
+Storage Closet~
+The kobolds store extra equipment and supplies in this room.  For a closet it
+is suprisingly clean and free of dust.
+~
+326 8 0
+D1
+
+~
+door~
+1 0 32625
+S
+#32630
+A Private Room~
+This room is normally reserved for well-to-do customers wanting a quiet place
+to eat.  Today a troll was disturbing other customers, so the manager quietly
+moved her upstairs here.
+~
+326 8 0
+D0
+
+~
+~
+0 0 32625
+S
+#32631
+Bathroom~
+In this room stands everything one would expect to find in a bathroom.  This
+frequently trafficked room looks spotless.
+~
+326 525 0
+D3
+
+~
+door~
+1 0 32621
+S
+#32632
+Front Counter~
+This is the front counter, where a kobold minds the cash register and hands
+out extra menus.
+~
+326 8 0
+D1
+
+~
+~
+0 0 32633
+D2
+
+~
+~
+0 0 32626
+S
+#32633
+Intersection~
+The heat an aroma of a cooked meal wafts in from the east, while a mundane
+path extends north.
+~
+326 12 0
+D0
+
+~
+~
+0 0 32635
+D1
+
+~
+~
+0 0 32634
+D3
+
+~
+~
+0 0 32632
+S
+#32634
+Kitchen~
+In this part of the kitchen the cooks prepare sandwiches and salads, and
+the waiters pick up orders for the customers.
+~
+326 8 0
+D1
+
+~
+~
+0 0 32636
+D3
+
+~
+~
+0 0 32633
+S
+#32635
+The Back Door~
+The air seems a bit stale in this hallway. It connects the kitchen to the back
+door, and a staircase leads down to a storage area.
+~
+326 12 0
+D0
+
+~
+door~
+1 0 32612
+D2
+
+~
+~
+0 0 32633
+D5
+
+~
+~
+0 0 32637
+S
+#32636
+Kitchen~
+The kitchen is a flurry of activity.  It's a very warm and uncomfortable place
+to work because of the oven, the grill, and the fact that the room is very
+cramped.
+~
+326 8 0
+D3
+
+~
+~
+0 0 32634
+S
+#32637
+Basement Entrance~
+The kobolds use this basement for storage and to handle paperwork.  For a
+basement it is fairly clean and well lit, though a bit humid.  The office and
+storage rooms are to the east.
+~
+326 12 0
+D1
+
+~
+~
+0 0 32638
+D4
+
+~
+~
+0 0 32635
+S
+#32638
+Intersection~
+The air is damp and musty down in this basement.  The office is to the north
+and the storage rooms are to the east.
+~
+326 12 0
+D0
+
+~
+~
+0 0 32639
+D1
+
+~
+~
+0 0 32640
+D3
+
+~
+~
+0 0 32637
+S
+#32639
+An Office~
+This cramped room appears to be both an office and a storage area.  Cardboard
+boxes are stacked all over the room, including by the desk, making it hard to
+do any work comfortably.  A dim candle flickers erraticly.
+~
+326 8 0
+D2
+
+~
+~
+0 0 32638
+S
+#32640
+Narrow Corner~
+The hall makes a narrow turn.  This makes it look like it would be difficult to
+move things in and out of the storage room.
+~
+326 8 0
+D2
+
+~
+~
+0 0 32641
+D3
+
+~
+~
+0 0 32638
+S
+#32641
+Storage Room~
+Kobolds store various odds and ends here.  These boxes appear to have been
+recently moved around because they don't have any dust on them.
+~
+326 8 0
+D0
+
+~
+~
+0 0 32640
+D1
+
+~
+door~
+1 32659 32642
+S
+#32642
+Basement Storage Closet~
+The basement's storage closet contains all sorts of extra supplies, as well as
+a few trinkets that customers lost in the diner over the years.
+~
+326 525 0
+D3
+
+~
+door~
+1 32659 32641
+S
+#0
+
+
+#RESETS
+D 0 32614 2 1  * Diner Entrance
+D 0 32606 0 1  * Diner Entrance
+D 0 32629 1 1  * Storage Closet
+D 0 32625 3 1  * An Intersection
+D 0 32631 3 1  * Bathroom
+D 0 32621 1 1  * Eastern Side of the Diner
+D 0 32635 0 1  * The Back Door
+D 0 32612 2 1  * Diner's Back Door
+D 0 32642 3 2  * Basement Storage Closet
+D 0 32641 1 2  * Storage Room
+O 0 32600 1 32612  * an iron dumpster -> Diner's Back Door
+O 0 32601 1 32608  * a stone bench and table -> Outdoor Seating
+O 0 32601 1 32607  * a stone bench and table -> Outdoor Seating
+O 0 32601 1 32610  * a stone bench and table -> Outdoor Seating
+O 0 32601 1 32609  * a stone bench and table -> Outdoor Seating
+O 0 32602 1 32602  * a wooden picnic table -> Outdoor Seating
+O 0 32602 1 32605  * a wooden picnic table -> Outdoor Seating
+O 0 32602 1 32604  * a wooden picnic table -> Outdoor Seating
+O 0 32603 1 32603  * a broken wooden table -> A Broken Bench
+O 0 32605 1 32606  * a chalkboard -> Diner Entrance
+O 0 32629 1 32601  * a cardboard sign -> Pathway to the Diner
+O 0 32633 1 32611  * a wooden wagon -> Alley Behind the Diner
+O 0 32645 1 32623  * a dispenser -> Dispenser
+O 0 32652 1 32632  * a cash register -> Front Counter
+O 0 32658 1 32629  * boxes -> Storage Closet
+O 0 32658 1 32642  * boxes -> Basement Storage Closet
+O 0 32645 1 32642  * a dispenser -> Basement Storage Closet
+O 0 32614 1 32642  * the ring "Moron" -> Basement Storage Closet
+O 0 32658 1 32641  * boxes -> Storage Room
+O 0 32655 1 32641  * a spatula -> Storage Room
+O 0 32660 2 32642  * a meat tenderizer -> Basement Storage Closet
+P 0 32632 1 32631  * currency -> a storage sphere
+P 0 32647 1 32645  * a straw -> a dispenser
+P 0 32646 1 32645  * clean napkins -> a dispenser
+P 0 32651 1 32600  * garbage -> an iron dumpster
+P 0 32653 1 32652  * neatly arranged coins -> a cash register
+M 0 32600 1 32605  * a kobold -> Outdoor Seating
+E 0 32604 1 16  * a wooden broom
+M 0 32602 1 32603  * a waitress -> A Broken Bench
+G 0 32607 1  * a notepad
+G 0 32606 1  * a heavily used pencil
+M 0 32603 1 32602  * a hungry pixie -> Outdoor Seating
+G 0 32613 1  * silver shoes
+G 0 32608 1  * a salad
+M 0 32605 1 32607  * Jarak the orc bodyguard -> Outdoor Seating
+E 0 32610 1 2  * a bauxite ring
+E 0 32611 1 16  * a copper mace
+M 0 32606 1 32607  * Steillis the mage -> Outdoor Seating
+G 0 32635 1  * cup of tea
+E 0 32620 1 17  * a worn powerstone
+E 0 32612 1 9  * the Thundergloves
+M 0 32604 1 32610  * the minotaur wanderer -> Outdoor Seating
+E 0 32609 1 16  * a minotaur's boomerang
+M 0 32602 2 32609  * a waitress -> Outdoor Seating
+G 0 32607 1  * a notepad
+G 0 32606 1  * a heavily used pencil
+M 0 32608 1 32611  * a dwarven trader -> Alley Behind the Diner
+G 0 32631 1  * a storage sphere
+E 0 32630 1 0  * a nearly depleted oil lamp
+M 0 32607 1 32609  * an ogre -> Outdoor Seating
+E 0 32634 1 16  * the ogre chain
+E 0 32626 1 13  * the belt "Trassilant"
+M 0 32610 1 32615  * Wielle the ranger -> Southeastern Corner of the Diner
+G 0 32619 1  * a used napkin
+E 0 32622 1 6  * the helm "Grossulus Sigmi"
+E 0 32616 1 16  * the short bow "Gamma"
+M 0 32611 1 32616  * Rubazi the merchant -> Southern Wall of the Diner
+E 0 32636 1 6  * Rubazi's brown fedora
+E 0 32637 1 12  * Rubazi's trench coat
+M 0 32612 1 32618  * Grall the lizardman -> Western Wall of the Diner
+G 0 32638 1  * a tall glass of saltwater
+M 0 32613 1 32620  * a half-elf druid -> In the Middle of the Diner
+E 0 32625 1 16  * the Battlebranch
+M 0 32614 1 32619  * a cleaning kobold -> In the Middle of the Diner
+G 0 32639 1  * a washcloth
+E 0 32604 1 16  * a wooden broom
+M 0 32615 1 32617  * the waiter -> Southwestern Corner of the Diner
+G 0 32643 1  * a mug of coffee
+G 0 32635 1  * cup of tea
+G 0 32641 1  * a chicken sandwich
+G 0 32642 1  * an invisiburger
+G 0 32640 1  * a tray filled with food
+G 0 32618 1  * brown mushroom stew
+G 0 32617 1  * a mug of dwarven ale
+M 0 32616 1 32624  * a goblin -> Northern Wall of the Diner
+G 0 32644 1  * glastark pie
+E 0 32628 1 15  * a goblin's bracelet
+M 0 32617 1 32627  * a dwarf -> Private Dining Room
+E 0 32648 1 10  * the Dur-lin sleeves
+G 0 32617 1  * a mug of dwarven ale
+M 0 32618 1 32630  * a troll -> A Private Room
+G 0 32646 1  * clean napkins
+G 0 32649 1  * a massive steak
+E 0 32650 1 7  * a troll's trousers
+G 0 32619 1  * a used napkin
+M 0 32619 1 32632  * the kobold cashier -> Front Counter
+G 0 32656 1  * a menu
+M 0 32620 2 32636  * the kobold cook -> Kitchen
+G 0 32655 1  * a spatula
+G 0 32654 1  * a grilled fish
+M 0 32609 1 32601  * a snailman -> Pathway to the Diner
+E 0 32615 1 5  * a snailman's shell
+M 0 32621 1 32639  * the kobold clerk -> An Office
+G 0 32659 1  * the basement storage key
+E 0 32657 1 3  * the clerk's pendant
+G 0 32627 1  * a kobold's bifocals
+M 0 32620 1 32636  * the kobold cook -> Kitchen
+G 0 32621 1  * a garlic clove
+M 0 32622 1 32635  * the manager -> The Back Door
+G 0 32624 1  * the manager's business card
+M 0 32623 2 32640  * the kobold hauler -> Narrow Corner
+S
+
+
+#SHOPS
+0
+
+
+#SPECIALS
+M 32606 spec_cast_mage  * Steillis the mage
+M 32607 spec_fido  * an ogre
+M 32611 spec_cast_cleric  * Rubazi the merchant
+M 32613 spec_cast_mage  * a half-elf druid
+M 32616 spec_poison  * a goblin
+M 32618 spec_breath_gas  * a troll
+S
+
+#$
+

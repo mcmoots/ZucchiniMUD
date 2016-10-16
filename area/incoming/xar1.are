@@ -1,0 +1,2381 @@
+#AREADATA
+Name Nedregaard Keep~
+Builders Xar~
+VNUMs 500 599
+Credits {W[ {Y70 125{W] {yXar      {YNedregaard Keep        {X~
+Security 9
+End
+
+
+
+#MOBILES
+#500
+vistani warrior~
+a {CVistani Warrior{X~
+A {CVistani Warrior{X is here to help you battle Soth's minnions.
+~
+{c{gBefore you stands a{x {Cvistani warrior{x ready to rob you blind.  He
+has the appearance of a gypsy, but is much quicker to slit your throat.  He
+wears a plain brown vest over a light blue shirt and wields a dagger for a
+weapon.  
+~
+human~
+AS H 1000 0
+90 80 18d270+2700 90d10+100 5d34+45 pierce
+-80 -80 -80 -80
+V BKNT CI DHZ
+stand stand male 20000
+A ABCDFG medium unknown
+F for HMV
+F par EHIJK
+#501
+Banshee~
+A banshee~
+A banshee is here wailing her sad song.
+~
+Before you hovers the banshee, the bane of Soth's existence.  She wears
+the robe of a cleric about her body, and has no weapon...  At least, not
+anything physical.  
+~
+elf~
+AR HJ -1000 0
+150 1500 30d450+7500 150d10+100 5d57+75 none
+-136 -136 -136 -45
+EFHV BC B DZ
+stand stand female 45000
+AHMV ABCDEFGHIJK medium unknown
+#502
+Adept~
+an Adept of {CXar{x~
+An Adept of {CXar{x is here waiting to heal you.
+~
+{cAn Adept of {CXar{x {cstands before you waiting for death from his
+captors.  He continues to heal those less fortunate thanhe, but his healing
+arts are fading.  
+~
+human~
+ABa H 1000 0
+200 0 50d500+500 0d0+0 25d75+300 none
+-50 -50 -50 -50
+0 ABCD 0 0
+stand stand male 0
+0 0 medium unknown
+F for AHMV
+F par ABCDEFGHIJK
+#503
+Lord Soth~
+{cLord Soth,Knight of the Black {rRose{X~
+{cLord Soth,Knight of the Black {rRose{X stands before you in all his undead splendor.
+~
+{cLord Soth stands before you.  He wears a battered helm upon his head
+and a chest plate with the symbol of the Order of the Rose emblazoned on the
+front.  But this rose is tarnished from fire and time...  It is a black
+{rrose.  {x 
+~
+human~
+ACFc DFHJT -1000 0
+190 800 38d570+12033 190d10+100 5d72+95 pierce
+-200 -200 -200 -200
+FKV CXY BEH FI
+stand stand male 45000
+AHIMV ABCDEFGHIJK large unknown
+M FIGHT 504 100~
+#504
+Skeletal Knight~
+{c a Skeletal Warrior{X~
+{cA Skeletal Warrior stands here guarding Nedregaard Keep from attack.{x
+~
+~
+human~
+AGR DHV -1000 0
+155 1000 31d465+8008 155d10+100 5d59+77 slash
+-143 -143 -143 -47
+FN ABI CNZ 0
+stand stand male 5000
+ABI 0 medium unknown
+F for HMV
+F par ABCDEFGHIJK
+#505
+miner~
+{cA Salt Miner{x~
+{cA Salt Miner{X is here....mining for salt?
+~
+{WYou look at a man who is very tired.  He wears an old pear of mining
+gloves and a helmet with a candle afixed to its surface is upon his head.  
+~
+dwarf~
+ACT HJ 500 0
+100 0 20d300+3333 100d10+100 5d38+50 none
+-68 -68 -68 -22
+0 CZ LQ R
+stand stand male 0
+AHMV ABCDEFGHIJK medium unknown
+#506
+undead ogre~
+{can undead ogre{x~
+{cAn undead ogre is here.{x
+~
+~
+goblin~
+A HJ 0 0
+95 800 19d285+3008 95d10+100 5d36+47 none
+-59 -59 -59 -19
+CDIKN E Q C
+stand stand male 15000
+AHMV ABCDEFGHIJK medium unknown
+#507
+salt shadow~
+{ca Salt Shadow{x~
+{cA Salt Shadow is here{X
+~
+~
+drow~
+A HJ 0 0
+175 1000 35d525+10208 175d10+100 5d66+87 slash
+-98 -98 -98 -32
+0 CM B SZ
+stand stand none 10000
+AHMV ABCDEFGHIJK medium unknown
+#508
+bastion~
+{CBast the armorer{X~
+{CBast the armorer is here waiting to sell you some armor.{X
+~
+~
+human~
+AB H 1000 0
+300 5000 50d5000+5000 45d6000+6000 50d5000+6000 none
+-100 -100 -100 -100
+0 CD 0 0
+stand stand male 500000
+0 0 medium unknown
+F for AHMV
+F par ABCDEFGHIJK
+#509
+Azreal~
+{cAzreal{x~
+{cAzreal, the werebadger, is here{x
+~
+{cBefore you stands a strange little dwarf.  He looks as if he's very
+old...  And at the same time he looks very young...  His clothes are
+tattered and his fingers are bloody, but it's not his blood.  There isn't a
+mark on him...  This little guy could be BIG trouble.  {X 
+~
+dwarf~
+ABOc HJV -1000 0
+115 500 23d345+4408 115d10+100 5d43+57 slash
+-87 -87 -87 -29
+FK C LQ R
+stand stand male 12000
+AHMV ABCDEFGHIJK medium unknown
+M DEATH 502 100~
+M RANDOM 503 99~
+#510
+Magda~
+{CMagda{x~
+{CMagda, Leader of the Vistani, is here.{X
+~
+{CBefore you stands an old woman, she is dressed in a long dress and has
+a shawl wrapped around her shoulders.  For all her age is indeterminable,
+she has the twinkle of youth and rebellion in her eyes.  This leader of the
+Vistani tribe isn't one to take lightly, her daggers are just as quick as
+her mind.  Be wary of her and you may survive your encounter eith her.  
+{x
+~
+human~
+AB H 1000 0
+125 400 25d375+5208 125d10+100 5d47+62 none
+-106 -106 -106 -35
+0 C 0 0
+stand stand female 3500
+AHMV ABCDEFGHIJK medium unknown
+#511
+sabak~
+{CSabak{X~
+{CSabak, Magda's protector, is here{x
+~
+{CBefore you stands the largest hound you've ever seen.  His blood red
+eyes and long fands distract you from noticing anything else about him.  {c 
+{X
+~
+dog~
+AB HV 1000 0
+120 1500 24d360+4800 120d10+100 5d45+60 slash
+-94 -94 -94 -31
+FHKTV ABCY 0 0
+stand stand none 20000
+AGV ACDEFHJKUV medium unknown
+#512
+white rose isolde~
+{Wthe White Rose{x~
+{WThe White Rose is here to test your honor.{x
+~
+{WBefore you stands the White Rose.  She is covered, head to foot, in
+white.  Upon her head rests a silky white hat that covers the entirety of
+her head, and around her face is a white scarf.  All you can see of her
+features is her fiery red eyes.  Her body is covered with a pure white
+robe.  {x 
+~
+elf~
+AB HJV 1000 0
+180 600 36d540+10800 180d10+100 5d68+90 slash
+-111 -111 -111 -37
+FGI ABC B Z
+stand stand female 8000
+AHMV ABCDEFGHIJK medium unknown
+#513
+the Bloody Cobbler~
+{Rthe Bloody Cobbler{X~
+{RThe Bloody Cobbler is here, cobbling up some {rbizzare{x {Rshoes.{x
+~
+{rBefore you stands a tall masked figure.  His form is mostly obscured by
+a cloak and a wide brimmed hat.  They, like his mask, his shoes , and his
+finely tailored breeches and coat, are all of a uniform hue.  It was not a
+color so much as the ashen remnant left when all color has been leeched
+away.  {X 
+~
+elf~
+AB DHJVc 1000 0
+180 700 36d540+10800 180d10+100 5d68+90 pierce
+-100 -100 -100 -150
+FGHKO ABCJP B Z
+stand stand male 10000
+AHMV ABCDEFGHIJK medium unknown
+#514
+whispering beast~
+{cthe Whispering Beast{x~
+{cThe Whispering Beast is here to steal your lying soul.{x
+~
+{cThe creature before you is starvation thin and taller than any man you
+have ever seen.  Stringy hair covers his entire frame, gray-white where dirt
+and excrement haven't as yet matted it.  His arms seem to bend the wrong way
+and hang down past his knees.  The hands at the ends of those misshapen
+limbs are graced with slender fingers that constantly trace vulgar patterns
+in the air.  A leer splits his twisted visage;yet his face holds vestiges of
+magnificence.  
+{x
+~
+elf~
+AB HJV 500 0
+175 300 35d525+10208 175d10+100 5d66+87 none
+-98 -98 -98 -32
+DFHKV ABY BCDP Z
+stand stand male 3500
+AHMV ABCDEFGHIJK medium unknown
+#597
+werebadger~
+{yWerebadger{x~
+A {yWerebadger{x is here to kill you painfully.
+~
+~
+wolf~
+ABFc HZ -1000 0
+185 800 37d555+11408 185d10+100 5d70+92 slash
+-120 -120 -120 -40
+FHM ABC MPQ H
+stand stand male 25000
+AGV ACDEFJKQV medium unknown
+#598
+banshee singer2~
+{x~
+{X
+~
+~
+human~
+AB DFHZ 0 0
+1000 0 1d1+1 0d0+0 1d1+1 none
+0 0 0 0
+0 ABCD 0 0
+stand stand none 0
+0 0 medium unknown
+F for AHMV
+F par ABCDEFGHIJK
+M GRALL 501 100~
+#599
+Banshee singer~
+{x~
+{x
+~
+~
+human~
+ABc DFHZ 0 0
+1000 0 1d1+1 0d0+0 1d1+1 none
+0 0 0 0
+0 ABCD 0 0
+stand stand none 0
+0 0 medium unknown
+F for AHMV
+F par ABCDEFGHIJK
+M GRALL 500 100~
+#0
+
+
+
+#OBJECTS
+#500
+rusty key~
+a {yrusty key{x~
+A {yrusty key{x is here waiting for you to use.~
+unknown~
+key 0 A
+0 0 0 0 0
+0 0 0 P
+#501
+skeleton key~
+a {Wa skeleton key{X~
+A {Wskeleton key{x is here.~
+bone~
+key 0 A
+0 0 0 0 0
+0 0 0 P
+#502
+dark key~
+a {cdark key{x~
+A {cdark key{x is here waiting to unlock a door.~
+coal~
+key 0 A
+0 0 0 0 0
+0 0 0 P
+#504
+sword black rose~
+{bSword of the Black {rRose{X~
+The {bSword of the Black {rRose {bis here.{x~
+silver~
+weapon ABHa AN
+sword 38 6 slash BCDGH
+125 5 5000 P
+A
+13 500
+A
+12 500
+A
+17 -150
+#505
+armor blackrose~
+{DArmor of the {bBlack {rRose{x~
+{DArmor of the {bBlack {rRose {Dis here.{X~
+silver~
+armor BI AD
+ACEF BEF BEF BDF 0
+125 7 6000 P
+A
+13 50
+A
+4 2
+A
+2 3
+E
+blackrose~
+{DYou see before you armor of the purest silver.  Crafted by the greast
+armorer's ever to have crafted metal into weapon or armor.  Emblazoned onto
+the chest is the symbol of the Order of the Rose, but it is twisted and
+perverted by time and fire into a {bBlack {rRose{x.  
+~
+#506
+claws~
+{yAzreal's claws{x~
+{yAzreal's claws{x are here.~
+fur~
+armor ABI AH
+CE CE ADE ABCD 0
+115 15 2500 P
+A
+1 5
+A
+14 200
+A
+3 5
+A
+12 100
+#507
+bloody dagger~
+{RCobbler's {rbloody {Rdagger{x~
+The {RCobbler's {rBloody {Rdagger{x is here, waiting to skin someone.~
+mystical~
+weapon BGH AN
+dagger 30 6 pierce ACD
+115 2 0 P
+#508
+cobbler's boots~
+{RCobbler's Boots{x~
+The {RCobbler's Boots{x are here waiting to be worn.~
+skin~
+armor IY AG
+ADE CE ABCD ADE 0
+112 7 4000 P
+A
+17 -55
+A
+13 100
+#509
+isoldes necklace~
+{WIsolde's necklace{x~
+{WIsolde's Necklace{X is here to lend you strength.~
+gold~
+armor AI AC
+ABCD ABCD ABCD BE 0
+120 10 5000 P
+A
+17 -100
+A
+1 5
+#510
+whispering soul~
+{CWhispering soul{X~
+A {CWhispering Soul{X lies here.~
+soul~
+armor CFS AQ
+ADE CE CE BD 0
+100 1 500 P
+A
+12 75
+A
+14 30
+A
+13 25
+A
+17 -101
+A
+5 2
+#511
+robe cleric~
+{cBanshee's robe{x~
+A {cBanshee's robe{x is here.~
+silk~
+armor BG AK
+ABCD BE BCD CE 0
+105 2 2500 P
+A
+17 -75
+A
+12 45
+#512
+vistani dagger~
+{yVistani Dagger{x~
+{ca {yVistani dagger{c is here.{x~
+staghorn~
+weapon CE AN
+dagger 2 45 pierce DG
+55 4 500 P
+A
+14 -15
+A
+17 25
+#513
+salt helm~
+{WSalt miner's helm{x~
+A {WSalt miner's helm{x is here.~
+unknown~
+armor AB AE
+BCDE ADE ADE BCDE 0
+100 10 3000 P
+A
+1 1
+A
+12 25
+A
+17 -30
+A
+13 100
+#514
+earrings~
+{RMaggies earrings{x~
+{RMaggies earrings{x are here waithing to be worn.~
+ruby~
+armor ABI AS
+ABF ABF ADE ABDE 0
+115 3 5000 P
+A
+1 3
+A
+5 2
+A
+4 2
+A
+17 -100
+#515
+bony gauntlets~
+{cBony gauntlets{x~
+Some {cbony gauntlets{x are here.~
+bone~
+armor BC AI
+CE CE ADE CE 0
+75 10 500 P
+A
+18 25
+A
+17 -50
+#516
+chainmail armor~
+{cchainmail armor{x~
+Some {cchainmail armor{x is here.~
+unknown~
+armor 0 AD
+BD BD BD BD 0
+50 12 300 P
+#517
+gloves~
+{mcheap gloves{x~
+Some {mcheap gloves{x are here.~
+unknown~
+armor 0 AH
+BD BD BD BD 0
+50 5 250 P
+#518
+sithican leggings~
+{bSithican leggings{x~
+A pair of {bSithican leggings{x are here.~
+unknown~
+armor AC AF
+0 0 0 0 0
+70 6 900 P
+#598
+banshee records~
+{x~
+{x~
+unknown~
+armor 0 0
+0 0 0 0 0
+50 0 0 P
+#599
+action figure~
+{BXar's{x {YAnatomically Correct{X {RAction{X {CFigure{X {W(with {yHand pumping{X {WAction and {CMagnifying glass{X {W accessory,{X {YTweezers{X {Wsold seperately){X~
+{BXar's{x {YAnatomically Correct{X {RAction{X {CFigure{X {W(with {yHand pumping{X {WAction and {CMagnifying glass{X {W accessory,{X {YTweezers{X {Wsold seperately){X~
+rubber~
+trash BI AO
+0 0 0 0 0
+0 0 0 P
+#0
+
+
+
+#ROOMS
+#500
+{DIn the Fog{X~
+{DYou have entered a thick fog of unknown origin.  The only way to
+proceed is to the north.  {X 
+~
+0 8196 3
+D0
+~
+~
+0 0 501
+S
+#501
+{DAn Obscure Path Through the Forest{X~
+{DAs you emerge from the fog, you find yourself on a path through a
+forest you've never seen before.  As you look around you, you notice that
+the trees are all twisted and gnarled...  A horribly dismal place to find
+ones-self.  {X 
+~
+0 8192 3
+D0
+~
+~
+0 0 502
+D2
+~
+~
+0 0 500
+S
+#502
+{DOutside the Castle Gate{X~
+{DBefore you looms a castle the likes of which you've never seen before. 
+The castle turrets are constructed to resemble the petals of a rose, but it
+has been twisted and corrupted, blackened by fire, and cursed with the
+presence of an almost palpable evil.  {X 
+~
+0 8192 0
+D0
+~
+~
+1 0 503
+D2
+~
+~
+0 0 501
+S
+#503
+{DCastle Entryway{X~
+{DYou stand in the darkened entryway to Nedregard Keep, home to Lord
+Soth, Death Knight.  The walls around you are blackened by time and the
+ravages of some forgotten ancient fire.  Evil permeates this place...  Maybe
+you should just leave while you still can?  {X 
+~
+0 8196 0
+D0
+~
+~
+1 500 528
+D1
+~
+~
+0 0 504
+D2
+~
+~
+1 0 502
+D3
+~
+~
+0 0 516
+S
+#504
+{bDarkened Corridor{X~
+{bYou stand in a terribly dark hallway....  You can't see a thing!  Just
+hope ther isn't something in here with you.  {X 
+~
+0 8193 0
+D1
+~
+~
+0 0 505
+D3
+~
+~
+0 0 503
+S
+#505
+{bDarkened Corridor{X~
+{bThere doesn't seem to be an end to the darkness of this place.  Ahead
+is a small point of light to guide you to ....  What?  {X 
+~
+0 8193 0
+D1
+~
+~
+0 0 506
+D3
+~
+~
+0 0 504
+S
+#506
+{bDarkened Corridor{X~
+{bThere doesn't seem to be an end to the darkness of this place.  Ahead
+is a small point of light to guide you to ....  What?  {X 
+~
+0 8193 0
+D0
+~
+~
+0 0 508
+D2
+~
+~
+0 0 507
+D3
+~
+~
+0 0 505
+S
+#507
+{DGuard Barracks{X~
+{DYou have entered what appears to be an old barraks...  Nothing stirs
+the dust in this room except the passing of you own footsteps.  An old bed
+sits in the corner of this room and remnants of several others are scattered
+about decaying without a sound.  {X 
+~
+0 8192 0
+D0
+~
+~
+0 0 506
+S
+#508
+{DEastern-most hallway{X~
+{DYou have entered the easternmost hallway of the castle, ghostly
+footprints crisscross the floor.  Some look almost human.  {X 
+~
+0 8192 0
+D0
+~
+~
+0 0 509
+D2
+~
+~
+0 0 506
+S
+#509
+{DEastern-most hallway{X~
+{DThe hallway continues north along the eastern wall, a door opens to
+the west.  {X 
+~
+0 8192 0
+D0
+~
+~
+0 0 513
+D2
+~
+~
+0 0 508
+D3
+~
+~
+0 0 510
+S
+#510
+{cPrison Cell{X~
+{cYou are in what appears to have been a prison cell, except that the
+bars are rusted through and the door of the cell has long since fallen from
+it's hinges.  {X 
+~
+0 8192 0
+D1
+~
+~
+0 0 509
+D2
+~
+~
+0 0 511
+S
+#511
+{cShrine of Paladine{X~
+{cIt appears that someone has built a small shrine here.  A small statue
+of a be-fuddled old mage and a platinum dragon surrounded by heroes. 
+Someone from Krynn must have been held prisoner here.  {X 
+~
+0 0 0
+D0
+~
+~
+0 0 510
+D3
+~
+~
+0 0 512
+S
+#512
+{CRoom of Meditation{X~
+{CSomeone is actually alive in this dismal place!  How could anyone
+survive in here except by the grace of their God.  Ask for forgiveness from
+your sins and maybe you will be restored to your past glory.  {X 
+~
+0 1024 0
+D1
+~
+~
+0 0 511
+S
+#513
+{DEastern-most Hallway{X~
+{DTo the north, the hallway ends in a small room with a small, plain
+wooden door.  {X 
+~
+0 0 0
+D0
+~
+~
+1 0 514
+D2
+~
+~
+0 0 509
+S
+#514
+{rTorture Chamber{X~
+{rAll around you are gruesome machines covered in blood and gore. 
+Farther into the room are piles of bones and dismembered limbs...  Some very
+fresh!  Maybe you should push on before you find out what really goes on in
+here.  {X 
+~
+0 0 0
+D0
+~
+~
+0 0 515
+D2
+~
+~
+1 0 513
+S
+#515
+{rTorture Chamber{X~
+{rAll around you are gruesome machines covered with blood and gore. 
+Farther into the room are piles of bones and dismembered limbs...  Some very
+fresh!  Maybe you should push on before you find out what really goes on in
+here.  {X 
+~
+0 0 0
+D2
+~
+~
+0 0 514
+S
+#516
+{bDarkened Hallway{X~
+{bYou stand in a terribly dark hallway...  You can't see a thing!  Just
+hope there isn't something in here with you.  {X 
+~
+0 8193 0
+D1
+~
+~
+0 0 503
+D3
+~
+~
+0 0 517
+S
+#517
+{bDarkened hallway{X~
+{bYou stand in a darkened hallway...  You can't see a thing!  Just hope
+there isn't something in here with you.  {X 
+~
+0 8193 0
+D1
+~
+~
+0 0 516
+D3
+~
+~
+0 0 518
+S
+#518
+{bDarkened Hallway{X~
+{bYou stand in a darkened hallway...  You can't see a thing!  Just hope
+there isn't something in here with you.  {X 
+~
+0 8193 0
+D0
+~
+~
+0 0 520
+D1
+~
+~
+0 0 517
+D2
+~
+~
+0 0 519
+S
+#519
+{DGuard Barracks{x~
+{DAnother old guard barracks.  This one is in worse condition than the
+other room.  A small broken footlocker sits a the foot of what used to be a
+bed.  {X 
+~
+0 8192 0
+D0
+~
+~
+0 0 518
+S
+#520
+{DWestern Hallway{X~
+{DYou are now in the western hallway.  Strange sounds echo from somewhere
+to the north.  You can't quite tell where the sounds are coming from.  {X 
+~
+0 8192 0
+D0
+~
+~
+0 0 521
+D2
+~
+~
+0 0 518
+S
+#521
+{DWestern Hallway{X~
+{DThe hallway continues north along the western wall of the castle. 
+Those eerie sounds are still bouncing around these halls.  {X 
+~
+0 8192 0
+D0
+~
+~
+0 0 525
+D2
+~
+~
+0 0 520
+S
+#525
+{DWestern Hallway{X~
+{DThe hallway ends like the eastern hallway, at a small, wooden door.  No
+sounds come from beyond this door.  {X 
+~
+0 8192 0
+D0
+~
+~
+1 0 526
+D2
+~
+~
+0 0 521
+S
+#526
+{RServants Quarters{X~
+{cAn empty bedroom, at least it appears to be.  There are dust free
+places on the floor...  It looks as if something has been moved recently. 
+{X 
+~
+0 0 0
+D0
+~
+~
+0 0 527
+D2
+~
+~
+1 0 525
+S
+#527
+{cSecond Floor Stairwell{X~
+{cAn od rickety set of stairs angles up to the balcony and royal
+apartments.  {X 
+~
+0 0 0
+D2
+~
+~
+0 0 526
+D4
+~
+~
+0 0 533
+S
+#528
+{cAudience Chambers{X~
+{cLong ago this large room was used to greet visitors to Dargaard Keep. 
+Now, in this twisted version of Soth's world, only the rats visit this room.
+{X 
+~
+0 0 0
+D0
+~
+~
+0 0 529
+D2
+~
+~
+1 0 503
+S
+#529
+{cAudience Chambers{X~
+{cAs you walk through this room, you see what majesty it once embodied,
+the twisted angles do little to hide it's once pristine nature.  {X 
+~
+0 0 0
+D0
+~
+~
+0 0 530
+D2
+~
+~
+0 0 528
+S
+#530
+{cAudience Chamber{X~
+{cAhead, you see a large wooden door engraved, or more likely, branded
+with a large black rose...  That must be the throne room of Soth himself! 
+{X 
+~
+0 0 0
+D0
+~
+~
+0 0 531
+D2
+~
+~
+0 0 529
+S
+#531
+{cAnte-chamber{X~
+{cThe waiting room...  You can hear singing clearly now.  The banshee's
+of Lord Soth, singing the eerie song that haunts his eternal unrest.  {x 
+~
+0 0 0
+D0
+~
+~
+1 501 532
+D2
+~
+~
+0 0 530
+S
+#532
+{YThrone Room{X~
+{yYou stand in the throne room of Lord Soth, Knight of the Black Rose. 
+Along the far wall sits the only thing in this room...  The throne.  Worn
+from centuries of use and blackened from age and fire, it doesn't look like
+it could withstand a gentle summer breeze.  {X 
+~
+0 0 0
+D2
+~
+~
+1 0 531
+D5
+~
+~
+1 0 581
+S
+#533
+{cSecond Floor Hallway{x~
+{cYou are in the second floor hallway.  The walls appear to be the walls
+of a cave; or a mine shaft.  Why would these walls look like this?  What
+secrets are hidden among these passages?  {X {cYou may go south along the
+western wall or east along the northern wall.  {X 
+~
+0 0 0
+D1
+~
+~
+0 0 551
+D2
+~
+~
+0 0 534
+D5
+~
+~
+0 0 527
+S
+#534
+{cWestern Hallway{x~
+{cThe hallway continues south to what looks like a guard station.  You
+can see someone moving about down there....  Maybe it's not such a good idea
+to wander these halls after all.  {x 
+~
+0 0 0
+D0
+~
+~
+0 0 533
+D2
+~
+~
+0 0 535
+S
+#535
+{cWestern Hallway{x~
+{cAs you get closer to the end of the hall, you get the feeling that you
+are being watched.  You can still see someone in the room at the end of the
+hall.  {X 
+~
+0 0 0
+D0
+~
+~
+0 0 534
+D2
+~
+~
+0 0 536
+S
+#536
+{cWestern Hallway{x~
+{cYou are now half-way to the end of the hall.  If you keep going, you
+will find out what lies ahead.  Do you really want to?  Maybe not.  You hear
+footsteps to the south, as if someone were pacing restlessly.  {X 
+~
+0 0 0
+D0
+~
+~
+0 0 535
+D2
+~
+~
+0 0 537
+S
+#537
+{cWestern Hallway{X~
+{cYou are closer still to the end of the hall.  A light at the end of the
+hall almost looks like sunlight.  It couldn't be sunlight, this gloomy realm
+couldn't support something so bright.  {x 
+~
+0 0 0
+D0
+~
+~
+0 0 536
+D2
+~
+~
+0 0 538
+S
+#538
+{cWestern Hallway{x~
+{cThis is it.  The end of the hallway...  Do you dare go on?  {x 
+~
+0 0 0
+D0
+~
+~
+0 0 537
+D1
+~
+~
+0 0 545
+D3
+~
+~
+0 0 539
+S
+#539
+{cGuards Walk{x~
+{cYou stand on the guards walk, the battlements from which the keep is
+defended from attack.  You look down upon the courtyard and surrounding
+area, but you see nothing alive except for that eerie fog that brought you
+here.  {x 
+~
+0 0 5
+D0
+~
+~
+0 0 540
+D1
+~
+~
+0 0 538
+S
+#540
+{cGuards Walk{x~
+{cYou stand on the guards walk, the battlements from which the keep is
+defended from attack.  You look down upon the courtyard and surrounding
+area, but you see nothing alive except for that eerie fog that brought you
+here.  {x 
+~
+0 0 5
+D0
+~
+~
+0 0 541
+D2
+~
+~
+0 0 539
+S
+#541
+{cGuards Walk{x~
+{cYou stand on the guards walk, the battlements from which the keep is
+defended from attack.  You look down upon the courtyard and surrounding
+area, but you see nothing alive except for that eerie fog that brought you
+here.  {x 
+~
+0 0 5
+D0
+~
+~
+0 0 542
+D2
+~
+~
+0 0 540
+S
+#542
+{cGuards Walk{X~
+{cYou stand on the guards walk, the battlements from which the keep is
+defended from attack.  You look down upon the courtyard and surrounding
+area, but you see nothing alive except for that eerie fog that brought you
+here.  {x 
+~
+0 0 5
+D0
+~
+~
+0 0 543
+D2
+~
+~
+0 0 541
+S
+#543
+{cGuards Walk{x~
+{cYou stand on the guards walk, the battlements from which the keep is
+defended from attack.  You look down upon the courtyard and surrounding
+area, but you see nothing alive except for that eerie fog that brought you
+here.  {x 
+~
+0 0 5
+D0
+~
+~
+0 0 544
+D2
+~
+~
+0 0 542
+S
+#544
+{cGuards Walk{x~
+{cYou stand on the guards walk, the battlements from which the keep is
+defended from attack.  You look down upon the courtyard and surrounding
+area, but you see nothing alive except for that eerie fog that brought you
+here.  {x 
+~
+0 0 5
+D2
+~
+~
+0 0 543
+S
+#545
+{cMining Supply Room{x~
+{cThis room is as out of place here as the hallway.  It looks as if it
+may have been a supply depot for a mining operation.  {x 
+~
+0 0 0
+D0
+~
+~
+1 0 546
+D3
+~
+~
+0 0 538
+S
+#546
+{CBalcony{x~
+{cYou are on a {Cbalcony{x {coverlooking the audience hall.  From this
+vantage point you can just make out a large door at the north end of the
+hall.  {X 
+~
+0 0 0
+E
+balcony~
+{CYou look out over the balcony to see the audience chamber below you. 
+Toward the north end of the chamber, you see a large ornate wooden door.  {x
+~
+D0
+~
+~
+0 0 547
+D2
+~
+~
+1 0 545
+S
+#547
+{CBalcony{X~
+{cYou are on a {Cbalcony{x {coverlooking the audience hall.  From this
+vantage point you can just make out a large door at the north end of the
+hall.  {X 
+~
+0 0 0
+E
+balcony~
+{CYou look out over the balcony to see the audience chamber below you. 
+Toward the north end of the chamber, you see a large ornate wooden door.  {x
+~
+D0
+~
+~
+0 0 548
+D2
+~
+~
+0 0 546
+S
+#548
+{CBalcony{x~
+{cYou are on a {Cbalcony{x {coverlooking the audience hall From this
+vantage point you can just make out a large door at the north end of the
+hall.  {X 
+~
+0 0 0
+E
+balcony~
+{CYou look out over the balcony to see the audience chamber below you. 
+Toward the north end of the chamber, you see a large ornate wooden door.  {x
+~
+D0
+~
+~
+0 0 549
+D2
+~
+~
+0 0 547
+S
+#549
+{CBalcony{x~
+{cYou are on a {Cbalcony{x {coverlooking the audience hall From this
+vantage point you can just make out a large door at the north end of the
+hall.  {X 
+~
+0 0 0
+E
+balcony~
+{CYou look out over the balcony to see the audience chamber below you. 
+Toward the north end of the chamber, you see a large ornate wooden door.  {x
+~
+D0
+~
+~
+1 0 550
+D2
+~
+~
+0 0 548
+S
+#550
+{CTreasury{X~
+{CThe Treasury!  What riches could be in this room?  Only one way to find
+out...  {X 
+~
+0 4 0
+D2
+~
+~
+1 0 549
+S
+#551
+{cNorthern hallway{X~
+{cThis hallway stands apart from the rest of the castle, as it is
+untouched by the ravages of time or flame.  Ornate and glowing, the beauty
+of this hallway makes you even more aware that you are in an evil place.  {X
+~
+0 0 0
+D1
+~
+~
+0 0 552
+D3
+~
+~
+0 0 533
+S
+#552
+{cNorthern Hallway{x~
+{cThis hallway stands apart from the rest of the castle, as it is
+untouched by the ravages of time or flame.  Ornate and glowing, the beauty
+of this hallway makes you even more aware that you are in an evil place.  {x
+~
+0 0 0
+D1
+~
+~
+0 0 555
+D2
+~
+~
+0 0 553
+D3
+~
+~
+0 0 551
+S
+#553
+{rWar Room{X~
+{rYou are in the war room of Soth.  Maps and notes from many batles are
+scattered about the room.  Most are decayed beyond legibility, but a few are
+still readable.  Nothing here that needs concern you, move along.  {X 
+~
+0 1 0
+D0
+~
+~
+0 0 552
+D1
+~
+~
+0 0 554
+S
+#554
+{cSoth's Bedchambers{X~
+{cThis once lush and luxurious bedroom now reeks of mold and decay.  The
+bedhasn't been used in years and has deteriorated beyond repair.  Above the
+bed, on the wall, is the shield of a Solamnic Knight, emblazoned with the
+crest of the order of the Rose.  But this rose is now blackened by fire and
+time.  {X 
+~
+0 0 0
+D3
+~
+~
+0 0 553
+S
+#555
+{cNorthern Hallway{X~
+{cThis hallway stands apart from the rest of the castle, as it is
+untouched by the ravages of time or flame.  Ornate and glowing, the beauty
+of this hallway makes you even more aware that you are in an evil place.  {x
+~
+0 0 0
+D1
+~
+~
+0 0 556
+D3
+~
+~
+0 0 552
+S
+#556
+{cNorthern Hallway{X~
+{cThis part of the hallway looks different from the rest of the hall. 
+The south wall looks oddly out of place and has a slight discoloration,
+barely noticeable to the naked eye.  {x 
+~
+0 0 0
+D1
+~
+~
+0 0 558
+D2
+~
+~
+1 502 557
+D3
+~
+~
+0 0 555
+S
+#557
+{cSecret Room{x~
+{cWhats this?  A secret room?  Wait...  There are holes in the wall, set
+eye-width apart.  Maybe you should take a look.  {x 
+~
+0 0 0
+E
+holes~
+{cYou can see the throne room through these holes...  And there appears
+to be someone in there!  {X 
+~
+D0
+~
+~
+1 0 556
+S
+#558
+{cNorthern Hallway{x~
+{cThe hallway continues to the east.  You can hear the sounds of an
+infant crying somewhere in the distance.  {X 
+~
+0 0 0
+D1
+~
+~
+0 0 559
+D3
+~
+~
+0 0 556
+S
+#559
+{cNorthern Hallway{x~
+{cThe hallway continues to the east, and to the south you hear the sound
+of an infant crying...  What could it mean?  {X 
+~
+0 0 0
+D1
+~
+~
+0 0 562
+D2
+~
+~
+0 0 560
+D3
+~
+~
+0 0 558
+S
+#560
+{CNursery{x~
+{CYou stand in what looks like an infants nursery...  Sadness and despair
+are overwhelming in this room.  A broken crib lies in the corner, and
+dicarded clothing lies all over the room.  {X 
+~
+0 0 0
+D0
+~
+~
+0 0 559
+D3
+~
+~
+0 0 561
+S
+#561
+{CNursery{x~
+{CYou stand in what looks like an infants nursery...  Sadness and despair
+are overwhelming in this room A broken crib lies in the corner, and dicarded
+clothing lies all over the room.  {X 
+~
+0 0 0
+D1
+~
+~
+0 0 560
+S
+#562
+{cNorthern Hallway{x~
+{cYou are at the end of the northern hallway.  To the south is the
+eastern balcony and the guards walk.  {x 
+~
+0 0 0
+D2
+~
+~
+0 0 563
+D3
+~
+~
+0 0 559
+S
+#563
+{cEastern Hall{x~
+{cYou are now in the eastern hallway.  The smooth pristine walls to the
+north have changed and twisted into a nightmarish version of the castles
+original halls.  {x 
+~
+0 0 0
+D0
+~
+~
+0 0 562
+D1
+~
+~
+0 0 564
+D2
+~
+~
+0 0 570
+S
+#564
+{cGuards Walk{x~
+{cYou are on the eastern battlements known as the guards walk.  From here
+the castle was protected and defended from invasion.  {x 
+~
+0 0 2
+D2
+~
+~
+0 0 565
+D3
+~
+~
+0 0 563
+S
+#565
+{cGuards Walk{x~
+{cYou are on the eastern battlements known as the guards walk.  From here
+the castle was protected and defended from invasion.  {x 
+~
+0 0 2
+D0
+~
+~
+0 0 564
+D2
+~
+~
+0 0 566
+S
+#566
+{cGuards Walk{x~
+{cYou are on the eastern battlements known as the guards walk.  From here
+the castle was protected and defended from invasion.  {x 
+~
+0 0 2
+D0
+~
+~
+0 0 565
+D2
+~
+~
+0 0 567
+S
+#567
+{cGuards Walk{x~
+{cYou are on the eastern battlements known as the guards walk.  From here
+the castle was protected and defended from invasion.  {x 
+~
+0 0 2
+D0
+~
+~
+0 0 566
+D2
+~
+~
+0 0 568
+S
+#568
+{cGuards Walk{x~
+{cYou are on the eastern battlements known as the guards walk.  From here
+the castle was protected and defended from invasion.  {x 
+~
+0 0 2
+D0
+~
+~
+0 0 567
+D2
+~
+~
+0 0 569
+S
+#569
+{cWeapons Locker{x~
+{cYou are in the old armory of the castle.  In the corner of the room is
+an old locker....  Maybe some weapons or armor were left in it that you can
+use. 
+{x
+~
+0 0 0
+D0
+~
+~
+0 0 568
+S
+#570
+{cEastern Hall{x~
+{cYou are now in the eastern hallway.  The smooth pristine walls to the
+north have changed and twisted into a nightmarish version of the castles
+original halls.  {x 
+~
+0 0 0
+D0
+~
+~
+0 0 563
+D2
+~
+~
+0 0 571
+S
+#571
+{cEastern Hall{x~
+{cYou are now in the eastern hallway.  The smooth pristine walls to the
+north have changed and twisted into a nightmarish version of the castles
+original halls.  {x 
+~
+0 0 0
+D0
+~
+~
+0 0 570
+D2
+~
+~
+0 0 572
+S
+#572
+{cEastern Hall{x~
+{cYou are now in the eastern hallway.  The smooth pristine walls to the
+north have changed and twisted into a nightmarish version of the castles
+original halls.  {x 
+~
+0 0 0
+D0
+~
+~
+0 0 571
+D2
+~
+~
+0 0 573
+S
+#573
+{cEastern Hall{x~
+{cYou are now in the eastern hallway.  The smooth pristine walls to the
+north have changed and twisted into a nightmarish version of the castles
+original halls.  {x 
+~
+0 0 0
+D0
+~
+~
+0 0 572
+D2
+~
+~
+1 0 574
+S
+#574
+{cElite Guard Barracks{x~
+{cYou stand in the sleeping quarters of Soth's personal guard.  Cots line
+the walls on both sides of the room and trunks sit at the foot of each bed. 
+Thirteen beds and thirteen trunks...  An odd number for personal guards.  {x
+~
+0 0 0
+D0
+~
+~
+1 0 573
+D3
+~
+~
+0 0 575
+S
+#575
+{cElite Guard Barracks{x~
+{cYou stand in the sleeping quarters of Soth's personal guard.  Cots line
+the walls on both sides of the room and trunks sit at the foot of each bed. 
+Thirteen beds and thirteen trunks...  An odd number for personal guards.  {x
+~
+0 0 0
+D0
+~
+~
+1 0 576
+D1
+~
+~
+0 0 574
+S
+#576
+{cBalcony{x~
+{cYou are on a {Cbalcony{x {coverlooking the audience hall.  From this
+vantage point you can just make out a large door at the north end of the
+hall.  {x 
+~
+0 0 0
+E
+balcony~
+{CYou look out over the balcony to see the audience chamber below you. 
+Toward the north end of the chamber, you see a large ornate wooden door.  {x
+~
+D0
+~
+~
+0 0 577
+D2
+~
+~
+1 0 575
+S
+#577
+{cBalcony{x~
+{cYou are on a {Cbalcony{x {coverlooking the audience hall.  From this
+vantage point you can just make out a large door at the north end of the
+hall.  {x 
+~
+0 0 0
+E
+balcony~
+{CYou look out over the balcony to see the audience chamber below you. 
+Toward the north end of the chamber, you see a large ornate wooden door.  {x
+~
+D0
+~
+~
+0 0 578
+D2
+~
+~
+0 0 576
+S
+#578
+{cBalcony{x~
+{cYou are on a {Cbalcony{x {coverlooking the audience hall.  From this
+vantage point you can just make out a large door at the north end of the
+hall.  {x 
+~
+0 0 0
+E
+balcony~
+{CYou look out over the balcony to see the audience chamber below you. 
+Toward the north end of the chamber, you see a large ornate wooden door.  {x
+~
+D0
+~
+~
+0 0 579
+D2
+~
+~
+0 0 577
+S
+#579
+{cBalcony{x~
+{cYou are on a {Cbalcony{x {coverlooking the audience hall.  From this
+vantage point you can just make out a large door at the north end of the
+hall.  {x 
+~
+0 0 0
+E
+balcony~
+{CYou look out over the balcony to see the audience chamber below you. 
+Toward the north end of the chamber, you see a large ornate wooden door.  {x
+~
+D0
+~
+~
+0 0 580
+D2
+~
+~
+0 0 578
+S
+#580
+{cBalcony{x~
+{cYou are on a {Cbalcony{x {coverlooking the audience hall.  From this
+vantage point you can just make out a large door at the north end of the
+hall.  {x 
+~
+0 0 0
+E
+balcony~
+{CYou look out over the balcony to see the audience chamber below you. 
+Toward the north end of the chamber, you see a large ornate wooden door.  {x
+~
+D2
+~
+~
+0 0 579
+S
+#581
+{cHidden Stairwell{X~
+{cYou have entered what appears to be the dungeon.  Distant screams of
+undead slaves and tortured victims echo through the halls.  {x 
+~
+0 4 0
+D0
+~
+~
+0 0 582
+D4
+~
+~
+1 0 532
+S
+#582
+{rDungeon Entrance{x~
+{rYou stand before a large rusted iron door.  The screams you heard
+earlier are getting louder to the east.  West of you is another door,
+smaller and less used than the larger door to the east.  {rAs you reach for
+the larger door to open it, you realize that it wasn't rust you saw before
+but {Rdried blood.  {x 
+~
+0 0 0
+D1
+~
+~
+1 0 583
+D2
+~
+~
+0 0 581
+D3
+~
+~
+1 0 586
+S
+#583
+{rTorture Chamber{x~
+{RYou are in the torture room reserved for "special" guests of Soth.  {x
+{RBlood stains every inch of this room, not an inch of space is clear of the
+life-giving fluid.  There must have been some terrible things going on in
+this room.  {X 
+~
+0 8192 0
+D1
+~
+~
+0 0 584
+D3
+~
+~
+1 0 582
+S
+#584
+{rTorture Chamber{x~
+{RYou are in the torture room reserved for "special" guests of Soth. 
+{RBlood stains every inch of this room, not an inch of space is clear of the
+life-giving fluid.  There must have been some terrible things going on in
+this room.  {X 
+~
+0 8192 0
+D2
+~
+~
+0 0 585
+D3
+~
+~
+0 0 583
+S
+#585
+{rTorture Chamber{x~
+{RYou are in the torture room reserved for "special" guests of Soth. 
+{RBlood stains every inch of this room, not an inch of space is clear of the
+life-giving fluid.  There must have been some terrible things going on in
+this room.  {X 
+~
+0 8192 0
+D0
+~
+~
+0 0 584
+D2
+~
+~
+0 0 597
+S
+#586
+{cPrison Cell{X~
+{cYou stand in one of the many prison cells in the dungeon.  Shadows move
+around the room and blood stains the floors, a grim testament to the horror
+inflicted on the inhabitants of these cells.  {X 
+~
+0 0 0
+D1
+~
+~
+1 0 582
+D3
+~
+~
+0 0 587
+S
+#587
+{cPrison Cell{x~
+{cYou stand in one of the many prison cells in the dungeon.  Shadows move
+around the room and blood stains the floors, a grim testament to the horror
+inflicted on the inhabitants of these cells.  {X 
+~
+0 0 0
+D1
+~
+~
+0 0 586
+D2
+~
+~
+0 0 588
+S
+#588
+{cPrison Cell{x~
+{cYou stand in one of the many prison cells in the dungeon.  Shadows move
+around the room and blood stains the floors, a grim testament to the horror
+inflicted on the inhabitants of these cells.  {X 
+~
+0 0 0
+D0
+~
+~
+0 0 587
+D2
+~
+~
+0 0 589
+S
+#589
+{cPrison Cell{X~
+{cYou stand in one of the many prison cells in the dungeon.  Shadows move
+around the room and blood stains the floors, a grim testament to the horror
+inflicted on the inhabitants of these cells.  {X 
+~
+0 0 0
+D0
+~
+~
+0 0 588
+D2
+~
+~
+0 0 590
+S
+#590
+{cPrison Cell{x~
+{cYou stand in one of the many prison cells in the dungeon.  Shadows move
+around the room and blood stains the floors, a grim testament to the horror
+inflicted on the inhabitants of these cells.  {X 
+~
+0 0 0
+D0
+~
+~
+0 0 589
+D2
+~
+~
+0 0 591
+S
+#591
+{cPrison Cell{x~
+{cYou stand in one of the many prison cells in the dungeon.  Shadows move
+around the room and blood stains the floors, a grim testament to the horror
+inflicted on the inhabitants of these cells.  {X 
+~
+0 0 0
+D0
+~
+~
+0 0 590
+D1
+~
+~
+0 0 592
+S
+#592
+{cPrison Cell{x~
+{cYou stand in one of the many prison cells in the dungeon.  Shadows move
+around the room and blood stains the floors, a grim testament to the horror
+inflicted on the inhabitants of these cells.  {X 
+~
+0 0 0
+D1
+~
+~
+0 0 593
+D3
+~
+~
+0 0 591
+S
+#593
+{cPrison Cell{x~
+{cYou stand in one of the many prison cells in the dungeon.  Shadows move
+around the room and blood stains the floors, a grim testament to the horror
+inflicted on the inhabitants of these cells.  {X 
+~
+0 0 0
+D0
+~
+~
+1 0 594
+D3
+~
+~
+0 0 592
+S
+#594
+{rRoom of Decay{x~
+{rYou stand knee deep in the decaying bodys of long dead prisoners.  The
+smell of death and decay are so strong that you choke and gag.  Try as you
+may, you can't bring yourself to look closely at the bodies scattered here. 
+{x 
+~
+0 8192 0
+D1
+~
+~
+0 0 595
+D2
+~
+~
+1 0 593
+S
+#595
+{rRoom of Decay{x~
+{rYou stand knee deep in the decaying bodys of long dead prisoners.  The
+smell of death and decay are so strong that you choke and gag.  Try as you
+may, you can't bring yourself to look closely at the bodies scattered here. 
+{x 
+~
+0 8192 0
+D1
+~
+~
+0 0 596
+D3
+~
+~
+0 0 594
+S
+#596
+{rRoom of Decay{x~
+{rYou stand knee deep in the decaying bodys of long dead prisoners.  The
+smell of death and decay are so strong that you choke and gag.  Try as you
+may, you can't bring yourself to look closely at the bodies scattered here. 
+{x 
+~
+0 8192 0
+D0
+~
+~
+0 0 597
+D3
+~
+~
+0 0 595
+S
+#597
+{CRoom of Last Chances{x~
+{CHere in this room you feel, finally, at peace.  You may rest here and
+continue your journey, although, THAT may mean your death...  This is your
+last chance to leave in peace.  {x 
+~
+0 4 0
+D0
+~
+~
+0 0 585
+D2
+~
+~
+0 0 596
+D3
+~
+~
+0 0 598
+S
+#598
+{mDeath{x~
+{mThis is it...  Your day of reckoning...  Time to die...  {x 
+~
+0 8192 0
+D3
+~
+~
+0 0 599
+S
+#599
+{cThe Pit{x~
+{cYou are now in the room reserved for VERY special guests of Lord
+Soth...  I think you qualify.  {x 
+~
+0 8196 0
+D4
+~
+~
+1 0 3001
+S
+#0
+
+
+
+#SPECIALS
+M 503 spec_apocalypse
+M 504 spec_apocalypse
+M 507 spec_apocalypse
+M 509 spec_apocalypse
+M 510 spec_guard
+M 512 spec_apocalypse
+M 513 spec_apocalypse
+M 514 spec_apocalypse
+M 597 spec_apocalypse
+S
+
+
+
+#RESETS
+D 0 502 0 1
+D 0 503 0 2
+D 0 503 2 1
+D 0 513 0 1
+D 0 514 2 1
+D 0 525 0 1
+D 0 526 2 1
+D 0 528 2 2
+D 0 531 0 2
+D 0 532 2 2
+D 0 532 5 1
+D 0 545 0 1
+D 0 546 2 1
+D 0 549 0 1
+D 0 550 2 1
+D 0 556 2 2
+D 0 557 0 2
+D 0 573 2 1
+D 0 574 0 1
+D 0 575 0 1
+D 0 576 2 1
+D 0 581 4 1
+D 0 582 1 1
+D 0 582 3 1
+D 0 583 3 1
+D 0 586 1 1
+D 0 593 0 1
+D 0 594 2 1
+D 0 599 4 1
+M 0 500 2 504 2
+M 0 500 2 504 2
+M 0 500 2 505 1
+M 0 500 2 505 1
+M 0 500 12 505 2
+M 0 500 2 506 2
+M 0 500 12 506 2
+E 0 513 0 6
+M 0 505 27 508 2
+M 0 505 27 508 2
+E 0 513 0 6
+E 0 513 0 6
+M 0 505 27 509 2
+M 0 505 27 509 2
+M 0 502 1 512 1
+M 0 505 27 513 2
+M 0 505 27 513 2
+E 0 513 0 6
+E 0 513 0 6
+M 0 500 12 516 2
+G 0 500 0
+E 0 513 0 6
+M 0 500 1 517 1
+M 0 500 12 517 2
+E 0 512 0 16
+M 0 500 12 518 2
+E 0 512 0 16
+M 0 505 27 520 2
+M 0 505 27 520 2
+M 0 505 27 521 2
+M 0 505 27 521 2
+M 0 505 27 521 1
+M 0 505 27 521 1
+M 0 505 27 525 1
+M 0 505 27 525 1
+E 0 511 0 12
+M 0 599 1 528 4
+M 0 501 13 528 1
+M 0 599 1 529 4
+M 0 501 13 529 1
+M 0 599 1 530 4
+M 0 501 13 530 1
+M 0 599 1 531 4
+M 0 501 13 531 1
+G 0 501 0
+M 0 598 1 532 1
+M 0 501 13 532 1
+M 0 505 27 533 2
+M 0 510 1 533 1
+E 0 514 0 21
+M 0 511 1 533 1
+M 0 504 1 539 1
+M 0 504 1 541 1
+M 0 504 1 542 1
+M 0 504 1 543 1
+M 0 504 1 544 1
+M 0 504 1 544 1
+M 0 505 27 551 2
+M 0 505 27 551 2
+M 0 505 27 552 2
+M 0 505 27 552 2
+G 0 502 0
+M 0 505 27 555 2
+M 0 505 27 555 2
+M 0 505 27 556 2
+M 0 505 27 556 2
+M 0 514 1 557 1
+E 0 510 0 18
+M 0 505 27 558 2
+M 0 505 27 558 2
+M 0 512 1 561 1
+E 0 509 0 3
+M 0 504 1 564 1
+M 0 504 1 564 1
+M 0 504 1 565 1
+M 0 504 1 565 1
+M 0 504 1 567 1
+M 0 504 1 568 1
+M 0 504 1 568 1
+M 0 508 1 569 1
+E 0 515 0 10
+G 0 516 0
+G 0 517 0
+G 0 518 0
+M 0 513 1 581 1
+E 0 507 0 16
+E 0 508 0 8
+M 0 507 12 583 2
+M 0 507 12 583 2
+M 0 507 12 584 2
+M 0 507 12 584 2
+M 0 507 12 585 2
+M 0 507 12 585 2
+M 0 506 21 586 3
+M 0 506 21 586 3
+M 0 506 21 586 3
+M 0 506 21 587 3
+M 0 506 21 587 3
+M 0 506 21 587 3
+M 0 506 21 588 3
+M 0 506 21 588 3
+M 0 506 21 588 3
+M 0 506 21 589 3
+M 0 506 21 589 3
+M 0 506 21 589 3
+M 0 506 21 590 3
+M 0 506 21 590 3
+M 0 506 21 590 3
+M 0 506 21 591 3
+M 0 506 21 591 3
+M 0 506 21 591 3
+M 0 506 21 592 3
+M 0 506 21 592 3
+M 0 506 21 592 3
+M 0 507 12 594 2
+M 0 507 12 594 2
+M 0 507 12 595 2
+M 0 507 12 595 2
+M 0 507 12 596 2
+M 0 507 12 596 2
+M 0 509 1 598 1
+E 0 506 0 9
+M 0 503 1 599 1
+E 0 504 0 16
+E 0 505 0 5
+S
+
+
+
+#SHOPS
+508 0 0 0 0 9 100 100 0 23
+0
+
+
+
+#MOBPROGS
+#500
+if ispc $n
+mob echo The banshee's voices sing as one, a song as old as time, that rings in Soth's ears like a death dirge:
+mob echo "And in the climate of dreams
+mob echo When you recall her, when the world of the dream expands, wavers in light,
+mob echo when you stand at the edge of blessedness and sun,
+mob echo Then we shall make you remember,
+mob echo shall make you live again
+mob echo through the long denial of body."
+endif
+break
+~
+#501
+if ispc $n
+mob echo As you enter the throne room, the banshee's sing their final, horrible verse:
+mob echo "You passed through these unharmed, unchanging,
+mob echo but now you see them
+mob echo strung on our words of your own conceiving
+mob echo as you pass from night to awareness of night
+mob echo to know that hatred is the calm of philosophers,
+mob echo that its price is forever,
+mob echo that it draws you through meteors,
+mob echo through winter's transfixion
+mob echo through the blasted rose
+mob echo the shark's water
+mob echo through the black compression of oceans
+mob echo through rock - through magma
+mob echo to yourself - to an abscess of nothin
+mob echo that you will recognize as nothing, 
+mob echo that you will know is coming again and again
+mob echo under the same rules."
+~
+#502
+if ispc $n
+mob echo "You fool! You have but scratched the surface of my evil!"
+mob mload 597
+endif
+break
+~
+#503
+if mobhere werebadger 
+mob purge
+endif
+break
+~
+#504
+if ispc $n
+mob cast blind $n
+mob cast curse $n
+endif
+break
+~
+#0
+
+#$

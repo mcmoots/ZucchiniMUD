@@ -1,0 +1,1859 @@
+#AREADATA
+Name        Jurina's Area~
+Builders    None~
+VNUMs       800 899
+Security    5
+Credits     None~
+End
+
+
+
+#MOBILES
+#800
+Soda~
+Soda Machine~
+A large soda machine
+~
+A large Soda machine growls and seems to dare you to get your money back.
+~
+school monster~
+AGUc 0 0 0
+25 25 100d100+1000 5d4+50 1d2+0 none
+-5 -5 -5 1
+EI AB 0 C
+stand stand male 1000
+ACMV ABCDEFHJKQU large none
+#801
+student~
+a student~
+A lost student
+~
+As you look at them, this person seems to get even more stressed. Then you remember that it is just before finals and you realize that you just might be in for a fight.
+~
+human~
+AFS F -100 0
+25 1 10d50+400 1d10+100 5d5+12 none
+-5 -5 -5 1
+BEIN 0 BL N
+stand stand either 10
+AHMV ABCDEFGHIJK medium none
+#802
+professor~
+the professor~
+A professor of the school
+~
+A far away look is returned for your glances in his direction. Neither one of you seem to think there is much to be excited about.
+~
+human~
+AT 0 -800 0
+30 0 10d61+410 15d10+100 5d6+10 none
+-9 -9 -9 0
+0 0 BFG 0
+stand stand male 10
+AHMV ABCDEFGHIJK medium none
+#803
+Coach~
+Coach~
+An Athletic Director.
+~
+A large woman with a silver charm hanging around her neck looks at you like you could be turned into something special if only she could get her hands on you for a while.
+~
+human~
+ABGJKa 0 0 0
+100 0 1000d20+1000 1100d200+1000 0d0+0 none
+0 0 0 0
+0 D 0 0
+stand stand male 0
+AHMV ABCDEFGHIJK medium none
+#804
+Shop Teacher~
+Teacher~
+Shop Teacher
+~
+Muscles seemed to have formed on top of his muscles and his face looks as if some of his students used it for an anvil. Nothing but mean is the only way to discribe the way this man looks.
+~
+human~
+ABGTde 0 0 0
+100 0 10000d100+1000 0d0+0 50d20+25 none
+0 0 0 0
+0 D 0 0
+stand stand male 10000000
+AHMV ABCDEFGHIJK large none
+#805
+Phoenix Hawk~
+Phoenix~
+A firey Bird
+~
+A large bird made of fire swoops around the room singing a sweet tune.
+~
+wyvern~
+AR CDFGOT 0 0
+25 45 8d50+325 25d10+100 4d6+13 none
+-5 -5 -5 2
+CFHKL HL 0 IS
+stand stand none 100
+ABCGZ ACDEFHJKQVX medium none
+#806
+Roman Soldier~
+Soldier~
+A Roman Soldier
+~
+A large soldier seems only half awake as he watches the people wander around the area.
+~
+human~
+AFT 0 0 0
+60 0 6d12+853 10d10+100 4d6+8 none
+4 4 4 7
+U 0 0 0
+stand stand male 10
+AHMV ABCDEFGHIJK medium none
+#807
+Centurian Soldier~
+Centurian~
+Roman Centurian Soldier
+~
+A large man with several scars watch passively as the crowds mill past. 
+There is no doubt in anyone's mind that he sees everything and is ready to
+handle any aggression.  
+~
+human~
+ACT DF 0 0
+70 0 10d10+1300 25d10+100 4d7+11 none
+-5 -5 -5 2
+DKN 0 0 J
+stand stand male 90
+AHMV ABCDEFGHIJK medium none
+#808
+Master Guard~
+Master Guard~
+The Master of the House Guard
+~
+A large Roman soldier stands before you dressed in some of the fanciest
+armor you have ever seen.  Scars crisscross his face and arms in a testimony
+to his fighting abilities.  He is trying not to be seen so he can sneak up
+on his guards without them noticing.  
+~
+human~
+AFT DFQV 0 0
+95 95 25d10+3750 26d8+1300 6d6+18 none
+-52 -52 -52 -22
+AIKP 0 0 0
+stand stand male 60
+AHMV ABCDEFGHIJK medium none
+#809
+Advisor~
+Advisor~
+Advisor to the Ceasar
+~
+A sneaky underhanded look man looks like he has never taken a bath
+glances in you direction before smiling.  
+~
+human~
+AFS BP -500 0
+75 75 10d10+1500 0d0+0 3d10+12 none
+-36 -36 -36 -13
+B 0 0 0
+stand stand male 0
+AHMV ABCDEFGHIJK medium none
+#810
+Roman Warden~
+Warden~
+A Roman Warden
+~
+A large man walks past preoccupied with other matters.  He just mummbles
+about jail over crowding and cost of food for the people condemed.  
+~
+human~
+AT 0 -200 0
+80 0 15d10+1850 0d0+0 4d8+13 none
+-40 -40 -40 -15
+KT 0 0 0
+stand stand male 20
+AHMV ABCDEFGHIJK medium none
+#811
+Governor~
+governor~
+A Roman Governor
+~
+A handsome man walks past at a fast pace letting you know that he thinks you are a lowly peasant.
+~
+human~
+AQR V 100 0
+85 0 25d10+2250 85d10+2500 3d12+14 none
+-42 -42 -42 -17
+AT 0 0 0
+stand stand male 25
+AHMV ABCDEFGHIJK medium none
+#812
+General~
+General~
+A large Roman General
+~
+A large man with gold plate armor and thousands of scars glaces at you
+and then dismisses you as unworthy his attention.  
+~
+human~
+ART 0 0 0
+95 0 25d10+3750 25d20+3750 6d6+18 none
+-48 -48 -48 -20
+AP 0 0 0
+stand stand male 50
+AHMV ABCDEFGHIJK large none
+#813
+Quartermaster~
+Quartermaster~
+A Roman Quartermaster
+~
+A balding soldier mutters about cost and supply lines as he looks over
+the scroll in his hand.  He looks like a man you really don't want to
+disturb.  
+~
+human~
+AFT 0 0 0
+82 0 25d10+2000 0d0+0 4d8+14 none
+-40 -40 -40 -15
+0 0 0 0
+stand stand male 10
+AHMV ABCDEFGHIJK medium none
+#814
+House Guard~
+House Guard~
+An Elite House Guard
+~
+A stowic soldier is watching you close in case you should think of
+getting light fingers.  
+~
+human~
+AT 0 0 0
+78 0 15d10+1700 0d0+0 5d6+13 none
+-38 -38 -38 -14
+PU 0 0 0
+stand stand male 5
+AHMV ABCDEFGHIJK medium none
+#815
+Senate Guard~
+Guard~
+The Senate Guard
+~
+A heavily muscled man frowns at you when you see him, then he grins at
+the thought of killing you.  
+~
+human~
+AF 0 -10 0
+72 50 10d10+1400 0d0+0 3d10+11 none
+-18 -18 -18 -4
+K 0 0 0
+stand stand male 25
+AHMV ABCDEFGHIJK medium none
+#816
+Senator~
+Senator~
+The Senator
+~
+A slender man walks past talking softly to himself about how to get around the Emperor's Laws.
+~
+human~
+AHR 0 10 0
+74 45 10d10+1500 6d12+650 3d10+12 none
+-24 -24 -24 -7
+A 0 0 0
+stand stand male 55
+AHMV ABCDEFGHIJK medium none
+#817
+Lions~
+Lion~
+A lion
+~
+A large lion growls sending a primal fear through you.
+~
+cat~
+ACF Z 0 0
+65 65 10d10+1050 0d0+0 6d4+9 none
+0 0 0 0
+FH 0 0 0
+stand stand none 0
+AGV ACDEFHJKQUV medium none
+#818
+Gladiator~
+Gladiator~
+A Gladiator
+~
+The person standing before you has the air of someone without hope but a
+strong determination to survive.  The are covered in scars.  
+~
+human~
+ABT 0 0 0
+76 66 10d10+1600 0d0+0 5d6+12 none
+-30 -30 -30 -10
+K 0 0 0
+stand stand none 1
+AHMV ABCDEFGHIJK medium none
+#819
+practice dummies~
+{mPractice Dummy{x~
+A {mPractice Dummy{x Stands here
+~
+A very worn looking dummy stands in front of you waiting to be put to
+use...  It just growled...  
+~
+human~
+ABCOT HV -5 0
+20 0 95d30+19780 95d30+1000 1d1+1 none
+0 0 0 0
+0 0 0 0
+stand stand either 5
+AHJMV ABCDEFGHIJK medium none
+#820
+Mini dummy~
+Mini~
+A Mini-dummy stand here.
+~
+~
+human~
+A 0 -1 0
+5 0 10d100+1000 0d0+0 1d1+1 none
+0 0 0 0
+0 0 0 0
+stand stand either 150
+AHMV ABCDEFGHIJK medium none
+#821
+Killer bunny~
+Bunny~
+Furry Killer Bunny
+~
+~
+human~
+AF CGa -50 0
+99 0 50d10+4000 0d0+0 4d7+8 none
+-40 -40 -40 -15
+0 0 0 0
+stand stand none 500
+0 0 small none
+#822
+Cave Bear~
+Bear~
+A Large Cave Bear
+~
+~
+bear~
+ABFG 0 800 0
+100 0 50d10+4500 0d0+0 5d8+5 none
+0 0 0 0
+DEO 0 EI 0
+stand stand either 0
+AGV ABCDEFHJKUV medium none
+#0
+
+
+
+#OBJECTS
+#800
+Roman Sword~
+sword~
+Roman Sword~
+iron~
+weapon 0 ANO
+sword 5 5 none 0
+25 2 200 P
+#801
+Jurina's Pride~
+jurina's Ring~
+A glittering Ring lies here Trying to vanish~
+mithril~
+armor AFGT AB
+BD BD BD AC 0
+75 5 15000 P
+A
+1 4
+A
+2 4
+A
+13 100
+A
+12 1000
+A
+17 -5
+#802
+Jurina's Leggings~
+jurina's  Leggings~
+Jurina's Leggings are laying here~
+dragonscal~
+armor GT AF
+BEF BEF BEF BEF 0
+99 1 100000 P
+A
+13 1500
+A
+12 1500
+A
+1 5
+A
+2 5
+A
+4 5
+A
+3 5
+A
+5 5
+A
+18 15
+A
+19 15
+#803
+jurina's Cape~
+jurina's cape~
+Jurina's cape lies here~
+dragonscal~
+armor AB AC
+BD BD BD BD 0
+99 5 0 P
+A
+14 100
+A
+13 1500
+A
+12 1500
+A
+17 -50
+#804
+Jurina's Skin~
+jurina's Skin~
+Something belonging to Jurina Lies here.~
+dragonscal~
+armor ABFT AD
+BD BD BD BD 0
+99 5 0 P
+A
+12 1500
+A
+13 1500
+A
+14 1500
+A
+17 -5
+#805
+dagger heart~
+{R Dagger{x~
+A {R Dagger{x lies here~
+dragonscal~
+weapon 0 AN
+dagger 5 8 stab B
+19 0 3000 P
+#806
+Frost Axe~
+{c Axe{x~
+A Sharp {c Axe{x~
+dragonscal~
+weapon M AN
+axe 8 20 none ACDEHIJKLMNOPQRSTUVWXYZabcdef
+30 1 1000 P
+#807
+boots far strides~
+worn boots~
+Well worn in boots~
+dragonscal~
+armor 0 AG
+ABCD ABCD ABCD BD 0
+50 1 15000 P
+A
+13 1000
+A
+12 100
+A
+2 1
+#808
+vortex spear~
+{m Spear{x~
+A {m Sharp Spear{x lies here~
+dragonscal~
+weapon M AN
+staff 9 20 none ACDEHIJKLMNOPQRSTUVWXYZabcdef
+0 1 1200 P
+#809
+Jurina's Scroll~
+a tattered scroll~
+A tattered Scroll seems forgotten lies here.~
+cloth~
+scroll 0 AO
+99 36 502 503 0
+50 0 3000 P
+#0
+
+
+
+#ROOMS
+#800
+Faculty Longe~
+A coffee pot sits burning next to a rusted sink.
+Everything else is either worn out or broken.
+~
+0 0 0
+D0
+~
+~
+0 0 801
+D3
+~
+~
+0 0 802
+S
+#801
+Discrete Mathmatics~
+A small man is pacing in front of you muttering something under his breath about a hundred pigeons and ninety-nine pigeon holes...
+~
+0 0 0
+D1
+~
+~
+0 0 804
+D2
+~
+~
+0 0 800
+D3
+~
+~
+0 0 803
+S
+#802
+Front Office~
+As you enter the first thing that you notice is a sickly looking woman
+with a face that could make a blind man run for his life.  Next you notice
+is that almost everyone seems to look like they ate the Lunch special.  
+To the South is the First Aide Station, North and east is the University, west is the Resl World.
+~
+0 4 0
+D0
+~
+~
+0 0 803
+D1
+~
+~
+0 0 800
+D2
+~
+~
+0 0 809
+D3
+~
+~
+0 0 810
+S
+#803
+Chemistry 101~
+A thousand tubes run every which way and the man in front of the class
+seems to be speaking in some strange mystic language.  Then you see that
+everyone listening to him seem to have either fallen asleep or lost thier
+minds.  
+~
+0 0 0
+D1
+~
+~
+0 0 801
+D2
+~
+~
+0 0 802
+S
+#804
+British Lit. 201~
+The classroom looks like a place in an old Castle. Infact it looks as if it was in the dungeon.
+To the East is the Court Yard, while to the West is more of the school.
+~
+0 0 0
+D1
+~
+~
+0 0 805
+D3
+~
+~
+0 0 801
+S
+#805
+Court Yard~
+THe area stretches only for a few yards but it is almost over run with
+fawna and benches.  It seems like a nice place to rest for a spell.  West is
+the Main building, East is the Gymn, North is the Student Hall, South is the
+Metal shop.  
+~
+0 0 2
+D0
+~
+~
+0 0 807
+D1
+~
+~
+0 0 806
+D2
+~
+~
+0 0 808
+D3
+~
+~
+0 0 804
+S
+#806
+Gymn~
+The hall is large with a lot over strange devices that look to be used in various forms of torcher. The place would give a strong person nightmares except it is well lighted and some of the people seem to enjoy it here.
+~
+0 0 0
+D1
+~
+~
+0 0 868
+D3
+~
+~
+0 0 805
+S
+#807
+Student Union~
+Voices echo in the large hall where thousand of students seem to be engaged in vairous activities that seem mainly to be either talking or kissing. Rows and rows of picnic tables line the walls with a large area in the middle that 
+is filled with people trying to sell you various items from junk to desperately needed items.
+~
+0 0 0
+D2
+~
+~
+0 0 805
+S
+#808
+Metal Shop~
+The smell of liquid metal assaults you nose as you walk into the room and then the gleam off all the weapons almost blind you. You get a sick and excited feeling as the thoughts of all the adventures you will have as you compare each item to your tastes.
+~
+0 0 0
+D0
+~
+~
+0 0 805
+S
+#809
+{C First Aide Station{x~
+A room that is so warm and inviting is hard to find but this one is one
+of the best.  All you can do is smile and think how nice it is to be able to
+rest for a spell.  
+~
+0 1028 0
+D0
+~
+~
+0 0 802
+S
+#810
+Main Street~
+Only young people are milling around here so you must be near the University Complex.
+East is the Univerity Front Office, North and south Main Street continues, West is the University Blvd.
+~
+0 0 1
+D0
+~
+~
+0 0 812
+D1
+~
+door~
+0 0 802
+D2
+~
+~
+0 0 811
+D3
+~
+~
+0 0 813
+S
+#811
+Main Street~
+There is a nice breeze coming down the road and it makes you think of
+nice spring weather.  Off to the south you see the steps of the Senate
+building, while Way off in the north is the Palace.  
+~
+0 0 0
+D0
+~
+~
+0 0 810
+D2
+~
+~
+0 0 819
+S
+#812
+Main Street~
+This street runs nicely infront of the University Complex and leads
+straight to the Palace in the North and the Senate to the South.  
+~
+0 0 1
+D0
+~
+~
+0 0 821
+D2
+~
+~
+0 0 810
+D3
+~
+~
+0 0 820
+S
+#813
+University Blvd~
+A small stream of people wander around talking loud with each other. 
+There is a low level of energy that runs through the crowd.  
+.
+ 
+To the West and East University Blvd continues, to the south is a small home.
+~
+0 0 1
+D1
+~
+~
+0 0 810
+D2
+~
+~
+0 0 814
+D3
+~
+~
+0 0 815
+S
+#814
+Small Home~
+A small home in modest decor sit quietly. A small sign sits just inside the door.
+' '
+~
+0 0 0
+D0
+~
+~
+0 0 813
+S
+#815
+University Blvd~
+This road is a cobblestone and lined with small houses to the North and south.
+~
+0 0 1
+D1
+~
+~
+0 0 813
+D2
+~
+~
+0 0 816
+S
+#816
+Small Home~
+Just another home for the Roman Citizens.
+~
+0 0 0
+D0
+~
+~
+0 0 815
+S
+#819
+Steps of the Senate~
+The steps you see before you are not something to raise you up into the
+Senate but are irregular in shape and placement to keep people from
+approaching the Senate with anything but a repectful pace.  
+~
+0 0 0
+D0
+~
+~
+0 0 811
+D2
+~
+~
+0 0 837
+S
+#820
+~
+~
+0 0 1
+D1
+~
+~
+0 0 812
+S
+#821
+Main Street~
+Just to the north is a large Structure that dwarfs everything around it. 
+Stern faced statues line the walk to warn all who don't belong to turn
+around.  Perhaps disturbing the owner of this home would not be a good idea.
+' '
+To the south You can barely make out the Senate in the distance.
+~
+0 0 1
+D0
+~
+~
+0 0 822
+D1
+~
+~
+0 0 824
+D2
+~
+~
+0 0 812
+D3
+~
+~
+0 0 823
+S
+#822
+Palace of Ceasar~
+The front golden door seem to promise doom for any who enter.
+Scroll work around the door frame speak of various torchers that the unworthy would face if trespass was made.
+Everything seems to say if you don't belong then don't go in.
+{c (level recomended is 75 or higher)
+{x
+~
+0 4 0
+D0
+~
+~
+0 0 825
+D2
+~
+~
+0 0 821
+S
+#823
+~
+~
+0 0 0
+D1
+~
+~
+0 0 821
+D2
+~
+~
+0 0 822
+S
+#824
+Blood Ave~
+The stones made of the street are dark color, almost a rich black.  You
+start to take a closer look at the road and realize that the Avenue got it's
+name from all the blood that ended up coloring the stones.  Off to the east
+you see a nice hill to rest, while to the west the buildings are well kept. 
+~
+0 0 1
+D1
+~
+~
+0 0 871
+D3
+~
+~
+0 0 821
+S
+#825
+Enterance Hall~
+Rich paintings and rugs surround you as well as golden lamps lining the
+walls.  As you glance around you notice that none of the items could be
+taken without getting caught.  A strong feeling that you shouldn't linger
+too long settles on you, almost prodding you to move along.  
+~
+0 0 0
+D0
+~
+~
+0 0 828
+D1
+~
+~
+0 0 826
+D2
+~
+~
+0 0 822
+D3
+~
+~
+0 0 827
+S
+#826
+Quarters~
+The Paintings seem only slightly less expensive than those in the
+Enterance Hall, but still too large to pocket.  It is obvious that this is
+the staff Living Area.  
+~
+0 0 0
+D1
+~
+~
+0 0 829
+D2
+~
+~
+0 0 830
+D3
+~
+~
+0 0 825
+S
+#827
+~
+~
+0 0 0
+D1
+~
+~
+0 0 825
+S
+#828
+~
+~
+0 0 0
+D2
+~
+~
+0 0 825
+S
+#829
+Quarters~
+~
+0 0 0
+D0
+~
+~
+0 0 833
+D1
+~
+~
+0 0 832
+D2
+~
+~
+0 0 831
+D3
+~
+~
+0 0 826
+S
+#830
+Master of House Guard's Room~
+The room is sparce and very militaristic in the efficiancy that
+everything is accessable.  There is no way to tell anything more about the
+person who lives here which speaks a lot about his belief in rules.
+~
+0 0 0
+D0
+~
+~
+0 0 826
+S
+#831
+Advisor's Room~
+This room is gilded with various mirrors and scroll work that shows that
+this has to be a minor official's room.  The closer you the more you see
+that this is not a very nice person as there are plans on better torcher
+chamber tools everywhere 
+~
+0 0 0
+D0
+~
+~
+0 0 829
+S
+#832
+Quarters~
+~
+0 0 0
+D0
+~
+~
+0 0 835
+D1
+~
+~
+0 0 836
+D2
+~
+~
+0 0 834
+D3
+~
+~
+0 0 829
+S
+#833
+Warden's Room~
+This room as piles of scrolls laying everywhere with various names and
+list of crimes.  Besides the cot for a bed there is only the simple desk
+that holds nothing of interest.  
+~
+0 0 0
+D2
+~
+~
+0 0 829
+S
+#834
+General's room~
+This room is well furnished but nothing personal shows anywhere.  You get
+the feeling that the owner of the room might hurt you if you are found here.
+~
+0 0 0
+D0
+~
+~
+0 0 832
+S
+#835
+Governor's Room~
+This room is nicely decorated but there seems to be nothing worth the
+risk of stealing.  There are scrolls planning how to expand the city and
+some that discuss new laws.  There is a small painting of a woman sitting
+next to a painting of a small boy, other than that there is little else that
+has any personality.  
+~
+0 0 0
+D2
+~
+~
+0 0 832
+S
+#836
+Quartermasters Room~
+The walls of this room are covered in maps and diagrams of regional land
+marks.  It obviously belongs to the person that keeps Rome's Army fed and
+supplied.  
+~
+0 0 0
+D3
+~
+~
+0 0 832
+S
+#837
+Senate Entry Hall~
+The room is circular nad has several Busts of famous Senators of the
+Realm.  There is a feeling to the place that only those who are Senators
+would be allowed to live if they are found in the Senate.  
+ 
+{c (level 50 or higher suggested){x
+~
+0 4 0
+D0
+~
+~
+0 0 819
+D1
+~
+~
+0 0 839
+D2
+~
+~
+0 0 840
+D3
+~
+~
+0 0 838
+S
+#838
+Side Hall~
+~
+0 0 0
+D1
+~
+~
+0 0 837
+D3
+~
+~
+0 0 851
+S
+#839
+Side Hall~
+The hall stretches on with no doors in sight.
+~
+0 0 0
+D1
+~
+~
+0 0 850
+D3
+~
+~
+0 0 837
+S
+#840
+Main Hall~
+~
+0 0 0
+D0
+~
+~
+0 0 837
+D2
+~
+~
+0 0 841
+S
+#841
+Main Hall~
+~
+0 0 0
+D0
+~
+~
+0 0 840
+D1
+~
+~
+0 0 844
+D2
+~
+~
+0 0 842
+D3
+~
+~
+0 0 843
+S
+#842
+Main Hall~
+~
+0 0 0
+D0
+~
+~
+0 0 841
+D1
+~
+~
+0 0 846
+D2
+~
+~
+0 0 847
+D3
+~
+~
+0 0 845
+S
+#843
+Back Hall~
+~
+0 0 0
+D1
+~
+~
+0 0 841
+D2
+~
+~
+0 0 845
+D3
+~
+~
+0 0 853
+S
+#844
+Back Hall~
+~
+0 0 0
+D1
+~
+~
+0 0 848
+D2
+~
+~
+0 0 846
+D3
+~
+~
+0 0 841
+S
+#845
+Back Hall~
+~
+0 0 0
+D0
+~
+~
+0 0 843
+D1
+~
+~
+0 0 842
+S
+#846
+Back Hall~
+~
+0 0 0
+D0
+~
+~
+0 0 844
+D3
+~
+~
+0 0 842
+S
+#847
+Senate Chambers~
+Rows of benches line this room and each row is set on a tier.  There is
+enough seats for all fifty senators.  There is no doubt that anyone found
+hiding here would be exicuted on the spot.  
+~
+0 0 0
+D0
+~
+~
+0 0 842
+S
+#848
+Side Hall~
+~
+0 0 0
+D0
+~
+~
+0 0 849
+D3
+~
+~
+0 0 844
+S
+#849
+Side Hall~
+~
+0 0 0
+D0
+~
+~
+0 0 850
+D1
+~
+~
+0 0 854
+D2
+~
+~
+0 0 848
+S
+#850
+Side Hall~
+The hall is plain with nothing covering the walls or floors.
+~
+0 0 0
+D2
+~
+~
+0 0 849
+D3
+~
+~
+0 0 839
+S
+#851
+Side Hall~
+~
+0 0 0
+D1
+~
+~
+0 0 838
+D2
+~
+~
+0 0 852
+S
+#852
+Side Hall~
+~
+0 0 0
+D0
+~
+~
+0 0 851
+D2
+~
+~
+0 0 853
+S
+#853
+Back Hall~
+~
+0 0 0
+D0
+~
+~
+0 0 852
+D1
+~
+~
+0 0 843
+S
+#854
+Slaver Hall~
+This hall is dark compared to the rest of the Senate Hall
+~
+0 4 0
+D1
+~
+~
+0 0 855
+D3
+~
+~
+0 0 849
+S
+#855
+Slaver Hall~
+~
+0 0 0
+D0
+~
+~
+0 0 856
+D1
+~
+~
+0 0 858
+D2
+~
+~
+0 0 857
+D3
+~
+~
+0 0 854
+S
+#856
+Gladiator's Room~
+This is a small room with little in the way of comfort.
+~
+0 0 0
+D2
+~
+~
+0 0 855
+S
+#857
+Gladiator's room~
+This is a small room with little in the way of comfort.
+~
+0 0 0
+D0
+~
+~
+0 0 855
+S
+#858
+Slaver's Hall~
+~
+0 0 0
+D0
+~
+~
+0 0 860
+D1
+~
+~
+0 0 859
+D2
+~
+~
+0 0 861
+D3
+~
+~
+0 0 855
+S
+#859
+Entryway To the Games~
+The Dank Hallway comes to an end here and opens up.  Yet you can't see
+anything except light so there is little else you can discern without
+walking outside.  
+~
+0 4 0
+D1
+~
+~
+0 0 862
+D3
+~
+~
+0 0 858
+S
+#860
+Gladiator's room~
+This is a small room with very little in the way of comfort.
+~
+0 0 0
+D2
+~
+door~
+0 0 858
+S
+#861
+Gladiator's room~
+This is a small room with little in the way of comfort.
+~
+0 0 0
+D0
+~
+~
+0 0 858
+S
+#862
+The Games Pit~
+The pit is a large area opened up so the roman people can look down on
+the blood sport.  As it is you stand in the center of a dirt court yard.  
+~
+0 0 0
+D0
+~
+~
+0 0 863
+D1
+~
+~
+0 0 865
+D2
+~
+~
+0 0 867
+D3
+~
+~
+0 0 859
+S
+#863
+The Games Pit~
+The pit is a large area opened up so the Roman people can look down on
+the blood sport.  As it is you stand in the north west corner of the court
+yard.  
+~
+0 0 0
+D1
+~
+~
+0 0 864
+D2
+~
+~
+0 0 862
+S
+#864
+The Games Pit~
+The pit is a large area opened up so the Roman people can look down on
+the blood sport.  As it is you stand in the North east of the court yard.  
+~
+0 0 0
+D2
+~
+~
+0 0 865
+D3
+~
+~
+0 0 863
+S
+#865
+The Games Pit~
+The pit is a large area opened up so the Roman people can look down on
+the blood sport.  As it is you stand on the Westside of the court yard.  
+~
+0 0 0
+D0
+~
+~
+0 0 864
+D2
+~
+~
+0 0 866
+D3
+~
+~
+0 0 862
+S
+#866
+The Games Pit~
+The pit is a large area opened up so the Roman people can look down on
+the blood sport.  As it is you stand in the Southeast corner of the court
+yard.  
+~
+0 0 0
+D0
+~
+~
+0 0 865
+D3
+~
+~
+0 0 867
+S
+#867
+The Games Pit~
+The pit is a large area opened up so the Roman people can look down on
+the blood sport.  As it is you stand in the Southwest corner of the
+courtyard.  
+~
+0 0 0
+D0
+~
+~
+0 0 862
+D1
+~
+~
+0 0 866
+S
+#868
+Practice Room~
+This room smells of old sweat and blood stains are splattered everywhere.
+There is little padding left on the flooring and you feel this might not be
+the safest place to exercise.  
+~
+0 0 0
+D2
+~
+~
+0 0 869
+D3
+~
+~
+0 0 806
+S
+#869
+Waiting Room~
+This is a nice looking place to take a well deserved break from all you
+hard practice.  Just remember, to the north things are aggressive to
+anything under level 70 
+~
+0 4 0
+D0
+~
+~
+0 0 868
+D2
+~
+~
+0 0 870
+S
+#870
+Jr's Gymn~
+This room seems safe but the pictures of small furry animals seem to mock
+you.  
+~
+0 0 0
+D0
+~
+~
+0 0 869
+S
+#871
+Roman Fields~
+You stand on the outskirts of the city. As far as the eye can see is nothing but open fields, which seems kind of scary in an odd way
+{c(Suggested level 90 or better){x
+~
+0 4 1
+D1
+~
+~
+0 0 872
+D3
+~
+~
+0 0 824
+S
+#872
+Roman Fields~
+Before you is a large expanse of fields. You just want to lay back and enjoy the flowers, except something just doesn't look right.
+~
+0 0 2
+D0
+~
+~
+0 0 874
+D1
+~
+~
+0 0 873
+D2
+~
+~
+0 0 875
+D3
+~
+~
+0 0 871
+S
+#873
+Roman Field~
+Before you is a large expanse of fields. You just want to lay back and enjoy the flowers, except something just doesn't look right.
+~
+0 0 2
+D1
+~
+~
+0 0 877
+D3
+~
+~
+0 0 872
+S
+#874
+Roman Fields~
+Before you is a large expanse of fields. You just want to lay back and enjoy the flowers, except something just doesn't look right.
+~
+0 0 2
+D1
+~
+~
+0 0 876
+D2
+~
+~
+0 0 872
+S
+#875
+Roman Meadows~
+Before you is a large expanse of fields. You just want to lay back and enjoy the flowers, except something just doesn't look right.
+~
+0 0 2
+D0
+~
+~
+0 0 872
+D1
+~
+~
+0 0 881
+S
+#876
+Roman Fields~
+Before you is a large expanse of fields. You just want to lay back and enjoy the flowers, except something just doesn't look right.
+~
+0 0 2
+D1
+~
+~
+0 0 878
+D2
+~
+~
+0 0 877
+D3
+~
+~
+0 0 874
+S
+#877
+Roman Field~
+Before you is a large expanse of fields. You just want to lay back and enjoy the flowers, except something just doesn't look right.
+~
+0 0 2
+D0
+~
+~
+0 0 876
+D1
+~
+~
+0 0 879
+D2
+~
+~
+0 0 881
+D3
+~
+~
+0 0 873
+S
+#878
+Roman Fields~
+Before you is a large expanse of fields. You just want to lay back and enjoy the flowers, except something just doesn't look right.
+~
+0 0 2
+D2
+~
+~
+0 0 879
+D3
+~
+~
+0 0 876
+S
+#879
+Roman Field~
+Before you is a large expanse of fields. You just want to lay back and enjoy the flowers, except something just doesn't look right.
+~
+0 0 2
+D0
+~
+~
+0 0 878
+D2
+~
+~
+0 0 880
+D3
+~
+~
+0 0 877
+S
+#880
+Roman Meadows~
+Before you is a large expanse of fields. You just want to lay back and enjoy the flowers, except something just doesn't look right.
+~
+0 0 2
+D0
+~
+~
+0 0 879
+D3
+~
+~
+0 0 881
+S
+#881
+Roman Meadows~
+The meadow continues onward while you see a small hole with strange sounds coming from it.
+~
+0 0 2
+D0
+~
+~
+0 0 877
+D1
+~
+~
+0 0 880
+D3
+~
+~
+0 0 875
+D5
+~
+~
+0 0 882
+S
+#882
+Cave Of The Bear~
+~
+0 0 0
+D1
+~
+~
+0 0 883
+D4
+~
+~
+0 0 881
+S
+#883
+~
+~
+0 0 0
+D3
+~
+~
+0 0 882
+S
+#899
+~
+~
+0 4 0
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 0 800 2 800 1
+M 0 802 10 800 1
+M 0 801 50 800 2
+M 0 801 10 801 2
+E 0 805 1 16
+M 0 802 10 801 1
+E 0 800 1 16
+M 0 801 10 804 2
+M 0 803 2 806 1
+M 0 802 10 807 10
+E 0 805 -1 16
+M 0 802 10 807 10
+E 0 805 -1 16
+M 0 801 10 807 10
+E 0 805 -1 16
+M 0 801 10 807 10
+E 0 805 -1 16
+M 0 801 10 807 10
+E 0 805 -1 16
+M 0 801 10 807 10
+E 0 805 -1 16
+M 0 801 10 807 10
+E 0 805 -1 16
+M 0 804 1 808 1
+G 0 800 -1
+G 0 805 -1
+M 0 806 50 819 5
+M 0 807 50 819 5
+E 0 800 1 16
+M 0 805 50 819 5
+M 0 807 50 821 12
+E 0 800 1 16
+M 0 808 1 830 1
+M 0 809 6 831 1
+M 0 814 25 832 3
+M 0 810 9 833 1
+M 0 812 4 834 1
+M 0 811 9 835 1
+M 0 813 9 836 1
+M 0 815 50 842 15
+M 0 816 50 842 15
+M 0 816 50 847 15
+M 0 818 6 856 1
+M 0 818 6 857 1
+M 0 818 6 860 1
+M 0 818 6 861 1
+M 0 817 15 862 5
+M 0 817 15 863 5
+M 0 817 15 864 5
+M 0 817 15 865 5
+M 0 818 6 866 1
+M 0 818 6 867 1
+M 0 819 3 868 3
+M 0 820 3 870 3
+M 0 821 20 872 2
+M 0 821 20 874 2
+M 0 821 20 876 2
+M 0 821 20 877 2
+M 0 821 20 880 2
+M 0 821 20 881 2
+M 0 822 2 882 1
+M 0 822 2 883 1
+S
+
+
+
+#SHOPS
+804 5 5 0 0 0 50 25 0 23
+0
+
+
+
+#$

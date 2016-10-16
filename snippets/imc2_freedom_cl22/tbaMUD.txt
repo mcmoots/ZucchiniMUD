@@ -1,0 +1,538 @@
+Installation for tbaMud-3.56 (CircleMUD derivative)
+[ document by mtfox ]
+---------------------------------------------------
+
+1. In the Makefile.in file, find:
+
+#flags for profiling (see hacker.doc for more information)
+PROFILE =
+
+Directly below that, add:
+
+#IMC2 - Comment out to disable IMC2 support
+IMC = 1
+
+Below the CXREF_FILES section, add the following:
+   [Note: BSD users - put a period in front of the word ifdef, and in front of the word endif]
+
+ifdef IMC
+   CXREF_FILES += imc.c sha256.c
+   OBJFILES += imc.o sha256.o
+   CFLAGS += -DIMC -DIMCCIRCLE
+endif
+
+2. Open act.social.c and at the bottom, add the following:
+
+/* For IMC */
+struct social_messg *find_social( const char *name )
+{
+   int cmd, socidx;
+
+   if( ( cmd = find_command( name ) ) < 0 )
+      return NULL;
+
+   if( ( socidx = find_action( cmd ) ) < 0 )
+      return NULL;
+
+   return &soc_mess_list[socidx];
+}
+
+3. Open comm.c and locate the following:
+
+#ifdef HAVE_ARPA_TELNET_H
+#include <arpa/telnet.h>
+#else
+#include "telnet.h"
+#endif
+
+
+Directly below that, add the following:
+
+#ifdef IMC
+#include "structs.h"
+#include "imc/imc.h"
+#endif
+
+Locate function init_game, and find the following:
+
+  /* set up hash table for find_char() */
+  init_lookup_table();
+
+  boot_db();
+
+Directly below that, add the following:
+
+#ifdef IMC
+  imc_startup(FALSE, -1, FALSE); // FALSE arg, so the autoconnect setting can govern it.
+#endif
+
+Locate the following:
+
+  log("Closing all sockets.");
+  while (descriptor_list)
+    close_socket(descriptor_list);
+
+  CLOSE_SOCKET(mother_desc);
+
+Directly below that, add the following:
+
+#ifdef IMC
+  imc_shutdown(FALSE);
+#endif
+
+Locate game_loop and find the following:
+
+    /* If we missed more than 30 seconds worth of pulses, just do 30 secs */
+    if (missed_pulses > 30 RL_SEC) {
+      log("SYSERR: Missed %d seconds worth of pulses.", missed_pulses / PASSES_PER_SEC);
+      missed_pulses = 30 RL_SEC;
+    }
+
+Directly below that, add the following:
+
+#ifdef IMC
+    imc_loop();
+#endif
+
+In game_loop, find:
+
+   /* Sleep if we don't have any connections */
+   if (descriptor_list == NULL) {
+      log("No connections.  Going to sleep.");
+      FD_ZERO(&input_set);
+      FD_SET(mother_desc, &input_set);
+      if (select(mother_desc + 1, &input_set, (fd_set *) 0, (fd_set *) 0, NULL) < 0) {
+
+Replace with:
+
+    /* Sleep if we don't have any connections */
+    if (descriptor_list == NULL) {
+#ifdef IMC
+      int top_desc = this_imcmud != NULL ? MAX( mother_desc, this_imcmud->desc ) : mother_desc;
+#else
+      int top_desc = mother_desc;
+#endif
+      log("No connections.  Going to sleep.");
+      FD_ZERO(&input_set);
+      FD_SET(mother_desc, &input_set);
+#ifdef IMC
+      if ( this_imcmud != NULL && this_imcmud->desc != -1 )
+         FD_SET(this_imcmud->desc, &input_set);
+#endif
+      if (select(top_desc + 1, &input_set, (fd_set *) 0, (fd_set *) 0, NULL) < 0) {
+
+4. Open db.c and locate the following:
+
+#include "dg_scripts.h"
+#include "dg_event.h"
+
+#ifdef IMC
+#include "imc/imc.h"
+#endif
+
+Locate the following in free_char:
+
+  int i;
+  struct alias_data *a;
+      
+  if (ch->player_specials != NULL && ch->player_specials != &dummy_mob) {
+
+Directly below that, add:
+
+#ifdef IMC
+    imc_freechardata(ch);
+#endif
+
+5. Open db.h and locate the following:
+
+#define LIB_PLROBJS	":plrobjs:"
+#define LIB_PLRVARS	":plrvars:"
+
+Directly below that, add:
+
+#define LIB_PLRIMC      ":plrimc:"
+
+Then locate the following:
+
+#define LIB_PLROBJS	"plrobjs/"
+#define LIB_PLRVARS	"plrvars/"
+
+Directly below that, add:
+
+#define LIB_PLRIMC      "plrimc/"
+
+Then locate the following:
+
+#define SUF_OBJS	"objs"
+#define SUF_TEXT	"text"
+#define SUF_MEM	        "mem"
+
+Directly below that, add:
+
+#define SUF_IMC "imc"
+
+6. Open interpreter.c and locate the following:
+
+#include "improved-edit.h"
+#include "dg_scripts.h"
+#include "constants.h"
+
+Directly below that, add:
+
+#ifdef IMC
+#include "imc/imc.h"
+#endif
+
+
+
+Then locate the following in command_interpreter:
+
+  if (*complete_cmd_info[cmd].command == '\n') {
+    int found = 0;
+    send_to_char(ch, "Huh!?!\r\n");
+
+Change it to read as follows:
+
+  if (*complete_cmd_info[cmd].command == '\n') {
+    int found = 0;
+
+#ifdef IMC
+    if( !imc_command_hook(ch, arg, line) ) {
+#endif
+    send_to_char(ch, "Huh!?!\r\n");
+
+locate the following:
+
+        send_to_char(ch, "  %s\r\n", cmd_info[cmd].command);
+      }
+    }
+  }
+
+Directly below that, add:
+
+#ifdef IMC
+  } 
+#endif
+
+locate the following: 
+
+    init_char(d->character);
+
+Directly below that, add: 
+
+#ifdef IMC
+  imc_initchar(d->character); 
+#endif
+
+
+7. Open players.c and locate the following:
+
+#include "dg_scripts.h"
+#include "comm.h"
+#include "interpreter.h"
+
+Directly below that, add:
+
+#ifdef IMC
+#include "imc/imc.h"
+#endif
+
+Locate the following:
+
+void load_HMVS(struct char_data *ch, const char *line, int mode);
+void write_aliases_ascii(FILE *file, struct char_data *ch);
+void read_aliases_ascii(FILE *file, struct char_data *ch, int count);
+
+Directly below that, add the following:
+
+#ifdef IMC
+void load_imc_pfile( struct char_data *ch );
+char *imc_fread_word( char *buf, size_t len, FILE *fp );
+#endif
+
+Locate the following:
+
+char *get_name_by_id(long id)
+{
+  int i;
+
+  for (i = 0; i <= top_of_p_table; i++)
+    if (player_table[i].id == id)
+      return (player_table[i].name);
+
+  return (NULL);
+}
+
+Directly below that, add the following:
+
+#ifdef IMC
+void save_imc_pfile(struct char_data *ch)
+{
+  FILE *fl;
+  char filename[PATH_MAX];
+  
+#if _CIRCLEMUD < CIRCLEMUD_VERSION(3,0,21)
+  if (!get_filename(GET_PC_NAME(ch), filename, IMC_FILE))
+    return;
+#else
+  if (!get_filename(filename, sizeof(filename), IMC_FILE, GET_PC_NAME(ch)))
+    return;
+#endif
+
+  if (!(fl = fopen(filename, "w")))
+  {
+    if (errno != ENOENT)
+      log("SYSERR: opening IMC2 file '%s' for writing: %s", filename, strerror(errno));
+    return;
+  }
+ 
+  imc_savechar(ch, fl);
+  fclose(fl);
+}
+
+void load_imc_pfile(struct char_data *ch)
+{
+  FILE *fl;
+  char filename[PATH_MAX];
+  char word[READ_SIZE];
+  
+#if _CIRCLEMUD < CIRCLEMUD_VERSION(3,0,21)
+  if (!get_filename(GET_PC_NAME(ch), filename, IMC_FILE))
+    return;
+#else
+  if (!get_filename(filename, sizeof(filename), IMC_FILE, GET_PC_NAME(ch)))
+    return;
+#endif
+  if (!(fl = fopen(filename, "r")))
+  {
+    if (errno != ENOENT)
+      log("SYSERR: opening IMC2 file '%s' for reading: %s", filename, strerror(errno));
+    return;
+  }
+ 
+  for (;;)
+  {
+    imc_fread_word(word, sizeof(word), fl);
+    if (*word != 'I')
+      break;
+    imc_loadchar(ch, fl, word);
+  }
+  fclose(fl);
+}
+#endif
+
+Locate the following code in load_char:
+
+    GET_COND(ch, DRUNK) = -1;
+  }
+  fclose(fl);
+
+Directly below that, add:
+
+#ifdef IMC
+  imc_initchar(ch); 
+  load_imc_pfile(ch);
+#endif
+
+Locate the following in save_char:
+
+  /* More char_to_store code to add spell and eq affections back in. */
+  for (i = 0; i < MAX_AFFECT; i++) {
+    if (tmp_aff[i].type)
+      affect_to_char(ch, &tmp_aff[i]);
+  }
+
+Directly below that, add:
+
+#ifdef IMC
+  save_imc_pfile(ch);
+#endif
+
+
+
+Scroll to the end of player.c and add the following function:
+
+#ifdef IMC
+/*
+ * Grab one word, ignoring preceding whitespace. Will
+ * eat a single whitespace immediately after the word.
+ */
+char *imc_fread_word( char *buf, size_t len, FILE *fp )
+{
+   size_t copied = 0;
+   char cur_char;
+
+   if( !buf || len == 0 )
+      return buf;
+
+   *buf = '\0';
+
+   do
+   {
+      cur_char = fgetc( fp );
+   }
+   while( isspace( cur_char ) );
+
+   if( cur_char == EOF )
+      return buf;
+
+   do
+   {
+      buf[copied++] = cur_char;
+      cur_char = fgetc( fp );
+   }
+   while( copied < len && !isspace( cur_char ) && cur_char != EOF );
+
+   return buf;
+}
+#endif
+
+8. Open structs.h and locate the following:
+
+   char	*poofin;		/* Description on arrival of a god.     */
+   char	*poofout;		/* Description upon a god's exit.       */
+   struct alias_data *aliases;	/* Character's aliases			*/
+   long last_tell;		/* idnum of last tell from		*/
+   void *last_olc_targ;		/* olc control				*/
+   int last_olc_mode;		/* olc control				*/
+   char *host;			/* player host				*/
+
+Directly below that, add:
+
+#ifdef IMC
+   struct imcchar_data *imcchardata;
+#endif
+
+locate the following:
+#define _TBAMUD
+
+add the following:
+*/ we will need this untill imc is rewritten for tbaMUD, otherwise find all
+_CIRCLEMUD in the code and change to _TBAMUD
+*/
+#define _CIRCLEMUD  _TBAMUD
+
+9. Open utils.c and locate the following:
+
+  case SCRIPT_VARS_FILE:
+    prefix = LIB_PLRVARS;
+    suffix = SUF_MEM;
+    break;
+
+Directly below that, add:
+
+  case IMC_FILE:
+    prefix = LIB_PLRIMC;
+    suffix = SUF_IMC;
+    break;
+
+10. Open utils.h and locate the following:
+
+#define ETEXT_FILE       1
+#define SCRIPT_VARS_FILE 2
+#define PLR_FILE         3
+
+Directly below that, add:
+
+#define IMC_FILE         4
+
+change:
+#define MAX_FILES        4
+
+to:
+#define MAX_FILES        5
+
+
+imccfg.h
+locate
+   /*
+    * This should be in an act.social.h, if it existed. Introducing
+    * it in an IMC patch would be too intrusive. 
+    */
+struct social_messg
+{
+   int act_nr;
+   int hide;
+   int min_victim_position;
+   char *char_no_arg;
+   char *others_no_arg;
+   char *char_found;
+   char *others_found;
+   char *vict_found;
+   char *not_found;
+   char *char_auto;
+   char *others_auto;
+};
+
+   /*
+    * UNCOMMENT if mud has Ascii Pfile code installed. 
+    */
+   /*
+    * #include "diskio.h" 
+    */
+
+
+and delete it.
+ 
+
+11. From the main directory, under lib, make a directory named plrimc
+
+Inside the plrimc directory, issue the following command:
+
+mkdir A-E F-J K-O P-T U-Z ZZZ
+
+
+12. I am not sure this is the best solution, but it seems to work.
+
+Open imc.c and locate 
+
+      else if( iErr == EAGAIN )
+         break;
+
+And change to:
+
+      else if( iErr == EAGAIN || iErr == EWOULDBLOCK )
+         break;
+13. place imc.c, imc.h, sha26.c, sha26.h and imccfg.h in src/imc folder
+
+14. in imc.c
+find
+
+#if defined(IMCCIRCLE)
+#include "conf.h"
+#include "sysdep.h"
+#include "structs.h"
+#include "utils.h"
+#include "comm.h"
+#include "db.h"
+#include "handler.h"
+#include "interpreter.h"
+#include "imc.h"
+#endif
+
+change to
+
+#if defined(IMCCIRCLE)
+#include "../conf.h"
+#include "../sysdep.h"
+#include "../structs.h"
+#include "../utils.h"
+#include "../comm.h"
+#include "../db.h"
+#include "../handler.h"
+#include "../interpreter.h"
+#include "imc.h"
+#endif
+
+15. in imc.h
+change
+#define IMC_DIR          "imc/"
+to
+#define IMC_DIR          "../imc/"
+
+16. Run your configure script according to the directions that came with tbaMUD.
+
+
+Return to the main IMC.txt file and continue where you left off.[/code]
+
+will need to change color codes in src, help, and world files from @ to something less used, like `

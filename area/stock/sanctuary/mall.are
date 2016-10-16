@@ -1,0 +1,1619 @@
+#AREADATA
+Name Midgaard Mall~
+Builders None~
+VNUMs 8800 8899
+Credits {g[{G 8 25{g]{x Ebola    The Midgaard Mall~
+Security 9
+End
+
+
+
+#MOBILES
+#8800
+Kate~
+Kate~
+Kate, the owner of Kate's Kountry Krap, busily arranges a display.
+~
+Kate looks at you suspiciously; you don't seem like you have much use for
+her doilies.  
+~
+human~
+ABV H 0 0
+200 0 50d10+4000 0d0+0 5d8+19 shock
+-20 -20 -20 -20
+ACEFKNO 0 0 0
+stand stand female 100
+AHMV ABCDEFGHIJK medium unknown
+#8801
+walker woman~
+a mall walker~
+A middle-aged woman is power-walking around the mall.
+~
+The mall walker impatiently brushes you aside.  She has more important
+things to do, like walk around the mall.  
+~
+human~
+AG 0 0 0
+15 12 3d9+208 0d0+0 2d6+3 slap
+-2 -2 -2 0
+I 0 B 0
+stand stand female 0
+AHMV ABCDEFGHIJK medium unknown
+#8802
+mall rat kid teen youth~
+a mall rat~
+A teenage mall rat lounges here.
+~
+The mall rat ignores you.
+~
+human~
+AG 0 0 0
+13 0 2d10+170 0d0+0 2d5+3 pound
+-1 -1 -1 1
+I 0 0 0
+stand stand either 0
+AHMV ABCDEFGHIJK medium unknown
+#8803
+guard cop rent-a-cop pig~
+the Rent-A-Cop~
+A Rent-A-Cop stands here, trying to look intimidating.
+~
+The Rent-A-Cop glares accusingly at you.  "Aren't you banished from this mall?"
+~
+pig~
+AG 0 -250 0
+16 1 3d9+233 0d0+0 2d6+4 beating
+0 0 0 0
+BEKNT 0 0 0
+stand stand either 2
+AGHMV ABCDEFHJK medium unknown
+#8804
+rat teen youth~
+a mall rat~
+A teenage mall rat lounges here
+~
+The mall rat sneers at you.
+~
+human~
+ACG 0 0 0
+12 0 2d10+160 0d0+0 1d9+3 pound
+0 0 0 0
+F 0 0 0
+stand stand either 0
+AHMV ABCDEFGHIJK medium unknown
+#8805
+rat teen youth~
+a mall rat~
+A teenage mall rat lounges here.
+~
+The mall rat sneers at you.
+~
+human~
+AG 0 0 0
+14 0 2d10+170 0d0+0 1d12+3 slash
+0 0 0 0
+0 0 0 0
+stand stand male 0
+AHMV ABCDEFGHIJK medium unknown
+#8806
+kid toddler child~
+a small child~
+A small child is about to throw a temper tantrum.
+~
+Your presence is only exacerbating the small child's temper tantrum.  Why
+don't you put the rest of the mall out of its misery?  
+~
+human~
+AG 0 0 1
+8 0 2d7+96 0d0+0 1d7+2 bite
+3 3 3 5
+FIJN 0 0 0
+stand stand either 0
+AHMV ABCDEFGHIJK medium unknown
+#8807
+mother~
+the mother~
+A frazzled mother is about to lose her patience.
+~
+The harried young mother has about 47 more things to buy at the mall
+before her 2-year-old explodes into a full fledged temper tantrum.  It
+doesn't look like she'll get it all done.  
+~
+human~
+AG 0 0 1
+12 0 2d10+150 0d0+0 1d10+3 scratch
+0 0 0 2
+DJL 0 0 0
+stand stand female 0
+AHMV ABCDEFGHIJK medium unknown
+#8808
+Santa~
+Santa Claus~
+Santa Claus is here, listening to endless lines of children ask for
+semi-automatic weapons.
+~
+Santa Claus sits on his chair at the North Pole with a small child on his
+lap, chuckling and looking jolly.  When you look closer, you can see just
+how jolly he really is....  
+~
+human~
+ABG 0 -1000 0
+25 0 5d10+550 0d0+0 2d10+7 magic
+0 0 0 0
+0 0 I HN
+stand stand male 0
+ACHMV ABCDEFGHIJK medium unknown
+#8809
+bunny rabbit~
+the Easter Bunny~
+The Easter Bunny is here distributing chocolate eggs.
+~
+The Easter Bunny sits in a nest of shiny plastic grass, giving cocoa
+treats to the little kids who come and sit on his lap.  
+~
+rabbit~
+ABG 0 0 0
+25 0 5d10+550 0d0+0 2d10+7 bite
+-7 -7 -7 -5
+FHM 0 0 0
+stand stand none 0
+AGHMV ABCDEFHJKU medium unknown
+#8810
+elf~
+Santa's Elf~
+One of Santa's Elves stands here
+~
+You can tell that this disgruntled Elf isn't getting paid much beyond
+minimum wage.  
+~
+elf~
+ABG J 0 0
+18 0 3d9+283 0d0+0 2d7+4 blast
+0 0 0 0
+0 0 B Z
+stand stand either 0
+AHMV ABCDEFGHIJK medium unknown
+#8811
+cosmetologist~
+a cosmetologist~
+A recent graduate of La James College of Cosmetology stands here.
+~
+The cosmetologist manages to look cheerful and vapid, at the same time! 
+All that tuition must have been worth it.  
+~
+human~
+ABG 0 0 0
+16 0 3d9+233 0d0+0 2d6+4 pierce
+0 0 0 0
+0 0 0 0
+stand stand either 0
+AHMV ABCDEFGHIJK medium unknown
+#8812
+clerk cashier~
+a sales clerk~
+A cashier is ready to ring up your purchase
+~
+The sales clerk looks bored waiting for you to buy something.
+~
+human~
+ABG 0 0 0
+15 0 3d9+208 0d0+0 2d6+3 thwack
+0 0 0 0
+M 0 0 0
+stand stand either 0
+AHMV ABCDEFGHIJK medium unknown
+#8813
+foot warrior~
+a footwarrior~
+A footwarrior is limping here
+~
+The footwarrior bellows at you.
+"Do not panic! Lay down your arms! We just want you to relax and enjoy your
+shoes!"
+~
+human~
+ABF 0 0 0
+14 0 2d10+190 0d0+0 1d12+3 pound
+0 0 0 0
+MO 0 0 0
+stand stand either 0
+AHMV ABCDEFGHIJK medium unknown
+#8814
+faceless counter slave~
+a faceless counter slave~
+A faceless counter slave is ready to serve you.
+~
+The faceless counter slave stares listlessly at you and asks "Can I help you?"
+~
+human~
+AGV H 0 0
+200 200 401d66+8081 200d10+85 66d3+105 crush
+-126 -126 -126 -84
+0 0 0 0
+stand stand either 100
+AHMV ABCDEFGHIJK medium unknown
+#8815
+usher~
+the usher~
+An usher is here, keeping the audience in line.
+~
+The usher is too busy staring and drooling at what's happening in the
+back row to pay attention to you.  
+~
+human~
+ABG 0 0 0
+16 0 3d9+233 0d0+0 2d6+4 beating
+0 0 0 0
+0 0 0 0
+stand stand either 0
+AHMV ABCDEFGHIJK medium unknown
+#8816
+hig hurtenflurst~
+Hig Hurtenflurst~
+Hig Hurtenflurst happens to be the risingest young executive in the Dolmansaxlil
+Shoe Corporation.
+~
+Hig Hurtenflurst is wearing a startlingly sensible pair of shoes.  You
+wonder how high he had to climb in the ranks of the Dolmansaxlil Galactic
+Shoe Corporation to get them.  
+~
+goblin~
+ABFG J -400 0
+20 0 3d9+333 0d0+0 2d8+5 pound
+0 0 0 0
+EF 0 Q C
+stand stand male 100
+AHMV ABCDEFGHIJK medium unknown
+#8817
+faceless counter slave~
+a faceless counter slave~
+A faceless counter slave is ready to serve you
+~
+The counter slave looks at you listlessly and asks "Can I help you?"
+~
+human~
+AGV H 0 0
+200 200 401d66+8081 200d10+85 66d3+105 pound
+-126 -126 -126 -84
+0 0 0 0
+stand stand either 100
+AHMV ABCDEFGHIJK medium unknown
+#8818
+Barthez goalie~
+Barthez~
+Emmanuel Barthez is here, running register.
+~
+Barthez apparently needs something to do in the years between World Cups,
+so he's working here.  Noticing your stare, he begins bouncing a cheap
+soccer ball on his head.  It could be either a threat, or a mating dance.  
+~
+human~
+ABG H 0 0
+200 0 5d10+4500 0d0+0 5d8+19 wrath
+-20 -20 -20 -18
+0 0 0 0
+stand stand male 14
+AHMV ABCDEFGHIJK medium unknown
+#8819
+team bleus French soccer~
+Les Bleus~
+The rest of the French soccer team is here, too.
+~
+The team seems to be down on their luck after their latest staggering
+defeat, and they're all waiting for Barthez to start handing out free
+soccer balls.  
+~
+unique~
+ABG 0 0 0
+21 0 4d10+360 0d0+0 4d4+5 beating
+0 0 0 0
+0 0 0 0
+stand stand none 300
+AHV ABCDEFGHIJK huge unknown
+#8820
+faceless counter slave~
+a faceless counter slave~
+A faceless counter slave is here, ready to serve you.
+~
+The faceless counter slave stares at a point just beyond your head and
+asks "Can I help you?"  
+~
+human~
+ABGV H 0 0
+200 200 401d66+8081 200d10+85 66d3+105 pound
+-126 -126 -126 -84
+0 0 0 0
+stand stand either 505
+AHMV ABCDEFGHIJK medium unknown
+#8821
+slave~
+a faceless counter slave~
+A faceless counter slave is here, ready to serve you.
+~
+The faceless counter slave stares at a point just beyond your head and
+asks "Can I help you?"  
+~
+human~
+ABG H 0 0
+200 0 25d10+2250 0d0+0 3d12+14 pound
+-14 -14 -14 -12
+0 0 0 0
+stand stand either 100
+AHMV ABCDEFGHIJK medium unknown
+#8822
+nerd~
+a nerd~
+A nerd is drooling at the shelves of circuit boards.
+~
+The nerd glances back at you, stutters, and runs off to the back to look at
+crystal radio kits.
+~
+human~
+ABG 0 0 0
+17 0 3d9+258 0d0+0 3d4+4 scratch
+0 0 0 0
+I 0 0 0
+stand stand male 12
+AHMV ABCDEFGHIJK medium unknown
+#8823
+boy~
+a little boy~
+A little boy is here, peeing.
+~
+This kid is in every single bathroom you've ever visited, and it's
+starting to creep you out.  
+~
+human~
+ABG 0 0 0
+11 0 2d8+134 0d0+0 1d10+2 thwack
+0 0 0 0
+0 0 0 0
+stand stand male 0
+AHMV ABCDEFGHIJK medium unknown
+#8824
+bum~
+a bum~
+A bum is here, searching the trash for returnable bottles.
+~
+Aside from a scraggly beard and a layer of dirt, this bum is in pretty
+good condition, complete with a full set of teeth!  
+~
+human~
+AG 0 0 0
+12 0 2d10+150 0d0+0 1d10+3 pound
+0 0 0 0
+0 0 0 0
+stand stand either 1
+AHMV ABCDEFGHIJK medium unknown
+#8825
+pants pile~
+a pile of pants~
+A jumbled pile of khaki pants is going to need some serious ironing.
+~
+Some poor clerk must have gotten a little lazy; a large pile of pants is on the
+floor in the back of the mens department.  It looks large enough to suffocate
+anyone who tries to clean it up...
+~
+unique~
+AG 0 0 0
+19 0 3d9+208 0d0+0 2d6+3 crush
+0 0 0 0
+0 0 E GH
+sit sit none 0
+AJS CN medium unknown
+#8826
+father~
+the father~
+The father of the small child looks lost.
+~
+Between quelling his child's temper tantrums and trying to find what he
+came for, this poor man has no time to deal with you.  
+~
+human~
+AG 0 0 0
+12 0 2d10+150 0d0+0 1d10+3 punch
+0 0 0 0
+0 0 0 0
+stand stand male 0
+AHMV ABCDEFGHIJK medium unknown
+#0
+
+
+
+#OBJECTS
+#8800
+lace doily~
+a lace doily~
+A lace doily MUST have some useful purpose...~
+lace~
+trash 0 AO
+0 0 0 0 0
+0 1 10 P
+#8801
+basket~
+a small wicker basket~
+A small wicker basket filled with potpourri sits here.~
+bamboo~
+container 0 AO
+5 0 -1 5 0
+0 5 15 P
+F
+A 0 0 A
+#8802
+basket wicker large~
+a large wicker basket~
+A large wicker basket full of dried flowers sits here.~
+bamboo~
+container 0 AO
+15 0 -1 15 0
+0 5 20 P
+#8803
+broken egg~
+a broken easter egg~
+A broken easter egg lies here.~
+plastic~
+weapon G AN
+dagger 3 8 slice 0
+12 5 1 B
+F
+A 0 0 PQ
+E
+broken egg~
+It looks like this egg used to be painted with cute pink bunnies.~
+#8804
+knife~
+a swiss army knife~
+A 22-tool swiss army knife rests here.~
+steel~
+weapon 0 AN
+dagger 3 5 pierce 0
+8 5 50 G
+A
+19 1
+A
+18 1
+#8805
+zippo lighter~
+a zippo lighter~
+A zippo lighter rests here.~
+fire~
+light A A
+0 0 CFG 0 0
+0 5 20 P
+F
+A 0 0 D
+E
+lighter zippo~
+This Zippo lighter is engraved with the initials MJB~
+#8806
+scissors~
+a pair of scissors~
+A pair of specialized trimming scissors lies here.~
+steel~
+weapon 0 AN
+dagger 4 4 pierce 0
+13 5 30 P
+F
+V 0 0 IJQ
+F
+A 0 0 c
+#8807
+directory~
+the Directory~
+A directory stands in the middle of the floor.~
+earth~
+treasure 0 0
+0 0 0 0 0
+0 5 0 P
+E
+inscription~
+Welcome to the Midgaard Mall!
+This area was written by Lady Ebola during a fit of procrastination.  As a
+result, she failed to write several scholarship application essays, and is going
+to be up to her ears in student loans, so you'd better appreciate it.~
+E
+directory~
+The mall directory lists the stores that were in the mall when it opened, but it
+hasn't been changed since.  You briefly debate trying to find Fred's Fine Flints,
+or Hand Axes Galore, but then decide against it.
+There is a small inscription at the bottom.~
+#8808
+ray~
+Shoe Shop Intensifier Ray~
+A Dolmansaxlil Shoe Shop Intensifier Ray squats here.~
+nothingness~
+treasure AE 0
+0 0 0 0 0
+0 5 0 P
+E
+intensifier ray~
+The Shoe Shop Intensifier Ray is designed to exponentially increase the demand
+for shoes until a civilization passes the Shoe Event Horizon, at which point
+there will be nothing left but shoe shops and civilization will collapse.~
+#8809
+shoes~
+uncomfortable shoes~
+A pair of uncomfortable, highly fashionable shoes sits here.~
+soft leather~
+armor M AG
+AB AB AB 0 B
+10 5 200 P
+F
+A 0 0 d
+A
+2 -1
+#8810
+coffee cup~
+a cup of coffee~
+A fresh cup of coffee is cooling down rapidly.~
+energy~
+drink 0 AO
+1 1 'coffee' 0 0
+0 5 10 P
+#8811
+coffee mocha~
+a double mocha~
+A double mocha sits here.~
+energy~
+drink 0 AO
+2 2 'coffee' 0 0
+0 5 20 P
+#8812
+soda~
+an almond italian soda~
+An almond flavored Italian soda sits here.~
+cream~
+drink 0 AO
+2 2 'coke' 0 0
+0 5 10 P
+#8813
+espresso~
+an espresso~
+A shot of espresso sits here.~
+energy~
+potion 0 AO
+12 'haste' '' '' ''
+10 5 15 P
+#8814
+pastry turnover~
+an apple turnover~
+An apple turnover looks scrumptious.~
+food~
+food 0 AO
+B A 0 0 0
+0 5 15 P
+#8815
+shoes~
+sensible shoes~
+A pair of startlingly sensible shoes is here.~
+soft leather~
+armor 0 AG
+C C C 0 0
+15 5 300 P
+#8816
+espresso~
+a double espresso~
+A double espresso sits here.~
+energy~
+potion 0 AO
+24 'haste' '' '' ''
+12 5 20 P
+#8817
+sandwich sub~
+a turkey sandwich~
+A six-inch turkey sub sits here.~
+food~
+food 0 AO
+BC BC 0 0 0
+0 5 25 P
+#8818
+sandwich~
+a cheese sandwich~
+A six-inch cheese sub sits here~
+food~
+food 0 AO
+BC BC 0 0 0
+0 5 23 P
+#8819
+cookie~
+a monster cookie~
+A monster cookie rests here.~
+food~
+pill 0 AO
+12 'giant strength' '' '' ''
+12 5 12 P
+E
+cookie~
+These cookies sure changed when they started making blue M&Ms.~
+E
+monster~
+Never confuse a monster cookie with the Cookie Monster.~
+#8820
+cookie~
+a fortune cookie~
+A fortune cookie is here.~
+food~
+pill 0 AO
+15 'bless' '' '' ''
+0 5 10 P
+E
+fortune cookie~
+The fortune reads "You love Chinese food."~
+#8821
+noodles lo mein~
+vegetable lo mein~
+Some vegetable lo mein rests here.~
+food~
+food 0 AO
+D ABC 0 0 0
+0 5 10 P
+#8822
+burrito~
+a meatlike bean burrito~
+An "El Grande" Meatlike Bean Burrito rests here.~
+food~
+food 0 AO
+B AB 0 A 0
+0 5 10 P
+#8823
+guards~
+shin guards~
+A pair of shin guards rests here.~
+plastic~
+armor G AF
+ABC ABC ABC BC A
+18 19 22 P
+F
+A 0 0 T
+#8824
+glasses~
+really thick glasses~
+A pair of really thick glasses has been repaired with duct tape.~
+glass~
+armor 0 AE
+C C C 0 A
+15 5 75 P
+A
+3 1
+#8825
+car~
+your car~
+You finally found it!  It's your car!~
+steel~
+furniture 0 0
+C DFGHIJ FIP CFG CFG
+0 5 0 P
+#8826
+ball~
+a soccer ball~
+A cheap vinyl soccer ball bounces here.~
+hard leather~
+treasure G AO
+0 0 0 0 0
+0 5 50 P
+#8827
+fountain~
+a water fountain~
+A drinking fountain is mounted at the exactly wrong height.~
+steel~
+fountain 0 0
+-1 -1 'water' 0 0
+0 5 0 P
+#8828
+can trash~
+a trash can~
+A trash can has already been looted by the local bums.~
+plastic~
+furniture 0 0
+0 CFG O CFG CFG
+0 5 0 P
+E
+trash can~
+This is your classic brownish sort of trash can, complete with useless square
+hinged lid that has been upturned by some ambitious bum looking for returnable
+bottles.~
+#8829
+bottle~
+a returnable bottle~
+You could get a nickel for this returnable bottle.~
+glass~
+trash 0 AO
+0 0 0 0 0
+0 5 1 P
+E
+bottle~
+Apparently, this bottle once contained Orc Cola.~
+#8830
+pants~
+casual cotton pants~
+A pair of tailored cotton pants is suitable for both home and office!~
+cloth~
+armor 0 AF
+BC BC BC AC A
+14 15 10 P
+#8831
+rice~
+fried rice~
+A small takeout container is full of fried rice.~
+food~
+food 0 A
+BC BC 0 0 0
+0 5 8 P
+#8832
+chopsticks~
+chopsticks~
+A pair of cheap wooden chopsticks is here.~
+wood~
+weapon 0 AN
+dagger 3 6 pierce 0
+2 5 2 P
+#8833
+bed waterbed display~
+a waterbed~
+A display with padded rails and a flowery quilt looks particularly inviting~
+water~
+furniture 0 0
+0 0 HK BCDFG BCDFG
+0 5 0 P
+#8834
+hat~
+a santa hat~
+A festive santa hat is here.~
+cloth~
+armor 0 AE
+D D D ABC 0
+20 21 16 P
+#0
+
+
+
+#ROOMS
+#8800
+Kate's Kountry Krap~
+This tiny store is filled with wicker baskets, lace doilies, and adorable
+figurines of mice wearing bonnets.  A large pile of old ladies is in the far
+corner, fighting over some beanie babies.  
+~
+0 8 0
+E
+pile old ladies~
+With a decisive WHACK! of her cane, one of the old ladies emerges from the pile
+clutching Eddie the Ebola-infested Monkey.~
+D2
+~
+~
+0 -1 8817
+S
+#8801
+Parking Lot~
+Squinting against the glare of a thousand windshields, you wonder how
+anyone can find their car in this mass of automotive conformity.  You can
+enter the mall to the north, and the parking lot spreads out in front of you
+in all other directions.  There is a manhole set into the pavement here.  
+~
+0 0 1
+E
+manhole~
+NEENAH FOUNDRY CO.
+   NEENAH, WIS.~
+D0
+~
+~
+0 -1 8817
+D1
+~
+~
+0 -1 8831
+D2
+~
+~
+0 -1 8828
+D3
+~
+~
+0 -1 8832
+S
+#8802
+Inside the Mall~
+The echoing buzz of stressed-out shoppers and screaming children
+threatens to drown out the subliminal messages in the music.  Aberstupid &
+Rich lies to the north, and La Moche Femme is to the south.  
+~
+0 8 0
+E
+subliminal message~
+Shoplifting is evil and causes impotence.  Please pay for your purchases --
+twice.
+--The Mgt.~
+D0
+~
+~
+0 -1 8803
+D1
+~
+~
+0 -1 8817
+D2
+~
+~
+0 -1 8804
+D3
+~
+~
+0 -1 8805
+S
+#8803
+Aberstupid & Rich~
+A small army of identical adolescent clones is browsing through the racks
+of ugly and expensive clothing strewn randomly about the floor.  
+~
+0 8 0
+D2
+~
+~
+0 -1 8802
+S
+#8804
+La Moche Femme~
+As you walk into this trendy salon, the stinking miasma of nail polish,
+ultra-strength hairspray and Endangered Botanicals brand shampoo almost
+makes you vomit.  The December, 1982 issue of Pedicures Today sits in the
+magazine rack, awaiting your perusal.  
+~
+0 8 0
+E
+magazine pedicures~
+As you flip idly through the magazine, your attention is drawn by a
+heart-warming story about woman who marries her pedicurist and later
+develops severe bunions.  He almost leaves her then for a young blonde
+hairdresser, but a wise marriage counselor is able to restore their
+relationship.  You put the magazine down with renewed faith in humanity.  
+~
+D0
+~
+~
+0 -1 8802
+S
+#8805
+Inside the Mall~
+The mall is decorated in nauseating pastel, carefully calculated to make
+you feel at ease and ready to spend.  The Dolmansaxlil Shoe Corporation lies
+to the north, and a bookstore is to the south.  To the west you can hear the
+frightened shrieks of little kids visiting the Easter Bunny.  
+~
+0 8 0
+D0
+~
+~
+0 -1 8806
+D1
+~
+~
+0 -1 8802
+D2
+~
+~
+0 -1 8807
+D3
+~
+~
+0 -1 8808
+S
+#8806
+Dolmansaxlil Shoe Shop~
+This is the latest outpost of the Dolmansaxlil Galactic Shoe Corporation,
+an entity which has been widely critized for its aggressive marketing
+practices.  The shelves are filled with a bewildering variety of shoes, none
+of which fit quite right.  
+~
+0 8 0
+E
+shoes~
+They are very stylish and fashion conscious!  Stop staring, and buy some
+shoes! Enjoy them!~
+D2
+~
+~
+0 -1 8805
+D5
+~
+~
+0 -1 8816
+S
+#8807
+Barnes and Ignoble~
+Soothing New Age music and the smell of ink permeate the air here. 
+People stand in the aisles reading books they have no intention of
+purchasing, and stand in long lines to purchase books they have no intention
+of reading.  A small coffee shop is to the east.  
+~
+0 8 0
+D0
+~
+~
+0 -1 8805
+D1
+~
+~
+0 -1 8818
+S
+#8808
+The Easter Bunny~
+Quaint pastel scenery decorates this area of the mall, depicting cute
+little farm animals, smiling children, and grotesquely decorated eggs.  A
+large pink throne is set up in the middle, surrounded by lines of impatient
+children.  
+~
+0 8 0
+D0
+~
+~
+0 -1 8826
+D1
+~
+~
+0 -1 8805
+D2
+~
+~
+0 -1 8827
+D3
+~
+~
+0 -1 8825
+S
+#8809
+Inside the Mall~
+The vast expanse of ceiling tile in this part of the wall has been broken
+by a mural, which seems to be completely ignored by all the shoppers below. 
+Wombat Waterbeds is to the north, and the Midgaard Cinema is to the south.  
+~
+0 8 0
+E
+graffiti~
+The graffiti is completely illegible - looks like a hosting problem.~
+E
+mural~
+A wonderful agricultural scene depicts a farmer sitting on his tractor,
+waving to the brave adventurers below.  His face was originally a portrait
+of the Mayor, but has been obscured by layers of graffiti plugging the
+author's website.  
+~
+D0
+~
+~
+0 -1 8810
+D1
+~
+~
+0 -1 8811
+D2
+~
+~
+0 -1 8812
+D3
+~
+~
+0 -1 8817
+S
+#8810
+Wombat Waterbeds.~
+Large, comfy-looking displays are scattered about the floor of Wombat
+Waterbeds, your source for esoteric bed accessories!  
+~
+0 8 0
+D2
+~
+~
+0 -1 8809
+M 120 H 120
+S
+#8811
+Inside the Mall~
+The obnoxious music is really getting annoying now, but the people here
+seem to be enjoying, or at least tolerating it.  A shop full of shiny
+gadgets that don't do anything is north, and Microwave Shack is to the
+south.  
+~
+0 8 0
+D0
+~
+~
+0 -1 8813
+D1
+~
+~
+0 -1 8815
+D2
+~
+~
+0 -1 8814
+D3
+~
+~
+0 -1 8809
+S
+#8812
+Midgaard Cinema~
+The lobby of the Midgaard Cinema is covered in posters advertising the
+latest films.  The three screens of the cinema are to the west, south, and
+east.  
+~
+0 8 0
+E
+posters~
+The coming attraction seems to be "The Mayor of Midgaard," a comic tale about a
+young man who dreams of one day holding the key to the Western Gates. It stars
+teenage heartthrob and 15th century Florentine banker Cosmo de' Medici.~
+D0
+~
+~
+0 -1 8809
+D1
+~
+~
+0 -1 8821
+D2
+~
+~
+0 -1 8820
+D3
+~
+~
+0 -1 8819
+S
+#8813
+Shiny Things Unlimited~
+A bewildering array of shiny junk jewelry and scented candles crowds the
+walls of this tiny shop.  
+~
+0 8 0
+D2
+~
+~
+0 -1 8811
+S
+#8814
+Microwave Shack~
+Obscure electronics parts, telephones and alarm clock radios are
+scattered randomly throughout the store.  You can hardly move in here
+without running into something that glows and makes strange beeping noises
+when you touch it.  
+~
+0 8 0
+D0
+~
+~
+0 -1 8811
+S
+#8815
+The North Pole~
+Cotton batting is strewn about the floor here, imitating snow.  A big,
+red and white striped barber pole is standing in the middle of the room
+bearing a sign, right next to a large red chair.  Small children are
+everywhere.  
+~
+0 8 0
+E
+sign~
+The sign is endearingly painted in a small child's handwriting, complete
+with the traditional backwards "e". It says: "North Pole"
+~
+D0
+~
+~
+0 -1 8823
+D1
+~
+~
+0 -1 8822
+D2
+~
+~
+0 -1 8824
+D3
+~
+~
+0 -1 8811
+S
+#8816
+Shoe Storage Room~
+This musty basement is the office of the Midgaard division of the
+Dolmansaxlil Galactic Shoe Corporation.  
+~
+0 9 0
+D4
+~
+door trap~
+0 -1 8806
+S
+#8817
+Mall Entrance~
+The entrance to the mall is composed of lofty arches and skylights,
+giving the impression of calm and spaciousness.  This atmosphere is somewhat
+undermined by the PA system blaring hits of the past three decades, combined
+with the shrieks of small children.  You can leave the mall to the south,
+enter Kate's Kountry Krap to the north, or continue shopping east and west. 
+~
+0 8 0
+D0
+~
+~
+0 -1 8800
+D1
+~
+~
+0 -1 8809
+D2
+~
+~
+0 -1 8801
+D3
+~
+~
+0 -1 8802
+S
+#8818
+Barnes and Ignoble Coffee Shop~
+Behind the counter are tempting racks of pastries and an impressive array
+of polished steel machines, most of which look like coffeemakers.  A couple,
+though, bear a disquieting resemblance to medieval torture devices.  
+~
+0 8 0
+D3
+~
+~
+0 -1 8807
+S
+#8819
+Oh, that Beastly Fido!~
+This screen is playing "Oh, that Beastly Fido!," a slapstick comedy
+featuring a rabid dog, a fearless adventurer and 5,000 rubber chickens.  The
+audience is rolling helplessly in the aisles, although you suspect this has
+more to do with the popcorn than the movie.  
+~
+0 9 0
+D1
+~
+~
+0 -1 8812
+S
+#8820
+Living with Edgar~
+This screen is playing "Living with Edgar," a serious drama about a woman
+whose son is born with polygastrism, and her struggles to keep him fed.  
+~
+0 9 0
+D0
+~
+~
+0 -1 8812
+S
+#8821
+Hack 'n' Slash~
+You are astonished to see that this screen is playing "Hack 'n' Slash,"
+an unauthorized biography of you!  
+~
+0 9 0
+D3
+~
+~
+0 -1 8812
+S
+#8822
+Discount Mart~
+Welcome to Discount Mart!  A tall ceiling supports the seeming acres of
+fluorescent lights that are right now turning you into a washed-out creature
+of greenish-yellow nothingness.  They're also making all that cheap plastic
+crap from Taiwan look much more attractive.  
+~
+0 8 0
+D3
+~
+~
+0 -1 8815
+S
+#8823
+Food Court~
+Plastic furniture dots the tiled EZ-Kleen floor of the food court.  A
+constant stream of people enters the room hungry, swarms over small formica
+tables, and leaves looking full.  
+~
+0 8 0
+D0
+~
+~
+0 -1 8833
+D1
+~
+~
+0 -1 8835
+D2
+~
+~
+0 -1 8815
+D3
+~
+~
+0 -1 8834
+S
+#8824
+Music World~
+As you enter this store, the obnoxious hits of the past three decades are
+replaced by the equally obnoxious hits of today.  Bins of plastic wrapped
+CDs are scattered about the floor, and gaudy posters of teen idols are
+scattered about the walls.  
+~
+0 8 0
+E
+posters~
+Most of the posters seem to feature the band Lip Sync Boyz, composed of an
+indeterminate number of reasonably attractive youths and an AI
+composer/synthesizer.~
+D0
+~
+~
+0 -1 8815
+S
+#8825
+Fratzerjibbit's~
+This posh department store was established in 1928 by Edgar
+Fratzerjibbit, a poor tailor with dreams of stock options.  Unfortunately,
+he had a twelfth story office and jumped out the window when the market
+crashed, leaving his son Orville to build the small family store into a
+multinational corporation.  
+~
+0 8 0
+D0
+~
+~
+0 -1 8838
+D1
+~
+~
+0 -1 8808
+D2
+~
+~
+0 -1 8839
+D3
+~
+~
+0 -1 8840
+S
+#8826
+Utility Hallway~
+The walls of this small hallway are tiled in a comfortable peach color. 
+A sign points your way to the restrooms.  
+~
+0 8 0
+E
+sign~
+<--Mens    Womens-->~
+D1
+~
+~
+0 -1 8836
+D2
+~
+~
+0 -1 8808
+D3
+~
+~
+0 -1 8837
+S
+#8827
+Sam's Sporting Goods (and bads)~
+The scent of fresh vinyl permeates this shop, which is filled with cheap
+soccer balls.  
+~
+0 8 0
+D0
+~
+~
+0 -1 8808
+S
+#8828
+South Parking Lot~
+A steady stream of cars runs into and out of the parking lot here,
+filling Penny Lane past any reasonable semblance of well-mannered traffic. 
+From the south drift the sounds of angry drivers trying to navigate the
+intersection.  The parking lot spreads out in all other directions, and
+further to the north the low spread of the mall is visible.  
+~
+0 0 1
+D0
+~
+~
+0 -1 8801
+D1
+~
+~
+0 -1 8830
+D2
+~
+~
+0 0 3139
+D3
+~
+~
+0 -1 8829
+S
+#8829
+Southwest Parking Lot~
+There are hardly any cars at all in this remote corner of the lot.
+~
+0 0 1
+D0
+~
+~
+0 -1 8832
+D1
+~
+~
+0 -1 8828
+S
+#8830
+Southeast Parking Lot~
+The endless yellow lines are starting to frighten you.  If you stare at
+them just right, you can almost see secret messages.  
+~
+0 0 1
+E
+secret messages~
+You can't quite make out the secret messages in the yellow lines on the
+pavement, and your eyes are beginning to hurt.~
+D0
+~
+~
+0 -1 8831
+D3
+~
+~
+0 -1 8828
+S
+#8831
+Northeast Parking Lot~
+You finally found it!  It's your car!  Now all you have to do is find
+your way out without smashing into that stupid little Neon that keeps
+zipping around the lot in flagrant violation of conventional parking lot
+behavior...  
+~
+0 0 1
+D2
+~
+~
+0 -1 8830
+D3
+~
+~
+0 -1 8801
+S
+#8832
+Northwest Parking Lot~
+Parking is scarce this close to the mall.  This just might be the cause of a
+vicious fight in the third row between a motorcyclist and a minivan driver...
+~
+0 0 1
+E
+fight~
+The gist of the argument seems to be that the motorcyclist takes up a full
+parking space that should rightfully belong to the minivan, but the minivan
+driver's family tree contains too many sheep and monkeys to allow him anywhere
+near the mall.~
+D1
+~
+~
+0 -1 8801
+D2
+~
+~
+0 -1 8829
+S
+#8833
+Sub Shop~
+This shop is little more than a plexiglas counter hiding large piles of
+rotten lettuce and lunch meat.  
+~
+0 8 0
+D2
+~
+~
+0 -1 8823
+S
+#8834
+Chinese Express~
+The intoxicating aroma of Meal #63 drifts over the counter of the Chinese
+Express.  Mmm, grease!  
+~
+0 8 0
+D1
+~
+~
+0 -1 8823
+S
+#8835
+Taco Joe's~
+Oddly enough, this is the one restaurant in all of Midgaard where none of
+the employees speak Spanish.  The large wall menu devotes 75% of its space
+to advertising the new "El Grande" Meatlike Bean Burrito.  
+~
+0 8 0
+D3
+~
+~
+0 -1 8823
+S
+#8836
+the Men's Room~
+In spite of the reek of sanitizer that hangs in the air, this bathroom is
+filthy.  Soggy bits of toilet paper carpet the floor, and it would probably
+be a bad idea for you to look in the last urinal...  
+~
+0 8 0
+E
+last urinal~
+BLECCHHHH!
+You gag, choke and finally vomit at the stench.  When your eyes clear enough to
+see, you realize that whatever disgusting thing was here originally, too many
+curious adventurers have puked all over it for you to identify it.~
+D3
+~
+~
+0 -1 8826
+S
+#8837
+the Ladies Room~
+Whoever was in here last seems to have had an unusual fondness for cheap
+perfume -- the air is thick with it.  The bathroom is filthy to boot;
+however, most of the stalls have doors on them, and most of the doors close
+properly, so it can't be all that bad.  
+~
+0 8 0
+D1
+~
+~
+0 -1 8826
+S
+#8838
+Luggage, shoes and ugly jewelry~
+The fact that suitcases, shoes and nasty gold electroplate brooches are
+all in the same area of the store seems to mystify no one here.  Maybe
+there's some logic to it, after all.  
+~
+0 8 0
+D2
+~
+~
+0 -1 8825
+S
+#8839
+Juniors~
+This area of the store is filled with short racks full of trendy size-6
+clothing.  It's the ugliest stuff you've ever seen.  
+~
+0 8 0
+D0
+~
+~
+0 -1 8825
+S
+#8840
+Mens~
+The conservative men's department looks much like an arctic white out,
+done over in navy blue and khaki.  Cotton Oxford shirts are everywhere,
+along with high-quality suit coats.  
+~
+0 8 0
+D1
+~
+~
+0 -1 8825
+S
+#0
+
+
+
+#SPECIALS
+M 8802 spec_fido
+M 8803 spec_guard
+M 8804 spec_thief
+M 8805 spec_nasty
+M 8824 spec_janitor
+S
+
+
+
+#RESETS
+M 0 8800 1 8800 1 Load Kate
+G 0 8800 0 A lace doily is given to Kate
+G 0 8801 0 A small wicker basket is given to Kate
+G 0 8802 0 A large wicker basket is given to Kate
+M 0 8806 6 8801 6 Load a small child
+M 0 8807 6 8801 6 Load the mother
+M 0 8802 6 8802 6 Load a mall rat
+E 0 8805 0 0 A zippo lighter is loaded as a light of a mall rat
+M 0 8804 6 8803 6 Load a mall rat
+E 0 8804 0 16 A swiss army knife is loaded wielded of a mall rat
+M 0 8811 2 8804 2 Load a cosmetologist
+E 0 8806 0 16 A pair of scissors is loaded wielded of a cosmetologist
+O 0 8828 0 8805 A trash can loaded to Inside the Mall
+M 0 8824 2 8805 2 Load a bum
+G 0 8829 0 A returnable bottle is given to a bum
+M 0 8813 1 8806 1 Load a footwarrior
+E 0 8809 0 8 Uncomfortable shoes is loaded on the feet of a footwarrior
+M 0 8809 1 8808 1 Load the Easter Bunny
+E 0 8803 0 16 A broken easter egg is loaded wielded of the Easter Bunny
+M 0 8806 6 8808 6 Load a small child
+M 0 8807 6 8808 3 Load the mother
+M 0 8826 6 8808 3 Load the father
+M 0 8805 6 8809 6 Load a mall rat
+E 0 8805 0 0 A zippo lighter is loaded as a light of a mall rat
+E 0 8804 0 16 A swiss army knife is loaded wielded of a mall rat
+O 0 8833 0 8810 A waterbed loaded to Wombat Waterbeds.
+M 0 8801 6 8811 6 Load a mall walker
+M 0 8822 2 8814 1 Load a nerd
+E 0 8824 0 6 Really thick glasses is loaded over the head of a nerd
+M 0 8808 1 8815 1 Load Santa Claus
+E 0 8834 0 6 A santa hat is loaded over the head of Santa Claus
+M 0 8810 2 8815 2 Load Santa's Elf
+M 0 8806 6 8815 3 Load a small child
+M 0 8807 6 8815 3 Load the mother
+M 0 8826 6 8815 3 Load the father
+O 0 8808 0 8816 Shoe shop intensifier ray loaded to Shoe Storage Room
+M 0 8816 1 8816 1 Load Hig Hurtenflurst
+E 0 8815 0 8 Sensible shoes is loaded on the feet of Hig Hurtenflurst
+M 0 8806 6 8817 6 Load a small child
+M 0 8807 6 8817 6 Load the mother
+M 0 8814 1 8818 1 Load a faceless counter slave
+G 0 8810 0 A cup of coffee is given to a faceless counter slave
+G 0 8811 0 A double mocha is given to a faceless counter slave
+G 0 8812 0 An almond italian soda is given to a faceless counter slave
+G 0 8813 0 An espresso is given to a faceless counter slave
+G 0 8814 0 An apple turnover is given to a faceless counter slave
+G 0 8816 0 A double espresso is given to a faceless counter slave
+M 0 8815 3 8819 1 Load the usher
+M 0 8815 3 8820 1 Load the usher
+M 0 8815 3 8821 1 Load the usher
+M 0 8801 6 8823 3 Load a mall walker
+M 0 8804 6 8824 6 Load a mall rat
+E 0 8805 0 0 A zippo lighter is loaded as a light of a mall rat
+O 0 8827 0 8826 A water fountain loaded to Utility Hallway
+M 0 8818 1 8827 1 Load Barthez
+M 0 8819 1 8827 1 Load Les Bleus
+E 0 8823 0 7 Shin guards is loaded on the legs of Les Bleus
+E 0 8826 0 17 A soccer ball is loaded held in the hands of Les Bleus
+O 0 8825 0 8831 Your car loaded to Northeast Parking Lot
+M 0 8817 1 8833 1 Load a faceless counter slave
+G 0 8817 0 A turkey sandwich is given to a faceless counter slave
+G 0 8818 0 A cheese sandwich is given to a faceless counter slave
+G 0 8819 0 A monster cookie is given to a faceless counter slave
+M 0 8820 1 8834 1 Load a faceless counter slave
+E 0 8832 0 16 Chopsticks is loaded wielded of a faceless counter slave
+G 0 8820 0 A fortune cookie is given to a faceless counter slave
+G 0 8821 0 Vegetable lo mein is given to a faceless counter slave
+G 0 8831 0 Fried rice is given to a faceless counter slave
+M 0 8821 1 8835 1 Load a faceless counter slave
+G 0 8822 0 A meatlike bean burrito is given to a faceless counter slave
+M 0 8823 1 8836 1 Load a little boy
+M 0 8825 1 8840 1 Load a pile of pants
+E 0 8830 0 7 Casual cotton pants is loaded on the legs of a pile of pants
+S
+
+
+
+#SHOPS
+8800 0 0 0 0 0 150 100 0 23
+8814 17 19 0 0 0 150 100 0 23
+8817 0 0 0 0 0 100 100 0 23
+8820 19 0 0 0 0 150 90 0 23
+8821 0 0 0 0 0 100 100 0 23
+0
+
+
+
+#MOBPROGS
+#0
+
+#$

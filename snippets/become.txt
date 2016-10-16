@@ -1,0 +1,92 @@
+/*
+Description:
+Become snippet for EmberMud and other Rom derivatives.
+Written by Skuld, Norn of the Future -- Eternal_Outlaw@Hotmail.com
+Instructions:
+Snip this right into your code somewhere, and add the correct lines
+in interp.c and interp.h.
+If you are using stock Rom, remove all refrences of chaos.
+Notes:
+Because extract_char kills ch->desc->charector, we must set it back
+to the new ch.
+Bugs:
+None that I know of, however, I have only tested this on
+emberMud, not rom... nothing high level, but I think I saw a request for
+this somewhere.
+*/
+
+
+void do_become( CHAR_DATA *ch, char *argument)
+{
+DESCRIPTOR_DATA *d;
+CHAR_DATA *oldch;
+char * name;
+char * person = strdup(argument);
+char * password = strdup(argument);
+bool fOld;
+extern bool wizlock;
+extern bool chaos;
+extern bool newlock;
+ password = one_argument(password,person);
+
+   if (IS_NPC(ch))
+	return;
+	d = ch->desc;
+	name = strdup(ch->name);
+	person[0] = UPPER(person[0]);
+	oldch= d->character;
+	fOld = load_char_obj( d, person );
+	ch   = d->character;
+    if ( IS_SET(ch->act, PLR_DENY) )
+	{
+	    sprintf( log_buf, "Denying access to %s@%s.", argument, d->host );
+	    log_string( log_buf );
+	    write_to_buffer( d, "You are denied access.\n\r", 0 );
+		d->character = oldch;
+	    return;
+	}
+
+
+	    if ( wizlock && !IS_HERO(ch))
+	    {
+		write_to_buffer( d, "The game is wizlocked.\n\r", 0 );
+		d->character = oldch;
+		return;
+	    }
+	    else if (chaos && !IS_HERO(ch))
+	    {
+		write_to_buffer( d, "The game is in CHAOS!\n\r", 0 );
+		d->character = oldch;
+		return;
+		}
+
+	if ( fOld )
+	{
+	
+	if ( strcmp( password,ch->pcdata->pwd ))
+  	{
+	    write_to_buffer( d, "Wrong password.\n\r", 0 );
+	    d->character = oldch;
+	    return;
+	}
+	extract_char( oldch, TRUE ); //Because Extract_Char kills ch->desc->char,
+	d->character = ch;			 //Set d->charector to ch!
+	sprintf( log_buf, "%s@%s has connected.", ch->name, d->host );
+	log_string( log_buf );
+	do_help( ch, "motd" );
+	d->connected = CON_READ_MOTD;
+	sprintf( log_buf, "%s has become %s", name, person );
+	log_string( log_buf );
+	free(name);
+	return;
+	}
+	else
+	{
+	 
+	write_to_buffer( d,"Nope. Sorry... Charector doesn't Exist.\n\r",0);
+	d->character = oldch;
+	return;
+	}
+	
+	
+}

@@ -1,0 +1,23 @@
+Bamboo the Magnificent
+----------------------------------------------------------------------------
+Level: 35 (12)        Age:        20 (3526 hours)        
+Race:  Hooloovoo      Carrying:   23/12789 items and 234/1236 kg     
+Sex:   Sexless        Experience: 475027 (2356 to next level)
+----------------------------------------------------------------------------
+Hit:   11238/62293    Wimpy:   22 hit points
+Mana:  67842/26839    Hitroll: 0
+Move:  2789/1689      Damroll: 0
+----------------------------------------------------------------------------
+Str:   16 (18)        Armor
+Int:   16 (18)        Bash:   well-armored
+Wis:   16 (18)        Slash:  well-armored
+Dex:   16 (18)        Pierce: barely protected
+Con:   16 (18)        Magic:  armored
+----------------------------------------------------------------------------
+Cash:     26789       Quest points:    479  
+Bank:     17890       Brownie points:  189
+Train:    0           Alignment:       1000
+Practice: 0          
+----------------------------------------------------------------------------
+You are standing.
+You are hungry.

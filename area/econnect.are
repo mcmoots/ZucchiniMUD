@@ -1,0 +1,707 @@
+#AREADATA
+Name Eastern Connecting Zone~
+Builders None~
+VNUMs 3900 3999
+Levels 1 60
+Credits {g[{G 1 60{g]{x Kazeus   Eastern Trade Road~
+Security 1
+End
+
+
+
+#ZMOBILES
+#3900
+innkeeper~
+the innkeeper~
+The innkeeper is bustling about the room, taking care of his customers.
+~
+The innkeeper is short of stature, and has an unusually thin build for
+his profession.  He wears a standard white apron, and slightly pointed ears
+peek out from underneath his short blond ponytail.  
+~
+half-elf~
+ABG 0 150 0
+50 50 104d17+506 50d11+95 17d2+40 none
+-27 -27 -27 -16
+0 0 B Z
+stand stand none 250
+AHMV ABCDEFGHIJK medium unknown
+'none'
+#3901
+squirrel~
+a squirrel~
+A squirrel is running around the trunk of a tree.
+~
+The squirrel pauses to chitter sharply at you, and continues on its way
+with a flip of its large bushy tail.  
+~
+rabbit~
+AGW 0 0 0
+3 3 7d2+28 3d9+60 1d3+3 bite
+7 7 7 8
+FH 0 0 0
+stand stand either 0
+AGV ACDEFHJKQ medium unknown
+'none'
+#3902
+lizard brown small~
+a lizard~
+A small brown lizard darts from one rock to another.
+~
+The lizard's mottled dusty skin blends in almost perfectly with the
+surrounding sand.  
+~
+lizard~
+A 0 0 0
+1 1 3d2+10 1d9+60 1d2+2 scratch
+9 9 9 9
+0 0 L I
+stand stand none 0
+AGXc ACDEFHKQV medium unknown
+'none'
+#3903
+minstrel~
+a wandering minstrel~
+A minstrel is walking along, playing the jawharp.
+~
+A large backpack, stringed and fretted necks of all sizes protruding at
+odd angles, almost overwhelms the minstrel's slender frame.  
+~
+human~
+AG 0 0 0
+18 18 37d6+182 18d10+85 6d3+14 slap
+-2 -2 -2 0
+0 0 0 0
+stand stand none 50
+AHMV ABCDEFGHIJK medium unknown
+'none'
+M RANDOM 3901 1~
+M RANDOM 3900 1~
+#3904
+adventurer drunk newbie~
+a drunken adventurer~
+A drunken young adventurer is slumped over one of the tables.
+~
+A jaunty fedora covers most of the adventurer's face, and battered
+leather equipment lends bulk to an otherwise slim figure.  
+~
+human~
+ABG d 0 0
+7 7 15d2+71 7d10+85 2d3+8 slice
+4 4 4 6
+0 0 0 0
+sleep rest either 50
+AHMV ABCDEFGHIJK medium unknown
+'none'
+#0
+
+
+
+#ZOBJECTS
+#3900
+mug ale~
+a mug of ale~
+A mug of dark, frothy ale sits on the table.~
+unknown~
+drink 0 AO
+4 4 'dark ale' 0 0
+1 3 2 P
+#3901
+glass wine~
+a glass of wine~
+A glass of cheap red wine sits on the table.~
+unknown~
+drink 0 AO
+4 4 'red wine' 0 0
+1 2 3 P
+#3902
+bowl squirrel stew~
+a bowl of squirrel stew~
+A steaming bowl of squirrel stew is sitting on the table.~
+unknown~
+food 0 AO
+0 0 0 0 0
+1 4 5 P
+#3903
+jawharp jaw harp~
+a jawharp~
+A jawharp is twanging softly in the breeze.~
+tin~
+treasure 0 AO
+0 0 0 0 0
+1 2 10 P
+#3904
+knapsack~
+a knapsack~
+A simple knapsack is hanging from a stick.~
+cotton~
+container 0 AO
+20 AC 0 50 100
+1 1 10 P
+#3905
+sandwich pbj peanut butter jelly~
+a peanut butter and jelly sandwich~
+A peanut butter and jelly sandwich is wrapped neatly in a paper sack.~
+unknown~
+food 0 AO
+A A 0 0 0
+1 1 1 P
+#3906
+note~
+a note from Mom~
+A note from somebody's mother lies abandoned here.~
+paper~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+E
+note~
+Here are some sandwiches for your adventures.  Remember to feed the pigs
+on your way out, and be back before dark!  
+Love,
+Mom
+~
+#0
+
+
+
+#ZROOMS
+#3900
+Road Through the Plains~
+A wide road paved with flat chunks of blue-gray flagstone runs east-west
+through a peaceful stretch of farmland.  Fields of corn and soybeans stretch
+to the northern and southern horizons, while to the east the occasional
+stands of oak thicken into a deep forest.  The road leads west to the high
+walls of Midgaard.  
+~
+0 0 1
+D1
+~
+~
+0 0 3901
+D3
+~
+~
+0 0 3053
+S
+#3901
+Road in the Light Forest~
+Stands of oak, hickory and chestnut trees are scattered about a gently
+rolling landscape here, with fallow fields and grazing lands in between
+them.  To the west, the road runs through bucolic farmland; to the east, it
+crosses a bridge and disappears underneath the cover of a thick forest.  A
+dirt road leads north, while a marble road leads south.  
+~
+0 0 1
+D0
+~
+~
+0 0 3922
+D1
+~
+~
+0 0 3902
+D2
+~
+~
+0 0 20900
+D3
+~
+~
+0 0 3900
+S
+#3902
+Bridge Over the Fulem~
+A stone bridge crosses the meandering Fulem river here.  Trees cluster
+thickly on both banks, dropping the occasional leaf onto the surface of the
+water.  The forest thickens to the east, and the farmland surrounding
+Midgaard is visible to the west.  
+~
+0 0 1
+D1
+~
+~
+0 0 3903
+D3
+~
+~
+0 0 3901
+S
+#3903
+Road in the Forest~
+The trade road, paved with rounded cobblestones, cuts through a dense
+deciduous forest here.  Branches interlock above the road to form a thick
+canopy, which filters out most of the light coming from overhead.  Dark
+mosses grow on the trunks of the trees.  A bridge is visible to the west,
+and a faint path leads through the trees to the north.  The road continues
+to the east.  
+~
+0 0 1
+D0
+~
+~
+0 0 29100
+D1
+~
+~
+0 0 3904
+D3
+~
+~
+0 0 3902
+S
+#3904
+Road in the Forest~
+Shadows dapple the surface of the road here, as the light filters down
+from a thick canopy of branches overhead.  Birds call back and forth in the
+distance.  The road continues east and west.  To the north, you can see a
+faint path leading towards a particularly large and inviting group of trees.
+~
+0 0 1
+D0
+~
+~
+0 0 8950
+D1
+~
+~
+0 0 3905
+D3
+~
+~
+0 0 3903
+S
+#3905
+Road in the Forest~
+The side of the road is lined with thorny scraggles of underbrush, which
+eke out a living from the thin light filtering down from the interlocking
+branches overhead.  A dirt path leads off to the south, and the road
+continues east and west.  
+~
+0 0 1
+D1
+~
+~
+0 0 3906
+D2
+~
+~
+0 0 3919
+D3
+~
+~
+0 0 3904
+S
+#3906
+Road Through the Forest~
+Twigs and old leaves coat the pitted, uneven cobblestones of this section
+of the road.  A dim light filters down from the forest canopy overhead,
+giving everything a mottled gray pall.  The road stretches east and west.  
+~
+0 0 1
+D1
+~
+~
+0 0 3907
+D3
+~
+~
+0 0 3905
+S
+#3907
+Road Through the Forest~
+The road here is wide, made of dirt, and coated in twigs, leaves, and
+hardy little weeds.  Every few feet, a couple of cobblestones are still in
+place, but most of the road doesn't even show the potholes where the cobbles
+used to be.  The surrounding forest is an even mixture of conifers and
+deciduous trees, with even the occasional redwood standing tall in the
+distance.  
+~
+0 0 2
+D1
+~
+~
+0 0 3908
+D3
+~
+~
+0 0 3906
+S
+#3908
+Road Through the Forest~
+A thick forest composed mainly of pine trees and skyscraping redwoods
+surrounds the wide dirt road.  Scrub brush and weeds cluster thickly at the
+edges, and the center is marked by two parallel grooves.  The road slopes
+uphill to the east, where a line of mountains rises up against the horizon. 
+To the west, the forest seems to turn a lighter shade of green.  An old
+wooden building stands in a small clearing on the south side of the road.  
+~
+0 0 2
+E
+building~
+The building is made entirely of weathered wooden planks.  A sign above
+the entrance says "Welcome to the Redwood Inn - Try Our Squirrel Stew!"  
+~
+D1
+~
+~
+0 0 3909
+D2
+~
+~
+0 0 3910
+D3
+~
+~
+0 0 3907
+S
+#3909
+Road Through the Foothills~
+Light, sparkling gravel covers the road bed as it runs over a series of
+foothills.  Thick clumps of pine trees cluster in between open areas of
+grass and wildflowers, and the chirps of songbirds carry for great distances
+in the clear air.  The road bends in a wide circle, continuing south and
+west, while a fainter path climbs eastward.  
+~
+0 0 2
+D1
+~
+~
+0 0 3920
+D2
+~
+~
+0 0 3911
+D3
+~
+~
+0 0 3908
+S
+#3910
+The Redwood Inn~
+Smoke and the smell of cooking animal fats fills this long, low room.  A
+stone fireplace is set into the western wall, and a warm fire crackles and
+pops inside it.  Round wooden tables are scattered about the uneven pine
+boards of the floor.  
+~
+0 8 0
+E
+fireplace~
+The rounded stones of the fireplace bear a suspicious resemblance to the
+cobblestones on the eastern sections of the trade road.  
+~
+D0
+~
+~
+0 0 3908
+S
+#3911
+Road Through the Foothills~
+Thick grasses and brambles cover the steep slopes of the surrounding
+foothills, interrupted by the occasional pine.  The eastern sky is covered
+by a line of craggy mountain peaks; the road rises steeply upwards in that
+direction to meet them.  Northwards, the road descends through the
+foothills.  
+~
+0 0 4
+D0
+~
+~
+0 0 3909
+D1
+~
+~
+0 0 3912
+S
+#3912
+Road Over the Mountains~
+The road here is little more than a worn stone path between weathered
+granite outcrops.  Small pine trees cling determinedly at odd angles to
+cracks in the rock, and lichens cover the southern faces of the boulders. 
+Far below to the west, the greenish haze of a thick forest is visible; to
+the east, the road climbs further up the mountains.  A small path wanders
+off to the north.  
+~
+0 0 5
+D0
+~
+~
+0 0 9201
+D1
+~
+~
+0 0 3913
+D3
+~
+~
+0 0 3911
+S
+#3913
+Mountain Pass~
+A faint path winds its way between rugged mountain peaks.  The air is
+cool and thin, and patches of snow lie in the shadows of the rocks.  Below
+to the west, puffy cumulus clouds scuttle by, halting to swarm at the edge
+of the mountain range.  To the east, tawny desert sands spread out to a deep
+blue ocean in the distance.  
+~
+0 0 5
+D1
+~
+~
+0 0 3914
+D3
+~
+~
+0 0 3912
+S
+#3914
+Road Over the Mountains~
+The road here clings precariously to a jagged wall of rock, obviously not
+of natural origin.  On the other side of the path, a steep descent leads to
+a jumbled pile of very sharp rocks.  The amorphous faces of fractured quartz
+pebbles sparkle underfoot, and large, dull chunks of feldspar protrude from
+the mountain face.  The road climbs into the mountains to the west, and to
+the east, the foothills and a vast expanse of desert stretch out below you. 
+~
+0 0 0
+D1
+~
+~
+0 0 3915
+D3
+~
+~
+0 0 3913
+S
+#3915
+Road in the Foothills~
+Small gullies run downhill away from the packed dirt and gravel of the
+road bed at regular intervals here.  Rounded, bristling cactuses and
+thick-leaved yucca plants grow between strewn boulders, and dry tumbleweeds
+scuttle across the sands.  The road descends into the desert to the east,
+and climbs in slow switchbacks up the mountains to the west.  
+~
+0 0 0
+D1
+~
+~
+0 0 3916
+D3
+~
+~
+0 0 3914
+S
+#3916
+Road Through the Desert~
+Shifting grains of sand cover the hardened surface of the road as it
+crosses the desert.  Short, round cactuses dot the sands, surrounded by a
+blur of prickles.  Tall mountains obscure the western horizon, and to the
+east, the road leads further across the arid landscape.  
+~
+0 0 10
+D1
+~
+~
+0 0 3917
+D3
+~
+~
+0 0 3915
+S
+#3917
+Road Through the Desert~
+Waves of heat rise from the sands all around you, obscuring the distant
+horizon.  Cactuses in widely varied forms are scattered about, bristling
+with thorns.  A dark line across the western horizon resembles a foggy
+mountain range, and to the east, a dark blot sits on the edge of visibility.
+~
+0 0 10
+D1
+~
+~
+0 0 3918
+D3
+~
+~
+0 0 3916
+S
+#3918
+Road Through the Desert~
+A thick drift of sparkling quartz sand covers the road here.  Small,
+squat cactuses grow alongside the way, and taller columnar forms grow
+further off to the side of the path.  To the east, the city walls of New
+Thalos rise out of the desert, brightly colored banners waving from inside. 
+To the west, the desert stretches to the horizon.  
+~
+0 0 0
+D1
+~
+~
+0 0 9669
+D3
+~
+~
+0 0 3917
+S
+#3919
+Path in the Forest~
+A thin path curves around old gray tree trunks and clotted, thorny
+bushes.  To the north, a clear area is visible where the eastern trade road
+cuts through the forest; to the south, the path intersects another, equally
+narrow trail.  
+~
+0 0 3
+D0
+~
+~
+0 0 3905
+D2
+~
+~
+0 0 6100
+S
+#3920
+Path in the Foothills~
+A dirt path runs between tumbled boulders and stands of pine as it
+crosses the foothills.  To the east, mountains crowd the sky, and to the
+west the green spread of a forest is visible.  The path continues to the
+east, and merges with a well-traveled trade road to the west.  A faded sign
+is visible at the end of a short dusty track to the south.  
+~
+0 0 4
+D1
+~
+~
+0 0 6562
+D2
+~
+~
+0 0 3921
+D3
+~
+~
+0 0 3909
+S
+#3921
+Track in the Foothills~
+A pile of boulders stands near the mouth of a shallow canyon here. 
+Almost hidden in the shadow of several of the largest rocks is a rough
+staircase leading down into the ground.  A faded sign is propped up nearby,
+against a small cairn of stones.  
+~
+0 0 0
+E
+sign~
+After the Creation, the cruel god Moloch rebelled against the authority
+of Marduk the Creator.  Moloch stole from Marduk the most powerful of all
+the artifacts of the gods, the Amulet of Yendor, and he hid it in the dark
+cavities of Gehennom, the Under World, where he now lurks, and bides his
+time.  
+ 
+You, a newly trained mudder, have been heralded from birth as the instrument
+of Mota. You are destined to recover the Amulet for your deity, or die in
+the attempt. Your hour of destiny has come. For the sake of us all: Go bravely
+with Mota!
+~
+D0
+~
+~
+0 0 3920
+D5
+~
+~
+0 0 170
+S
+#3922
+Dirt Road in the Woods~
+A rutted dirt road wanders through sunny fields and between stands of
+tall, slender trees.  The meadows are populated with stumps, some fresh,
+some well decayed.  The road leads north and south.  
+~
+0 0 0
+D0
+~
+~
+0 0 3923
+D2
+~
+~
+0 0 3901
+S
+#3923
+Dirt Road in the Countryside~
+A wide dirt road, deeply scored with wagon ruts, runs through gently
+rolling fields and light woods.  Crumbling stone walls bisect some of the
+fields.  A path leads off to the east.  To the north, the road narrows to a
+thin trail.  
+~
+0 0 0
+D0
+~
+~
+0 0 7915
+D1
+~
+~
+0 0 1400
+D2
+~
+~
+0 0 3922
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 0 3903 1 3903 1 Load a wandering minstrel
+G 0 3903 0 A jawharp is given to a wandering minstrel
+M 0 3901 2 3906 2 Load a squirrel
+M 0 3900 1 3910 1 Load the innkeeper
+G 0 3902 0 A bowl of squirrel stew is given to the innkeeper
+G 0 3901 0 A glass of wine is given to the innkeeper
+G 0 3900 0 A mug of ale is given to the innkeeper
+M 0 3904 1 3910 1 Load a drunken adventurer
+G 0 3904 0 A knapsack is given to a drunken adventurer
+P 0 3906 1 3904 1 A note from mom put inside a note from Mom
+P 0 3905 1 3904 1 A peanut butter and jelly sandwich put inside a peanut butter and jelly sandwich
+S
+
+
+
+#SHOPS
+3900 0 0 0 0 0 120 100 0 23
+0
+
+
+
+#ZMPROGS
+#3900
+(null)~
+emote sings "Bravely bold Sir Robin rode forth from Camelot"
+emote sings "He was not afraid to die, oh brave Sir Robin"
+emote sings "He was not at all afraid to be killed in nasty ways"
+emote sings "Brave brave brave brave Sir Robin"
+~
+#3901
+(null)~
+emote sings "His head smashed in, and his heart cut out"
+emote sings "And his liver removed, and his bowels unplugged"
+emote sings "And his nostrils raped, and his bottom burned off"
+emote sings "And his penis..."
+echo A nasal voice, coming from nowhere in particular, cries out "Will you shut up?"
+emote abruptly stops singing.
+~
+#3902
+(null)~
+hiccup
+moan
+~
+#0
+
+#$

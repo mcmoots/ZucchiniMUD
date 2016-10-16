@@ -1,0 +1,509 @@
+#AREADATA
+Name The Lawn~
+Builders Antioch~
+VNUMs 3480 3499
+Credits {g[{G110 120{g]{w Antioch  {gThe Lawn{x~
+Security 2
+End
+
+
+
+#MOBILES
+#3480
+krikkit robot~
+a Krikkit Robot~
+A ruthless little Krikkit Robot searches for parts of the key.
+~
+~
+human~
+AT BFJ 0 0
+120 120 241d40+3271 120d9+60 37d3+59 laser
+-67 -67 -67 -42
+CEFHIOU LPQ T JK
+stand stand none 20000
+AHMV ABCDEFGHIJK medium unknown
+#3481
+random person member masses~
+a random person~
+A member of the endless masses mills about here.
+~
+~
+human~
+ACG 0 100 0
+110 110 221d36+2001 110d9+60 34d3+54 thwack
+-61 -61 -61 -37
+0 0 0 0
+stand stand either 0
+AHMV ABCDEFGHIJK medium unknown
+#3482
+random adventurer~
+a random adventurer~
+An adventurer scampers through attacking everything that moves!
+~
+~
+hooloovoo~
+ACFGHRT TU 0 0
+115 115 231d38+2091 115d9+60 36d3+57 none
+-64 -64 -64 -40
+G 0 DE COPS
+stand stand either 11500
+CHKS EF medium unknown
+#0
+
+
+
+#OBJECTS
+#3480
+plastic shopping bag~
+a large plastic shopping bag~
+A large plastic shopping bag which reads (in Centaurian) "Duty Free Mega-Market, Port Brasta, Alpha Centauri. Be like the twenty-second elephant with heated value in space - Bark!"~
+unknown~
+container Y AO
+400 C 0 0 5
+110 5 10 P
+#3481
+fighting towel~
+a fightin' towel~
+A small towel that has been dipped in water and wound up~
+cloth~
+weapon B AN
+whip 22 16 whip DEH
+115 10 6400 P
+A
+19 10
+A
+18 10
+#3482
+krikkit bat~
+a krikkit war bat~
+A large orange bat sits on the ground, begging to be used.~
+unknown~
+weapon AB AN
+mace 24 17 beating EG
+120 50 200 P
+#3483
+fountain ornate~
+an ornate fountain~
+An ornate fountain spews water about within its confines.~
+unknown~
+fountain 0 0
+10000 10000 'water' 0 0
+0 0 0 P
+#3484
+silver plaque~
+a plaque~
+A small {wsilver{x plaque is suspended in the air.~
+unknown~
+treasure B 0
+0 0 0 0 0
+0 0 0 P
+E
+plaque~
+I am Antioch, and I have built this Lawn.  It was completed on May Twenty
+Fourth in the Year of Our Lord Two Thousand and One at about 11:30 at
+night...  :P Do enjoy.  I leave it for posterity.  
+~
+#3485
+sign~
+a sign~
+A warning sign flashes at you.~
+unknown~
+treasure A 0
+0 0 0 0 0
+0 0 0 P
+E
+sign~
+This is a HIGH LEVELED area, level 110-120, if you are under that level
+use EXTREME CAUTION, some of these mobs ARE aggravated.  It is recomended
+that you be invisible and/or sneaking when you enter this area to protect
+yourself.  
+~
+#0
+
+
+
+#ROOMS
+#3480
+The Center of the Lawn~
+You stand in the center of a large lawn, almost park-like in size.  In
+the very center is a fountain.  A concrete path surrounds it and branches
+spoke off like a wheel from it outwards to the edges of the lawn. 
+Comfortable looking sets of tables and chairs are placed with no discernable
+pattern about the lawn, and some people casually sit or stroll about.  
+~
+0 0 0
+D0
+~
+~
+0 0 3481
+D1
+~
+~
+0 0 3482
+D2
+~
+~
+0 0 3484
+D3
+~
+~
+0 0 3483
+S
+#3481
+The Not-So-Center of the Lawn (Northwards)~
+Following a path northwards a little bit (hey, how'd you know which way
+north was?)  You find much of the same.  The lawn extends out from where you
+are quite a ways.  White marble statues decorate it at places, and to the
+south is the fountain.  People mill about trying to find something to do,
+and occationally a rash adventurer comes by and kills them.  
+~
+0 0 0
+D0
+~
+~
+0 0 3489
+D2
+~
+~
+0 0 3480
+S
+#3482
+The Not-So-Center of the Lawn (Eastwards)~
+As the path meanders towards what you think may be the east, you come
+across a large statue in the middle of the path, which the path splits
+around in a circle before joining up with itself on the other side.  The
+statue shows a man cowering in fear of some object, which is presumably
+larger than he is, as he seems to be looking up at it.  The artist did a
+wonderful job of rendering the fear in his expression.  Sadly the statue is
+also adorned with many pigeons and their...  presents.  
+~
+0 0 0
+D1
+~
+~
+0 0 3487
+D3
+~
+~
+0 0 3480
+S
+#3483
+The Not-So-Center of the Lawn (Westwards)~
+The path here goes what must be west for a little ways and then splits
+into 7 other paths, which meander about and around each other, before
+joining back into one path about two hundred more feet west.  Each of the
+paths is decorated with side-walk chalk.  From the looks of most of the
+scrawlings small children are most likely responsible.  There are depictions
+of people under the bright sun, hop scotch boards, and shuffle board
+markings.  People mill about using the scrawlings for games or gazing at the
+"breath-taking" artwork.  
+~
+0 0 0
+D1
+~
+~
+0 0 3480
+D3
+~
+~
+0 0 3491
+S
+#3484
+The Not-So-Center of the Lawn (Southwards)~
+A large obelisk sits in the center of the path.  It's obsidian black and
+seems to have small things carved on it.  At first guess you think they must
+be letters, but they're not from any alphabet you recognize.  The obelisk
+must be ancient, and indeed there are some people who are on their knees
+before it, worshiping it.  
+~
+0 0 0
+D0
+~
+~
+0 0 3480
+D2
+~
+~
+0 0 3485
+S
+#3485
+Along the Southern Path~
+To the east and west lie the lawn, vast and green.  People romp about
+killing each other.  It's a grand place.  To the south you can see a large
+barrier in the near distance, to the north lies the rest of the lawn.  
+~
+0 0 0
+D0
+~
+~
+0 0 3484
+D2
+~
+~
+0 0 3486
+S
+#3486
+The Southern Edge of the Lawn~
+A large barrier of some kind blocks any further southward movement.  You
+feel a sadness in your heart for not being able to go south anymore.  To the
+west a large wall exists, spray-painted in crude letters are the words "I
+RAN OUT OF SPACE".  Cryptic as they are, you can't quite figure out their
+meaning.  To the east, the path through the lawn, the large southern barrier
+everpresent.  
+~
+0 0 0
+D0
+~
+~
+0 0 3485
+D1
+~
+~
+0 0 3494
+S
+#3487
+Along the Eastern Path~
+You walk along the eastern path and see people trying to find some way to
+avoid the constant flow of bloodthirsty adventurers.  Signs have been posted
+all over reading things like "Save the Mobs!"  "Please don't kill us!"  and
+"The End is near!"  
+~
+0 0 0
+D1
+~
+~
+0 0 3488
+D3
+~
+~
+0 0 3482
+S
+#3488
+The Eastern Edge of the Lawn~
+Three paths converge here.  One from the north, one from the south, and
+one from the west.  Further east you see nothing but an endless void.  To
+the north and south the path continues along the edge of the lawn.  Going
+west will get you deeper into the lawn.  
+~
+0 0 0
+D0
+~
+~
+0 0 3496
+D2
+~
+~
+0 0 3497
+D3
+~
+~
+0 0 3487
+S
+#3489
+Along the Northern Path~
+Shrubs line the path.  Large plants sculpted to look like animals stand
+just off path.  Parts of the sidewalk are cracked and cratered here, as if
+they had been his with very large, massive objects.  Now that you look,
+parts of the lawn are also cratered, it almost looks like they've been hit
+with very small meteors.  
+~
+0 0 0
+D0
+~
+~
+0 0 3490
+D2
+~
+~
+0 0 3481
+S
+#3490
+The Northern Edge of the Lawn~
+As you reach the end of the path it just kind of drops off into
+nothingness.  Steel rehabber juts out from under the sidewalk, it is twisted
+and mangled.  It looks as if something just ripped off what used to be past
+this point.  Looking out all you can see it the endless void of sky, and you
+get a little dizzy as you boggle at it's immenseness.  
+~
+0 0 0
+D1
+~
+~
+0 0 3493
+D2
+~
+~
+0 0 3489
+S
+#3491
+Along the Western Path~
+The further west you go, the fewer people there seem to be.  At this point
+most of what you see is grass, and some shrubs.  Off the path there are two
+knights duelling, over what, you cannot tell.  The path continues east and
+west of here.  
+~
+0 0 0
+D1
+~
+~
+0 0 3483
+D3
+~
+~
+0 0 3492
+S
+#3492
+The Western Edge of the Lawn~
+As you climb through the hole in the large concrete structure, you find
+yourself in a lawn of some sort.  Three high concrete walls surround you to
+the north, west and south.  The hole you climbed through is in the western
+wall.  These walls extend up at least 3 stories and seem to loom over you. 
+A small warning sign has been posted here, and the only exits are back into
+the hole, or to the east.  
+~
+0 4 0
+D1
+~
+~
+0 0 3491
+D3
+~
+~
+8 0 3118
+S
+#3493
+The Northern Edge of the Lawn~
+Along the northern side of the path is just a very, very steep drop off. 
+So steep one might call it infinite, because it is.  To the south is the
+lawn, pristine and perfect, except the the large craters left by
+spellslinging adventurs and the numerours corpses.  The path continues east
+and west.  
+~
+0 0 0
+D1
+~
+~
+0 0 3495
+D3
+~
+~
+0 0 3490
+S
+#3494
+The Southern Edge of the Lawn~
+The large barrier continues to limit any ability to travel southwards,
+the lawn itself extends northwards for some distance.  The path goes east
+and west and east and west and east and west and...  East!  
+~
+0 0 0
+D1
+~
+~
+0 0 3498
+D3
+~
+~
+0 0 3486
+S
+#3495
+The Northeast Corner of the Lawn~
+This is where two paths converge.  A large sign is posted at the corner,
+which reads "Do not pass this point".  Looking beyond it you can see why:
+There is nothing.  Not sky, not land, not sea, not space.  It would be bad
+to go there...  
+~
+0 0 0
+D2
+~
+~
+0 0 3496
+D3
+~
+~
+0 0 3493
+S
+#3496
+The Eastern Edge of the Lawn~
+The endless void extends out to the east.  To the west is the lawn,
+cratered and littered with corpses.  The path leads north and south.  
+~
+0 0 0
+D0
+~
+~
+0 0 3495
+D2
+~
+~
+0 0 3488
+S
+#3497
+The Eastern Edge of the Lawn~
+The path runs north and south.  The barriers extends from the south and
+continues to lower, you can finally see over it.  Past the barrier is a
+large void of nothingness.  It's rather unimpressive, except that it gives
+you a sense of vertigo.  
+~
+0 0 0
+D0
+~
+~
+0 0 3488
+D2
+~
+~
+0 0 3498
+S
+#3498
+The Southeast Corner of the Lawn~
+The large barrier takes a sharp turn northwards, and so does the path. 
+Just after turning northwards the barrier starts to come lower to the
+ground, although you can't quite see what's past it yet.  
+~
+0 0 0
+D0
+~
+~
+0 0 3497
+D3
+~
+~
+0 0 3494
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 0 3480 4 3480 4
+E 0 3482 0 16
+M 0 3481 5 3480 5
+O 0 3483 0 3480
+M 0 3482 3 3480 3
+E 0 3481 0 16
+O 0 3484 0 3480
+M 0 3481 5 3481 5
+M 0 3480 4 3481 4
+E 0 3482 0 16
+M 0 3481 5 3482 5
+M 0 3480 4 3482 4
+E 0 3482 0 16
+M 0 3480 4 3483 4
+E 0 3482 0 16
+M 0 3481 5 3483 5
+M 0 3482 3 3486 3
+E 0 3481 0 16
+M 0 3482 3 3489 3
+E 0 3481 0 16
+S
+
+
+#SHOPS
+0
+
+#$

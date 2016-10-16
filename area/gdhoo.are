@@ -1,0 +1,3401 @@
+#AREADATA
+Name Glen Dhoo~
+Builders None~
+VNUMs 29100 29199
+Levels 20 40
+Credits {g[{G20 40{g]{x Kandahar Glen Dhoo~
+Security 9
+End
+
+
+
+#ZMOBILES
+#29100
+imp~
+an imp~
+An imp grins broadly. 
+~
+This imp has obviously nothing better to do than to poke his nose into
+other people's businesses. He is small and lithe with long pointy fingers.
+He wears an impish grin. 
+~
+elf~
+A J -500 0
+30 60 1d1+1499 1d1+999 4d22+30 claw
+-9 -9 -9 -9
+0 0 B Z
+stand stand male 1500
+AHMV ABCDEFGHIJK small unknown
+'none'
+M RANDOM 29100 15~
+#29101
+mist sprite~
+a mist sprite~
+A mist sprite hovers in the air. 
+~
+This mist sprite darts in and out of the spray whether it be by the
+waterfall or purely in her imagination. She is quite a sight to behold. 
+~
+elf~
+AGHR BJ 0 0
+40 80 1d1+3999 1d1+999 2d60+40 magic
+-12 -12 -12 -12
+G 0 B Z
+stand stand female 2000
+AHMV ABCDEFGHIJK medium unknown
+'none'
+M RANDOM 29101 15~
+#29102
+pixie~
+a pixie~
+A pixie dances gaily within the circle. 
+~
+This pixie is a cheerful looking person and dances to a different tune
+within the toadstool circle. 
+~
+elf~
+ABGQ JPQ 0 0
+50 100 1d1+4999 1d1+999 6d25+50 scratch
+-15 -15 -15 -15
+N 0 B Z
+stand stand none 2500
+AHMV ABCDEFGHIJK small unknown
+'none'
+M RANDOM 29102 15~
+#29103
+mist wraith~
+a mist wraith~
+An image forms in the mist. 
+~
+This mist wraith enjoys your confusion as it darts around avoiding your
+blows, almost dissolving into the mist itself. 
+~
+elf~
+AGO BJT -200 0
+45 90 1d1+4499 1d1+999 4d33+45 chill
+-13 -13 -13 -13
+H 0 BDHM CINZ
+stand stand male 2250
+AHMV ABCDEFGHIJK small unknown
+'none'
+#29104
+faerie~
+a faerie~
+A faerie flits around looking busy. 
+~
+This male faerie seems to have a lot to do. He dashes around making sure
+the princess has everything she needs. 
+~
+elf~
+ABGT BJT 750 0
+35 70 1d1+3499 1d1+999 4d26+35 punch
+-10 -10 -10 -10
+DK 0 B Z
+stand stand male 1750
+AHMV ABCDEFGHIJK small unknown
+'none'
+M RANDOM 29104 15~
+#29105
+faerie princess~
+a faerie princess~
+A faerie princess glares at you imperiously. 
+~
+This little faerie is not the sweet and lovely creature described in the
+fairy-tale books that you read as a child. She is haughty and imperious and
+a little too fond of her mirror. 
+~
+elf~
+ABGR BJ 750 0
+35 70 1d1+3499 1d1+999 3d35+35 slap
+-10 -10 -10 -10
+N 0 B Z
+stand stand female 1750
+AHMV ABCDEFGHIJK small unknown
+'none'
+M RANDOM 29105 15~
+#29106
+spider~
+a spider~
+A spider waits for prey. 
+~
+This spider looks at you with its beady eyes. It has woven a web and now
+it is waiting for some hapless soul to get trapped in it. 
+~
+centipede~
+ABGT JZ 0 0
+36 72 1d1+3599 1d1+999 2d54+36 bite
+-10 -10 -10 -10
+FH D FI E
+stand stand male 1800
+ABGO ACK small unknown
+'none'
+M RANDOM 29106 15~
+#29107
+spider queen~
+a queen spider~
+A queen spider watches you intently. 
+~
+This queen spider is longing to sink her fangs into you. Large in body,
+small in mind, she could do with the distraction. 
+~
+centipede~
+ABFGT JQZ 0 0
+36 72 1d1+3599 1d1+999 4d27+36 sting
+-10 -10 -10 -10
+J C FI E
+stand stand female 1800
+ABGO ACK medium unknown
+'none'
+#29108
+warrior ant~
+a warrior ant~
+A warrior ant defends the colony. 
+~
+This warrior ant loves to fight. It lets the other ants do their own
+thing as it likes to defend the colony. 
+~
+centipede~
+ABFGTY JZ 0 0
+32 64 1d1+3199 1d1+999 5d19+32 bite
+-9 -9 -9 -9
+F 0 FI E
+stand stand female 1600
+ABGO ACK medium unknown
+'none'
+#29109
+ant worker~
+a worker ant~
+An ant repairs the wall. 
+~
+This ant has too much to do to worry about what you are up to. You
+probably ought to let her get on with it. 
+~
+centipede~
+ABGOY JVZ 0 0
+33 66 1d1+3299 1d1+999 5d19+33 sting
+-9 -9 -9 -9
+0 0 FI E
+stand stand female 1650
+ABGO ACK small unknown
+'none'
+#29110
+bee~
+a bee~
+A bee buzzes around the hive. 
+~
+This bee is buzzily working in the hive. It doesn't like uninvited
+guests. Best leave, don't you think? 
+~
+centipede~
+ABFGQY JZ 750 0
+30 60 1d1+1499 1d1+999 1d90+30 sting
+-9 -9 -9 -9
+0 0 FI E
+stand stand female 1500
+ABGO ACK medium unknown
+'none'
+#29111
+centaur~
+a centaur~
+A centaur stands here nonchalantly. 
+~
+This centaur gazes at you with soft brown eyes, as if trying to lure you
+under his spell. He does look rather handsome.... 
+~
+kobold~
+AGR J 0 0
+40 80 1d1+3999 1d1+999 1d120+40 smash
+-12 -12 -12 -12
+FH 0 L C
+stand stand male 2000
+ABGHMV ABCDEFGHIJKQV medium unknown
+'none'
+M RANDOM 29111 15~
+#29112
+centaur princess~
+a centaur princess~
+A centaur princess bats her eyelashes at you. 
+~
+This centaur princess is used to getting her own way. Look at how she
+plays with your affections... 
+~
+kobold~
+AGRW J 0 0
+40 80 1d1+3999 1d1+999 3d40+40 whip
+-12 -12 -12 -12
+J 0 L C
+stand stand female 2000
+ABHMV ABCDEFGHIJKQ medium unknown
+'none'
+M RANDOM 29112 15~
+#29113
+high elf~
+a high elf~
+An elf scouts for game through the trees. 
+~
+This elf looks at you rather haughtily before continuing to scout for his
+target through the trees. 
+~
+elf~
+AGSW BJQ 0 0
+42 84 1d1+4199 1d1+999 1d126+42 scratch
+-12 -12 -12 -12
+F 0 B Z
+stand stand male 2100
+AHMV ABCDEFGHIJK medium unknown
+'none'
+M RANDOM 29113 15~
+#29114
+wood elf~
+a wood elf~
+A wood elf emits a high-pitched whistle. 
+~
+This elf has seen something and is calling for help. Any minute now a
+dutiful band of elves will rush to this spot! 
+~
+elf~
+AGTW JPQ 0 0
+47 94 1d1+4699 1d1+999 3d47+47 scratch
+-14 -14 -14 -14
+KR 0 B Z
+stand stand male 2350
+AHMV ABCDEFGHIJK medium unknown
+'none'
+M RANDOM 29114 15~
+#29115
+squirrel~
+a squirrel~
+A squirrel peeks at you. 
+~
+This squirrel has soft eyes and a cute little face. It hides behind its
+hands as it peeks at you. 
+~
+rabbit~
+ACGS PV 0 0
+37 74 1d1+3699 1d1+999 6d18+37 claw
+-11 -11 -11 -11
+FH 0 0 0
+stand stand none 1850
+AGV ACDEFHJK medium unknown
+'none'
+M RANDOM 29115 15~
+#29116
+hedgehog~
+a hedgehog~
+A hedgehog rolls itself into a ball. 
+~
+You can't see much of this creature from this angle. Perhaps if you leave
+it alone, it can continue on its way. 
+~
+rabbit~
+AGT Pd 0 0
+38 76 1d1+3799 1d1+999 4d28+38 stab
+-11 -11 -11 -11
+0 0 C 0
+stand stand none 1900
+AGV ACDEFHJK small unknown
+'none'
+F off FH
+M RANDOM 29116 15~
+#29117
+badger~
+a badger~
+A badger snuffles along the tunnel. 
+~
+This badger looks happy in its surroundings, gnawing on old bones and
+crunching up insects who dare to cross its path. 
+~
+rabbit~
+AGOY Vac 0 0
+50 100 1d1+4999 1d1+999 4d37+50 claw
+-15 -15 -15 -15
+FH 0 0 0
+stand stand none 2500
+AGV ACDEFHJK medium unknown
+'none'
+M RANDOM 29117 15~
+#29118
+fox~
+a fox~
+A fox barks at your intrusion. 
+~
+This fox doesn't appear to appreciate your company. Perhaps you had
+better leave it alone. 
+~
+fox~
+ABGTY JZ 0 0
+31 62 1d1+3099 1d1+999 5d18+31 bite
+-9 -9 -9 -9
+FH 0 0 0
+stand stand none 1550
+AGV ACDEFHJKQV medium unknown
+'none'
+#29119
+fieldmouse fluff~
+a fieldmouse~
+A bit of fluff lies on the ground. 
+~
+What looks like a bit of fluff lying on the ground is actually living
+tissue! But how tiny it is! 
+~
+rabbit~
+ABGT 0 0 0
+39 78 1d1+3899 1d1+999 1d117+39 bite
+-11 -11 -11 -11
+FH 0 0 0
+stand stand none 1950
+AGV ACDEFHJK small unknown
+'none'
+#29120
+dormouse~
+a dormouse~
+A dormouse cleans its whiskers. 
+~
+This dormouse is busily cleaning its whiskers after a meal. It is hard to
+tell what it has just been eating as there is nothing in sight. 
+~
+rabbit~
+AGT 0 0 0
+41 82 1d1+4099 1d1+999 2d61+41 scratch
+-12 -12 -12 -12
+FH 0 0 0
+stand stand none 2050
+AGV ACDEFHJK tiny unknown
+'none'
+#29121
+sprite~
+a sprite~
+A sprite grins cheekily. 
+~
+This sprite is a cheeky little creature. It has a big grin and a heart to
+match. 
+~
+elf~
+AGR BJ 0 0
+34 68 1d1+3399 1d1+999 6d17+34 slap
+-10 -10 -10 -10
+0 0 B Z
+stand stand none 1700
+AHMV ABCDEFGHIJK medium unknown
+'none'
+#29122
+robin~
+a robin~
+A robin redbreast chirps cheerfully. 
+~
+This cheeky little fellow hops along inspecting everything. You'd think
+it was HIS forest! ! 
+~
+song bird~
+AGS T 0 0
+43 86 1d1+4299 1d1+999 6d21+43 peckb
+-12 -12 -12 -12
+FH 0 0 0
+stand stand male 2150
+AGW ACDEFHKP tiny unknown
+'none'
+M RANDOM 29122 15~
+#29123
+hummingbird~
+a hummingbird~
+A hummingbird hovers in the air. 
+~
+This hummingbird is the tiniest little bird that you ever did see. It
+darts around redistributing pollen to all the flowers in the vicinity. 
+~
+song bird~
+AGQ T 0 0
+44 88 1d1+4399 1d1+999 3d44+44 peckb
+-13 -13 -13 -13
+FH 0 0 0
+stand stand none 2200
+AGW ACDEFHKP tiny unknown
+'none'
+M RANDOM 29123 15~
+#29124
+woodpecker~
+a woodpecker~
+A woodpecker flies to a nearby tree. 
+~
+This woodpecker hammers away at a nearby tree, causing sawdust and bits
+of bark to go shooting off in all directions. 
+~
+song bird~
+AGR T 0 0
+46 92 1d1+4599 1d1+999 6d23+46 peckb
+-13 -13 -13 -13
+FH 0 0 0
+stand stand none 2300
+AGW ACDEFHKP small unknown
+'none'
+M RANDOM 29124 15~
+#29125
+peacock~
+a peacock~
+A peacock struts around in all his finery. 
+~
+This peacock is proud as can be; in full display, he is wanton and
+hunting down his lady. 
+~
+song bird~
+AGR T 500 0
+48 96 1d1+4799 1d1+999 2d72+48 none
+-14 -14 -14 -14
+FH 0 0 0
+stand stand male 2400
+AGW ACDEFHKP medium unknown
+'none'
+M RANDOM 29125 15~
+#29126
+peahen~
+a peahen~
+A peahen wanders around. 
+~
+This peahen is either deliberately ignoring her mate or just isn't
+interested. When will proud fellows ever learn? 
+~
+song bird~
+AGQ T 750 0
+49 98 1d1+4899 1d1+999 3d49+49 peckb
+-14 -14 -14 -14
+FH 0 0 0
+stand stand female 2450
+AGW ACDEFHKP medium unknown
+'none'
+M RANDOM 29126 15~
+#29127
+lemming~
+a lemming~
+A lemming swims frantically by. 
+~
+This lemming is in a mighty big hurry. Makes you wonder what is so darned
+important that nothing can wait! 
+~
+dog~
+AGT ab 0 0
+31 62 1d1+3099 1d1+999 4d23+31 claw
+-9 -9 -9 -9
+FH 0 0 C
+stand stand none 1550
+ABGV ACDEFHJKQU tiny unknown
+'none'
+F par V
+#29128
+kingfisher~
+a kingfisher~
+A kingfisher swoops down from a tree. 
+~
+This kingfisher is a brightly coloured bird; blues, turquoises and orange
+make up his gaily coloured countenance. 
+~
+song bird~
+AGT T 0 0
+30 60 1d1+1499 1d1+999 1d90+30 peckb
+-9 -9 -9 -9
+FH 0 0 0
+stand stand none 1500
+AGW ACDEFHKP medium unknown
+'none'
+M RANDOM 29128 15~
+#29129
+antelope~
+an antelope~
+An antelope grazes quietly. 
+~
+This antelope wanders through the forest grazing on young shoots and
+saplings, unaware that there is danger lurking close by. 
+~
+pig~
+AGT J 0 0
+50 100 1d1+4999 1d1+999 2d75+50 charge
+-15 -15 -15 -15
+FH 0 EI 0
+stand stand none 2500
+AGV ABCDEFHJKQ medium unknown
+'none'
+#29130
+gazelle~
+a gazelle~
+A gazelle looks up, startled. 
+~
+This gazelle's heart beats like a drum, fast. It is never sure of its
+self and always seems to want to flee at the slightest noise. 
+~
+pig~
+AGHT 0 0 0
+51 102 1d1+5099 1d1+999 5d30+51 charge
+-15 -15 -15 -15
+GI 0 0 0
+stand stand none 2550
+AGV ACDEFHJK medium unknown
+'none'
+M RANDOM 29130 15~
+#29131
+faun~
+a faun~
+A faun is engrossed in his playing. 
+~
+This faun is playing a lilting melody on his pan pipes. Occasionally he
+looks up to see who is watching, but mostly carries on regardless. 
+~
+pig~
+AGQ Zc 800 0
+45 90 1d1+4499 1d1+999 2d67+45 slap
+-13 -13 -13 -13
+N 0 0 0
+stand stand male 2250
+AGV ACDEFHJKQ medium unknown
+'none'
+M RANDOM 29131 15~
+#29132
+magpie~
+a magpie~
+A magpie stares straight through you. 
+~
+This magpie stares unblinkingly at everything. Cunning and thrifty,
+magpies are most adept at relieving people of their valuables. 
+~
+song bird~
+AGHS BDFPQT 0 0
+50 100 1d1+4999 1d1+999 6d25+50 peckb
+-15 -15 -15 -15
+FH D 0 0
+stand stand none 2500
+AGW ACDEFHKP small unknown
+'none'
+M RANDOM 29132 15~
+#29133
+otter~
+an otter~
+An otter ducks and dives under the water. 
+~
+This otter is very playful as it cuts through the water, a sleek animal
+indeed. 
+~
+rabbit~
+AGO Jbc 0 0
+52 104 1d1+5199 1d1+999 1d156+52 claw
+-15 -15 -15 -15
+FH 0 0 0
+stand stand none 2600
+AGV ACDEFHJKQ medium unknown
+'none'
+M RANDOM 29133 15~
+#29134
+beaver~
+a beaver~
+A beaver paddles through the water. 
+~
+This beaver looks quite busy as it heads back and forwards from the
+culvert collecting bits of twig and branch with which to build its dam. 
+~
+rabbit~
+AGT b 0 0
+35 70 1d1+3499 1d1+999 1d105+35 claw
+-10 -10 -10 -10
+FH C 0 0
+stand stand none 1750
+AGV ACDEFHJK medium unknown
+'none'
+M RANDOM 29134 15~
+#29135
+owl~
+an owl~
+An owl shrieks at your untimely entrance! 
+~
+This owl is a loner. It doesn't like uninvited guests. And that includes
+you! 
+~
+bat~
+AFGS BDFJTZa -500 0
+40 80 1d1+3999 1d1+999 6d20+40 peckb
+-12 -12 -12 -12
+BFH L 0 S
+stand stand none 2000
+AGV ACDEFHJKP medium unknown
+'none'
+M RANDOM 29135 15~
+#29136
+wolf silver~
+a silver wolf~
+A silver wolf's hackles go up. 
+~
+This silver wolf doesn't look too friendly. Or too tame either! 
+~
+wolf~
+AFGT JZac 0 0
+55 110 1d1+5499 1d1+999 6d27+55 claw
+-16 -16 -16 -16
+FH 0 0 0
+stand stand female 2750
+AGV ACDEFJKQV medium unknown
+'none'
+M GRALL 29136 100~
+#29137
+bear brown~
+a brown bear~
+A brown bear paces backwards and forwards. 
+~
+This huge brown bear would look cuddly if it wasn't standing so close. 
+~
+bear~
+ABFGT DF 0 0
+54 108 1d1+5399 1d1+999 5d32+54 crush
+-16 -16 -16 -16
+DEO 0 EI J
+stand stand male 2700
+AGV ABCDEFHJKUV huge unknown
+'none'
+M RANDOM 29137 15~
+#29138
+high elf~
+a high elf~
+A female high elf crouches on the ground. 
+~
+This female high elf is used to tracking game. She looks up momentarily
+before continuing to examine the spoor. 
+~
+elf~
+AGSW JPQ 0 0
+42 84 1d1+4199 1d1+999 6d21+42 slap
+-12 -12 -12 -12
+0 D B Z
+stand stand female 2100
+AHMV ABCDEFGHIJK medium unknown
+'none'
+M RANDOM 29138 15~
+#29139
+wood elf~
+a wood elf~
+A wood elf listens intently to the forest. 
+~
+This dutiful wood elf is listening intently to the calls of the forest.
+He appears to have heard something. 
+~
+elf~
+AGTW JPQ 0 0
+48 96 1d1+4799 1d1+999 4d36+48 scratch
+-14 -14 -14 -14
+KR 0 B Z
+stand stand male 2400
+AHMV ABCDEFGHIJK medium unknown
+'none'
+M RANDOM 29139 15~
+#29140
+unicorn~
+a unicorn~
+Startled, a unicorn gazes at you. 
+~
+This beautiful white unicorn wanders around this enchanted forest, taking
+drinks from the crystal clear pool, its reflection serenity itself.  
+~
+pig~
+AGHR BNc 1000 0
+41 41 85d14+415 41d11+95 14d2+34 magic
+-20 -20 -20 -12
+EGHJ D 0 0
+stand stand female 2650
+AGV ACDEFHJKQ medium unknown
+'none'
+#0
+
+
+
+#ZOBJECTS
+#29100
+water culvert~
+a culvert~
+Water gushes out of a culvert here.~
+stone~
+fountain 0 P
+-1 -1 'water' 0 0
+0 0 0 P
+#29101
+mirror shield~
+a mirror~
+A mirror shows your reflection.~
+mirror~
+armor TY AJ
+ACDF ACDF ACDF ACDF 0
+35 3 3500 P
+A
+3 1
+A
+13 100
+#29102
+cobweb bracelet~
+a cobweb bracelet~
+Wisps of cobweb form a circle.~
+cobweb~
+armor B AM
+BCDE BCDE BCDE BCDE 0
+36 1 200 P
+A
+12 50
+A
+19 5
+#29103
+panpipes pipes~
+a set of panpipes~
+A set of wooden panpipes lies here.~
+wood~
+staff HK AO
+50 10 10 'sleep' 0
+45 1 400 P
+A
+5 1
+A
+19 2
+#29104
+sparkling mist body~
+sparkling body mist~
+Mist sparkles here.~
+mist~
+armor AG AD
+CE CE CE CE 0
+40 1 30 P
+A
+18 2
+A
+1 -1
+A
+12 100
+#29105
+honey~
+honey~
+Some sticky honey is here.~
+honey~
+food U A
+DF CE 0 0 0
+0 1 0 P
+#29106
+horn unicorn~
+a unicorn's horn~
+Something magical lies here.~
+bone~
+armor AG AEO
+ABCEF ABDG ABCEF ABCEF 0
+50 2 2000 P
+A
+12 100
+A
+19 10
+A
+18 10
+#29107
+branch~
+a tree branch~
+Part of a tree lies here.~
+wood~
+weapon 0 AN
+whip 9 20 thwack A
+35 2 20 P
+A
+12 25
+A
+13 25
+A
+18 15
+A
+19 10
+#29108
+feather peacock~
+a peacock feather~
+A large plume lies here.~
+feather~
+wand B AO
+60 10 10 'frenzy' 0
+49 1 300 P
+A
+3 -2
+A
+19 20
+#29109
+bushy tail~
+a bushy tail~
+A pile of wiry hair lies here.~
+hair~
+weapon M AN
+exotic 10 18 sting G
+37 3 10 P
+A
+14 -200
+A
+12 400
+A
+18 10
+A
+19 10
+#29110
+acorn cup~
+an acorn cup~
+The fruit from an oak tree sits here.~
+leaf~
+drink A AO
+400 400 'milk' 0 0
+0 1 10 P
+A
+19 5
+A
+18 5
+A
+13 30
+A
+12 30
+A
+3 4
+A
+4 4
+#29111
+mist swathe bracelet~
+a swathe of mist~
+Wisps of mist form a circle here.~
+mist~
+armor B AM
+CE CE CE CE 0
+45 1 1 P
+A
+5 4
+A
+18 4
+A
+19 4
+#29112
+pelt silver~
+a silver wolf pelt~
+A cloak of fur lies here.~
+fur~
+armor PSY AK
+BCDE BCDE BCDE BCDE 0
+55 2 2000 P
+A
+13 100
+A
+12 100
+#29113
+antennae~
+a pair of antennae~
+An ant's antennae lies here.~
+carapace~
+armor AK AE
+ABDG ABDG ABDG ABDG 0
+30 1 0 P
+A
+13 200
+A
+4 2
+#29114
+sunshine ray~
+a golden ray of sunshine~
+A golden ray of sunshine glows here.~
+sunshine~
+armor ABKPY AQ
+BEF BEF BEF BEF 0
+30 2 0 P
+A
+5 1
+A
+4 1
+A
+1 1
+A
+2 1
+A
+3 1
+A
+14 100
+A
+19 10
+A
+18 10
+A
+12 100
+A
+13 100
+#29115
+daisy chain~
+a daisy chain~
+A delicate daisy chain.~
+flower~
+armor GIS AL
+ADE ADE ADE ADE 0
+50 1 20 P
+A
+17 -50
+A
+19 15
+A
+18 15
+A
+14 50
+A
+13 50
+A
+12 50
+#29116
+shimmering dew potion~
+shimmering dew~
+Droplets of shimmering dew lie here.~
+dew~
+potion ABS AD
+50 'invisibility' 'detect hidden' 'detect invis' 'haste'
+40 1 50 P
+A
+14 1000
+#29117
+silk gloves~
+a pair of silk gloves~
+A smart pair of silk gloves lies here.~
+silk~
+armor GIQS AH
+ADE ADE ADE ADE 0
+30 1 1000 P
+A
+17 -25
+A
+14 -50
+A
+19 25
+A
+13 50
+#29118
+reeds bed~
+a bed of reeds~
+A bed of reeds sways here.~
+reeds~
+furniture 0 0
+C FHJKPQ 0 IKL DGH
+0 0 0 P
+#29119
+hooves hoof~
+a pair of hooves~
+A pair of hooves lies here.~
+bone~
+armor SY AG
+ADE ADE ADE ADE 0
+50 2 500 P
+A
+14 -400
+A
+1 -1
+A
+13 400
+A
+12 400
+#29120
+feather fan~
+a feather fan~
+A fan of feathers rests here.~
+feather~
+wand FS AO
+50 10 10 '' 0
+30 1 1000 P
+#29121
+honey comb~
+a honeycomb~
+A honeycomb drips with honey.~
+honey~
+warp_stone AFHMSYZ AO
+0 0 0 0 0
+30 1 500 P
+#29122
+teddy bear~
+a teddybear~
+A cuddly teddybear with a blue ribbon. ~
+fur~
+trash HPSTY AO
+0 0 0 0 0
+35 1 1000 P
+A
+14 -40
+A
+19 20
+A
+18 20
+A
+12 50
+A
+13 50
+E
+tummy~
+You press the bear's tummy and he emits a cute 'growl'. 
+~
+E
+embroidery~
+'NW' has been embroidered on this bear. 
+~
+E
+bear~
+The teddybear has soft fur and a cute smile. There is some embroidery on
+him. 
+~
+E
+ribbon~
+The blue ribbon is made of silk and tied in a bow around the teddybear's
+neck. But not too tight. 
+~
+#29123
+tights glitter~
+shimmery glitter tights~
+A pair of shimmery glitter tights lies here.~
+glitter~
+armor GIQT AF
+DF DF DF DF 0
+34 1 500 P
+A
+2 1
+A
+19 40
+A
+18 -4
+A
+12 40
+A
+13 40
+#29124
+moonbeam light~
+a sparkling moonbeam~
+A sparkling moonbeam glows incandescently.~
+moonlight~
+light AISY AO
+0 0 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdef 0 0
+40 1 0 P
+A
+6 -2
+A
+12 30
+A
+13 30
+A
+14 10
+A
+5 1
+A
+4 1
+A
+3 2
+A
+2 2
+A
+1 1
+A
+18 10
+A
+19 10
+#29125
+pile nuts~
+a pile of nuts~
+A pile of nuts lies to one side.~
+nuts~
+food 0 AO
+BD BD 0 0 0
+0 1 0 P
+#29126
+bed moss~
+a bed of moss~
+Piles of moss make up this bed.~
+moss~
+container 0 P
+500 AC 0 20000 0
+0 400 0 P
+#29127
+ring bougainvillea~
+a bougainvillea flower~
+A delicate ring made from bougainvillea petals.~
+flower~
+jewelry BIK AB
+0 0 0 0 0
+30 1 2000 P
+A
+18 10
+A
+19 10
+A
+4 1
+#29128
+goblet~
+a pewter goblet~
+An ornately carved pewter goblet lies here.~
+pewter~
+drink F AO
+100 100 'orange juice' 0 0
+10 2 500 P
+#29129
+netting rucksack~
+a strong netting rucksack~
+A rucksack made from strong netting.~
+netting~
+container ABSY AR
+100 A 0 1000 30
+45 1 500 P
+#29130
+fuzzy fur~
+fuzzy brown fur~
+A mound of fuzzy brown fur lies here.~
+fur~
+armor LS AI
+BEF BEF BEF BEF 0
+50 1 1000 P
+A
+19 5
+A
+18 5
+A
+1 2
+A
+5 2
+A
+3 4
+#29131
+snake~
+a coiled up boa-constrictor~
+A snake is coiled up here.~
+flesh~
+drink AHMPTZ AC
+400 400 'blood' 0 0
+130 25 0 P
+A
+12 100
+A
+13 100
+A
+14 -400
+A
+19 20
+A
+18 20
+#29132
+spiny collar~
+a spiny collar~
+A collar with spines protruding from it.~
+spines~
+armor CL AC
+ADE ADE ADE ADE 0
+38 1 400 P
+A
+19 40
+A
+14 -30
+A
+2 -1
+#29133
+pile rocks~
+a pile of rocks~
+A pile of rocks.~
+rocks~
+container 0 P
+100 0 0 1000 0
+0 200 0 P
+#29134
+web~
+a sticky web~
+An intricate web has been woven here.~
+web~
+container 0 P
+50 0 0 5 0
+0 25 0 P
+#29135
+cocoon fly~
+a cocooned fly~
+An entangled cocooned fly.~
+flesh~
+pill 0 A
+50 'poison' 'remove curse' 'cure poison' 'pass door'
+40 1 0 P
+#29187
+pile droppings~
+a pile of bird droppings~
+A pile of bird droppings.~
+poo~
+container A 0
+5 0 0 5 0
+0 200 0 P
+#29188
+sign~
+a signpost~
+A signpost has been stuck at an angle in the ground.~
+wood~
+trash 0 P
+0 0 0 0 0
+0 25 0 P
+E
+signpost~
+[o===============================o]
+[                                 ]
+[        Tread carefully          ]
+[                                 ]
+[      and leave no litter        ]
+[                                 ]
+[  This area is for levels 20-40  ]
+[                                 ]
+[o===============================o]
+~
+#29189
+undergrowth~
+the tangled undergrowth and appear unscathed the other side...~
+Tangled undergrowth overwhelms the path.~
+unknown~
+portal 0 0
+0 0 0 BEGHIMNO 0
+0 0 0 P
+#29190
+bush~
+the bush and appear unscathed the other side...~
+A large bush encroaches the clearing.~
+unknown~
+portal 0 0
+0 0 0 ABEGHIMNO 0
+0 0 0 P
+#29191
+circle~
+the toadstool circle and everything blurs as time stops still...~
+A toadstool circle stands here.~
+unknown~
+portal 0 0
+0 0 0 BCJMNO 0
+0 0 0 P
+#29192
+trees~
+the trees cautiously, wondering what lies the other side~
+~
+unknown~
+portal 0 0
+0 0 0 BCDEFGHIMNO 0
+0 0 0 P
+#29193
+spray~
+the spray, getting drenched as you clamber onto the ledge~
+~
+unknown~
+portal 0 0
+0 0 0 ABCDEFHIMNO 0
+0 0 0 P
+#29194
+spray~
+the spray, getting drenched as you pass through..~
+~
+unknown~
+portal 0 0
+0 0 0 BCDEFHIMNO 0
+0 0 0 P
+#29195
+ferns tunnel~
+the tunnel in the ferns~
+~
+unknown~
+portal 0 0
+0 0 0 ADFGHIMNO 0
+0 0 0 P
+#29196
+hole~
+a hole in the side, which brings you back outside again.~
+~
+unknown~
+portal 0 0
+0 0 0 ACDFGHIMNO 0
+0 0 0 P
+#29197
+hive~
+a bee's hive tentatively.....~
+~
+unknown~
+portal 0 0
+0 0 0 JMNO 0
+0 0 0 P
+#29198
+hole~
+a small hole and find yourself outside again...~
+~
+unknown~
+portal 0 0
+0 0 0 BDGHIMNO 0
+0 0 0 P
+#29199
+oak tree~
+the tall oak tree, barely squeezing into the hole..~
+~
+unknown~
+portal 0 0
+0 0 0 ABCEGHIMNO 0
+0 0 0 P
+#0
+
+
+
+#ZROOMS
+#29100
+A Shady Footpath~
+This is a shady footpath at the beginning of the dappled forest known as
+Glen Dhoo.  Trees lay to the west of the path and a slope drops vertically
+to a culvert below.  The path is well used but the trees appear to close in
+on the path.  This is a shady footpath at the edge of the dappled forest
+known as Glen Dhoo.  Trees lay to the west of the path, and the Eastern
+Trade Road opens to the south.  The path is well used, but the trees loom
+closely.  
+~
+0 4 3
+D0
+~
+~
+0 0 29101
+D2
+~
+~
+0 0 3903
+S
+#29101
+A Shady Footpath~
+This part of the footpath appears to be hemmed in by trees in all
+directions except to the north and east. The bank however, drops steeply to
+the start of a stream below, bubbling out of the culvert. The bank looks
+more navigable to the north.  
+~
+0 0 3
+D0
+~
+~
+0 0 29102
+D2
+~
+~
+0 0 29100
+S
+#29102
+A Shady Footpath~
+Trees bend down over the footpath at this point as if pointing to the
+east. The path continues to the north and the bank looks a lot less steep
+here. A stream flows next to the bank.  
+~
+0 0 3
+D0
+~
+~
+0 0 29121
+D2
+~
+~
+0 0 29101
+D5
+~
+~
+0 0 29103
+S
+#29103
+A Sloping Bank~
+This is a steep earth bank with bits of gravel and other stones making
+any movement precarious. The bank continues down to the stream or up to the
+footpath. The stream doesn't look too deep at least from this position and
+there is a lake in the distance to the north.  
+~
+0 4 4
+D4
+~
+~
+0 0 29102
+D5
+~
+~
+0 0 29104
+S
+#29104
+A Gently Flowing Stream~
+The water is cold and flowing towards the culvert which wasn't
+noticeable from the footpath or the bank. It is clear and easy to see the
+stones at the bottom and an occasional fish swimming around against the
+current. It doesn't look particularly deep.  
+~
+0 0 7
+D0
+~
+~
+0 0 29105
+D4
+~
+~
+0 0 29103
+S
+#29105
+A Gently Flowing Stream~
+The stream continues north and south though the flow is towards the
+culvert to the south. The water is clear and it is easy to see the bottom
+where there are fish swimming around in the depths. The bank slopes steeply
+to the west.  
+~
+0 0 7
+D0
+~
+~
+0 0 29106
+D2
+~
+~
+0 0 29104
+S
+#29106
+A Gently Flowing Stream~
+The stream is wider here than to the south and quite a bit deeper. It
+is still clear and easy to see the bottom, where there are fish swimming
+around. The flow begins to pull to the north but is still relatively easy to
+navigate.  
+~
+0 0 7
+D0
+~
+~
+0 0 29107
+D2
+~
+~
+0 0 29105
+S
+#29107
+A Gently Flowing Stream~
+The stream is clear and quite deep at this point. The bank is steeply
+sloping to the west with no way of climbing up it. To the north the stream
+widens out into a large mass of water, and to the northeast a narrow trail
+is just visible.  
+~
+0 0 7
+D0
+~
+~
+0 0 29108
+D2
+~
+~
+0 0 29106
+S
+#29108
+A Gently Flowing Stream~
+The stream begins to widen out here with a steeply sloping bank to the
+west. Although there is no access to the bank, there is however, access to
+the grassy bank to the east. There is a large mass of water to the
+north.  
+~
+0 0 7
+D0
+~
+~
+0 0 29109
+D1
+~
+~
+0 0 29188
+D2
+~
+~
+0 0 29107
+S
+#29109
+A Crystal Clear Pool~
+This crystal clear pool is very deep and very blue but because of
+its clarity, it is easy to see the bottom. Fish frolic in the depths of this
+gorgeous water source and other creatures play about on the grassy banks to
+the east. To the south a stream feeds into the lake.  
+~
+0 0 7
+D0
+~
+~
+0 0 29110
+D2
+~
+~
+0 0 29108
+S
+#29110
+A Crystal Clear Pool~
+This crystal clear pool is very deep and very blue but because of
+its clarity, it is easy to see the bottom. Fish frolic in the depths of this
+gorgeous water source and other creatures play about on the grassy banks to
+the east. To the south a stream feeds into the lake.  
+~
+0 0 7
+D0
+~
+~
+0 0 29115
+D1
+~
+~
+0 0 29111
+D2
+~
+~
+0 0 29109
+S
+#29111
+A Crystal Clear Pool~
+At the heart of the crystal clear pool, the waters look dark blue
+and the bottom is only just visible. Fish frolic around in the shallows and
+other creatures play about on the grassy banks to the east. Mist and spray
+rises from a waterfall to the north.  
+~
+0 0 7
+D0
+~
+~
+0 0 29114
+D1
+~
+~
+0 0 29112
+D3
+~
+~
+0 0 29110
+S
+#29112
+A Crystal Clear Pool~
+Here in the shallows, the crystal clear pool is not so deep. Its waters
+are a light blue and fish frolic around in its depths. A grassy bank
+is accessible to the east, with a leafy clearing beyond that.  
+~
+0 0 7
+D0
+~
+~
+0 0 29113
+D1
+~
+~
+0 0 29136
+D3
+~
+~
+0 0 29111
+S
+#29113
+A Crystal Clear Pool~
+Here in the shallows, the crystal clear pool is not so deep. Its waters
+are a light blue and fish frolic around in its depths. A grassy bank is
+visible to the east and a leafy clearing beyond that.  
+~
+0 0 7
+D2
+~
+~
+0 0 29112
+D3
+~
+~
+0 0 29114
+S
+#29114
+A Crystal Clear Pool~
+At the heart of the crystal clear pool, the waters look dark blue
+and the bottom is only just visible. Fish frolic around in the shallows and
+other creatures play about on the grassy banks to the east. Mist and spray
+rises from a waterfall to the north.  
+~
+0 0 7
+D0
+~
+~
+0 0 29117
+D1
+~
+~
+0 0 29113
+D2
+~
+~
+0 0 29111
+D3
+~
+~
+0 0 29115
+S
+#29115
+A Crystal Clear Pool~
+At the heart of the crystal clear pool, the waters look dark blue
+and the bottom is only just visible. Fish frolic around in the shallows and
+other creatures play about on the grassy banks to the east. Mist and spray
+rises from a waterfall to the north.  
+~
+0 0 7
+D0
+~
+~
+0 0 29116
+D1
+~
+~
+0 0 29114
+D2
+~
+~
+0 0 29110
+S
+#29116
+A Crystal Clear Pool~
+At the heart of the crystal clear pool, the waters look dark blue
+and the bottom is only just visible. Fish frolic around in the shallows and
+other creatures play about on the grassy banks to the east. Mist and spray
+rises from a waterfall to the north.  
+~
+0 0 7
+D0
+~
+~
+0 0 29118
+D1
+~
+~
+0 0 29117
+D2
+~
+~
+0 0 29115
+S
+#29117
+A Crystal Clear Pool~
+At the heart of the crystal clear pool, the waters look dark blue
+and the bottom is only just visible. Fish frolic around in the shallows and
+other creatures play about on the grassy banks to the east. Mist and spray
+rises from a waterfall to the north.  
+~
+0 0 7
+D2
+~
+~
+0 0 29114
+D3
+~
+~
+0 0 29116
+S
+#29118
+Below a Cascading Waterfall~
+A loud thundering noise comes from above as gallons of water cascade
+down into the pool here. Mist and spray obscure any view of the surroundings
+though there is a hint of something through the spray. The pool foams
+with the deluge of water from above. The pool is very deep in this spot.  
+~
+0 0 7
+D2
+~
+~
+0 0 29116
+S
+#29119
+Behind a Cascading Waterfall~
+This is a hidden ledge behind the cascading waterfall. Splashes from
+the waterfall have made the ledge a bit slippery and wet but apart from
+that, it is relatively dry in here. There is an opening through the
+waterfall here, leading right into and through the spray. The ceiling,
+walls and ground are made of solid rock and the ledge continues to the east.
+ 
+~
+0 8 3
+D1
+~
+~
+0 0 29120
+S
+#29120
+Behind a Cascading Waterfall~
+This is a hidden ledge behind the cascading waterfall. Splashes from
+the waterfall have made the ledge a bit slippery and wet but apart from
+that, it is relatively dry in here. The ledge continues to the west with an
+opening through the waterfall. The ceiling, walls and ground here are made
+of solid rock.  
+~
+0 8 3
+D1
+~
+cliff~
+AB 0 29199
+D3
+~
+~
+0 0 29119
+S
+#29121
+A Shady Footpath~
+Trees bend down over the footpath at this point as if pointing to the
+east. The path continues to the north and the bank looks a lot less steep
+here. There is a wonderful view of a circular lake to the northeast complete
+with waterfall at the far end of it.  
+~
+0 0 3
+D0
+~
+~
+0 0 29123
+D2
+~
+~
+0 0 29102
+D5
+~
+~
+0 0 29122
+S
+#29122
+A Sloping Bank~
+This is a steep earthen bank with bits of gravel and other stones
+making any movement precarious. There is no way down to the stream from
+here, only back up to the footpath or north along the bank. There is a
+beautiful lake in the distance to the northeast.  
+~
+0 0 4
+D0
+~
+~
+0 0 29124
+D4
+~
+~
+0 0 29121
+S
+#29123
+A Shady Footpath~
+Trees line the footpath here, bending down over it as if to hug it
+tightly. The atmosphere is fresh and there is a breeze coming from the pool
+of invigorating life. The path continues to the north towards a wooded area.
+The bank looks steeper here than to the south though there is still a
+wonderful panorama of the circular lake from this vantage point.  
+~
+0 0 3
+D0
+~
+~
+0 0 29125
+D2
+~
+~
+0 0 29121
+S
+#29124
+A Sloping Bank~
+This is a steep earthen bank with bits of gravel and other stones
+making any movement precarious. There is no way down to the stream from
+here, only north and south along the bank. There is a beautiful circular
+lake visible from this vantage point.  
+~
+0 0 4
+D0
+~
+~
+0 0 29126
+D2
+~
+~
+0 0 29122
+S
+#29125
+A Shady Footpath~
+Trees line the footpath here, bending down over it as if to hug it
+tightly. The atmosphere is fresh and there is a breeze coming from the pool
+of invigorating life. The path continues to the north towards a wooded area.
+The bank looks steeper here than to the south though there is still a
+wonderful panorama of the circular lake from this vantage point.  
+~
+0 0 3
+D0
+~
+~
+0 0 29127
+D2
+~
+~
+0 0 29123
+S
+#29126
+A Sloping Bank~
+This is a steep earthen bank with bits of gravel and other stones
+making any movement precarious. There is no way down to the stream from
+here, only north and south along the bank. There is a beautiful circular
+lake visible from this vantage point.  
+~
+0 0 4
+D0
+~
+~
+0 0 29128
+D2
+~
+~
+0 0 29124
+S
+#29127
+A Shady Footpath~
+Trees line the footpath here, which meanders to the west. There is also
+a steep bank down to the east. The atmosphere is fresh and there is a breeze
+coming from the pool of invigorating life. The woods appear to get denser to
+the north and there is a very large tall oak tree a distance to the west. 
+~
+0 0 3
+D2
+~
+~
+0 0 29125
+D3
+~
+~
+0 0 29129
+D5
+~
+~
+0 0 29128
+S
+#29128
+A Sloping Bank~
+This is a steep earthen bank with bits of gravel and other stones
+making any movement precarious. There is no way down to the stream from
+here, only south along the bank and up to the footpath. There is a beautiful
+circular lake visible to the northeast of this vantage point.  
+~
+0 0 4
+D2
+~
+~
+0 0 29126
+D4
+~
+~
+0 0 29127
+S
+#29129
+Under a Leafy Canopy~
+A large tall oak tree to the west casts its branches over this part of
+the path, creating a leafy canopy. The path continues to the north and west
+with the wooded area to the north appearing much darker and denser. There is
+a sparkle through the trees to the northeast of water.  
+~
+0 0 3
+D0
+~
+~
+0 0 29130
+D1
+~
+~
+0 0 29127
+S
+#29130
+Under a Leafy Canopy~
+A large tall oak tree to the west casts its branches over this part
+of the path, creating a leafy canopy. The path continues to the east and
+south with the wooded area to the north appearing much darker and denser.
+There is a sparkle through the trees to the northeast of water.  
+~
+0 0 3
+D1
+~
+~
+0 0 29131
+D2
+~
+~
+0 0 29129
+S
+#29131
+A Shady Footpath~
+Trees line the footpath here, bending down over it as if to hug it
+tightly. The atmosphere is fresh and there is a breeze coming from the pool
+of invigorating life. The path continues to the north towards a wooded area.
+The bank slopes steeply down to the edge of the circular pool. There is no
+way down from here.  
+~
+0 0 3
+D0
+~
+~
+0 0 29132
+D3
+~
+~
+0 0 29130
+S
+#29132
+A Shady Footpath~
+Trees line the footpath here, bending down over it as if to hug it
+tightly. The atmosphere is fresh and there is a breeze coming from the pool
+of invigorating life. The path continues to the north towards a wooded area.
+The bank slopes steeply down to the edge of the circular pool where there
+are many fish swimming in its depths.  
+~
+0 0 3
+D0
+~
+~
+0 0 29133
+D2
+~
+~
+0 0 29131
+S
+#29133
+A Shady Footpath~
+Trees line the footpath here, bending down over it as if to hug it
+tightly. The atmosphere is fresh and there is a breeze coming from the pool
+of invigorating life. The path continues to the north towards a wooded area.
+The bank slopes steeply down to the edge of the circular pool where there
+are many fish swimming in its depths.  
+~
+0 0 3
+D0
+~
+~
+0 0 29134
+D2
+~
+~
+0 0 29132
+S
+#29134
+A Shady Footpath~
+Trees line the footpath here, bending down over it as if to hug it
+tightly. The atmosphere is fresh and there is a breeze coming from the pool
+of invigorating life. The path continues to the north towards a wooded area.
+The bank slopes steeply down to the edge of the circular pool. The latter
+culminates in a cascading waterfall to the north.  
+~
+0 0 3
+D0
+~
+~
+0 0 29135
+D2
+~
+~
+0 0 29133
+S
+#29135
+A Shady Footpath~
+Trees line the footpath here which meanders away deeper into the wooded
+area to the west. The footpath continues to the south, high above the bank
+and circular pool. A magnificent waterfall is visible from here, cascading a
+deluge of water into the pool below.  
+~
+0 0 3
+D2
+~
+~
+0 0 29134
+D3
+~
+~
+0 0 29156
+S
+#29136
+A Grassy Bank~
+This is a grassy bank which stands beside the crystal clear pool to the
+west. There are trees all around this leafy clearing and fish are clearly
+visible swimming in the depths of the pool. There is a magnificent cascading
+waterfall to the northwest and a narrow trail leads off to the south.  
+~
+0 4 3
+D0
+~
+~
+0 0 29142
+D1
+~
+~
+0 0 29137
+D2
+~
+~
+0 0 29185
+D3
+~
+~
+0 0 29112
+S
+#29137
+A Leafy Clearing~
+This leafy clearing overlooks the crystal clear pool to the west. All
+around are trees which appear to hem in this clearing preventing any access
+past them. Birds and other creatures flit around in the branches of the
+trees and otters frolic in the shallows of the pool.  
+~
+0 0 3
+D0
+~
+~
+0 0 29138
+D3
+~
+~
+0 0 29136
+S
+#29138
+A Leafy Clearing~
+This leafy clearing overlooks the crystal clear pool to the west. All
+around are trees which appear to hem in this clearing preventing any access
+past them. Birds and other creatures flit around in the branches of the
+trees and otters frolic in the shallows of the pool.  
+~
+0 0 3
+D0
+~
+~
+0 0 29140
+D2
+~
+~
+0 0 29137
+S
+#29139
+A Hidden Glade~
+This is a hidden glade beyond the line of trees near the pool. The
+trees still bear down on this little oasis, but there are more birds
+flitting around in the branches of the trees and other creatures darting in
+and out of the undergrowth.  
+~
+0 0 3
+D2
+~
+~
+0 0 29189
+S
+#29140
+A Leafy Clearing~
+This leafy clearing overlooks the crystal clear pool to the west. All
+around are trees which appear to hem in this clearing preventing any access
+past them. Birds and other creatures flit around in the branches of the
+trees and otters frolic in the shallows of the pool.  
+~
+0 0 3
+D2
+~
+~
+0 0 29138
+D3
+~
+~
+0 0 29141
+S
+#29141
+A Leafy Clearing~
+This leafy clearing overlooks the crystal clear pool to the west. All
+around are trees which appear to hem in this clearing preventing any access
+past them. Birds and other creatures flit around in the branches of the
+trees and otters frolic in the shallows of the pool.  
+~
+0 0 3
+D1
+~
+~
+0 0 29140
+D2
+~
+~
+0 0 29142
+S
+#29142
+A Leafy Clearing~
+This is a grassy bank which stands beside the crystal clear pool to the
+west. There are trees all around this leafy clearing and fish are clearly
+visible swimming in the depths of the pool. There is a magnificent cascading
+waterfall to the northwest, creating spray and mist which rises up in front
+of it.  
+~
+0 0 3
+D0
+~
+~
+0 0 29141
+D2
+~
+~
+0 0 29136
+S
+#29143
+Inside an Oak Tree~
+This appears to be a burrow of a small animal or bird living in the
+base of this oak tree. There are bits of twig and bone and spongy bits of
+moss and lichen all over the floor. The inside has been carved out and the
+burrow looks like it has been here for some time. There is a small hole
+at the base of the tree wall.  
+~
+0 9 3
+D2
+~
+~
+0 0 29144
+D3
+~
+~
+0 0 29146
+S
+#29144
+Inside an Oak Tree~
+This appears to be a burrow of a small animal or bird living in the
+base of this oak tree. There are bits of twig and bone and spongy bits of
+moss and lichen all over the floor. The inside has been carved out and the
+burrow looks like it has been here for some time.  
+~
+0 9 3
+D0
+~
+~
+0 0 29143
+D3
+~
+~
+0 0 29145
+S
+#29145
+Inside an Oak Tree~
+This appears to be a burrow of a small animal or bird living in the
+base of this oak tree. There are bits of twig and bone and spongy bits of
+moss and lichen all over the floor. The inside has been carved out and
+the burrow looks like it has been here for some time.  
+~
+0 9 3
+D0
+~
+~
+0 0 29146
+D1
+~
+~
+0 0 29144
+D4
+~
+moss~
+AB 0 29149
+S
+#29146
+Inside an Oak Tree~
+This appears to be a burrow of a small animal or bird living in the
+base of this oak tree. There are bits of twig and bone and spongy bits of
+moss and lichen all over the floor. The inside has been carved out and the
+burrow looks like it has been here for some time.  
+~
+0 9 3
+D1
+~
+~
+0 0 29143
+D2
+~
+~
+0 0 29145
+S
+#29147
+A Cosy Tree Home~
+This part of the tree has been kept tidy. Someone obviously went to a
+great deal of trouble to make their home here. Bits of material and wool
+make up a sitting area, along with the more commonly used moss and lichens.
+ 
+~
+0 9 3
+D1
+~
+~
+0 0 29148
+D2
+~
+~
+0 0 29149
+S
+#29148
+A Cosy Tree Home~
+This part of the tree has been kept tidy. Someone obviously went to a
+great deal of trouble to make their home here. Bits of material and wool
+make up a sitting area, along with the more commonly used moss and lichens.
+ 
+~
+0 9 3
+D2
+~
+~
+0 0 29150
+D3
+~
+~
+0 0 29147
+S
+#29149
+A Cosy Tree Home~
+This part of the tree has been kept tidy. Someone obviously went to a
+great deal of trouble to make their home here. Bits of material and wool
+make up a sitting area, along with the more commonly used moss and
+lichens.  
+~
+0 9 3
+D0
+~
+~
+0 0 29147
+D1
+~
+~
+0 0 29150
+D5
+~
+moss~
+AB 0 29145
+S
+#29150
+A Cosy Tree Home~
+This part of the tree has been kept tidy. Someone obviously went to a
+great deal of trouble to make their home here. Bits of material and wool
+make up a sitting area, along with the more commonly used moss and lichens.
+ 
+~
+0 9 3
+D0
+~
+~
+0 0 29148
+D3
+~
+~
+0 0 29149
+D4
+~
+wool~
+AB 0 29154
+S
+#29151
+A Comfy Burrow~
+This part of the tree looks very well used. Wool, moss, lichens and
+nutshells make up this creature's home. There is even a store of acorns and
+chestnuts in one corner. There is a hole leading to the outside world but it
+looks too small to fit through.  
+~
+0 9 3
+D1
+~
+~
+0 0 29152
+D2
+~
+~
+0 0 29153
+S
+#29152
+A Comfy Burrow~
+This part of the tree looks very well used. Wool, moss, lichens and
+nutshells make up this creature's home. There is even a store of acorns and
+chestnuts in one corner. There is a hole leading to the outside world but it
+looks too small to fit through.  
+~
+0 9 3
+D2
+~
+~
+0 0 29154
+D3
+~
+~
+0 0 29151
+S
+#29153
+A Comfy Burrow~
+This part of the tree looks very well used. Wool, moss, lichen and
+nutshells make up this creature's home. There is even a store of acorns and
+chestnuts in one corner. There is a hole leading to the outside world but it
+looks too small to fit through.  
+~
+0 9 3
+D0
+~
+~
+0 0 29151
+D1
+~
+~
+0 0 29154
+D4
+~
+lichen~
+AB 0 29155
+S
+#29154
+A Comfy Burrow~
+This part of the tree looks very well used. Wool, moss, lichens and
+nutshells make up this creature's home. There is even a store of acorns and
+chestnuts in one corner. There is a hole leading to the outside world but it
+looks too small to fit through.  
+~
+0 9 3
+D0
+~
+~
+0 0 29152
+D3
+~
+~
+0 0 29153
+D5
+~
+wool~
+AB 0 29150
+S
+#29155
+An Untidy Nest~
+This is a very untidy part of the tree. In fact, it is a nest and from
+here the panorama is spectacular. It isn't so pleasant in the nest as there
+are bits of twig everywhere. The nest looks very precariously built. Moss
+and lichen are woven into the twigs and there are bird droppings all
+over the place.  
+~
+0 0 3
+D5
+~
+lichen~
+AB 0 29153
+S
+#29156
+A Shadowy Dell~
+The trees darken considerably here and appear to be growing much closer
+together. The birdsong has gone and there is only the odd crackle from deep
+within the forest. The path is faint but it leads to the lighter and more
+worn footpath to the east and only seems to get fainter to the west. There
+is a large boulder to the north.  
+~
+0 0 3
+D0
+~
+boulder~
+AB 0 29181
+D1
+~
+~
+0 0 29135
+D3
+~
+~
+0 0 29157
+S
+#29157
+A Shadowy Dell~
+The woods darken considerably here and appear to be growing much closer
+together. The birdsong has gone and there is only the odd crackle from deep
+within the forest. The path is faint but it leads to the lighter and more
+worn footpath to the east and only seems to get fainter to the west.  
+~
+0 0 3
+D1
+~
+~
+0 0 29156
+D3
+~
+~
+0 0 29158
+S
+#29158
+A Shadowy Dell~
+The woods darken considerably here and appear to be growing much closer
+together. The birdsong has gone and there is only the odd crackle from deep
+within the forest. The path is faint but it leads to the lighter and more
+worn footpath to the east and only seems to get fainter to the south. There
+is a strange noise coming from between the trees to the north.  
+~
+0 0 3
+D1
+~
+~
+0 0 29157
+D2
+~
+~
+0 0 29159
+S
+#29159
+A Shadowy Dell~
+The trees appear to close in at this point and the path ... What path?
+The path has gone, amidst all the tangle of undergrowth. There is a large
+anthill to the west and there seems to be a way through the undergrowth to
+the south and north.  
+~
+0 0 3
+D0
+~
+~
+0 0 29158
+D2
+~
+~
+0 0 29160
+D3
+~
+anthill~
+AB 0 29183
+S
+#29160
+A Shadowy Dell~
+The undergrowth appears to be taking over, with new tree saplings
+shooting up from all directions. The more mature trees are growing closer
+together making the forest look darker and more dense. The tangle of
+undergrowth is less to the north and south and there is a small tunnel
+in the ferns to the east.  
+~
+0 0 3
+D0
+~
+~
+0 0 29159
+D2
+~
+~
+0 0 29165
+S
+#29161
+A Tunnel of Ferns~
+This enclosed tunnel is entirely made up of ferns. Something obviously
+uses this route regularly as the ferns have not taken over. It is quite dark
+in here but there is a light to the east. Little creatures dart in and out
+of the ferns on either side of the tunnel.  
+~
+0 9 3
+D1
+~
+~
+0 0 29162
+S
+#29162
+A Beech Grove~
+This part of the forest is taken up entirely with beech trees. They
+rise up tall and almost block out the sky. A tunnel of ferns lies to the
+west and a small trail leads to the north. Birds flit around in the branches
+of the trees and small creatures periodically pop their heads out of the
+tangle of undergrowth.  
+~
+0 0 3
+D0
+~
+~
+0 0 29163
+D3
+~
+~
+0 0 29161
+S
+#29163
+A Beech Grove~
+Beech trees proliferate in this part of the forest. Their branches
+stretch up high into the sky to the point where it almost isn't visible
+anymore. A small trail leads off to the south and west and tiny creatures
+dart in and out of the tangle of undergrowth all around.  
+~
+0 0 3
+D2
+~
+~
+0 0 29162
+D3
+~
+~
+0 0 29164
+S
+#29164
+A Beech Grove~
+Beech trees appear to have taken over this part of the forest. They
+grow close together and almost block out the sky. A small trail leads off to
+the east and the tangle of undergrowth threatens to overwhelm even that.
+Heavily matted grass is growing over a hole by one of the trees.  
+~
+0 0 3
+D1
+~
+~
+0 0 29163
+D5
+~
+grass~
+AB 0 29168
+S
+#29165
+A Shadowy Dell~
+The undergrowth appears to be taking over, with new tree saplings
+shooting up from all directions. The more mature trees are growing closer
+together making the forest look darker and more dense. The tangle of
+undergrowth is less to the north and east forming a small trail. There is a
+large bee hive hanging from one of the branches of a tree.  
+~
+0 0 3
+D0
+~
+~
+0 0 29160
+D1
+~
+~
+0 0 29166
+S
+#29166
+A Shadowy Dell~
+The trees are clustered together here forming an almost impenetrable
+wall. The tangle of undergrowth seems to be gradually taking over the trail
+and new tree saplings are shooting up from all directions. A faint trail is
+just visible to the west and through the trees to the east.  
+~
+0 0 3
+D1
+~
+~
+0 0 29167
+D3
+~
+~
+0 0 29165
+S
+#29167
+A Shadowy Dell~
+The trees block any access further into the forest and the only path is
+that from the west. A tangle of undergrowth is busily taking over this part
+of the forest and tiny creatures dart in and out of the tangle of weeds and
+ferns.  
+~
+0 0 3
+D3
+~
+~
+0 0 29166
+S
+#29168
+A Narrow Tunnel~
+This is a narrow tunnel which looks like a burrow of some sort. Earthen
+walls close in on either side and there are tree roots growing through the
+ceiling and walls. The tunnel leads off to the east. There are bits of twig
+and bone lying on the ground.  
+~
+0 13 3
+D1
+~
+~
+0 0 29169
+S
+#29169
+A Narrow Tunnel~
+This is a narrow tunnel which looks like a burrow of some sort. Earthen
+walls close in on either side and there are tree roots growing through the
+ceiling and walls. The tunnel leads off to the east and west. There are bits
+of twig and bone lying on the ground.  
+~
+0 9 3
+D1
+~
+~
+0 0 29170
+D3
+~
+~
+0 0 29168
+S
+#29170
+A Narrow Tunnel~
+This is a narrow tunnel which looks like a burrow of some sort. Earthen
+walls close in on either side and there are tree roots growing through the
+ceiling and walls. The tunnel leads off to the south and west. There are
+bits of twig and bone lying on the ground.  
+~
+0 9 3
+D2
+~
+~
+0 0 29171
+D3
+~
+~
+0 0 29169
+S
+#29171
+A Narrow Tunnel~
+This is a narrow tunnel which looks like a burrow of some sort. Earthen
+walls close in on either side and there are tree roots growing through the
+ceiling and walls. The tunnel leads off to the north, south and west. There
+are bits of twig and bone lying on the ground.  
+~
+0 9 3
+D0
+~
+~
+0 0 29170
+D2
+~
+~
+0 0 29174
+D3
+~
+~
+0 0 29172
+S
+#29172
+A Narrow Tunnel~
+This is a narrow tunnel which looks like a burrow of some sort. Earthen
+walls close in on either side and there are tree roots growing through the
+ceiling and walls. The tunnel leads off to the east and south. There are
+bits of twig and bone lying on the ground.  
+~
+0 9 3
+D1
+~
+~
+0 0 29171
+D2
+~
+~
+0 0 29173
+S
+#29173
+A Narrow Tunnel~
+This is a narrow tunnel which looks like a burrow of some sort. Earthen
+walls close in on either side and there are tree roots growing through the
+ceiling and walls. The tunnel leads off to the east, north and west. There
+are bits of twig and bone lying on the ground.  
+~
+0 9 3
+D0
+~
+~
+0 0 29172
+D1
+~
+~
+0 0 29174
+D3
+~
+~
+0 0 29180
+S
+#29174
+A Narrow Tunnel~
+This is a narrow tunnel which looks like a burrow of some sort. Earthen
+walls close in on either side and there are tree roots growing through the
+ceiling and walls. The tunnel leads off to the east, north and west. There
+are bits of twig and bone lying on the ground.  
+~
+0 9 3
+D0
+~
+~
+0 0 29171
+D1
+~
+~
+0 0 29175
+D3
+~
+~
+0 0 29173
+S
+#29175
+A Narrow Tunnel~
+This is a narrow tunnel which looks like a burrow of some sort. Earthen
+walls close in on either side and there are tree roots growing through the
+ceiling and walls. The tunnel leads off to the east and north. There are
+bits of twig and bone lying on the ground.  
+~
+0 9 3
+D0
+~
+~
+0 0 29176
+D3
+~
+~
+0 0 29174
+S
+#29176
+A Narrow Tunnel~
+This is a narrow tunnel which looks like a burrow of some sort. Earthen
+walls close in on either side and there are tree roots growing through the
+ceiling and walls. The tunnel leads off to the north and south. There are
+bits of twig and bone lying on the ground.  
+~
+0 9 3
+D0
+~
+~
+0 0 29177
+D2
+~
+~
+0 0 29175
+S
+#29177
+A Narrow Tunnel~
+This is a narrow tunnel which looks like a burrow of some sort. Earthen
+walls close in on either side and there are tree roots growing through the
+ceiling and walls. The tunnel leads off to the north and south. There are
+bits of twig and bone lying on the ground.  
+~
+0 9 3
+D0
+~
+~
+0 0 29178
+D2
+~
+~
+0 0 29176
+S
+#29178
+A Narrow Tunnel~
+This is a narrow tunnel which looks like a burrow of some sort. Earthen
+walls close in on either side and there are tree roots growing through the
+ceiling and walls. The tunnel leads off to the north and south. There are
+bits of twig and bone lying on the ground.  
+~
+0 9 3
+D0
+~
+~
+0 0 29179
+D2
+~
+~
+0 0 29177
+S
+#29179
+A Narrow Tunnel~
+This is a narrow tunnel which looks like a burrow of some sort. Earthen
+walls close in on either side and there are tree roots growing through the
+ceiling and walls. A speck of light filters through a hole in the
+ceiling. The tunnel leads off to the south. There are bits of twig and bone
+lying on the ground.  
+~
+0 9 3
+D2
+~
+~
+0 0 29178
+D4
+~
+hole~
+AB 0 29119
+S
+#29180
+A Smelly Burrow~
+This part of the tunnel has been turned into a nesting place for some
+animal. It reeks of droppings and old bones. There is a pile of moss and
+lichens in one corner, apparently making a springy bed for someone. The
+tunnel lies to the east.  
+~
+0 9 3
+D1
+~
+~
+0 0 29173
+S
+#29181
+A Dark Lair~
+There is a small hole by the entrance to this lair, but it is mostly
+blocked by a large boulder. The lair itself is quite dank in smell and has
+several gnawed bones lying on the floor. The walls, floor and ceiling are
+made of rock, this was obviously once an open-mouthed cave before some of
+the rocks tumbled down outside.  
+~
+0 9 3
+D2
+~
+boulder~
+AB 0 29156
+S
+#29182
+A Toadstool Circle~
+Nestled between several trees, forming a clearing of its own, is a
+strange circle of toadstools. They stand in a ring about two feet apart,
+each one a creamy brown colour with little white spots. Nothing
+grows within the toadstool circle. Strange....  
+~
+0 4 2
+S
+#29183
+Inside an Anthill~
+This is the inside of an anthill. It is very cramped and there are a
+lot of bodies clinging to the sides of the wall. They appear to be repairing
+it. It is dark but dry here... Not an ideal place for the claustrophobic. 
+~
+0 9 3
+D1
+~
+anthill~
+AB 0 29159
+S
+#29184
+Inside a Hive~
+This is the inside of a large bee hive. There are bees working on the
+comb and other bees flying in and out of a hole in the side. It is quite
+dark in here and there is a persistant sound of buzzing as the bees go to
+work.  
+~
+0 13 3
+S
+#29185
+A Narrow Path~
+This narrow trail meanders through the trees in this part of the woods.
+It is quite worn so apparently often used. It leads to a leafy clearing to
+the north and continues on its way to the south. To the west lies the
+crystal clear pool and to the northwest, the cascading waterfall.  
+~
+0 0 3
+D0
+~
+~
+0 0 29136
+D2
+~
+~
+0 0 29186
+S
+#29186
+A Narrow Path~
+This narrow trail meanders through the trees in this part of the woods.
+It is quite worn so apparently often used. It leads to a leafy clearing to
+the north and continues on its way around a bend to the west. The crystal
+clear lake lies to the northwest, culminating in a cascading waterfall.  
+~
+0 0 3
+D0
+~
+~
+0 0 29185
+D3
+~
+~
+0 0 29187
+S
+#29187
+A Narrow Path~
+This narrow path meanders through the scrub and small trees which make
+up this part of the woods. The trail is quite worn, apparently often used.
+It leads to the stream to the west and further into the woods to the east.
+The crystal clear pool is visible to the northwest, culminating in a
+cascading waterfall.  
+~
+0 0 3
+D1
+~
+~
+0 0 29186
+D3
+~
+~
+0 0 29188
+S
+#29188
+A Grassy Bank~
+This grassy bank is a bit damp caused by the water from the stream. It
+leads to the east where it turns into a narrow path which heads into a
+wooded area. The stream is accessible from here, down the bank to the west.
+To the north, a large expanse of water is visible which culminates in a
+cascading waterfall.  
+~
+0 4 3
+D1
+~
+~
+0 0 29187
+D3
+~
+~
+0 0 29108
+S
+#29189
+A Hidden Glade~
+This is a hidden glade beyond the line of trees near the pool. The
+trees still bear down on this little oasis, but there are more birds
+flitting around in the branches of the trees and other creatures darting in
+and out of the undergrowth.  
+~
+0 0 3
+D0
+~
+~
+0 0 29139
+D1
+~
+~
+0 0 29190
+S
+#29190
+A Hidden Glade~
+This is a hidden glade beyond the line of trees near the pool. The
+trees still bear down on this little oasis, but there are more birds
+flitting around in the branches of the trees and other creatures darting in
+and out of the undergrowth.  
+~
+0 0 3
+D0
+~
+~
+0 0 29191
+D3
+~
+~
+0 0 29189
+S
+#29191
+A Hidden Glade~
+This is a hidden glade beyond the line of trees near the pool. The
+trees still bear down on this little oasis, but there are more birds
+flitting around in the branches of the trees and other creatures darting in
+and out of the undergrowth.  
+~
+0 0 3
+D0
+~
+~
+0 0 29192
+D2
+~
+~
+0 0 29190
+S
+#29192
+A Hidden Glade~
+This is a hidden glade beyond the line of trees near the pool. The
+trees still bear down on this little oasis, but there are more birds
+flitting around in the branches of the trees and other creatures darting in
+and out of the undergrowth.  
+~
+0 0 3
+D0
+~
+~
+0 0 29193
+D2
+~
+~
+0 0 29191
+S
+#29193
+A Hidden Glade~
+This is a hidden glade beyond the line of trees near the pool. The
+trees still bear down on this little oasis, but there are more birds
+flitting around in the branches of the trees and other creatures darting in
+and out of the undergrowth.  
+~
+0 0 3
+D2
+~
+~
+0 0 29192
+D3
+~
+~
+0 0 29194
+S
+#29194
+A Hidden Glade~
+This is a hidden glade beyond the line of trees near the pool. The
+trees still bear down on this little oasis, but there are more birds
+flitting around in the branches of the trees and other creatures darting in
+and out of the undergrowth. There is a large rock blocking something to
+the south.  
+~
+0 0 3
+D1
+~
+~
+0 0 29193
+D2
+~
+rock~
+AB 0 29195
+D3
+~
+~
+0 0 29196
+S
+#29195
+A Hollow in a Tree~
+This is a burrow of some description. It has been hollowed out of a
+tree and is filled with feathers, twigs and bits of moss. It is springy and
+warm and there is a distinct animal smell within. There is a large rock
+which can be moved aside to unblock the entrance.  
+~
+0 9 3
+D0
+~
+rock~
+AB 0 29194
+S
+#29196
+A Leafy Path~
+This is a leafy path at the edge of a line of trees. The path meanders
+to the west towards the crystal clear pool, and to the east it enters the
+wooded area. The latter looks dark and foreboding but to the west the path
+widens out, with the pool readily visible.  
+~
+0 0 3
+D1
+~
+~
+0 0 29194
+D3
+~
+~
+0 0 29197
+S
+#29197
+A Leafy Path~
+This leafy path leads off to the east towards a wooded area and to the
+north away from the crystal clear pool. The path overlooks the pool at this
+juncture and there is a good view of the cascading waterfall not to mention
+the mist and spray it causes when it hits the pool.  
+~
+0 0 3
+D0
+~
+~
+0 0 29198
+D1
+~
+~
+0 0 29196
+S
+#29198
+A Leafy Path~
+This leafy path leads off to the south towards a wooded area and to the
+west away from the crystal clear pool. The latter is only just visible from
+this point, the mist and spray caused by the waterfall, all but obscuring
+the view.  
+~
+0 0 3
+D2
+~
+~
+0 0 29197
+D3
+~
+~
+0 0 29199
+S
+#29199
+A Leafy Path~
+The leafy path appears to come to a dead end here. There is a solid
+cliff wall to the west and trees to the north of the path. Spray from the
+waterfall has drenched the ground here, making it rather muddy. The path
+continues to the east towards a wooded area.  
+~
+0 0 3
+D1
+~
+~
+0 0 29198
+D3
+~
+cliff~
+AB 0 29120
+S
+#0
+
+
+
+#SPECIALS
+M 29100 spec_thief
+M 29101 spec_cast_mage
+M 29102 spec_cast_cleric
+M 29103 spec_cast_undead
+M 29105 spec_cast_mage
+M 29109 spec_cast_undead
+M 29111 spec_cast_mage
+M 29112 spec_cast_mage
+M 29113 spec_thief
+M 29115 spec_thief
+M 29122 spec_thief
+M 29125 spec_cast_mage
+M 29129 spec_cast_mage
+M 29132 spec_thief
+M 29135 spec_nasty
+M 29138 spec_thief
+S
+
+
+
+#RESETS
+D 0 29120 1 1
+D 0 29145 4 1
+D 0 29149 5 1
+D 0 29150 4 1
+D 0 29153 4 1
+D 0 29154 5 1
+D 0 29155 5 1
+D 0 29156 0 1
+D 0 29159 3 1
+D 0 29164 5 1
+D 0 29179 4 1
+D 0 29181 2 1
+D 0 29183 1 1
+D 0 29194 2 1
+D 0 29195 0 1
+D 0 29199 3 1
+O 0 29188 0 29100 A signpost loaded to A Shady Footpath
+M 0 29100 20 29101 1 Load an imp
+M 0 29100 20 29102 2 Load an imp
+O 0 29100 0 29104 A culvert loaded to A Gently Flowing Stream
+M 0 29127 10 29104 1 Load a lemming
+M 0 29134 3 29104 1 Load a beaver
+M 0 29127 10 29105 1 Load a lemming
+M 0 29134 3 29105 1 Load a beaver
+E 0 29107 0 16 A tree branch is loaded wielded of a beaver
+M 0 29134 3 29106 1 Load a beaver
+M 0 29127 10 29109 1 Load a lemming
+M 0 29127 10 29110 1 Load a lemming
+M 0 29127 10 29111 1 Load a lemming
+M 0 29127 10 29112 1 Load a lemming
+M 0 29133 4 29112 2 Load an otter
+M 0 29127 10 29113 1 Load a lemming
+M 0 29133 4 29113 2 Load an otter
+M 0 29101 5 29116 1 Load a mist sprite
+M 0 29101 5 29117 1 Load a mist sprite
+O 0 29193 0 29118 The spray, getting drenched as you clamber onto the ledge loaded to Below a Cascading Waterfall
+M 0 29101 5 29118 1 Load a mist sprite
+M 0 29103 3 29118 1 Load a mist wraith
+O 0 29194 0 29119 The spray, getting drenched as you pass through.. loaded to Behind a Cascading Waterfall
+M 0 29101 5 29119 1 Load a mist sprite
+E 0 29104 0 5 Sparkling body mist is loaded on the body of a mist sprite
+O 0 29133 0 29120 A pile of rocks loaded to Behind a Cascading Waterfall
+P 0 29131 1 29133 1 A coiled up boa-constrictor put inside a coiled up boa-constrictor
+M 0 29103 3 29120 1 Load a mist wraith
+M 0 29100 20 29121 1 Load an imp
+E 0 29117 0 9 A pair of silk gloves is loaded on the hands of an imp
+M 0 29100 20 29122 2 Load an imp
+M 0 29119 4 29122 1 Load a fieldmouse
+M 0 29100 20 29123 2 Load an imp
+M 0 29100 20 29124 2 Load an imp
+M 0 29100 20 29125 2 Load an imp
+M 0 29100 20 29127 2 Load an imp
+M 0 29124 2 29129 1 Load a woodpecker
+O 0 29199 0 29130 The tall oak tree, barely squeezing into the hole.. loaded to Under a Leafy Canopy
+M 0 29115 5 29130 2 Load a squirrel
+M 0 29124 2 29131 1 Load a woodpecker
+M 0 29138 2 29132 1 Load a high elf
+M 0 29123 3 29132 1 Load a hummingbird
+M 0 29138 2 29133 1 Load a high elf
+M 0 29128 2 29134 1 Load a kingfisher
+M 0 29113 2 29134 1 Load a high elf
+M 0 29128 2 29135 1 Load a kingfisher
+G 0 29120 0 A feather fan is given to a kingfisher
+M 0 29113 2 29135 1 Load a high elf
+M 0 29116 5 29137 1 Load a hedgehog
+O 0 29190 0 29138 The bush and appear unscathed the other side... loaded to A Leafy Clearing
+M 0 29122 1 29138 1 Load a robin
+O 0 29189 0 29139 The tangled undergrowth and appear unscathed the other side... loaded to A Hidden Glade
+M 0 29114 4 29139 1 Load a wood elf
+M 0 29120 4 29140 1 Load a dormouse
+M 0 29120 4 29141 1 Load a dormouse
+M 0 29121 5 29142 1 Load a sprite
+E 0 29123 0 7 Shimmery glitter tights is loaded on the legs of a sprite
+M 0 29123 3 29142 1 Load a hummingbird
+O 0 29198 0 29143 A small hole and find yourself outside again... loaded to Inside an Oak Tree
+M 0 29116 5 29143 1 Load a hedgehog
+E 0 29132 0 3 A spiny collar is loaded around the neck (1) of a hedgehog
+M 0 29104 2 29147 1 Load a faerie
+O 0 29126 0 29148 A bed of moss loaded to A Cosy Tree Home
+P 0 29122 1 29126 1 A teddybear put inside a teddybear
+M 0 29105 1 29148 1 Load a faerie princess
+E 0 29101 0 11 A mirror is loaded as a shield of a faerie princess
+M 0 29104 2 29149 1 Load a faerie
+E 0 29128 0 17 A pewter goblet is loaded held in the hands of a faerie
+M 0 29115 5 29151 2 Load a squirrel
+E 0 29109 0 16 A bushy tail is loaded wielded of a squirrel
+M 0 29115 5 29151 2 Load a squirrel
+E 0 29110 0 17 An acorn cup is loaded held in the hands of a squirrel
+O 0 29125 0 29152 A pile of nuts loaded to A Comfy Burrow
+M 0 29115 5 29154 2 Load a squirrel
+M 0 29115 5 29154 2 Load a squirrel
+O 0 29187 0 29155 A pile of bird droppings loaded to An Untidy Nest
+P 0 29114 1 29187 1 A golden ray of sunshine put inside a golden ray of sunshine
+M 0 29135 1 29155 1 Load an owl
+M 0 29129 4 29156 2 Load an antelope
+M 0 29139 4 29157 1 Load a wood elf
+E 0 29129 0 19 A strong netting rucksack is loaded none of a wood elf
+M 0 29139 4 29157 1 Load a wood elf
+O 0 29192 0 29158 The trees cautiously, wondering what lies the other side loaded to A Shadowy Dell
+M 0 29139 4 29158 1 Load a wood elf
+M 0 29129 4 29159 2 Load an antelope
+O 0 29195 0 29160 The tunnel in the ferns loaded to A Shadowy Dell
+M 0 29130 4 29160 2 Load a gazelle
+E 0 29119 0 8 A pair of hooves is loaded on the feet of a gazelle
+O 0 29134 0 29161 A sticky web loaded to A Tunnel of Ferns
+P 0 29135 1 29134 1 A cocooned fly put inside a cocooned fly
+M 0 29107 1 29161 1 Load a queen spider
+E 0 29102 0 15 A cobweb bracelet is loaded on the right wrist of a queen spider
+M 0 29106 1 29161 1 Load a spider
+M 0 29111 1 29162 1 Load a centaur
+M 0 29112 1 29163 1 Load a centaur princess
+E 0 29116 0 5 Shimmering dew is loaded on the body of a centaur princess
+M 0 29121 5 29164 1 Load a sprite
+O 0 29197 0 29165 A bee's hive tentatively..... loaded to A Shadowy Dell
+M 0 29131 2 29165 2 Load a faun
+E 0 29103 0 17 A set of panpipes is loaded held in the hands of a faun
+M 0 29131 2 29165 2 Load a faun
+M 0 29130 4 29166 2 Load a gazelle
+M 0 29130 4 29166 2 Load a gazelle
+M 0 29116 5 29167 1 Load a hedgehog
+M 0 29137 1 29167 1 Load a brown bear
+E 0 29130 0 10 Fuzzy brown fur is loaded on the arms of a brown bear
+M 0 29117 12 29171 2 Load a badger
+M 0 29117 12 29172 2 Load a badger
+M 0 29117 12 29173 2 Load a badger
+M 0 29117 12 29175 2 Load a badger
+M 0 29117 12 29176 2 Load a badger
+M 0 29117 12 29177 2 Load a badger
+M 0 29117 12 29178 2 Load a badger
+M 0 29117 12 29180 2 Load a badger
+M 0 29136 1 29181 1 Load a silver wolf
+E 0 29112 0 12 A silver wolf pelt is loaded about the shoulders of a silver wolf
+O 0 29191 0 29182 The toadstool circle and everything blurs as time stops still... loaded to A Toadstool Circle
+M 0 29102 2 29182 2 Load a pixie
+E 0 29115 0 13 A daisy chain is loaded around the waist of a pixie
+M 0 29102 2 29182 2 Load a pixie
+E 0 29124 0 17 A sparkling moonbeam is loaded held in the hands of a pixie
+M 0 29108 5 29183 5 Load a warrior ant
+E 0 29113 0 6 A pair of antennae is loaded over the head of a warrior ant
+M 0 29108 5 29183 5 Load a warrior ant
+M 0 29108 5 29183 5 Load a warrior ant
+M 0 29109 5 29183 5 Load a worker ant
+M 0 29109 5 29183 5 Load a worker ant
+O 0 29196 0 29184 A hole in the side, which brings you back outside again. loaded to Inside a Hive
+M 0 29110 7 29184 7 Load a bee
+G 0 29105 0 Honey is given to a bee
+M 0 29110 7 29184 7 Load a bee
+G 0 29105 0 Honey is given to a bee
+M 0 29110 7 29184 7 Load a bee
+G 0 29105 0 Honey is given to a bee
+M 0 29110 7 29184 7 Load a bee
+G 0 29105 0 Honey is given to a bee
+M 0 29110 7 29184 7 Load a bee
+G 0 29105 0 Honey is given to a bee
+M 0 29110 7 29184 7 Load a bee
+G 0 29105 0 Honey is given to a bee
+M 0 29110 7 29184 7 Load a bee
+E 0 29121 0 17 A honeycomb is loaded held in the hands of a bee
+G 0 29105 0 Honey is given to a bee
+M 0 29126 1 29185 1 Load a peahen
+E 0 29108 0 17 A peacock feather is loaded held in the hands of a peahen
+M 0 29125 1 29187 1 Load a peacock
+O 0 29118 0 29188 A bed of reeds loaded to A Grassy Bank
+M 0 29114 4 29189 1 Load a wood elf
+M 0 29100 20 29189 2 Load an imp
+M 0 29140 1 29190 1 Load a unicorn
+E 0 29106 0 6 A unicorn's horn is loaded over the head of a unicorn
+M 0 29123 3 29191 1 Load a hummingbird
+G 0 29127 0 A bougainvillea flower is given to a hummingbird
+M 0 29132 6 29191 2 Load a magpie
+M 0 29100 20 29192 2 Load an imp
+M 0 29132 6 29192 2 Load a magpie
+M 0 29100 20 29193 2 Load an imp
+M 0 29132 6 29193 2 Load a magpie
+M 0 29118 2 29195 2 Load a fox
+M 0 29100 20 29196 2 Load an imp
+M 0 29116 5 29197 1 Load a hedgehog
+M 0 29103 3 29199 1 Load a mist wraith
+E 0 29111 0 14 A swathe of mist is loaded on the left wrist of a mist wraith
+M 0 29116 5 29199 1 Load a hedgehog
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#29100
+mob echo An imp follows you.
+~
+#29101
+mob echo A mist sprite taps you on the shoulder.
+~
+#29102
+mob echo A fleeting melody can be heard...
+~
+#29104
+mob echo A faerie mutters quietly to himself.
+~
+#29105
+mob echo A faerie princess says 'Please leave immediately!'
+~
+#29106
+mob echo Something struggles in the web.
+~
+#29111
+mob echo A centaur flexes his muscles heroically.
+~
+#29112
+mob echo A centaur princess smiles coquettishly.
+~
+#29113
+mob echo Something moves through the trees.
+~
+#29114
+mob echo Leaves rustle as a band of elves approaches.
+~
+#29115
+mob echo A squirrel chitters to itself.
+~
+#29116
+mob echo A hedgehog uncurls slightly and peeps at you.
+~
+#29117
+mob echo Something scuttles along the passageway.
+~
+#29122
+mob echo A robin fluffs up its feathers and preens.
+~
+#29123
+mob echo A hummingbird darts into a flower and back out again.
+~
+#29124
+mob echo A woodpecker starts drilling a hole in a tree.
+~
+#29125
+mob echo The stream gurgles close by.
+~
+#29126
+mob echo A peahen pecks around on the ground.
+~
+#29128
+mob echo A kingfisher tilts its head to one side.
+~
+#29130
+mob echo Birds chirp and trill in the trees.
+~
+#29131
+mob echo A lilting melody comes from the faun's panpipes.
+~
+#29132
+mob echo You feel a tug on your purse.
+~
+#29133
+mob echo Bubbles come up to the surface from the depths below.
+~
+#29134
+mob echo Fish dart around in the water.
+~
+#29135
+mob echo An owl tries to peck your eyes out!
+~
+#29136
+mob echo A silver wolf's hackles go up.
+~
+#29137
+mob echo A brown bear growls throatily.
+~
+#29138
+mob echo Something crunches underfoot.
+~
+#29139
+mob echo A sharp whistle pierces the still air.
+~
+#0
+
+#HELPS
+0 'GLEN DHOO'~
+This shady leafy green valley is a lush place to explore.  There are
+lots of hidden areas and the descriptions are clear and interesting.  A lot
+of colour has been used.   
+ 
+Glen Dhoo: Built/Donated by Kandahar
+http://creatia.funcity.org
+telnet://creatia.funcity.org:7500
+~
+
+-1 $~
+
+#$

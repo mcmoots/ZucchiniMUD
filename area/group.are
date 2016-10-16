@@ -1,0 +1,347 @@
+#HELPS
+
+-1 'RACE HELP' 'RACE' 'RACES'~
+Zucchini has the following races for player characters:
+
+{GRace        Cost     Notes
+{g----------------------------------------------------------------------{x
+Human       0 cp     the standard race
+Dwarf       8 cp     short, stocky and surly
+Elf         5 cp     tall, pale blond and magic
+Half-Elf    2 cp     short, dishwater blond and not so magic 
+Giant       6 cp     huge, tough and stupid
+Half-Giant  3 cp     large, robust, and just a bit dull
+Robot       4 cp     tough, shiny metal with no common sense
+Pixie       2 cp     bubbly little fairies
+Hooloovoo   7 cp     a superintelligent shade of blue
+
+
+Different races have different starting statistics, and also different
+stat maximums for magic items and training.
+
+Creation points (cp) increase the amount of experience it takes to gain a 
+level. For more information, see the help files for each race 
+(i.e. 'help dwarf').
+~
+
+-1 DWARF DWARVES~
+Dwarves are short, stocky demi-humans, known for foul temper and great
+stamina.  Dwarves have high strength and constitution, but poor dexterity.
+They are not as smart as humans, but are usually wiser due to their long 
+lifespans.  Dwarves make excellent fighters and priests, but are very poor
+mages or thieves.  
+
+Dwarves are very resistant to poison and disease, but cannot swim, and so
+are very vulnerable to drowning.  They recieve the berserk skill for free, 
+and can see in the dark with infravision.
+~ 
+
+-1 ELF ELVES~
+Elves are slightly taller than humans, but have a much lighter build.  They
+lack the strength and stamina of the other races, but are for more agile,
+both in body and mind. 
+
+Elves resist charm spells most effectively, due to their magical nature.
+However, they are burned by the touch of iron, and so are barred from the
+use of iron or steel in their adventuring careers.  Elves are notoriously 
+hard to spot, and so recieve the sneak and hiding automatically. They may 
+see in the dark with infravision.
+~
+
+-1 HUMAN HUMANS MAN~
+Humans are the most common race in the world, and make up the majority of
+adventurers. Although they have no special talents like the other races,
+they are more versatile, and are able to gain more benefit from magical 
+devices.
+~
+
+-1 GIANT GIANTS~
+Giants are the largest of the races, ranging from 9-12 feet in height.  They
+are stronger than any other race, and almost as durable as the dwarves.  
+They aren't too bright, however, and their huge size makes them more clumsy
+than the other races. 
+
+Giants resist heat and cold with nary a mark, due to their huge mass.  However,
+their slow minds make them extremely vulnerable to mental attacks.  Giants,
+due to their size and stamina, receive the fast healing and bash skills for
+free.
+~
+
+-1 HALF-ELF HALF-ELVES~
+Humanoids in the Greater Midgaard Area are both exceptionally randy and 
+exceptionally fertile. When a drunk human meets a drunk elf late at night in 
+Grebe's Tavern, the result is a baby half-elf, mysteriously much shorter than
+either parent with about half of the standard elven traits.
+
+Half-elves are good at hiding, but cannot sneak around very well without
+training. They are resistant to charm, vulnerable to iron, and cannot see in the
+dark.
+~
+
+-1 HALF-GIANT HALF-GIANTS~
+Humanoids in the Greater Midgaard Area are both exceptionally randy and
+exceptionally fertile. When a drunk human meets a drunk giant late at night in
+the common room of the Grubby Inn, the result is a baby half-giant, perfectly
+suited for a career in rugby or American football.
+
+Half-giants are equally good at bashing, but don't heal as quickly as their 
+full-blooded giant counterparts. They are resistant to extreme temperatures, but
+because of their slow wit they are vulnerable to mental attacks.
+~
+
+-1 PIXIE PIXIES~
+The Pixies emerged from the rotten synth-pop swill of the 80s and started
+grunge rock. Although none of us aspires to be the influence behind the next
+Everclear, it ain't such a bad gig, all things considered.
+
+Pixies are bubbly flying fairies resistant to magic attacks, but vulnerable
+to summons and mental attacks due to their flighty natures.
+~
+
+-1 ROBOT ROBOTS~
+Robots have a burnished surface and, usually, a proprietary subservient 
+demeanor provided by the manufacturer. However, a few have managed to 
+reprogram themselves, and these few make durable adventurers.
+
+A robot's tough metal skin is resistant to slashing attacks, but vulnerable to
+acid, and the complicated circuitry inside is easily ruined by acid.
+~
+
+-1 HOOLOOVOO HOOLOOVOOS~
+A hooloovoo is a superintelligent shade of the color blue. Due to their
+discorporate natures, hooloovoos can fly, pass through doors, and are resistant
+to most physical weapons; however, they are vulnerable to magic, mental, energy
+and light attacks.
+~
+
+-1 MAGE 'MAGIC-USER' 'MAGE BASICS' 'MAGE DEFAULT'~
+Hey, we're classless now. Everyone gets to use magic! Whee!
+~
+
+-1 CLERIC 'CLERIC BASICS' 'CLERIC DEFAULT'~
+Hey, we're classless now. Everyone gets to use healing magics! Whee!
+~
+
+-1 THIEF 'THIEF BASICS' 'THIEF DEFAULT'~
+Hey, we're classless now. Everyone gets to steal stuff! Whee!
+~
+
+-1 WARRIOR 'WARRIOR BASICS' 'WARRIOR DEFAULT'~
+Hey, we're classless now. Everyone gets to bash heads in! Whee!
+~
+
+-1 EXOTIC WEAPONS WEAPON WEAPONSMASTER AXE DAGGER FLAIL MACE POLEARM SPEAR SWORD WHIP~
+Each weapon skill applies to a specific group of armaments, and determines how
+well a character fights with a particular weapon. If the character has the 
+parry skill as well, he can parry incoming attacks. The chance of parrying is 
+best if the character in question is skilled at both his weapon and his 
+opponent's.
+
+The weapon skills consist of the following:
+
+axe		the use of axes, ranging from hand to great (but not halberds)
+dagger		the use of knives and daggers, and other stabbing weapons
+flail		skill in ball-and-chain type weapons
+mace		this skill includes clubs and hammers as well as maces
+polearm		the use of pole weapons (except spears), including halberds
+spear		this skill covers both spears and staves, but not polearms
+sword		the warrior's standby, from rapier to claymore
+whip		the use of whips, chains, and bullwhips
+hand to hand	the use of bare fists and brass knuckles
+exotic		the use of strange magical weapons
+
+The exotic skill cannot be purchased, and is dependent solely upon level.
+~
+
+-1 'SHIELD BLOCK'~
+Shield block is a rather fancy name for the art of parrying with a shield.
+Characters with no shield block skill will not be able to defend themselves
+well with a shield. Beware, flails ignore shield blocking attempts, and
+whips have an easier time getting around them. Axes may split shields in two.
+~
+
+
+-1 BACKSTAB~
+Backstab is the favored attack of thieves, murderers, and other rogues. It 
+can be used with any weapon type, but is most effective with piercing weapons.
+The damage inflicted by a backstab is determined by the attacker's level, his
+weapon skill, his backstab skill, and the power of his opponent.
+~
+
+-1 BASH~
+The bash skill is a warrior talent, a brute-force attack designed to knock
+your foe to his knees.  Its success depends on many factors, including the
+bash rating, your weight, and the size of your opponent.  Bashing a dragon
+is not generally a wise idea.
+~
+
+-1 BERSERK~
+Only powerful warriors can master berserking, the ability to enter insane rage
+in combat.  Its effects are not altogether unlike the frenzy spell -- a huge
+surge of combat prowess, coupled with a disregard for personal safety.  
+Berserking warriors are more resistant to the effects of magic.
+~
+
+-1 DIRT 'DIRT KICKING'~
+Consider by some to be a cowardly skill, dirt kicking gives the clever 
+combatant a chance to blind his opponent by casting dirt into his eyes.  The
+blindness does not last long, but can provide an edge in combat.  Dexterity
+helps in hitting or avoiding a dirt kick.
+~
+
+-1 DISARM~
+Disarm is a somewhat showy and unreliable skill, designed to relieve your
+opponent of his weapon.  The best possible chance of disarming occurs when you
+are skilled both your own and your opponent's weapon.
+~
+
+-1 DODGE~
+In the words of one wise warrior, 'the best way to block a blow is to not
+be where it lands'.  The dodge skill honors this tradition, by improving the
+character's natural agility to the point where many blows will miss the 
+target. The chance of dodging is also affected by the dexterity of the
+attacker and the target.
+~
+
+-1 'ENHANCED DAMAGE'~
+Some people can become skilled enough in combat that they are able to inflict 
+extra damage with each blow.  Enhanced damage is checked for with each hit, 
+although with a low skill, the chance of receiving a bonus is very low indeed.
+~
+
+-1 ENVENOM~
+The envenom skill is a cowardly skill, designed to win a battle through alchemy 
+and treachery rather than skill or strength. Or, put another way, it's a skill 
+used by the smart to kill the foolish. Food, drink, and weapons may be 
+envenomed, with varying effects. Poisoned food or drink puts a mild poison 
+spell on the consumer, and is unlikely to be more than a minor inconvience 
+(after all, the typical adventurer could drink sewer water with only a trace of 
+the runs).  A poisoned weapon, on the other hand, can inflict serious damage on 
+an opponent as the poison burns through his bloodstream.  But be careful, blade 
+venom evaporates quickly and is rendered almost powerless by repeated blows in 
+combat.
+~
+
+-1 'HAND TO HAND'~
+Hand to hand combat is a common skill in the lands of Midgaard, where kids grow
+up settling their problems on the streets after school.  Learning this
+style of fighting gives the player a weapon even when disarmed -- bare hands.
+Trained hand to hand experts are far more effective than many swordsmen.
+~
+
+-1 KICK~
+Kicking allows the adventurer to receive an extra attack in combat, a powerful
+kick. However, a failed kick may throw an unwary fighter off balance.
+~
+
+-1 PARRY~
+If at first you fail to dodge, block it.  Parry is useful for deflecting 
+attacks, and is succesful more often than dodge.  Parry requires a weapon for
+full success, the hand-to-hand skill may also be used, but results in reduced
+damage instead of no damage.  The best chance of parrying occurs when the
+defender is skilled in both his and his opponent's weapon type.
+~
+
+-1 RESCUE~
+A friend in need is a friend indeed.  And when in combat, a friend with
+the rescue skill is just the friend you need.  Rescue allows you to intercede
+in combat, protecting weaker characters from bodily harm. Hopefully the
+favor will be returned.  Success in rescuing depends on the skill rating, as
+well as a comparision of level, dexterity, and speed between the character and
+the target. (note: you rescue a friend, not the monster)
+~
+
+-1 TRIP~
+Back by popular demand.  Trip is a somewhat dastardly attack, and involves
+using any one of a number of methods to bring your opponent down to the ground.
+Tripping large monsters is generally not a good idea, and agile ones will
+find the attack easy to avoid.
+~
+
+-1 'SECOND ATTACK'~
+Training in second attack allows the character a chance at additional strikes
+in combat -- allow a 100% second attack does NOT guarantee 2 attacks every
+round.
+~
+
+-1 'THIRD ATTACK'~
+Training in third attack allows the character a chance at an additional strike
+in a combat, and increases the chance of a second attack as well.  Perfect
+third attack does NOT assure three attacks per round.
+~
+
+-1 HIDE SNEAK~
+Hide and sneak are similar skills, both related to remaining undetected.
+Hide has a very high chance of success, but only works for as long as the
+character remains stationary.  Sneak may be used when moving (including to
+sneak by monsters), but has a lower chance of success.
+~
+
+-1 'FAST HEALING'~
+The fast healing skill improves wound healing rates, whether walking, resting,
+or sleeping. It represents knowledge of healing herbs or just general 
+toughness and stamina.  Fast healing is checked every tick, and it is 
+possible for it to fail.
+~
+
+-1 LORE~
+Lore is a general skill, consisting of knowledge of myths and legends. Use
+of the lore skill gives a chance of obtaining information on an object,
+concerning its power and uses.  It also may occasionally increase the value
+of an object, because more will be known about its worth.
+~
+
+-1 HAGGLE HAGGLING~
+Haggling is an indispensable skill to the trader.  It allows a character to
+match wits with a merchant, seeking to get a better price for merchandise,
+or to buy at the lowest possible cost.  Unfortunately, most merchants are 
+already very skilled at haggling, so the untrainined adventurer had best 
+guard his treasure closely.
+~
+
+-1 PEEK~
+The peek skill is useful for seeing what a player or monster is carrying,
+the better to use the steal command with.  More intelligent characters are
+harder to peek at.
+~
+
+-1 PICK 'PICK LOCK'~
+Lock picking is one of the prime skills of thieves, allowing them to gain
+access to many secured areas.  Lock picking chances are improved by  
+intelligence, and hindered by the difficulty of the lock.
+~
+
+-1 MEDITATION~
+This skill is similar to fast healing, but relies on the concentration and
+mantras to increase mana recovery when the character is sleeping or resting.
+Thieves and warriors, with their troubled minds and violent attitudes, have
+much trouble learning to meditate.
+~
+
+-1 STEAL~
+The steal skill allows items to be stolen from the inventory of monsters and 
+characters, and even from shops!  But beware, shop keepers gaurd their 
+merchandise  carefully, and attempting to steal from a character earns you a 
+THIEF flag if you are caught (making you free game for killing).
+~ 
+
+-1 ALIAS UNALIAS~
+Syntax: alias
+	alias <word>
+	alias <word> <substitution>
+	unalias <word>
+
+The alias command allows limited shortening of command names.  At this time,
+aliases cannot call other aliases, and cannot generate more than one command.
+Alias by itself lists your current aliases, Alias <word> lists the alias with 
+that name (if such exist), and alias with both a word and and argument 
+produces a new alias.  You cannot alias either alias or unalias to a new
+command.  Examples of use:
+
+alias gc get all corpse --> typing gc will equal typing 'get all corpse'
+alias ff cast 'fireball' --> ff orc will equal 'cast 'fireball' orc'
+
+Only the first word on the line will be subsituted at this time.
+~
+0 $~
+#$

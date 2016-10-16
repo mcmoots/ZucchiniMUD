@@ -1,0 +1,2311 @@
+#AREADATA
+Name The Hobgoblin Keep~
+Builders None~
+VNUMs 12800 12899
+Credits {g[{G10 30{g]{x Roth     The Hobgoblin Keep~
+Security 9
+End
+
+
+
+#MOBILES
+#12800
+goblin sentry~
+A goblin sentry~
+A goblin sentry snarls at you as you approach.
+~
+A reddish skin creature wearing a combination of hide and
+leather armor.
+~
+goblin~
+ABCFGT J -250 0
+10 0 2d8+121 2d7+121 2d4+2 claw
+1 1 1 3
+0 Q LQ CE
+stand stand either 1000
+ABHMV ABCDEFGHIJK medium unknown
+#12801
+human old woman hermit~
+An old woman~
+An old woman is sitting down in a chair.
+~
+A tired old hermit, sitting in her rocking chair watching over her small
+home and brewing equipment.  
+~
+human~
+ABG HJNc 100 0
+12 0 2d10+150 2d10+150 1d10+3 punch
+0 0 0 2
+D B P 0
+sit sit female 1200
+AHMV ABCDEFGHIJK medium unknown
+#12802
+hobgoblin sentry~
+A sentry~
+A sentry watches you closely.
+~
+A well armored hobgoblin warrior dressed in a combination of hide and
+leather armor and armed with a halberd.  
+~
+hobgoblin~
+ABCGHTW J -250 0
+20 0 3d9+333 3d9+100 2d8+5 claw
+-4 -4 -4 -2
+0 0 LQ 0
+stand stand male 2000
+ABHMV ABCDEFGHIJKY medium unknown
+#12803
+hobgoblin captian~
+A large hobgoblin~
+A well armored hobgoblin is instructing guards around.
+~
+You see a large creature dressed in fine chainmail armor and
+a red cloak. He is carring a shield and a long sword.
+~
+hobgoblin~
+AGHT Jc -450 0
+25 0 5d10+600 5d10+400 2d10+7 claw
+-7 -7 -7 -3
+0 0 LQ 0
+stand stand male 2000
+ABHMV ABCDEFGHIJKY medium unknown
+#12804
+hobgoblin chieftian groll blackclaw~
+Groll~
+Groll Blackclaw, Chieftain of the Hobgoblin Clan, is standing here.
+~
+The largest hobgolbin you have ever seen, he is wearing thick hide armor,
+with a blood stained axe at his side.  
+~
+hobgoblin~
+ABGT HJO -351 0
+30 0 10d10+1000 6d12+853 4d6+8 smash
+-10 -10 -10 -5
+BEIJ B EGLQ O
+stand stand male 2500
+ABHMV ABCDEFGHIJKY medium unknown
+#12805
+hobgoblin commoner~
+A hobgoblin~
+A plainly dressed hobgoblin is wandering about here.
+~
+This hobgoblin seems to be a commoner among the others here.
+~
+hobgoblin~
+ACGW IJ -150 0
+15 0 3d9+208 2d6+110 2d6+3 claw
+-2 -2 -2 0
+0 0 LQ 0
+stand stand either 500
+ABHMV ABCDEFGHIJKY medium unknown
+#12806
+hobgoblin merchant trader barris snaggletooth~
+Barris Snaggletooth~
+Barris Snaggletooth is here, sitting on a crate and counting his earnings for the day.
+~
+Barris Snaggletooth is a well built and well dressed hobgoblin.  He is
+wearing finely made leather clothing and has a impressive looking dagger on
+his side.  
+~
+hobgoblin~
+ABG J -250 0
+15 0 3d9+208 2d6+110 2d6+3 claw
+-2 -2 -2 0
+0 AB LQ 0
+sit sit either 500000
+ABHMV ABCDEFGHIJKY medium unknown
+#12807
+hobgoblin cleric priest~
+A hobgoblin priest~
+A hobgoblin is chanting before an altar here.
+~
+A hobgoblin dressed in white and yellow robes, with a wooden mace
+hanging at her side. Around her neck is silver chains with what
+appears to moonstones attached to it.
+~
+hobgoblin~
+ABGQ JOVc -1000 0
+25 0 5d10+550 5d10+650 3d6+6 claw
+-7 -7 -7 -5
+0 B LQ 0
+stand stand female 1500
+ABHMV ABCDEFGHIJKY medium unknown
+#12808
+hobgoblin mage~
+A hobgoblin mage~
+A scrawny looking hobgoblin turns toward you and growls.
+~
+A hobgoblin dressed in black robes that has red runic symbols around the
+hem of the robes.  
+~
+unique~
+ABGR DHV -1000 0
+28 0 5d10+650 5d10+703 2d10+7 claw
+-7 -7 -7 -5
+0 B 0 0
+stand stand male 2800
+0 0 medium unknown
+#12809
+human priest~
+A human~
+A man dressed is a leather stands behind a counter.
+~
+A human with brown hair and a beard dressed in a leather outfit is eyeing
+you as you enter his shop.  
+~
+human~
+ABG 0 100 0
+25 0 5d10+550 5d10+650 3d6+6 punch
+-7 -7 -7 -5
+0 B 0 0
+stand stand male 50000
+AHMV ABCDEFGHIJK medium unknown
+#12810
+crystal statue~
+A crystal statue~
+A crystal statue of a elven maiden stands here.
+~
+You see a very lovely statue of a young female elf, whose dress seems to
+blow from an unfelt wind.  Her hands are extended outward as if to embrace a
+lover.  
+~
+doll~
+ABGa CDEFGNc 1000 0
+30 0 10d10+1100 10d10+1100 6d4+10 crush
+-10 -10 -10 -5
+0 ILMNPQR ES GHJKO
+stand stand either 0
+EJMc ABCGHK large unknown
+#0
+
+
+
+#OBJECTS
+#12800
+heavy hide armor~
+A suit of heavy hide armor~
+A piece of hide armor has been tossed to the ground.~
+fur~
+armor 0 AD
+CE CE CE AC B
+20 4 1200 G
+#12801
+light hide armor~
+A suit of light hide armor~
+A piece of hide armor has been tossed to the ground.~
+fur~
+armor 0 AD
+BD BD BD AC B
+10 2 800 G
+#12802
+cloth cape~
+A thin cloth cape~
+A small cape has been discarded.~
+wool~
+armor 0 AC
+D D D 0 B
+10 1 500 G
+#12803
+leather bracer~
+A leather bracer~
+A finely crafter piece of leather has be discarded.~
+hardleather~
+armor 0 AM
+AC AC AC 0 B
+10 1 250 G
+#12804
+leather boots~
+A pair of leather boots~
+A sturdy pair of boots are lying on the ground.~
+softleather~
+armor 0 AG
+B B B 0 B
+10 1 600 G
+#12805
+leather pants~
+A pair of leather pants~
+An old pair of leather pants have been tossed to the ground.~
+softleather~
+armor 0 AF
+AC AC AC 0 B
+10 2 750 G
+#12806
+halberd polearm~
+A halberd~
+A long stick with a metal blade is lying on the ground.~
+metal~
+weapon 0 AN
+polearm 8 6 slash F
+20 7 1375 P
+#12807
+small short sword~
+A short sword~
+A small sword has been dropped here.~
+metal~
+weapon 0 AN
+sword 2 8 thrust 0
+10 4 900 P
+#12808
+mace club~
+A small mace~
+A mace have been tossed to the ground.~
+metal~
+weapon 0 AN
+mace 3 10 pound 0
+25 5 800 P
+#12809
+huge axe~
+A huge axe~
+A double bladed axe is stuck in the ground.~
+metal~
+weapon 0 AN
+axe 6 10 slice F
+30 10 2000 P
+#12810
+Small Wooden Shield~
+A small shield~
+A small wooden shield is lying on the ground.~
+hardwood~
+armor 0 AJ
+ABC ABC ABC 0 B
+10 4 500 G
+#12811
+large wooden shield~
+A large round shield~
+A large wooden shield is lying on the grounf.~
+hardwood~
+armor 0 AJ
+BD BD BD B B
+12 6 575 G
+#12812
+Small Wooden Shield~
+A small shield~
+A small wooden shield is lying on the ground.~
+hardwood~
+armor N AJ
+ABC ABC ABC 0 BC
+10 4 500 G
+#12813
+large wooden shield~
+A large round shield~
+A large round shield in lying here.~
+hardwood~
+armor N AJ
+BD BD BD B BC
+12 6 575 G
+#12814
+small short sword~
+A short sword~
+A small sword lies here.~
+metal~
+weapon N AN
+sword 2 8 thrust 0
+10 4 900 P
+#12815
+mace club~
+A small mace~
+A mace has been tossed to the ground.~
+metal~
+weapon N AN
+mace 3 10 pound 0
+15 5 800 P
+#12816
+heavy hide armor~
+A suit of heavy hide armor~
+A piece of hide armor has been tossed to the ground.~
+fur~
+armor N AD
+CE CE CE AC BC
+20 4 1200 G
+#12817
+light hide armor~
+A suit of light hide armor~
+A piece of hide armor has been tossed to the ground.~
+fur~
+armor N AD
+BD BD BD AC BC
+10 2 800 G
+#12818
+draught curing potion~
+a curing draught~
+A potion with a crude writing on its label is lying here.~
+glass~
+potion AG AO
+5 'cure disease' 'cure poison' 'cure light' ''
+10 1 2500 P
+E
+label~
+A potion of disease and poison curing, and a light heal.  
+~
+#12819
+yellow flower~
+A yellow flower~
+A yellow flower with colorful anthers lies on the ground.~
+food~
+pill 0 AO
+5 'faerie fire' 'faerie fire' 'faerie fire' 'plague'
+1 1 0 P
+E
+anthers anther~
+The anthers are a pinkish color.  
+~
+#12820
+yellow flower~
+A yellow flower~
+A yellow flower with colorful anthers lies on the ground.~
+food~
+pill 0 AO
+5 'dispel evil' 'dispel good' '' 'poison'
+1 1 0 P
+E
+anthers anther~
+The anthers are a blue and green color.
+~
+#12821
+yellow flower~
+A yellow flower~
+A yellow flower with colorful anthers lies here.~
+food~
+pill 0 AO
+5 'change sex' 'chill touch' 'chill touch' 'cause serious'
+1 1 0 P
+E
+anthers anther~
+The anthers are black.
+~
+#12822
+yellow flower~
+A yellow flower~
+A yellow flower with colorful anthers lies here.~
+food~
+pill 0 AO
+5 'sanctuary' '' '' ''
+1 1 0 P
+E
+anthers anther~
+The anthers are a white color.
+~
+#12823
+canteen mead~
+A small canteen of mead~
+A small canteen with a red label is on the floor.~
+metal~
+drink 0 AO
+30 30 'mead' 0 0
+5 10 200 G
+E
+red label~
+There is a black crow on it and the word 'mead'.  
+~
+#12824
+canteen dark ale~
+A small canteen of dark ale~
+A small canteen with a red label is on the floor.~
+metal~
+drink 0 AO
+30 30 'dark ale' 0 0
+5 10 275 G
+E
+red label~
+There is a black crow on it and the word 'dark ale'.  
+~
+#12825
+canteen ale~
+A small canteen of ale~
+A small canteen with a red label is on the floor.~
+metal~
+drink 0 AO
+30 30 'ale' 0 0
+5 10 265 G
+E
+red label~
+There is a black crow on it and the word 'ale'.  
+~
+#12826
+canteen firebreather~
+A small canteen of firebreather~
+A small canteen with a red label is on the floor.~
+metal~
+drink 0 AO
+30 30 'firebreather' 0 0
+5 10 300 G
+E
+red label~
+There is a black crow on it and the word 'firebreather'.  
+~
+#12827
+canteen rum~
+A small canteen of rum~
+A small canteen with a red label is on the floor.~
+metal~
+drink 0 AO
+30 30 'rum' 0 0
+5 10 375 G
+E
+red label~
+There is a black crow on it and the word 'rum'.  
+~
+#12828
+canteen absinthe~
+A small canteen of absinthe~
+A small canteen with a red label is on the floor.~
+metal~
+drink 0 AO
+30 30 'absinthe' 0 0
+5 10 450 G
+E
+red label~
+There is a black crow on it and the word 'absinthe'.  
+~
+#0
+
+
+
+#ROOMS
+#12800
+A Trail in the Forest~
+The forest is dark and silent and the vegetation here looks untouched by
+all outside influence.  The forest floor lacks any grass from the thick
+growth of the trees above you.  
+~
+0 0 2
+D0
+~
+~
+0 0 12862
+D2
+The trail continues.
+~
+~
+0 0 6151
+S
+#12801
+A Path in the Forest~
+The area is barren of trees, grass and life.  The area looks like it has
+recently been affected by a rock slide.  The cliff around you looks very
+unstable.  The path continues to descend further into the mountain side.  To
+the north you can see a large structure.  
+~
+0 0 3
+D0
+You see a old castle off in the distance.  
+~
+~
+0 0 12802
+D2
+To the south you see a dark and eerie forest.
+~
+~
+0 0 12875
+S
+#12802
+Dark Entrance~
+Darkness surrounds you as you enter the keep.  Rats scurry to and from
+the shadows.  You have an eerie feeling that something is not right here. 
+The discarded bones from victims trying to enter this place can be seen just
+at the edge of your light source.  The passage looks to continue to the
+north with a wooden door to the east and one to the west.  
+~
+0 9 0
+E
+bones~
+The bones have tiny scratch marks on them, almost as if some has been crewing on them.
+~
+D0
+Shadows can be seen in the flickering light ahead.
+~
+~
+0 0 12807
+D1
+A wooden door bound with iron bands.
+~
+wood door~
+1 0 12803
+D2
+You see a forest path in the distance.
+~
+~
+0 0 12801
+D3
+A wooden door bound with iron bands.
+~
+wood door~
+1 0 12805
+S
+#12803
+Guard Room~
+This dark and musky room is filled with trash.  Tables that once
+furnished this room have been bashed into pieces and discarded along the
+north wall.  What appears to be four beds are on the floor near the south
+wall.  In the back of the room, along the east wall, a wooden door stand
+partially open.  
+~
+0 9 0
+E
+table tables~
+Shattered pieces of wood is all that remains of these tables.
+~
+E
+bed beds~
+These beds are made of animal fur, and are filthy. In the bed you find a small pouch with some coins in it.
+~
+D1
+An old rotting wooden door.
+~
+wood door east~
+1 0 12804
+D3
+A wooden door bound with iron bands.
+~
+wood door west~
+1 0 12802
+S
+#12804
+Armory~
+This small room is filled with weapon racks and rusty weapons.  In the
+southern corner are four barrels filled with arrows.  Two suits of armor
+stand near the northern wall.  
+~
+0 9 0
+E
+barrel barrels~
+These barrel are waist high, and appear to rotten.
+~
+E
+arrow arrows~
+These arrow still bear some fletching, red in colors.  Otheyrwise the are
+rotted and useless.  
+~
+E
+armor~
+Once made of finely crafted chainmail, they are now laden with rust,
+propped up on wooden dummies.  
+~
+D3
+An old rotting wooden door.
+~
+wood door west~
+1 0 12803
+S
+#12805
+Abandoned Dining Room~
+This room appears to have once been a eloquent dining room.  There are
+tables and chairs scattered throughout the room, many which are turned on
+their sides or upside down.  Everything is covered in cobwebs.  What appears
+to be the remains of a arm lies just below the central table.  What appears
+to be a door in the western wall is covered in cobwebs.  
+~
+0 9 0
+E
+chair chairs~
+A high backed chair, with a highly crafted details in the head rest.
+~
+E
+Arm~
+The arm is vile, the skin is discolored and covered in blisters.
+~
+E
+cobwebs~
+The cobwebs are full of thousand little spiders crawling through them.
+~
+E
+table~
+Underneath all of the cobwebs is a finely crafted table.
+~
+D1
+A wooden door bound with iron bands.
+~
+wood door east~
+1 0 12802
+D3
+A plain wooden door with a star burst symbol carved upon it.
+~
+wood door west~
+0 0 12806
+S
+#12806
+Store Room~
+This small room appears to have been used as a storage room in the past. 
+Boxes are stacked against the northern wall.  Against the western wall is a
+pile of sacks.  Next to them is a small chest with a body laying next to it.
+~
+0 9 0
+E
+box boxes~
+The wooden crates have been pried open and are empty of any contents.
+~
+E
+sack~
+An old flour sack, now empty as you discover upon looking in.
+~
+E
+chest~
+The inside of the chest is covered in velvet, and empty of any contents.
+~
+E
+body~
+The skeleton remains of a human lie here with several arrows still
+plunged into its back.  
+~
+D1
+A plain wooden door.
+~
+door~
+0 0 12805
+S
+#12807
+Corridor~
+The hallway is partially lit by two wall sconces at each of the four
+corners of this intersection.  The walls have been covered by vines and
+fungus from years of growth.  The floor stones have turned to a greenish
+color from the water that stands here.  The corridor continues to the north,
+south, east and west.  
+~
+0 9 0
+E
+wall vine fungus~
+The walls are covered in vines and fungus.  In various locations a yellow
+flower grows.  
+~
+D0
+Torch light can be seen off in the distance.
+~
+~
+0 0 12851
+D1
+Torch light can be seen off in the distance down the corridor.
+~
+~
+0 0 12808
+D2
+Torch light can be seen off in the distance down the corridor.
+~
+~
+0 0 12802
+D3
+Torch light can be seen off in the distance down the corridor.
+~
+~
+0 0 12823
+S
+#12808
+Corridor~
+The hallway is partially lit by a sconce on the south wall.  The walls
+have been covered by vines and fungus from years of growth.  The floor
+stones have turned to a greenish color from the water that stands here.  The
+corridor continues to the east and east.  To the north is a wooden door.  
+~
+0 9 0
+E
+wall vine fungus~
+The walls are covered in vines and fungus.  In various locations a yellow
+flower grows.  
+~
+D0
+A Wooden door, partly rotted away from age.
+~
+wood door~
+1 0 12852
+D1
+Torch light can be seen off in the distance.
+~
+~
+0 0 12809
+D3
+Torch light can be seen of in the distance.
+~
+~
+0 0 12807
+S
+#12809
+Corridor~
+The hallway is partially lit by a sconce on the south wall.  The walls have been
+covered by vines and fungus from years of growth.  The floor stones have turned 
+to a greenish color from the water that stands here.  The corridor continues to
+the north and west, while a staircase extends upward to the guard tower above.  
+To the east is an iron door that has strange markings scratched on it.  
+~
+0 9 0
+E
+wall vine fungus~
+The walls are covered in vines and fungus.  In various locations a yellow
+flower grows.  
+~
+E
+stone floor~
+The stone looks solid, but from years of neglect has turned it to its
+current color.  
+~
+D0
+Shadow seem to be dancing in the distance torch light.
+~
+~
+0 0 12810
+D1
+A iron door stand here, and looks untouched by time.
+~
+Iron door~
+1 0 12827
+D3
+Torch light can be seen off in the distance.
+~
+~
+0 0 12808
+D4
+~
+~
+0 0 12849
+S
+#12810
+Corridor~
+The hallway is partially lit by two wall sconces on the west wall.  The
+walls have been covered by vines and fungus from years of growth.  The floor
+stones have turned to a greenish color from the water that stands here.  The
+corridor continues to the north and south.  To the east is a wooden door.  
+~
+0 9 0
+E
+wall vine fungus~
+The walls are covered in vines and fungus.  In various locations a yellow
+flower grows.  
+~
+E
+stone floor~
+The stone looks solid, but from years of neglect it has turned to its
+current color.  
+~
+D0
+Torch light can be seen off in the distance.
+~
+~
+0 0 12811
+D1
+A wooden door looks withered from age.  A foul smelling order seeps
+through the door cracks.  
+~
+wood door~
+1 0 12828
+D2
+Torch light can be seen off in the distance.
+~
+~
+0 0 12809
+S
+#12811
+Corridor~
+The hallway is partially lit by two wall sconces on the west wall.  The
+walls have been covered by vines and fungus from years of growth.  The floor
+stones have turned to a greenish color from the water that stands here.  The
+corridor continues to the north and south.  To the east is a wooden door.  
+~
+0 9 0
+E
+wall vine fungus~
+The walls are covered in vines and fungus.  In various locations a yellow
+flower grows.  
+~
+D0
+~
+~
+0 0 12812
+D1
+A wooden door bound with iron bands.  Behind the door is the sounds of a
+creature.  
+~
+Door~
+1 0 12829
+D2
+Torch light can be seen off in the distance.~
+~
+0 0 12810
+S
+#12812
+Corridor~
+The hallway is partially lit by two wall sconces on the west wall.  The
+walls have been covered by vines and fungus from years of growth.  The floor
+stones have turned to a greenish color from the water that stands here.  The
+corridor continues to the north and south.  To the east is a wooden door.  
+~
+0 9 0
+E
+wall vine fungus~
+The walls are covered in vines and fungus.  In various locations a yellow
+flower grows.  
+~
+D0
+Torch light can be seen off in the distance.
+~
+~
+0 0 12813
+D1
+A rotting wooden door blocks your path.
+~
+wood door~
+1 0 12830
+D2
+~
+~
+0 0 12811
+S
+#12813
+Corridor~
+The hallway is partially lit by two wall sconces on the west wall.  The
+walls have been covered by vines and fungus from years of growth.  The floor
+stones have turned to a greenish color from the water that stands here.  The
+corridor continues to the south, west and a staircase leads upwards to the
+guard tower.  To the east is a wooden door.  
+~
+0 9 0
+E
+wall vine fungus~
+The walls are covered in vines and fungus.  In various locations a yellow
+flower grows.  
+~
+D1
+A finely crafted door, worn from age but still in excellent condition. 
+As you exam the door closer you notice ancient arcane symbols.  
+~
+Door~
+1 0 12831
+D2
+Torch light can be seen off in the distance.
+~
+~
+0 0 12812
+D3
+Torch light can be seen off in the distance.  
+~
+~
+0 0 12814
+D4
+A corridor lit by wall sconces.
+~
+~
+0 0 12832
+S
+#12814
+Corridor~
+The hallway is partially lit by sconces on the north and south walls. 
+The walls have been covered by vines and fungus from years of growth.  The
+floor stones have turned to a greenish color from the water that stands
+here.  The corridor continues to the east and west.  There is are wooden
+doors on the north and south sides of the corridor.  
+~
+0 9 0
+E
+wall vine fungus~
+The walls are covered in vines and fungus. In various locations a yellow
+flower grows.
+~
+D0
+A plain wooden door, bound with iron bands.
+~
+Door North~
+1 0 12836
+D1
+Torch light can be seen off in the distance.
+~
+~
+0 0 12813
+D2
+A plain wooden door, bound with iron bands.
+~
+Door South~
+1 0 12855
+D3
+Torch light can be seen off in the distance.
+~
+~
+0 0 12815
+S
+#12815
+Corridor~
+The hallway is partially lit by sconcea at the corners of this
+intersection.  The walls have been covered by vines and fungus from years of
+growth.  The floor stones have turned to a greenish color from the water
+that stands here.  The corridor continues to the south, east and west.  To
+the north is a wooden door.  
+~
+0 9 0
+D0
+A plain wooden door, bound with iron bands.
+~
+Door~
+1 0 12837
+D1
+Torch light can be seen off in the distance.
+~
+~
+0 0 12814
+D2
+Torch light can be seen off in the distance.
+~
+~
+0 0 12856
+D3
+Torch light can be seen off in the distance.
+~
+~
+0 0 12816
+S
+#12816
+Corridor~
+The hallway is partially lit by sconces on the north and south walls. 
+The walls have been covered by vines and fungus from years of growth.  The
+floor stones have turned to a greenish color from the water that stands
+here.  The corridor continues to the east and west.  There are wooden doors
+on the north and south sides of the corridor.  
+~
+0 9 0
+E
+wall vine fungus~
+The walls are covered in vines and fungus. In various locations a yellow
+flower grows.
+~
+D0
+A plain wooden door, bound with iron bands.
+~
+Door North~
+1 0 12838
+D1
+Torch light can be seen off in the distance.
+~
+~
+0 0 12815
+D2
+A plain wooden door, bound with iron bands.
+~
+Door South~
+1 0 12857
+D3
+Torch light can be seen off in the distance.
+~
+~
+0 0 12817
+S
+#12817
+Corridor~
+The hallway is partially lit by a sconce on the west wall.  The walls have
+been covered by vines and fungus from years of growth.  The floor stones
+have turned to a greenish color from the water that stands here.  The
+corridor continues to the south and east, and a staircase leads upwards to
+the guard tower.  To the west is a wooden door.  
+~
+0 9 0
+E
+wall vine fungus~
+The walls are covered in vines and fungus. In various locations a yellow
+flower grows.
+~
+D1
+Torch light can be seen off in the distance.
+~
+~
+0 0 12816
+D2
+Torch light can be seen off in the distance.
+~
+~
+0 0 12819
+D3
+A plain wooden door, bound with iron bands.
+~
+wood door~
+1 0 12842
+D4
+A corridor lit by wall scones.
+~
+~
+0 0 12818
+S
+#12818
+Guard Tower Stairs~
+The hallway is partially lit by sconces on both sides.  The walls have
+been covered by vines and fungus from years of growth.  The floor stones
+have turned to a greenish color from the water that stands here.  The stairs
+continue to up and back down is the main hall.  
+~
+0 0 1
+E
+wall vine fungus~
+The walls are covered in vines and fungus. In varioss locations a yellow
+flower grows.
+~
+D4
+~
+~
+0 0 12840
+D5
+~
+~
+0 0 12817
+S
+#12819
+Corridor~
+The hallway is partially lit by a sconce on the east wall.  The walls have
+been covered by vines and fungus from years of growth.  The floor stones
+have turned to a greenish color from the water that stands here.  The
+corridor continues to the north and south.  To the west is a wooden door.  
+~
+0 9 0
+D0
+~
+~
+0 0 12817
+D2
+Torch light can be seen off in the distance.
+~
+~
+0 0 12820
+D3
+A plain wooden door, with iron bands.
+~
+wood door~
+1 0 12843
+S
+#12820
+Corridor~
+The hallway is partially lit by a sconce on the east wall.  The walls have
+been covered by vines and fungus from years of growth.  The floor stones
+have turned to a greenish color from the water that stands here.  The
+corridor continues to the north and south.  To the west is a wooden door.  
+~
+0 9 0
+D0
+Torch light can be seen off in the distance.
+~
+~
+0 0 12819
+D2
+Torch light can be seen off in the distance.
+~
+~
+0 0 12821
+D3
+A plain wooden door, bound with iron bands.
+~
+wood door~
+1 0 12844
+S
+#12821
+Corridor~
+The hallway is partially lit by a sconce on the east wall.  The walls have
+been covered by vines and fungus from years of growth.  The floor stones
+have turned to a greenish color from the water that stands here.  The
+corridor continues to the north and south.  To the west is a wooden door.  
+~
+0 9 0
+E
+wall vine fungus~
+The walls are covered in vines and fungus. In various locations a yellow
+flower grows.
+~
+D0
+Torch light can be seen off in the distance.
+~
+~
+0 0 12820
+D2
+Torch light can be seen off in the distance.
+~
+~
+0 0 12822
+D3
+A plain wooden door, bound with iron bands.
+~
+Door West~
+1 0 12845
+S
+#12822
+Corridor~
+The hallway is partially lit by a sconce on the east wall.  The walls have
+been covered by vines and fungus from years of growth.  The floor stones
+have turned to a greenish color from the water that stands here.  The
+corridor continues to the north and east, and a staircase leads up.  
+~
+0 9 0
+E
+wall vine fungus~
+The walls are covered in vines and fungus. In various locations a yellow
+flower grows.
+~
+D0
+Torch light can be seen off in the distance.
+~
+~
+0 0 12821
+D1
+Torch light can be seen off in the distance.
+~
+~
+0 0 12823
+D4
+~
+~
+0 0 12824
+S
+#12823
+Corridor~
+The hallway is partially lit by a sconce on the south wall.  The walls
+have been covered by vines and fungus from years of growth.  The floor
+stones have turned to a greenish color from the water that stands here.  The
+corridor continues to the east and west.  To the north is a wooden door.  
+~
+0 9 0
+E
+wall vine fungus~
+The walls are covered in vines and fungus. In various locations a yellow
+flower grows.
+~
+D0
+A partially rotted door, barely being held together with iron bands.
+~
+Door North~
+1 0 12850
+D1
+Torch light can be seen off in the distance.
+~
+~
+0 0 12807
+D3
+Torch light can be seen off in the distance.
+~
+~
+0 0 12822
+S
+#12824
+Guard Tower Corridor~
+The hallway is partially lit by sconces on both sides.  The walls have
+been covered by vines and fungus from years of growth.  The floor stones
+have turned to a greenish color from the water that stands here.  The stairs
+continue up and back down is the main hall.  
+~
+0 0 1
+E
+wall vine fungus~
+The walls are covered in vines and fungus. In various locations a yellow
+flower grows.
+~
+D4
+A dimly light room, with low pitch sounds within.
+~
+~
+0 0 12825
+D5
+~
+~
+0 0 12822
+S
+#12825
+Lower Tower Room~
+You see a circular room, with several narrow opening spaced evenly about
+the outside wall.  The windows extend about from waist height to about head
+height for a normal human.  These are obviously ports from which defenders
+of this castle could fire arrows.  In the center of the room is an iron
+ladder extending from the floor to opening in the ceiling.  
+~
+0 0 1
+D4
+~
+~
+0 0 12826
+D5
+A corridor dimly lit by wall scones.
+~
+~
+0 0 12824
+S
+#12826
+Battlements~
+This area was obviously use for defense.  Several large cauldrons stand
+near the edge of the waist high walls.  Burnt wood can still be seen for
+below the cauldrons.  The remains of a ballista lay here, along with a barrel
+of huge arrows once used for battle.  
+~
+0 0 1
+D5
+~
+~
+0 0 12825
+S
+#12827
+Abandoned Study~
+Before you the decaying remains of a once well furnished study. Books on the
+ledges are covered in a thick layer of dust. The desk, from old age, has
+collapsed on one side and most of the items have fallen to the floor.
+~
+0 1037 0
+D3
+A plain wooden door, bound with iron bands.
+~
+Door West~
+1 0 12809
+S
+#12828
+Lair of the Orcish Lord~
+This foul smelling area is litter with trash.  You see the remains of
+what you hope is animal bones piled about knee high in a corner.  There is a
+bed covered in animal fur along the west wall with a chest at the foot of
+it.  A make-shift table is near the head of the bed with a single half burnt
+candle on it.  
+~
+0 9 0
+D3
+A iron door.
+~
+Door Iron West~
+1 0 12810
+S
+#12829
+Guard Room~
+Apparently this was a barracks for the previous owners of the castle.  Now
+the new occupants have taken it over and are using it for the own usage. 
+Various garments lie discarded on the floor.  Weapons and armor hang from
+hooks.  
+~
+0 9 0
+D3
+A plain wooden door, bound with iron bands.
+~
+Door West~
+1 0 12811
+S
+#12830
+Abandoned Store Room~
+Boxes are stacked three high against the east wall.  Barrels are along the
+north wall.  A series of shelves line the south wall with various items on
+them.  Trash is scattered all over the floor.  The only source of light the
+room seems to have is the small window high in the east wall.  
+~
+0 0 1
+D3
+A rotting wooden door.
+~
+Door West~
+1 0 12812
+S
+#12831
+An Altar~
+There is a small wooden and silver altar on the northern wall.  Above the
+altar is a large banner with crude markings.  There are several benches in
+the room in front of the altar.  Along the east wall is a ledge about seven
+feet from the floor, with two small windows above the ledge.  A small
+brazier burning incenses stands in the southeast corner.  
+~
+0 0 1
+D3
+A wooden door.
+~
+Door West~
+1 0 12813
+S
+#12832
+Guard Tower Stairs~
+The hallway is partially lit by sconces on both sides.  The walls have
+been covered by vines and fungus from years of growth.  The floor stones
+have turned to a greenish color from the water that stands here.  The stairs
+continue up and back down is the main hall.  
+~
+0 0 1
+D4
+A dimly lit room.~
+~
+0 0 12833
+D5
+A corridor dimly lit by wall scones.
+~
+~
+0 0 12813
+S
+#12833
+Lower Tower Room~
+You see a circular room, with several narrow opening spaced evenly about
+the outside wall.  The windows extend about from waist height to about head
+height for a normal human.  These are obviously ports from which defenders
+of this castle could fire arrows.  In the center of the room is an iron
+ladder extending from the floor to the ceiling.  
+~
+0 0 1
+D4
+~
+~
+0 0 12834
+D5
+A corridor dimly lit by wall scones.
+~
+~
+0 0 12832
+S
+#12834
+Battlements~
+This area was obviously use for defense.  Several large cauldrons stand
+near the edge of the waist high walls.  Burnt wood can still be seen for
+beneath the cauldrons.  The remains of a ballista lay here, along with a
+barrel of huge arrows once used for battle.  
+~
+0 0 1
+D5
+~
+~
+0 0 12833
+S
+#12835
+Priest's Quarters~
+The room is sparsely furniture.  A small wooden bed is along the north
+wall, with a chest at the foot of the bed.  Aganist the southeast wall is a
+small altar with various holy items on it.  On the wall above the altar is a
+tapestry depicting a battle between humans and the inhabitants of this place.  
+~
+0 9 0
+D3
+A wooden door.
+~
+Door West~
+0 0 12836
+S
+#12836
+Small Alcove~
+The walls are covered in wooden planks.  In the center of the room a
+small silver brazier is burning.  The smoke that rises from the brazier is
+reddish.  On the walls are various hides of creatures.  On the ceiling is
+painted an arcane symbol.  
+~
+0 9 0
+D1
+A wooden door with a strange symbol painted in yellow on it.
+~
+Door East~
+0 0 12835
+D2
+A wooden door.
+~
+Door South~
+1 0 12814
+S
+#12837
+Empty Bed Room~
+The room is a large square room.  The bed seems to have been untouched
+for years.  The writing desk along the western wall has paper scattered
+across the top of it, along with other various items.  A large chest sits
+on the floor next to the desk.  
+~
+0 9 0
+D2
+A wooden door.
+~
+Door South~
+1 0 12815
+S
+#12838
+Small Alcove~
+The walls are covered in wooden planks.  In the center of the rooms is a
+small brass brazier burning.  The smoke that rises from the brazier is
+yellowish.  On the walls are painted various arcane symbols.  
+~
+0 9 0
+D2
+A wooden door.
+~
+Door South~
+1 0 12816
+D3
+~
+~
+0 0 12839
+S
+#12839
+Mage's Quarters~
+The walls are cover in arcane symbols of all colours and sizes.  A
+brazier sits in each corner, burning with a soft red glow.  There is a huge
+fireplace in the northern wall with a large pot over the fire.  In the north-
+eastern corner is a large pile of bones.  
+~
+0 9 0
+D1
+~
+~
+0 0 12838
+S
+#12840
+Lower Tower Room~
+You see a circular room, with several narrow opening spaced evenly about
+the outside wall.  The windows extend about from waist height to about head
+height for a normal human.  These are obviously ports from which defenders
+of this castle could fire arrows.  In the center of the room is an iron
+ladder extending from the floor to the ceiling.  
+~
+0 0 1
+D4
+~
+~
+0 0 12841
+D5
+~
+~
+0 0 12818
+S
+#12841
+Battlements~
+This area was obviously use for defense.  Several large cauldrons stand
+near the edge of the waist high walls.  Burnt wood can still be seen for
+below the caludrons.  The remains of a ballista lay here, along with a barrel
+of huge arrows once used for battle.  
+~
+0 0 1
+D5
+~
+~
+0 0 12840
+S
+#12842
+Abandoned Chapel~
+The west wall of this room has a ledge about seven feet from the floor,
+with two small windows above the ledge.  There is a small altar below the
+ledge.  The room furniture looks to have been smashed.  The walls have been
+painted with red eyes.  On top of the altar, the remains of a sacarfice
+can be seen.  
+~
+0 0 1
+D1
+A wooden door.
+~
+Wood Door East~
+1 0 12817
+S
+#12843
+Storeroom~
+The west wall of this room has a ledge seven feet from the floor, with two
+small windows above the ledge.  Three half rotted crates sit on the floor
+below the ledge.  Trash is scattered across the floor.  
+~
+0 0 1
+D1
+A wooden door.
+~
+Wood Door East~
+1 0 12819
+S
+#12844
+Library~
+Bookshelves line the north, south and west walls.  The books that remain
+are moth-eaten.  There is a table in center of the room, sitting on an old
+dusty carpet.  
+~
+0 1 0
+D1
+A wooden door.
+~
+Wood Door East~
+1 0 12820
+S
+#12845
+Pantry~
+Cabinets and shelves line the walls.  Boxes that are half rotten and old
+sacks which have spilled their contents are on the floor.  Other various
+pieces of trash lie on the floor.  
+~
+0 1 0
+D1
+A wooden door.
+~
+Door East~
+1 0 12821
+S
+#12846
+Kitchen~
+This room seems to be a Kitchen. It contain four large tables, a pump, and
+an old stove. The west wall has several ledges, with two small windows
+above the ledges. A large wooden chest sits on the floor below one of
+the tables.
+~
+0 1 1
+D1
+A wooden door.
+~
+Door East~
+0 0 12822
+S
+#12847
+Lower Tower Room~
+You see a circular room, with several narrow opening spaced evenly about
+the outside wall.  The windows extend about from waist height to about head
+height for a normal human.  These are obviously ports from which defenders
+of this castle could fire arrows.  In the center of the room is an iron
+ladder extending from the floor to the ceiling.  
+~
+0 0 1
+D4
+A iron ladder extends up into the battlements above.
+~
+~
+0 0 12848
+D5
+A corridor dimly lit by wall scones.
+~
+~
+0 0 12849
+S
+#12848
+Battlements~
+This area was obviously use for defense.  Several large cauldrons stand
+near the edge of the waist high walls.  Burnt wood can still be seen for
+below the cauldrons.  The remains of a ballista lay here, along with a barrel
+of huge arrows once used for battle.  
+~
+0 0 1
+D5
+A iron ladder leads down to the room below.
+~
+~
+0 0 12847
+S
+#12849
+Guard Tower Corridor~
+The hallway is partially lit by sconces on both sides.  The walls have
+been covered by vines and fungus from years of growth.  The floor stones
+have turned to a greenish color from the water that stands here.  The stairs
+continue up and back down is the main hall.  
+~
+0 9 0
+D4
+A corridor dimly lit by wall sconces.
+~
+~
+0 0 12847
+D5
+~
+~
+0 0 12809
+S
+#12850
+Abandoned Shop~
+The room is in complete disarray.  Old display cabinets have been over-
+turned and shelves have been ripped from the walls.  Various other items
+furniture seem to have been tossed about in here as well.  
+~
+0 9 0
+D2
+A rotting door.
+~
+Door South~
+1 0 12823
+S
+#12851
+Corridor~
+The hallway is partially lit by sconces on both sides.  The walls have
+been covered by vines and fungus from years of growth.  The floor stones
+have turned to a greenish color from the water that stands here.  There is a
+wooden door to the north, while the corridor leads off to the south.  
+~
+0 9 0
+D0
+A plain wooden door, bound with iron band.
+~
+wood door north~
+1 0 12860
+D2
+A corridor dimly lit by wall sconces.
+~
+~
+0 0 12807
+S
+#12852
+Trading Post~
+This room is small and cramped, the walls are lined with weapons and
+armor.  Boxes are stacked in the middle of the room barely giving you room
+to move around them.  
+~
+0 9 0
+D2
+A wooden door, partly rotted away from age.
+~
+wood door south~
+1 0 12808
+S
+#12853
+Throne Room~
+In the center of the room is a huge stone throne upon a dais. 
+Surrounding the throne are several chests, in which treasure can be seen. 
+In each corner of the room is a small statue.  The walls have been painted
+red.  Two windows about seven feet from the floor flank the door to the
+east.  
+~
+0 9 0
+D3
+A plain wooden door.
+~
+wood door west~
+1 0 12860
+S
+#12854
+Private Bedroom~
+This trashed-filled room contains a bed and a cabinet.  A decaying mural
+is hanging above the bed.  There is a door to the west, flanked by two small
+windows about seven feet from the floor.  
+~
+0 9 0
+D3
+A plain wooden door.
+~
+wood door west~
+1 0 12861
+S
+#12855
+Private Bedroom~
+This trashed-filled room contains a bed and a cabinet.  A decaying mural
+is hanging above the bed and a small braizer is to the right of the bed. 
+There is a door to the north.  
+~
+0 9 0
+D0
+A plain wooden door, bound with iron bands.
+~
+wood door north~
+1 0 12814
+S
+#12856
+Corridor~
+The hallway is partially lit by sconces on both sides.  The walls have
+been covered by vines and fungus from years of growth.  The floor stones
+have turned to a greenish color from the water that stands here.  There is a
+wooden door to the south, while the corridor leads off to the north.  
+~
+0 9 0
+D0
+A corridor dimly lit by wall sconces.
+~
+~
+0 0 12815
+D2
+A plain wooden door, bound with iron bands.
+~
+wood door south~
+1 0 12861
+S
+#12857
+Bathing Room~
+There are several wooden tubs in the floor, and what looks like a stove
+in the middle of the room.  The floor is covered in algea from the standing
+water while various clothing items can be seen discarded about the room.  
+~
+0 9 0
+D0
+A plain wooden door, bound with iron bands.
+~
+wood door north~
+1 0 12816
+S
+#12858
+Private Bedroom~
+This trashed-filled room contains a bed and a cabinet.  A decaying mural
+is hanging above the bed and a small braizer is to the right of the bed. 
+There is a door to the east.  
+~
+0 9 0
+D1
+A plain wooden door, bound with iron bands.
+~
+wood door east~
+1 0 12861
+S
+#12859
+Store Room~
+The west wall of this room has a ledge about seven feet from the floor. 
+Two small windows flank the door on the east wall.  Except for some
+trash on the floor, the room appears to be empty.  
+~
+0 9 0
+D1
+A plain wooden door, bound with iron bands.
+~
+wood door east~
+1 0 12860
+S
+#12860
+Southern Courtyard~
+You see a grassy courtyard open to the sky.  Strange white flowers have
+began to over-take the courtyard.  A marble statue stands here covered in
+vines and mold.  The garden continues to the north, while two doors lead off
+to the east and the west.  
+~
+0 0 0
+D0
+A elaborate garden that seem to bloom before your eyes.
+~
+~
+0 0 12861
+D1
+A plain wooden door, bound with iron bands.
+~
+wood door east~
+1 0 12853
+D2
+~
+~
+1 0 12851
+D3
+A plain wooden door, bound with iron bands.
+~
+wood door west~
+1 0 12859
+S
+#12861
+Northen Courtyard~
+You see a grassy courtyard open to the sky.  Strange white flowers have
+began to over-take the courtyard.  Before you is a rotting bench that has
+seen years of neglect and looks ready to fall apart at a simple touch.  The
+garden continues to the south, while two doors lead off to the east and the
+west.  
+~
+0 0 0
+D0
+A plain wooden door, bound with iron bands.
+~
+wood door north~
+1 0 12856
+D1
+A plain wooden door, bound with iron bands.
+~
+wood door east~
+1 0 12854
+D2
+A elaborate garden that seem to bloom before your eyes.
+~
+~
+0 0 12860
+D3
+A plain wooden door, bound with iron bands
+~
+~
+1 0 12858
+S
+#12862
+A Dark Forest Path~
+The forest is dark and eerie, strange sounds echo throughout the forest. 
+The dense foliage makes it difficult to leave the narrow path that has been
+cut here.  Weird yellow flowers grow throughout the brushes.  The path leads
+to the north and to the south from here.  
+~
+0 0 3
+D0
+A eerie path through the forest.
+~
+~
+0 0 12863
+D2
+A trail in the forest.
+~
+~
+0 0 12800
+S
+#12863
+Dark Forest Path~
+The forest is dark and eerie, strange sounds echo throughout the forest. 
+The dense foliage makes it difficult to leave the narrow path that has been
+cut here.  Weird yellow flowers grow throughout the brushes.  The path you
+are standing on turns toward the east, as well lead off to the south.  
+~
+0 0 3
+D1
+A eerie path through the forest.
+~
+~
+0 0 12864
+D2
+A small clearing in the forest.
+~
+~
+0 0 12862
+S
+#12864
+A Small Clearing~
+The clearing in peaceful and relaxing.  Familiar sounds of birds sing
+their songs, as the wind whistles through the trees.  Small game can be seen
+just at the edge of the bushes in the clearing from time to time.  
+~
+0 0 3
+E
+bush bushes~
+As you look through the bushes, you discover a skeleton.
+~
+E
+Skeleton~
+The Skeleton looks like a human, except that the skull is large.  The
+skeleton is missing an arm and the leg looks as if it was servered by a
+large slice.  
+~
+D0
+A eerie path through the forest.
+~
+~
+0 0 12867
+D1
+A eerie path through the forest.
+~
+~
+0 0 12865
+D3
+A eerie path through the forest.
+~
+~
+0 0 12863
+S
+#12865
+A Dark Forest~
+The forest is dark an eerie.  Strange sounds echo about you.  The dense
+foliage makes it difficult to leave the narrow path that has been cut here. 
+Weird yellow flowers grow throughout the brushes.  
+~
+0 0 3
+D1
+A eerie path through the forest.
+~
+~
+0 0 12866
+D3
+A small clearing in the distance.
+~
+~
+0 0 12864
+S
+#12866
+A Dead End~
+The forest is dark and eerie.  Strange sounds echo about you.  The dense
+foliage makes it difficult to leave the narrow path that has been cut here. 
+Weird yellow flowers grow throughout the brushes.  
+~
+0 0 3
+D3
+A eerie path through the forest.
+~
+~
+0 0 12865
+S
+#12867
+A Dark Forest~
+The forest is dark and eerie, strange sounds echo throughout.  The dense
+foliage makes it difficult to leave the narrow path that has been cut here. 
+Weird yellow flowers grow throughout the brushes.  
+~
+0 0 3
+D0
+A small narrow path.
+~
+~
+0 0 12872
+D1
+A dark eerie path, that fades into the foilage.
+~
+~
+0 0 12868
+D2
+A small clearing.
+~
+~
+0 0 12864
+S
+#12868
+A Dark Forest~
+The forest is dark and eerie, with strange sounds echoing throughout.  The
+dense foliage makes it difficult to leave the narrow path that has been cut
+here.  Strange yellow flowers lie about in the bushes.  
+~
+0 0 3
+D0
+A small narrow path.
+~
+~
+0 0 12869
+D3
+A small narrow path.
+~
+~
+0 0 12867
+S
+#12869
+A Dark Forest~
+The forest is dark and eerie, with strange sounds echoing throughout.  The
+dense foliage makes it difficult to leave the narrow path that has been cut
+here.  Strange yellow flowers lie about in the bushes.  
+~
+0 0 3
+D1
+A small narrow path.
+~
+~
+0 0 12870
+D2
+A small narrow path.
+~
+~
+0 0 12868
+S
+#12870
+Opening in the Forest~
+The forest here has been cleared out.  Pelts from various animals lay all
+about the ground.  Sounds of barking make you jump as you turn to see a
+large dog tied up just at the edge of the clearing.  You see a small hut at
+the edge of the clearing just south of you.  
+~
+0 0 3
+D2
+A small hut in the forest.
+~
+~
+0 0 12871
+D3
+A small narrow path.
+~
+~
+0 0 12869
+S
+#12871
+Inside a Hut~
+As you enter the hut, you can see a iron furnace near the east wall with
+a cot near it.  Book shelves line the west wall and are stuffed with various
+bone cravings.  
+~
+0 1032 0
+D0
+A small clearing.
+~
+~
+0 0 12870
+S
+#12872
+A Dark Forest~
+The forest is dark and eerie, with strange sounds echoing throughout.  The
+dense foliage makes it difficult to leave the narrow path that has been cut
+here.  Strange yellow flowers lie about in the bushes.  
+~
+0 0 3
+D0
+A small narrow path.
+~
+~
+0 0 12875
+D2
+A small narrow path.
+~
+~
+0 0 12867
+D3
+A small narrow path.
+~
+~
+0 0 12873
+S
+#12873
+A Dark Forest~
+The forest is dark and eerie, with strange sounds echoing throughout.  The
+dense foliage makes it difficult to leave the narrow path that has been cut
+here.  Strange yellow flowers lie about in the bushes.  
+~
+0 0 3
+D1
+A small narrow path.
+~
+~
+0 0 12872
+D2
+A small narrow path.
+~
+~
+0 0 12874
+S
+#12874
+A Dead End~
+The forest is dark and eerie, strange sounds echo throughout the forest. 
+The dense foliage makes it difficult to leave the narrow path that has been
+cut here.  Weird yellow flowers grow throughout the brushes.  
+~
+0 0 3
+D0
+A small narrow path.
+~
+~
+0 0 12873
+S
+#12875
+A Dark Forest~
+The forest is dark and eerie, with strange sounds echoing throughout.  The
+dense foliage makes it difficult to leave the narrow path that has been cut
+here.  Strange yellow flowers lie about in the bushes.  
+~
+0 0 3
+D0
+You see a keep to the north.  
+~
+~
+0 0 12801
+D2
+A dark eerie forest.
+~
+~
+0 0 12872
+S
+#0
+
+
+
+#SPECIALS
+M 12807 spec_cast_cleric
+M 12808 spec_cast_mage
+M 12809 spec_cast_mage
+S
+
+
+
+#RESETS
+D 0 12802 1 1
+D 0 12802 3 1
+D 0 12803 1 1
+D 0 12803 3 1
+D 0 12804 3 1
+D 0 12805 1 1
+D 0 12808 0 1
+D 0 12809 1 1
+D 0 12810 1 1
+D 0 12811 1 1
+D 0 12812 1 1
+D 0 12813 1 1
+D 0 12814 0 1
+D 0 12814 2 1
+D 0 12815 0 1
+D 0 12816 0 1
+D 0 12816 2 1
+D 0 12817 3 1
+D 0 12819 3 1
+D 0 12820 3 1
+D 0 12821 3 1
+D 0 12823 0 1
+D 0 12827 3 1
+D 0 12828 3 1
+D 0 12829 3 1
+D 0 12830 3 1
+D 0 12831 3 1
+D 0 12836 2 1
+D 0 12837 2 1
+D 0 12838 2 1
+D 0 12842 1 1
+D 0 12843 1 1
+D 0 12844 1 1
+D 0 12845 1 1
+D 0 12850 2 1
+D 0 12851 0 1
+D 0 12852 2 1
+D 0 12853 3 1
+D 0 12854 3 1
+D 0 12855 0 1
+D 0 12856 2 1
+D 0 12857 0 1
+D 0 12858 1 1
+D 0 12859 1 1
+D 0 12860 1 1
+D 0 12860 2 1
+D 0 12860 3 1
+D 0 12861 0 1
+D 0 12861 1 1
+D 0 12861 3 1
+M 0 12800 15 12800 1 Load A goblin sentry
+E 0 12807 0 16 A short sword is loaded wielded of A goblin sentry
+E 0 12801 0 5 A suit of light hide armor is loaded on the body of A goblin sentry
+M 0 12802 15 12802 2 Load A sentry
+E 0 12800 0 5 A suit of heavy hide armor is loaded on the body of A sentry
+E 0 12803 0 14 A leather bracer is loaded on the left wrist of A sentry
+E 0 12803 0 15 A leather bracer is loaded on the right wrist of A sentry
+E 0 12804 0 8 A pair of leather boots is loaded on the feet of A sentry
+E 0 12805 0 7 A pair of leather pants is loaded on the legs of A sentry
+E 0 12806 0 16 A halberd is loaded wielded of A sentry
+M 0 12802 10 12802 2 Load A sentry
+E 0 12800 0 5 A suit of heavy hide armor is loaded on the body of A sentry
+E 0 12803 0 14 A leather bracer is loaded on the left wrist of A sentry
+E 0 12803 0 15 A leather bracer is loaded on the right wrist of A sentry
+E 0 12804 0 8 A pair of leather boots is loaded on the feet of A sentry
+E 0 12805 0 7 A pair of leather pants is loaded on the legs of A sentry
+E 0 12806 0 16 A halberd is loaded wielded of A sentry
+M 0 12800 10 12803 2 Load A goblin sentry
+E 0 12801 0 5 A suit of light hide armor is loaded on the body of A goblin sentry
+E 0 12805 0 7 A pair of leather pants is loaded on the legs of A goblin sentry
+E 0 12807 0 16 A short sword is loaded wielded of A goblin sentry
+M 0 12800 10 12803 2 Load A goblin sentry
+E 0 12801 0 5 A suit of light hide armor is loaded on the body of A goblin sentry
+E 0 12805 0 7 A pair of leather pants is loaded on the legs of A goblin sentry
+E 0 12807 0 16 A short sword is loaded wielded of A goblin sentry
+M 0 12805 20 12807 1 Load A hobgoblin
+M 0 12805 20 12809 1 Load A hobgoblin
+M 0 12805 20 12812 2 Load A hobgoblin
+M 0 12805 20 12812 2 Load A hobgoblin
+M 0 12805 20 12816 2 Load A hobgoblin
+M 0 12805 20 12816 2 Load A hobgoblin
+M 0 12805 20 12817 1 Load A hobgoblin
+M 0 12805 20 12820 2 Load A hobgoblin
+M 0 12805 20 12820 2 Load A hobgoblin
+M 0 12805 20 12823 1 Load A hobgoblin
+M 0 12805 20 12824 1 Load A hobgoblin
+M 0 12802 10 12826 1 Load A sentry
+E 0 12800 0 5 A suit of heavy hide armor is loaded on the body of A sentry
+E 0 12803 0 14 A leather bracer is loaded on the left wrist of A sentry
+E 0 12803 0 15 A leather bracer is loaded on the right wrist of A sentry
+E 0 12804 0 8 A pair of leather boots is loaded on the feet of A sentry
+E 0 12805 0 7 A pair of leather pants is loaded on the legs of A sentry
+E 0 12806 0 16 A halberd is loaded wielded of A sentry
+M 0 12810 1 12827 1 Load A crystal statue
+M 0 12802 10 12828 2 Load A sentry
+E 0 12800 0 5 A suit of heavy hide armor is loaded on the body of A sentry
+E 0 12803 0 14 A leather bracer is loaded on the left wrist of A sentry
+E 0 12803 0 15 A leather bracer is loaded on the right wrist of A sentry
+E 0 12804 0 8 A pair of leather boots is loaded on the feet of A sentry
+E 0 12805 0 7 A pair of leather pants is loaded on the legs of A sentry
+E 0 12806 0 16 A halberd is loaded wielded of A sentry
+M 0 12802 10 12828 2 Load A sentry
+E 0 12800 0 5 A suit of heavy hide armor is loaded on the body of A sentry
+E 0 12803 0 14 A leather bracer is loaded on the left wrist of A sentry
+E 0 12803 0 15 A leather bracer is loaded on the right wrist of A sentry
+E 0 12804 0 8 A pair of leather boots is loaded on the feet of A sentry
+E 0 12805 0 7 A pair of leather pants is loaded on the legs of A sentry
+E 0 12806 0 16 A halberd is loaded wielded of A sentry
+M 0 12800 10 12829 1 Load A goblin sentry
+E 0 12807 0 16 A short sword is loaded wielded of A goblin sentry
+E 0 12801 0 5 A suit of light hide armor is loaded on the body of A goblin sentry
+E 0 12803 0 8 A leather bracer is loaded on the feet of A goblin sentry
+M 0 12809 1 12831 1 Load A human
+E 0 12800 0 5 A suit of heavy hide armor is loaded on the body of A human
+E 0 12802 0 12 A thin cloth cape is loaded about the shoulders of A human
+E 0 12803 0 14 A leather bracer is loaded on the left wrist of A human
+E 0 12803 0 15 A leather bracer is loaded on the right wrist of A human
+E 0 12804 0 8 A pair of leather boots is loaded on the feet of A human
+E 0 12805 0 7 A pair of leather pants is loaded on the legs of A human
+E 0 12808 0 16 A small mace is loaded wielded of A human
+M 0 12802 10 12834 1 Load A sentry
+E 0 12800 0 5 A suit of heavy hide armor is loaded on the body of A sentry
+E 0 12803 0 14 A leather bracer is loaded on the left wrist of A sentry
+E 0 12803 0 15 A leather bracer is loaded on the right wrist of A sentry
+E 0 12804 0 8 A pair of leather boots is loaded on the feet of A sentry
+E 0 12805 0 7 A pair of leather pants is loaded on the legs of A sentry
+E 0 12806 0 16 A halberd is loaded wielded of A sentry
+M 0 12807 1 12835 1 Load A hobgoblin priest
+M 0 12805 20 12837 2 Load A hobgoblin
+M 0 12805 20 12837 2 Load A hobgoblin
+M 0 12808 1 12839 1 Load A hobgoblin mage
+M 0 12802 10 12841 1 Load A sentry
+E 0 12800 0 5 A suit of heavy hide armor is loaded on the body of A sentry
+E 0 12803 0 14 A leather bracer is loaded on the left wrist of A sentry
+E 0 12803 0 15 A leather bracer is loaded on the right wrist of A sentry
+E 0 12804 0 8 A pair of leather boots is loaded on the feet of A sentry
+E 0 12805 0 7 A pair of leather pants is loaded on the legs of A sentry
+E 0 12806 0 16 A halberd is loaded wielded of A sentry
+M 0 12805 20 12845 2 Load A hobgoblin
+M 0 12802 10 12848 1 Load A sentry
+E 0 12800 0 5 A suit of heavy hide armor is loaded on the body of A sentry
+E 0 12803 0 14 A leather bracer is loaded on the left wrist of A sentry
+E 0 12803 0 15 A leather bracer is loaded on the right wrist of A sentry
+E 0 12804 0 8 A pair of leather boots is loaded on the feet of A sentry
+E 0 12805 0 7 A pair of leather pants is loaded on the legs of A sentry
+E 0 12806 0 16 A halberd is loaded wielded of A sentry
+M 0 12802 10 12851 1 Load A sentry
+E 0 12800 0 5 A suit of heavy hide armor is loaded on the body of A sentry
+E 0 12803 0 14 A leather bracer is loaded on the left wrist of A sentry
+E 0 12803 0 15 A leather bracer is loaded on the right wrist of A sentry
+E 0 12804 0 8 A pair of leather boots is loaded on the feet of A sentry
+E 0 12805 0 7 A pair of leather pants is loaded on the legs of A sentry
+E 0 12806 0 16 A halberd is loaded wielded of A sentry
+M 0 12806 1 12852 1 Load Barris Snaggletooth
+G 0 12813 0 A large round shield is given to Barris Snaggletooth
+G 0 12814 0 A short sword is given to Barris Snaggletooth
+G 0 12815 0 A small mace is given to Barris Snaggletooth
+G 0 12816 0 A suit of heavy hide armor is given to Barris Snaggletooth
+G 0 12817 0 A suit of light hide armor is given to Barris Snaggletooth
+G 0 12818 0 A curing draught is given to Barris Snaggletooth
+M 0 12804 1 12853 1 Load Groll
+E 0 12800 0 5 A suit of heavy hide armor is loaded on the body of Groll
+E 0 12802 0 12 A thin cloth cape is loaded about the shoulders of Groll
+E 0 12803 0 14 A leather bracer is loaded on the left wrist of Groll
+E 0 12803 0 15 A leather bracer is loaded on the right wrist of Groll
+E 0 12804 0 8 A pair of leather boots is loaded on the feet of Groll
+E 0 12805 0 7 A pair of leather pants is loaded on the legs of Groll
+E 0 12809 0 16 A huge axe is loaded wielded of Groll
+M 0 12805 20 12854 1 Load A hobgoblin
+M 0 12805 20 12855 1 Load A hobgoblin
+M 0 12805 20 12857 2 Load A hobgoblin
+M 0 12805 20 12857 2 Load A hobgoblin
+M 0 12800 15 12857 1 Load A goblin sentry
+E 0 12807 0 16 A short sword is loaded wielded of A goblin sentry
+E 0 12810 0 11 A small shield is loaded as a shield of A goblin sentry
+M 0 12803 1 12860 1 Load A large hobgoblin
+E 0 12800 0 5 A suit of heavy hide armor is loaded on the body of A large hobgoblin
+E 0 12802 0 12 A thin cloth cape is loaded about the shoulders of A large hobgoblin
+E 0 12803 0 14 A leather bracer is loaded on the left wrist of A large hobgoblin
+E 0 12803 0 15 A leather bracer is loaded on the right wrist of A large hobgoblin
+E 0 12804 0 8 A pair of leather boots is loaded on the feet of A large hobgoblin
+E 0 12805 0 7 A pair of leather pants is loaded on the legs of A large hobgoblin
+E 0 12808 0 16 A small mace is loaded wielded of A large hobgoblin
+E 0 12811 0 11 A large round shield is loaded as a shield of A large hobgoblin
+M 0 12800 15 12860 2 Load A goblin sentry
+E 0 12807 0 16 A short sword is loaded wielded of A goblin sentry
+E 0 12810 0 11 A small shield is loaded as a shield of A goblin sentry
+M 0 12800 15 12860 2 Load A goblin sentry
+E 0 12807 0 16 A short sword is loaded wielded of A goblin sentry
+E 0 12810 0 11 A small shield is loaded as a shield of A goblin sentry
+M 0 12800 15 12862 1 Load A goblin sentry
+E 0 12807 0 16 A short sword is loaded wielded of A goblin sentry
+E 0 12810 0 11 A small shield is loaded as a shield of A goblin sentry
+O 0 12819 0 12862 A yellow flower loaded to A Dark Forest Path
+M 0 12800 15 12863 2 Load A goblin sentry
+E 0 12807 0 16 A short sword is loaded wielded of A goblin sentry
+E 0 12810 0 11 A small shield is loaded as a shield of A goblin sentry
+M 0 12800 15 12863 2 Load A goblin sentry
+E 0 12807 0 16 A short sword is loaded wielded of A goblin sentry
+E 0 12810 0 11 A small shield is loaded as a shield of A goblin sentry
+O 0 12819 0 12863 A yellow flower loaded to Dark Forest Path
+O 0 12820 0 12863 A yellow flower loaded to Dark Forest Path
+O 0 12819 0 12863 A yellow flower loaded to Dark Forest Path
+O 0 12820 0 12863 A yellow flower loaded to Dark Forest Path
+M 0 12800 15 12865 1 Load A goblin sentry
+E 0 12807 0 16 A short sword is loaded wielded of A goblin sentry
+E 0 12810 0 11 A small shield is loaded as a shield of A goblin sentry
+M 0 12800 15 12866 2 Load A goblin sentry
+E 0 12807 0 16 A short sword is loaded wielded of A goblin sentry
+E 0 12810 0 11 A small shield is loaded as a shield of A goblin sentry
+M 0 12800 15 12866 2 Load A goblin sentry
+E 0 12807 0 16 A short sword is loaded wielded of A goblin sentry
+E 0 12810 0 11 A small shield is loaded as a shield of A goblin sentry
+O 0 12821 0 12866 A yellow flower loaded to A Dead End
+M 0 12800 15 12866 2 Load A goblin sentry
+E 0 12807 0 16 A short sword is loaded wielded of A goblin sentry
+E 0 12810 0 11 A small shield is loaded as a shield of A goblin sentry
+M 0 12800 15 12868 1 Load A goblin sentry
+E 0 12807 0 16 A short sword is loaded wielded of A goblin sentry
+E 0 12810 0 11 A small shield is loaded as a shield of A goblin sentry
+O 0 12820 0 12868 A yellow flower loaded to A Dark Forest
+O 0 12822 0 12870 A yellow flower loaded to Opening in the Forest
+M 0 12801 1 12871 1 Load An old woman
+G 0 12823 0 A small canteen of mead is given to An old woman
+G 0 12824 0 A small canteen of dark ale is given to An old woman
+G 0 12825 0 A small canteen of ale is given to An old woman
+G 0 12826 0 A small canteen of firebreather is given to An old woman
+G 0 12827 0 A small canteen of rum is given to An old woman
+G 0 12828 0 A small canteen of absinthe is given to An old woman
+M 0 12800 15 12872 1 Load A goblin sentry
+E 0 12807 0 16 A short sword is loaded wielded of A goblin sentry
+E 0 12810 0 11 A small shield is loaded as a shield of A goblin sentry
+O 0 12820 0 12872 A yellow flower loaded to A Dark Forest
+M 0 12800 15 12874 1 Load A goblin sentry
+E 0 12807 0 16 A short sword is loaded wielded of A goblin sentry
+E 0 12810 0 11 A small shield is loaded as a shield of A goblin sentry
+O 0 12822 0 12874 A yellow flower loaded to A Dead End
+S
+
+
+
+#SHOPS
+12801 0 0 0 0 0 125 0 6 19
+12806 5 9 10 0 0 200 75 5 18
+0
+
+
+
+#MOBPROGS
+#0
+
+#$

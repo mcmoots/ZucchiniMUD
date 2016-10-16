@@ -1,0 +1,309 @@
+Sat Oct  5 21:55:50 2013 :: Loading configuration settings from ../area/qmconfig.rc.
+Sat Oct  5 21:55:50 2013 :: Set IP address to 127.0.0.1
+Sat Oct  5 21:55:50 2013 :: Data space stuff okay.
+Sat Oct  5 21:55:50 2013 :: random numbers okay.
+Sat Oct  5 21:55:50 2013 :: time and weather okay.
+Sat Oct  5 21:55:50 2013 :: gsn's done
+Sat Oct  5 21:55:50 2013 :: area list loaded
+Sat Oct  5 21:55:50 2013 :: Loaded 0 mobprogs.
+Sat Oct  5 21:55:50 2013 :: Loaded 0 mobprogs.
+Sat Oct  5 21:55:50 2013 :: Loaded 0 mobprogs.
+Sat Oct  5 21:55:50 2013 :: Loaded 4 mobprogs.
+Sat Oct  5 21:55:50 2013 :: Loaded 4 mobprogs.
+Sat Oct  5 21:55:50 2013 :: Loaded 4 mobprogs.
+Sat Oct  5 21:55:50 2013 :: Loaded 4 mobprogs.
+Sat Oct  5 21:55:50 2013 :: [*****] FILE: animal.are LINE: 1210
+Sat Oct  5 21:55:50 2013 :: [*****] BUG: CHECK_POS : liq_lookup == -1 < 0
+Sat Oct  5 21:55:50 2013 :: [*****] FILE: animal.are LINE: 1219
+Sat Oct  5 21:55:50 2013 :: [*****] BUG: CHECK_POS : liq_lookup == -1 < 0
+Sat Oct  5 21:55:50 2013 :: [*****] FILE: animal.are LINE: 2269
+Sat Oct  5 21:55:50 2013 :: [*****] BUG: CHECK_POS : item_type == -1 < 0
+Sat Oct  5 21:55:50 2013 :: Loaded 4 mobprogs.
+Sat Oct  5 21:55:50 2013 :: Loaded 4 mobprogs.
+Sat Oct  5 21:55:50 2013 :: Loaded 4 mobprogs.
+Sat Oct  5 21:55:50 2013 :: Loaded 4 mobprogs.
+Sat Oct  5 21:55:50 2013 :: Loaded 4 mobprogs.
+Sat Oct  5 21:55:50 2013 :: Loaded 10 mobprogs.
+Sat Oct  5 21:55:50 2013 :: Loaded 10 mobprogs.
+Sat Oct  5 21:55:50 2013 :: Loaded 10 mobprogs.
+Sat Oct  5 21:55:50 2013 :: Loaded 10 mobprogs.
+Sat Oct  5 21:55:50 2013 :: Loaded 13 mobprogs.
+Sat Oct  5 21:55:50 2013 :: Loaded 16 mobprogs.
+Sat Oct  5 21:55:50 2013 :: Loaded 16 mobprogs.
+Sat Oct  5 21:55:50 2013 :: [*****] FILE: circus.are LINE: 994
+Sat Oct  5 21:55:50 2013 :: [*****] BUG: CHECK_POS : liq_lookup == -1 < 0
+Sat Oct  5 21:55:50 2013 :: Loaded 16 mobprogs.
+Sat Oct  5 21:55:50 2013 :: Loaded 33 mobprogs.
+Sat Oct  5 21:55:50 2013 :: Loaded 33 mobprogs.
+Sat Oct  5 21:55:50 2013 :: [*****] FILE: aarak2.are LINE: 1318
+Sat Oct  5 21:55:50 2013 :: [*****] BUG: CHECK_POS : liq_lookup == -1 < 0
+Sat Oct  5 21:55:50 2013 :: Loaded 33 mobprogs.
+Sat Oct  5 21:55:50 2013 :: Loaded 33 mobprogs.
+Sat Oct  5 21:55:50 2013 :: Loaded 33 mobprogs.
+Sat Oct  5 21:55:50 2013 :: Loaded 33 mobprogs.
+Sat Oct  5 21:55:50 2013 :: Loaded 33 mobprogs.
+Sat Oct  5 21:55:50 2013 :: Loaded 33 mobprogs.
+Sat Oct  5 21:55:50 2013 :: Loaded 33 mobprogs.
+Sat Oct  5 21:55:50 2013 :: Loaded 33 mobprogs.
+Sat Oct  5 21:55:50 2013 :: Loaded 36 mobprogs.
+Sat Oct  5 21:55:50 2013 :: Loaded 36 mobprogs.
+Sat Oct  5 21:55:50 2013 :: Loaded 36 mobprogs.
+Sat Oct  5 21:55:50 2013 :: Loaded 36 mobprogs.
+Sat Oct  5 21:55:50 2013 :: Loaded 36 mobprogs.
+Sat Oct  5 21:55:50 2013 :: Loaded 36 mobprogs.
+Sat Oct  5 21:55:50 2013 :: Loaded 36 mobprogs.
+Sat Oct  5 21:55:50 2013 :: Loaded 36 mobprogs.
+Sat Oct  5 21:55:50 2013 :: Loaded 36 mobprogs.
+Sat Oct  5 21:55:50 2013 :: Loaded 36 mobprogs.
+Sat Oct  5 21:55:50 2013 :: Loaded 36 mobprogs.
+Sat Oct  5 21:55:50 2013 :: Loaded 40 mobprogs.
+Sat Oct  5 21:55:50 2013 :: Loaded 40 mobprogs.
+Sat Oct  5 21:55:50 2013 :: Loaded 40 mobprogs.
+Sat Oct  5 21:55:50 2013 :: Loaded 40 mobprogs.
+Sat Oct  5 21:55:50 2013 :: Loaded 40 mobprogs.
+Sat Oct  5 21:55:50 2013 :: Loaded 40 mobprogs.
+Sat Oct  5 21:55:50 2013 :: Loaded 40 mobprogs.
+Sat Oct  5 21:55:50 2013 :: Loaded 69 mobprogs.
+Sat Oct  5 21:55:50 2013 :: [*****] BUG: Fix_exits: 8205:0 -> 8200:2 -> 8201.
+Sat Oct  5 21:55:50 2013 :: [*****] BUG: Fix_exits: 12310:5 -> 12311:4 -> 12312.
+Sat Oct  5 21:55:50 2013 :: [*****] BUG: Fix_exits: 12326:2 -> 12329:0 -> 12324.
+Sat Oct  5 21:55:50 2013 :: [*****] BUG: Fix_exits: 12329:0 -> 12324:2 -> 12328.
+Sat Oct  5 21:55:50 2013 :: [*****] BUG: Fix_exits: 4207:2 -> 4213:0 -> 4205.
+Sat Oct  5 21:55:50 2013 :: [*****] BUG: Fix_exits: 4215:0 -> 4207:2 -> 4213.
+Sat Oct  5 21:55:50 2013 :: [*****] BUG: Fix_exits: 1213:5 -> 1215:4 -> 1220.
+Sat Oct  5 21:55:50 2013 :: [*****] BUG: Fix_exits: 1219:0 -> 3161:2 -> 3160.
+Sat Oct  5 21:55:50 2013 :: [*****] BUG: Fix_exits: 1219:2 -> 3170:0 -> 3044.
+Sat Oct  5 21:55:50 2013 :: [*****] BUG: Fix_exits: 1221:4 -> 1213:5 -> 1215.
+Sat Oct  5 21:55:50 2013 :: [*****] BUG: Fix_exits: 10525:1 -> 10535:3 -> 10534.
+Sat Oct  5 21:55:50 2013 :: [*****] BUG: Fix_exits: 3458:2 -> 3472:0 -> 10401.
+Sat Oct  5 21:55:50 2013 :: [*****] BUG: Fix_exits: 407:2 -> 411:0 -> 405.
+Sat Oct  5 21:55:50 2013 :: [*****] BUG: Fix_exits: 410:2 -> 411:0 -> 405.
+Sat Oct  5 21:55:50 2013 :: [*****] BUG: Fix_exits: 5654:3 -> 5676:1 -> 5655.
+Sat Oct  5 21:55:50 2013 :: [*****] BUG: Fix_exits: 5656:3 -> 5677:1 -> 5657.
+Sat Oct  5 21:55:50 2013 :: [*****] BUG: Fix_exits: 5658:3 -> 5654:1 -> 5659.
+Sat Oct  5 21:55:50 2013 :: [*****] BUG: Fix_exits: 5668:3 -> 5655:1 -> 5669.
+Sat Oct  5 21:55:50 2013 :: [*****] BUG: Fix_exits: 5670:3 -> 5656:1 -> 5683.
+Sat Oct  5 21:55:50 2013 :: [*****] BUG: Fix_exits: 5676:3 -> 5663:1 -> 5677.
+Sat Oct  5 21:55:50 2013 :: [*****] BUG: Fix_exits: 14043:1 -> 14049:3 -> 14050.
+Sat Oct  5 21:55:50 2013 :: [*****] BUG: Fix_exits: 14044:3 -> 14043:1 -> 14049.
+Sat Oct  5 21:55:50 2013 :: [*****] BUG: Fix_exits: 9000:5 -> 3001:4 -> 3700.
+Sat Oct  5 21:55:50 2013 :: [*****] BUG: Fix_exits: 12225:2 -> 12229:0 -> 12226.
+Sat Oct  5 21:55:50 2013 :: [*****] BUG: Fix_exits: 12226:2 -> 12228:0 -> 12225.
+Sat Oct  5 21:55:50 2013 :: [*****] BUG: Fix_exits: 12228:0 -> 12225:2 -> 12229.
+Sat Oct  5 21:55:50 2013 :: [*****] BUG: Fix_exits: 12229:0 -> 12226:2 -> 12228.
+Sat Oct  5 21:55:50 2013 :: [*****] BUG: Fix_exits: 12229:2 -> 12233:0 -> 12230.
+Sat Oct  5 21:55:50 2013 :: [*****] BUG: Fix_exits: 12230:2 -> 12232:0 -> 12229.
+Sat Oct  5 21:55:50 2013 :: [*****] BUG: Fix_exits: 12232:0 -> 12229:2 -> 12233.
+Sat Oct  5 21:55:50 2013 :: [*****] BUG: Fix_exits: 12233:0 -> 12230:2 -> 12232.
+Sat Oct  5 21:55:50 2013 :: [*****] BUG: Fix_exits: 12240:2 -> 12231:0 -> 12228.
+Sat Oct  5 21:55:50 2013 :: [*****] BUG: Fix_exits: 12242:2 -> 12233:0 -> 12230.
+Sat Oct  5 21:55:50 2013 :: Check Levels:
+Sat Oct  5 21:55:50 2013 ::   Object: (VNUM  1506)(Level -4) a Shining Sword
+Sat Oct  5 21:55:50 2013 ::      Mob: (VNUM  1400)(Level 20) Sir Hosis of the Liver
+Sat Oct  5 21:55:50 2013 :: [*****] BUG: Read_object: vnum 1528 bad type.
+Sat Oct  5 21:55:50 2013 :: Check Levels:
+Sat Oct  5 21:55:50 2013 ::   Object: (VNUM  1512)(Level -4) a lance
+Sat Oct  5 21:55:50 2013 ::      Mob: (VNUM  1401)(Level 12) A Knight who says "Ni!"
+Sat Oct  5 21:55:50 2013 :: Check Levels:
+Sat Oct  5 21:55:50 2013 ::   Object: (VNUM  1488)(Level -4) a gnarled staff
+Sat Oct  5 21:55:50 2013 ::      Mob: (VNUM  1412)(Level 20) The Witch
+Sat Oct  5 21:55:50 2013 :: Check Levels:
+Sat Oct  5 21:55:50 2013 ::   Object: (VNUM  1449)(Level -4) a set of Gnarly Gnashers
+Sat Oct  5 21:55:50 2013 ::      Mob: (VNUM  1424)(Level 11) Snarly Dwarf
+Sat Oct  5 21:55:50 2013 :: Check Levels:
+Sat Oct  5 21:55:50 2013 ::   Object: (VNUM  1503)(Level  4) a pair of goat's horns
+Sat Oct  5 21:55:50 2013 ::      Mob: (VNUM  1407)(Level 12) The Third Billy Goat Gruff
+Sat Oct  5 21:55:50 2013 :: Check Levels:
+Sat Oct  5 21:55:50 2013 ::   Object: (VNUM  1504)(Level -4) trollTeeth!
+Sat Oct  5 21:55:50 2013 ::      Mob: (VNUM  1408)(Level 12) The Troll
+Sat Oct  5 21:55:50 2013 :: Check Levels:
+Sat Oct  5 21:55:50 2013 ::   Object: (VNUM  1401)(Level  4) a Dwarven Axe
+Sat Oct  5 21:55:50 2013 ::      Mob: (VNUM  1442)(Level 11) One of the Seven Dwarves
+Sat Oct  5 21:55:50 2013 :: Check Levels:
+Sat Oct  5 21:55:50 2013 ::   Object: (VNUM  1471)(Level -4) a nasty-looking club
+Sat Oct  5 21:55:50 2013 ::      Mob: (VNUM  1419)(Level 16) Rumblebottom the Giant
+Sat Oct  5 21:55:50 2013 :: Check Levels:
+Sat Oct  5 21:55:50 2013 ::   Object: (VNUM  1421)(Level  4) a HUGE Halberd
+Sat Oct  5 21:55:50 2013 ::      Mob: (VNUM  1435)(Level 15) A Rhino Guard
+Sat Oct  5 21:55:50 2013 :: Check Levels:
+Sat Oct  5 21:55:50 2013 ::   Object: (VNUM  1401)(Level  4) a Dwarven Axe
+Sat Oct  5 21:55:50 2013 ::      Mob: (VNUM  1442)(Level 11) One of the Seven Dwarves
+Sat Oct  5 21:55:50 2013 :: Check Levels:
+Sat Oct  5 21:55:50 2013 ::   Object: (VNUM  1401)(Level  4) a Dwarven Axe
+Sat Oct  5 21:55:50 2013 ::      Mob: (VNUM  1442)(Level 11) One of the Seven Dwarves
+Sat Oct  5 21:55:50 2013 :: Check Levels:
+Sat Oct  5 21:55:50 2013 ::   Object: (VNUM  8803)(Level 12) a broken easter egg
+Sat Oct  5 21:55:50 2013 ::      Mob: (VNUM  8809)(Level 25) the Easter Bunny
+Sat Oct  5 21:55:50 2013 :: Check Levels:
+Sat Oct  5 21:55:50 2013 ::   Object: (VNUM  9213)(Level 26) a platinum arm band
+Sat Oct  5 21:55:50 2013 ::      Mob: (VNUM  9202)(Level 22) the cyclops
+Sat Oct  5 21:55:50 2013 :: Check Levels:
+Sat Oct  5 21:55:50 2013 ::   Object: (VNUM  9214)(Level 26) some platinum leg bands
+Sat Oct  5 21:55:50 2013 ::      Mob: (VNUM  9202)(Level 22) the cyclops
+Sat Oct  5 21:55:50 2013 :: Check Levels:
+Sat Oct  5 21:55:50 2013 ::   Object: (VNUM  9217)(Level  7) an elemental rod of earthquake
+Sat Oct  5 21:55:50 2013 ::      Mob: (VNUM  9217)(Level  3) a small rock
+Sat Oct  5 21:55:50 2013 :: Check Levels:
+Sat Oct  5 21:55:50 2013 ::   Object: (VNUM  9218)(Level 27) elemental wand of wind and air
+Sat Oct  5 21:55:50 2013 ::      Mob: (VNUM  9234)(Level 13) an alchemist
+Sat Oct  5 21:55:50 2013 :: Check Levels:
+Sat Oct  5 21:55:50 2013 ::   Object: (VNUM  9216)(Level 25) an ice staff
+Sat Oct  5 21:55:50 2013 ::      Mob: (VNUM  9214)(Level  8) a puddle
+Sat Oct  5 21:55:50 2013 :: Check Levels:
+Sat Oct  5 21:55:50 2013 ::   Object: (VNUM  9227)(Level 28) an icicle
+Sat Oct  5 21:55:50 2013 ::      Mob: (VNUM  9228)(Level 24) the Ice Bandit
+Sat Oct  5 21:55:50 2013 :: Check Levels:
+Sat Oct  5 21:55:50 2013 ::   Object: (VNUM  9215)(Level 16) elemental wand of fire
+Sat Oct  5 21:55:50 2013 ::      Mob: (VNUM  9215)(Level  4) a flame
+Sat Oct  5 21:55:50 2013 :: Check Levels:
+Sat Oct  5 21:55:50 2013 ::   Object: (VNUM  9215)(Level 16) elemental wand of fire
+Sat Oct  5 21:55:50 2013 ::      Mob: (VNUM  9215)(Level  4) a flame
+Sat Oct  5 21:55:50 2013 :: Check Levels:
+Sat Oct  5 21:55:50 2013 ::   Object: (VNUM  9218)(Level 27) elemental wand of wind and air
+Sat Oct  5 21:55:50 2013 ::      Mob: (VNUM  9218)(Level  4) a small spark
+Sat Oct  5 21:55:50 2013 :: Check Levels:
+Sat Oct  5 21:55:50 2013 ::   Object: (VNUM  9218)(Level 27) elemental wand of wind and air
+Sat Oct  5 21:55:50 2013 ::      Mob: (VNUM  9225)(Level  2) an eddie
+Sat Oct  5 21:55:50 2013 :: Check Levels:
+Sat Oct  5 21:55:50 2013 ::   Object: (VNUM  9216)(Level 25) an ice staff
+Sat Oct  5 21:55:50 2013 ::      Mob: (VNUM  9235)(Level 16) a baby rainbow dragon
+Sat Oct  5 21:55:50 2013 :: Check Levels:
+Sat Oct  5 21:55:50 2013 ::   Object: (VNUM 14019)(Level 40) a sacrificial knife
+Sat Oct  5 21:55:50 2013 ::      Mob: (VNUM 14010)(Level 51) the drow necromancer
+Sat Oct  5 21:55:50 2013 :: Check Levels:
+Sat Oct  5 21:55:50 2013 ::   Object: (VNUM 14022)(Level 40) the bloody eyestalk of a beholder
+Sat Oct  5 21:55:50 2013 ::      Mob: (VNUM 14013)(Level 48) an ancient beholder
+Sat Oct  5 21:55:50 2013 :: Check Levels:
+Sat Oct  5 21:55:50 2013 ::   Object: (VNUM 15817)(Level 65) a portal to Midgaard
+Sat Oct  5 21:55:50 2013 ::      Mob: (VNUM 15813)(Level 44) a jester
+Sat Oct  5 21:55:50 2013 :: Check Levels:
+Sat Oct  5 21:55:50 2013 ::   Object: (VNUM 20914)(Level 17) a white kerchief
+Sat Oct  5 21:55:50 2013 ::      Mob: (VNUM 20918)(Level 13) an altar boy
+Sat Oct  5 21:55:50 2013 :: Check Levels:
+Sat Oct  5 21:55:50 2013 ::   Object: (VNUM 20914)(Level 17) a white kerchief
+Sat Oct  5 21:55:50 2013 ::      Mob: (VNUM 20918)(Level 13) an altar boy
+Sat Oct  5 21:55:50 2013 :: Check Levels:
+Sat Oct  5 21:55:50 2013 ::   Object: (VNUM 20915)(Level 20) a monk's robe
+Sat Oct  5 21:55:50 2013 ::      Mob: (VNUM 20914)(Level 12) a monk
+Sat Oct  5 21:55:50 2013 :: Check Levels:
+Sat Oct  5 21:55:50 2013 ::   Object: (VNUM 20915)(Level 20) a monk's robe
+Sat Oct  5 21:55:50 2013 ::      Mob: (VNUM 20914)(Level 12) a monk
+Sat Oct  5 21:55:50 2013 :: Check Levels:
+Sat Oct  5 21:55:50 2013 ::   Object: (VNUM 20915)(Level 20) a monk's robe
+Sat Oct  5 21:55:50 2013 ::      Mob: (VNUM 20914)(Level 12) a monk
+Sat Oct  5 21:55:50 2013 :: Check Levels:
+Sat Oct  5 21:55:50 2013 ::   Object: (VNUM 20916)(Level 20) a brother's stole
+Sat Oct  5 21:55:50 2013 ::      Mob: (VNUM 20915)(Level 13) a brother
+Sat Oct  5 21:55:50 2013 :: Check Levels:
+Sat Oct  5 21:55:50 2013 ::   Object: (VNUM 20917)(Level 22) a holy cross
+Sat Oct  5 21:55:50 2013 ::      Mob: (VNUM 20916)(Level 15) Sir Galahad
+Sat Oct  5 21:55:50 2013 :: Check Levels:
+Sat Oct  5 21:55:50 2013 ::   Object: (VNUM 20912)(Level 20) a servant's apron
+Sat Oct  5 21:55:50 2013 ::      Mob: (VNUM 20910)(Level 12) a kitchen servant
+Sat Oct  5 21:55:50 2013 :: Check Levels:
+Sat Oct  5 21:55:50 2013 ::   Object: (VNUM 20911)(Level 18) a pair of white gloves
+Sat Oct  5 21:55:50 2013 ::      Mob: (VNUM 20911)(Level 14) a white dog
+Sat Oct  5 21:55:50 2013 :: Check Levels:
+Sat Oct  5 21:55:50 2013 ::   Object: (VNUM 20912)(Level 20) a servant's apron
+Sat Oct  5 21:55:50 2013 ::      Mob: (VNUM 20910)(Level 12) a kitchen servant
+Sat Oct  5 21:55:50 2013 :: Check Levels:
+Sat Oct  5 21:55:50 2013 ::   Object: (VNUM 20912)(Level 20) a servant's apron
+Sat Oct  5 21:55:50 2013 ::      Mob: (VNUM 20910)(Level 12) a kitchen servant
+Sat Oct  5 21:55:50 2013 :: Check Levels:
+Sat Oct  5 21:55:50 2013 ::   Object: (VNUM 20913)(Level 20) a onion hatchet
+Sat Oct  5 21:55:50 2013 ::      Mob: (VNUM 20913)(Level 13) a cook
+Sat Oct  5 21:55:50 2013 :: Check Levels:
+Sat Oct  5 21:55:50 2013 ::   Object: (VNUM 20913)(Level 20) a onion hatchet
+Sat Oct  5 21:55:50 2013 ::      Mob: (VNUM 20913)(Level 13) a cook
+Sat Oct  5 21:55:50 2013 :: Check Levels:
+Sat Oct  5 21:55:50 2013 ::   Object: (VNUM 20919)(Level 30) caliburn
+Sat Oct  5 21:55:50 2013 ::      Mob: (VNUM 20920)(Level 25) King Arthur
+Sat Oct  5 21:55:50 2013 :: Check Levels:
+Sat Oct  5 21:55:50 2013 ::   Object: (VNUM 20922)(Level 24) a cleaning rag
+Sat Oct  5 21:55:50 2013 ::      Mob: (VNUM 20924)(Level 18) a serving wench
+Sat Oct  5 21:55:50 2013 :: Check Levels:
+Sat Oct  5 21:55:50 2013 ::   Object: (VNUM 20923)(Level 26) a flowered lance
+Sat Oct  5 21:55:50 2013 ::      Mob: (VNUM 20925)(Level 22) a king's butler
+Sat Oct  5 21:55:50 2013 :: Check Levels:
+Sat Oct  5 21:55:50 2013 ::   Object: (VNUM 20922)(Level 24) a cleaning rag
+Sat Oct  5 21:55:50 2013 ::      Mob: (VNUM 20924)(Level 18) a serving wench
+Sat Oct  5 21:55:50 2013 :: Check Levels:
+Sat Oct  5 21:55:50 2013 ::   Object: (VNUM 20923)(Level 26) a flowered lance
+Sat Oct  5 21:55:50 2013 ::      Mob: (VNUM 20925)(Level 22) a king's butler
+Sat Oct  5 21:55:50 2013 :: Check Levels:
+Sat Oct  5 21:55:50 2013 ::   Object: (VNUM 20924)(Level 26) isobel's Ring
+Sat Oct  5 21:55:50 2013 ::      Mob: (VNUM 20927)(Level 21) Sir Tristan
+Sat Oct  5 21:55:50 2013 :: Check Levels:
+Sat Oct  5 21:55:50 2013 ::   Object: (VNUM 20925)(Level 27) queen Guenhuevere's Favor
+Sat Oct  5 21:55:50 2013 ::      Mob: (VNUM 20928)(Level 21) Sir Lancelot
+Sat Oct  5 21:55:50 2013 :: Check Levels:
+Sat Oct  5 21:55:50 2013 ::   Object: (VNUM 20928)(Level 28) flail of the innocents
+Sat Oct  5 21:55:50 2013 ::      Mob: (VNUM 20930)(Level 23) Sir Mordred
+Sat Oct  5 21:55:50 2013 :: Check Levels:
+Sat Oct  5 21:55:50 2013 ::   Object: (VNUM 20923)(Level 26) a flowered lance
+Sat Oct  5 21:55:50 2013 ::      Mob: (VNUM 20931)(Level 22) a king's butler
+Sat Oct  5 21:55:50 2013 :: Check Levels:
+Sat Oct  5 21:55:50 2013 ::   Object: (VNUM 20934)(Level 29) an owl
+Sat Oct  5 21:55:50 2013 ::      Mob: (VNUM 20933)(Level 25) Merlin
+Sat Oct  5 21:55:50 2013 :: Check Levels:
+Sat Oct  5 21:55:50 2013 ::   Object: (VNUM 20933)(Level 29) a ruby bracelet
+Sat Oct  5 21:55:50 2013 ::      Mob: (VNUM 20933)(Level 25) Merlin
+Sat Oct  5 21:55:50 2013 :: Check Levels:
+Sat Oct  5 21:55:50 2013 ::   Object: (VNUM 20946)(Level 45) a{b blue rose{x lantern
+Sat Oct  5 21:55:50 2013 ::      Mob: (VNUM 20945)(Level  1) a virgin
+Sat Oct  5 21:55:50 2013 :: Check Levels:
+Sat Oct  5 21:55:50 2013 ::   Object: (VNUM 20947)(Level 30) a{M pink rose{x lantern
+Sat Oct  5 21:55:50 2013 ::      Mob: (VNUM 20945)(Level  1) a virgin
+Sat Oct  5 21:55:50 2013 :: Check Levels:
+Sat Oct  5 21:55:50 2013 ::   Object: (VNUM 20948)(Level 60) a{y golden rose{x lantern
+Sat Oct  5 21:55:50 2013 ::      Mob: (VNUM 20945)(Level  1) a virgin
+Sat Oct  5 21:55:50 2013 :: Check Levels:
+Sat Oct  5 21:55:50 2013 ::   Object: (VNUM 20949)(Level 60) a{Y yellow rose{x lantern
+Sat Oct  5 21:55:50 2013 ::      Mob: (VNUM 20945)(Level  1) a virgin
+Sat Oct  5 21:55:50 2013 :: Check Levels:
+Sat Oct  5 21:55:50 2013 ::   Object: (VNUM 20984)(Level 15) a{R red rose{x lantern
+Sat Oct  5 21:55:50 2013 ::      Mob: (VNUM 20945)(Level  1) a virgin
+Sat Oct  5 21:55:50 2013 :: Check Levels:
+Sat Oct  5 21:55:50 2013 ::   Object: (VNUM 29106)(Level 50) a unicorn's horn
+Sat Oct  5 21:55:50 2013 ::      Mob: (VNUM 29140)(Level 41) a unicorn
+Sat Oct  5 21:55:50 2013 :: Zucchini is ready to rock on port 4242 (127.0.0.1).
+Sat Oct  5 21:55:50 2013 :: IMC: Loading IMC2 command table...
+Sat Oct  5 21:55:50 2013 :: IMC: Loading IMC2 network data...
+Sat Oct  5 21:55:50 2013 :: IMC: Loading IMC2 help file...
+Sat Oct  5 21:55:50 2013 :: IMC: Loading IMC2 color table...
+Sat Oct  5 21:55:50 2013 :: IMC: Loading IMC2 who template...
+Sat Oct  5 21:55:50 2013 :: IMC: imcfread_word: EOF encountered on read.
+Sat Oct  5 21:55:50 2013 :: IMC: IMC2 network data loaded.
+Sat Oct  5 21:55:50 2013 :: IMC: IMC2 Network Initializing...
+Sat Oct  5 21:55:50 2013 :: IMC: Connecting to server.
+Sat Oct  5 21:55:50 2013 :: IMC: Loading channels...
+Sat Oct  5 21:55:50 2013 :: IMC: configured Server01:ichat as ichat
+Sat Oct  5 21:55:50 2013 :: IMC: configured Server01:pchat as pchat
+Sat Oct  5 21:55:50 2013 :: IMC: configured Server01:ibuild as ibuild
+Sat Oct  5 21:55:50 2013 :: IMC: configured Server01:ievennia as ievennia
+Sat Oct  5 21:55:50 2013 :: IMC: configured Server02:icode as icode
+Sat Oct  5 21:55:50 2013 :: IMC: configured Server02:igame as game
+Sat Oct  5 21:55:50 2013 :: IMC: configured Server02:inews as inews
+Sat Oct  5 21:55:50 2013 :: IMC: configured Server02:irc as irc
+Sat Oct  5 21:55:50 2013 :: IMC: configured Server02:imusic as imusic
+Sat Oct  5 21:55:50 2013 :: IMC: configured Server02:imudnews as imudnews
+Sat Oct  5 21:55:50 2013 :: IMC: configured Server02:ifree as ifree
+Sat Oct  5 21:55:50 2013 :: IMC: configured Server02:iRuby as iRuby
+Sat Oct  5 21:55:50 2013 :: IMC: Loading ban list...
+Sat Oct  5 21:55:50 2013 :: IMC: Loading ucache data...
+Sat Oct  5 21:55:50 2013 :: Loading Intermud-3 network data...
+Sat Oct  5 21:55:50 2013 :: Intermud-3 network data loaded. Autoconnect not set. Will need to connect manually.
+Sat Oct  5 21:55:51 2013 :: IMC: Standard Authentication completed.
+Sat Oct  5 21:55:51 2013 :: IMC: Connected to Server01. Network ID: MudBytes
+Sat Oct  5 22:01:49 2013 :: Sock.sinaddr:  127.0.0.1
+Sat Oct  5 22:01:53 2013 :: Loading Kazeus.
+Sat Oct  5 22:01:56 2013 :: Kazeus@localhost has connected.
+Sat Oct  5 22:02:00 2013 :: Kazeus has quit.
+Sat Oct  5 22:23:57 2013 :: Sock.sinaddr:  127.0.0.1
+Sat Oct  5 22:24:00 2013 :: Loading Kazeus.
+Sat Oct  5 22:24:01 2013 :: Kazeus@localhost has connected.
+Sat Oct  5 22:24:04 2013 :: Log Kazeus: shutdown
+Sat Oct  5 22:24:04 2013 :: Closing link to Kazeus.
+Sat Oct  5 22:24:05 2013 :: IMC: Shutting down network.
+Sat Oct  5 22:24:05 2013 :: I3_shutdown was called but no socket existed
+Sat Oct  5 22:24:05 2013 :: Normal termination of game.

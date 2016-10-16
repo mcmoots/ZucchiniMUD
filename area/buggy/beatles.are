@@ -1,0 +1,661 @@
+#AREADATA
+Name Pepperland~
+Builders None~
+VNUMs 6910 6999
+Levels 0 0
+Credits {g[{G 5 50{g]{x Yaegar   Pepperland~
+Security 1
+End
+
+
+
+#ZMOBILES
+#6910
+eleanor rigby~
+Eleanor Rigby~
+Eleanor Rigby is picking up rice from the church floor.
+~
+Eleanor Rigby is wearing the face that she keeps in the jar by the door. 
+Who IS it for?  Do you ever wonder who it's for?  She's a lonely old woman,
+and nobody knows where she comes from or where she belongs.  
+~
+human~
+AG 0 250 0
+6 6 13d2+61 6d10+85 2d3+8 beating
+5 5 5 6
+0 0 0 0
+stand stand female 5
+AHMV ABCDEFGHIJK medium unknown
+'(null)'
+#6911
+mackenzie father priest~
+Father Mackenzie~
+An elderly priest wipes dirt from his hands as he leaves a grave.
+~
+Another lonely old person, Father Mackenzie has written sermons that
+no-one will ever hear, and spends his evenings darning his socks.  
+~
+human~
+AG 0 200 0
+9 9 19d3+91 9d10+85 3d3+9 divine
+3 3 3 5
+0 0 0 0
+stand stand male 10
+AHMV ABCDEFGHIJK medium unknown
+'(null)'
+#6912
+person~
+a lonely person~
+A lonely person slumps dejectedly here.
+~
+All these lonely people!  Where DO they all come from?  Where DO they all
+belong?  Why don't they go get jobs and lives or something?  Help!  I need
+somebody!  Not just anybody!  
+~
+human~
+AG 0 0 0
+4 4 9d2+37 4d9+60 1d4+4 punch
+7 7 7 7
+0 0 0 0
+stand stand either 5
+AHMV ABCDEFGHIJK medium unknown
+'(null)'
+#6913
+person~
+a lonely person~
+A lonely person slumps dejectedly here.
+~
+All these lonely people!  Where DO they all come from?  Where DO they all
+belong?  Why don't they go get jobs or lives or something?  Help!  I need
+somebody!  Not just anybody!  
+~
+human~
+AG 0 0 0
+4 4 9d2+37 4d9+60 1d4+4 slap
+7 7 7 7
+0 0 0 0
+sit sit either 5
+0 0 medium unknown
+'(null)'
+F for AHMV
+F par ABCDEFGHIJK
+#6914
+pepper sergeant~
+Sgt. Pepper~
+Sgt. Pepper is here teaching the band to play.
+~
+Despite going in and out of style, he still manages to make you smile. 
+Wearing his surplus Salvation Army uniform and sporting a rather large brown
+moustache, Sgt.  Pepper sincerely hopes you will enjoy the show.  So sit
+back, relax and let the evening go!  
+~
+human~
+AG 0 0 0
+44 44 89d14+445 44d10+85 14d3+27 thwack
+-20 -20 -20 -11
+0 0 0 0
+stand stand male 80
+AHMV ABCDEFGHIJK medium unknown
+'(null)'
+#6915
+band~
+Sgt. Pepper's Lonely Hearts Club Band plays here.~
+(no long description)
+~
+The act you've know for all these years would like to take you home with
+them; they'd LOVE to take you home!  
+~
+human~
+AG 0 0 0
+22 22 45d7+223 22d10+85 7d3+16 razzle
+-5 -5 -5 0
+0 0 0 0
+stand stand none 0
+AHMV ABCDEFGHIJK medium unknown
+'(null)'
+#6916
+shears billy~
+Billy Shears~
+The one and only Billy Shears is introduced to you.
+~
+Billy Shears is going to sing a song, and he'd like you all to sing
+along.  He gets by with a little help from his friends if he sings out of
+tune, so lend him your ears.  
+~
+human~
+AG 0 0 0
+33 33 67d11+334 33d10+85 11d3+21 yodel
+-12 -12 -12 -5
+0 0 0 0
+stand stand male 25
+AHMV ABCDEFGHIJK medium unknown
+'(null)'
+#6917
+barber~
+a barber~
+A barber shows you photographs of heads.
+~
+This barber seems to have a *strange* hobby- he takes photographs of
+clients' haircuts and shows them to everybody...  Weird.  
+~
+human~
+AG 0 0 0
+22 22 45d7+223 22d10+85 7d3+16 slice
+-5 -5 -5 0
+0 0 0 0
+stand stand male 0
+AHMV ABCDEFGHIJK medium unknown
+'(null)'
+#6918
+person~
+a person saying hello~
+A person coming and going stops and says "hello!" to you.
+~
+ALL the people coming and going here stop and say hello...  How
+irritating!  Kill them!  Kill them ALL!  
+~
+human~
+A 0 0 0
+6 6 13d2+55 6d9+60 1d6+5 scratch
+5 5 5 7
+0 0 0 0
+stand stand either 0
+AHMV ABCDEFGHIJK medium unknown
+'(null)'
+#6919
+banker~
+the banker~
+A banker in a motor-car appears to have forgotten his raincoat.
+~
+He never wears his mac in the pouring rain...  Very strange.  He is
+waiting for a trim, his motor-car parked outside.  
+~
+human~
+AG 0 0 0
+17 17 35d5+172 17d10+85 5d3+13 wrath
+-2 -2 -2 1
+0 0 0 0
+stand stand male 0
+AHMV ABCDEFGHIJK medium unknown
+'(null)'
+#6920
+child~
+a laughing child~
+A little child laughs behind your back.
+~
+This little brat is mocking you... you don't have a mac either...
+~
+human~
+AG 0 -50 0
+6 6 13d2+55 6d9+60 1d6+5 scratch
+5 5 5 7
+0 0 0 0
+stand stand either 1
+AHMV ABCDEFGHIJK medium unknown
+'(null)'
+#6921
+fireman~
+a fireman~
+A fireman who likes to keep his engine clean stands here.
+~
+This stout fellow is a cheerful monarchist with a great devotion to his
+profession and his clean machine.  I bet he keeps a portrait of the Queen in
+his pocket.  
+~
+human~
+AG 0 250 0
+20 20 41d6+203 20d10+85 6d3+15 pound
+-3 -3 -3 0
+0 0 0 0
+stand stand male 20
+AHMV ABCDEFGHIJK medium unknown
+'(null)'
+#6922
+nurse~
+a pretty nurse~
+A pretty nurse stands here selling poppies on a tray.
+~
+Whoa!  What a babe!  And those poppies sure look good!  But why is she
+standing in the middle of a roundabout?  Is this some sort of drug
+reference?  
+~
+human~
+AG 0 150 0
+22 22 45d7+223 22d10+85 7d3+16 razzle
+-5 -5 -5 0
+0 0 0 0
+stand stand female 25
+AHMV ABCDEFGHIJK medium unknown
+'(null)'
+#6923
+pig~
+a pig~
+A pig from a gun flies by you.
+~
+See how they run! Look out!
+~
+pig~
+A 0 0 0
+11 11 23d3+112 11d10+85 3d3+10 chomp
+1 1 1 4
+0 0 0 0
+stand stand either 0
+AGV ACDEFHJK medium unknown
+'(null)'
+#6924
+boy~
+a naughty boy~
+A naughty boy with a long face sulks here.
+~
+Man, he WAS a naughty boy- he let his face grow long!
+~
+human~
+AG 0 -250 0
+11 11 23d3+112 11d10+85 3d3+10 punch
+1 1 1 4
+0 0 0 0
+stand stand none 3
+AHMV ABCDEFGHIJK medium unknown
+'(null)'
+#6925
+policeman~
+a pretty little policeman~
+A pretty little policeman sits with others in a row.
+~
+A municipial policeman is sitting with others in a row eating donuts-
+perhaps they should be doing their job?  But they are public servants so I
+guess they are sitting pretty...  
+~
+human~
+A 0 0 0
+11 11 23d3+112 11d10+85 3d3+10 beating
+1 1 1 4
+0 0 0 0
+stand stand either 30
+AHMV ABCDEFGHIJK medium unknown
+'(null)'
+#6926
+eggman~
+the eggman~
+An eggman is he as you are he and we are all together.
+~
+A huge white ellipsoid hovers around near you stating his identity quite
+firmly.  He IS the eggman- what can we say?  
+~
+human~
+AG 0 0 0
+22 22 45d7+223 22d10+85 7d3+16 none
+-5 -5 -5 0
+0 0 0 0
+stand stand male 0
+ACS DEFK medium unknown
+'(null)'
+F for HMV
+F par ABCGHIJ
+#6927
+walrus creature~
+the walrus~
+A mounstrous moustachioed sea creature blobs here.
+~
+YOU may be the eggman...  THEY may be the eggmen...  But HE is the
+WALRUS!  Goo Goo Goo Joob!  Better stay out of his way- everybody haha
+everybody haha.  
+~
+pig~
+ABFG 0 0 0
+44 44 89d14+445 44d10+85 14d3+27 crush
+-20 -20 -20 -11
+0 0 0 0
+stand stand male 0
+AGV ACDEFHJK medium unknown
+'(null)'
+#6928
+fishwife~
+a fishwife~
+A crabalocker fishwife shrieks obscenities at you!
+~
+OOO language!  This cracking little scrubber looks mad!  Seems like she
+hates you, and she knows words you haven't even heard of!  
+~
+human~
+ACG 0 -25 0
+18 18 37d6+182 18d10+85 6d3+14 yell
+-2 -2 -2 0
+0 0 0 0
+stand stand female 0
+AHMV ABCDEFGHIJK medium unknown
+'(null)'
+#6929
+priestess~
+a pornographic priestess~
+A scantily-clad female member of the clergy slinks around here.
+~
+Oh my!  Father MacKenzie would most definitely NOT approve!  This chick
+wears a dog collar with panache, though it does clash with the fishnet
+stockings and nipple ring.  
+~
+human~
+AG 0 300 0
+11 11 23d3+112 11d10+85 3d3+10 divine
+1 1 1 4
+0 0 0 0
+stand stand female 20
+AHMV ABCDEFGHIJK medium unknown
+'(null)'
+#6930
+girl~
+a naughty girl~
+A naughty girl with knickers around her ankles blushes at your attention.
+~
+Boy she HAS been a naughty girl- she let her knickers down and now she
+has a bun in the oven.  Wonder who the father is?  Hope its not the
+Walrus...  
+~
+human~
+AG 0 -100 0
+11 11 23d3+112 11d10+85 3d3+10 scratch
+1 1 1 4
+0 0 0 0
+stand stand female 10
+AHMV ABCDEFGHIJK medium unknown
+'(null)'
+#6931
+joker~
+a joker~
+A joker laughs at you: "hoo hoo hoo hee hee hee hah hah hah".
+~
+Are you paranoid?  Don't you think the joker is laughing at YOU?  You
+could be right.  
+~
+human~
+AG 0 0 0
+11 11 23d3+112 11d10+85 3d3+10 laugh
+1 1 1 4
+0 0 0 0
+stand stand either 15
+AHMV ABCDEFGHIJK medium unknown
+'(null)'
+#6932
+edgar allen poe~
+Edgar Allen Poe~
+Edgar Allen Poe is being kicked here.
+~
+Man did you see them kicking Edgar Allen POE?  How impolite...  Maybe you
+should join in?
+Edgar Allen Poe has many nasty wounds.
+~
+human~
+AG 0 0 0
+11 11 23d3+112 11d10+85 3d3+10 scratch
+1 1 1 4
+0 0 0 0
+stand stand male 13
+AHMV ABCDEFGHIJK medium unknown
+'(null)'
+#6933
+smokers~
+expert taxpert choking smokers~
+Expert taxpert choking smokers hack and cough here.
+~
+Boy listen to that.  Mister Emphysema has found a home here.  Perhaps
+they should quit?  Or curse Sir Walter Raleigh- he was such a stupid git.  
+~
+human~
+AG 0 0 0
+11 11 23d3+112 11d10+85 3d3+10 punch
+1 1 1 4
+0 0 0 0
+stand stand none 20
+0 0 medium unknown
+'(null)'
+F for AHMV
+F par ABCDEFGHIJK
+#6934
+penguin~
+an elementary penguin~
+An elementary penguin sings "Hare Krishna".
+~
+Hare Krishna Hare Krishna Krishna Krishna Hare Hare Hare Rama Hare Rama
+Rama Rama Hare Hare 
+~
+human~
+AG 0 0 0
+11 0 0d0+0 0d0+0 0d0+0 peckb
+0 0 0 0
+0 0 0 0
+stand stand either 0
+0 0 medium unknown
+'(null)'
+F for AHMV
+F par ABCDEFGHIJK
+#6935
+rocky raccoon~
+Rocky Raccoon~
+Rocky Raccoon steps into the room, gun in hand.
+~
+"Where is that no-good, durn rotten varmint Dan!"  Rocky snarls at you as
+Dylanesque harmonica wails in the background.  He sure looks mad.  He grins
+at you and says "Boy, this is a show-down".  
+~
+human~
+AG 0 0 0
+17 17 35d5+172 17d10+85 5d3+13 blast
+-2 -2 -2 1
+0 0 0 0
+stand stand male 0
+0 0 medium unknown
+'(null)'
+F for AHMV
+F par ABCDEFGHIJK
+#6936
+dan~
+Dan~
+Dan, Nancy's man, is on the lookout for Rocky.
+~
+Dan is rough and tough backwoodsman that don't take no crap from
+strangers - or raccoons for that matter.  He's rather busy, you'd better
+leave before he gets mad.  
+~
+human~
+AG 0 0 0
+20 20 41d6+203 20d10+85 6d3+15 punch
+-3 -3 -3 0
+0 0 0 0
+stand stand male 20
+AHMV ABCDEFGHIJK medium unknown
+'(null)'
+#6937
+mcgill lil nancy~
+Nancy~
+McGill who calls herself Lil but is known as Nancy is here.
+~
+Nancy is a scantily-clad barmaid who seduced Rocky in the hoedown, then
+dumped him for Dan.  Now Rocky's out for blood, but she knows Dan is
+tougher.  
+~
+human~
+AG 0 0 0
+49 49 99d16+495 49d10+85 16d3+29 slap
+-23 -23 -23 -13
+0 0 0 0
+stand stand female 40
+AHMV ABCDEFGHIJK medium unknown
+'(null)'
+#6938
+doctor~
+a gin-soaked doctor~
+A gin-soaked doctor staggers drunkenly in.
+~
+"hic!  Rocky, you've met your match," he slurs, as you reel back from his
+powerful odour.  Boy, he MUST be drunk- you name isn't Rocky, is it?  This
+is the kind of doctor that makes you glad you're not sick...  
+~
+human~
+AG 0 0 0
+12 12 25d4+122 12d10+85 4d3+11 thrust
+1 1 1 3
+0 0 0 0
+stand stand male 25
+AHMV ABCDEFGHIJK medium unknown
+'(null)'
+#6939
+taxman~
+the taxman~
+The taxman stares grimly at you, greedily evaluating your worth.
+~
+Ahhh, Mister Wilson...Ahhh, Mister Heath. If you die in this area,
+be sure to declare the pennies on your eyes; after all, there's one for 
+you nineteen for him. 'Cos he's the taxman, and you're working for
+no-one but him.
+~
+human~
+AG 0 -350 0
+44 44 89d14+445 44d10+85 14d3+27 suction
+-20 -20 -20 -11
+0 0 0 0
+stand stand none 80
+0 0 medium unknown
+'(null)'
+F for AHMV
+F par ABCDEFGHIJK
+#6940
+hare krishna devotee~
+a hare krishna~
+A Hare Krishna devotee is smiling and chanting mantras here.
+~
+George's house seems to be full of these guys- maybe he pays for them or
+something.  I wonder if he uses them as a tax break?  That taxman always
+seems to be around.  
+~
+human~
+AG 0 0 0
+33 33 67d11+334 33d10+85 11d3+21 none
+-12 -12 -12 -5
+0 0 0 0
+stand stand either 2
+AHMV ABCDEFGHIJK medium unknown
+'(null)'
+#6941
+boyd pattie~
+Pattie Boyd~
+Pattie Boyd stands here staring dreamily into space.
+~
+Oh, isn't she pretty?  No wonder she had two rock stars fighting over
+her!  She seems rather spaced out- perhaps she shouldn't use so many
+recreational substances.  
+~
+human~
+AG 0 0 0
+31 31 63d10+314 31d10+85 10d3+20 dazzle
+-11 -11 -11 -4
+0 0 0 0
+stand stand female 0
+AHMV ABCDEFGHIJK medium unknown
+'(null)'
+#6942
+swami prabhupada~
+the Swami Prabhupada~
+His Divine Grace A. C. Bhaktivedanta Swami meditates here.
+~
+This wise and ancient spiritual leader is a great friend and mentor of
+George.  Although seemingly weak and frail, he is possessed of great
+strength and is not to be trifled with.  
+~
+human~
+AG 0 500 0
+50 50 101d16+506 50d10+85 16d3+30 mdrain
+-24 -24 -24 -14
+0 0 0 0
+stand stand male 1
+AHMV ABCDEFGHIJK medium unknown
+'(null)'
+#6943
+ravi shankar~
+Ravi Shankar~
+An Indian man strums madly at a horrible, wailing instrument.
+~
+Yow!  What is that noise?  Sounds like a cat being tortured- perhaps
+being tortured by being forced to listen to this!  Quick, put this fellow
+out of his misery before you suffer any more!  
+~
+human~
+AG 0 0 0
+39 39 79d13+394 39d10+85 13d3+24 scream
+-16 -16 -16 -8
+0 0 0 0
+stand stand male 50
+AHMV ABCDEFGHIJK medium unknown
+'(null)'
+#6944
+maharishi mahesh yogi~
+Maharishi Mahesh Yogi~
+The Maharishi Magesh Yogi giggles like an idiot at you.
+~
+This bedraggled-looking fellow starts babbling about the cosmos and life
+in general; his irritating giggle is really starting to get on your nerves. 
+Best be careful though- he's tougher than he looks!  
+~
+human~
+AG 0 500 0
+47 47 95d15+475 47d10+85 15d3+28 psyblast
+-22 -22 -22 -12
+0 0 0 0
+stand stand male 5
+AHMV ABCDEFGHIJK medium unknown
+'(null)'
+#6945
+writer~
+a paperback writer~
+A paperback writer begs you to read his book which took years to write.
+~
+The writer explains in great detail to you how important it is that you
+read his stupid novel and fulfill his dreams of being a writer of pulp
+paperbacks.  You never know, it may be a good book- after all, it's based on
+a novel by a man named Lear, and it is about a dirty man.  
+~
+human~
+AG 0 0 0
+15 15 31d5+152 15d10+85 5d3+12 slap
+0 0 0 2
+0 0 0 0
+stand stand male 12
+AHMV ABCDEFGHIJK medium unknown
+'(null)'
+#0
+
+
+
+#ZOBJECTS
+#0
+
+
+
+#ZROOMS
+#6910
+~
+~
+0 4 0
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#0
+
+#$

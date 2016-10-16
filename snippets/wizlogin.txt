@@ -1,0 +1,119 @@
+  /***************************************************************************
+  * (c) 2000 TAKA and the GHOST DANCER MUD PROJECT TEAM
+  *
+  * You may use this code provided you accept it's usage agreements
+  *
+  * Usage agreement
+  * 1) Is that you do not remove or modify this comment block.
+  * 2) You must give due credit in the help files
+  * 3) You email me at a_ghost_dancer@excite.com
+  * this helps me judge what snippets are popular and i welcome
+  * any ideas and if i find them worthy i may decide to code them
+  * for GHOST and distribute them on our page.
+  * 4) You must abid by all other ROM and MERC licences
+  * 5) Finally any improvements/bugs you find or make please share them
+  * so we can continue to put out quality snippets.
+  *
+  * Last thank you to all the ROM amd MERC folks for this wounderful code
+  * base know as ROM.
+  *
+  * The Ghost Dancer MUD Project Team and me TAKA thank you
+  * for your interest.
+  *
+  * You can email me at:
+  * TAKA
+  * a_ghost_dancer@excite.com
+  *
+  ***************************************************************************/
+
+
+  Allow your immortals to sign in wizi/incog or regular and allow level
+  selection
+  for wizi/incog
+
+  in COMM.C function nanny
+
+  find in the large switch statement
+
+  switch ( d->connected )
+  {
+
+  default:
+  bug( "Nanny: bad d->connected %d.", d->connected );
+  close_socket( d );
+  return;
+
+  add this after
+  /*
+  * (c) TAKA 2000 of the Ghost Dancer MUD Project
+  * allows an immortal to select entry type and level they wish
+  * to entry the world wizi or incog at.
+  *
+  * Idea by Vincent the biggest dwarf on the block!
+  */
+  case CON_IMM_FLAG:
+  if (argument[0] == '\0' || UPPER(argument[0]) == 'N')
+  {
+  do_help( ch, "imotd" );
+  d->connected = CON_READ_IMOTD;
+  break;
+  }
+  else
+  {
+  if (UPPER(argument[0]) == 'I')
+  LOGIN_STATUS = 1;
+  else
+  LOGIN_STATUS = 0;
+  }
+
+  d->connected = CON_IMM_FLAG_LEVEL;
+  send_to_desc("{YWhat Level ?{x\n\r", d);
+  break;
+
+  case CON_IMM_FLAG_LEVEL:
+  if (LOGIN_STATUS == 1)
+  {
+  do_incognito( ch, argument );
+  }
+  else
+  {
+  do_invis( ch, argument );
+  }
+
+  do_help( ch, "imotd" );
+  d->connected = CON_READ_IMOTD;
+  break;
+
+  find case CON_GET_OLD_PASSWORD:
+  near the bottom of that you will find
+
+  do_help( ch, "motd" );
+  d->connected = CON_READ_MOTD;
+
+  change to this
+  if ( IS_IMMORTAL(ch) )
+  {
+  send_to_desc("{GHow would you like to enter {wGhost Dancer
+  {G(Wizi/Incog/Normal)? {x",d);
+  d->connected = CON_IMM_FLAG;
+  }
+  else
+  {
+  do_help( ch, "motd" );
+  d->connected = CON_READ_MOTD;
+  /* TAKA GREET CHARACTER */
+  sprintf(buf, "{WGhost Dancer {Gwelcomes {Y%s {Gto our world!{x",
+  ch->name);
+  do_echo(ch, buf);
+  /* global greeting */
+  }
+  break;
+
+  in MERC.H CON_ flags section add these two
+  #define CON_IMM_FLAG 6
+  #define CON_IMM_FLAG_LEVEL 7
+
+  make sure to use a unique number for them
+
+  **NOTE change the greet character or remove it if you wish.
+

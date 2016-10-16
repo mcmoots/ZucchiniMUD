@@ -1,0 +1,2168 @@
+#AREADATA
+Name Gandahar~
+Builders None~
+VNUMs 11100 11199
+Credits (  1 200) {BBlade    {Y* {WGandahar{x~
+Security 9
+End
+
+
+
+#MOBILES
+#11101
+guard giant gandahar~
+{can armored guard{x~
+{cA guard clad in the armor of Gandahar stands watchful here.{x
+~
+{cA giantkin in the armor of {CThe Guard of Gandahar{c stands ready to
+keep the peace in this frontier town upon the edge of chaos.  The guard
+wields a two handed sword with the ease most wield a longsword, and looks
+capable of putting the most hardened criminal out of action.  {x 
+~
+giant~
+AGT DFZ 0 0
+150 150 309d51+4546 150d11+95 51d2+107 crush
+-98 -98 -98 -67
+0 0 HI JP
+stand stand none 7500
+AHMV ABCDEFGHIJK medium unknown
+#11102
+smith ~
+{yA Blacksmith{x~
+{yThe blacksmith stands near the forge.{x
+~
+{yDressed in leather breeches and tunic, the smith stands near the forge.
+{x 
+~
+dwarf~
+AB DFZ 0 0
+130 130 261d43+3940 130d10+85 43d3+70 pound
+-78 -78 -78 -51
+0 0 LQ R
+stand stand none 6500
+AHMV ABCDEFGHIJK medium unknown
+F aff J
+M GRALL 11104 100~
+#11103
+retired soldier~
+{ya retired soldier{x~
+{yA retired soldier stands here.{x
+~
+{yIn his mid 50's this old soldier still retains his strength and
+agility, honed over years upon the battlefields of the world, the soldier
+stands ready to train you in the bloody arts of war.  {x 
+~
+human~
+ABJK 0 0 0
+190 190 391d64+7677 190d11+95 64d2+134 punch
+-126 -126 -126 -88
+0 0 0 0
+stand stand none 9500
+AHMV ABCDEFGHIJK medium unknown
+M GRALL 11103 100~
+#11105
+armorer~
+{ya tall giant{x~
+{yThe armorer, a halfbreed giant stands here.{x
+~
+{y The armor stands 8 feet tall, his sinewy frame and bulging muscles
+tied to unearthly grace, accent the lack of humanity in the armorers being. 
+Until with a searching glance, the armorer pierces through to your soul.  {x
+~
+giant~
+AB 0 0 0
+130 130 268d44+3940 130d11+95 44d2+94 pound
+-84 -84 -84 -57
+0 CZ HI JP
+stand stand none 6500
+AHMV ABCDEFGHIJK medium unknown
+M GRALL 11105 100~
+#11106
+dwarven weapon seller~
+{ya stout dwarf{x~
+{yA stout dwarf dressed in leather hawks his wares.{x
+~
+{yMarked with the scars of long hours at the forge, and upon the field of
+battle, this elderly dwarven weaponsmith wears clothes of thick leather.  
+~
+human~
+AB 0 0 0
+0 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand none 0
+0 0 medium unknown
+F for AHMV
+F par ABCDEFGHIJK
+M GRALL 11106 100~
+#11107
+Elion Gandahar~
+{Ya tall human{x~
+{YA tall thin human stands here.{x
+~
+{YElion Gandahar, proprietor of Elion's Dry Goods stands ready to fill
+your orders.  Dressed in a tunic and trews of midnight blue, his long silver
+hair marks a striking contrast to his amber eyes.  {x 
+~
+human~
+AB 0 0 0
+140 140 288d47+4243 140d11+95 47d2+100 none
+-91 -91 -91 -62
+0 0 0 0
+stand stand none 7000
+AHMV ABCDEFGHIJK medium unknown
+M GRALL 11107 100~
+#11108
+Klemath~
+{ythe grocer{x~
+{yKlemath, the grocer stands here.{x
+~
+{yWearing a tunic and trews of {gforest green {y, Klemath sells many and
+varied foods at his grocery store.  Rulers of many lands send to Klemath for
+those hard to get tidbits for their tables.  {x 
+~
+human~
+AB 0 0 0
+150 150 301d50+4546 150d10+85 50d3+80 pound
+-91 -91 -91 -60
+0 0 0 0
+stand stand none 7500
+AHMV ABCDEFGHIJK medium unknown
+M GRALL 11108 100~
+#11109
+Khale barkeep~
+{ythe barkeep{x~
+{YKhale, the barkeep stands here.{x
+~
+Long {yKhale, the barkeep is an immense man, his size dwarfed only by his
+immense girth.  Dressed in tunic and trews of a dark material, he covers all
+with an apron of leather.  {x 
+~
+human~
+AB 0 0 0
+150 150 309d51+4546 150d11+95 51d2+107 slice
+-98 -98 -98 -67
+0 0 0 0
+stand stand none 7500
+AHMV ABCDEFGHIJK medium unknown
+#11110
+Eliana~
+{ythe hostess{x~
+{yEliana, the hostess looks over the eatery.{x
+~
+{yEliana wears a plain dress of a saffron colored cloth, over which is
+worn an apron.  {x 
+~
+human~
+AB 0 0 0
+150 150 309d51+4546 150d11+95 51d2+107 pound
+-98 -98 -98 -67
+0 0 0 0
+stand stand none 7500
+AHMV ABCDEFGHIJK medium unknown
+#11111
+housewife~
+{ca housewife{x~
+{cA housewife stands here.{x
+~
+{cA housewife dressed in a peasant blouse, bright skirts and sturdy
+wooden shoes stands here.  {x 
+~
+human~
+AY 0 0 0
+20 20 42d7+203 20d11+95 7d2+20 pound
+-5 -5 -5 -1
+0 0 0 0
+stand stand none 1000
+AHMV ABCDEFGHIJK medium unknown
+#11112
+Arkanus~
+{Yan elven mage{x~
+{YArkanus, an elven mage sells his wares.{x
+~
+{YA tall silver haired elf wears flowing robes with a pointed hat.  {x 
+~
+elf~
+AB J 0 0
+120 120 247d41+3637 120d11+95 41d2+87 slash
+-77 -77 -77 -52
+0 0 B Z
+stand stand none 6000
+AHMV ABCDEFGHIJK medium unknown
+M GRALL 11112 100~
+#11113
+mercario~
+{ythe alchemist{x~
+{yMercario, the Alchemist stands here.{x
+~
+~
+human~
+AB 0 0 0
+180 180 370d61+7273 180d11+95 61d2+127 shock
+-119 -119 -119 -83
+0 0 0 0
+stand stand none 9000
+AHMV ABCDEFGHIJK medium unknown
+#11114
+mage teacher~
+{Can elven mage{x~
+{CAn elven mage in flowing robes stands ready to teach.{x
+~
+{CAn ancient mage, of elvenkind, dressed in glowing robes of purest cyan,
+stands ready to teach and guide all who come here.  {x 
+~
+elf~
+ABJK J 0 0
+170 170 350d57+6869 170d11+95 57d2+120 slice
+-112 -112 -112 -78
+0 0 B Z
+stand stand none 8500
+AHMV ABCDEFGHIJK medium unknown
+M GRALL 11114 100~
+#11115
+high priest~
+the high priest~
+{CThe high priest of Gandahar stands here.{x
+~
+{CThis mighty cleric, for untold ages, has made his home in the jungle
+city of Gandahar.  Blessed by his gods, with the lifespan of the elves, his
+wisdom and power shines out of his eyes.  {x 
+~
+human~
+ABJKQ 0 0 0
+190 190 391d64+7677 190d11+95 64d2+134 divine
+-126 -126 -126 -88
+0 0 0 0
+stand stand none 9500
+AHMV ABCDEFGHIJK medium unknown
+M GRALL 11115 100~
+#11116
+master thief~
+the master thief~
+The master thief stands here.
+~
+The master thief wears nondescript clothing.  His skin is gray, his eyes
+a feral black.  
+~
+human~
+AJKS 0 0 0
+95 95 196d32+1919 95d11+95 32d2+70 none
+-59 -59 -59 -39
+0 0 0 0
+stand stand none 4700
+AHMV ABCDEFGHIJK medium unknown
+#0
+
+
+
+#OBJECTS
+#11100
+armor plate gandahar~
+{cGandaharan Plate Armor{x~
+{CA suit of Gandaharan Plate lies here.{x~
+unknown~
+armor KSY AD
+BCEF BCEF BCEF ACEF 0
+150 50 3000 P
+#11101
+sword guard gandahar~
+{cGandaharan Sword{x~
+{cA Gandaharan Sword lies here.{x~
+unknown~
+weapon KSY AN
+sword 16 13 wrath CDF
+150 37 3000 P
+A
+18 5
+A
+19 5
+#11102
+torch~
+{ya torch{x~
+{YA torch burns in a sconce upon the wall.{x~
+unknown~
+light A AO
+0 0 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdef 0 0
+100 2 100 P
+#11103
+torch~
+{ya torch{x~
+{YA torch burns in a sconce upon the wall.{x~
+unknown~
+light A AO
+0 0 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdef 0 0
+100 2 100 P
+#11104
+torch~
+{ya torch{x~
+{YA torch burns in a sconce upon the wall.{x~
+unknown~
+light A AO
+0 0 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdef 0 0
+100 2 100 P
+#11105
+torch~
+{ya torch{x~
+{YA torch burns in a sconce upon the wall.{x~
+unknown~
+light A AO
+0 0 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdef 0 0
+100 2 100 P
+#11106
+chain mail~
+{cchain mail{x~
+{cA suit of chain mail lies here.{x~
+unknown~
+armor 0 AD
+C C C AB 0
+10 3 200 P
+#11107
+scale mail~
+{cscale mail{x~
+{cA suit of scale mail lies here.{x~
+unknown~
+armor 0 AD
+ABD ABD ABD BD 0
+30 10 600 P
+#11108
+banded mail~
+{cbanded mail{x~
+{cA suit of banded mail lies here.{x~
+unknown~
+armor 0 AD
+BE BE BE AE 0
+50 16 1000 P
+#11109
+half plate~
+{chalf-plate mail{x~
+{cA suit of half-plate lies here.{x~
+unknown~
+armor 0 AD
+CF CF CF ABF 0
+100 33 2000 P
+#11110
+field plate armor~
+{cfield-plate armor{x~
+{cA suit of field-plate armor lies here.{x~
+unknown~
+armor 0 AD
+BCEF BCEF BCEF ACEF 0
+150 50 3000 P
+#11111
+full plate armor~
+{cfull-plate armor{x~
+{cA suit of full plate armor lies here.[x~
+unknown~
+armor AB AD
+ACG ACG ACG CG 0
+192 64 3840 P
+#11112
+gothic full plate~
+{Cgothic full plate{x~
+{CA suit of gothic full plate glows here.{x~
+unknown~
+armor AISUY AD
+DG DG DG ABCG 0
+200 66 4000 P
+A
+25 0
+A
+25 0
+A
+25 0
+A
+25 0
+#11113
+sword bronze~
+{ya bronze sword{x~
+{yA bronze sword gleams here dully.{x~
+unknown~
+weapon 0 ANO
+sword 1 6 stab 0
+5 1 100 P
+#11114
+mace iron~
+{can iron mace{x~
+{cAn iron mace lies here.{x~
+unknown~
+weapon 0 AN
+mace 3 8 pound 0
+20 5 400 P
+#11115
+staff shod~
+{can iron shod staff{x~
+{cAn iron shod staff lies here.{x~
+unknown~
+weapon 0 AN
+polearm 4 11 crush 0
+30 7 600 P
+#11116
+battle axe~
+{ca battle axe{x~
+{cA battle axe lies here.{x~
+unknown~
+weapon 0 AN
+axe 6 10 slash 0
+50 12 1000 P
+#11117
+sword long~
+{ca steel longsword{x~
+{cA steel longsword gleams here.{x~
+unknown~
+weapon 0 AN
+sword 9 12 slice 0
+80 20 1600 P
+#11118
+sword bastard~
+{ca bastard sword{x~
+{cA bastard sword lies here.{x~
+unknown~
+weapon 0 AN
+sword 12 12 slash 0
+110 27 2200 P
+#11119
+halberd~
+{ca halberd{x~
+{cA halberd lies here.{x~
+unknown~
+weapon 0 AN
+polearm 14 14 slash F
+130 32 2600 P
+#11120
+great axe~
+{ca great axe{x~
+{cA great axe lies here.{x~
+unknown~
+weapon 0 AN
+axe 16 12 slash DF
+150 37 3000 P
+#11121
+great sword~
+{Ca glowing great sword{x~
+{CA glowing great sword lies here.{x~
+unknown~
+weapon A AN
+axe 21 13 thwack CDF
+200 50 4000 P
+A
+25 0
+A
+25 0
+#11122
+chair~
+{ya wooden chair{x~
+{yA wooden chair sits here.{x~
+unknown~
+furniture 0 AO
+A BDEFGH EHK CE CE
+5 10 200 P
+#11123
+table~
+{ya wooden table{x~
+{yA wooden table sits here.{x~
+unknown~
+furniture 0 AO
+BC CEFGHI DGN CE CE
+5 30 200 P
+#11124
+rope coil~
+{wa coil of rope{x~
+{wA coil of rope lies here.{x~
+unknown~
+trash 0 AO
+0 0 0 0 0
+5 5 5 P
+#11125
+fishing rod~
+{wa fishing rod{x~
+{wA fishing rod lies here.{x~
+unknown~
+trash 0 AO
+0 0 0 0 0
+1 4 5 P
+#11126
+canteen~
+{wa canteen{x~
+{wA canteen lies here.{x~
+unknown~
+drink 0 AO
+30 30 'water' 0 0
+1 4 10 P
+#11127
+backpack~
+{ra leather backpack{x~
+{rA leather backpack lays here.{x~
+unknown~
+container 0 ADO
+100 AC 0 100 2
+10 10 100 P
+#11128
+lamp brass ~
+{ya brass lamp{x~
+{yA brass lamp sits here.{x~
+unknown~
+light A AO
+0 0 BEF 0 0
+5 5 100 P
+#11129
+melon~
+{Ga green melon{x~
+{GA small green melon lies here.{x~
+unknown~
+food 0 AO
+CD C 0 0 0
+1 1 10 P
+#11130
+strawberries box~
+{ra box of strawberries{x~
+{rA box of strawberries sits here.{x~
+unknown~
+food 0 AO
+CD C 0 0 0
+1 1 100 P
+#11131
+sausage dried~
+{ra dried sausage{x~
+{rA package of dried smoked sausage lies here.{x~
+unknown~
+food 0 AO
+BE BC 0 0 0
+1 2 40 P
+#11132
+smoked chop pork~
+{ysmoked pork chops{x~
+{yA rack of smoked pork chops sits here.{x~
+unknown~
+food 0 AO
+D C 0 0 0
+1 1 10 P
+#11133
+baked hen~
+{ya baked chicken{x~
+{yA baked hen lies here.{x~
+unknown~
+food 0 AO
+D C 0 0 0
+1 2 10 P
+#11134
+banana bunch~
+{Ya bunch of bananas{x~
+{YA bunch of bananas lies here.{x~
+unknown~
+food 0 AO
+D C 0 0 0
+1 4 6 P
+#11135
+blue berries~
+{Ba box of blueberries{x~
+{BA box of blueberries lies here.{x~
+unknown~
+food 0 AO
+CD AC 0 0 0
+1 2 100 P
+#11136
+tankard ale~
+{yan ale tankard{x~
+{yA large tankard sits here.{x~
+unknown~
+drink 0 AO
+8 0 'ale' 0 0
+1 5 15 P
+#11137
+skin wine~
+{ma skin of wine{x~
+{mA skin of wine lies here.{x~
+unknown~
+drink 0 AO
+8 8 'red wine' 0 0
+1 2 10 P
+#11138
+cask brandy~
+{ya brandy cask{x~
+{yA cask for brandy lies here.{x~
+unknown~
+drink 0 AO
+40 20 'brandy' 0 0
+1 5 150 P
+#11139
+barrel ale~
+{yan ale cask{x~
+{yA cask for ale sits here.{x~
+unknown~
+drink 0 AO
+200 200 'ale' 0 0
+1 20 500 P
+#11140
+glass water~
+{wa glass of water{x~
+A glass of water lies here.{x~
+unknown~
+drink 0 AO
+4 4 'water' 0 0
+1 1 5 P
+#11141
+stew beef~
+{yA bowl of stew{x~
+{yA bowl of stew steams here.[x~
+unknown~
+food 0 AO
+D C 0 0 0
+1 2 10 P
+#11142
+sandwich sausage~
+{ra sausage sandwich{x~
+{rA sandwich made with Khales's dried sausage lies here.{x~
+unknown~
+food 0 AO
+CD AC 0 0 0
+1 2 12 P
+#11143
+rice beans~
+{wa bowl of rice and beans{x~
+{wA bowl of rice and beans steams here invitingly.{x~
+unknown~
+food 0 AO
+CE BD 0 0 0
+1 2 15 P
+#11144
+pie blueberry~
+{Ba blueberry pie{x~
+{BA blueberry pie sits here ready to eat.{x~
+unknown~
+food 0 AO
+CE BD 0 0 0
+1 3 40 P
+#11145
+bed~
+{ya large bed{x~
+{yA large four poster bed sits here.{x~
+unknown~
+furniture 0 AO
+C CEFGHI BEHKN CE CE
+1 100 100 P
+#11146
+chair~
+{ya wooden chair{x~
+{yA wooden chair sits here.{x~
+unknown~
+furniture 0 AO
+A DGH EH AC AC
+1 10 100 P
+#11147
+chair~
+{ya wooden chair{x~
+{yA wooden chair sits here.{x~
+unknown~
+furniture 0 AO
+A DGH EH AC AC
+1 10 100 P
+#11148
+chair~
+{ya wooden chair{x~
+{yA wooden chair sits here.{x~
+unknown~
+furniture 0 AO
+A DGH EH AC AC
+1 10 100 P
+#11149
+chair~
+{ya wooden chair{x~
+{yA wooden chair sits here.{x~
+unknown~
+furniture 0 AO
+A DGH EH AC AC
+1 10 100 P
+#11150
+table~
+{ya wooden table{x~
+{yA wooden table sits here.{x~
+unknown~
+furniture 0 AO
+C CEFGHI DGJ BD BD
+1 50 10 P
+#11151
+pill grey~
+{wa grey pill{x~
+{wA grey pill lies here.{x~
+unknown~
+pill 0 AO
+5 'armor' 'reserved' 'reserved' 'reserved'
+1 1 100 P
+#11152
+pill white~
+{Wa white pill{x~
+{WA small white pill lies here.{x~
+unknown~
+pill 0 AO
+8 'bless' 'reserved' 'reserved' 'reserved'
+10 1 150 P
+#11153
+pill red~
+{Ra red pill{x~
+{RA red pill lies here.{x~
+unknown~
+pill 0 0
+20 'protection evil' 'reserved' 'reserved' 'reserved'
+20 1 200 P
+#11154
+pill blue~
+{Ba blue pill{x~
+{BA blue pill lies here.{x~
+unknown~
+pill 0 AO
+30 'create spring' 'reserved' 'reserved' 'reserved'
+1 2 300 P
+#11155
+potion yellow-green~
+{ya {Yyellow-{Ggreen potion{x~
+A {Yyellow{G-green{g potion sits here.{x~
+unknown~
+potion 0 AO
+30 'heal' 'sanctuary' 'reserved' 'reserved'
+30 1 500 P
+#11156
+potion red~
+{Ra red potion{x~
+{RA red potion sits here.{x~
+unknown~
+potion 0 AO
+40 'shield' 'stone skin' 'reserved' 'reserved'
+40 5 600 P
+#11157
+staff green~
+{ga green staff{x~
+{gA green staff glows here.{x~
+unknown~
+staff A AO
+10 20 20 'cause light' 0
+10 15 200 P
+#11158
+staff brown~
+{ra brown staff{x~
+{rA brown staff lies here.{x~
+unknown~
+staff 0 AO
+30 10 10 'pass door' 0
+30 5 500 P
+#11159
+staff blue~
+{Ba blue staff{x~
+{BA blue staff lies here.{x~
+unknown~
+staff 0 AO
+50 9 9 'heal' 0
+50 10 1000 P
+#11160
+wand red~
+{Ra red wand{x~
+{RA red wand lies here.{x~
+unknown~
+wand 0 AO
+75 20 20 'fire breath' 0
+75 5 2000 P
+#11161
+ticket weapon 11161~
+{wa weapon ticket{x~
+{wA ticket for carrying a weapon lies here.{x~
+unknown~
+trash M AO
+0 0 0 0 0
+1 1 1 P
+#0
+
+
+
+#ROOMS
+#11100
+{GGandahar's Main Street{x~
+{gWater drips from the dank forest growth overhead.  Underfoot, mud
+covers all, a thick ooze covering the stones of the ancient streets.  The
+buildings of this settlement are built up off the ground on pillars of stone
+or wood.  A faint miasma of decay fills the nostrils of all within this dank
+jungle city.  {x 
+~
+0 0 3
+E
+plaque~
+{y*****************************************************************{x
+{y*****************************************************************{x
+{y**                                                             **{x
+{y**        Gandahar was built for {CCreatia{y by {cBlade{y for          **{x
+{y**         anyone who wishes to utilize the area. The only     **{x
+{y**         thing that we ask is the credits remain as          **{x
+{y**         they are in their original form.                    **{x
+{y**                                                             **{x
+{y**         Copyright Jan 2001                                  **{x
+{y**                      by Blade                               **{x
+{y**                               {ccreatia.funcity.org 7500{y      **{x
+{y**                                                             **{x
+{y**         {rSome people want to rule the world......... {y        **{x
+{y**              {GWe just want to build it!!!!!!!!      {y         **{x
+{y**                                                             **{x
+{y*****************************************************************{x
+{y*****************************************************************{x
+~
+D0
+{gThe main street of Gandahar continues northward.{x
+~
+~
+0 0 11101
+D4
+~
+~
+0 0 411
+S
+#11101
+{GGandahar's Main Street{x~
+{gWater drips from the dank forest growth overhead.  Underfoot, mud
+covers all, a thick ooze covering the stones of the ancient streets.  The
+buildings of this settlement are built up off the ground on pillars of stone
+or wood.  A faint miasma of decay fills the nostrils of all within this dank
+jungle city.  {x {gA narrow street crosses this going east and west{x 
+~
+0 0 3
+D0
+~
+~
+0 0 11102
+D1
+~
+~
+0 0 11107
+D2
+~
+~
+0 0 11100
+D3
+~
+~
+0 0 11111
+S
+#11102
+{GGandahar's Main Street{x~
+{gWater drips from the dank forest growth overhead.  Underfoot, mud
+covers all, a thick ooze covering the stones of the ancient streets.  The
+buildings of this settlement are built up off the ground on pillars of stone
+or wood.  A faint miasma of decay fills the nostrils of all within this dank
+jungle city.  {x 
+~
+0 0 3
+D0
+~
+~
+0 0 11103
+D2
+~
+~
+0 0 11101
+S
+#11103
+{GGandahar's Main Street{x~
+{gWater drips from the dank forest growth overhead.  Underfoot, mud
+covers all, a thick ooze covering the stones of the ancient streets.  The
+buildings of this settlement are built up off the ground on pillars of stone
+or wood.  A faint miasma of decay fills the nostrils of all within this dank
+jungle city.  {x {gA narrow street crosses this going east and west{x 
+~
+0 0 3
+D0
+~
+~
+0 0 11104
+D1
+~
+~
+0 0 11123
+D2
+~
+~
+0 0 11102
+D3
+~
+~
+0 0 11131
+S
+#11104
+{GGandahar's Main Street{x~
+{gWater drips from the dank forest growth overhead.  Underfoot, mud
+covers all, a thick ooze covering the stones of the ancient streets.  The
+buildings of this settlement are built up off the ground on pillars of stone
+or wood.  A faint miasma of decay fills the nostrils of all within this dank
+jungle city.  {x 
+~
+0 0 3
+D0
+~
+~
+0 0 11105
+D2
+~
+~
+0 0 11103
+S
+#11105
+{GGandahar's Main Street{x~
+{gWater drips from the dank forest growth overhead.  Underfoot, mud
+covers all, a thick ooze covering the stones of the ancient streets.  The
+buildings of this settlement are built up off the ground on pillars of stone
+or wood.  A faint miasma of decay fills the nostrils of all within this dank
+jungle city.  {x 
+~
+0 0 3
+D0
+~
+~
+0 0 11106
+D2
+~
+~
+0 0 11104
+S
+#11106
+{GGandahar's Main Street{x~
+{gWater drips from the dank forest growth overhead.  Underfoot, mud
+covers all, a thick ooze covering the stones of the ancient streets.  The
+buildings of this settlement are built up off the ground on pillars of stone
+or wood.  A faint miasma of decay fills the nostrils of all within this dank
+jungle city.  {x {gA narrow street crosses this going east and west{x 
+~
+0 0 3
+D0
+~
+~
+0 0 11153
+D1
+~
+~
+0 0 11143
+D2
+~
+~
+0 0 11105
+D3
+~
+~
+0 0 11156
+S
+#11107
+{GElephant's Way{x~
+{gWater drips from the dank forest growth overhead.  Underfoot, mud
+covers all, a thick ooze covering the stones of the ancient streets.  The
+buildings of this settlement are built up off the ground on pillars of stone
+or wood.  A faint miasma of decay fills the nostrils of all within this dank
+jungle city.  {x 
+~
+0 0 3
+D1
+~
+~
+0 0 11108
+D3
+~
+~
+0 0 11101
+S
+#11108
+{GElephant's Way{x~
+{gWater drips from the dank forest growth overhead.  Underfoot, mud
+covers all, a thick ooze covering the stones of the ancient streets.  The
+buildings of this settlement are built up off the ground on pillars of stone
+or wood.  A faint miasma of decay fills the nostrils of all within this dank
+jungle city.  {x 
+~
+0 0 3
+D0
+~
+~
+0 0 11119
+D1
+~
+~
+0 0 11109
+D2
+~
+~
+0 0 11120
+D3
+~
+~
+0 0 11107
+S
+#11109
+{GElephant's Way{x~
+{gWater drips from the dank forest growth overhead.  Underfoot, mud
+covers all, a thick ooze covering the stones of the ancient streets.  The
+buildings of this settlement are built up off the ground on pillars of stone
+or wood.  A faint miasma of decay fills the nostrils of all within this dank
+jungle city.  {x 
+~
+0 0 3
+D1
+~
+~
+0 0 11110
+D3
+~
+~
+0 0 11108
+S
+#11110
+{GElephant's Way{x~
+{gWater drips from the dank forest growth overhead.  Underfoot, mud
+covers all, a thick ooze covering the stones of the ancient streets.  The
+buildings of this settlement are built up off the ground on pillars of stone
+or wood.  A faint miasma of decay fills the nostrils of all within this dank
+jungle city.  {x 
+~
+0 0 3
+D0
+~
+~
+0 0 11122
+D2
+~
+~
+0 0 11121
+D3
+~
+~
+0 0 11109
+S
+#11111
+{GElephant's Way{x~
+{gWater drips from the dank forest growth overhead.  Underfoot, mud
+covers all, a thick ooze covering the stones of the ancient streets.  The
+buildings of this settlement are built up off the ground on pillars of stone
+or wood.  A faint miasma of decay fills the nostrils of all within this dank
+jungle city.  {x 
+~
+0 0 3
+D1
+~
+~
+0 0 11101
+D3
+~
+~
+0 0 11112
+S
+#11112
+{GElephant's Way{x~
+{gWater drips from the dank forest growth overhead.  Underfoot, mud
+covers all, a thick ooze covering the stones of the ancient streets.  The
+buildings of this settlement are built up off the ground on pillars of stone
+or wood.  A faint miasma of decay fills the nostrils of all within this dank
+jungle city.  {x 
+~
+0 0 3
+D0
+~
+~
+0 0 11116
+D1
+~
+~
+0 0 11111
+D2
+~
+~
+0 0 11115
+D3
+~
+~
+0 0 11113
+S
+#11113
+{GElephant's Way{x~
+{gWater drips from the dank forest growth overhead.  Underfoot, mud
+covers all, a thick ooze covering the stones of the ancient streets.  The
+buildings of this settlement are built up off the ground on pillars of stone
+or wood.  A faint miasma of decay fills the nostrils of all within this dank
+jungle city.  {x 
+~
+0 0 3
+D1
+~
+~
+0 0 11112
+D3
+~
+~
+0 0 11114
+S
+#11114
+{GElephant's Way{x~
+{gWater drips from the dank forest growth overhead.  Underfoot, mud
+covers all, a thick ooze covering the stones of the ancient streets.  The
+buildings of this settlement are built up off the ground on pillars of stone
+or wood.  A faint miasma of decay fills the nostrils of all within this dank
+jungle city.  {x 
+~
+0 0 3
+D0
+~
+~
+0 0 11117
+D1
+~
+~
+0 0 11113
+D2
+~
+~
+0 0 11118
+S
+#11115
+{YThe Forge{x~
+{yA large firepit lies in the center of the room, it's red glow casting a
+crimson shade over the room.  Upon the eastern side of the room, lie the
+anvils of the forge, while upon the eastern wall, a rack holds the massive
+hammers and implements used by the smith in his daily labors.  Tables
+holding various pieces of armor and parts of weapons in various stages of
+construction line a long low table against the southern wall.  A doorway
+pierces the western wall.  {x 
+~
+0 8 0
+D0
+~
+~
+0 0 11112
+D3
+~
+~
+0 0 11139
+S
+#11116
+{YThe Weaponshop of Gandahar{x~
+{yLocked racks of various weapons stand about the walls of this large
+room.  The walls are of white oak, polished to a gleaming satin finish. 
+Fireplaces upon both the north and southern walls hold large crackling
+fires, to drive out the jungle moisture of this dank part of the realm.  {x 
+~
+0 8 0
+D2
+~
+~
+0 0 11112
+S
+#11117
+{YElion's Dry Goods{x~
+{yFires crackle in two large fireplaces on the east and west walls, their
+main purpose to drive out the damp of the dismal jungle where lies Gandahar.
+Racks of clothing, bales of dry goods and many other types of merchandise
+are scattered around the interior of the store.  {x 
+~
+0 12 0
+D2
+~
+~
+0 0 11114
+S
+#11118
+{YThe Armorer{x~
+{yThis tall wooden building built up from the swamp, sits on posts hewn
+from great ancient trees, felled at the end of their lives by the forces of
+nature.  Their ancient hearts black as iron.  Suits of armor from the
+practical, to the fanciful, line the walls of this shop.  Great fireplaces
+drive out the moisture from the damp jungle air.  {x 
+~
+0 8 0
+D0
+~
+~
+0 0 11114
+D1
+~
+~
+0 0 11139
+S
+#11119
+{YA House{x~
+{yThis is a small one room house built above the waters of the swampy
+jungle on stilts of some wood.  A fireplace is set into the northern wall,
+with an adjoining brick oven.  A large bed lies under a window upon the
+eastern wall, while a dining table and chairs lies along a large window in
+the western wall.  {x 
+~
+0 8 0
+D2
+~
+~
+0 0 11108
+S
+#11120
+{GThe Inn of the Green Crocodile{x~
+{GThe Inn of the Green Crocodile{y, is a large place on the inside. 
+Lamps hang from the dark beams of the ceiling, casting a warm yellow glow
+throughout this room.  A large wooden bar runs east and west near the south
+wall, behind which, the barkeep tends bar and dispenses drinks.  {x 
+~
+0 8 0
+D0
+~
+~
+0 0 11108
+S
+#11121
+{YKlemath's Fine Foodstuffs{x~
+{ya large glassed in counter against the southern wall displays many
+different types of baked goods available for purchase.  Against the east
+wall, a magically enchanted case holds many different vegetables in stasis,
+keeping them forever fresh against the day of their purchase.  Against the
+west wall, another case holds various smoked cuts of meat and sausages,
+along with choice cuts of fresh meat.  {x 
+~
+0 12 0
+D0
+~
+~
+0 0 11110
+S
+#11122
+{YEliana's Eatery{x~
+{yThe aromas wafting from the kitchen are mouth watering to the extreme. 
+Trestle tables with benches run in rows inside the Eatery.  A line of huge
+ovens lie along the north wall, with cooks and helpers scurrying to and fro.
+{x 
+~
+0 8 0
+D2
+~
+~
+0 0 11110
+S
+#11123
+{GAnaconda Lane{x~
+{gWater drips from the dank forest growth overhead.  Underfoot, mud
+covers all, a thick ooze covering the stones of the ancient streets.  The
+buildings of this settlement are built up off the ground on pillars of stone
+or wood.  A faint miasma of decay fills the nostrils of all within this dank
+jungle city.  {x 
+~
+0 0 3
+D1
+~
+~
+0 0 11124
+D3
+~
+~
+0 0 11103
+S
+#11124
+{GAnaconda Lane{x~
+{gWater drips from the dank forest growth overhead.  Underfoot, mud
+covers all, a thick ooze covering the stones of the ancient streets.  The
+buildings of this settlement are built up off the ground on pillars of stone
+or wood.  A faint miasma of decay fills the nostrils of all within this dank
+jungle city.  {x 
+~
+0 0 3
+D0
+~
+~
+0 0 11129
+D1
+~
+~
+0 0 11125
+D2
+~
+~
+0 0 11127
+D3
+~
+~
+0 0 11123
+S
+#11125
+{GAnaconda Lane{x~
+{gWater drips from the dank forest growth overhead.  Underfoot, mud
+covers all, a thick ooze covering the stones of the ancient streets.  The
+buildings of this settlement are built up off the ground on pillars of stone
+or wood.  A faint miasma of decay fills the nostrils of all within this dank
+jungle city.  {x 
+~
+0 0 3
+D1
+~
+~
+0 0 11126
+D3
+~
+~
+0 0 11124
+S
+#11126
+{GAnaconda Lane{x~
+{gWater drips from the dank forest growth overhead.  Underfoot, mud
+covers all, a thick ooze covering the stones of the ancient streets.  The
+buildings of this settlement are built up off the ground on pillars of stone
+or wood.  A faint miasma of decay fills the nostrils of all within this dank
+jungle city.  {x 
+~
+0 0 3
+D0
+~
+~
+0 0 11130
+D2
+~
+~
+0 0 11128
+D3
+~
+~
+0 0 11125
+S
+#11127
+{YA House{x~
+{yThis is a small one room house built above the waters of the swampy
+jungle on stilts of some wood.  A fireplace is set into the northern wall,
+with an adjoining brick oven.  A large bed lies under a window upon the
+eastern wall, while a dining table and chairs lies along a large window in
+the western wall.  {x 
+~
+0 8 0
+D0
+~
+~
+0 0 11124
+S
+#11128
+{YA House{x~
+{yThis is a small one room house built above the waters of the swampy
+jungle on stilts of some wood.  A fireplace is set into the northern wall,
+with an adjoining brick oven.  A large bed lies under a window upon the
+eastern wall, while a dining table and chairs lies along a large window in
+the western wall.  {x 
+~
+0 8 0
+D0
+~
+~
+0 0 11126
+S
+#11129
+{YA House{x~
+{yThis is a small one room house built above the waters of the swampy
+jungle on stilts of some wood.  A fireplace is set into the northern wall,
+with an adjoining brick oven.  A large bed lies under a window upon the
+eastern wall, while a dining table and chairs lies along a large window in
+the western wall.  {x 
+~
+0 8 0
+D2
+~
+~
+0 0 11124
+S
+#11130
+{YA House{x~
+{yThis is a small one room house built above the waters of the swampy
+jungle on stilts of some wood.  A fireplace is set into the northern wall,
+with an adjoining brick oven.  A large bed lies under a window upon the
+eastern wall, while a dining table and chairs lies along a large window in
+the western wall.  {x 
+~
+0 8 0
+D2
+~
+~
+0 0 11126
+S
+#11131
+{GAnaconda Lane{x~
+{gWater drips from the dank forest growth overhead.  Underfoot, mud
+covers all, a thick ooze covering the stones of the ancient streets.  The
+buildings of this settlement are built up off the ground on pillars of stone
+or wood.  A faint miasma of decay fills the nostrils of all within this dank
+jungle city.  {x 
+~
+0 0 3
+D1
+~
+~
+0 0 11103
+D3
+~
+~
+0 0 11132
+S
+#11132
+{GAnaconda Lane{x~
+{gWater drips from the dank forest growth overhead.  Underfoot, mud
+covers all, a thick ooze covering the stones of the ancient streets.  The
+buildings of this settlement are built up off the ground on pillars of stone
+or wood.  A faint miasma of decay fills the nostrils of all within this dank
+jungle city.  {x 
+~
+0 0 3
+D0
+~
+~
+0 0 11138
+D1
+~
+~
+0 0 11131
+D2
+~
+~
+0 0 11135
+D3
+~
+~
+0 0 11133
+S
+#11133
+{GAnaconda Lane{x~
+{gWater drips from the dank forest growth overhead.  Underfoot, mud
+covers all, a thick ooze covering the stones of the ancient streets.  The
+buildings of this settlement are built up off the ground on pillars of stone
+or wood.  A faint miasma of decay fills the nostrils of all within this dank
+jungle city.  {x 
+~
+0 0 3
+D1
+~
+~
+0 0 11132
+D3
+~
+~
+0 0 11134
+S
+#11134
+{GAnaconda Lane{x~
+{gWater drips from the dank forest growth overhead.  Underfoot, mud
+covers all, a thick ooze covering the stones of the ancient streets.  The
+buildings of this settlement are built up off the ground on pillars of stone
+or wood.  A faint miasma of decay fills the nostrils of all within this dank
+jungle city.  {x 
+~
+0 0 3
+D0
+~
+~
+0 0 11137
+D1
+~
+~
+0 0 11133
+D2
+~
+~
+0 0 11136
+S
+#11135
+{YArcanum Magikal{x~
+{yThis is a large store, lit by many lamps which hang from the ceiling
+above.  Cases of goods lie against the southern wall, locked from without by
+the powers of the store's proprietor.  Racks of wands and staves, are
+against the western wall, likewise out of reach of the general public.  {x 
+~
+0 8 0
+D0
+~
+~
+0 0 11132
+S
+#11136
+{YMercario's Alchemy{x~
+{yBottles and jars of myriad color, shape and size line the shelves of
+this small store.  Lamps of hammered brass hang from the ceiling, casting a
+warm glow over the stores interior.  {x 
+~
+0 8 0
+D0
+~
+~
+0 0 11134
+S
+#11137
+{YA House{x~
+{yThis is a small one room house built above the waters of the swampy
+jungle on stilts of some wood.  A fireplace is set into the northern wall,
+with an adjoining brick oven.  A large bed lies under a window upon the
+eastern wall, while a dining table and chairs lies along a large window in
+the western wall.  {x 
+~
+0 8 0
+D2
+~
+~
+0 0 11134
+S
+#11138
+{YA House{x~
+{yThis is a small one room house built above the waters of the swampy
+jungle on stilts of some wood.  A fireplace is set into the northern wall,
+with an adjoining brick oven.  A large bed lies under a window upon the
+eastern wall, while a dining table and chairs lies along a large window in
+the western wall.  {x 
+~
+0 8 0
+D2
+~
+~
+0 0 11132
+S
+#11139
+{YThe Practice Yard{x~
+{yRacks of wooden practice weapons line the outer walls of the practice
+yard.  The floor underfoot is of polished wood, a circle of 12' is inlaid in
+some fair wood, defining the outer limits of the practice circle.  Two large
+fireplaces, one along the north wall, one south, drive away the damp jungle
+fogs.  {x 
+~
+0 8 0
+D1
+~
+~
+0 0 11115
+D2
+~
+secret~
+1 0 11160
+D3
+~
+~
+0 0 11118
+S
+#11140
+{YSerpent Street{x~
+{gWater drips from the dank forest growth overhead.  Underfoot, mud
+covers all, a thick ooze covering the stones of the ancient streets.  The
+buildings of this settlement are built up off the ground on pillars of stone
+or wood.  A faint miasma of decay fills the nostrils of all within this dank
+jungle city.  {x 
+~
+0 0 3
+D0
+~
+~
+0 0 11152
+D1
+~
+~
+0 0 11156
+D2
+~
+~
+0 0 11149
+D3
+~
+~
+0 0 11141
+S
+#11141
+{YSerpent Street{x~
+{gWater drips from the dank forest growth overhead.  Underfoot, mud
+covers all, a thick ooze covering the stones of the ancient streets.  The
+buildings of this settlement are built up off the ground on pillars of stone
+or wood.  A faint miasma of decay fills the nostrils of all within this dank
+jungle city.  {x 
+~
+0 0 3
+D1
+~
+~
+0 0 11140
+D3
+~
+~
+0 0 11142
+S
+#11142
+{YSerpent Street{x~
+{gWater drips from the dank forest growth overhead.  Underfoot, mud
+covers all, a thick ooze covering the stones of the ancient streets.  The
+buildings of this settlement are built up off the ground on pillars of stone
+or wood.  A faint miasma of decay fills the nostrils of all within this dank
+jungle city.  {x 
+~
+0 0 3
+D0
+~
+~
+0 0 11151
+D1
+~
+~
+0 0 11141
+D2
+~
+~
+0 0 11150
+S
+#11143
+{YSerpent Street{x~
+{gWater drips from the dank forest growth overhead.  Underfoot, mud
+covers all, a thick ooze covering the stones of the ancient streets.  The
+buildings of this settlement are built up off the ground on pillars of stone
+or wood.  A faint miasma of decay fills the nostrils of all within this dank
+jungle city.  {x 
+~
+0 0 3
+D1
+~
+~
+0 0 11144
+D3
+~
+~
+0 0 11106
+S
+#11144
+{YSerpent Street{x~
+{gWater drips from the dank forest growth overhead.  Underfoot, mud
+covers all, a thick ooze covering the stones of the ancient streets.  The
+buildings of this settlement are built up off the ground on pillars of stone
+or wood.  A faint miasma of decay fills the nostrils of all within this dank
+jungle city.  {x 
+~
+0 0 3
+D0
+~
+~
+0 0 11154
+D1
+~
+~
+0 0 11145
+D2
+~
+~
+0 0 11148
+D3
+~
+~
+0 0 11143
+S
+#11145
+{YSerpent Street{x~
+{gWater drips from the dank forest growth overhead.  Underfoot, mud
+covers all, a thick ooze covering the stones of the ancient streets.  The
+buildings of this settlement are built up off the ground on pillars of stone
+or wood.  A faint miasma of decay fills the nostrils of all within this dank
+jungle city.  {x 
+~
+0 0 3
+D1
+~
+~
+0 0 11146
+D3
+~
+~
+0 0 11144
+S
+#11146
+{YSerpent Street{x~
+{gWater drips from the dank forest growth overhead.  Underfoot, mud
+covers all, a thick ooze covering the stones of the ancient streets.  The
+buildings of this settlement are built up off the ground on pillars of stone
+or wood.  A faint miasma of decay fills the nostrils of all within this dank
+jungle city.  {x 
+~
+0 0 3
+D0
+~
+~
+0 0 11155
+D2
+~
+~
+0 0 11147
+D3
+~
+~
+0 0 11145
+S
+#11147
+{YA House{x~
+{yThis is a small one room house built above the waters of the swampy
+jungle on stilts of some wood.  A fireplace is set into the northern wall,
+with an adjoining brick oven.  A large bed lies under a window upon the
+eastern wall, while a dining table and chairs lies along a large window in
+the western wall.  {x 
+~
+0 8 0
+D0
+~
+~
+0 0 11146
+S
+#11148
+{YA House{x~
+{yThis is a small one room house built above the waters of the swampy
+jungle on stilts of some wood.  A fireplace is set into the northern wall,
+with an adjoining brick oven.  A large bed lies under a window upon the
+eastern wall, while a dining table and chairs lies along a large window in
+the western wall.  {x 
+~
+0 8 0
+D0
+~
+~
+0 0 11144
+S
+#11149
+{YA House{x~
+{yThis is a small one room house built above the waters of the swampy
+jungle on stilts of some wood.  A fireplace is set into the northern wall,
+with an adjoining brick oven.  A large bed lies under a window upon the
+eastern wall, while a dining table and chairs lies along a large window in
+the western wall.  {x 
+~
+0 8 0
+D0
+~
+~
+0 0 11140
+S
+#11150
+{YA House{x~
+{yThis is a small one room house built above the waters of the swampy
+jungle on stilts of some wood.  A fireplace is set into the northern wall,
+with an adjoining brick oven.  A large bed lies under a window upon the
+eastern wall, while a dining table and chairs lies along a large window in
+the western wall.  {x 
+~
+0 8 0
+D0
+~
+~
+0 0 11142
+S
+#11151
+{YThe Mages Tower{x~
+{yThis is the lower floor of a short tower.  Above the door to the south
+are {Yglowing{y glyphs and wards.  The floor is bare, as is the room, save
+for a staircase leading upward.  {x 
+~
+0 8 0
+D2
+~
+~
+0 0 11142
+D4
+~
+~
+0 0 11157
+S
+#11152
+{YA House{x~
+{yThis is a small one room house built above the waters of the swampy
+jungle on stilts of some wood.  A fireplace is set into the northern wall,
+with an adjoining brick oven.  A large bed lies under a window upon the
+eastern wall, while a dining table and chairs lies along a large window in
+the western wall.  {x 
+~
+0 8 0
+D2
+~
+~
+0 0 11140
+S
+#11153
+{GGandahar's Main Street{x~
+{gWater drips from the dank forest growth overhead.  Underfoot, mud
+covers all, a thick ooze covering the stones of the ancient streets.  The
+buildings of this settlement are built up off the ground on pillars of stone
+or wood.  A faint miasma of decay fills the nostrils of all within this dank
+jungle city.  {x 
+~
+0 0 3
+D0
+~
+~
+0 0 11161
+D2
+~
+~
+0 0 11106
+S
+#11154
+{YA House{x~
+{yThis is a small one room house built above the waters of the swampy
+jungle on stilts of some wood.  A fireplace is set into the northern wall,
+with an adjoining brick oven.  A large bed lies under a window upon the
+eastern wall, while a dining table and chairs lies along a large window in
+the western wall.  {x 
+~
+0 8 0
+D2
+~
+~
+0 0 11144
+S
+#11155
+{YThe Temple{x~
+{yRows of pews fill the room from east to west, while to the north, an
+altar sits.  The room is built of polished wood, which gleams in the light
+of many candles.  Windows pierce the walls on the east and west, inset with
+many colored pieces, the light reflecting in a glorious pattern of color
+upon the floor.  {x {yA narrow hallway leads off towards the north.  {x 
+~
+0 8 0
+D0
+~
+~
+0 0 11158
+D2
+~
+~
+0 0 11146
+S
+#11156
+{YSerpent Street{x~
+{gWater drips from the dank forest growth overhead.  Underfoot, mud
+covers all, a thick ooze covering the stones of the ancient streets.  The
+buildings of this settlement are built up off the ground on pillars of stone
+or wood.  A faint miasma of decay fills the nostrils of all within this dank
+jungle city.  {x 
+~
+0 0 3
+D1
+~
+~
+0 0 11106
+D3
+~
+~
+0 0 11140
+S
+#11157
+{YThe Towers Top{x~
+{yThe tower room at the top of the mages tower is bare.  It's sole
+adornment a {Cglowing{y pentacle etched in the floor of the room.  No
+windows pierce the walls of this room, whose sole luminence comes from
+torches set in rings in the naked stone of the walls.  {x 
+~
+0 262156 0
+D5
+~
+~
+0 0 11151
+S
+#11158
+{YA Hallway{x~
+{yThis is a nondescript hallway of light oak passing between the temple
+to the south, and the high priest's teaching chamber to the east.  Here,
+generations of clerics have gone to learn the higher arts.  {x 
+~
+0 8 0
+D1
+~
+~
+0 0 11159
+D2
+~
+~
+0 0 11155
+S
+#11159
+{yThe Chamber of Learning{x~
+{yThis large chamber is where the high priest of the ancient gods passes
+on his knowledge and wisdom to those clerics who follow his beliefs.  The
+room is panneled in sacred oak, carved from the hearts of mighty forest
+giants.  Friezes and tapestries line the walls, all with a central theme,
+the triumpth of good over evil.  {x 
+~
+0 8 0
+D3
+~
+~
+0 0 11158
+S
+#11160
+{rThe Thieves Guild{x~
+{rThis is a shabby room that lies hidden from public view in Gandahar. 
+The room is bare, with tattered carpets upon the bare wooden floor.  Paint
+peels from ceiling and wall, casting wierd shadows in the glare of the
+torches that hang along the walls.  {x 
+~
+0 524296 0
+D0
+~
+~
+1 0 11139
+S
+#11161
+{GGandahar's Main Street{x~
+{gWater drips from the dank forest growth overhead.  Underfoot, mud
+covers all, a thick ooze covering the stones of the ancient streets.  The
+buildings of this settlement are built up off the ground on pillars of stone
+or wood.  A faint miasma of decay fills the nostrils of all within this dank
+jungle city.  {x {gA narrow street crosses this going east and west{x 
+~
+0 0 3
+D2
+~
+~
+0 0 11153
+S
+#0
+
+
+
+#SPECIALS
+M 11101 spec_guard
+M 11107 spec_cast_adept
+M 11112 spec_cast_adept
+M 11115 spec_cast_cleric
+S
+
+
+
+#RESETS
+D 0 11139 2 1
+D 0 11160 0 1
+M 0 11101 99 11101 1 Load {can armored guard{x
+E 0 11101 0 16 {cgandaharan sword{x is loaded wielded of {can armored guard{x
+E 0 11100 0 5 {cgandaharan plate armor{x is loaded on the body of {can armored guard{x
+M 0 11102 1 11115 1 Load {yA Blacksmith{x
+M 0 11106 1 11116 1 Load {ya stout dwarf{x
+G 0 11121 0 {ca glowing great sword{x is given to {ya stout dwarf{x
+G 0 11120 0 {ca great axe{x is given to {ya stout dwarf{x
+G 0 11119 0 {ca halberd{x is given to {ya stout dwarf{x
+G 0 11118 0 {ca bastard sword{x is given to {ya stout dwarf{x
+G 0 11117 0 {ca steel longsword{x is given to {ya stout dwarf{x
+G 0 11116 0 {ca battle axe{x is given to {ya stout dwarf{x
+G 0 11115 0 {can iron shod staff{x is given to {ya stout dwarf{x
+G 0 11114 0 {can iron mace{x is given to {ya stout dwarf{x
+G 0 11113 0 {ya bronze sword{x is given to {ya stout dwarf{x
+M 0 11107 1 11117 1 Load {Ya tall human{x
+G 0 11128 0 {ya brass lamp{x is given to {Ya tall human{x
+G 0 11126 0 {wa canteen{x is given to {Ya tall human{x
+G 0 11125 0 {wa fishing rod{x is given to {Ya tall human{x
+G 0 11124 0 {wa coil of rope{x is given to {Ya tall human{x
+G 0 11123 0 {ya wooden table{x is given to {Ya tall human{x
+G 0 11122 0 {ya wooden chair{x is given to {Ya tall human{x
+M 0 11105 1 11118 1 Load {ya tall giant{x
+G 0 11112 0 {cgothic full plate{x is given to {ya tall giant{x
+G 0 11111 0 {cfull-plate armor{x is given to {ya tall giant{x
+G 0 11110 0 {cfield-plate armor{x is given to {ya tall giant{x
+G 0 11109 0 {chalf-plate mail{x is given to {ya tall giant{x
+G 0 11108 0 {cbanded mail{x is given to {ya tall giant{x
+G 0 11107 0 {cscale mail{x is given to {ya tall giant{x
+G 0 11106 0 {cchain mail{x is given to {ya tall giant{x
+M 0 11111 1 11119 1 Load {ca housewife{x
+O 0 11145 0 11119 {ya large bed{x loaded to {YA House{x
+O 0 11150 0 11119 {ya wooden table{x loaded to {YA House{x
+O 0 11149 0 11119 {ya wooden chair{x loaded to {YA House{x
+O 0 11148 0 11119 {ya wooden chair{x loaded to {YA House{x
+O 0 11147 0 11119 {ya wooden chair{x loaded to {YA House{x
+O 0 11146 0 11119 {ya wooden chair{x loaded to {YA House{x
+M 0 11109 1 11120 1 Load {ythe barkeep{x
+G 0 11139 0 {yan ale cask{x is given to {ythe barkeep{x
+G 0 11138 0 {ya brandy cask{x is given to {ythe barkeep{x
+G 0 11137 0 {ma skin of wine{x is given to {ythe barkeep{x
+G 0 11136 0 {yan ale tankard{x is given to {ythe barkeep{x
+G 0 11131 0 {ra dried sausage{x is given to {ythe barkeep{x
+G 0 11133 0 {ya baked chicken{x is given to {ythe barkeep{x
+M 0 11108 1 11121 1 Load {ythe grocer{x
+G 0 11135 0 {ba box of blueberries{x is given to {ythe grocer{x
+G 0 11134 0 {ya bunch of bananas{x is given to {ythe grocer{x
+G 0 11133 0 {ya baked chicken{x is given to {ythe grocer{x
+G 0 11132 0 {ysmoked pork chops{x is given to {ythe grocer{x
+G 0 11131 0 {ra dried sausage{x is given to {ythe grocer{x
+G 0 11130 0 {ra box of strawberries{x is given to {ythe grocer{x
+G 0 11129 0 {ga green melon{x is given to {ythe grocer{x
+M 0 11110 1 11122 1 Load {ythe hostess{x
+G 0 11144 0 {ba blueberry pie{x is given to {ythe hostess{x
+G 0 11143 0 {wa bowl of rice and beans{x is given to {ythe hostess{x
+G 0 11142 0 {ra sausage sandwich{x is given to {ythe hostess{x
+G 0 11141 0 {ya bowl of stew{x is given to {ythe hostess{x
+G 0 11132 0 {ysmoked pork chops{x is given to {ythe hostess{x
+G 0 11133 0 {ya baked chicken{x is given to {ythe hostess{x
+G 0 11140 0 {wa glass of water{x is given to {ythe hostess{x
+G 0 11136 0 {yan ale tankard{x is given to {ythe hostess{x
+M 0 11111 1 11127 1 Load {ca housewife{x
+O 0 11146 0 11127 {ya wooden chair{x loaded to {YA House{x
+O 0 11147 0 11127 {ya wooden chair{x loaded to {YA House{x
+O 0 11148 0 11127 {ya wooden chair{x loaded to {YA House{x
+O 0 11150 0 11127 {ya wooden table{x loaded to {YA House{x
+O 0 11145 0 11127 {ya large bed{x loaded to {YA House{x
+M 0 11111 22 11128 1 Load {ca housewife{x
+O 0 11146 0 11128 {ya wooden chair{x loaded to {YA House{x
+O 0 11147 0 11128 {ya wooden chair{x loaded to {YA House{x
+O 0 11148 0 11128 {ya wooden chair{x loaded to {YA House{x
+O 0 11149 0 11128 {ya wooden chair{x loaded to {YA House{x
+O 0 11150 0 11128 {ya wooden table{x loaded to {YA House{x
+O 0 11145 0 11128 {ya large bed{x loaded to {YA House{x
+M 0 11111 22 11129 1 Load {ca housewife{x
+O 0 11146 0 11129 {ya wooden chair{x loaded to {YA House{x
+O 0 11147 0 11129 {ya wooden chair{x loaded to {YA House{x
+O 0 11148 0 11129 {ya wooden chair{x loaded to {YA House{x
+O 0 11149 0 11129 {ya wooden chair{x loaded to {YA House{x
+O 0 11150 0 11129 {ya wooden table{x loaded to {YA House{x
+O 0 11145 0 11129 {ya large bed{x loaded to {YA House{x
+M 0 11111 22 11130 1 Load {ca housewife{x
+O 0 11146 0 11130 {ya wooden chair{x loaded to {YA House{x
+O 0 11147 0 11130 {ya wooden chair{x loaded to {YA House{x
+O 0 11148 0 11130 {ya wooden chair{x loaded to {YA House{x
+O 0 11149 0 11130 {ya wooden chair{x loaded to {YA House{x
+O 0 11150 0 11130 {ya wooden table{x loaded to {YA House{x
+O 0 11145 0 11130 {ya large bed{x loaded to {YA House{x
+M 0 11112 1 11135 1 Load {Yan elven mage{x
+G 0 11160 0 {ra red wand{x is given to {Yan elven mage{x
+G 0 11159 0 {ba blue staff{x is given to {Yan elven mage{x
+G 0 11158 0 {ra brown staff{x is given to {Yan elven mage{x
+G 0 11157 0 {ga green staff{x is given to {Yan elven mage{x
+M 0 11113 1 11136 1 Load {ythe alchemist{x
+G 0 11156 0 {ra red potion{x is given to {ythe alchemist{x
+G 0 11155 0 {ya {yyellow-{ggreen potion{x is given to {ythe alchemist{x
+G 0 11154 0 {ba blue pill{x is given to {ythe alchemist{x
+G 0 11153 0 {ra red pill{x is given to {ythe alchemist{x
+G 0 11152 0 {wa white pill{x is given to {ythe alchemist{x
+G 0 11151 0 {wa grey pill{x is given to {ythe alchemist{x
+M 0 11111 22 11137 1 Load {ca housewife{x
+O 0 11146 0 11137 {ya wooden chair{x loaded to {YA House{x
+O 0 11147 0 11137 {ya wooden chair{x loaded to {YA House{x
+O 0 11148 0 11137 {ya wooden chair{x loaded to {YA House{x
+O 0 11149 0 11137 {ya wooden chair{x loaded to {YA House{x
+O 0 11150 0 11137 {ya wooden table{x loaded to {YA House{x
+O 0 11145 0 11137 {ya large bed{x loaded to {YA House{x
+M 0 11111 22 11138 1 Load {ca housewife{x
+O 0 11146 0 11138 {ya wooden chair{x loaded to {YA House{x
+O 0 11147 0 11138 {ya wooden chair{x loaded to {YA House{x
+O 0 11148 0 11138 {ya wooden chair{x loaded to {YA House{x
+O 0 11149 0 11138 {ya wooden chair{x loaded to {YA House{x
+O 0 11150 0 11138 {ya wooden table{x loaded to {YA House{x
+O 0 11145 0 11138 {ya large bed{x loaded to {YA House{x
+M 0 11103 1 11139 1 Load {ya retired soldier{x
+O 0 11105 0 11139 {ya torch{x loaded to {YThe Practice Yard{x
+O 0 11104 0 11139 {ya torch{x loaded to {YThe Practice Yard{x
+O 0 11103 0 11139 {ya torch{x loaded to {YThe Practice Yard{x
+O 0 11102 0 11139 {ya torch{x loaded to {YThe Practice Yard{x
+M 0 11114 1 11157 1 Load {Can elven mage{x
+O 0 11105 0 11157 {ya torch{x loaded to {YThe Towers Top{x
+O 0 11104 0 11157 {ya torch{x loaded to {YThe Towers Top{x
+O 0 11103 0 11157 {ya torch{x loaded to {YThe Towers Top{x
+O 0 11102 0 11157 {ya torch{x loaded to {YThe Towers Top{x
+O 0 11102 0 11157 {ya torch{x loaded to {YThe Towers Top{x
+M 0 11115 1 11159 1 Load the high priest
+M 0 11116 1 11160 1 Load the master thief
+S
+
+
+
+#SHOPS
+11105 0 9 0 0 0 120 80 7 19
+11106 0 5 0 0 0 120 80 7 19
+11107 17 12 1 13 15 120 80 7 19
+11108 0 19 0 0 0 100 100 0 23
+11109 0 17 19 0 0 100 100 0 23
+11110 0 19 0 0 0 100 100 0 23
+11112 0 3 4 0 0 100 100 0 23
+11113 0 10 26 0 0 100 100 0 23
+0
+
+
+
+#MOBPROGS
+#11100
+~
+#11101
+if uses $n 'weapon'
+say {WHold $n{x
+say {WThou may wield no weapon in Gandahar.{x
+say {Wplease remove thy weapon.{x
+endif
+~
+#11102
+if has $n 'weapon'
+and
+if carries $n '11161'
+mob kill $n
+else
+endif
+~
+#11103
+if ispc $n
+say {CGreetings, {Y$n{x
+say {CI, Issus, stand ready to train you, or practice,{x
+say {CThe art of war for your betterment.{x
+else
+endif
+~
+#11104
+if ispc $n
+  mob echoat $n {YThe blacksmith looks at you!{x
+  say {MWhat do you want {C$n{M?{x
+  say {MI don't sell anything here{x
+  say {MTry the weapon shop or the armorer{x
+  say {MGo away {C$n{M, Can't you see I have work to do{x
+  mob echoat $n {YThe blacksmith turns to the forge and begins working.{x
+else
+endif
+~
+#11105
+mobechoat $n {MA giant says,'Greetings. {C$n,{M welcome to Abram's{x
+mobechoat $n {MA giant says,'{MTreasury of armor from many lands,{x
+mobechoat $n {MA giant says,'{MIf you see anything you like, please {x
+mobechoat $n {MA giant says,'{Mmy young friend, be sure and tell me.{x
+~
+#11106
+mob echoat $n {RThe Weaponsmith says,'{YWelcome $n to the humble weaponshop{R'{x
+mob echoat $n {RThe Weaponsmith says,'{Yof Gandahar. We have weapons of many{R'{x
+mob echoat $n {RThe Weaponsmith says,'{Ysizes and shapes.{R'{x
+~
+#11107
+mob echoat $n {gA tall man says,'{CGreetings, {Y$n, {CI am Elion Gandahar.'{g
+mob echoat $n {gA tall man says,'{CIf there is anything I may do to help,'{g
+mob echoat $n {gA tall man says,'{Cplease feel free to call on me. As '{g
+mob echoat $n {gA tall man says,'{Cfounder of the town of Gandahar, I feel'{g
+mob echoat $n {gA tall man says,'{Cresponsible for making your stay as '{g
+
+mob debug off
+~
+#11108
+mob echoat $n {gThe grocer says,'{yGreetings, {r$n{y, Welcome to Klemath's.{g'{x
+mob echoat $n {gKlemath says,'{yIf there is anything you need, please ask, {g'{x
+mob echoat $n {gKlemath says,'{yI have many and varied foods from all over {g'{x
+mob echoat $n {gKlemath says,'{ythe world, brought to me by many captains of{g'{x
+mob echoat $n {gKlemath says,'{ymany vessels when they call here.{g'{x
+~
+#11109
+~
+#11110
+~
+#11112
+mob echoat $n {YArkanus says,'{WGreetings $n, welcome to my humble shop.{Y'
+mob echoat $n {YArkanus says,'{WIf there is anything you see for sale that{Y'
+mob echoat $n {YArkanus says,'{Wyou like, please let me know. All you see{Y'
+mob echoat $n {YArkanus says,'{Wis for sale at my shop.{Y'{x
+~
+#11114
+if class $n 'mage'
+  mob echoat $n {CAn elven mage says,' {WGreetings, $n, welcome to The Tower.'{x
+else
+  mob echoat $n {RA Voice booms,'Thou art no mage, {CBEGONE!{R'{x
+mob transfer $n 11142
+endif
+~
+#11115
+say Good morning $n.
+say Welcome to the Temple of The Gods.
+say Stay a while, and partake of our teachings.
+~
+#0
+
+#HELPS
+0 GANDAHAR~
+{yGandahar is a small jungle town on the edge of a swampy jungle.  The
+area is small in size, but contains all the necessary ingredients for a
+remote township away from the MUD's hometown.  {x 
+ 
+{rGandahar: Built by Blade of Creatia
+http://creatia.funcity.org
+telnet://creatia.funcity.org:7500{x
+~
+
+-1 $~
+
+#$

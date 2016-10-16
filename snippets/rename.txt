@@ -1,0 +1,128 @@
+This function allows an immortal to rename a player.  NPCs can not be renamed
+this way, only players.  The pfile in the PLAYER_DIR are removed upon renaming
+and recreated with the new player name.  If an immortal is renamed (and it's
+on a unix system), the immortal entry in the GOD_DIR are removed and recreated
+as well.  
+
+Use this code at your own risk.  I make no guarantees about anything. :)
+Also, it should be used according to the diku/merc/ROM copywrite licenses.
+If you use it, I would appreciate appropriate credit within the code (leaving
+the headers to functions, etc) as well as in any help files you have to give
+credit to writers of snippets.  Also, please email me to let me know that 
+you're using it at the following address: amaslin@hotmail.com.  Thanks!
+
+Any questions, comments, suggestions, or bug reports (please sent NICELY)
+should also be sent to that address.
+
+Thale (Andrew Maslin - amaslin@hotmail.com)
+
+
+-------------------------
+
+/*
+ * Coded by: Thale (Andrew Maslin)
+ * Syntax: Rename <victim> <new_name>
+ * Limitations: This header must be kept with this function.  In addition,
+ * this file is subject to the ROM license.  The code in this file is
+ * copywritten by Andrew Maslin, 1998.  If you have a "credits" help in your
+ * mud, please add the name Thale to that as credit for this function.
+ */
+void do_rename(CHAR_DATA *ch, char *argument)
+{
+  CHAR_DATA *victim;
+  FILE *fp;
+  char strsave[MAX_INPUT_LENGTH];
+  char *name;
+  char arg1[MAX_INPUT_LENGTH];
+  char arg2[MAX_INPUT_LENGTH];
+  char buf[MAX_INPUT_LENGTH];
+  char playerfile[MAX_INPUT_LENGTH];
+
+
+  if (!IS_IMMORTAL(ch))
+  {
+    send_to_char("You don't have the power to do that.\n\r",ch);
+    return;
+  }
+
+  argument = one_argument(argument,arg1);
+  argument = one_argument(argument,arg2);
+
+  if (arg1[0] == '\0')
+  {
+    send_to_char("Rename who?\n\r",ch);
+    return;
+  }
+  if (arg2[0] == '\0')
+  {
+    send_to_char("What should their new name be?\n\r",ch);
+    return;
+  }
+
+  arg2[0] = UPPER(arg2[0]);
+
+  if ((victim = get_char_world(ch,arg1)) == NULL)
+  {
+    send_to_char("They aren't connected.\n\r",ch);
+    return;
+  }
+
+  if (IS_NPC(victim))
+  {
+    send_to_char("Use string for NPC's.\n\r",ch);
+    return;
+  }
+
+  if (!check_parse_name(arg2))
+  {
+    sprintf(buf,"The name {c%s{x is {Rnot allowed{x.\n\r",arg2);
+    send_to_char(buf,ch);
+    return;
+  }
+
+  sprintf(playerfile, "%s%s", PLAYER_DIR, capitalize(arg2));
+  if ((fp = fopen(playerfile, "r")) != NULL)
+  {
+    sprintf(buf,"There is already someone named %s.\n\r",capitalize(arg2));
+    send_to_char(buf,ch);
+    fclose(fp);
+    return;
+  }
+
+  if ((victim->level >= ch->level) && (victim->level >= ch->trust)
+    &&((ch->level != IMPLEMENTOR) || (ch->trust != IMPLEMENTOR))
+    &&(ch != victim))
+  {
+    send_to_char("I don't think that's a good idea.\n\r",ch);
+    return;
+  }
+
+  if (victim->position == POS_FIGHTING)
+  {
+    send_to_char("They are fighting right now.\n\r",ch);
+    return;
+  }
+
+  name = str_dup(victim->name);
+  sprintf( strsave, "%s%s", PLAYER_DIR, capitalize(victim->name));
+  arg2[0] = UPPER(arg2[0]);
+  free_string(victim->name);
+  victim->name = str_dup(arg2);
+  save_char_obj(victim);
+  unlink(strsave);
+#if defined(unix)
+  if (IS_IMMORTAL(victim))
+  {
+    sprintf(strsave,"%s%s", GOD_DIR, capitalize(name));
+    unlink(strsave);
+  }
+#endif
+  if (victim != ch)
+  {
+    sprintf(buf,"{YNOTICE: {xYou have been renamed to {c%s{x.\n\r",arg2);
+    send_to_char(buf,victim);
+  }
+  send_to_char("Done.\n\r",ch);
+
+return;
+}

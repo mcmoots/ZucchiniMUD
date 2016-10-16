@@ -1,0 +1,3196 @@
+#AREADATA
+Name Zhaman Fort/Istai Forest~
+Builders None~
+VNUMs 28700 28799
+Credits ( 20  40) {rNikol    {Y* {WZhaman Fort{x~
+Security 9
+End
+
+
+
+#MOBILES
+#28700
+troglodyte~
+A Troglodyte peasant~
+A humanoid figure stands here, watching you with glowing red eyes.
+~
+Before you stands a lumpy, humanoid figure clothed in a loin cloth and a
+leather belt.  After a moment, he looks at you, and you see he is just a
+peasant.  
+~
+troll~
+AGT D 0 0
+125 1500 30000d1+1 1d1+999 1d1+1200 pound
+-37 -37 -37 -37
+CIR NO BJP H
+stand stand none 6250
+ABHMVc EJKUV medium unknown
+F aff FJc
+F off D
+F res E
+F vul K
+F par ABCDFGHI
+#28701
+troglodyte warrior~
+A Troglodyte warrior~
+A humanoid growls at you, baring its yellow fangs.
+~
+Before you stands a lumpy humanoid figure clothed in plate armor, and wielding a sword. After a moment he looks at you and growls, baring his yellow fangs.
+~
+human~
+ABGT DFHJ 0 0
+126 1512 30000d1+1 1d1+999 1d1+1200 slash
+-37 -37 -37 -37
+IL 0 BLN 0
+stand stand male 6300
+ABHMV ABCDEFGHIJKUV medium unknown
+#28702
+troglodyte khazi~
+A Troglodyte khazi~
+A humanoid figure stands here, chanting arcane words.
+~
+Before you stands a lumpy, humanoid figure wearing the black robes of
+evil.  After a moment, he looks to you, his eyes seeming to stare into your
+soul.  Assuming you are not a threat, he turns back to his studies,
+forgetting you are even there.  
+~
+troll~
+ABGT DFHJNO 0 0
+128 1536 30000d1+1 1d1+999 1d1+1200 claw
+-38 -38 -38 -38
+AGJR 0 BJ FG
+stand stand male 6400
+ABHMVc ABCDEFGHIJKUV large unknown
+F aff c
+F off D
+F res E
+F vul HK
+#28703
+troglodyte shaman~
+A Troglodyte shaman~
+A humanoid figure stands here, watching your every move.
+~
+Before you stands a lumpy, humanoid figure wearing the robes of a healer.
+After a moment he looks at you, regarding you intently, determining whether
+you are a threat or not.  After a moment, he returns back to the book he was
+reading, forgetting you are even here.  
+~
+troll~
+ABGQ DFH 0 0
+129 1548 30000d1+1 1d1+999 1d1+1200 slice
+-38 -38 -38 -38
+FGIJKR B KM R
+stand stand none 6450
+ABHMVc ABCDEFGHIJKUV medium unknown
+F aff Jc
+F off D
+F res BE
+F vul HK
+#28704
+Kharas~
+Kharas~
+A black robed archmage stands here, seeming as if he is waiting for someone.
+~
+Before you stands a human clothed in the Black Robes of evil. After a moment he turns to you, and he stares at you, considering. Shrugging lightly, he turns back to the path, deciding you are not worth the trouble.
+~
+human~
+ABR DFHJNOc -1000 0
+150 200 10000d1+1000 12000d1+0 400d1+300 sting
+-60 -60 -60 -85
+AFGHKNU ABJ 0 LPQZ
+stand stand male 30000
+AHMV ABCDEFGHIJK medium unknown
+M GRALL 28701 100~
+M SPEECH 28702 yes~
+#28705
+Grokbar~
+Grokbar~
+A large ogre stands here, watching you with glowing red eyes.
+~
+Before you stands a large ogre. After a moment he turns to you, and growls, As you watch him, however, he turns back to the path infront of him, as if waiting.
+~
+unique~
+ABT DFHJa 0 0
+150 1800 -31072d1+1 1d1+999 3d1000+900 crush
+-45 -45 -45 -45
+CDEFGHJKO AB JK R
+stand stand male 7500
+HMV ABCDEFGHIJK large unknown
+M GRALL 28703 100~
+M SPEECH 28705 sure~
+M SPEECH 28704 yes~
+#28706
+Khan~
+Khan~
+A white-robed archmage stands here, watching you.
+~
+Before you stands a human clothed in the White Robes of good. After a moment he turns and looks at you, and you notice his eyes are white. After several moments, he returns to the path before him, as if waiting.
+~
+human~
+ABGR DFHJc 1000 0
+150 1800 1d1+-11072 1d1+999 2d1500+900 blast
+-45 -45 -45 -45
+AFGHINU ABK I GRZ
+stand stand male 7500
+AHMV ABCDEFGHIJK medium unknown
+M SPEECH 28707 cure~
+M SPEECH 28706 help~
+#28707
+Hakan~
+Hakan~
+A figure dressed in plate mail stands here, guarding the trail.
+~
+Before you stands Hakan, Guardian of the {gForest of Istai{x. After a moment, he looks at you, his eyes red with blood-lust. Several moments later, however, he returns to his original position, facing the path.
+~
+human~
+ABGT DFHJ 1000 0
+150 1800 1d1+-27680 1d1+999 4d750+900 slice
+-45 -45 -45 -45
+CDEFIKNOU ABCDIKMN HJ R
+stand stand male 7500
+V ABCDEFGHIJK medium unknown
+F for AHM
+M GRALL 28700 100~
+#28708
+troglodyte assassin~
+A Troglodyte assassin~
+A humanoid figure stands here, in the shadows.
+~
+Before you stands nothing.  Nothing but shadows.  In the shadows,
+however, is a set of glowing red eyes.  They turn to you, and a growl can be
+heard.  After a moment however, he decides you are not worth the trouble and
+fades back into the shadows completely.  
+~
+human~
+ABGS DFHJPQ -1000 0
+130 1560 30000d1+1 1d1+999 1d1+1200 pierce
+-39 -39 -39 -39
+BEFGIN B CE 0
+stand stand none 6500
+ABHMV ABCDEFGHIJK medium unknown
+#28709
+Xavier~
+Xavier~
+A disembodied head floats here, thirsting for your living blood.
+~
+Before you floats a disembodied head.  A being condemned to guard this
+castle.  After a moment it turns to you, and a blood-chilling cold surrounds
+you, nearly stopping your heart.  {G'Begone,'{x it hisses.  {G'And you shall
+live.  '{x Only he can let you through if he so chooses or if you ask
+nicely.  
+~
+human~
+ABGR DFHac -1000 0
+155 1860 1d1+-17680 1d1+999 5d620+930 frbite
+-46 -46 -46 -46
+CDEFIKO ABCDLPQ T NZ
+stand stand none 7750
+AEHMV ABCDEFGHIJK medium unknown
+M SPEECH 28714 shut~
+M SPEECH 28710 xavier~
+M SPEECH 28713 unlock~
+#28710
+knight evil~
+the Knight of Evil~
+A knight dressed in black platemail stands here.
+~
+Before you stands a knight in the King's service. He donned the black armor, a sign of his alignment..Evil. After a moment he seems to vanish, but he just blended in with the shadows, ready to do his job.
+~
+unique~
+ABGT DFHd -1000 0
+130 1560 25000d1+1 1d1+999 1d2600+780 slash
+-39 -39 -39 -39
+DEFIJKO BM D CN
+stand stand male 6500
+AHMV ABCDEFGHIJK medium unknown
+#28711
+knight neutrality~
+The Knight of Neutrality~
+A knight dressed in grey platemail stands here.
+~
+Before you stands a knight in the King's service. He donned the grey armor, a sign of his alignment..Neutral. After a moment he seems to vanish, but he just blended in with the shadows, ready to do his job.
+~
+unique~
+ABGT DFHJTd 0 0
+85 510 25000d1+1 1d1+999 1d765+255 slice
+-25 -25 -25 -25
+EFIJKO B M S
+stand stand male 4250
+AGHMV ABCDEFGHIJKP medium unknown
+#28712
+knight justice~
+the Knight of Justice~
+A knight dressed in white platemail stands here.
+~
+Before you stands a knight in the King's service. He donned the white armor, a sign of his alignment..Good. After a moment he seems to vanish, but he just blended in with the shadows, ready to do his job.
+~
+unique~
+ABGT DFH 1000 0
+130 1560 20000d1+1 1d1+999 6d433+780 chop
+-39 -39 -39 -39
+EFIJKOR BN D M
+stand stand male 6500
+AHMV ABCDEFGHIJK medium unknown
+#28713
+king dayare~
+King Dayare~
+The king stands here, watching your every move.
+~
+Before you stands King Dayare of Zhaman Castle.  After a moment he turns
+and looks at you, and you notice his eyes are a deep grey.  You can only
+guess what this man is capable of, but before you can do anything, he
+suddenly growls loudly.  After a moment, he turns back to the southern
+hallway, as if waiting.  
+~
+unique~
+ABGT FHa 0 0
+150 1800 -25536d1+1 1d1+999 2d1500+900 slash
+-45 -45 -45 -45
+CFIJLNO ABIJ MN 0
+stand stand male 7500
+AHM ACDGH medium unknown
+M KILL 28721 100~
+M GRALL 28719 100~
+#28714
+mael~
+Ma'el~
+A hideous creature from your worst nightmares stands here, waiting.
+~
+Before you stands a creature of hideous visage, as such exists in your
+worst nightmares.  He looks at you pitifully, his eyes a deep red color. 
+Say the right words and he might obey.  
+~
+human~
+ABGT DFHJc 0 0
+150 1800 1d1+-11072 1d1+999 5d600+900 claw
+-45 -45 -45 -45
+FGHIJK ABCDEFGHIJKMNPQRTXYZ 0 Z
+stand stand male 7500
+AEHMV ABCDEFGHIJKUV medium unknown
+M SPEECH 28727 bring food and drink~
+M SPEECH 28710 ma'el~
+M SPEECH 28715 open~
+M SPEECH 28716 close~
+#28715
+servant~
+a servant~
+A servant stands here, waiting for an order.
+~
+~
+unique~
+AGT DFHc 0 0
+130 1560 1d1+-2144 1d1+999 6d433+780 pound
+-39 -39 -39 -39
+FGIO ABCDLQ 0 0
+stand stand male 6500
+AHMV ABCDEFGHIJK medium unknown
+M SPEECH 28710 servant~
+#28716
+guard castle~
+A castle guard~
+A guard stands at attention here.
+~
+~
+human~
+ABGT CDHJac 0 0
+130 1560 20000d1+1 1d1+999 5d520+780 crush
+-39 -39 -39 -39
+CFIJKO BM D RZ
+stand stand male 6500
+AHMV ABCDEFGHIJK medium unknown
+M SPEECH 28717 report~
+M SPEECH 28718 guard~
+M GRALL 28709 100~
+#28717
+dresen~
+Dresen~
+A man stands here, waiting to take your order.
+~
+~
+unique~
+ABGT DFHc 0 0
+130 1560 1d1+-27072 1d1+999 2d1300+780 crush
+-39 -39 -39 -39
+CFGIJKNO ABCDLQ 0 0
+stand stand male 6500
+AHMV ABCDEFGHIJK medium unknown
+#28718
+duranne~
+Duranne~
+The castle trainer stands here, waiting.
+~
+Before you stands Duranne, the castle trainer.  Though he is clothed in
+nothing but black baggy clothes, you suspect he is a capable fighter, and is
+quite adept at magic as well.  After a moment he turns to you, his eyes
+glowing a blue color.  Assuming you do not want training, he turns back,
+facing the door, as if waiting.  
+~
+human~
+ABJKTb DFHJc 0 0
+130 1560 1d1+-2144 1d1+999 3d866+780 claw
+-39 -39 -39 -39
+DEGHIK ABCDEFGHJKMNPRTXY 0 Z
+stand stand male 6500
+AHMV ABCDEFGHIJK medium unknown
+#28719
+Lokin~
+Lokin~
+The castle barkeep stands here, waiting.
+~
+Before you stands Lokin, the castle barkeep.  Though he seems like a nice
+person, he should not be underestimated.  After e moment he turns to you and
+laughs, holding up a mug of ale.  Turnign back to the crowd, he places a few
+more drinks on a table.  After several moments, he forgets you are even here
+altogether.  
+~
+human~
+ABGT DFHJc 0 0
+130 1560 1d1+-2144 1d1+999 5d520+780 bite
+-39 -39 -39 -39
+DEFGHIJKNO ABCDMNPRTXYZ 0 Z
+stand stand male 6500
+AHMV ABCDEFGHIJK medium unknown
+#28720
+Mason~
+Mason~
+The castle smithy stands here, waiting for an order.
+~
+Before you stands Mason, the castle smithy. After a moment he turns to you, and you notice his eyes are completely black, not a normal thing for a human. Before turning back to the door, he makes a motion with his hand, gesturing to the armor around him.
+~
+human~
+ABGT DFHc 0 0
+130 1560 1d1+-2144 1d1+999 3d866+780 pound
+-39 -39 -39 -39
+CEFGHIJKO ABCDHIJKLMNPQT 0 0
+stand stand male 6500
+V CDEFGHIJK medium unknown
+F for AHM
+F par AB
+#28721
+thief~
+{x~
+{x
+~
+~
+human~
+ABGS DFHPQc -1000 0
+140 1680 14000d1+1 1d1+999 6d466+840 claw
+-42 -42 -42 -42
+EFGHIJN BM 0 N
+stand stand male 7000
+V CDEFGHJMUV medium unknown
+F for AHM
+F par ABIK
+#28722
+Khazar~
+Khazar~
+A figure clothed in the black robes of evil kneels here, praying before an altar.
+~
+~
+human~
+ABGR FH 0 0
+140 1680 -25536d1+1 1d1+999 2d1400+840 none
+-42 -42 -42 -42
+FJN ABEM D N
+stand stand male 7000
+V ABCDEFGHIJK medium unknown
+F for AHM
+M GRALL 28723 10~
+M GRALL 28722 10~
+#28723
+Sakai~
+Sakai~
+A figure clothed in the robes of a cleric kneels here, praying before an altar.
+~
+~
+human~
+ABGQ DFHJ 1000 0
+130 1560 25000d1+1 1d1+999 1d2600+780 claw
+-39 -39 -39 -39
+EFGIJKN N BD Z
+stand stand none 6500
+AHMV ABCDEFGHIJK medium unknown
+M GRALL 28724 40~
+M GRALL 28725 40~
+#28724
+Kyazinth~
+Kyazinth~
+A daemon floats here, watching you from the shadows.
+~
+~
+unique~
+AFGT BFOT -1000 0
+130 1560 22000d1+1 1d1+999 6d433+780 claw
+-39 -39 -39 -39
+EFIK ABM K N
+stand stand none 8000
+AHMV ABCDEFGHIJK medium unknown
+#28725
+figure cloaked~
+a cloaked figure~
+Someone stands here, breathing softly.
+~
+~
+human~
+AGT FHJPQ -1000 0
+130 1560 25000d1+1 1d1+999 2d1300+780 bite
+-39 -39 -39 -39
+CEGHIJK AD BK HZ
+stand stand male 6500
+AHMVc ABCDEFGHIJK medium unknown
+#28726
+Cyinth~
+Cyinth~
+A spirit from a different plane floats here, watching you with its sightless eyes.
+~
+~
+orc~
+AFGT FHJT -1000 0
+130 1560 19000d1+1 1d1+999 5d520+780 chill
+-39 -39 -39 -39
+CDEFIJK AB KQ JNS
+stand stand none 6500
+AEHMV ABCDEFGHIJKUV medium unknown
+#28727
+snake serpent~
+a serpent~
+A long snake lies here, watching you with its beady eyes.
+~
+~
+snake~
+AFGT FH 0 0
+130 1560 19000d1+1 1d1+999 1d2600+780 bite
+-39 -39 -39 -39
+EFJKNO ABL D I
+stand stand none 6500
+AGXYc ADEFKLQVX medium unknown
+F res L
+#28728
+commoner~
+a commoner~
+A commoner wanders about the castle.
+~
+~
+human~
+AGT FHJ 0 0
+120 960 14000d1+1 1d1+999 5d288+480 slash
+-36 -36 -36 -36
+FI 0 B Z
+stand stand male 6000
+AHMV ABCDEFGHIJK medium unknown
+#28729
+royal guard~
+a royal guard~
+A guard stands here, standing at attention.
+~
+~
+unique~
+AGT FHd 0 0
+130 1560 20000d1+1 1d1+999 2d1300+780 pound
+-39 -39 -39 -39
+EIOP B D 0
+stand stand none 6500
+AHMV ABCDEFGHIJK medium unknown
+#28730
+monk figure~
+a monk~
+A figure clothed in grey robes stands here, watching you silently.
+~
+~
+human~
+AGT FHJV 0 0
+130 1560 21000d1+1 1d1+999 4d650+780 punch
+-39 -39 -39 -39
+EFGI 0 BC Z
+stand stand none 6500
+AHMV ABCDEFGHIJK medium unknown
+#28731
+nephil~
+a Nephil~
+A lithe, cat-like figure stands here.
+~
+~
+cat~
+AGR FHJPVZ 0 0
+125 960 25000d1+1 1d1+999 4d360+480 claw
+-36 -36 -36 -36
+FI B IMN 0
+stand stand male 6000
+AGV ABCDEFGHJKQUV medium unknown
+F off H
+#28732
+slithzerekai~
+a Slithzerekai~
+A tall, lizard-like figure stands here, wielding a large spear.
+~
+~
+lizard~
+AGT DFHV 0 0
+125 1500 25000d1+1 1d1+999 4d625+750 claw
+-37 -37 -37 -37
+EIK B L I
+stand stand none 6250
+AGXc ACDEFHKQV medium unknown
+#28733
+giant lizard~
+a giant lizard~
+A large lizard is here, sunning itself.
+~
+~
+lizard~
+AGT DFV 0 0
+125 1500 21000d1+1 1d1+999 1d1+1200 claw
+-37 -37 -37 -37
+FN B L I
+stand stand none 6250
+AGXc ACDEFHKQV medium unknown
+#28734
+giant spider~
+a giant spider~
+A large spider waits for prey to pass.
+~
+~
+centipede~
+AGT HJVZ 0 0
+125 1500 17000d1+1 1d1+999 1d1+1200 bite
+-37 -37 -37 -37
+FI B C E
+stand stand none 6250
+ABGHMOV ABCDEFGHIJK medium unknown
+F res FI
+#28735
+asp snake~
+an asp~
+A long snake lies here, watching you with its beady eyes.
+~
+~
+snake~
+AGT HJV 0 0
+125 1500 20000d1+1 1d1+999 1d1+1200 acbite
+-37 -37 -37 -37
+FN BL 0 I
+stand stand none 6250
+AGXYc ADEFKLQVX medium unknown
+F res L
+#28736
+ochre slime~
+an ochre slime~
+An ochre-colored pile of slime sits here.
+~
+~
+snake~
+ABGT HV 0 0
+125 1500 20000d1+1 1d1+999 1d1+1200 drain
+-37 -37 -37 -37
+FO B CL I
+stand stand none 6250
+ACEGXYc ADEFKLQV medium unknown
+F par X
+#28737
+mauve slime~
+a mauve slime~
+A mauve-colored pile of slime sits here.
+~
+~
+snake~
+ABGR HV 0 0
+125 1500 21000d1+1 1d1+999 1d1+1200 drain
+-37 -37 -37 -37
+FO B DL I
+stand stand none 6250
+ACEGXYc ADEFKLQV medium unknown
+F par X
+#28738
+elite assassin~
+an Elite Assassin~
+A veil of shadows is here.
+~
+~
+human~
+ABGS BCFGHOP -1000 0
+170 2040 25000d1+1 1d1+999 2d1700+1020 claw
+-51 -51 -51 -51
+DEFGHIK 0 BDHIJK Z
+stand stand none 8500
+AHMV ABCDEFGHIJK medium unknown
+M GRALL 28720 100~
+M GRALL 28708 100~
+M GRALL 28726 100~
+#0
+
+
+
+#OBJECTS
+#28700
+{x~
+{x~
+{x~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+#28701
+{x~
+{x~
+{x~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+#28702
+ring istai~
+ring of {rIstai{x~
+A small ring lies upon the ground here, gathering dust.~
+Platinum~
+jewelry KLPTX AB
+0 0 0 0 0
+130 10 3000 P
+A
+12 100
+A
+13 100
+A
+19 15
+A
+18 15
+#28703
+twisted key~
+a twisted key~
+A small black key lies here, gathering dust.~
+gold~
+key DFSTY AO
+0 0 0 0 0
+120 1 1 P
+#28704
+Angelic Blade~
+an Angelic Blade~
+A holy blade floats in the air here, waiting for a new owner.~
+platinum~
+weapon ABFIKLT AN
+sword 66 3 slash AF
+120 150 10000 P
+A
+19 35
+A
+18 35
+#28705
+axe neutrality~
+the Axe of Neutrality~
+An axe lies here, gleaming with a red aura.~
+steel~
+weapon ABFJKT AN
+axe 66 3 chop DEF
+125 100 10000 P
+A
+19 30
+A
+18 30
+#28706
+blade hellfire~
+a blade of {rHellfire{x~
+A small dagger with a blood red blade lies on the ground here, surrounded by black and red flames.~
+unknown~
+weapon AFJT AN
+dagger 100 3 flame AC
+125 75 10000 P
+A
+5 -3
+A
+14 -200
+A
+19 30
+A
+18 30
+#28707
+{x~
+{x~
+{x~
+unknown~
+trash B 0
+0 0 0 0 0
+0 0 0 P
+#28708
+forest key~
+the Forest Key~
+A green key lies here, attempting to blend in with the scenery.~
+unknown~
+key FX AO
+0 0 0 0 0
+120 1 0 P
+#28709
+{x~
+{x~
+{x~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+#28710
+{x~
+{x~
+{x~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+#28711
+deathbringer~
+the {bDeath{RBringer{x~
+A large sword lies here, surrounded by blue and black flames.~
+silver~
+weapon ABGQ AN
+sword 240 1 slash DF
+130 20 3000 P
+A
+19 15
+A
+18 15
+A
+13 300
+A
+12 -250
+A
+1 4
+#28712
+grizzly hide~
+a grizzly hide~
+The hide of some strange beast lies on the ground here.~
+Bear skin~
+armor BFGK AK
+CDFI BDEFGH CDFI BCDEGI 0
+130 10 0 P
+A
+19 20
+A
+18 10
+A
+13 300
+A
+17 -400
+#28713
+robe good~
+the Robes of Good~
+A pile of white cloth is here.~
+silk~
+armor AKL AK
+CDFI CDFI CDFI CDFI 0
+125 5 0 P
+A
+13 100
+A
+12 100
+A
+19 15
+A
+18 15
+#28714
+Angelic Dagger~
+an Angelic Dagger~
+A holy blade floats here, waiting for a new owner.~
+Platinum~
+weapon KL AN
+dagger 199 1 pierce B
+125 100 0 P
+A
+12 200
+A
+13 200
+A
+19 25
+A
+18 25
+#28715
+robe death~
+the Robes of {DDeath{x~
+A pile of black cloth is here, shrouded in a black aura.~
+unknown~
+armor FJL AK
+EHI EHI EHI EHI 0
+125 10 0 P
+A
+13 -300
+A
+12 500
+A
+19 40
+A
+18 -30
+#28716
+Flamebringer~
+{RFlamebringer{x~
+A small dagger is lying here, engulfed in flames.~
+unknown~
+weapon JL AN
+dagger 210 1 pierce A
+125 7 0 P
+A
+18 20
+A
+19 40
+A
+13 -500
+A
+12 500
+#28717
+plate titans~
+the Plate of Titans~
+A suit of platemail lies here, gathering dust.~
+steel~
+armor AB AD
+BCDFGHJ BCDFGHJ BCDFGHJ BDHJ 0
+125 20 0 P
+A
+14 -750
+A
+12 500
+A
+18 50
+A
+17 -500
+#28718
+demonslayer~
+the Demonslayer~
+A blade rests here, radiating incredible power.~
+Platinum~
+weapon ABKL AN
+sword 220 1 slash EF
+125 10 1000 P
+#28719
+longsword humanslayer~
+a longsword named 'Humanslayer'~
+A longsword lies here, stained with the blood of humans.~
+steel~
+weapon AB AN
+sword 230 1 slash EF
+126 25 0 P
+A
+18 20
+A
+19 20
+#28720
+reinforced staff~
+a reinforced staff~
+A long pole lies here, gathering dust.~
+unknown~
+weapon AB AN
+polearm 200 1 pound ADF
+127 20 1000 P
+A
+18 20
+A
+19 25
+#28721
+platinum dagger~
+a {Dplatinum{x dagger~
+A small dagger lies here, enshrouded in a grey aura.~
+platinum~
+weapon AB AN
+dagger 198 1 pierce BD
+127 50 1000 P
+A
+18 20
+A
+19 20
+#28722
+{x~
+{x~
+{x~
+unknown~
+trash 0 AK
+0 0 0 0 0
+0 0 0 P
+#28723
+assassin blade~
+{m**=**{xAssassin's Blade of {rCh{bao{Ds{X{m**=**{x~
+A blade of energy balances on its tip here, waiting for a new victim.~
+Chaos energy~
+weapon BJL AN
+dagger 190 1 pierce BDE
+125 100 0 P
+#28724
+magius key~
+a gnarled magius key~
+A gnarled key lies here, half-eaten.~
+Chaos energy~
+key T AO
+0 0 0 0 0
+0 1 0 P
+#28725
+simple key~
+a simple key~
+A key lies here, glinting in the light.~
+steel~
+key T AO
+0 0 0 0 0
+0 1 0 P
+#28726
+bone throne~
+a throne of {Dbone{x~
+A throne made entirely of human {Dbones{x.~
+unknown~
+furniture ABT 0
+A DFGHIJ EH EHI EHI
+130 1000 0 P
+#28727
+fish exotic~
+exotic fish~
+A plate of some kind of fish lies here.~
+fish~
+food 0 AO
+BD BD 0 0 0
+100 1 30 P
+#28728
+travelling rations~
+travelling rations~
+A plate of rations lies here, waiting to be picked up.~
+platinum~
+food 0 AO
+ABCD ABCD 0 0 0
+100 4 40 P
+#28729
+stew beef~
+beef stew~
+A pot of beef stew lies here.~
+stew~
+food 0 AO
+CE CE 0 0 0
+100 3 50 P
+#28730
+soul drink~
+a soul drink~
+A bottle containing a strange kind of liquid lies here.~
+souls~
+drink 0 AO
+10 10 'salt water' 0 0
+110 5 100 P
+#28731
+mug ale~
+a mug of ale~
+A mug of ale lies on the ground here.~
+clay~
+drink B AO
+70 70 'ale' 0 0
+100 2 50 P
+#28732
+glass mead~
+a glass of mead~
+A mug of mead lies on the ground here.~
+glass~
+drink B AO
+100 100 'mead' 0 0
+100 2 75 P
+#28733
+illygrith breastplate~
+an illygrith breastplate~
+A strange breastplate lies here.~
+unknown~
+armor ABGJ AD
+DGH DGH DGH DGH 0
+130 20 10000 P
+A
+20 -20
+A
+14 500
+A
+18 30
+A
+19 15
+#28734
+illygrith bracer~
+an illygrith bracer~
+A strange bracer lies on the ground here.~
+drow steel~
+armor AE AM
+BCEH BCEH BCEH BCEH 0
+130 12 10000 P
+A
+19 15
+A
+18 15
+A
+12 250
+A
+14 -250
+#28735
+illygrith sword~
+an illygrith sword~
+A strange sword lies on the ground here.~
+drow steel~
+weapon AE AN
+sword 195 1 slash C
+130 150 100000 P
+A
+13 200
+A
+18 30
+#28736
+illygrith dagger~
+an illygrith dagger~
+A strange dagger lies on the ground here.~
+drow steel~
+weapon AE AN
+dagger 190 1 pierce B
+130 75 100000 P
+A
+18 15
+A
+14 -250
+A
+12 250
+#28737
+plate death~
+the plate of death~
+A suit of black platemail lies here, gathering dust.~
+steel~
+armor ABE AD
+EHI EHI DGH DGH 0
+130 25 0 P
+A
+2 -5
+A
+18 30
+A
+12 -500
+A
+13 500
+#28738
+plate neutrality~
+the plate of neutrality~
+A suit of grey platemail lies here, gathering dust.~
+steel~
+armor AB AD
+DGH DGH DGH DGH 0
+130 25 0 P
+A
+14 100
+A
+18 30
+#28739
+plate justice~
+the plate of justice~
+A suit of white platemail lies here, gathering dust.~
+platinum~
+armor ABFKL AD
+BCEH CDFI BCEH BDEFGH 0
+130 25 0 P
+A
+20 -15
+A
+19 15
+A
+18 -30
+A
+12 300
+#28740
+zhaman crown royal~
+the crown of Zhaman~
+A black crown lies here, gleaming with a black aura.~
+unknown~
+armor AB AE
+BCEH BCEH CDFI CDFI 0
+130 15 0 P
+A
+3 3
+A
+2 -3
+#28741
+sword chaos~
+the sword of Chaos~
+A blade balances on its tip here, waiting for a new owner.~
+chaos energy~
+weapon AEGJ AN
+sword 198 1 slash CF
+130 150 0 P
+A
+13 100
+A
+19 25
+A
+18 -25
+A
+12 -500
+#28742
+altar darkness~
+the Altar of Darkness~
+An altar rests on a large rock here, gleaming with a dark aura.~
+drow steel~
+container ABE P
+10000 AC 0 2 14
+130 200 0 P
+#28743
+paper piece~
+a partially shredded piece of paper~
+A shredded piece of parchment lies on the ground here.~
+unknown~
+treasure ABE AO
+0 0 0 0 0
+120 3 0 P
+E
+paper~
+As you look down at the paper, words suddenly flicker and appear on the
+paper.  They say, 'When wandering the secret passages, beware the runed
+circles.  Daemons, Vampyres, Shades, and Asps will burst forth, should you
+activate one.  Should you activate one, may the gods be with you, for
+nothing but the magic sealed doors shall keep then contained, unless a brave
+hero should enter, in hops of vanquishing them.  
+~
+#28744
+{x~
+{x~
+{x~
+unknown~
+trash B 0
+0 0 0 0 0
+0 0 0 P
+#28745
+{x~
+{x~
+{x~
+unknown~
+trash 0 O
+0 0 0 0 0
+0 0 0 P
+#28746
+soul taker~
+the {DSoul{rTaker{x~
+A blade containing many lost souls floats here, seemingly waiting.~
+Souls of Adventurers~
+weapon ABCEHPSTY AN
+sword 199 1 slash C
+130 20 1000 P
+#28747
+blade knowledge~
+the Blade of {rKnow{Dledge{x~
+A blade gleaming with a black aura lies here.~
+Mithril~
+weapon ACHPT AN
+dagger 200 1 pierce A
+130 100 10000 P
+A
+4 3
+A
+3 3
+A
+13 -300
+A
+12 300
+A
+14 300
+#0
+
+
+
+#ROOMS
+#28700
+Beside an Old Gnarled Tree~
+You are on a trail leading to the {gForest{x of Istai.  To the east lies
+a large plain whereas to the west and north lies a forest.  Sounds of
+various creatures can be heard, as though the area is teeming with life.  An
+old gnarled tree trunk blocks the way to the south.  
+~
+0 1 3
+D0
+~
+~
+0 0 28701
+D4
+~
+~
+0 0 409
+S
+#28701
+A dirt trail~
+You are standing on a trail leading to the {gForest{x of Istai.  To your
+east lies a large plain.  To your west and north lies a forest.  Sounds of
+various creatures can be heard, as though the area is teeming with life.  To
+the north lies the {gForest{x of Istai, and to your south lies a dirt trail.
+~
+0 0 2
+D0
+~
+~
+0 0 28702
+D2
+~
+~
+0 0 28700
+S
+#28702
+Before the {gForest{x of Istai~
+You are standing on a trail leading to the {gForest{x of Istai.  To your
+east lies a large plain.  To your west and north lies a forest.  Sounds of
+various creatures can be heard, as though the area is teeming with life.  To
+the immediate north lies the {gForest{x of Istai, and to your immediate
+south lies a dirt trail.  
+~
+0 0 3
+D0
+~
+~
+0 0 28703
+D2
+~
+~
+0 0 28701
+S
+#28703
+{gForest of Istai~
+You are standing in a grove of trees.  All around you, the fog is as
+thick water, except it does not hamper your breathing, only your sight.  The
+fog is thinner in all directions, suggesting pathways.  
+~
+0 0 0
+D0
+~
+~
+0 0 28708
+D1
+~
+~
+0 0 28704
+D2
+~
+~
+0 0 28702
+D3
+~
+~
+0 0 28712
+S
+#28704
+{gForest of Istai~
+You are standing in the {gForest of Istai{x.  All around you fog is as
+thick as water, but it does not hamper your breathing, only your sight. 
+Sounds of animals can be heard, as though the forest is teeming with life. 
+To the east and west, the fog is thinner, suggesting a pathway.  
+~
+0 0 0
+D1
+~
+~
+0 0 28705
+D3
+~
+~
+0 0 28703
+S
+#28705
+{gForest of Istai~
+You are standing in the {gForest of Istai{x.  All around you fog is as
+thick as water, but it does not hamper your breathing, only your sight. 
+Sounds of animals can be heard, as though the forest is teeming with life. 
+To the east and north the fog is thinner, suggesting a pathway.  
+~
+0 0 0
+D0
+~
+~
+0 0 28706
+D3
+~
+~
+0 0 28704
+S
+#28706
+{gForest of Istai~
+You are standing in the {gForest of Istai{x.  All around you fog is as
+thick as water, but it does not hamper your breathing, only your sight. 
+Sounds of animals can be heard, as though the forest is teeming with life. 
+To the west and south the fog is thinner, suggesting a pathway.  
+~
+0 0 0
+D1
+~
+~
+1 0 28723
+D2
+~
+~
+0 0 28705
+D3
+~
+~
+0 0 28707
+S
+#28707
+{gForest of Istai~
+You are standing in the {gForest of Istai{x.  All around you fog is as
+thick as water, but it does not hamper your breathing, only your sight. 
+Sounds of animals can be heard, as though the forest is teeming with life. 
+To the east and west the fog is thinner, suggesting a pathway.  
+~
+0 0 0
+D1
+~
+~
+0 0 28706
+D3
+~
+~
+0 0 28708
+S
+#28708
+{gForest of Istai~
+You are standing in the {gForest of Istai{x.  All around you, the fog is
+as thick water, except it does not hamper your breathing, only your sight. 
+The fog is thinner in all directions, suggesting pathways.  
+~
+0 0 0
+D0
+~
+~
+0 0 28713
+D1
+~
+~
+0 0 28707
+D2
+~
+~
+0 0 28703
+D3
+~
+~
+0 0 28709
+S
+#28709
+{gForest of Istai~
+You are standing in the {gForest of Istai{x.  All around you fog is as
+thick as water, but it does not hamper your breathing, only your sight. 
+Sounds of animals can be heard, as though the forest is teeming with life. 
+To the east and west the fog is thinner, suggesting a pathway.  
+~
+0 0 0
+D1
+~
+~
+0 0 28708
+D3
+~
+~
+0 0 28710
+S
+#28710
+A dirt trail~
+You are standing on a dirt trail, leading to the {gForest{x of Istai. North of you lies the {gForest{x of Istai.  South of you lies the dirt trail which leads back to Kieron.
+~
+0 1 0
+D1
+~
+~
+0 0 28709
+D2
+~
+~
+0 0 28711
+S
+#28711
+{gForest of Istai~
+You are standing in the {gForest of Istai{x.  All around you fog is as
+thick as water, but it does not hamper your breathing, only your sight. 
+Sounds of animals can be heard, as though the forest is teeming with life. 
+To the east and north the fog is thinner, suggesting a pathway.  
+~
+0 0 0
+D0
+~
+~
+0 0 28710
+D1
+~
+~
+0 0 28712
+S
+#28712
+{gForest of Istai~
+You are standing in the {gForest of Istai{x.  All around you fog is as
+thick as water, but it does not hamper your breathing, only your sight. 
+Sounds of animals can be heard, as though the forest is teeming with life. 
+To the east and west the fog is thinner, suggesting a pathway.  
+~
+0 0 0
+D1
+~
+~
+0 0 28703
+D3
+~
+~
+0 0 28711
+S
+#28713
+{gForest of Istai~
+You are standing in the {gForest of Istai{x.  All around you, the fog is
+as thick as water, but it does not hamper your breathing, just your sight. 
+Around you, sounds of creatures can be heard, as though the forest is
+teeming with life.  The fog is thinner to all directions, suggesting paths. 
+~
+0 0 0
+D0
+~
+~
+0 0 28720
+D1
+~
+~
+0 0 28714
+D2
+~
+~
+0 0 28708
+D3
+~
+~
+0 0 28717
+S
+#28714
+{gForest of Istai~
+Desc You are standing in the {gForest of Istai{x.  All around you, the
+fog is thick as water, though it does not hamper your breathing, only your
+sight.  All around you, sounds of animals can be heard, as though the forest
+is teeming with life.  The fog is thinner to the east and west, suggesting
+pathways.  
+~
+0 0 0
+D1
+~
+~
+0 0 28715
+D3
+~
+~
+0 0 28713
+S
+#28715
+{gForest of Istai~
+You are standing in the {gForest of Istai{x.  All around you, fog is
+thick as water, but it does not hamper your breathing, just your sight. 
+Sounds of creatures can be heard all around you, as though the forest was
+teeming with life.  The fog is thinner to the east and north, suggesting
+pathways.  
+~
+0 0 0
+D0
+~
+~
+0 0 28722
+D3
+~
+~
+0 0 28714
+S
+#28716
+{gForest of Istai~
+You are standing in the {gForest of Istai{x.  All around you, the fog is
+as thick as water, but it does not hamper your breathing, just your sight. 
+Around you, sounds of creatures can be heard, as though the forest is
+teeming with life.  The fog is thinner to the north and east, suggesting a
+path.  
+~
+0 0 0
+D0
+~
+~
+0 0 28718
+D1
+~
+~
+0 0 28717
+S
+#28717
+{gForest of Istai~
+You are standing in the {gForest of Istai{x.  Alla round you, fog is as
+thick as water, though it does not hamper your breathing, just your sight. 
+Around you, sounds of various creatures can be heard, as though the forest
+was teeming with life.  The fog is thinner to the east and west, suggesting
+a pathway.  
+~
+0 0 0
+D1
+~
+~
+0 0 28713
+D3
+~
+~
+0 0 28716
+S
+#28718
+{gForest of Istai~
+You are standing in the {gForest of Istai{x.  All around you, the fog is
+as thick as water, but it does not hamper your breathing, just your sight. 
+Around you, sounds of creatures can be heard, as though the forest is
+teeming with life.  The fog is thinner to the south and east, suggesting a
+path.  
+~
+0 0 0
+D1
+~
+~
+0 0 28719
+D2
+~
+~
+0 0 28716
+D3
+~
+~
+0 28703 28730
+S
+#28719
+{gForest of Istai~
+You are standing in the {gForest of Istai{x.  All around you, the fog is
+as thick as water, but it does not hamper your breathing, just your sight. 
+Around you, sounds of creatures can be heard, as though the forest is
+teeming with life.  The fog is thinner to the east and west, suggesting a
+path.  
+~
+0 0 0
+D1
+~
+~
+0 0 28720
+D3
+~
+~
+0 0 28718
+S
+#28720
+{gForest of Istai~
+You are standing in the {gForest of Istai{x.  All around you, the fog is
+as thick as water, but it does not hamper your breathing, just your sight. 
+Around you, sounds of creatures can be heard, as though the forest is
+teeming with life.  The fog is thinner to the east, north, and west,
+suggesting paths.  
+~
+0 0 0
+D0
+~
+~
+0 0 28736
+D1
+~
+~
+0 0 28721
+D2
+~
+~
+0 0 28713
+D3
+~
+~
+0 0 28719
+S
+#28721
+{gForest of Istai~
+You are standing in the {gForest of Istai{x.  All around you, the fog is
+as thick as water, but it does not hamper your breathing, just your sight. 
+Around you, sounds of creatures can be heard, as though the forest is
+teeming with life.  The fog is thinner to the east and west, suggesting a
+path.  
+~
+0 0 0
+D1
+~
+~
+0 0 28722
+D3
+~
+~
+0 0 28720
+S
+#28722
+{gForest of Istai~
+You are standing in the {gForest of Istai{x.  All around you, the fog is
+as thick as water, but it does not hamper your breathing, just your sight. 
+Around you, sounds of creatures can be heard, as though the forest is
+teeming with life.  The fog is thinner to the east and south, suggesting a
+path.  
+~
+0 0 0
+D2
+~
+~
+0 0 28715
+D3
+~
+~
+0 0 28721
+S
+#28723
+A {Dfoggy{x grove~
+All around you, fog is everywhere. Nothing can be seen, but the impenetrable fog. As you look around though, you can see red eyes watching you. To the east you see a red glow.
+~
+0 0 0
+D1
+~
+~
+0 0 28724
+D3
+~
+~
+1 0 28706
+S
+#28724
+A {Dfoggy{x grove~
+All around you, fog is everywhere. Nothing can be seen, but the impenetrable fog. As you look around though, you can see red eyes watching you. To the south you see a red glow.
+~
+0 0 0
+D2
+~
+~
+0 0 28725
+D3
+~
+~
+0 0 28723
+S
+#28725
+A {Dfoggy{x grove~
+All around you, fog is everywhere. Nothing can be seen, but the impenetrable fog. As you look around though, you can see red eyes watching you. To the south you see a red glow.
+~
+0 0 0
+D0
+~
+~
+0 0 28724
+D2
+~
+~
+0 0 28726
+S
+#28726
+A {Dfoggy{x grove~
+In the center of the grove is a large red stone. From the light it is emanating, you can see exits in all directions.
+~
+0 0 0
+D0
+~
+~
+0 0 28725
+D1
+~
+~
+0 0 28728
+D2
+~
+~
+0 0 28727
+D3
+~
+~
+0 0 28729
+S
+#28727
+A {Dfoggy grove{x~
+You are standing in the middle of a clearing. All around you, the same fog is there, preventing you from seeing much. Upon further examination, however, you notice a small blue ring on the ground.
+~
+0 0 0
+D0
+~
+~
+0 0 28726
+S
+#28728
+A {Dfoggy grove{x~
+You are standing in the middle of a clearing. All around you, the same fog is there, preventing you from seeing much. Upon further examination, however, you notice a small key on the ground.
+~
+0 0 0
+D3
+~
+~
+0 0 28726
+S
+#28729
+A {Dfoggy grove{x~
+You are standing in the middle of a clearing. All around you, the same fog is there, preventing you from seeing much. Upon further examination, however, you notice a large axe on the ground.
+~
+0 0 0
+D1
+~
+~
+0 0 28726
+S
+#28730
+A misty grove~
+You are standing in a mist filled clearing. Small, black creatures fly around, under the cover of the mist, and all around you, growling can be heard. To the north and south, the growling seems to get louder.
+~
+0 0 0
+D0
+~
+~
+0 0 28735
+D1
+~
+~
+0 28703 28718
+D2
+~
+~
+0 0 28731
+S
+#28731
+A misty grove~
+You are standing in a mist-filled clearing. Small, black creatures fly around, under the cover of the mist, and all around you, growling can be heard. Here, the growling is the loudest.
+~
+0 0 0
+D0
+~
+~
+0 0 28730
+D3
+~
+~
+0 0 28732
+S
+#28732
+A misty grove~
+You are standing in a mist-filled clearing. Small, black creatures fly around, under the cover of the mist, and all around you, growling can be heard. To the north, the growling seems to get louder.
+~
+0 0 0
+D0
+~
+~
+0 0 28733
+D1
+~
+~
+0 0 28731
+S
+#28733
+A misty grove~
+You are standing in a mist-filled clearing. Small, black creatures fly around, under the cover of the mist, and all around you, growling can be heard. Here, the growling is the loudest.
+~
+0 0 0
+D0
+~
+~
+0 0 28734
+D2
+~
+~
+0 0 28732
+S
+#28734
+A misty grove~
+You are standing in a mist-filled clearing. Small, black creatures fly around, under the cover of the mist, and all around you, growling can be heard. To the south, the growling seems to get louder.
+~
+0 0 0
+D1
+~
+~
+0 0 28735
+D2
+~
+~
+0 0 28733
+S
+#28735
+A misty grove~
+You are standing in a mist-filled clearing. Small, black creatures fly around, under the cover of the mist, and all around you, growling can be heard. To the west, the growling seems to get louder.
+~
+0 0 0
+D2
+~
+~
+0 0 28730
+D3
+~
+~
+0 0 28734
+S
+#28736
+A trail leading north of the {gForest of Istai{x.~
+You are standing on a dirt trail thats leads north of the {gForest of
+Istai{x.  South of you lies the forest, whilst the trail continues north.  
+~
+0 0 0
+D0
+~
+~
+0 0 28737
+D2
+~
+~
+0 0 28720
+S
+#28737
+The end of the trail~
+You are standing at the end of the trail.  At the center of the clearing
+is a pile of bones.  What put them there, you can not even guess.  All
+around you, no sound can be heard, except your own breathing, and the
+occasional flap of wings.  
+~
+0 1024 0
+D2
+~
+~
+0 0 28736
+S
+#28738
+A blackened and burnt forest~
+You are standing in the remains of a forest.  What once was lush and
+green, is now the opposite.  Burnt and blackened.  Around you, nothing can
+be heard, except your own breathing.  To the north and south are pathways
+through the remains of the forest.  
+~
+0 1024 0
+D0
+~
+~
+0 0 28739
+S
+#28739
+A blackened and burnt forest~
+You are standing in the remains of a forest.  What once was lush and
+green, is now the opposite.  Burnt and blackened.  Around you, nothing can
+be heard, except your own breathing.  To the south and east are pathways
+through the remains of the forest.  
+~
+0 0 0
+D1
+~
+~
+0 0 28740
+D2
+~
+~
+0 0 28738
+S
+#28740
+A burnt and blackened forest~
+You are standing in the middle of the remains of a forest.  What once was
+luch and green is now the opposite.  Burnt and blackened.  Around you,
+nothing can be heard, except your own breathing.  To the east and west are
+pathways through the remains of the forest.  
+~
+0 0 0
+D1
+~
+~
+0 0 28741
+D3
+~
+~
+0 0 28739
+S
+#28741
+A burnt and blackened forest~
+You are standing in the remains of a forest.  What once was lush and gree
+is now the opposite.  Burnst and blackened.  Around you, nothing can be
+heard, except your own breathing.  To the east and west are pathways through
+the remains of the forest.  
+~
+0 0 0
+D1
+~
+~
+0 0 28742
+D3
+~
+~
+0 0 28740
+S
+#28742
+A burnt and blackened forest~
+You are standing in the remains of a forest.  What once was lush and
+green is now the opposite.  Burnt and blackened.  Around you, nothing can be
+heard, except your own breathing.  To the north and west are pathways
+through the remains of the forest.  
+~
+0 0 0
+D0
+~
+~
+0 0 28743
+D3
+~
+~
+0 0 28741
+S
+#28743
+A burnt and blackened forest~
+You are standing in the remains of a forest.  What once was lush and
+green is now the opposite.  Burnst and blackened.  Around you, nothing can
+be heard, except your own breathing.  To the west and south are pathways
+through the remains of the forest.  
+~
+0 0 0
+D2
+~
+~
+0 0 28742
+D3
+~
+~
+0 0 28745
+S
+#28745
+A burnt and blackened forest~
+You are standing in the remains of a forest.  What once was lush and
+green is now the opposite.  Burnt and blackened.  Around you, nothing can be
+heard, except your own breathing.  To the north and east are pathways
+through the remains of the forest.  
+~
+0 0 0
+D0
+~
+~
+0 0 28746
+D1
+~
+~
+0 0 28743
+D3
+~
+~
+1 0 28750
+S
+#28746
+A burnt and blackened forest~
+You are standing in the remains of a forest.  What once was lush and
+green is now the opposite.  Burnt and blackened.  Around you, nothing can be
+heard, except your own breathing.  To the north and south are pathways
+through the remains of the forest.  
+~
+0 0 0
+D0
+~
+~
+0 0 28747
+D2
+~
+~
+0 0 28745
+S
+#28747
+A burnt and blackened forest~
+You are standing in the remains of a forest.  What once was lush and
+green is now the opposite.  Burnt and blackened.  Around you, nothing can be
+heard, except your own breathing.  To the west and south are pathways
+through the remains of the forest.  
+~
+0 0 0
+D2
+~
+~
+0 0 28746
+D3
+~
+~
+0 0 28748
+S
+#28748
+A burnt and blackened forest~
+You are standing in the remains of a forest.  What once was lush and
+green is now the opposite.  Burnt and blackened.  Around you, nothing can be
+heard, except your own breathing.  To the east and south are pathways
+through the remains of the forest.  
+~
+0 0 0
+D0
+~
+~
+0 0 28799
+D1
+~
+~
+0 0 28747
+D2
+~
+~
+0 0 28749
+S
+#28749
+A burnt and blackened forest~
+You are standing in the remains of a forest.  What once was lush and
+green is now the opposite.  Burnt and blackened.  Around you, nothing can be
+heard, except your own breathing.  To the north and south are pathways
+through the remains of the forest.  
+~
+0 0 0
+D0
+~
+~
+0 0 28748
+D2
+~
+~
+0 0 28750
+S
+#28750
+A burnt and blackened forest~
+You are standing in the remains of a forest.  What once was lush and
+green is now the opposite.  Burnt and blackened.  Around you, nothing can be
+heard, except your own breathing.  To the north and west are pathways
+through the remains of the forest.  
+~
+0 0 0
+D0
+~
+~
+0 0 28749
+D1
+~
+~
+1 0 28745
+D3
+~
+~
+0 0 28751
+S
+#28751
+A burnt and blackened forest~
+You are standing in the remains of a forest.  What once was lush and
+green is now the opposite.  Burnt and blackened.  Around you, nothing can be
+heard, except your own breathing.  To the east and west are pathways through
+the remains of the forest.  
+~
+0 0 0
+D1
+~
+~
+0 0 28750
+D3
+~
+~
+0 0 28752
+S
+#28752
+A burnt and blackened forest~
+You are standing in the remains of a forest.  What once was lush and
+green is now the opposite.  Burnt and blackened.  Around you, nothing can be
+heard, except your own breathing.  To the east and south are pathways
+through the remains of the forest.  
+~
+0 0 0
+D1
+~
+~
+0 0 28751
+D2
+~
+~
+0 0 28753
+S
+#28753
+A burnt and blackened forest~
+You are standing in the remains of a forest.  What once was lush and
+green is now the opposite.  Burnt and blackened.  Around you, nothing can be
+heard, except your own breathing.  To the north and south are pathways
+through the remains of the forest.  
+~
+0 0 0
+D0
+~
+~
+0 0 28752
+D2
+~
+~
+0 0 28754
+S
+#28754
+A burnt and blackened forest~
+You have reached the end of the trail. Around you, are the same burnt and blackened trees. In the center of the forest, however, is a black robed figure. He motions for you to come closer.
+~
+0 1024 0
+D0
+~
+~
+0 0 28753
+S
+#28755
+{RZhaman Castle{x: Entrance Way~
+{D You are standing in the entrance way to Zhaman Castle, a castle deep within the Forest of Istai. South of you lies a trail, while north of you lies a guard post.
+~
+0 8 0
+D0
+~
+~
+0 0 28756
+D2
+~
+~
+0 0 28799
+S
+#28756
+{RZhaman Castle{x: Guard Post~
+{D You are standing near a guard post of Zhaman Castle.  Guards sit at a
+table and talk, while watching the entrance way, for any signs of intruders.
+North of you lies the path into the main hallway of the castle, while south
+lies the entrance way.  
+~
+0 8 0
+D0
+~
+~
+0 0 28757
+D2
+~
+~
+0 0 28755
+S
+#28757
+A hallway~
+{D You are standing in a lavishly decorated hallway. Swords of various people line the walls, as well as banners of the three Orders of Knights. North of you continues the hallway, while south of you lies the guard post.
+~
+0 8 0
+D0
+~
+~
+0 0 28758
+D2
+~
+~
+0 0 28756
+S
+#28758
+A hallway~
+{D You are standing in a lavishly decorated hallway. Swords of various people line the walls, as well as banners of the three Orders of Knights. To the north and south, the hallway continues. To the east and west are seperate hallways.
+~
+0 8 0
+D0
+~
+~
+0 0 28773
+D1
+~
+~
+1 0 28759
+D2
+~
+~
+0 0 28757
+D3
+~
+~
+1 0 28767
+S
+#28759
+A hallway~
+{D You are standing in a lavishly decorated hallway. Swords of various people line the walls, as well as banners of the three Orders of Knights. To the east, the hallway continues, while the main hallway is to your west.
+~
+0 8 0
+D1
+~
+~
+0 0 28760
+D3
+~
+~
+1 0 28758
+S
+#28760
+A hallway~
+{D You are standing in a lavishly decorated hallway.  Swords of various
+people line the walls, as well as banners of the three Orders of Knights. 
+To the west, the hallway continues.  To the east, the servants' quarters
+begins.  
+~
+0 8 0
+D1
+~
+~
+0 0 28761
+D3
+~
+~
+0 0 28759
+S
+#28761
+The Servant's Quarters~
+{D You are standing in the housing quarters for the servants of the
+castle.  Along one wall are a line of beds, and you notice a guard near the
+door next to you.  To the north and south, the servants' quarters continues.
+~
+0 8 0
+D0
+~
+~
+0 0 28766
+D2
+~
+~
+0 0 28762
+D3
+~
+~
+0 0 28760
+S
+#28762
+The Servant's Quarters~
+{D You are standing in the housing quarters for the servants of the castle. Along one wall are a line of beds, and you notice a guard near the door to the north. To the north and east, the servants' quarters continues.
+~
+0 8 0
+D0
+~
+~
+0 0 28761
+D1
+~
+~
+0 0 28763
+S
+#28763
+The Servants' Quarters~
+{D You are standing in the housing quarters for the servants of the castle. Along one wall are a line of beds, and you notice a guard to the north. To the north and west, the servants' quarters continues.
+~
+0 8 0
+D0
+~
+~
+0 0 28764
+D3
+~
+~
+0 0 28762
+S
+#28764
+The Servants' Quarters~
+{D You are standing in the housing quarters for the servants of the castle. Along one wall are a line of beds, and you notice a guard next to a door near you. To the north and south, the servants' quarters continues.
+~
+0 8 0
+D0
+~
+~
+0 0 28765
+D2
+~
+~
+0 0 28763
+S
+#28765
+The Servants' Quarters~
+{D You are standing in the housing quarters for the servants of the castle. Along one wall are a line of beds, and you notice a guard to the south. To the west and south, the servants' quarters continues.
+~
+0 8 0
+D2
+~
+~
+0 0 28764
+D3
+~
+~
+0 0 28766
+S
+#28766
+The Servants' Quarters~
+{D You are standing in the housing quarters for the servants of the castle. Along one wall are a line of beds, and you notice a guard to the south. To the north and south, the servants' quarters continues.
+~
+0 8 0
+D1
+~
+~
+0 0 28765
+D2
+~
+~
+0 0 28761
+S
+#28767
+A side hallway~
+{D You are standing in a side hallway. To the west, sounds of laughter and metal striking metal can be heard. To the east lies the main hallway.
+~
+0 8 0
+D1
+~
+~
+1 0 28758
+D3
+~
+~
+0 0 28768
+S
+#28768
+A side hallway~
+{D You are standing in a side hallway. To the south, the sounds of laughter grow louder, and to the north, sounds of metal striking metal grow louder. To the east the hallway continues.
+~
+0 8 0
+D0
+~
+~
+0 0 28771
+D1
+~
+~
+0 0 28767
+D2
+~
+~
+0 0 28769
+S
+#28769
+Outside the tavern~
+{D You stand outside the castle tavern. To the west, you see a door, and the sounds of laughter grow louder as you near it. To the north lies the hallway.
+~
+0 8 0
+D0
+~
+~
+0 0 28768
+D3
+~
+~
+0 0 28770
+S
+#28770
+The Castle Tavern~
+{D You are standing in the tavern of the castle. All around you, scents of various liquors hang in the air, making the air thick and hard to breathe. Busy barmaids weave their way through the crowd, delivering drinks as they go.
+~
+0 1032 0
+D1
+~
+~
+0 0 28769
+S
+#28771
+Before the Armoury~
+{D You stand before the Armoury of the castle. Tot he west, a door can be seen, and the sounds of metal striking metal grow louder as you approach it. To the south lies the hallway.
+~
+0 0 0
+D2
+~
+~
+0 0 28768
+D3
+~
+~
+0 0 28772
+S
+#28772
+The Castle Armoury~
+{D You are standing in the Armoury. All around you, armor and weapons hang on the walls, for display. A human wearing leather armor can be seen behind the counter, waiting.
+~
+0 1024 0
+D1
+~
+~
+0 0 28771
+S
+#28773
+A hallway~
+{D You are standing in a lavishly decorated hallway. Swords of various people line the walls, as well as banners of the three Orders of Knights. To the north and south, the hallway continues.
+~
+0 8 0
+D0
+~
+~
+0 0 28774
+D2
+~
+~
+0 0 28758
+S
+#28774
+A hallway~
+{D You are standing in a lavishly decorated hallway. Swords of various people line the walls, as well as banners of the three Orders of Knights. To the north and south, the hallway continues.
+~
+0 8 0
+D0
+~
+~
+0 0 28775
+D2
+~
+~
+0 0 28773
+S
+#28775
+A hallway~
+{D You are standing in a lavishly decorated hallway. Swords of various people line the walls, as well as banners of the three Orders of Knights. To the north and south, the hallway continues. To the east, another hallway branches off.
+~
+0 8 0
+D0
+~
+~
+0 0 28783
+D1
+~
+~
+1 0 28776
+D2
+~
+~
+0 0 28774
+S
+#28776
+A side hallway~
+{D You are standing in a side hallway.  Although it branches off from the
+main, it is still lavishly decorated.  Swords and armor of various people
+line the walls, a well as the banner of the three Orders of Knights.  The
+The hallway leads back west, while to the east, there is a faint smell of food, and an odd sound can be heard.
+~
+0 8 0
+D1
+~
+~
+0 0 28777
+D3
+~
+~
+1 0 28775
+S
+#28777
+A side hallway~
+{DYou are standing in a side hallway.  Although it branches off from the
+main, it is still lavishly decorated.  Swords and armor of various people
+line the walls, a well as the banner of the three Orders of Knights.  The
+hallway leads back east, while north there is a distinct smell of food, and
+to the south, there are sounds of metal striking metal.  
+~
+0 8 0
+D1
+~
+~
+0 0 28778
+D3
+~
+~
+0 0 28776
+S
+#28778
+A side hallway~
+{D You are standing in a side hallway. To the west, the side hallway continues. To the north, smells of foods hang in the air. To the south, sounds of battles can be heard.
+~
+0 8 0
+D0
+~
+~
+0 0 28781
+D2
+~
+~
+0 0 28779
+D3
+~
+~
+0 0 28777
+S
+#28779
+Before the Practice Yard~
+{D You are standing in a hallway before the practice yard. North of you lies the hallway which leads to here, and east you lies a door which seperates you and the practice yard.
+~
+0 8 0
+D0
+~
+~
+0 0 28778
+D1
+~
+~
+0 0 28780
+S
+#28780
+The Practice Yard~
+{D You are standing in a practice yard. All around you, dummies lie on the ground, some pierced by blades, others blackened by magic. In the center of the yard stands a man.
+~
+0 8 0
+D3
+~
+~
+0 0 28779
+S
+#28781
+A side hallway~
+{D You are standing in a side hallway leading to the castle bakery. To the east, a door can be seen, and the smells of foods grow stronger as you approach. To the south, the hallway continues.
+~
+0 8 0
+D1
+~
+~
+0 0 28782
+D2
+~
+~
+0 0 28778
+S
+#28782
+The Castle Food Shop~
+{D You are standing in the castle food shop. Along the northern wall is a long counter. Placed upon it are several different types of foods, for display. Behind the counter stands a man.
+~
+0 8 0
+D3
+~
+~
+0 0 28781
+S
+#28783
+A hallway~
+{D You are standing in a lavishly decorated hallway leading. Swords of various people line the walls, as well as banners of the three Orders of Knights. The hallway continues north and south.
+~
+0 8 0
+D0
+~
+~
+0 0 28784
+D2
+~
+~
+0 0 28775
+S
+#28784
+A hallway~
+{D You are standing in a lavishly decorated hallway. Swords of various people line the walls, as well as banners from the three Orders of Knights. The hallwall continues north and south, and to the west, a second hallway branches off.
+~
+0 8 0
+D0
+~
+~
+0 0 28788
+D2
+~
+~
+0 0 28783
+D3
+~
+~
+0 0 28785
+S
+#28785
+A hallway~
+{D You are standing in a lavishly decorated hallway. Swords of various people line the walls, as well as banners from the three Orders of Knights. The hallwall continues westward. To the east lies the main hallway.
+{x
+~
+0 8 0
+D1
+~
+~
+0 0 28784
+D3
+~
+~
+0 0 28786
+S
+#28786
+A hallway~
+{D You are standing in a lavishly decorated hallway. Swords of various people line the walls, as well as banners from the three Orders of Knights. To the west lies a wall. To the east lies the hallway in which you came.
+{x
+~
+0 8 0
+D1
+~
+~
+0 0 28785
+D3
+~
+~
+0 28724 28787
+S
+#28787
+A Secret Room~
+{D You are standing in the middle of an arcane study.  Cages line one
+wall, and there are creatures in several of the cages.  Above the screeching
+of the creatures, there is a distinct smell of sulfur and decay.  Along the
+far wall are several bookshelves, holding countless spellbooks.  To the east
+lies a wall, disguising the hallway from which you just entered.  
+~
+0 8 0
+D1
+~
+~
+0 28724 28786
+S
+#28788
+A hallway~
+{D You are standing in a lavishly decorated hallway. Swords of various people line the walls, as well as the banners of the three Orders of the Knights. To the south lies the hallway, and to the north lies a large room.
+~
+0 8 0
+D0
+~
+~
+0 0 28789
+D2
+~
+~
+0 0 28784
+S
+#28789
+Dayare's Meeting Chamber~
+{D You are standing in the throne room of Zhaman Castle.  In the center
+of the room sits a large throne made of bone.  Weapons and armor of all
+kinds line the walls.  To the south lies the hallway from which you just
+came.  {DThere is a small picture of a maze on the far wall.  
+{x
+~
+0 8 0
+D0
+~
+~
+4 28725 28790
+D2
+~
+~
+0 0 28788
+S
+#28790
+A Secret Passageway~
+{D You are standing in a passageway north of the throne room. South of you lies the throne room, while the passage way continues to the east and west.
+~
+0 8 0
+D1
+~
+~
+0 0 28795
+D2
+~
+~
+4 28725 28789
+D3
+~
+~
+0 0 28791
+S
+#28791
+A secret passageway~
+{D You are standing in a secret passageway. To the northwest, there is a distinct smell of sulfur and decaying creatures. To the north and west are continuations of the passageway.
+~
+0 8 0
+D0
+~
+~
+0 0 28794
+D1
+~
+~
+0 0 28790
+D3
+~
+~
+0 0 28792
+S
+#28792
+A secret passageway~
+{D You are standing in a secret passageway. To the north, there is a distinct smell of sulfur and decaying creatures. To the north is a continuation of the passageway.
+~
+0 8 0
+D0
+~
+~
+0 0 28793
+D1
+~
+~
+0 0 28791
+S
+#28793
+A secret passageway~
+{DYou are standing in a secret passageway.  There is a distinct smell of
+sulfur and decaying creatures hanging in the air.  The walls are scorched,
+and a large circle is carved into the floor.  
+~
+0 8 0
+D1
+~
+~
+0 0 28794
+D2
+~
+~
+0 0 28792
+S
+#28794
+A secret passageway~
+{D You are standing in a secret passageway. To the west, there is a distinct smell of sulfur and decaying creatures. To the west is a continuation of the passageway.
+~
+0 8 0
+D2
+~
+~
+0 0 28791
+D3
+~
+~
+0 0 28793
+S
+#28795
+A secret passageway~
+{D You are standing in a secret passageway. To the northeast, there is a distinct smell of herbs. The passageway continues to the east and north.
+~
+0 8 0
+D0
+~
+~
+0 0 28798
+D1
+~
+~
+0 0 28796
+D3
+~
+~
+0 0 28790
+S
+#28796
+A secret passageway~
+{D You are standing in a secret passageway. To the north, there is a distinct smell of herbs. The passageways continues to the west and north.
+~
+0 8 0
+D0
+~
+~
+0 0 28797
+D3
+~
+~
+0 0 28795
+S
+#28797
+A secret passageway~
+{D You are standing in a secret passageway.  There is a distinct smell of
+herbs, as though someone had just been mixing potions.  There is a small
+circle carved into the floor, and there are small holes beside it.  The
+passageway continues to the south and west.  
+~
+0 8 0
+D2
+~
+~
+0 0 28796
+D3
+~
+~
+0 0 28798
+S
+#28798
+A secret passageway~
+{D You are standing in a secret passageway. To the east, there is a distinct smell of herbs. The passageway continues to the east and south.
+~
+0 8 0
+D1
+~
+~
+0 0 28797
+D2
+~
+~
+0 0 28795
+S
+#28799
+A hidden path~
+You are standing in a hidden path in the forest.  All around you lies
+nothing but the burnt and blackened trees of the {DShadow Grove{x.  The path
+continues north, to a large fortress.  No sounds can be heard, except your
+own breathing.  You may continue north, or search for the southern exit.  
+~
+0 0 0
+D0
+~
+~
+0 0 28755
+D2
+~
+tree~
+0 0 28748
+S
+#0
+
+
+
+#SPECIALS
+M 28703 spec_cast_cleric
+M 28704 spec_cast_mage
+M 28706 spec_cast_mage
+M 28708 spec_thief
+M 28709 spec_cast_mage
+M 28713 spec_breath_any
+M 28721 spec_thief
+M 28722 spec_cast_mage
+M 28723 spec_cast_cleric
+M 28727 spec_poison
+M 28731 spec_breath_any
+M 28737 spec_cast_mage
+M 28738 spec_thief
+S
+
+
+
+#RESETS
+D 0 28706 1 1
+D 0 28723 3 1
+D 0 28745 3 1
+D 0 28750 1 1
+D 0 28758 1 1
+D 0 28758 3 1
+D 0 28759 3 1
+D 0 28767 1 1
+D 0 28775 1 1
+D 0 28776 3 1
+D 0 28789 0 2
+D 0 28790 2 2
+M 0 28734 7 28700 1 Load a giant spider
+M 0 28707 1 28701 1 Load Hakan
+M 0 28734 7 28702 1 Load a giant spider
+M 0 28733 7 28702 1 Load a giant lizard
+M 0 28737 7 28703 1 Load a mauve slime
+M 0 28735 7 28703 1 Load an asp
+M 0 28700 6 28703 1 Load A Troglodyte peasant
+M 0 28701 7 28704 1 Load A Troglodyte warrior
+M 0 28701 5 28704 1 Load A Troglodyte warrior
+M 0 28733 7 28706 1 Load a giant lizard
+M 0 28702 6 28706 1 Load A Troglodyte khazi
+E 0 28721 0 16 A {dplatinum{x dagger is loaded wielded of A Troglodyte khazi
+M 0 28734 7 28707 1 Load a giant spider
+M 0 28701 7 28708 1 Load A Troglodyte warrior
+E 0 28719 0 16 A longsword named 'humanslayer' is loaded wielded of A Troglodyte warrior
+M 0 28733 7 28710 1 Load a giant lizard
+M 0 28734 7 28711 1 Load a giant spider
+M 0 28700 6 28711 1 Load A Troglodyte peasant
+M 0 28736 7 28712 1 Load an ochre slime
+M 0 28734 7 28713 1 Load a giant spider
+M 0 28732 7 28714 1 Load a Slithzerekai
+M 0 28737 7 28715 1 Load a mauve slime
+M 0 28733 7 28715 1 Load a giant lizard
+M 0 28733 7 28716 1 Load a giant lizard
+M 0 28732 7 28717 1 Load a Slithzerekai
+M 0 28735 7 28718 1 Load an asp
+M 0 28702 6 28718 1 Load A Troglodyte khazi
+E 0 28721 0 16 A {dplatinum{x dagger is loaded wielded of A Troglodyte khazi
+M 0 28735 7 28719 1 Load an asp
+M 0 28736 7 28720 1 Load an ochre slime
+M 0 28732 7 28720 1 Load a Slithzerekai
+M 0 28701 7 28720 1 Load A Troglodyte warrior
+E 0 28719 0 16 A longsword named 'humanslayer' is loaded wielded of A Troglodyte warrior
+M 0 28734 7 28721 1 Load a giant spider
+M 0 28737 7 28722 1 Load a mauve slime
+M 0 28736 7 28722 1 Load an ochre slime
+M 0 28734 7 28723 1 Load a giant spider
+M 0 28735 7 28724 1 Load an asp
+M 0 28702 6 28724 1 Load A Troglodyte khazi
+E 0 28721 0 16 A {dplatinum{x dagger is loaded wielded of A Troglodyte khazi
+M 0 28733 7 28725 1 Load a giant lizard
+M 0 28732 7 28727 1 Load a Slithzerekai
+O 0 28702 0 28727 Ring of {ristai{x loaded to A {Dfoggy grove{x
+M 0 28703 5 28727 1 Load A Troglodyte shaman
+E 0 28720 0 16 A reinforced staff is loaded wielded of A Troglodyte shaman
+M 0 28732 7 28728 1 Load a Slithzerekai
+O 0 28703 0 28728 A twisted key loaded to A {Dfoggy grove{x
+M 0 28703 5 28728 1 Load A Troglodyte shaman
+E 0 28720 0 16 A reinforced staff is loaded wielded of A Troglodyte shaman
+M 0 28732 7 28729 1 Load a Slithzerekai
+O 0 28705 0 28729 The axe of neutrality loaded to A {Dfoggy grove{x
+M 0 28703 5 28729 1 Load A Troglodyte shaman
+E 0 28720 0 16 A reinforced staff is loaded wielded of A Troglodyte shaman
+M 0 28737 7 28730 1 Load a mauve slime
+M 0 28734 7 28731 1 Load a giant spider
+M 0 28702 6 28731 1 Load A Troglodyte khazi
+E 0 28721 0 16 A {dplatinum{x dagger is loaded wielded of A Troglodyte khazi
+M 0 28701 7 28732 1 Load A Troglodyte warrior
+E 0 28719 0 16 A longsword named 'humanslayer' is loaded wielded of A Troglodyte warrior
+M 0 28735 7 28733 1 Load an asp
+O 0 28704 0 28733 An angelic blade loaded to A misty grove
+M 0 28703 5 28733 1 Load A Troglodyte shaman
+M 0 28737 7 28734 1 Load a mauve slime
+M 0 28732 7 28734 1 Load a Slithzerekai
+M 0 28701 7 28734 1 Load A Troglodyte warrior
+E 0 28719 0 16 A longsword named 'humanslayer' is loaded wielded of A Troglodyte warrior
+M 0 28736 7 28735 1 Load an ochre slime
+M 0 28702 6 28735 1 Load A Troglodyte khazi
+E 0 28721 0 16 A {dplatinum{x dagger is loaded wielded of A Troglodyte khazi
+M 0 28735 7 28736 1 Load an asp
+M 0 28733 7 28736 1 Load a giant lizard
+M 0 28705 1 28737 1 Load Grokbar
+E 0 28711 0 16 The {bdeath{rbringer{x is loaded wielded of Grokbar
+E 0 28712 0 12 A grizzly hide is loaded about the shoulders of Grokbar
+M 0 28706 1 28738 1 Load Khan
+E 0 28713 0 12 The robes of good is loaded about the shoulders of Khan
+E 0 28714 0 16 An angelic dagger is loaded wielded of Khan
+M 0 28737 7 28739 1 Load a mauve slime
+M 0 28731 7 28739 1 Load a Nephil
+M 0 28701 7 28739 1 Load A Troglodyte warrior
+M 0 28701 7 28740 1 Load A Troglodyte warrior
+M 0 28701 6 28740 1 Load A Troglodyte warrior
+M 0 28731 7 28741 1 Load a Nephil
+M 0 28700 6 28742 1 Load A Troglodyte peasant
+M 0 28731 7 28745 1 Load a Nephil
+E 0 28706 0 16 A blade of {rhellfire{x is loaded wielded of a Nephil
+M 0 28736 7 28746 1 Load an ochre slime
+M 0 28700 6 28746 1 Load A Troglodyte peasant
+M 0 28731 7 28747 1 Load a Nephil
+M 0 28703 5 28747 1 Load A Troglodyte shaman
+E 0 28720 0 16 A reinforced staff is loaded wielded of A Troglodyte shaman
+M 0 28702 6 28748 1 Load A Troglodyte khazi
+E 0 28721 0 16 A {dplatinum{x dagger is loaded wielded of A Troglodyte khazi
+M 0 28736 7 28749 1 Load an ochre slime
+M 0 28700 6 28749 1 Load A Troglodyte peasant
+M 0 28731 7 28750 1 Load a Nephil
+M 0 28737 7 28751 1 Load a mauve slime
+M 0 28700 6 28751 1 Load A Troglodyte peasant
+M 0 28731 7 28752 1 Load a Nephil
+M 0 28736 7 28753 1 Load an ochre slime
+M 0 28731 7 28754 1 Load a Nephil
+M 0 28704 1 28754 1 Load Kharas
+E 0 28715 0 12 The robes of {ddeath{x is loaded about the shoulders of Kharas
+E 0 28716 0 16 {rflamebringer{x is loaded wielded of Kharas
+M 0 28729 6 28756 1 Load a royal guard
+M 0 28728 6 28756 1 Load a commoner
+M 0 28716 3 28756 1 Load A castle guard
+M 0 28728 1 28756 6 Load a commoner
+M 0 28730 6 28760 1 Load a monk
+M 0 28715 2 28761 1 Load a servant
+M 0 28716 3 28761 1 Load A castle guard
+M 0 28729 6 28762 1 Load a royal guard
+M 0 28729 6 28764 1 Load a royal guard
+M 0 28716 3 28764 1 Load A castle guard
+M 0 28730 6 28766 1 Load a monk
+M 0 28730 6 28767 1 Load a monk
+M 0 28729 6 28769 1 Load a royal guard
+M 0 28719 1 28770 1 Load Lokin
+G 0 28732 0 A glass of mead is given to Lokin
+G 0 28731 0 A mug of ale is given to Lokin
+M 0 28720 1 28772 1 Load Mason
+G 0 28733 0 An illygrith breastplate is given to Mason
+G 0 28734 0 An illygrith bracer is given to Mason
+G 0 28735 0 An illygrith sword is given to Mason
+G 0 28736 0 An illygrith dagger is given to Mason
+M 0 28730 6 28773 1 Load a monk
+M 0 28728 1 28777 6 Load a commoner
+M 0 28730 6 28779 1 Load a monk
+M 0 28718 1 28780 1 Load Duranne
+M 0 28717 1 28782 1 Load Dresen
+G 0 28728 0 Travelling rations is given to Dresen
+G 0 28729 0 Beef stew is given to Dresen
+G 0 28730 0 A soul drink is given to Dresen
+G 0 28727 0 Exotic fish is given to Dresen
+M 0 28728 1 28783 6 Load a commoner
+M 0 28730 6 28786 1 Load a monk
+M 0 28709 1 28786 1 Load Xavier
+E 0 28746 0 16 The {dsoul{rtaker{x is loaded wielded of Xavier
+G 0 28724 0 A gnarled magius key is given to Xavier
+M 0 28714 1 28787 1 Load Ma'el
+E 0 28747 0 16 The blade of {rknow{dledge{x is loaded wielded of Ma'el
+G 0 28724 0 A gnarled magius key is given to Ma'el
+M 0 28730 6 28788 1 Load a monk
+O 0 28726 0 28789 A throne of {dbone{x loaded to Dayare's Meeting Chamber
+M 0 28715 2 28789 1 Load a servant
+M 0 28713 1 28789 1 Load King Dayare
+E 0 28740 0 6 The crown of zhaman is loaded over the head of King Dayare
+E 0 28741 0 16 The sword of chaos is loaded wielded of King Dayare
+G 0 28725 0 A simple key is given to King Dayare
+P 0 28743 1 28742 1 A partially shredded piece of paper put inside a partially shredded piece of paper
+M 0 28730 6 28790 1 Load a monk
+O 0 28742 0 28793 The altar of darkness loaded to A secret passageway
+P 0 28743 2 28742 1 A partially shredded piece of paper put inside a partially shredded piece of paper
+M 0 28722 1 28793 1 Load Khazar
+O 0 28742 0 28797 The altar of darkness loaded to A secret passageway
+P 0 28743 2 28742 1 A partially shredded piece of paper put inside a partially shredded piece of paper
+M 0 28723 1 28797 1 Load Sakai
+S
+
+
+
+#SHOPS
+28717 0 19 0 0 0 110 90 0 23
+28719 0 17 0 0 0 110 90 0 23
+28720 0 5 9 0 0 110 90 0 23
+0
+
+
+
+#MOBPROGS
+#28700
+if level $n >= 96
+say Welcome to the Forest of Istai.
+else
+say Only the strong may enter this forest.
+say Begone, come back when you're tougher!
+mob transfer $n 28700
+endif
+~
+#28701
+Say Do you wish to return to the Forest of Istai?  
+~
+#28702
+nod
+mob echo $i chants a few quick words.
+mob echoat $n A sudden feeling of weightlessness hits you.
+mob gtransfer $n 28737
+mob at 28737 mob echoat $n You feel a bit sick as you appear in the forest.
+~
+#28703
+say Do you think you are strong enough to brave the Shadow Grove?
+~
+#28704
+nod
+if level $n >= 125
+ mob echoat $n The room fades out of veiw.
+ mob transfer $n 28738
+ mob at 28738 mob echoat $n The room comes back into focus.
+ break
+else
+say You are not yet strong enough!
+say If you really wish to go, I shall let you pass even though you are inexperianced, but there WILL be a price. If you wish to go, say SURE
+endif
+~
+#28705
+say It is YOUR life that you are staking, you have been warned!
+mob echoat $n The room fades from view.
+mob transfer $n 28738
+mob at 28738 mob echoat $n The room comes back into focus.
+mob at 28738 mob cast sanctuary $n
+say Be careful little one.
+~
+#28706
+say You are in need of assistance?
+say Very well.
+mob cast giant $n
+mob cast haste $n
+mob cast sanc $n
+mob cast regen $n
+mob cast armor $n
+say There you are. Be careful, and may the gods treat you well.
+~
+#28707
+say You are in need of curing?
+say Very well.
+mob cast 'cure disease' $n
+mob cast 'cure blindness' $n
+mob cast 'cure poison' $n
+say There you go. Be careful, and may the gods treat you well.
+~
+#28708
+if isevil $n
+say Tread lightly in his presence, Evil One.
+endif
+~
+#28709
+say Welcome to Zhaman Castle, My Lord.
+mob echoat $n $I salutes you.
+~
+#28710
+say Yes, My Lord?
+~
+#28711
+mob echo $I withdraws from the shadows.
+say As you wish, My Lord.
+mob oload 20
+give mushroom $n
+say If you need anything else, My Lord, I shall be here.
+mob echo $I withdraws into the shadows.
+~
+#28712
+mob echo $I withdraws from the shadows.
+say As you wish, My Lord.
+mob oload 28731
+give ale $n
+say If you need anything else, My Lord, I shall be here.
+mob echo $I withdraws into the shadows.
+~
+#28713
+say As you wish, My Lord.
+unlock west
+open west
+~
+#28714
+say As you wish, My Lord.
+close west
+lock west
+~
+#28715
+say As you wish, My Lord.
+unlock east
+open east
+~
+#28716
+say As you wish, My Lord.
+close east
+lock east
+~
+#28717
+say no signs of intruders, Sir.
+say All is well in the castle.
+mob echo $I salutes $n.
+~
+#28718
+say Yes Sir?
+~
+#28719
+say Welcome to Zhaman Castle. May your stay be pleasant. If you need anything, feel free to ask the servants.
+
+~
+#28720
+if isneutral $n
+say Only those of Evil are allowed in his presence.
+mob transfer $n 3001
+endif
+~
+#28721
+mob echo $I shouts for help!
+if mobhere 28710
+else
+mob echo A guard runs in to aid $I!
+mob mload 28710
+endif
+if mobhere 28711
+else
+mob echo A guard runs in to aid $I!
+mob mload 28711
+endif
+if mobhere 28712
+else
+mob echo A guard runs in to aid $I!
+mob mload 28712
+endif
+~
+#28722
+mob echo $I places $l hands on the altar, speaking a few words as $j does so.
+mob echo The runed circle on the ground glows a fiery red, and Kyazinth bursts forth!
+mob mload 28724
+mob echo Kyazinth growls loudly, then steps into the shadows, still watching you.
+~
+#28723
+mob echo $I raises a dagger into the air.
+mob echo $I plunges the dagger deep into $l hand!
+mob echo As some of the blood drips onto the altar, Angelus suddenly bursts forth from the runed circle!
+mob mload 28725
+mob echo Angelus growls and sinks his fangs into Khazar's neck!
+mob echo After drinking his fill, Angelus withdraws his fangs and turns to you, growling.
+~
+#28724
+mob echo $I places $l hands on the Altar of Darkness, uttering a few words as $j does so.
+mob echo The runed circle suddenly glows a myriad of colors, and Cyinth bursts forth from the circle!
+mob mload 28726
+mob echo Cyinth bows before Sakai, then fades into the shadows.
+~
+#28725
+mob echo $I weaves a set of symbols in the air, hissing as $j does so.
+mob echo The runed circle suddenly starts glowing a deep red color, and Slith suddenly bursts forth!
+mob mload 28727
+mob echo Slith hisses once at Sakai, then turns to you and bares its fangs, hissing loudly.
+~
+#28726
+if isgood $n
+say Only those of Evil are allowed in his presence.
+mob transfer $n 3001
+endif
+~
+#28727
+say As you wish, My Lord.
+mob oload 28731
+mob oload 28731
+mob oload 20
+mob oload 20
+give ale $n
+give ale $n
+give mushroom $n
+give mushroom $n
+say If you need anything else, My Lord, I will be here.
+~
+#28728
+~
+#0
+
+#HELPS
+0 'ISTAI FOREST / ZHAMAN FORT'~
+{yIstai Forest/Zhaman Fortress is a small forest, with a "gateway"
+leading from present view of the forest, to the future view.  Zhaman
+fortress lies within the future view.  {x 
+ 
+{rIstai Forest and Zhaman Fort: Built/Donated by Nikol
+http://creatia.funcity.org
+telnet://creatia.funcity.org:7500{x
+~
+
+-1 $~
+
+#$

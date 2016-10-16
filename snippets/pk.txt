@@ -1,0 +1,175 @@
+/* Anywhere */
+
+void do_pk(CHAR_DATA *ch, char *argument)
+{
+   char buf2[MAX_STRING_LENGTH];
+                 
+   if (ch->pcdata->confirm_pk)
+   {
+        if (argument[0] != '\0')
+        {
+            send_to_char("PK readiness status removed.\n\r",ch);
+            ch->pcdata->confirm_pk = FALSE;
+            return;
+        }
+        else
+        {
+            if (IS_SET(ch->act,PLR_PROKILLER)) return;
+            SET_BIT(ch->act,PLR_PROKILLER);
+   
+            act("{R$n glows briefly with a red aura, you get the feeling
+you should keep your distance.{x",ch,NULL,NULL,TO_ROOM);
+            send_to_char("{RYou are now a Player Killer, good luck, you'll
+need it.\n\r{x", ch);
+            sprintf(buf2, "%s has become a player killer!", ch->name);
+            do_sendinfo(ch, buf2);
+            return;
+        }
+    }
+
+    if (argument[0] != '\0')
+    {
+        send_to_char("Just type pk. No argument.\n\r",ch);
+        return;
+    }
+            
+    send_to_char("Type pk again to confirm this command.\n\r",ch);
+    send_to_char("WARNING: this command is virtually
+irreversible.\n\r",ch);
+    send_to_char("If you don't know what pk is for read help pk, DON'T
+type this command again.\n\r",ch);
+    send_to_char("Typing pk with an argument will undo pk readiness
+status.\n\r",
+        ch);
+    ch->pcdata->confirm_pk = TRUE;
+}
+
+Now if you want to keep a running tab on how many kills a char is keeping
+add this stuff
+
+/* Merc.h, under char *   bamfin; */
+
+    int                 pk_deaths;
+    int                 pk_kills;
+
+/* Merc.h, under confirm delete;   */
+
+    bool                confirm_pk;
+
+/* Merc.h, under handler.c */
+
+void    pk_extract_char args( ( CHAR_DATA *ch, bool fPull ) );
+
+/* Merc.h, under PLR_ flags */
+
+#define PLR_PROKILLER   (xx)
+
+/* Fight.c at the top with the other voids */
+
+void    pk_kill         args( ( CHAR_DATA *victim ) );
+
+/* Fight.c, right b4 the wiznet prints the char's death, add this...*/
+
+        if (!IS_NPC(ch) && !IS_NPC(victim))
+        {
+                ch->pcdata->pk_kills++;
+                sprintf(buf, "You now have %d pk kills{x\n\r",
+ch->pcdata->pk_kills);
+                send_to_char(buf, ch);
+        }
+
+        if (!IS_NPC(victim) && !IS_NPC(ch))
+        {
+                victim->pcdata->pk_deaths++;
+                sprintf(buf, "You now have %d pk deaths{x\n\r",
+victim->pcdata->pk_deaths);
+                send_to_char(buf, victim);
+        }
+
+
+/* Fight.c in the player doing the killing part */
+
+        /* player doing the killing */
+        else
+        {   
+        
+            if (IS_SET(victim->in_room->room_flags,ROOM_SAFE))
+            {
+                send_to_char("Not in this room.\n\r", ch);
+                return TRUE;
+            }
+            
+            if (!IS_SET(ch->act, PLR_PROKILLER))
+            {
+                send_to_char("You must be {RPK{x if you want to kill
+players.\n\r",ch);
+                return TRUE;
+            }
+        
+            if (!IS_SET(victim->act, PLR_PROKILLER) && victim->level < 6)
+            {
+                send_to_char("You can only attack other {RPK{x
+people.\n\r",ch);
+                return TRUE;
+            }
+            
+            
+            if ((ch->level > victim->level + 30))
+            {
+                send_to_char("Pick on someone your own size.\n\r",ch);
+                return TRUE;
+            }
+            
+        }
+    }
+    return FALSE;
+}
+
+/* Fight.c, down a couple lines */
+
+        /* player doing the killing */
+        else
+        {
+    
+    
+            if (!IS_SET(ch->act,PLR_PROKILLER))
+                return TRUE;
+            
+            if (IS_SET(victim->act,PLR_PROKILLER))
+                return FALSE;
+        
+            if (!IS_SET(victim->act,PLR_PROKILLER))
+                return TRUE;
+            
+            if (ch->level > victim->level + 30)
+                return TRUE;
+        }       
+            
+    }
+    return FALSE;
+}        
+
+/* Save.c */
+
+        fprintf( fp, "PKdi %d\n", ch->pcdata->pk_deaths);
+        fprintf( fp, "PKki %d\n", ch->pcdata->pk_kills);
+
+
+/* Save.c */
+
+            KEY( "PKdi",        ch->pcdata->pk_deaths,  fread_number( fp )
+);
+            KEY( "PKki",        ch->pcdata->pk_kills,   fread_number( fp )
+);
+
+/* Also make sure you save the other stuff if you want to, and you might
+want to make a pardon for pk, or whatever (grin). Also you will probably
+want to add a thing to act_info.c to show on your do_who, for a pk flag.
+If you have any questions just contact me at tim_hoye@hotmail.com or stop
+in at the home of this code at Destiny Mud, mudnet.net port 7000 */
+
+       
+
+
+
+

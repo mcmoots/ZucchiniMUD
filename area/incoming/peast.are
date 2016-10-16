@@ -1,0 +1,1827 @@
+#AREADATA
+Name        Eastern Forests~
+Builders    Lelana~
+VNUMs       14600 14699
+Security    9
+Credits     { All } Lelana  Eastern Forests~
+End
+
+
+
+#MOBILES
+#0
+
+
+
+#OBJECTS
+#0
+
+
+
+#ROOMS
+#14600
+Midgaard path~
+This path runs all around Midgaard, allowing travellers faster access to
+and from the far reaches of the land.  The walls of Midgaard loom high to
+one side, with the entire world layed out before you on the other side.  
+~
+0 4 0
+D1
+~
+~
+0 0 14601
+D3
+~
+~
+0 0 14800
+S
+#14601
+Midgaard path~
+This path runs all around Midgaard, allowing travellers faster access to
+and from the far reaches of the land.  The walls of Midgaard loom high to
+one side, with the entire world layed out before you on the other side.  
+~
+0 0 0
+D1
+~
+~
+0 0 14602
+D3
+~
+~
+0 0 14600
+S
+#14602
+Midgaard path~
+This path runs all around Midgaard, allowing travellers faster access to
+and from the far reaches of the land.  The walls of Midgaard loom high to
+one side, with the entire world layed out before you on the other side.  
+~
+0 0 0
+D1
+~
+~
+0 0 14603
+D3
+~
+~
+0 0 14601
+S
+#14603
+Midgaard path~
+This path runs all around Midgaard, allowing travellers faster access to
+and from the far reaches of the land.  The walls of Midgaard loom high to
+one side, with the entire world layed out before you on the other side.  
+~
+0 0 0
+D2
+~
+~
+0 0 14604
+D3
+~
+~
+0 0 14602
+S
+#14604
+Midgaard path~
+This path runs all around Midgaard, allowing travellers faster access to
+and from the far reaches of the land.  The walls of Midgaard loom high to
+one side, with the entire world layed out before you on the other side.  
+~
+0 0 0
+D0
+~
+~
+0 0 14603
+D2
+~
+~
+0 0 14605
+S
+#14605
+Midgaard path~
+This path runs all around Midgaard, allowing travellers faster access to
+and from the far reaches of the land.  The walls of Midgaard loom high to
+one side, with the entire world layed out before you on the other side.  
+~
+0 0 0
+D0
+~
+~
+0 0 14604
+D2
+~
+~
+0 0 14606
+S
+#14606
+Midgaard path~
+This path runs all around Midgaard, allowing travellers faster access to
+and from the far reaches of the land.  The walls of Midgaard loom high to
+one side, with the entire world layed out before you on the other side.  
+~
+0 0 0
+D0
+~
+~
+0 0 14605
+D2
+~
+~
+0 0 14607
+S
+#14607
+Midgaard path~
+This path runs all around Midgaard, allowing travellers faster access to
+and from the far reaches of the land.  The walls of Midgaard loom high to
+one side, with the entire world layed out before you on the other side.  
+~
+0 0 0
+D0
+~
+~
+0 0 14606
+D2
+~
+~
+0 0 14608
+S
+#14608
+East of Midgaard~
+This path runs all around Midgaard, allowing travellers faster access to
+and from the far reaches of the land.  The walls of Midgaard loom high to
+one side, with the entire world layed out before you on the other side. 
+Adventurers bound for the east will encounter the forest, filled with
+dangerous creatures.  
+To the west, you'll find Midgaard.
+~
+0 0 0
+D0
+~
+~
+0 0 14607
+D1
+~
+~
+0 0 14617
+D2
+~
+~
+0 0 14609
+D3
+~
+~
+0 0 3053
+S
+#14609
+Midgaard path~
+This path runs all around Midgaard, allowing travellers faster access to
+and from the far reaches of the land.  The walls of Midgaard loom high to
+one side, with the entire world layed out before you on the other side.  
+~
+0 0 0
+D0
+~
+~
+0 0 14608
+D2
+~
+~
+0 0 14610
+S
+#14610
+Midgaard path~
+This path runs all around Midgaard, allowing travellers faster access to
+and from the far reaches of the land.  The walls of Midgaard loom high to
+one side, with the entire world layed out before you on the other side.  
+~
+0 0 0
+D0
+~
+~
+0 0 14609
+D2
+~
+~
+0 0 14611
+S
+#14611
+Midgaard path~
+This path runs all around Midgaard, allowing travellers faster access to
+and from the far reaches of the land.  The walls of Midgaard loom high to
+one side, with the entire world layed out before you on the other side.  
+~
+0 0 0
+D0
+~
+~
+0 0 14610
+D2
+~
+~
+0 0 14612
+S
+#14612
+Midgaard path~
+This path runs all around Midgaard, allowing travellers faster access to
+and from the far reaches of the land.  The walls of Midgaard loom high to
+one side, with the entire world layed out before you on the other side.  
+~
+0 0 0
+D0
+~
+~
+0 0 14611
+D2
+~
+~
+0 0 14613
+S
+#14613
+Midgaard path~
+This path runs all around Midgaard, allowing travellers faster access to
+and from the far reaches of the land.  The walls of Midgaard loom high to
+one side, with the entire world layed out before you on the other side.  
+~
+0 0 0
+D0
+~
+~
+0 0 14612
+D3
+~
+~
+0 0 14614
+S
+#14614
+Midgaard path~
+This path runs all around Midgaard, allowing travellers faster access to
+and from the far reaches of the land.  The walls of Midgaard loom high to
+one side, with the entire world layed out before you on the other side.  
+~
+0 0 0
+D1
+~
+~
+0 0 14613
+D3
+~
+~
+0 0 14615
+S
+#14615
+Midgaard path~
+This path runs all around Midgaard, allowing travellers faster access to
+and from the far reaches of the land.  The walls of Midgaard loom high to
+one side, with the entire world layed out before you on the other side.  
+~
+0 0 0
+D1
+~
+~
+0 0 14614
+D3
+~
+~
+0 0 14616
+S
+#14616
+Midgaard path~
+This path runs all around Midgaard, allowing travellers faster access to
+and from the far reaches of the land.  The walls of Midgaard loom high to
+one side, with the entire world layed out before you on the other side.  
+~
+0 0 0
+D1
+~
+~
+0 0 14615
+D3
+~
+~
+0 0 14818
+S
+#14617
+A Forest Path~
+You stand on a narrow path through the Filthy Forest.  All around you,
+trees dripping with slime and goo struggle for survival amongst the
+hard-packed dirt.  The path leads to the west and east.  West would lead you
+to Midgaard.  East will lead you further into the forest.  
+~
+0 0 0
+D1
+~
+~
+0 0 14618
+D3
+~
+~
+0 0 14608
+S
+#14618
+A Forest Path~
+You stand on a narrow path through the Filthy Forest.  All around you,
+trees dripping with slime and goo struggle for survival amongst the
+hard-packed dirt.  The path leads to the west and east.  West would lead you
+to Midgaard.  East will lead you further into the forest.  
+~
+0 0 0
+D1
+~
+~
+0 0 14619
+D3
+~
+~
+0 0 14617
+S
+#14619
+A Forest Path~
+You stand on a narrow path through the Filthy Forest.  All around you,
+trees dripping with slime and goo struggle for survival amongst the
+hard-packed dirt.  The path leads to the west and east.  West would lead you
+to Midgaard.  East will lead you further into the forest.  
+~
+0 0 0
+D1
+~
+~
+0 0 14620
+D3
+~
+~
+0 0 14618
+S
+#14620
+A Forest Path~
+You stand on a narrow path through the Filthy Forest.  All around you,
+trees dripping with slime and goo struggle for survival amongst the
+hard-packed dirt.  The path leads to the west and east.  West would lead you
+to Midgaard.  East will lead you further into the forest.  
+~
+0 0 0
+D1
+~
+~
+0 0 14621
+D3
+~
+~
+0 0 14619
+S
+#14621
+A Forest Path~
+You stand on a narrow path through the Filthy Forest.  All around you,
+trees dripping with slime and goo struggle for survival amongst the
+hard-packed dirt.  The path leads to the west and east.  West would lead you
+to Midgaard.  East will lead you further into the forest.  
+~
+0 0 0
+D1
+~
+~
+0 0 14622
+D3
+~
+~
+0 0 14620
+S
+#14622
+A Forest Path~
+You stand on a narrow path through the Filthy Forest.  All around you,
+trees dripping with slime and goo struggle for survival amongst the
+hard-packed dirt.  The path leads to the north, west, and east.  West would
+lead you to Midgaard.  North andeast will lead you further into the forest. 
+~
+0 0 0
+D0
+~
+~
+0 0 14645
+D1
+~
+~
+0 0 14623
+D3
+~
+~
+0 0 14621
+S
+#14623
+A Forest Path~
+You stand on a narrow path through the Filthy Forest.  All around you,
+trees dripping with slime and goo struggle for survival amongst the
+hard-packed dirt.  The path leads to the west and east.  West would lead you
+to Midgaard.  East will lead you further into the forest.  
+~
+0 0 0
+D1
+~
+~
+0 0 14624
+D3
+~
+~
+0 0 14622
+S
+#14624
+A Forest Path~
+You stand on a narrow path through the Filthy Forest.  All around you,
+trees dripping with slime and goo struggle for survival amongst the
+hard-packed dirt.  The path leads to the west and east.  West would lead you
+to Midgaard.  East will lead you further into the forest.  
+~
+0 0 0
+D1
+~
+~
+0 0 14625
+D3
+~
+~
+0 0 14623
+S
+#14625
+A Forest Path~
+You stand on a narrow path through the Filthy Forest.  All around you,
+trees dripping with slime and goo struggle for survival amongst the
+hard-packed dirt.  The path leads to the west and east.  West would lead you
+to Midgaard.  East and south will lead you further into the forest.  
+~
+0 0 0
+D1
+~
+~
+0 0 14626
+D2
+~
+~
+0 0 14676
+D3
+~
+~
+0 0 14624
+S
+#14626
+A Forest Path~
+You stand on a narrow path through the Filthy Forest.  All around you,
+trees dripping with slime and goo struggle for survival amongst the
+hard-packed dirt.  The path leads to the west and east.  West would lead you
+to Midgaard.  East will lead you further into the forest.  
+~
+0 0 0
+D1
+~
+~
+0 0 14627
+D3
+~
+~
+0 0 14625
+S
+#14627
+A Forest Path~
+You stand on a narrow path through the Filthy Forest.  All around you,
+trees dripping with slime and goo struggle for survival amongst the
+hard-packed dirt.  The path leads to the west and east.  West would lead you
+to Midgaard.  East will lead you further into the forest.  
+~
+0 0 0
+D1
+~
+~
+0 0 14628
+D3
+~
+~
+0 0 14626
+S
+#14628
+A Forest Path~
+You stand on a narrow path through the Filthy Forest.  All around you,
+trees dripping with slime and goo struggle for survival amongst the
+hard-packed dirt.  The path leads to the west and east.  West would lead you
+to Midgaard.  East will lead you further into the forest.  
+~
+0 0 0
+D1
+~
+~
+0 0 14629
+D3
+~
+~
+0 0 14627
+S
+#14629
+A Forest Path~
+You stand on a narrow path through the Filthy Forest.  All around you,
+trees dripping with slime and goo struggle for survival amongst the
+hard-packed dirt.  The path leads to the west and east.  West would lead you
+to Midgaard.  East will lead you further into the forest.  
+~
+0 0 0
+D1
+~
+~
+0 0 14630
+D3
+~
+~
+0 0 14628
+S
+#14630
+A Forest Path~
+You stand on a narrow path through the Filthy Forest.  All around you,
+trees dripping with slime and goo struggle for survival amongst the
+hard-packed dirt.  The path leads to the west and east.  West would lead you
+to Midgaard.  North and south will lead you further into the forest.  
+~
+0 0 0
+D0
+~
+~
+0 0 14631
+D2
+~
+~
+0 0 14646
+D3
+~
+~
+0 0 14629
+S
+#14631
+A Dark Path In The Forest~
+You stand in a very dark section of the Filthy Forest.  Strange sounds
+from unknown creatures assult you from all around.  Though there is enough
+light to see your surroundings, it is impossible to tell exactly where those
+noises are coming from.  The path leads both north and south from here.  
+~
+0 0 0
+D0
+~
+~
+0 0 14632
+D2
+~
+~
+0 0 14630
+S
+#14632
+A Dark Path In The Forest~
+You stand in a very dark section of the Filthy Forest.  Strange sounds
+from unknown creatures assult you from all around.  Though there is enough
+light to see your surroundings, it is impossible to tell exactly where those
+noises are coming from.  The path leads both north and south from here.  
+~
+0 0 0
+D0
+~
+~
+0 0 14633
+D1
+~
+~
+0 0 21000
+D2
+~
+~
+0 0 14631
+S
+#14633
+A Dark Path In The Forest~
+You stand in a very dark section of the Filthy Forest.  Strange sounds
+from unknown creatures assult you from all around.  Though there is enough
+light to see your surroundings, it is impossible to tell exactly where those
+noises are coming from.  The path leads both north and south from here.  
+~
+0 0 0
+D0
+~
+~
+0 0 14634
+D2
+~
+~
+0 0 14632
+S
+#14634
+A Dark Path In The Forest~
+You stand in a very dark section of the Filthy Forest.  Strange sounds
+from unknown creatures assult you from all around.  Though there is enough
+light to see your surroundings, it is impossible to tell exactly where those
+noises are coming from.  The path leads both south and west from here.  
+~
+0 0 0
+D2
+~
+~
+0 0 14633
+D3
+~
+~
+0 0 14635
+S
+#14635
+A Dark Path In The Forest~
+North: 7800 You stand in a very dark section of the Filthy Forest. 
+Strange sounds from unknown creatures assult you from all around.  Though
+there is enough light to see your surroundings, it is impossible to tell
+exactly where those noises are coming from.  The path leads both north,
+east, and west from here.  
+~
+0 0 0
+D0
+~
+~
+0 0 7800
+D1
+~
+~
+0 0 14634
+D3
+~
+~
+0 0 14636
+S
+#14636
+A Dark Path In The Forest~
+You stand in a very dark section of the Filthy Forest.  Strange sounds
+from unknown creatures assult you from all around.  Though there is enough
+light to see your surroundings, it is impossible to tell exactly where those
+noises are coming from.  The path leads both east and west from here.  
+~
+0 0 0
+D1
+~
+~
+0 0 14635
+D3
+~
+~
+0 0 14637
+S
+#14637
+A Dark Path In The Forest~
+You stand in a very dark section of the Filthy Forest.  Strange sounds
+from unknown creatures assult you from all around.  Though there is enough
+light to see your surroundings, it is impossible to tell exactly where those
+noises are coming from.  The path leads both east and west from here.  
+~
+0 0 0
+D1
+~
+~
+0 0 14636
+D3
+~
+~
+0 0 14638
+S
+#14638
+A Dark Path In The Forest~
+You stand in a very dark section of the Filthy Forest.  Strange sounds
+from unknown creatures assult you from all around.  Though there is enough
+light to see your surroundings, it is impossible to tell exactly where those
+noises are coming from.  The path leads both east and west from here.  
+~
+0 0 0
+D1
+~
+~
+0 0 14637
+D3
+~
+~
+0 0 14639
+S
+#14639
+A Dark Path In The Forest~
+You stand in a very dark section of the Filthy Forest.  Strange sounds
+from unknown creatures assult you from all around.  Though there is enough
+light to see your surroundings, it is impossible to tell exactly where those
+noises are coming from.  The path leads both east and west from here.  
+~
+0 0 0
+D1
+~
+~
+0 0 14638
+D3
+~
+~
+0 0 14640
+S
+#14640
+A Dark Path In The Forest~
+You stand in a very dark section of the Filthy Forest.  Strange sounds
+from unknown creatures assult you from all around.  Though there is enough
+light to see your surroundings, it is impossible to tell exactly where those
+noises are coming from.  The path leads both east and west from here.  
+~
+0 0 0
+D1
+~
+~
+0 0 14639
+D3
+~
+~
+0 0 14641
+S
+#14641
+A Dark Path In The Forest~
+North: 6200 You stand in a very dark section of the Filthy Forest. 
+Strange sounds from unknown creatures assult you from all around.  Though
+there is enough light to see your surroundings, it is impossible to tell
+exactly where those noises are coming from.  The path leads both north,
+south, and east from here.  
+~
+0 0 0
+D0
+~
+~
+0 0 6200
+D1
+~
+~
+0 0 14640
+D3
+~
+~
+0 0 14642
+S
+#14642
+A Dark Path In The Forest~
+You stand in a very dark section of the Filthy Forest.  Strange sounds
+from unknown creatures assult you from all around.  Though there is enough
+light to see your surroundings, it is impossible to tell exactly where those
+noises are coming from.  The path leads both south and east from here.  
+~
+0 0 0
+D1
+~
+~
+0 0 14641
+D2
+~
+~
+0 0 14643
+S
+#14643
+A Dark Path In The Forest~
+You stand in a very dark section of the Filthy Forest.  Strange sounds
+from unknown creatures assult you from all around.  Though there is enough
+light to see your surroundings, it is impossible to tell exactly where those
+noises are coming from.  The path leads both north and south from here.  
+~
+0 0 0
+D0
+~
+~
+0 0 14642
+D2
+~
+~
+0 0 14644
+S
+#14644
+A Dark Path In The Forest~
+You stand in a very dark section of the Filthy Forest.  Strange sounds
+from unknown creatures assult you from all around.  Though there is enough
+light to see your surroundings, it is impossible to tell exactly where those
+noises are coming from.  The path leads both north and south from here.  
+~
+0 0 0
+D0
+~
+~
+0 0 14643
+D2
+~
+~
+0 0 14645
+S
+#14645
+A Dark Path In The Forest~
+You stand in a very dark section of the Filthy Forest.  Strange sounds
+from unknown creatures assult you from all around.  Though there is enough
+light to see your surroundings, it is impossible to tell exactly where those
+noises are coming from.  The path leads both north and south from here.  
+~
+0 0 0
+D0
+~
+~
+0 0 14644
+D2
+~
+~
+0 0 14622
+S
+#14646
+A Well Traveled Path In  The Forest~
+You stand on a heavily traveled path through the Filthy Forest.  Light
+can be seen streaming through the various gaps of branches above you.  Small
+puddles of goo have dotted the path here and there, as if someone had
+forgotten to clean up after themselves.  The path continues to the north and
+south.  
+~
+0 0 0
+D0
+~
+~
+0 0 14630
+D2
+~
+~
+0 0 14647
+S
+#14647
+A Well Traveled Path In  The Forest~
+You stand on a heavily traveled path through the Filthy Forest.  Light
+can be seen streaming through the various gaps of branches above you.  Small
+puddles of goo have dotted the path here and there, as if someone had
+forgotten to clean up after themselves.  The path continues to the north and
+south.  
+~
+0 0 0
+D0
+~
+~
+0 0 14646
+D2
+~
+~
+0 0 14648
+S
+#14648
+A Well Traveled Path In  The Forest~
+You stand on a heavily traveled path through the Filthy Forest.  Light
+can be seen streaming through the various gaps of branches above you.  Small
+puddles of goo have dotted the path here and there, as if someone had
+forgotten to clean up after themselves.  The path continues to the north,
+south, and east.  
+~
+0 4 0
+D0
+~
+~
+0 0 14647
+D1
+~
+~
+0 0 14649
+D2
+~
+~
+0 0 2801
+S
+#14649
+A Well Traveled Path In  The Forest~
+You stand on a heavily traveled path through the Filthy Forest.  Light
+can be seen streaming through the various gaps of branches above you.  Small
+puddles of goo have dotted the path here and there, as if someone had
+forgotten to clean up after themselves.  The path continues to the east and
+west.  
+~
+0 0 0
+D1
+~
+~
+0 0 14650
+D3
+~
+~
+0 0 14648
+S
+#14650
+A Well Traveled Path In  The Forest~
+You stand on a heavily traveled path through the Filthy Forest.  Light
+can be seen streaming through the various gaps of branches above you.  Small
+puddles of goo have dotted the path here and there, as if someone had
+forgotten to clean up after themselves.  The path continues to the east and
+west.  
+~
+0 0 0
+D1
+~
+~
+0 0 14651
+D3
+~
+~
+0 0 14649
+S
+#14651
+A Well Traveled Path In  The Forest~
+You stand on a heavily traveled path through the Filthy Forest.  Light
+can be seen streaming through the various gaps of branches above you.  Small
+puddles of goo have dotted the path here and there, as if someone had
+forgotten to clean up after themselves.  The path continues to the east and
+west.  
+~
+0 0 0
+D1
+~
+~
+0 0 14652
+D3
+~
+~
+0 0 14650
+S
+#14652
+A Well Traveled Path In  The Forest~
+You stand on a heavily traveled path through the Filthy Forest.  Light
+can be seen streaming through the various gaps of branches above you.  Small
+puddles of goo have dotted the path here and there, as if someone had
+forgotten to clean up after themselves.  The path continues to the east and
+west.  
+~
+0 0 0
+D1
+~
+~
+0 0 14653
+D3
+~
+~
+0 0 14651
+S
+#14653
+A Well Traveled Path In  The Forest~
+You stand on a heavily traveled path through the Filthy Forest.  Light
+can be seen streaming through the various gaps of branches above you.  Small
+puddles of goo have dotted the path here and there, as if someone had
+forgotten to clean up after themselves.  The path continues to the east and
+west.  
+~
+0 0 0
+D1
+~
+~
+0 0 14654
+D3
+~
+~
+0 0 14652
+S
+#14654
+A Well Traveled Path In  The Forest~
+You stand on a heavily traveled path through the Filthy Forest.  Light
+can be seen streaming through the various gaps of branches above you.  Small
+puddles of goo have dotted the path here and there, as if someone had
+forgotten to clean up after themselves.  The path continues to the south,
+east, and west.  
+~
+0 0 0
+D1
+~
+~
+0 0 14655
+D2
+~
+~
+0 0 5261
+D3
+~
+~
+0 0 14653
+S
+#14655
+A Well Traveled Path In  The Forest~
+You stand on a heavily traveled path through the Filthy Forest.  Light
+can be seen streaming through the various gaps of branches above you.  Small
+puddles of goo have dotted the path here and there, as if someone had
+forgotten to clean up after themselves.  The path continues to the east and
+west.  
+~
+0 0 0
+D1
+~
+~
+0 0 14656
+D3
+~
+~
+0 0 14654
+S
+#14656
+A Well Traveled Path In  The Forest~
+You stand on a heavily traveled path through the Filthy Forest.  Light
+can be seen streaming through the various gaps of branches above you.  Small
+puddles of goo have dotted the path here and there, as if someone had
+forgotten to clean up after themselves.  The path continues to the north,
+east, and west.  
+~
+0 0 0
+D0
+~
+~
+0 0 14665
+D1
+~
+~
+0 0 14657
+D3
+~
+~
+0 0 14655
+S
+#14657
+A Widened Forest Path~
+You stand on a heavily traveled path through the Filthy Forest.  Light
+can be seen streaming through the various gaps of branches above you.  Small
+puddles of goo have dotted the path here and there, as if someone had
+forgotten to clean up after themselves.  The path continues to the east and
+west.  
+~
+0 0 0
+D1
+~
+~
+0 0 14658
+D3
+~
+~
+0 0 14656
+S
+#14658
+A Widened Forest Path~
+You stand on a heavily traveled path through the Filthy Forest.  Light
+can be seen streaming through the various gaps of branches above you.  Small
+puddles of goo have dotted the path here and there, as if someone had
+forgotten to clean up after themselves.  The path continues to the east and
+west.  
+~
+0 0 0
+D1
+~
+~
+0 0 14659
+D3
+~
+~
+0 0 14657
+S
+#14659
+A Widened Forest Path~
+You stand on a heavily traveled path through the Filthy Forest.  Light
+can be seen streaming through the various gaps of branches above you.  Small
+puddles of goo have dotted the path here and there, as if someone had
+forgotten to clean up after themselves.  The path continues to the east and
+west.  
+~
+0 0 0
+D1
+~
+~
+0 0 14660
+D3
+~
+~
+0 0 14658
+S
+#14660
+A Widened Forest Path~
+You stand on a heavily traveled path through the Filthy Forest.  Light
+can be seen streaming through the various gaps of branches above you.  Small
+puddles of goo have dotted the path here and there, as if someone had
+forgotten to clean up after themselves.  The path continues to the south and
+west.  
+~
+0 0 0
+D2
+~
+~
+0 0 14661
+D3
+~
+~
+0 0 14659
+S
+#14661
+A Widened Forest Path~
+You stand on a heavily traveled path through the Filthy Forest.  Light
+can be seen streaming through the various gaps of branches above you.  Small
+puddles of goo have dotted the path here and there, as if someone had
+forgotten to clean up after themselves.  The path continues to the north and
+south.  
+~
+0 0 0
+D0
+~
+~
+0 0 14660
+D2
+~
+~
+0 0 14662
+S
+#14662
+A Widened Forest Path~
+You stand on a heavily traveled path through the Filthy Forest.  Light
+can be seen streaming through the various gaps of branches above you.  Small
+puddles of goo have dotted the path here and there, as if someone had
+forgotten to clean up after themselves.  The path continues to the north and
+south.  
+~
+0 0 0
+D0
+~
+~
+0 0 14661
+D2
+~
+~
+0 0 14663
+D3
+~
+~
+0 0 29350
+S
+#14663
+A Widened Forest Path~
+You stand on a heavily traveled path through the Filthy Forest.  Light
+can be seen streaming through the various gaps of branches above you.  Small
+puddles of goo have dotted the path here and there, as if someone had
+forgotten to clean up after themselves.  The path continues to the north and
+east.  
+~
+0 0 0
+D0
+~
+~
+0 0 14662
+D1
+~
+~
+0 0 14664
+S
+#14664
+A Widened Forest Path~
+You stand on a heavily traveled path through the Filthy Forest.  Light
+can be seen streaming through the various gaps of branches above you.  Small
+puddles of goo have dotted the path here and there, as if someone had
+forgotten to clean up after themselves.  The path continues to the north and
+east.  
+~
+0 0 0
+D1
+~
+~
+0 0 18001
+D3
+~
+~
+0 0 14663
+S
+#14665
+A Well Traveled Path In  The Forest~
+You stand on a heavily traveled path through the Filthy Forest.  Light
+can be seen streaming through the various gaps of branches above you.  Small
+puddles of goo have dotted the path here and there, as if someone had
+forgotten to clean up after themselves.  The path continues to the north and
+south.  
+~
+0 0 0
+D0
+~
+~
+0 0 14666
+D2
+~
+~
+0 0 14656
+S
+#14666
+A Well Traveled Path In  The Forest~
+You stand on a heavily traveled path through the Filthy Forest.  Light
+can be seen streaming through the various gaps of branches above you.  Small
+puddles of goo have dotted the path here and there, as if someone had
+forgotten to clean up after themselves.  The path continues to the north and
+south.  
+~
+0 0 0
+D0
+~
+~
+0 0 14667
+D2
+~
+~
+0 0 14665
+S
+#14667
+A Well Traveled Path In  The Forest~
+You stand on a heavily traveled path through the Filthy Forest.  Light
+can be seen streaming through the various gaps of branches above you.  Small
+puddles of goo have dotted the path here and there, as if someone had
+forgotten to clean up after themselves.  The path continues to the north and
+south.  
+~
+0 0 0
+D0
+~
+~
+0 0 14668
+D2
+~
+~
+0 0 14666
+S
+#14668
+A Well Traveled Path In  The Forest~
+You stand on a heavily traveled path through the Filthy Forest.  Light
+can be seen streaming through the various gaps of branches above you.  Small
+puddles of goo have dotted the path here and there, as if someone had
+forgotten to clean up after themselves.  The path continues to the north and
+south.  
+~
+0 0 0
+D0
+~
+~
+0 0 14669
+D2
+~
+~
+0 0 14667
+S
+#14669
+A Well Traveled Path In  The Forest~
+You stand on a heavily traveled path through the Filthy Forest.  Light
+can be seen streaming through the various gaps of branches above you.  Small
+puddles of goo have dotted the path here and there, as if someone had
+forgotten to clean up after themselves.  The path continues to the south,
+east, and west.  
+~
+0 0 0
+D1
+~
+~
+0 0 14673
+D2
+~
+~
+0 0 14668
+D3
+~
+~
+0 0 14670
+S
+#14670
+A Well Traveled Path In  The Forest~
+You stand on a heavily traveled path through the Filthy Forest.  Light
+can be seen streaming through the various gaps of branches above you.  Small
+puddles of goo have dotted the path here and there, as if someone had
+forgotten to clean up after themselves.  The path continues to the east and
+west.  
+~
+0 0 0
+D1
+~
+~
+0 0 14669
+D3
+~
+~
+0 0 14671
+S
+#14671
+A Well Traveled Path In  The Forest~
+You stand on a heavily traveled path through the Filthy Forest.  Light
+can be seen streaming through the various gaps of branches above you.  Small
+puddles of goo have dotted the path here and there, as if someone had
+forgotten to clean up after themselves.  The path continues to the east and
+west.  
+~
+0 0 0
+D1
+~
+~
+0 0 14670
+D3
+~
+~
+0 0 14672
+S
+#14672
+A Well Traveled Path In  The Forest~
+You stand on a heavily traveled path through the Filthy Forest.  Light
+can be seen streaming through the various gaps of branches above you.  Small
+puddles of goo have dotted the path here and there, as if someone had
+forgotten to clean up after themselves.  The path continues to the north and
+east.  
+~
+0 0 0
+D0
+~
+~
+0 0 1600
+D1
+~
+~
+0 0 14671
+S
+#14673
+A dark small trail~
+You stand on a heavily traveled path through the Filthy Forest.  Light
+can be seen streaming through the various gaps of branches above you.  Small
+puddles of goo have dotted the path here and there, as if someone had
+forgotten to clean up after themselves.  The path continues to the north and
+west.  
+~
+0 0 0
+D0
+~
+~
+0 0 14674
+D3
+~
+~
+0 0 14669
+S
+#14674
+A dark small trail~
+You stand on a heavily traveled path through the Filthy Forest.  Light
+can be seen streaming through the various gaps of branches above you.  Small
+puddles of goo have dotted the path here and there, as if someone had
+forgotten to clean up after themselves.  The path continues to the south and
+east.  
+~
+0 0 0
+D1
+~
+~
+0 0 14675
+D2
+~
+~
+0 0 14673
+S
+#14675
+A dark small trail~
+You stand on a heavily traveled path through the Filthy Forest.  Light
+can be seen streaming through the various gaps of branches above you.  Small
+puddles of goo have dotted the path here and there, as if someone had
+forgotten to clean up after themselves.  The path continues to the north and
+west.  
+~
+0 0 0
+D0
+~
+~
+0 0 1300
+D3
+~
+~
+0 0 14674
+S
+#14676
+An Overgrown Forest Path~
+You stand on an overgrown path in the Filthy Forest.  All along the path,
+various types of plant life have taken root in the ground.  From grass to
+small shrubs, these disgusting plants have made the path their own.  The
+path leads to the north and to the south.  
+~
+0 0 0
+D0
+~
+~
+0 0 14625
+D2
+~
+~
+0 0 14677
+S
+#14677
+An Overgrown Forest Path~
+You stand on an overgrown path in the Filthy Forest.  All along the path,
+various types of plant life have taken root in the ground.  From grass to
+small shrubs, these disgusting plants have made the path their own.  The
+path leads to the north and to the south.  
+~
+0 0 0
+D0
+~
+~
+0 0 14676
+D2
+~
+~
+0 0 14678
+S
+#14678
+An Overgrown Forest Path~
+You stand on an overgrown path in the Filthy Forest.  All along the path,
+various types of plant life have taken root in the ground.  From grass to
+small shrubs, these disgusting plants have made the path their own.  The
+path leads to the north and to the south.  
+~
+0 0 0
+D0
+~
+~
+0 0 14677
+D2
+~
+~
+0 0 14679
+S
+#14679
+An Overgrown Forest Path~
+You stand on an overgrown path in the Filthy Forest.  All along the path,
+various types of plant life have taken root in the ground.  From grass to
+small shrubs, these disgusting plants have made the path their own.  The
+path leads to the north and to the south.  
+~
+0 0 0
+D0
+~
+~
+0 0 14678
+D2
+~
+~
+0 0 14680
+S
+#14680
+An Overgrown Forest Path~
+You stand on an overgrown path in the Filthy Forest.  All along the path,
+various types of plant life have taken root in the ground.  From grass to
+small shrubs, these disgusting plants have made the path their own.  The
+path leads to the north and to the east.  
+~
+0 0 0
+D0
+~
+~
+0 0 14679
+D1
+~
+~
+0 0 14681
+S
+#14681
+An Overgrown Forest Path~
+You stand on an overgrown path in the Filthy Forest.  All along the path,
+various types of plant life have taken root in the ground.  From grass to
+small shrubs, these disgusting plants have made the path their own.  The
+path leads to the east and to the west.  
+~
+0 0 0
+D1
+~
+~
+0 0 14682
+D3
+~
+~
+0 0 14680
+S
+#14682
+An Overgrown Forest Path~
+You stand on an overgrown path in the Filthy Forest.  All along the path,
+various types of plant life have taken root in the ground.  From grass to
+small shrubs, these disgusting plants have made the path their own.  The
+path leads to the east and to the west.  
+~
+0 0 0
+D1
+~
+~
+0 0 14683
+D3
+~
+~
+0 0 14681
+S
+#14683
+An Overgrown Forest Path~
+You stand on an overgrown path in the Filthy Forest.  All along the path,
+various types of plant life have taken root in the ground.  From grass to
+small shrubs, these disgusting plants have made the path their own.  The
+path leads to the south and to the west.  
+~
+0 0 0
+D2
+~
+~
+0 0 14684
+D3
+~
+~
+0 0 14682
+S
+#14684
+An Overgrown Forest Path~
+You stand on an overgrown path in the Filthy Forest.  All along the path,
+various types of plant life have taken root in the ground.  From grass to
+small shrubs, these disgusting plants have made the path their own.  The
+path leads to the north and to the south.  
+~
+0 0 0
+D0
+~
+~
+0 0 14683
+D2
+~
+~
+0 0 14685
+S
+#14685
+An Overgrown Forest Path~
+You stand on an overgrown path in the Filthy Forest.  All along the path,
+various types of plant life have taken root in the ground.  From grass to
+small shrubs, these disgusting plants have made the path their own.  The
+path leads to the north, south, and to the east.  
+~
+0 0 0
+D0
+~
+~
+0 0 14684
+D1
+~
+~
+0 0 2700
+D2
+~
+~
+0 0 14686
+S
+#14686
+An Overgrown Forest Path~
+You stand on an overgrown path in the Filthy Forest.  All along the path,
+various types of plant life have taken root in the ground.  From grass to
+small shrubs, these disgusting plants have made the path their own.  The
+path leads to the north and to the south.  
+~
+0 0 0
+D0
+~
+~
+0 0 14685
+D2
+~
+~
+0 0 14687
+S
+#14687
+An Overgrown Forest Path~
+You stand on an overgrown path in the Filthy Forest.  All along the path,
+various types of plant life have taken root in the ground.  From grass to
+small shrubs, these disgusting plants have made the path their own.  There
+is a sharp decline in this part of the path, allowing you to go down.  Going
+north will lead you further into the forest.  
+~
+0 0 0
+D0
+~
+~
+0 0 14686
+D5
+~
+~
+0 0 14688
+S
+#14688
+An Overgrown Forest Path~
+You stand on an overgrown path in the Filthy Forest.  All along the path,
+various types of plant life have taken root in the ground.  From grass to
+small shrubs, these disgusting plants have made the path their own.  There
+is a sharp incline in this part of the path, allowing you to go up.  Going
+south will lead you further into the forest.  
+~
+0 0 0
+D2
+~
+~
+0 0 14689
+D4
+~
+~
+0 0 14687
+S
+#14689
+An Overgrown Forest Path~
+You stand on an overgrown path in the Filthy Forest.  All along the path,
+various types of plant life have taken root in the ground.  From grass to
+small shrubs, these disgusting plants have made the path their own.  The
+path leads to the north and to the south.  
+~
+0 0 0
+D0
+~
+~
+0 0 14688
+D2
+~
+~
+0 0 14690
+S
+#14690
+An Overgrown Forest Path~
+You stand on an overgrown path in the Filthy Forest.  All along the path,
+various types of plant life have taken root in the ground.  From grass to
+small shrubs, these disgusting plants have made the path their own.  The
+path leads to the north and to the south.  
+~
+0 0 0
+D0
+~
+~
+0 0 14689
+D1
+~
+~
+0 0 30232
+D2
+~
+~
+0 0 14691
+S
+#14691
+An Overgrown Forest Path~
+You stand on an overgrown path in the Filthy Forest.  All along the path,
+various types of plant life have taken root in the ground.  From grass to
+small shrubs, these disgusting plants have made the path their own.  There
+is a sharp decline in this part of the path, allowing you to go down.  Going
+north will lead you further into the forest.  
+~
+0 0 0
+D0
+~
+~
+0 0 14690
+D5
+~
+~
+0 0 14692
+S
+#14692
+An Overgrown Forest Path~
+You stand on an overgrown path in the Filthy Forest.  All along the path,
+various types of plant life have taken root in the ground.  From grass to
+small shrubs, these disgusting plants have made the path their own.  There
+is a sharp incline in this part of the path, allowing you to go up.  Going
+south will lead you further into the forest.  
+~
+0 0 0
+D2
+~
+~
+0 0 14693
+D4
+~
+~
+0 0 14691
+S
+#14693
+An Overgrown Forest Path~
+You stand on an overgrown path in the Filthy Forest.  All along the path,
+various types of plant life have taken root in the ground.  From grass to
+small shrubs, these disgusting plants have made the path their own.  The
+path leads to the north and to the south.  
+~
+0 0 0
+D0
+~
+~
+0 0 14692
+D2
+~
+~
+0 0 14694
+S
+#14694
+An Overgrown Forest Path~
+You stand on an overgrown path in the Filthy Forest.  All along the path,
+various types of plant life have taken root in the ground.  From grass to
+small shrubs, these disgusting plants have made the path their own.  The
+path leads to the north and to the east.  
+~
+0 0 0
+D0
+~
+~
+0 0 14693
+D1
+~
+~
+0 0 14695
+S
+#14695
+An Overgrown Forest Path~
+You stand on an overgrown path in the Filthy Forest.  All along the path,
+various types of plant life have taken root in the ground.  From grass to
+small shrubs, these disgusting plants have made the path their own.  The
+path leads to the east and to the west.  
+~
+0 0 0
+D1
+~
+~
+0 0 14696
+D3
+~
+~
+0 0 14694
+S
+#14696
+An Overgrown Forest Path~
+You stand on an overgrown path in the Filthy Forest.  All along the path,
+various types of plant life have taken root in the ground.  From grass to
+small shrubs, these disgusting plants have made the path their own.  The
+path leads to the east and to the west.  
+~
+0 0 0
+D1
+~
+~
+0 0 14697
+D3
+~
+~
+0 0 14695
+S
+#14697
+An Overgrown Forest Path~
+You stand on an overgrown path in the Filthy Forest.  All along the path,
+various types of plant life have taken root in the ground.  From grass to
+small shrubs, these disgusting plants have made the path their own.  The
+path leads to the south and to the west.  
+~
+0 0 0
+D2
+~
+~
+0 0 14698
+D3
+~
+~
+0 0 14696
+S
+#14698
+An Overgrown Forest Path~
+You stand on an overgrown path in the Filthy Forest.  All along the path,
+various types of plant life have taken root in the ground.  From grass to
+small shrubs, these disgusting plants have made the path their own.  The
+path leads to the north and to the south.  
+~
+0 0 0
+D0
+~
+~
+0 0 14697
+D2
+~
+~
+0 0 14699
+S
+#14699
+An Overgrown Forest Path~
+You stand on an overgrown path in the Filthy Forest.  All along the path,
+various types of plant life have taken root in the ground.  From grass to
+small shrubs, these disgusting plants have made the path their own.  The
+path leads to the north, south, and to the west.  
+~
+0 4 0
+D0
+~
+~
+0 0 14698
+D2
+~
+~
+0 0 9667
+D3
+~
+~
+0 0 14784
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

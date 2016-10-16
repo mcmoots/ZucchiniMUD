@@ -1,0 +1,51 @@
+131             a stoner	munchies
+3005            the thief	steal
+3015         an armadillo	armor
+3060        the cityguard	rescue
+3064            the drunk	vomit
+3400    the bony skeleton	cause light
+3402            the ghoul	detect hidden
+3403           the wraith	blindness
+3405           the priest	dispel evil
+3600   Henry the Gardener	detect evil
+3710        a bush lizard	magic missile
+5201            the lamia	infravision
+5208      the stone golem	stone skin
+5603            the child	fly
+6000  John the Lumberjack	axe
+6115             Shargugh	invisibility
+6116      the elder druid	farsight
+6306     the drone spider	detect poison
+6506            the giant	giant strength
+6509   the dwarven doctor	cure serious
+8816     Hig Hurtenflurst	charm person
+9000         the tridrone	cause serious
+9002       the pentadrone	cause critical
+9208      the Earth Ruler	earthquake
+9209       the Fire Ruler	fire breath
+9211  the Lightning Ruler	lightning breath
+9214             a puddle	create water
+9215              a flame	burning hands
+9216    a small snowflake	chill touch
+9218        a small spark	shocking grasp
+9220         a lava beast	fireproof
+9226       the Blue Flame	fireball
+9229     the Rock Monster	earthquake
+9235 a baby rainbow dragon	color spray
+9533     A nomad merchant	haggle
+9535       the skinny kid	pick lock
+9542 the wandering prophet	bless
+9578          the pegasus	fly
+10468 the Greater Fire Demon	demonfire
+12201        Inigo Montoya	fourth attack
+12207          an R.O.U.S.	frenzy
+12810     A crystal statue	slow
+20933               Merlin	shield
+20934             Morgause	sleep
+21014 Taliesin, the Merlin of Britain	shield
+21015        a faerie lady	faerie fire
+21027             Morguase	curse
+21029             Morgaine	faerie fog
+21031              Viviane	nexus
+29801             a mystic	create spring
+29806             a hermit	harm

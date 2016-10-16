@@ -1,0 +1,2323 @@
+#AREADATA
+Name Heavy Metal~
+Builders Draven~
+VNUMs 8400 8499
+Credits {W[{Y170 200{W] {yDraven   {YHeavy Metal          {x~
+Security 9
+End
+
+
+
+#MOBILES
+#8400
+bird song~
+song bird~
+{CA songbird glides gently on air currents here. {X
+~
+~
+song bird~
+ABW HTV 250 0
+170 0 40d350+13132 32d330+25600 5d64+85 peckb
+-85 -85 -85 -85
+FH JX FT LQ
+stand stand either 100
+AGHVW ACDEFHKP tiny unknown
+#8401
+workman resting~
+{YResting Workman{X~
+{YA workman is here, resting for a little while. {X
+~
+~
+human~
+AB HV 750 0
+175 0 35d525+10208 175d10+100 5d66+87 none
+-99 -99 -99 -33
+HJK H EQ FL
+rest rest none 17500
+AHMV ABCDEFGHIJK medium unknown
+#8402
+digger man~
+{YDigger{X~
+{YA man is here, digging in the ground. {X
+~
+~
+human~
+AF DHV -750 0
+180 0 36d540+10800 180d10+100 5d68+90 pound
+-109 -109 -109 -36
+EFJK Z BE ST
+stand stand male 18000
+AHMV ABCDEFGHIJK medium unknown
+#8403
+dig foreman~
+{YDig Foreman{X~
+{YA dig foreman is here, supervising the work. {X
+~
+~
+human~
+AB HV -900 0
+185 0 37d555+11408 185d10+100 5d70+92 none
+-122 -122 -122 -40
+HJKN ABZ EJM FN
+stand stand male 18500
+AHMV ABCDEFGHIJK large unknown
+#8404
+sand lizard~
+{Gsand lizard{X~
+{GA sand lizard scuttles by. {X
+~
+~
+lizard~
+ABF HVa -450 0
+172 0 34d516+9861 172d10+100 5d65+86 none
+-92 -92 -92 -30
+FHMN AS LQ FI
+stand stand either 1000
+AGXc ACDEFHKQV small unknown
+#8405
+archaeology professor~
+{YArchaeology Professor{X~
+{YThe man behind this dig, Professor Taiban, stands here watching the
+work progress. {X
+~
+~
+human~
+AB HNOV -1000 0
+185 0 37d555+11408 185d10+100 5d70+92 punch
+-120 -120 -120 -40
+EFHJKO RZ ABE LNT
+stand stand male 18500
+AHMV ABCDEFGHIJK large unknown
+#8406
+zombie pilot~
+{GZombie Pilot{X~
+{GThis zombie, once a pilot, has been brought to life by the Locnar. {X
+~
+~
+human~
+ACFO HNOV -1000 0
+190 0 38d570+12033 190d10+100 5d72+95 bite
+-133 -133 -133 -44
+EHIKO LQR IM HJK
+stand stand none 1900
+HMV ABCDEFGHIJK tiny unknown
+F for A
+#8407
+jungle snake~
+{GJ{gu{Gn{gg{Gl{ge {GS{gn{Ga{gk{Ge{X~
+{GA huge snake slithers across the ground. {X
+~
+~
+snake~
+ABF HNOVc -750 0
+188 0 37d564+11781 188d10+100 5d71+94 drain
+-124 -124 -124 -41
+HK LQ LR HIR
+stand stand none 1000
+AGXYc ADEFKLQVX large unknown
+#8408
+sand bug~
+{ysand bug{X~
+{yA sand bug scurries along here. {X
+~
+~
+centipede~
+AB HVZc 600 0
+195 0 39d585+12675 195d10+100 5d74+97 sting
+-141 -141 -141 -47
+FHM KL FI EF
+stand stand female 1000
+ABGO ACK tiny unknown
+#8409
+mutant guard~
+{Gmutant guard{X~
+A {Gmutant guard{X patrols here. 
+~
+~
+human~
+ABF HNOV -750 0
+195 0 39d585+12675 195d10+100 5d74+97 crush
+-144 -144 -144 -48
+EFHJK MQ EHK ABK
+stand stand male 19500
+ABHMV ABCDEFGHIJK medium unknown
+#8410
+mutant soldier~
+{Gmutant soldier{X~
+A {Gmutant soldier{X trains here. 
+~
+~
+human~
+ABFT HNOV -950 0
+197 0 39d591+12936 197d10+100 5d75+98 slash
+-142 -142 -142 -47
+EFHKO GZ FN ABKY
+stand stand male 19700
+ABHMV ABCDEFGHIJK large unknown
+#8411
+leader~
+{GThe Leader{X~
+{GThe Leader{x stands here, commanding his men. 
+~
+~
+human~
+ABT HNOVc -1000 0
+200 0 42d630+14700 210d10+100 5d80+105 pound
+-177 -177 -177 -59
+CEFHJK ABE HILQ CFG
+stand stand male 20000
+ABHMV ABCDEFGHIJK huge unknown
+#8412
+taarna~
+{RT{Wa{Ra{Wr{Rn{Wa{X~
+{WTaarna{x is here, ready for revenge. 
+~
+~
+human~
+ABT HNOV 1000 0
+200 0 42d630+14700 210d10+100 5d80+105 slash
+-177 -177 -177 -59
+BCEFHJK ABE CGM HIK
+stand stand female 20000
+AHMV ABCDEFGHIJK large unknown
+#8413
+globe green~
+{GGreen Globe{X~
+The {Ggreen globe{X floats here. 
+~
+{GYou think that even though you've travelled through the worlds I have
+touched and survived you can best me? I am forever - the beginning and the
+end. None can best me, for I am eternal. {X
+~
+unique~
+ABR HNOVc -1000 0
+220 0 46d690+17633 230d10+100 5d87+115 shbite
+-221 -221 -221 -73
+BGHO ABFHIT NS EJL
+stand stand male 22000
+CEHL E huge unknown
+#8414
+warrior spirit~
+{CA Warrior Spirit{X~
+A {CWarrior Spirit{x is here, guarding the way.
+~
+~
+human~
+AB HV 1000 0
+196 0 39d588+12805 196d10+100 5d74+98 flame
+-140 -140 -140 -46
+FGKV ILQ KN MY
+stand stand male 1960
+HILV ABCDEFGHIJ large unknown
+F for AM
+F par K
+#8415
+zombie bombadeer~
+{GZombie Bombadeer{X~
+A {GZombie Bombadeer{x shambles along here.
+~
+~
+human~
+ABO HJTVZ -750 0
+190 0 38d570+12033 190d10+100 5d72+95 scream
+-133 -133 -133 -44
+BEFK ABIR HIMTX AHJMVY
+stand stand male 1900
+ABCDEFGHIJKMV ABCDEFGHIJK medium unknown
+#0
+
+
+
+#OBJECTS
+#8400
+portal dig archaeology globe~
+{GGlobe of Green Light{X~
+{GA strange globe of green light hovers in the room before you{X~
+~
+portal AG 0
+0 0 A BDEGHN 0
+150 0 0 P
+E
+globe orb light green glow~
+Looking deeply into the green globe of light, the scene of an archaeology
+dig appears. It almost seems as though you could enter this world, almost
+step into the green glow and be there. 
+~
+#8401
+sign wooden~
+{yA wooden sign{X~
+{yAn old wooden sign has been tamped into the ground here.{X~
+~
+trash S 0
+0 0 0 0 0
+0 0 0 P
+E
+sign wooden~
+There seems to be a few words carved into the wood on this sign: "UP THE
+HILL - Shortcut to dig" and "DO NOT ENTER!" With an arrow indicating
+straight ahead. 
+~
+#8402
+portal globe light green~
+{Ga Globe of green light{X~
+{GA strange globe of bright green light hovers here.{X~
+~
+portal AG 0
+0 0 A ABCEFGHN 0
+150 0 0 P
+E
+portal plane antique aircraft~
+{GStaring into the globe of green light, you can almost see a scene of an
+crashed antique airplane of some sort. It almost seems that you could step
+into the vision, somehow enter that world. {X 
+~
+E
+globe~
+{GA globe of green light floats here.  Perhaps it's a portal into another
+world?  Peering into it, you seem to be able to see a jungle filled with
+crashed airplanes.  {x 
+~
+#8403
+sign ~
+sign~
+A {ysign{X of carved wood has been planted in the ground here.~
+~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+E
+sign~
+{yENTER AT YOUR OWN RISK! Property of the Leader{X
+~
+#8404
+portal globe light green~
+{Ga Globe of green light{X~
+{GA strange globe of green light hovers here.{X~
+unknown~
+portal AG 0
+0 0 A DEIN 0
+150 0 0 P
+#8405
+key glowing green kitchen~
+{Ga green, glowing kitchen key{X~
+{GA key to the kitchen, glowing green, lies here.{X~
+unknown~
+key A A
+0 0 0 0 0
+150 5 0 P
+#8406
+key glowing green bedroom~
+{Ga green glowing bedroom key{X~
+{GA key to the bedroom, glowing green, is here.{X~
+unknown~
+key 0 A
+0 0 0 0 0
+0 0 0 P
+#8407
+key cellar green glowing~
+{Ga green glowing cellar key{X~
+{GA key to the cellar, glowing green, is here.{X~
+unknown~
+key A A
+0 0 0 0 0
+150 5 0 P
+#8408
+pickaxe~
+{yA pickaxe{X~
+A {ypickaxe{X is here, sharp and deadly.~
+unknown~
+weapon S AN
+exotic 9 36 pierce D
+180 20 1800 P
+#8409
+pocket watch~
+{YA pocket watch{X~
+A {Ygolden pocket watch{x lies here.~
+unknown~
+armor AB AL
+CDEHIJKLMNOPQRSTUVWXYZabcdef CDEHIJKLMNOPQRSTUVWXYZabcdef CDEHIJKLMNOPQRSTUVWXYZabcdef ABDFHIJKLMNOPQRSTUVWXYZabcdef 0
+185 5 1850 P
+#8410
+half eaten sandwich~
+{GA {Rh{Ya{Wl{Gf{R-{Re{Ya{Wt{Ge{Rn {Ys{Wa{Gn{Rd{Yw{Wi{Gc{Rh{X~
+A {Rh{Ya{Wl{Gf{R-{Re{Ya{Wt{Ge{Rn {Ys{Wa{Gn{Rd{Yw{Wi{Gc{Rh{X lies here.~
+unknown~
+pill G A
+200 'stream of life' 'refresh' 'sanctuary' 'haste'
+175 3 1750 P
+#8411
+hard hat~
+{YA {yH{Ya{yr{Yd {yH{Ya{yt{X~
+A {yH{Ya{yr{Yd {yH{Ya{yt{X is here.~
+unknown~
+armor AB AE
+CDEHIJKLMNOPQRSTUVWXYZabcdef CDEHIJKLMNOPQRSTUVWXYZabcdef CDEHIJKLMNOPQRSTUVWXYZabcdef CDEHIJKLMNOPQRSTUVWXYZabcdef 0
+180 20 1750 P
+#8412
+bomber jacket~
+{yA Bomber Jacket{X~
+A {yBomber Jacket{x is here, covered in colorful patches~
+unknown~
+armor A AK
+ABHIJKLMNOPQRSTUVWXYZabcdef ABHIJKLMNOPQRSTUVWXYZabcdef ABHIJKLMNOPQRSTUVWXYZabcdef ABHIJKLMNOPQRSTUVWXYZabcdef 0
+190 20 1900 P
+A
+1 15
+A
+13 250
+A
+12 250
+A
+14 250
+#8413
+temple key~
+{CA Temple Key{X~
+{CA huge, steel key lies here.{X~
+unknown~
+key A A
+0 0 0 0 0
+150 5 0 P
+#8414
+arm guard terackian~
+{RTerackian Arm Guards{X~
+A set of {Rancient arm guards{x lie here.~
+unknown~
+armor AG AI
+DEFIJKLMNOPQRSTUVWXYZabcdef DEFIJKLMNOPQRSTUVWXYZabcdef DEFIJKLMNOPQRSTUVWXYZabcdef DEFIJKLMNOPQRSTUVWXYZabcdef 0
+195 30 1950 P
+A
+13 350
+A
+12 350
+A
+14 350
+#8415
+boots terackian~
+{RTerackian Battle Boots{x~
+A {Rpair of ancient boots{x lie here.~
+unknown~
+armor AG AG
+BCIJKLMNOPQRSTUVWXYZabcdef BCIJKLMNOPQRSTUVWXYZabcdef BCIJKLMNOPQRSTUVWXYZabcdef BCIJKLMNOPQRSTUVWXYZabcdef 0
+195 25 1950 P
+A
+13 150
+A
+12 150
+A
+14 150
+#8416
+key golden desert~
+{YA golden key{X~
+A {Ygolden key{x for the desert door lies here.~
+unknown~
+key AB A
+0 0 0 0 0
+150 5 1500 P
+#8417
+blade ancients~
+{RB{Wl{Ra{Wd{Re {Wo{Rf {Wt{Rh{We {RA{Wn{Rc{Wi{Re{Wn{Rt{Ws{X~
+An {Rancient Terackian blade{X lies here.~
+unknown~
+weapon A AN
+exotic 9 42 slash CDF
+200 60 2000 P
+A
+17 -350
+A
+14 500
+A
+12 500
+A
+13 500
+#8418
+hand mechanical blade rotating~
+{DA mechanical hand with a rotating blade{X~
+A strange {Dmechanical hand{x lies here; it seems it has a {Dblade{X that {Drotates{x.~
+unknown~
+weapon A AN
+exotic 9 42 slash CDH
+200 60 2000 P
+A
+17 -350
+A
+14 500
+A
+12 500
+A
+13 500
+#8419
+portal locnar globe green~
+{GThe Locnar{X~
+{GThe Locnar is partially buried in the ground here.{x~
+unknown~
+portal 0 0
+0 0 A BCEGHN 0
+0 0 0 P
+#8420
+portal Locnar globe green~
+{Gthe Locnar{X~
+{GThe Locnar is here, glowing green, in the gunner's chair.{x~
+unknown~
+portal 0 0
+0 0 A BCEGHN 0
+0 0 0 P
+#8421
+portal locnar green globe~
+{Gthe Locnar{x~
+{GThe Locnar is here, being worshipped by the mutants and the Leader.{X~
+unknown~
+portal 0 0
+0 0 A BCEGHN 0
+0 0 0 P
+#0
+
+
+
+#ROOMS
+#8400
+{GA windy path through the plains{X~
+This breezy plain seems to stretch as far as the eye can see. Up ahead, a
+small hill rises, and the top of an old house can just be seen rising above
+it's crest. The path extends to the west, further into the plain. 
+~
+0 4 2
+D3
+~
+~
+0 0 8401
+D6
+~
+~
+0 0 19401
+S
+#8401
+{GA bend in the path{X~
+The path takes a turn to the north here. The ground beneath your feet
+begins to rise as you start the trek up and over the small hill. The house
+is still visible over the crest of the hill, this path seeming to lead
+directly to it. 
+~
+0 0 2
+D0
+~
+~
+0 0 8402
+D1
+~
+~
+0 0 8400
+S
+#8402
+{GBottom of the hill{X~
+Beginning to climb this hill, the house on the other side seems to
+disappear. There is a change in the breeze, and a strange scent seems to
+eminate from the north, the direction this path is leading. 
+~
+0 0 2
+D0
+~
+~
+0 0 8403
+D2
+~
+~
+0 0 8401
+S
+#8403
+{GCrest of the hill{X~
+Standing at the top of the hill, the old house below is now fully
+visible. There seems to be something strange about this place... A green
+light eminates from all the windows and doors, and the home looks as though
+it has not been occupied for quite some time. Nonetheless, green-tinged
+smoke rises out of the chimney. 
+~
+0 0 2
+D0
+~
+~
+0 0 8404
+D2
+~
+~
+0 0 8402
+S
+#8404
+{GPath to the old house{X~
+The path has indeed lead to this strange old house. The green light from
+every window, every door now seems to pulse with an almost heartbeat - like
+intensity, and seems to get more and more rapid as you aproach. To the north
+is the porch of the house, and to the south is the path back out of this
+strange place. 
+~
+0 0 2
+D0
+~
+~
+0 0 8405
+D2
+~
+~
+0 0 8403
+S
+#8405
+{yFront porch{X~
+{DA strange feeling fills the air standing on the front porch of this
+old, run-down farmhouse. The acrid smell of the green smoke is all around,
+and there is an almost unnoticable heat eminating from the windows and
+doors. 
+{X
+~
+0 0 0
+D0
+~
+~
+0 0 8406
+D2
+~
+~
+0 0 8404
+S
+#8406
+{yInside the farmhouse{x~
+{DThe inside of this farmhouse is much larger that the outside indicates.
+There are three doors that ring this room, to the west, north and east. The
+floor seems hollow here, indicating perhaps a room below your feet. The
+green glow seems to be all around; it moves from behind one closed door to
+behind another, first west, then north, then east, and back to west again,
+as though in a cycle. 
+{X
+~
+0 0 0
+D0
+~
+~
+2 8405 8408
+D1
+~
+~
+2 8406 8409
+D2
+~
+~
+0 0 8405
+D3
+~
+~
+0 0 8407
+D5
+~
+~
+2 8407 8499
+S
+#8407
+{MFarmhouse sitting room{x~
+The glow inside this room is almost blinding. At it's center is a bright
+ball of green light hovering above the center of the room. Looking around,
+it can be inferred that this was once a sitting room, but all the
+furnishings have been pushed to the edge of the room and smashed. The
+heartbeat-pulse of the light ball is at a frenzied pace now, beating at
+break-neck speed. Looking into it's depths, you can almost see a vision of a
+desert, and what seems to be an archaeologic dig. 
+~
+0 0 0
+D1
+~
+~
+0 0 8406
+D3
+~
+~
+0 0 8410
+S
+#8408
+{YFarmhouse kitchen{X~
+This room appears to have once been the farmhouse's kitchen. The bright
+green ball hovers in the center of the room, pulsing, it seems, in time with
+your heart. Heat from the ball of light, before nearly unnoticable, has
+become uncomfortable, increasing every time you encounter this light.
+Staring into the globe of green light, you can almost see what appears to be
+the interior of some type of antique wartime airplane. 
+~
+0 0 0
+D2
+~
+~
+2 0 8406
+S
+#8409
+{BFarmhouse bedroom{X~
+Bright green light fills the room, the epicenter of it the now-familiar
+pulsing ball of light. Furniture has been slung around the room and
+destroyed, reduced to wooden shrapnel now piled high in the corners. The
+heat eminating from the ball of light has become almost unbearable, but yet
+it's pull is nearly irresistable. In the depths of the globe of light, you
+can almost make out a vision of a desolate desert, criscrossed by
+strange-looking pipes. 
+~
+0 0 0
+D3
+~
+~
+2 0 8406
+S
+#8410
+{YA dusty path{X~
+{yThis path winds through the desert through huge rocks and hills. At
+first look, it seems that this is only a path to nowhere, leading a hapless
+traveller to their doom. However, the sounds of picks on stone can be heard,
+ringing through the vast open spaces of this place. {X 
+~
+0 0 10
+D1
+~
+~
+0 0 8411
+S
+#8411
+{YA bend in the path{X~
+{yHere the path must bend because of a large rock formation blocking the
+way further to the east. A huge spire of rock scratches toward the sky like
+a bony finger reaching from the grave. Sounds of work can still be heard,
+somewhere off to the southeast. {X 
+~
+0 0 10
+D2
+~
+~
+0 0 8412
+D3
+~
+~
+0 0 8410
+S
+#8412
+{YPath around the spire{X~
+{yThe path follows the easiest, most stable route around the natural rock
+spire. The path seems well worn, as though many men have travelled this path
+quite recently. Boot tracks can still be seen in the ever-shifting sand of
+the desert. The sounds of chisels and hammers ring out even louder than
+before, signaling that the operation must be close. {X 
+~
+0 0 10
+D0
+~
+~
+0 0 8411
+D1
+~
+~
+0 0 8413
+S
+#8413
+{YPath around the spire{X~
+{yThe path continues around the spire, leading closer and closer to the
+operation which surely must be close now. Not only can the sounds of work be
+heard, but dust can now be seen rising from the ground somewhere to the
+southeast. {X 
+~
+0 0 10
+D1
+~
+~
+0 0 8414
+D3
+~
+~
+0 0 8412
+S
+#8414
+{YIntersection beneath the spire{X~
+{yJust as the path emerges on the other side of the huge rock formation,
+it diverges, forming three separate paths. One reaches into the distance to
+the east, one to the north, and one to the south. {x 
+~
+0 0 10
+D0
+~
+~
+0 0 8415
+D1
+~
+~
+0 0 8416
+D2
+~
+~
+0 0 8419
+D3
+~
+~
+0 0 8413
+S
+#8415
+{YA dead end{X~
+{yTravelling further around the spire a short way, this path dead ends
+into a wall of solid rock. Small scratch marks can be seen on the rock face
+as though someone or something might have attempted to dig here, but quickly
+gave up. {X 
+~
+0 0 10
+D2
+~
+~
+0 0 8414
+S
+#8416
+{YThe dusty path{X~
+{yThe path, continuing to the west, emerges from the outcropping of rock
+into a vast desert wasteland. The trail continues on to the east, and the
+intersection lies to the west. {X 
+~
+0 0 10
+D1
+~
+~
+0 0 8417
+D3
+~
+~
+0 0 8414
+S
+#8417
+{YThe dusty trail{x~
+{yThe trail is beginning to fade, and away from the protection of the
+outcropping of rock, the heat is becoming quite uncomfortable. The sands
+shift with the wind all around, almost obscuring the path to the east. {X 
+~
+0 0 10
+D1
+~
+~
+0 0 8418
+D3
+~
+~
+0 0 8416
+S
+#8418
+{YEnd of the trail{X~
+{yHere the dusty trail degrades into little more than shifting sand, and
+is impossible to follow. Surveying the landscape, the only option seems to
+be to return to the path and the shelter of the rocks to the west, leaving
+this unbearable heat behind. {X 
+~
+0 0 10
+D3
+~
+~
+0 0 8417
+S
+#8419
+{YTrail to the dig{X~
+{yIt is now clear that this trail leads to some sort of archaeologic dig
+here in the desert. The trail once again splits, forming two clearly marked
+paths; one leading to the south, one leading to the west. {X 
+~
+0 0 10
+D0
+~
+~
+0 0 8414
+D2
+~
+~
+0 0 8420
+D4
+~
+~
+0 0 8429
+S
+#8420
+{YTrail around the dig pit{X~
+{yFrom this point, the trail extends to the east and west around the
+circumfrence of a large pit dug about thirty feet into the ground. Men work
+busily digging the pit ever deeper, perhaps searching for some long-lost
+artifact. {X 
+~
+0 0 10
+D0
+~
+~
+0 0 8419
+D1
+~
+~
+0 0 8421
+D3
+~
+~
+0 0 8427
+S
+#8421
+{YTrail around the pit{X~
+{yThis trail, extending to the south and west, encircles the
+archaeological dig going on here. {X 
+~
+0 0 10
+D2
+~
+~
+0 0 8422
+D3
+~
+~
+0 0 8420
+S
+#8422
+{YTrail around the pit{X~
+{yThis trail, extending to the north and south, encircles the
+archaeological dig going on here. {X 
+~
+0 0 10
+D0
+~
+~
+0 0 8421
+D2
+~
+~
+0 0 8423
+S
+#8423
+{YTrail around the pit{X~
+{yThis trail, extending to the north and west, encircles the
+archaeological dig going on here. {X 
+~
+0 0 10
+D0
+~
+~
+0 0 8422
+D3
+~
+~
+0 0 8424
+S
+#8424
+{YIntersection in the trail around the pit{X~
+{yThe trail leading around the pit breaks off here, leading down into the
+dig's main work area. The trail also continues on to the west and east,
+circling the pit above. {X 
+~
+0 4 10
+D1
+~
+~
+0 0 8423
+D3
+~
+~
+0 0 8425
+D5
+~
+~
+0 0 8428
+S
+#8425
+{YTrail around the pit{X~
+{yThis trail, extending to the north and east, encircles the
+archaeological dig going on here. {X 
+~
+0 0 10
+D0
+~
+~
+0 0 8426
+D1
+~
+~
+0 0 8424
+S
+#8426
+{YTrail around the pit{X~
+{yThis trail, extending to the north and south, encircles the
+archaeological dig going on here. {X 
+~
+0 0 10
+D0
+~
+~
+0 0 8427
+D2
+~
+~
+0 0 8425
+S
+#8427
+{YTrail around the pit{X~
+{yThis trail, extending to the south and east, encircles the
+archaeological dig going on here. {X 
+~
+0 0 10
+D1
+~
+~
+0 0 8420
+D2
+~
+~
+0 0 8426
+S
+#8428
+{YAmong the workers in the pit{X~
+{yDown here in the dig's main pit, the activity is quite heavy. Men
+scurry to and fro with barrows full of dirt, while still other men dig
+furiously into the ground beneath them. Perhaps they are in search of some
+object of great power or value? {X 
+~
+0 0 10
+D4
+~
+~
+0 0 8424
+S
+#8429
+{YShortcut path{X~
+{yThis path looks much like the previous one. To the east the path
+appears to disappear behind another large rock formation. The sounds of the
+workmen can still be heard somewhere to the southeast. From the sound of it,
+the operation must be fairly large. {X 
+~
+0 0 10
+D3
+~
+~
+0 0 8430
+D5
+~
+~
+0 0 8419
+S
+#8430
+{YShortcut path{X~
+{yThe sign said this was a shortcut to the dig, but the path seems to get
+longer and longer. Further to the east you can see that the path seems to
+turn to the south, around a large outcropping of rock. Perhaps just beyond
+that is the dig... {X 
+~
+0 0 10
+D1
+~
+~
+0 0 8429
+D3
+~
+~
+0 0 8431
+S
+#8431
+{YShortcut to the dig{X~
+{yThe shortcut path turns to the south here, between two large rock
+formations. Sand has build up between these rocks, only to be beaten hard by
+the many feet which must have passed through here. {X 
+~
+0 0 10
+D1
+~
+~
+0 0 8430
+D2
+~
+~
+0 0 8432
+S
+#8432
+{YShortcut to the dig{X~
+{yThis "shortcut" seems to get longer and longer as you proceed on
+towards the sounds of the workmen that still ring out somewhere to the
+southeast. Sand from the desert and dust kicked up by the workmen billow all
+around, but the path is still quite visible and well worn. {X 
+~
+0 0 10
+D0
+~
+~
+0 0 8431
+D2
+~
+~
+0 0 8433
+S
+#8433
+{YShortcut to the dig{X~
+{yThe path continues on, once again turning. This time, the path takes a
+turn to the west. The sounds of the dig still ring out from the southeast,
+and turning out into the desert seems pointless. Some shortcut this turned
+out to be. {X 
+~
+0 0 10
+D0
+~
+~
+0 0 8432
+D3
+~
+~
+0 0 8434
+S
+#8434
+{YShortcut to the dig{x~
+{yThe path again makes a turn here, this time to the south. Perhaps the
+sign wasn't wrong after all, and the dig is just up ahead. {X 
+~
+0 0 10
+D1
+~
+~
+0 0 8433
+D2
+~
+~
+0 0 8435
+S
+#8435
+{YShortcut to the dig{X~
+{yThe path turns to the east here, and there is hope. Great billows of
+dust and sand can be seen to the east, and now, intermingled with the sounds
+of the pickaxes and hammers, the sounds of men conversing as they work can
+be heard. Grunts and pieces of conversation drift up on the wind,
+penetrating the din of the other activities. {X 
+~
+0 0 10
+D0
+~
+~
+0 0 8434
+D1
+~
+~
+0 0 8436
+S
+#8436
+{YShortcut to the dig{X~
+{yThe dig is closer now - you can just see the lip of the pit within
+which the men are working. Sounds drift up from the pit, and the billows of
+dust fill the air, making it difficult to breathe. {X 
+~
+0 0 10
+D1
+~
+~
+0 0 8437
+D3
+~
+~
+0 0 8435
+S
+#8437
+{YShortcut to the pit{X~
+{yThe far wall of the dig's pit is fully visible now; the pit itself
+looks to be about thirty feet deep, and the workmen are busily making it
+deeper. Strangely, the far lip of the pit seems to be much lower than your
+position. {X 
+~
+0 0 10
+D0
+~
+~
+0 0 8438
+D3
+~
+~
+0 0 8436
+S
+#8438
+{YEnd of the shortcut trail{X~
+{yArriving at this spot, it is clear that this path has been a waste of
+time; it simply ends at a ramshackle deck, perhaps used to look down into
+the pit and supervise the dig's progress. There is no way to access the pit
+itself here, and the only thing to do now is to return the way you came. {X 
+~
+0 0 10
+D2
+~
+~
+0 0 8437
+S
+#8439
+{DAboard a strange plane{X~
+You stand in the body of a strange, antique airplane. The smell of death
+seems to permeate this place; the air is stale and reeks of not only rotting
+flesh, but rotting vegetation as well. 
+~
+0 0 0
+D1
+~
+~
+0 0 8440
+D3
+~
+~
+0 0 8441
+S
+#8440
+{DAirplane cockpit{X~
+{wThe scene in this cockpit is a grisly one. Two skeletal pilots still
+man their posts, sitting an eternal wartime vigil. Upon closer examination,
+it appears one pilot has been shot in the head while the other has a large
+hole in his flight jacket; from the looks of it, both men died almost
+instantly, perhaps causing this crash. {X 
+~
+0 0 0
+D3
+~
+~
+0 0 8439
+S
+#8441
+{DMidsection of the aircraft{X~
+{wLarge holes perforate the body of the plane here, and three more
+skeletons, the plane's crew, litter the thin walkway. Small pieces of flesh
+still cling to a few of the skeletons; the smell of death, sweet and heady,
+still lingers in the air here. The floor underfoot sounds hollow, and there
+seems to be a small ring and trapdoor, perhaps leading to the bombadeer's
+bay. A large hole opens up in the body of the plane to the south, allowing a
+clear view of the wing. {X 
+~
+0 0 0
+D1
+~
+~
+0 0 8439
+D2
+~
+~
+0 0 8446
+D3
+~
+~
+0 0 8442
+D5
+~
+~
+0 0 8445
+S
+#8442
+{DTail section of the plane{X~
+{wThis section of the plane, too, is riddled with bulled holes, and the
+smell of smoke still hangs in the air, perhaps from a long-ago engine
+blowout while in battle. To the west is a door, perhaps leading to the tail
+gunner's turret. {X 
+~
+0 0 0
+D1
+~
+~
+0 0 8441
+D3
+~
+~
+0 0 8443
+S
+#8443
+{DBelow the plane's tail{X~
+{wLooking up, the expase of the plane's tail can be seen, a hollow shell
+of a once grand fighting machine. The floor below sounds hollow underfoot,
+and you find another trapdoor there, perhaps leading to the tail gunner's
+turret. {X 
+~
+0 0 0
+D1
+~
+~
+0 0 8442
+D5
+~
+~
+0 0 8444
+S
+#8444
+{DTail gunner's turret{X~
+{wThis tiny glass compartment was perhaps the enemy's first target on
+this antique aircraft. The gunner still remains, skeletal, strapped into his
+seat; a spectre manning an impotent weapon of war. The bottom half of the
+glass bulb must have been torn off in the crash, and the tail gunner's legs
+along with it. Vegetation now grows in from the ground below, twining itself
+in and out of the gunner's exposed ribs and skull. {X 
+~
+0 0 0
+D4
+~
+~
+0 0 8443
+S
+#8445
+{DBombadeer Bay{X~
+{wThis large compartment at one time housed a large payload of powerful
+bombs. Probably dropped in fear of a crash rather than at any target, the
+bay now stands empty and desolate. There are no skeletons here, however; the
+men manning this post were probably sucked out of the aircraft during the
+plane's rapid descent. The only thing here now is the musty smell of rotting
+vegetation. {X 
+~
+0 0 0
+D4
+~
+~
+0 0 8441
+S
+#8446
+{DWing of the B-17{X~
+Now outside, the entire of the plane may be viewed. Judging from it's
+size, it appears to be a World War II B-17 Bomber; the words "Crazy Eights"
+have been painted in black, white and red near the nose of the plane. 
+~
+0 0 3
+D0
+~
+~
+0 0 8441
+D5
+~
+~
+0 0 8447
+S
+#8447
+{gOn the jungle floor{X~
+The jungle here is quite overgrown, and looking around, things in the
+shadows seem to move, slither back and forth in the darkness. It seems you
+are standing in a circular clearing with the forest vegetation thick all
+around you. Peering more intently into the shadows, familiar shapes emerge
+from the blackness. It seems there are other planes here, as well, making
+this spot in the jungle a kind of "airplane graveyard". 
+~
+0 0 3
+D1
+~
+~
+0 0 8454
+D2
+~
+~
+0 0 8455
+D3
+~
+~
+0 0 8448
+D4
+~
+~
+0 0 8446
+S
+#8448
+{gNorthwestern side of the clearing{X~
+Being this close to the shadows is uncomfortable, and the smell of death
+still permeates the air. Glints of metal and flashes of white can be seen in
+the shadows and through the windows of the crashed airplanes that surround
+this clearing. 
+~
+0 0 3
+D1
+~
+~
+0 0 8447
+D2
+~
+~
+0 0 8449
+S
+#8449
+{gWestern side of the clearing{X~
+There seems to be a way to the center of this clearing to the east of
+here. This edge of the clearing has become slightly overgrown, the jungle
+beginning to reclaim what is hers. Low moans can be heard somewhere in the
+distance, and the eerie quiet is sometimes punctuated by a blood-curdling
+scream from deep in the jungle. {X 
+~
+0 0 3
+D0
+~
+~
+0 0 8448
+D1
+~
+~
+0 0 8455
+D2
+~
+~
+0 0 8450
+S
+#8450
+{gSouthwest corner of the clearing{X~
+This corner of the clearing is not much different from the rest of this
+place with the exception of a small path leading to the west into the dense
+undergrowth of the jungle and, presumably, deeper into the airplane
+graveyard. 
+~
+0 0 3
+D0
+~
+~
+0 0 8449
+D1
+~
+~
+0 0 8451
+D3
+Peering down the path into the darkness and shadows, airplane noses and
+tails can be seen jutting into the path, making travel appear treacherous. 
+~
+~
+0 0 8461
+S
+#8451
+{gSouthern part of the clearing{X~
+In this part of the jungle, the growth seems to have exploded. Vines
+snake in and out of broken airplanes and bodies alike, creating almost a
+sense of a loving embrace for all eternity. A small path leads to the north
+to the center of the clearing, and another small path leads to the south,
+deeper into the jungle. 
+~
+0 0 3
+D0
+~
+~
+0 0 8455
+D1
+~
+~
+0 0 8452
+D2
+~
+~
+0 0 8467
+D3
+~
+~
+0 0 8450
+S
+#8452
+{gSoutheast corner of the clearing{X~
+This corner is quite unremarkable. There seems to have been a small fire
+build here once, perhaps by a lone survivor of one of the many crashes which
+seemed to have occurred here. The shadows encroach over the little firepit
+in an ironic twist; a place where light and heat was once generated is now
+cold, damp and in shadow, quite possibly for all eternity. 
+~
+0 0 3
+D0
+~
+~
+0 0 8453
+D3
+~
+~
+0 0 8451
+S
+#8453
+{gEastern side of the clearing{X~
+Shadows fall long on this side of the clearing, signaling that the time
+must be near dawn. The dark green vegetation seems to reach from the shadows
+and pick at whatever may pass. A small path leads to the center of the
+clearing here. 
+~
+0 0 3
+D0
+~
+~
+0 0 8454
+D2
+~
+~
+0 0 8452
+D3
+~
+~
+0 0 8455
+S
+#8454
+{gNortheastern side of the clearing{X~
+This corner of the clearing is quite unremarkable. The animals of the
+jungle seemed to have quieted, making you uneasy as you survey your
+surroundings. Somewhere far off in the distance you can hear the cry of a
+bird... Or is that a scream? A small path leads off further to the east,
+deeper into the jungle. 
+~
+0 0 3
+D1
+~
+~
+0 0 8456
+D2
+~
+~
+0 0 8453
+D3
+~
+~
+0 0 8447
+S
+#8455
+{CCenter of the clearing{X~
+{wThis seems to be the only safe place to be found so far in this
+graveyard of airplanes. All around, the horrors of death, war and the jungle
+surround this clearing. Strange noises eminate from everywhere, and the
+occasional audible screamed or mumbled word can be heard above the low
+murmur. The sweet scent of decaying flesh and vegetation permeates the air.
+However, you can finally see the blue sky, and tell yourself that perhaps
+there is hope somewhere within this tangle of death and destruction. 
+{x
+~
+0 4 3
+D0
+~
+~
+0 0 8447
+D1
+~
+~
+0 0 8453
+D2
+~
+~
+0 0 8451
+D3
+~
+~
+0 0 8449
+S
+#8456
+{GJungle path{X~
+This thickly overgrown path is hardly discernable from the clearing, but
+by carefully choosing your footing, you should be able to negotiate the
+vines and roots that cross and tangle the path. The broken nose of an
+airplane sticks out from the south, further hampering the navigation of the
+path. 
+~
+0 0 3
+D0
+~
+~
+0 0 8457
+D3
+~
+~
+0 0 8454
+S
+#8457
+{GPath through the jungle{X~
+The path grows steadily more tangled the deeper it penetrates into the
+jungle. To the west, an airplane's broken wing breaks the veil of the
+jungle, and you must stumble over it to proceed on. Moaning eminates from
+the jungle around you, seeming to come from everywhere and nowhere all at
+once. 
+~
+0 0 3
+D1
+~
+~
+0 0 8458
+D2
+~
+~
+0 0 8456
+S
+#8458
+{GDeeper into the jungle{X~
+The jungle seems to close in upon the path, enclosing it in a tunnel of
+fetid vegitation. Deep in the shadows, the atmosphere is damp and rank,
+smelling of slowly rotting corpses and stale water. In the midst of the path
+lay a few mildewed bones, perhaps the legs of some poor soul. 
+~
+0 0 3
+D2
+~
+~
+0 0 8459
+D3
+~
+~
+0 0 8457
+S
+#8459
+{GDeep in the jungle{X~
+The sky is completely blacked out by the canopy of trees overhead, making
+the navigation of this path more and more difficult. The shadows deepen up
+ahead, and the moans and screams have become more piercing, even louder than
+before. Imagination runs wild, and the path continues on. 
+~
+0 1 3
+D0
+~
+~
+0 0 8458
+D1
+~
+~
+0 0 8460
+S
+#8460
+{GDead end{X~
+The path seems to continue on, however, a crashed plane and the jungle
+have provided a wall to ward off further adventuring. The only choice now is
+to return to the clearing. 
+~
+0 0 3
+D3
+~
+~
+0 0 8459
+S
+#8461
+{GPath in the jungle{X~
+This path leads into the foreboding shadows of the jungle, away from the
+clearing. Moans and screams fill the air, and the scent of rotting
+vegetation assaults the senses of smell and taste. The tail section of a
+crashed airplane towers high above you, it's nose driven deep into the
+ground as a result of a high velocity impact. 
+~
+0 0 3
+D1
+~
+~
+0 0 8450
+D3
+~
+~
+0 0 8462
+S
+#8462
+{GBend in the jungle path{X~
+The path is forced to make a turn here, as a plane has crashed and is
+blocking the way further west. It seems almost as though this path has been
+travelled quite a bit, but not by animals; you can just make out deep
+impressions of bootprints in the thick, black mud. 
+~
+0 0 3
+D1
+~
+~
+0 0 8461
+D2
+~
+~
+0 0 8463
+S
+#8463
+{GDeeper into the jungle{X~
+Something seems even more strange in this part of the jungle. Bones lay
+flung about haphazardly across the path, almost as if a wild beast has torn
+apart some poor soul's body and left the pieces to rot where they lay. You
+note a slight movement out of the corner of your eye and a sudden increase
+in the intensity of the constant moaning. Perhaps this isn't the best spot
+in the jungle to be... {X 
+~
+0 0 3
+D0
+~
+~
+0 0 8462
+D1
+~
+~
+0 0 8464
+S
+#8464
+{GDeeper in the jungle{X~
+The vegetation on all sides has become stifling, and the humidity deep in
+the jungle is almost unbearable. Another crashed plane flanks the path, this
+one almost fully intact, including the pilot. In bright red letters across
+the plane's nose, the words "Helga's Honey" are barely visible beneath the
+rust. The glass-topped cockpit has been shattered by some long-ago bullet,
+and the body of the pilot has long since lost all flesh. His white bones
+stand out starkly against the blackness of the shadows. 
+~
+0 0 3
+D2
+~
+~
+0 0 8465
+D3
+~
+~
+0 0 8463
+S
+#8465
+{GPath in the jungle{X~
+Small rays of sunlight penetrate the dense canopy of trees overhead,
+illuminating patches of the path. Bootprints emerge from the thick, viscous
+mud, signifying the presence of someone? Something? Else in this place. Yet
+another crashed airplane flanks the path, this time to the north. 
+~
+0 0 3
+D0
+~
+~
+0 0 8464
+D1
+~
+~
+0 0 8466
+S
+#8466
+{GPath in the jungle{X~
+The path seems a little clearer here, not so many roots and vines choking
+the passage made by the forest growth. A few bones stick out from the
+undergrowth, gleaming like polished ivory in the darkness of the shadows. 
+~
+0 0 3
+D1
+~
+~
+0 0 8467
+D3
+~
+~
+0 0 8465
+S
+#8467
+{GIntersection in the jungle{X~
+The path comes to an abrupt end at this intersection, where it splits to
+form a north and south path. To the north, the shadows seem to lighten, and
+the sunlight is able to filter through the canopy of trees. To the south,
+the path delves further into the shadows of the jungle. 
+~
+0 0 3
+D0
+~
+~
+0 0 8451
+D2
+~
+~
+0 0 8468
+D3
+~
+~
+0 0 8466
+S
+#8468
+{GDeeper into the jungle{x~
+Here the path almost disappears into the undergrowth, but a few careful
+steps easily reclaims your intended path. Two huge limbs from two ancient
+trees criscross the path. Looking up, these limbs seem to gently cradle the
+shell of a rusted airplane, brought to it's final resting place by a lack of
+wings. 
+~
+0 0 3
+D0
+~
+~
+0 0 8467
+D1
+~
+~
+0 0 8469
+S
+#8469
+{GDeeper in the jungle{X~
+Roots, branches and tangled vines forbid passage east, and the trail
+curves to the north here. Moans, screams and howls assault the senses, and
+the fedit scent of rotting flesh and vegitation permeates the air. The
+strange taste of corroding metal also hangs in the air. Even that which was
+never alive seems to be dying in this jungle. 
+~
+0 0 3
+D0
+~
+~
+0 0 8470
+D3
+~
+~
+0 0 8468
+S
+#8470
+{GFurther into the jungle{X~
+The sky is completely blacked out by the canopy of trees overhead, making
+the navigation of this path more and more difficult. The shadows deepen up
+ahead, and the moans and screams have become more piercing, even louder than
+before. Imagination runs wild, and the path continues on. 
+~
+0 0 3
+D1
+~
+~
+0 0 8471
+D2
+~
+~
+0 0 8469
+S
+#8471
+{GA dead end{X~
+The path seems to continue on, however, a crashed plane and the jungle
+have provided a wall to ward off further adventuring. The only choice now is
+to return back the way you came. 
+~
+0 0 3
+D3
+~
+~
+0 0 8470
+S
+#8472
+{yOn the Sandsea Plains{X~
+{YCracked earth and irrigation pipes stretch as far as the eye can see.
+The horizion is occasionaly broken by a chasm or finger of rock far off in
+the distance, but by far the surroundings are mostly flat. In the distance
+to the north, it seems a beautiful temple of steel, glass and stone can be
+seen. {X 
+~
+0 0 10
+D0
+~
+~
+0 0 8473
+S
+#8473
+{yIrrigation pipe trail{X~
+{YThe best route to the temple seems to be to follow the irrigation pipes
+heading north. Peering in that direction, the ground seems to be even and
+unbroken, and the pipes seem to lead all the way to the temple's front door.
+{X 
+~
+0 0 10
+D0
+~
+~
+0 0 8474
+D2
+~
+~
+0 0 8472
+S
+#8474
+{yIrrigation pipe trail{X~
+{YThe pipe and the trail take an abrupt turn to the east here, leading on
+toward the temple in the distance. To the northeast, you can see the
+legendary Dragon's Gate, the first test required to enter the Terackian
+Temple. {x
+~
+0 0 10
+D1
+~
+~
+0 0 8475
+D2
+~
+~
+0 0 8473
+S
+#8475
+{yEntrance to the Dragon's Gate{X~
+{YThe pipe makes another turn, this time to the north through the heart
+of the Dragon's Gate, the first test one faces while entering the Terackian
+Temple. Titled "The gate of fear with perserverance", the Dragon's Gate is
+the huge skeleton of an ancient dragon who, from looking at his skeletorn,
+simply laid down here and died. The entrance to the gate is through the
+dragon's monsterous jaws. {x
+~
+0 0 10
+D0
+~
+~
+0 0 8476
+D3
+~
+~
+0 0 8474
+S
+#8476
+{yWithin the Dragon's Gate{X~
+{YNow beneath the dragon's neck section, it becomes clear why this gate
+is called "fear and perservearance". Although the dragon's skeleton itself
+isn't frightening, but the visions that are conjured in your mind's eye are.
+Everything you have ever feared in your life is coming back now; a lesser
+man would turn and run. {x
+~
+0 0 10
+D0
+~
+~
+0 0 8477
+D2
+~
+~
+0 0 8475
+S
+#8477
+{yLeaving the Dragon's Gate{X~
+{YNow beneath the dragon's ribs, the visions are the stronger yet. Sights
+and sounds assault your senses, but it is all in your mind; the phantoms of
+your past have not appeared to wreak havoc and destroy you. It is merely the
+ancient Terackians insuring that their treasures and knowledge don't fall
+into the hands of a weak man or woman. {x
+~
+0 0 10
+D0
+~
+~
+0 0 8478
+D2
+~
+~
+0 0 8476
+S
+#8478
+{yBefore the Terackian Temple steps{X~
+{YSteps lead down into the main complex of the Terackian Temple, into the
+dark, cool shadows. The desert day is still, and from somewhere far below,
+the sounds of gently falling water can be heard, like an ancient song being
+sang over and over. {x
+~
+0 0 10
+D2
+~
+~
+0 0 8477
+D5
+~
+~
+0 0 8479
+S
+#8479
+{yJust within the temple{x~
+{YJust inside the temple walls, the heat of the desert has abated a
+little. To the north, a set of huge metal doors block the way, hearalding
+the entrance to the grand temple. Legend says treasures beyond compare can
+be found in the temple's depths, treasures available to those worthy to use
+them. {x
+~
+0 0 0
+D0
+~
+~
+1 8413 8480
+D3
+~
+~
+0 0 8485
+S
+#8480
+{yBefore the temple doors{x~
+{YHere, the atmosphere is much cooler. The ancient trail, worn by
+thousands of years of hopeful men and women, lead up to and under the door,
+signaling that some have made it this far in the past. However, how many
+made it much farther than that is yet to be seen. {X
+~
+0 0 0
+D0
+~
+~
+0 0 8481
+D2
+~
+~
+1 0 8479
+S
+#8481
+{WStairway to Honor{X~
+{wWhat a magnificent place! Polished white marble steps lead down into a
+still, tranquil pool of sparkling blue water. As you peer into the depths of
+the pool of water, you can see it's bottom far below, and see many bodies of
+those not worthy to receive the gifts of the Terackians. Across the water,
+perched on a small island of even more polished marble, is a huge statue of
+a woman on her knees, raising a sword in worship to some ancient god. On
+either side of her, smaller statues of dragon hatchlings, the mount of
+choice of the ancient Terackians, raise their heads in song to the same god.
+{X
+~
+0 0 0
+D2
+~
+~
+0 0 8480
+D5
+~
+~
+0 0 8482
+S
+#8482
+{BPool of Truth{X~
+{CStepping into this clear, cool pool of water is like stepping into pure
+molten silver. The water itself is heavy, and the pool lives up to it's name
+as you begin to swim across it's depths. They say the truth is a heavy
+weight to bear... And you can feel the full force of truth weighing you down
+with each stroke. {X
+~
+0 0 6
+D0
+~
+~
+0 0 8483
+D4
+~
+~
+0 0 8481
+S
+#8483
+{BPool of Truth{x~
+{CAs you approach the center isle, your limbs become heavier and heavier.
+As you swim, you think of all the ancient Terackians who made this swim
+without trouble, so filled with honor and truth. Strength renewed by this
+thought, you swim on, closer to your goal. {X
+~
+0 0 6
+D2
+~
+~
+0 0 8482
+D4
+~
+~
+0 0 8484
+S
+#8484
+Defend or Avenge?~
+{WStepping foot upon the marble isle, a great, booming voice fills the
+space; "Adventurer... You have made it thus far. The trials have not
+overcome you, and you have proved yourself worthy of the Gifts of the
+Terackians. You are fearless, honorable, and able to accept the truth. The
+only question that remains is... When you are no longer able to defend, will
+you avenge?" {X
+~
+0 0 0
+S
+#8485
+{DDoor to the desert{x~
+{wStanding before a large set of metal doors, the sounds of the desert
+winds can be heard beyond them. Glory waits beyond the doors in the hot,
+wild desert. {X
+~
+0 0 0
+D1
+~
+~
+0 0 8479
+D3
+~
+~
+2 8416 8486
+S
+#8486
+{yA path through the desert{X~
+{YDesert winds whip up great clouds of dust on this path, sometimes
+obscuring it. Peering far into the distance, the ultimate goal can be seen;
+a great, black compound of stone and iron. Leaving the beautiful temple
+behind, the Terackian spirit demands revenge; revenge which lies across the
+desert. {X
+~
+0 0 10
+D1
+~
+~
+2 0 8485
+D3
+~
+~
+0 0 8487
+S
+#8487
+{yBend in the desert path{x~
+{YHere the path through the desert turns, making it lead to the east and
+north. Sand billows up in great, choking clouds, making it difficult to stay
+on the path at times. {X
+~
+0 0 10
+D0
+~
+~
+0 0 8488
+D1
+~
+~
+0 0 8486
+S
+#8488
+{yPath through the desert{X~
+{YHuge rock formations provide a little shade on this desolate path,
+alleviating some of the heat and wind from the open desert. The spires of
+rock seem to reach up and scratch the sky, defying the very gods that put
+them there. {X
+~
+0 0 10
+D0
+~
+~
+0 0 8489
+D2
+~
+~
+0 0 8487
+S
+#8489
+{yBend in the path through the desert{X~
+{YHere the path through the desert turns, making it lead to the west and
+south. Sand billows up in great, choking clouds, making it difficult to stay
+on the path at times. {X
+~
+0 0 10
+D2
+~
+~
+0 0 8488
+D3
+~
+~
+0 0 8490
+S
+#8490
+{yEnd of the desert path{X~
+Here, the hard, dirt path through the desert becomes a cobbled walkway,
+signaling an end to the trek through the desert. Up ahead the huge compound
+can be seen, looking like a black scar on the face of the desert. The
+building, made of black steel and stone, almost seems to have a green tinge
+to it, as though it is glowing from within. {X
+~
+0 0 10
+D1
+~
+~
+0 0 8489
+D2
+~
+~
+0 0 8491
+S
+#8491
+{DApproach to the Compound{X~
+{wThis seems like quite a hostile place; the sounds of metal against
+metal ringing out in combat fill the air, and the stench of sulfur stings
+the nose. Above the din of combat, the gruff voice of a man barking commands
+can be heard. {X
+~
+0 0 10
+D0
+~
+~
+0 0 8490
+D3
+~
+~
+0 0 8492
+S
+#8492
+{DApproach to the compound{X~
+{wThe voices are getting louder now, and the commands more harsh. A
+chasm, cut by nature, extends deep into the gound here. Peering over it's
+edge, men can be seen in formation, perhaps 10 or so, marching around what
+can be assumed is a training ground. {X
+~
+0 0 10
+D1
+~
+~
+0 0 8491
+D3
+~
+~
+0 0 8493
+S
+#8493
+{DFinal approach{X~
+{wHere the path turns to a set of stairs to the north, leading down into
+the chasm. The steps are quite unstable, and creak with any pressure at all.
+{x
+~
+0 0 10
+D1
+~
+~
+0 0 8492
+D5
+~
+~
+0 0 8494
+S
+#8494
+{DBottom of the chasm{X~
+{wNow at the bottom of the chasm, the wind has quieted somewhat, and the
+leader of what appears to be a rag-tag regimen of soldiers are barking
+orders. In the echoes of the chasm, you can only understand a few of the
+words. Strangely, bot the men and their leader have skin tinted slightly
+green. {X 
+~
+0 0 10
+D0
+~
+~
+0 0 8495
+D4
+~
+~
+0 0 8493
+S
+#8495
+{DFloor of the chasm{X~
+{wThe floor of the chasm is dusty and dirty, and trampled by the feet of
+soldiers over the years. However, many new bootprints can bee seen here,
+signifying that the chasm is still used as a training ground today. {X
+~
+0 0 10
+D2
+~
+~
+0 0 8494
+D3
+~
+~
+0 0 8496
+S
+#8496
+{DFloor of the chasm{X~
+{wThe floor of the chasm is dusty and dirty, and trampled by the feet of
+soldiers over the years. However, many new bootprints can bee seen here,
+signifying that the chasm is still used as a training ground today. {X
+~
+0 0 10
+D1
+~
+~
+0 0 8495
+D3
+~
+~
+0 0 8497
+S
+#8497
+{DFloor of the chasm{x~
+{wThe floor of the chasm is dusty and dirty, and trampled by the feet of
+soldiers over the years. However, many new bootprints can bee seen here,
+signifying that the chasm is still used as a training ground today. {X
+~
+0 0 10
+D0
+~
+~
+0 0 8498
+D1
+~
+~
+0 0 8496
+S
+#8498
+{DThe Leader's Position{X~
+{wHere is where the leader of these troops stands during his regimen's
+exercise and training. A small stone podium rises up from the chasm floor, a
+natural phenomenon changed by man. {X
+~
+0 0 10
+D2
+~
+~
+0 0 8497
+S
+#8499
+{DCellar of the old house{X~
+{GThe glow is strongest here. It seems the green globe has taken somewhat
+of a human shape; there is nothing left of the root cellar that used to
+occupy this space. Broken jars of vegetables and upset baskets of grain
+litter the floor, as though the globe were angered. {X
+~
+0 0 0
+D4
+~
+~
+2 0 8406
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+D 0 8406 0 2
+D 0 8406 1 2
+D 0 8406 5 2
+D 0 8408 2 2
+D 0 8409 3 2
+D 0 8479 0 2
+D 0 8480 2 2
+D 0 8485 3 2
+D 0 8486 1 2
+D 0 8499 4 2
+M 0 8400 1 8400 1
+M 0 8400 1 8402 1
+M 0 8400 1 8404 1
+O 0 8400 0 8407
+O 0 8402 0 8408
+O 0 8404 0 8409
+M 0 8404 1 8411 1
+M 0 8404 1 8415 1
+M 0 8401 1 8416 1
+G 0 8410 0
+M 0 8404 2 8418 2
+O 0 8401 0 8419
+M 0 8403 1 8422 1
+E 0 8411 0 6
+M 0 8403 1 8425 3
+E 0 8411 0 6
+M 0 8403 1 8427 3
+E 0 8411 0 6
+M 0 8402 4 8428 4
+E 0 8408 0 16
+O 0 8419 0 8428
+O 0 8419 0 8428
+M 0 8401 1 8431 1
+M 0 8404 1 8434 1
+M 0 8401 1 8436 1
+M 0 8404 1 8437 1
+M 0 8405 1 8438 1
+G 0 8405 0
+E 0 8409 0 13
+M 0 8406 15 8440 2
+E 0 8412 0 12
+O 0 8420 0 8443
+M 0 8407 1 8448 1
+M 0 8406 2 8450 2
+M 0 8415 1 8455 1
+G 0 8406 0
+M 0 8407 1 8457 10
+M 0 8406 15 8460 2
+E 0 8412 0 12
+M 0 8407 1 8461 1
+M 0 8407 1 8465 1
+M 0 8407 1 8469 1
+M 0 8406 2 8471 2
+M 0 8408 1 8474 1
+M 0 8408 1 8475 1
+M 0 8408 1 8477 1
+M 0 8414 2 8478 2
+G 0 8413 0
+O 0 8414 0 8484
+O 0 8415 0 8484
+O 0 8416 0 8484
+M 0 8408 1 8487 1
+M 0 8408 1 8488 1
+M 0 8408 1 8490 1
+O 0 8403 0 8491
+M 0 8409 1 8491 3
+M 0 8409 1 8492 3
+M 0 8409 1 8493 3
+M 0 8410 2 8495 6
+M 0 8410 2 8496 6
+M 0 8410 1 8497 1
+M 0 8410 1 8497 1
+M 0 8411 1 8498 1
+E 0 8418 0 16
+G 0 8407 0
+M 0 8412 1 8498 1
+G 0 8407 0
+E 0 8417 0 16
+O 0 8421 0 8498
+M 0 8413 1 8499 1
+S
+
+
+
+#SHOPS
+8400 0 0 0 0 0 100 100 0 23
+0
+
+
+
+#MOBPROGS
+#0
+
+#$

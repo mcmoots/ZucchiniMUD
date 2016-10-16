@@ -1,0 +1,2440 @@
+#AREADATA
+Name        Ancient Greece~
+Builders    Aegis~
+VNUMs       25300 25499
+Security    1
+Credits     None~
+End
+
+
+
+#MOBILES
+#25300
+guard athens~
+An Athenian Guard~
+An Athenian guard stands here sternly but greets you with a smile.
+~
+~
+eyrien~
+ABGR TVa 200 0
+115 200 1d1+3000 10d10+400 20d20+100 none
+-20 -20 -20 -20
+CDFKR ABE 0 C
+stand stand male 1000
+AHMV ABCDEFGHIJK medium none
+#25301
+Parthanon Guard~
+A Guard of the Parthanon~
+(no long description)
+~
+~
+eyrien~
+ABGT TVa 200 0
+115 200 1d1+4000 0d0+0 18d20+100 none
+-20 -20 -20 -20
+CDFKR ABE 0 C
+stand stand male 4000
+AHMV ABCDEFGHIJK medium none
+#25302
+cerebus guard maze~
+Cerebus the Maze Guardian~
+The maze is guarded by a large three headed dog here.
+~
+~
+eyrien~
+ABGT TVa 200 0
+115 200 1d1+4000 0d0+0 18d20+100 none
+-20 -20 -20 -20
+ACDFKR ABE 0 C
+stand stand male 4000
+AHMV ABCDEFGHIJK medium none
+#25303
+Minoan Citizen Crete~
+A Minoan citizen of Crete~
+(no long description)
+~
+~
+eyrien~
+ABGT TVa 200 0
+115 200 1d1+4000 0d0+0 18d20+100 none
+-20 -20 -20 -20
+CDFKR ABE 0 C
+stand stand male 4000
+AHMV ABCDEFGHIJK medium none
+#25304
+Sophocles Philosopher ~
+Sophocles the Great Philosopher~
+(no long description)
+~
+~
+eyrien~
+ABGT TVa 200 0
+115 200 1d1+4000 0d0+0 18d20+100 none
+-20 -20 -20 -20
+CDFKR ABE 0 C
+stand stand male 4000
+AHMV ABCDEFGHIJK medium none
+#25305
+no name~
+(no short description)~
+(no long description)
+~
+~
+human~
+A 0 0 0
+0 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand none 0
+AHMV ABCDEFGHIJK medium none
+#25306
+no name~
+(no short description)~
+(no long description)
+~
+~
+human~
+A 0 0 0
+0 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand none 0
+AHMV ABCDEFGHIJK medium none
+#25307
+no name~
+(no short description)~
+(no long description)
+~
+~
+human~
+A 0 0 0
+0 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand none 0
+AHMV ABCDEFGHIJK medium none
+#25308
+no name~
+(no short description)~
+(no long description)
+~
+~
+human~
+A 0 0 0
+0 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand none 0
+AHMV ABCDEFGHIJK medium none
+#25309
+no name~
+(no short description)~
+(no long description)
+~
+~
+human~
+A 0 0 0
+0 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand none 0
+AHMV ABCDEFGHIJK medium none
+#25310
+no name~
+(no short description)~
+(no long description)
+~
+~
+human~
+A 0 0 0
+0 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand none 0
+AHMV ABCDEFGHIJK medium none
+#0
+
+
+
+#OBJECTS
+#25300
+portal athens~
+a Glowing Portal to Athens~
+A portal hovers here leading to Athens.~
+none~
+portal A 0
+0 0 0 CGIJNO 0
+1 16960 0 P
+#0
+
+
+
+#ROOMS
+#25300
+The Entrance To The Ancient Maze Island Of Crete~
+Here is the great labyrinth of Crete.  Maybe Socrates is in the center of
+this maze.  Maybe he can help you find your way back or at least supply some
+answers.  
+~
+0 8196 0
+D0
+~
+~
+0 0 25360
+D2
+~
+~
+0 0 25301
+S
+#25301
+The Maze Of Ancient Crete~
+The Dark gray granite walls funnel in almost every direction.  The maze
+just continues to go on and on with seemingly no end.  If it were not for
+the dimly lit candles on the walls, navigation would be almost impossible. 
+The maze continues to the north and east.  
+~
+0 8192 0
+D0
+~
+~
+0 0 25300
+D1
+~
+~
+0 0 25302
+S
+#25302
+The Maze Of Ancient Crete~
+The Dark gray granite walls funnel in almost every direction.  The maze
+just continues to go on and on with seemingly no end.  If it were not for
+the dimly lit candles on the walls, navigation would be almost impossible. 
+The maze goes east and west here.  
+~
+0 8192 0
+D1
+~
+~
+0 0 25303
+D3
+~
+~
+0 0 25301
+S
+#25303
+The Maze Of Ancient Crete~
+The Dark gray granite walls funnel in almost every direction.  The maze
+just continues to go on and on with seemingly no end.  If it were not for
+the dimly lit candles on the walls, navigation would be almost impossible. 
+The maze goes east and west here.  
+~
+0 8192 0
+D1
+~
+~
+0 0 25304
+D3
+~
+~
+0 0 25302
+S
+#25304
+The Maze Of Ancient Crete~
+The Dark gray granite walls funnel in almost every direction.  The maze
+just continues to go on and on with seemingly no end.  If it were not for
+the dimly lit candles on the walls, navigation would be almost impossible. 
+The maze splits three ways to the north, east, and south here.  
+~
+0 8192 0
+D0
+~
+~
+0 0 25316
+D1
+~
+~
+0 0 25305
+D3
+~
+~
+0 0 25303
+S
+#25305
+The Maze Of Ancient Crete~
+The Dark gray granite walls funnel in almost every direction.  The maze
+just continues to go on and on with seemingly no end.  If it were not for
+the dimly lit candles on the walls, navigation would be almost impossible. 
+The maze travels east and west here.  
+~
+0 8192 0
+D1
+~
+~
+0 0 25306
+D3
+~
+~
+0 0 25304
+S
+#25306
+The Maze Of Ancient Crete~
+The Dark gray granite walls funnel in almost every direction.  The maze
+just continues to go on and on with seemingly no end.  If it were not for
+the dimly lit candles on the walls, navigation would be almost impossible. 
+The maze travels east and west here.  
+~
+0 8192 0
+D1
+~
+~
+0 0 25307
+D3
+~
+~
+0 0 25305
+S
+#25307
+The Maze Of Ancient Crete~
+The Dark gray granite walls funnel in almost every direction.  The maze
+just continues to go on and on with seemingly no end.  If it were not for
+the dimly lit candles on the walls, navigation would be almost impossible. 
+The maze makes a turn to the north and east here.  
+~
+0 8192 0
+D0
+~
+~
+0 0 25308
+D3
+~
+~
+0 0 25306
+S
+#25308
+The Maze Of Ancient Crete~
+The Dark gray granite walls funnel in almost every direction.  The maze
+just continues to go on and on with seemingly no end.  If it were not for
+the dimly lit candles on the walls, navigation would be almost impossible. 
+The maze splits to the west, north, and south here.  
+~
+0 8192 0
+D0
+~
+~
+0 0 25310
+D2
+~
+~
+0 0 25307
+D3
+~
+~
+0 0 25309
+S
+#25309
+A Sharp Turn In The Maze~
+The Dark gray granite walls funnel in almost every direction.  The maze
+just continues to go on and on with seemingly no end.  If it were not for
+the dimly lit candles on the walls, navigation would be almost impossible. 
+The maze turns sharply to the north here.  
+~
+0 8192 0
+D0
+~
+~
+0 0 25311
+D1
+~
+~
+0 0 25308
+S
+#25310
+The Maze Of Ancient Crete~
+The Dark gray granite walls funnel in almost every direction.  The maze
+just continues to go on and on with seemingly no end.  If it were not for
+the dimly lit candles on the walls, navigation would be almost impossible. 
+The maze splits to the west, north, and south here.  
+~
+0 8192 0
+D0
+~
+~
+0 0 25312
+D2
+~
+~
+0 0 25308
+D3
+~
+~
+0 0 25311
+S
+#25311
+The Maze Of Ancient Crete~
+The Dark gray granite walls funnel in almost every direction.  The maze
+just continues to go on and on with seemingly no end.  If it were not for
+the dimly lit candles on the walls, navigation would be almost impossible. 
+The maze splits to the west, east, and south here.  
+~
+0 8192 0
+D1
+~
+~
+0 0 25310
+D2
+~
+~
+0 0 25309
+D3
+~
+~
+0 0 25318
+S
+#25312
+The Maze Of Ancient Crete~
+The Dark gray granite walls funnel in almost every direction.  The maze
+just continues to go on and on with seemingly no end.  If it were not for
+the dimly lit candles on the walls, navigation would be almost impossible. 
+The maze splits to the west, north, and south here.  
+~
+0 8192 0
+D0
+~
+~
+0 0 25314
+D2
+~
+~
+0 0 25310
+D3
+~
+~
+0 0 25313
+S
+#25313
+A Sharp Turn In The Maze~
+The Dark gray granite walls funnel in almost every direction.  The maze
+just continues to go on and on with seemingly no end.  If it were not for
+the dimly lit candles on the walls, navigation would be almost impossible. 
+The maze turns sharply to the north here.  
+~
+0 8192 0
+D0
+~
+~
+0 0 25315
+D1
+~
+~
+0 0 25312
+S
+#25314
+A Dead End~
+The maze stops abruptly into a stone wall here.  The wrong way has beed
+travelled.  Turning around would be a good idea right now.  
+~
+0 8192 0
+D2
+~
+~
+0 0 25312
+S
+#25315
+A Ladder Leading To The Crest Of The Maze Wall~
+There is a ladder here in the darkness that leads to the top of the maze
+wall.  This could be a short cut of some sort or maybe just the intended
+path to certain death.  
+~
+0 8192 0
+D2
+~
+~
+0 0 25313
+D4
+~
+~
+0 0 25335
+S
+#25316
+The Maze Of Ancient Crete~
+The Dark gray granite walls funnel in almost every direction.  The maze
+just continues to go on and on with seemingly no end.  If it were not for
+the dimly lit candles on the walls, navigation would be almost impossible. 
+The maze goes east and south here.  
+~
+0 8192 0
+D1
+~
+~
+0 0 25317
+D2
+~
+~
+0 0 25304
+S
+#25317
+The Maze Of Ancient Crete~
+The Dark gray granite walls funnel in almost every direction.  The maze
+just continues to go on and on with seemingly no end.  If it were not for
+the dimly lit candles on the walls, navigation would be almost impossible. 
+The maze goes north and west here.  
+~
+0 8192 0
+D0
+~
+~
+0 0 25318
+D3
+~
+~
+0 0 25316
+S
+#25318
+The Maze Of Ancient Crete~
+The Dark gray granite walls funnel in almost every direction.  The maze
+just continues to go on and on with seemingly no end.  If it were not for
+the dimly lit candles on the walls, navigation would be almost impossible. 
+The maze turns east and south here.  
+~
+0 8192 0
+D1
+~
+~
+0 0 25311
+D2
+~
+~
+0 0 25317
+S
+#25319
+Deep in The Maze Of Crete~
+The maze has an awful stench down here and is very, very dark.  There are
+no candles in this section.  Cobwebs line the walls and the darkness makes
+it hard to navigate.  
+~
+0 8192 0
+D3
+~
+~
+0 0 25320
+D4
+~
+~
+0 0 25349
+S
+#25320
+Deep in The Maze Of Crete~
+The maze has an awful stench down here and is very, very dark.  There are
+no candles in this section.  Cobwebs line the walls and the darkness makes
+it hard to navigate.  The maze goes east and south here.  
+~
+0 8192 0
+D1
+~
+~
+0 0 25319
+D2
+~
+~
+0 0 25321
+S
+#25321
+Deep in The Maze Of Crete~
+The maze has an awful stench down here and is very, very dark.  There are
+no candles in this section.  Cobwebs line the walls and the darkness makes
+it hard to navigate.  The maze goes north west and east here.  
+~
+0 8192 0
+D0
+~
+~
+0 0 25320
+D1
+~
+~
+0 0 25322
+D3
+~
+~
+0 0 25322
+S
+#25322
+Deep in The Maze Of Crete~
+The maze has an awful stench down here and is very, very dark.  There are
+no candles in this section.  Cobwebs line the walls and the darkness makes
+it hard to navigate.  The maze goes in every direction here.  
+~
+0 8192 0
+D0
+~
+~
+0 0 25323
+D1
+~
+~
+0 0 25321
+D2
+~
+~
+0 0 25323
+D3
+~
+~
+0 0 25321
+S
+#25323
+Deep in The Maze Of Crete~
+The maze has an awful stench down here and is very, very dark.  There are
+no candles in this section.  Cobwebs line the walls and the darkness makes
+it hard to navigate.  The maze goes north west and south here.  
+~
+0 8192 0
+D0
+~
+~
+0 0 25322
+D2
+~
+~
+0 0 25322
+D3
+~
+~
+0 0 25324
+S
+#25324
+A Sharp Turn~
+The maze has an awful stench down here and is very, very dark.  There are
+no candles in this section.  Cobwebs line the walls and the darkness makes
+it hard to navigate.  The maze turns sharply to the north here.  
+~
+0 8192 0
+D0
+~
+~
+0 0 25325
+D1
+~
+~
+0 0 25323
+S
+#25325
+Nearing The End Of The Maze~
+The end of the maze is near!  There is a large, locked stone door to the
+east and a tomb of some sort to the north.  Maybe the key is in the tomb.  
+~
+0 8192 0
+D0
+~
+~
+0 0 25326
+D1
+~
+~
+4 0 25327
+D2
+~
+~
+0 0 25324
+S
+#25326
+The Tomb The Great King Tectamus~
+This is the tomb of Tectamus, one of the great kings of Crete.  The tomb
+is well lit and there are beautiful fresco paintings on every wall.  
+~
+0 8192 0
+D2
+~
+~
+0 0 25325
+S
+#25327
+Nearing The End Of The Maze~
+The end of the maze is near!  There is a large, locked stone door to the
+east and a tomb of some sort to the north.  Maybe the key is in the tomb.  
+~
+0 8192 0
+D0
+~
+~
+0 0 25328
+D1
+~
+~
+4 0 25329
+D3
+~
+~
+4 0 25325
+S
+#25328
+The Tomb Of The Great King Asterius III~
+This is the tomb of Asterius III, one of the great kings of Crete.  The
+tomb is well lit and there are beautiful fresco paintings on every wall.  
+~
+0 8192 0
+D2
+~
+~
+0 0 25327
+S
+#25329
+Even Closer To The End Of The Maze!~
+The end of the maze is near!  There is a large, locked stone door to the
+east and a tomb of some sort to the north.  Maybe the key is in the tomb.  
+~
+0 8192 0
+D0
+~
+~
+0 0 25330
+D1
+~
+~
+4 0 25331
+D3
+~
+~
+4 0 25327
+S
+#25330
+The Tomb Of The Great King Minos I~
+This is the tomb of Minos I, one of the great kings of Crete.  The tomb
+is well lit and there are beautiful fresco paintings on every wall.  
+~
+0 8192 0
+D2
+~
+~
+0 0 25329
+S
+#25331
+The Last Door Of The Maze Of Crete~
+The end of the maze is near!  There is a large, locked stone door to the
+east and a tomb of some sort to the north.  Maybe the key is in the tomb.  
+~
+0 8192 0
+D0
+~
+~
+0 0 25332
+D1
+~
+~
+4 0 25333
+D3
+~
+~
+4 0 25329
+S
+#25332
+The Tomb Of The Great King Deucalion~
+This is the tomb of Deucalion, one of the great kings of Crete.  The tomb
+is well lit and there are beautiful fresco paintings on every wall.  
+~
+0 8192 0
+D2
+~
+~
+0 0 25331
+S
+#25333
+The End Of The Maze!~
+Finally, the end of the maze has been reached.  Fresh air can be smelled
+and the stench is fading.  There is a set of large stairs leading up to a
+temple of some sort here.  
+~
+0 8192 0
+D0
+~
+~
+0 0 25334
+D3
+~
+~
+4 0 25331
+D4
+~
+~
+0 0 25350
+S
+#25334
+The Tomb Of Idomeneus I~
+~
+0 8192 0
+D2
+~
+~
+0 0 25333
+S
+#25335
+On Top Of The Maze~
+The entire maze can be seen up here but it is still very confusing.  The
+stone walkway on top of the wall is very narrow here.  In the distant center
+of the maze, a temple of some sort can be seen.  
+~
+0 8192 0
+D2
+~
+~
+0 0 25341
+D3
+~
+~
+0 0 25336
+D5
+~
+~
+0 0 25315
+S
+#25336
+On Top Of The Maze~
+The entire maze can be seen up here but it is still very confusing.  The
+stone walkway on top of the wall is very narrow here.  In the distant center
+of the maze, a temple of some sort can be seen.  The walls extend in every
+direction here.  
+~
+0 8192 0
+D0
+~
+~
+0 0 25337
+D1
+~
+~
+0 0 25335
+D2
+~
+~
+0 0 25339
+D3
+~
+~
+0 0 25341
+S
+#25337
+On Top Of The Maze~
+The entire maze can be seen up here but it is still very confusing.  The
+stone walkway on top of the wall is very narrow here.  In the distant center
+of the maze, a temple of some sort can be seen.  The walls extend in every
+direction here.  
+~
+0 8192 0
+D0
+~
+~
+0 0 25340
+D1
+~
+~
+0 0 25338
+D2
+~
+~
+0 0 25336
+D3
+~
+~
+0 0 25342
+S
+#25338
+A Turn In The Wall~
+The entire maze can be seen up here but it is still very confusing.  The
+stone walkway on top of the wall is very narrow here.  In the distant center
+of the maze, a temple of some sort can be seen.  The wall goes north and
+west here.  
+~
+0 8192 0
+D0
+~
+~
+0 0 25339
+D1
+~
+~
+0 0 25339
+D3
+~
+~
+0 0 25337
+S
+#25339
+On Top Of The Maze~
+The entire maze can be seen up here but it is still very confusing.  The
+stone walkway on top of the wall is very narrow here.  In the distant center
+of the maze, a temple of some sort can be seen.  
+~
+0 8192 0
+D0
+~
+~
+0 0 25336
+D2
+~
+~
+0 0 25338
+D3
+~
+~
+0 0 25338
+S
+#25340
+A Dead End~
+There is a dead end here.  It is very dark and turning around might be a
+very good idea right now.  This might be another trap.  Looks like a small
+secret door is on the eastern wall.  
+~
+0 8192 0
+D1
+~
+~
+1 0 25342
+D2
+~
+~
+0 0 25337
+S
+#25341
+On Top Of The Maze~
+The entire maze can be seen up here but it is still very confusing.  The
+stone walkway on top of the wall is very narrow here.  In the distant center
+of the maze, a temple of some sort can be seen.  The wall goes north and
+east here.  
+~
+0 8192 0
+D0
+~
+~
+0 0 25335
+D1
+~
+~
+0 0 25336
+S
+#25342
+On Top Of The Maze~
+The entire maze can be seen up here but it is still very confusing.  The
+stone walkway on top of the wall is very narrow here.  In the distant center
+of the maze, a temple of some sort can be seen.  
+~
+0 8192 0
+D0
+~
+~
+0 0 25343
+D1
+~
+~
+0 0 25337
+D2
+~
+~
+0 0 25343
+D3
+~
+~
+1 0 25340
+S
+#25343
+On Top Of The Maze~
+The entire maze can be seen up here but it is still very confusing.  The
+stone walkway on top of the wall is very narrow here.  In the distant center
+of the maze, a temple of some sort can be seen.  The wall travels to the
+north, south, and west here.  
+~
+0 8192 0
+D0
+~
+~
+0 0 25342
+D2
+~
+~
+0 0 25342
+D3
+~
+~
+0 0 25344
+S
+#25344
+On Top Of The Maze~
+The entire maze can be seen up here but it is still very confusing.  The
+stone walkway on top of the wall is very narrow here.  In the distant center
+of the maze, a temple of some sort can be seen.  
+~
+0 8192 0
+D1
+~
+~
+0 0 25343
+D2
+~
+~
+0 0 25345
+S
+#25345
+On Top Of The Maze~
+The entire maze can be seen up here but it is still very confusing.  The
+stone walkway on top of the wall is very narrow here.  In the distant center
+of the maze, a temple of some sort can be seen.  
+~
+0 8192 0
+D0
+~
+~
+0 0 25344
+D2
+~
+~
+0 0 25346
+S
+#25346
+A Sharp Turn~
+The entire maze can be seen up here but it is still very confusing.  The
+stone walkway on top of the wall is very narrow here.  In the distant center
+of the maze, a temple of some sort can be seen.  
+~
+0 8192 0
+D0
+~
+~
+0 0 25345
+D3
+~
+~
+0 0 25347
+S
+#25347
+Another Sharp Turn~
+The entire maze can be seen up here but it is still very confusing.  The
+stone walkway on top of the wall is very narrow here.  In the distant center
+of the maze, a temple of some sort can be seen.  
+~
+0 8192 0
+D0
+~
+~
+0 0 25348
+D1
+~
+~
+0 0 25346
+S
+#25348
+On Top Of The Maze~
+The entire maze can be seen up here but it is still very confusing.  The
+stone walkway on top of the wall is very narrow here.  In the distant center
+of the maze, a temple of some sort can be seen.  The wall continues to the
+north and south and a ladder can be seen to the north.  
+~
+0 8192 0
+D0
+~
+~
+0 0 25349
+D2
+~
+~
+0 0 25347
+S
+#25349
+A Ladder Leading Back Down Into The Maze!~
+There is a ladder here leading back down into the maze.  The maze at this
+point looks very dark and dangerous.  
+~
+0 8192 0
+D2
+~
+~
+0 0 25348
+D5
+~
+~
+0 0 25319
+S
+#25350
+A Huge Column Of Stairs~
+There is a huge set of gray granite stairs leading up to a temple.  The
+entire island and the sea surrounding it can be seen from here.  
+~
+0 8192 0
+D4
+~
+~
+0 0 25351
+D5
+~
+~
+0 0 25333
+S
+#25351
+A Huge Column Of Stairs~
+There is a huge set of gray granite stairs leading up to a temple.  The
+entire island and the sea surrounding it can be seen from here.  
+~
+0 8192 0
+D4
+~
+~
+0 0 25352
+D5
+~
+~
+0 0 25350
+S
+#25352
+A Huge Column Of Stairs~
+There is a huge set of gray granite stairs leading up to a temple.  The
+entire island and the sea surrounding it can be seen from here.  
+~
+0 8192 0
+D4
+~
+~
+0 0 25353
+D5
+~
+~
+0 0 25351
+S
+#25353
+A Huge Column Of Stairs~
+There is a huge set of gray granite stairs leading up to a temple.  The
+entire island and the sea surrounding it can be seen from here.  
+~
+0 8192 0
+D4
+~
+~
+0 0 25354
+D5
+~
+~
+0 0 25352
+S
+#25354
+A Huge Column Of Stairs~
+There is a huge set of gray granite stairs leading up to a temple.  The
+entire island and the sea surrounding it can be seen from here.  
+~
+0 8192 0
+D4
+~
+~
+0 0 25355
+D5
+~
+~
+0 0 25353
+S
+#25355
+In Front Of A Small Temple~
+There is a small temple here high atop the center mountain in Crete.  It
+is well lit here and armless statues can be seen to the east and west.  The
+temple can be entered to the north.  
+~
+0 8192 0
+D0
+~
+~
+4 0 25358
+D1
+~
+~
+0 0 25357
+D3
+~
+~
+0 0 25356
+D5
+~
+~
+0 0 25354
+S
+#25356
+A Western Ledge~
+Large armless statues are posted on the ledge here almost as if guarding
+the temple.  From tis view point, looking north, Athens can be seen in the
+way off distance.  Smoke rises from the city as if something is wrong.  
+~
+0 8192 0
+D1
+~
+~
+0 0 25355
+S
+#25357
+An Eastern Ledge~
+Large armless statues are posted on the ledge here almost as if guarding
+the temple.  From tis view point, looking north, Athens can be seen in the
+way off distance.  Smoke rises from the city as if something is wrong.  
+~
+0 8192 0
+D3
+~
+~
+0 0 25355
+S
+#25358
+A Small Temple~
+The old philosopher Socrates sits here at a table in the center of the
+room.  He looks troubled by something as he sits in meditation.  The temple
+is beautiful, but small.  There is a chest sitting on the floor beside
+Scorates and a closed door to the north.  
+~
+0 8192 0
+D0
+~
+~
+1 0 25359
+D2
+~
+~
+4 0 25355
+S
+#25359
+A Small Portal Room To Athens~
+The is a glowing portal in the center of the room that supposedly leads
+back to Athens.  The old philosopher seemed very urgent about the fact that
+something was wrong in Athens.  Could that be why there was smoke rising
+from the city?  And who was this pre vious time traveller?  
+~
+0 8192 0
+D2
+~
+~
+1 0 25358
+S
+#25360
+The Island Of Crete~
+The mysterious island of Crete has finally been reached.  To the south is
+the entrance to the legendary labyrinth.  The island is very rocky and dark.
+~
+0 8192 0
+D0
+~
+~
+0 0 25361
+D2
+~
+~
+0 0 25300
+S
+#25361
+A Beach On The Island Of Crete~
+The mysterious island of Crete has finally been reached.  To the south is
+the entrance to the legendary labyrinth.  The island is very rocky and dark.
+~
+0 8192 0
+D0
+~
+~
+0 0 25362
+D2
+~
+~
+0 0 25360
+S
+#25362
+Nearing An Island!~
+Finally you spot a strip of land in the distant southeast.  Could this be
+the island of Crete?  It seems to have been much farther away than you had
+once been told.  
+~
+0 8192 0
+D0
+~
+~
+0 0 25366
+D1
+~
+~
+0 0 25363
+D2
+~
+~
+0 0 25361
+S
+#25363
+Away At Sea~
+The deep blue sea stretches for as far as the eye can see to the north,
+east, and west.  To the south, high cliffs tower high above blocking your
+way.  The waves crash hard into the shoreline and you try to navigate away
+from them.  
+~
+0 8192 0
+D0
+~
+~
+0 0 25367
+D1
+~
+~
+0 0 25364
+D3
+~
+~
+0 0 25362
+S
+#25364
+Away At Sea~
+The deep blue sea stretches for as far as the eye can see to the north,
+east, and west.  To the south, high cliffs tower high above blocking your
+way.  The waves crash hard into the shoreline and you try to navigate away
+from them.  
+~
+0 8192 0
+D0
+~
+~
+0 0 25368
+D1
+~
+~
+0 0 25365
+D3
+~
+~
+0 0 25363
+S
+#25365
+Away At Sea~
+The deep blue sea stretches for as far as the eye can see to the north
+and west.  To the south and east, high cliffs tower high above blocking your
+way.  The waves crash hard into the shoreline and you try to navigate away
+from them.  
+~
+0 8192 0
+D0
+~
+~
+0 0 25369
+D3
+~
+~
+0 0 25364
+S
+#25366
+Away At Sea~
+The deep blue sea stretches for as far as the eye can see to the south,
+north, and east.  To the west, high cliffs tower high above block your way. 
+The waves crash hard into the shoreline as you try to navigate away from
+them.  
+~
+0 8192 0
+D0
+~
+~
+0 0 25370
+D1
+~
+~
+0 0 25367
+D2
+~
+~
+0 0 25362
+S
+#25367
+Away At Sea~
+The deep blue sea stretches for as far as the eye can see.  It stretches
+deep into the horizon in every direction.  There is no land in sight.  
+~
+0 8192 0
+D0
+~
+~
+0 0 25371
+D1
+~
+~
+0 0 25368
+D2
+~
+~
+0 0 25363
+D3
+~
+~
+0 0 25366
+S
+#25368
+Away At Sea~
+The deep blue sea stretches for as far as the eye can see.  It stretches
+deep into the horizon in every direction.  There is no land in sight.  
+~
+0 8192 0
+D0
+~
+~
+0 0 25372
+D1
+~
+~
+0 0 25369
+D2
+~
+~
+0 0 25364
+D3
+~
+~
+0 0 25367
+S
+#25369
+Away At Sea~
+The deep blue sea stretches for as far as the eye can see to the south
+and west.  To the east, high cliffs tower high above blocking your way.  The
+waves crash hard into the shoreline and you try to navigate away from them. 
+~
+0 8192 0
+D0
+~
+~
+0 0 25373
+D2
+~
+~
+0 0 25365
+D3
+~
+~
+0 0 25368
+S
+#25370
+Away At Sea~
+The deep blue sea stretches for as far as the eye can see to the south,
+north, and east.  To the west, high cliffs tower high above block your way. 
+The waves crash hard into the shoreline as you try to navigate away from
+them.  
+~
+0 8192 0
+D0
+~
+~
+0 0 25377
+D1
+~
+~
+0 0 25371
+D2
+~
+~
+0 0 25366
+S
+#25371
+Away At Sea~
+The deep blue sea stretches for as far as the eye can see.  It stretches
+deep into the horizon in every direction.  There is no land in sight.  
+~
+0 8192 0
+D0
+~
+~
+0 0 25376
+D1
+~
+~
+0 0 25372
+D2
+~
+~
+0 0 25367
+D3
+~
+~
+0 0 25370
+S
+#25372
+Away At Sea~
+The deep blue sea stretches for as far as the eye can see.  It stretches
+deep into the horizon in every direction.  There is no land in sight.  
+~
+0 8192 0
+D0
+~
+~
+0 0 25375
+D1
+~
+~
+0 0 25373
+D2
+~
+~
+0 0 25368
+D3
+~
+~
+0 0 25371
+S
+#25373
+Away At Sea~
+The deep blue sea stretches for as far as the eye can see to the south
+and west.  To the east, high cliffs tower high above blocking your way.  The
+waves crash hard into the shoreline and you try to navigate away from them. 
+~
+0 8192 0
+D0
+~
+~
+0 0 25374
+D2
+~
+~
+0 0 25369
+D3
+~
+~
+0 0 25372
+S
+#25374
+Away At Sea~
+The deep blue sea stretches for as far as the eye can see to the south
+and west.  To the east, high cliffs tower high above blocking your way.  The
+waves crash hard into the shoreline and you try to navigate away from them. 
+~
+0 8192 0
+D0
+~
+~
+0 0 25378
+D2
+~
+~
+0 0 25373
+D3
+~
+~
+0 0 25375
+S
+#25375
+Away At Sea~
+The deep blue sea stretches for as far as the eye can see to the south. 
+To the north, high cliffs tower high above block your way.  The waves crash
+hard into the shoreline as you try to navigate away from them.  
+~
+0 8192 0
+D1
+~
+~
+0 0 25374
+D2
+~
+~
+0 0 25372
+D3
+~
+~
+0 0 25376
+S
+#25376
+Away At Sea~
+The deep blue sea stretches for as far as the eye can see to the south. 
+To the north, high cliffs tower high above block your way.  The waves crash
+hard into the shoreline as you try to navigate away from them.  
+~
+0 8192 0
+D1
+~
+~
+0 0 25375
+D2
+~
+~
+0 0 25371
+D3
+~
+~
+0 0 25377
+S
+#25377
+Away At Sea~
+The deep blue sea stretches for as far as the eye can see to the south. 
+To the north, high cliffs tower high above block your way.  The waves crash
+hard into the shoreline as you try to navigate away from them.  
+~
+0 8192 0
+D1
+~
+~
+0 0 25376
+D2
+~
+~
+0 0 25370
+S
+#25378
+In A Harbor Near Athens~
+The harbor opens up into the great sea to the south.  To the east lies
+the Athenian beach and the city of Athens.  
+~
+0 8192 0
+D1
+~
+~
+0 0 25379
+D2
+~
+~
+0 0 25374
+S
+#25379
+On The Athenian Beach~
+You stand on a beautiful beach on by a dark blue sea.  The island of
+Crete is said to be somewhere out in the vast water.  To find Socrates, you
+must find the island.  
+~
+0 8192 0
+D0
+~
+~
+0 0 25380
+D3
+~
+~
+0 0 25378
+S
+#25380
+Outside The Southern Gate Of Athens~
+You stand before the western gates of the great city of Athens.  Large
+guards welcome you with a smile.  This seems to be a very happy place.  
+~
+0 8192 0
+D0
+~
+~
+1 0 25381
+D2
+~
+~
+0 0 25379
+S
+#25381
+Inside The Southern Gate Of Athens~
+The city is one of the most beautiful places you have ever seen.  People
+are hustling and bustling everywhere in this busy place.  Almost everyone
+looks to have a smile on their face.  
+~
+0 8192 0
+D0
+~
+~
+0 0 25382
+D2
+~
+~
+1 0 25380
+S
+#25382
+Main Street ~
+The lower main street has some people that look a little less fortunate
+on it.  The people still look very happy though.  This is a very nice place.
+~
+0 8192 0
+D0
+~
+~
+0 0 25385
+D1
+~
+~
+0 0 25384
+D2
+~
+~
+0 0 25381
+D3
+~
+~
+0 0 25383
+S
+#25383
+The Home Of A Metic~
+This small shack of a home is the abode of an obviously poor Athenian. 
+There is not much here except for a table, two chairs, and a straw bed.  No
+one is home at the moment.  
+~
+0 8192 0
+D1
+~
+~
+0 0 25382
+S
+#25384
+The Home Of A Metic~
+This small shack of a home is the abode of an obviously poor Athenian. 
+There is not much here except for a table, two chairs, and a straw bed.  No
+one is home at the moment.  
+~
+0 8192 0
+D3
+~
+~
+0 0 25382
+S
+#25385
+The Agora Market Square~
+The center of Athens has a large and beautiful marble fountain in the
+center of it.  People sit on it seemingly talking politics or philosophy. 
+Children run around playing and people walk in every direction.  The streets
+stretch in all directions here.  To the south you can see the sea and to the
+north you see a hill with a huge building at the top.  
+~
+0 8192 0
+D0
+~
+~
+0 0 25394
+D1
+~
+~
+0 0 25390
+D2
+~
+~
+0 0 25382
+D3
+~
+~
+0 0 25386
+S
+#25386
+Ionia Way~
+The city is one of the most beautiful places you have ever seen.  People
+are hustling and bustling everywhere in this busy place.  Almost everyone
+looks to have a smile on their face.  Shops are to your north and south. 
+The center of the city-state is to yo ur east.  
+~
+0 8192 0
+D0
+~
+~
+0 0 25388
+D1
+~
+~
+0 0 25385
+D2
+~
+~
+0 0 25387
+D3
+~
+~
+1 0 25389
+S
+#25387
+The Athenian Shop Of Brews And Potions~
+A loud BOOM comes from the back room in this shop.  There are potions and
+vials scattered about the store.  A small thin woman emerges from the smoke
+coughing and asks if you would like to buy anything.  
+~
+0 8192 0
+D0
+~
+~
+0 0 25386
+S
+#25388
+The Athenian Shop Of Weaponry~
+The shop has ancient weapons lined on a rack upon the wall.  The weapons
+look useful, but are old style.  A large man greets you with a smile behind
+the counter.  
+~
+0 8192 0
+D2
+~
+~
+0 0 25386
+S
+#25389
+The Western Gate Of Athens~
+You stand before the western gates of the great city of Athens.  Large
+guards welcome you with a smile.  This seems to be a very happy place.  
+~
+0 8192 0
+D1
+~
+~
+1 0 25386
+D3
+~
+~
+0 0 25398
+S
+#25390
+Ionia Way~
+The city is one of the most beautiful places you have ever seen.  People
+are hustling and bustling everywhere in this busy place.  Almost everyone
+looks to have a smile on their face.  A shop is to your south and a bar is
+to your north.  The center of the city-state is to your west.  
+~
+0 8192 0
+D0
+~
+~
+0 0 25392
+D1
+~
+~
+0 0 25393
+D2
+~
+~
+0 0 25391
+D3
+~
+~
+0 0 25385
+S
+#25391
+The Athenian Shop Of Armor~
+The shop is full of armor of the ancient type.  Some of it looks really
+useful.  Loud clinking sounds come from the back room.  A medium sized man
+greets you from behind the counter.  
+~
+0 8192 0
+D0
+~
+~
+0 0 25390
+S
+#25392
+The Athenian Tavern~
+The bar is quite large, but smells badly.  People sit at tables scattered
+about talking and laughing with each other.  The barkeep looks very busy.  
+~
+0 8192 0
+D2
+~
+~
+0 0 25390
+S
+#25393
+The Eastern Gate Of Athens~
+You stand before the eastern gates of the great city of Athens.  Large
+guards welcome you with a smile.  They block the gates though and are not
+letting you through.  The gates actually appear to be locked.  
+~
+0 8192 0
+D3
+~
+~
+0 0 25390
+S
+#25394
+The Acropolis~
+You begin to climb a large hill leading up to some sort of large
+building.  People are everywhere.  Many of these people look to be richer
+than the ones found to the south.  There are homes to your east and west.  
+~
+0 8192 0
+D0
+~
+~
+0 0 25397
+D1
+~
+~
+0 0 25396
+D2
+~
+~
+0 0 25385
+D3
+~
+~
+0 0 25395
+S
+#25395
+The Home Of An Athenian~
+The home is actually quite large but all of the doors inside the home
+remain locked so you can not venture further into the house.  The people
+must be out in the city somewhere.  
+~
+0 8192 0
+D1
+~
+~
+0 0 25394
+S
+#25396
+The Home Of An Athenian~
+The home is actually quite large but all of the doors inside the home
+remain locked so you can not venture further into the house.  The people
+must be out in the city somewhere.  
+~
+0 8192 0
+D3
+~
+~
+0 0 25394
+S
+#25397
+The Acropolis~
+The hill begins to grade out some here making the acent much easier. 
+Just to the north lies a building that you gather is known as the Parthanon.
+~
+0 8192 0
+D0
+~
+~
+0 0 25403
+D2
+~
+~
+0 0 25394
+S
+#25398
+Outside A Large City~
+Looking to the east you see large walls with a gate.  This seems to be a
+busy little city because people can be seen almost everywhere.  It is an
+amazing sight.  
+~
+0 8192 0
+D0
+~
+~
+0 0 25399
+D1
+~
+~
+0 0 25389
+S
+#25399
+A Small Rocky Path~
+The path here is rocky and very hard to travel upon.  You twist your
+ankles with almost every step heading down to the city.  Maybe someone there
+can help you find your way home because you can not "recall" the way.  
+~
+0 8192 0
+D0
+~
+~
+0 0 25400
+D2
+~
+~
+0 0 25398
+S
+#25400
+A Small Rocky Path~
+The path here is rocky and very hard to travel upon.  You twist your
+ankles with almost every step heading down to the city.  Maybe someone there
+can help you find your way home because you can not "recall" the way.  
+~
+0 8192 0
+D2
+~
+~
+0 0 25399
+D3
+~
+~
+0 0 25401
+S
+#25401
+A Small Rocky Path~
+The path here is rocky and very hard to travel upon.  You twist your
+ankles with almost every step heading down to the city.  Maybe someone there
+can help you find your way home because you can not "recall" the way.  
+~
+0 8192 0
+D0
+~
+~
+0 0 25402
+D1
+~
+~
+0 0 25400
+S
+#25402
+Somewhere In An Ancient Time~
+Instantly you have been transported to a small rocky hill.  Some children
+dressed in little togas saw you arrive and ran off to the south screaming in
+some strange accent.  There is a large city to the south.  
+~
+0 8192 0
+D2
+~
+~
+0 0 25401
+S
+#25403
+In Front Of The Parthanon~
+The great Parthanon lies to the north.  For some reason, the entrance is
+blocked by two guards, locked, and impassable.  Maybe the great philosopher
+Socrates on the island of Crete south of Athens can be of some assistance.  
+~
+0 8192 0
+D2
+~
+~
+0 0 25397
+S
+#25404
+The Center Of The Parthanon~
+~
+0 8192 0
+D0
+~
+~
+4 0 25407
+D1
+~
+~
+4 0 25406
+D3
+~
+~
+4 0 25405
+S
+#25405
+The West Wing Of The Parthanon~
+~
+0 8192 0
+D1
+~
+~
+4 0 25404
+S
+#25406
+The East Wing Of The Parthanon~
+~
+0 8192 0
+D3
+~
+~
+4 0 25404
+S
+#25407
+The North Wing Of The Parthanon~
+~
+0 8192 0
+D2
+~
+~
+4 0 25404
+S
+#25408
+Inside A Glowing Containment Sphere!~
+~
+0 4 0
+S
+#25409
+Inside A Glowing Containment Sphere!~
+~
+0 4 0
+S
+#25410
+Inside A Glowing Containment Sphere!~
+~
+0 4 0
+S
+#25411
+Outside The Southern Gate Of Athens~
+~
+0 8196 0
+S
+#25412
+Inside The Shattered Southern Gate Of Athens~
+What has happened here?  The beauty has beed replaced by blood and gore! 
+There are dead bodies everywhere and homes are destroyed!  Someone or
+something has come through here and massacred the whole town.  Blood is
+splattered all over the street.  The path south to the sea is blocked by the
+shattered gates.  
+~
+0 8192 0
+D0
+~
+~
+0 0 25413
+S
+#25413
+The Blood Filled Main Street~
+What were once homes lie in ruin the east and west.  To the north is the
+Agora Square.  Someone has to be alive around here somewhere.  
+~
+0 8192 0
+D0
+~
+~
+0 0 25416
+D1
+~
+~
+0 0 25415
+D2
+~
+~
+0 0 25412
+D3
+~
+~
+0 0 25414
+S
+#25414
+The Ruined Home Of A Metic~
+The home is about to fall in because of the destruction.  Small cinders
+are burning on the floor boiling the blood spots that used to be the
+inhabitants.  
+~
+0 8192 0
+D1
+~
+~
+0 0 25413
+S
+#25415
+The Ruined Home Of A Metic~
+The home is about to fall in because of the destruction.  Small cinders
+are burning on the floor boiling the blood spots that used to be the
+inhabitants.  
+~
+0 8192 0
+D3
+~
+~
+0 0 25413
+S
+#25416
+The Agora Market Square~
+The once clear flowing fountain now spews blood all over the place.  The
+beautiful statue in the center of the fountain has been destroyed.  Bodies
+are everywhere.  Who did this?  
+~
+0 8192 0
+D0
+~
+~
+0 0 25425
+D1
+~
+~
+0 0 25421
+D2
+~
+~
+0 0 25413
+D3
+~
+~
+0 0 25417
+S
+#25417
+Ionia Way~
+The beauty of Ionia Way has been replaced by terror and death.  It now is
+repulsive to look at.  The stench from the bodies in the sun is almost
+unbearable.  The shops that once stood here are left in shambles to the
+north and the south.  The Western gates are destroyed as well off to the
+west 
+~
+0 8192 0
+D0
+~
+~
+0 0 25419
+D1
+~
+~
+0 0 25416
+D2
+~
+~
+0 0 25418
+D3
+~
+~
+0 0 25420
+S
+#25418
+The Athenian Shop Of Brews And Potions~
+Every single potion in the shop has been destroyed and the poor shop keep
+is dead on the floor.  It doesn't even look like there was a struggle here. 
+Blood is splattered all over the walls of the store.  
+~
+0 8192 0
+D0
+~
+~
+0 0 25417
+S
+#25419
+The Athenian Shop Of Weaponry~
+Every single weapon in the shop has been destroyed and the poor shop keep
+is dead on the floor.  It doesn't even look like there was a struggle here. 
+~
+0 8192 0
+D2
+~
+~
+0 0 25417
+S
+#25420
+The Western Gate Of Athens~
+The gates have been torn down and the guards are dead.  In fact
+everything is dead.  The gates on the ground make it impossible to travel to
+the west.  
+~
+0 8192 0
+D1
+~
+~
+0 0 25417
+S
+#25421
+Ionia Way~
+The beauty of Ionia Way has been replaced by terror and death.  It now is
+repulsive to look at.  The stench from the bodies in the sun is almost
+unbearable.  The armory to the south and the pub to the north are nothing
+but rubble.  The Eastern Gate is shattered to the east.  
+~
+0 8192 0
+D1
+~
+~
+0 0 25424
+D3
+~
+~
+0 0 25416
+S
+#25422
+The House Of An Athenian~
+~
+0 8196 0
+S
+#25423
+The Athenian Shop Of Armor~
+~
+0 8196 0
+S
+#25424
+The Eastern Gate Of Athens~
+The gates have been torn down and the guards are dead.  In fact
+everything is dead.  The gates on the ground make it impossible to travel to
+the east.  
+~
+0 8192 0
+D3
+~
+~
+0 0 25421
+S
+#25425
+The Burning Acropolis~
+The once grassy hill of the Acropolis is now on fire.  The Parthanon lies
+to the north and looks to be the only building untouched in the entire
+city-state.  The home that was once to your east is rubble now.  
+~
+0 8192 0
+D0
+~
+~
+0 0 25427
+D2
+~
+~
+0 0 25416
+D3
+~
+~
+0 0 25426
+S
+#25426
+The Destroyed Home Of An Athenian~
+The home has been completely destroyed except for the main room.  All
+other wings are gone and even the main room is still on fire.  
+~
+0 8192 0
+D1
+~
+~
+0 0 25425
+S
+#25427
+The Burning Acropolis~
+The once grassy hill of the Acropolis is now on fire.  The Parthanon lies
+to the north and looks to be the only building untouched in the entire
+city-state.  
+~
+0 8192 0
+D0
+~
+~
+0 0 25428
+D2
+~
+~
+0 0 25425
+S
+#25428
+In Front Of The Parthanon~
+The entrance to the Parthanon is now reachable because the two guards are
+dead.  That key that Socrates provided may be able to unlock the door now. 
+The person that caused all of this must be inside.  
+~
+0 8192 0
+D0
+~
+~
+4 0 25429
+D2
+~
+~
+0 0 25427
+S
+#25429
+Inside The Parthanon~
+Inside of the parthanon is a beautiful sight.  Much like you has grown
+accustomed to in Athens.  There are locked doors to you east, north, and
+west.  A mighty looking man stands at the oracle in the center of the room. 
+~
+0 8192 0
+D0
+~
+~
+4 0 25430
+D1
+~
+~
+4 0 25431
+D2
+~
+~
+4 0 25428
+D3
+~
+~
+4 0 25432
+S
+#25430
+The Northern Wing Of The Parthanon~
+There is nothing here but a glowing sphere in the middle of the hall. 
+Upon closer inspection, it is easily seen that there are beings trapped
+inside of the sphere.  
+~
+0 8192 0
+D2
+~
+~
+4 0 25429
+S
+#25431
+The Eastern Wing Of The Parthanon~
+There is nothing here but a glowing sphere in the middle of the hall. 
+Upon closer inspection, it is easily seen that there are beings trapped
+inside of the sphere.  
+~
+0 8192 0
+D3
+~
+~
+4 0 25429
+S
+#25432
+The Western Wing Of The Parthanon~
+There is nothing here but a glowing sphere in the middle of the hall. 
+Upon closer inspection, it is easily seen that there are beings trapped
+inside of the sphere.  
+~
+0 8192 0
+D1
+~
+~
+4 0 25429
+S
+#25433
+Inside A Containment Sphere~
+There are many of the main heros of Greek mythology being held captive in
+here.  Was that man actually collecting characters from history?  There is a
+portal leading back to the Parthanon here.  
+~
+0 8196 0
+S
+#25434
+Inside A Containment Sphere~
+There are many of the main heros of Greek mythology being held captive in
+here.  Was that man actually collecting characters from history?  There is a
+portal leading back to the Parthanon here.  
+~
+0 8196 0
+S
+#25435
+Inside A Containment Sphere~
+There are many of the main heros of Greek mythology being held captive in
+here.  Was that man actually collecting characters from history?  There is a
+portal leading back to the Parthanon here.  
+~
+0 8196 0
+S
+#25436
+Inside The Time Portal~
+It looks as though it is possible to get home from here.  Finally, the
+way out of this land is reached!  
+~
+0 4 0
+S
+#25442
+~
+~
+0 0 0
+D2
+~
+~
+0 0 25343
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+D 0 25325 1 4
+D 0 25327 1 4
+D 0 25327 3 4
+D 0 25329 1 4
+D 0 25329 3 4
+D 0 25331 1 4
+D 0 25331 3 4
+D 0 25333 3 4
+D 0 25340 1 1
+D 0 25342 3 1
+D 0 25355 0 4
+D 0 25358 0 1
+D 0 25358 2 4
+D 0 25359 2 1
+D 0 25380 0 1
+D 0 25381 2 1
+D 0 25386 3 1
+D 0 25389 1 1
+D 0 25404 0 4
+D 0 25404 1 4
+D 0 25404 3 4
+D 0 25405 1 4
+D 0 25406 3 4
+D 0 25407 2 4
+D 0 25428 0 4
+D 0 25429 0 4
+D 0 25429 1 4
+D 0 25429 2 4
+D 0 25429 3 4
+D 0 25430 2 4
+D 0 25431 3 4
+D 0 25432 1 4
+O 0 25300 0 25359
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

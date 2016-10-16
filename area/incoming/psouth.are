@@ -1,0 +1,1513 @@
+#AREADATA
+Name        Southern Desert~
+Builders    Lelana~
+VNUMs       14700 14799
+Security    9
+Credits     { All } Lelana  Southern Desert~
+End
+
+
+
+#MOBILES
+#0
+
+
+
+#OBJECTS
+#0
+
+
+
+#ROOMS
+#14700
+A Long Desert Trail~
+You stand on a fairly straight path leading through the sand, which seems
+to stretch on endlessly.  To the north, is the way to Midgaard.  To the
+south is known to some as the Desert of Madness.  Looking either east or
+west, reveals nothing but endless sand dunes.  
+~
+0 4 0
+D0
+~
+~
+0 0 14818
+D2
+~
+~
+0 0 14701
+S
+#14701
+A Long Desert Trail~
+You stand on a fairly straight path leading through the sand, which seems
+to stretch on endlessly.  To the north, is the way to Midgaard.  South leads
+further into the vast desert.  Looking either east or west, reveals nothing
+but endless sand dunes.  
+~
+0 0 0
+D0
+~
+~
+0 0 14700
+D2
+~
+~
+0 0 14702
+S
+#14702
+A Long Desert Trail~
+You stand on a fairly straight path leading through the sand, which seems
+to stretch on endlessly.  To the north, is the way to Midgaard.  South leads
+further into the vast desert.  Looking either east or west, reveals nothing
+but endless sand dunes.  
+~
+0 0 0
+D0
+~
+~
+0 0 14701
+D2
+~
+~
+0 0 14703
+S
+#14703
+A Long Desert Trail~
+You stand on a fairly straight path leading through the sand, which seems
+to stretch on endlessly.  To the north, is the way to Midgaard.  South leads
+further into the vast desert.  Looking either east or west, reveals nothing
+but endless sand dunes.  
+~
+0 0 0
+D0
+~
+~
+0 0 14702
+D2
+~
+~
+0 0 14704
+S
+#14704
+A Long Desert Trail~
+You stand on a fairly straight path leading through the sand, which seems
+to stretch on endlessly.  To the north, is the way to Midgaard.  South leads
+further into the vast desert.  Looking either east or west, reveals nothing
+but endless sand dunes.  
+~
+0 0 0
+D0
+~
+~
+0 0 14703
+D2
+~
+~
+0 0 14705
+S
+#14705
+A Long Desert Trail~
+You stand on a fairly straight path leading through the sand, which seems
+to stretch on endlessly.  To the north, is the way to Midgaard.  South leads
+further into the vast desert.  Looking either east or west, reveals nothing
+but endless sand dunes.  
+~
+0 0 0
+D0
+~
+~
+0 0 14704
+D2
+~
+~
+0 0 14706
+S
+#14706
+A Long Desert Trail~
+You stand on a fairly straight path leading through the sand, which seems
+to stretch on endlessly.  To the north, is the way to Midgaard.  South leads
+further into the vast desert.  Looking either east or west, reveals nothing
+but endless sand dunes.  
+~
+0 0 0
+D0
+~
+~
+0 0 14705
+D2
+~
+~
+0 0 14708
+S
+#14707
+~
+~
+0 0 0
+D0
+~
+~
+0 0 14706
+S
+#14708
+A Long Desert Trail~
+You stand on a fairly straight path leading through the sand, which seems
+to stretch on endlessly.  To the north, is the way to Midgaard.  South leads
+further into the vast desert.  Looking either east or west, reveals nothing
+but endless sand dunes.  
+~
+0 0 0
+D0
+~
+~
+0 0 14706
+D2
+~
+~
+0 0 14709
+S
+#14709
+A Long Desert Trail~
+You stand on a fairly straight path leading through the sand, which seems
+to stretch on endlessly.  To the north, is the way to Midgaard.  South leads
+further into the vast desert.  Looking either east or west, reveals nothing
+but endless sand dunes.  
+~
+0 0 0
+D0
+~
+~
+0 0 14708
+D2
+~
+~
+0 0 14710
+S
+#14710
+A Long Desert Trail~
+You stand on a fairly straight path leading through the sand, which seems
+to stretch on endlessly.  To the north, is the way to Midgaard.  South leads
+further into the vast desert.  Looking either east or west, reveals nothing
+but endless sand dunes.  
+~
+0 0 0
+D0
+~
+~
+0 0 14709
+D2
+~
+~
+0 0 14711
+S
+#14711
+A Long Desert Trail~
+You stand on a fairly straight path leading through the sand, which seems
+to stretch on endlessly.  To the north, is the way to Midgaard.  South leads
+further into the vast desert.  Looking either east or west, reveals nothing
+but endless sand dunes.  
+~
+0 0 0
+D0
+~
+~
+0 0 14710
+D2
+~
+~
+0 0 14712
+S
+#14712
+A Long Desert Trail~
+You stand on a fairly straight path leading through the sand, which seems
+to stretch on endlessly.  To the north, is the way to Midgaard.  South leads
+further into the vast desert.  Looking either east or west, reveals nothing
+but endless sand dunes.  
+~
+0 0 0
+D0
+~
+~
+0 0 14711
+D2
+~
+~
+0 0 14713
+S
+#14713
+A Long Desert Trail~
+You stand on a fairly straight path leading through the sand, which seems
+to stretch on endlessly.  To the north, is the way to Midgaard.  South leads
+further into the vast desert.  Looking either east or west, reveals nothing
+but endless sand dunes.  
+~
+0 0 0
+D0
+~
+~
+0 0 14712
+D2
+~
+~
+0 0 14714
+S
+#14714
+A Long Desert Trail~
+You stand on a fairly straight path leading through the sand, which seems
+to stretch on endlessly.  To the north, is the way to Midgaard.  South leads
+further into the vast desert.  Looking either east or west, reveals nothing
+but endless sand dunes.  
+~
+0 0 0
+D0
+~
+~
+0 0 14713
+D2
+~
+~
+0 0 14715
+S
+#14715
+A Long Desert Trail~
+You stand on a fairly straight path leading through the sand, which seems
+to stretch on endlessly.  To the north, is the way to Midgaard.  South leads
+further into the vast desert.  Looking either east or west, reveals nothing
+but endless sand dunes.  
+~
+0 0 0
+D0
+~
+~
+0 0 14714
+D2
+~
+~
+0 0 14716
+S
+#14716
+A Long Desert Trail~
+You stand on a fairly straight path leading through the sand, which seems
+to stretch on endlessly.  To the north, is the way to Midgaard.  South leads
+further into the vast desert.  Looking either east or west, reveals nothing
+but endless sand dunes.  
+~
+0 0 0
+D0
+~
+~
+0 0 14715
+D2
+~
+~
+0 0 14717
+S
+#14717
+A Long Desert Trail~
+You stand on a fairly straight path leading through the sand, which seems
+to stretch on endlessly.  To the north, is the way to Midgaard.  South leads
+further into the vast desert.  Looking either east or west, reveals nothing
+but endless sand dunes.  
+~
+0 0 0
+D0
+~
+~
+0 0 14716
+D2
+~
+~
+0 0 14718
+S
+#14718
+A Long Desert Trail~
+You stand on a fairly straight path leading through the sand, which seems
+to stretch on endlessly.  Going north would eventually lead back to
+Midgaard.  South leads further into the vast desert.  To the west is another
+path through the sand.  
+~
+0 0 0
+D0
+~
+~
+0 0 14717
+D2
+~
+~
+0 0 14719
+D3
+~
+~
+0 0 14741
+S
+#14719
+A Long Desert Trail~
+You stand on a fairly straight path leading through the sand, which seems
+to stretch on endlessly.  Going north would eventually lead back to
+Midgaard.  South leads further into the vast desert.  Looking east or west
+reveals nothing but endless dunes of sand.  
+~
+0 0 0
+D0
+~
+~
+0 0 14718
+D2
+~
+~
+0 0 14720
+S
+#14720
+A Long Desert Trail~
+You stand on a fairly straight path leading through the sand, which seems
+to stretch on endlessly.  Going north would eventually lead back to
+Midgaard.  South leads further into the vast desert.  Looking east or west
+reveals nothing but endless dunes of sand.  
+~
+0 0 0
+D0
+~
+~
+0 0 14719
+D2
+~
+~
+0 0 14721
+S
+#14721
+A Long Desert Trail~
+You stand on a well-traveled path through the desert.  Here, the path
+curves, leading wither north or east.  Going north would eventually lead
+back to Midgaard.  Going east, would lead you further into the desert. 
+Looking south or west reveals nothing but endless dunes of sand.  
+~
+0 0 0
+D0
+~
+~
+0 0 14720
+D1
+~
+~
+0 0 14722
+S
+#14722
+A Long Desert Trail~
+You stand on a well-traveled path through the desert.  Going west would
+eventually lead back to Midgaard.  Going east, would lead you further into
+the desert.  Looking south or west reveals nothing but endless dunes of
+sand.  
+~
+0 0 0
+D1
+~
+~
+0 0 14723
+D3
+~
+~
+0 0 14721
+S
+#14723
+A Long Desert Trail~
+You stand on a well-traveled path through the desert.  Going west would
+eventually lead back to Midgaard.  Going east, would lead you further into
+the desert.  Looking south or west reveals nothing but endless dunes of
+sand.  
+~
+0 0 0
+D1
+~
+~
+0 0 14724
+D3
+~
+~
+0 0 14722
+S
+#14724
+A Long Desert Trail~
+You stand on a well-traveled path through the desert.  Going west would
+eventually lead back to Midgaard.  Going east, would lead you further into
+the desert.  Looking south or west reveals nothing but endless dunes of
+sand.  
+~
+0 0 0
+D1
+~
+~
+0 0 14725
+D3
+~
+~
+0 0 14723
+S
+#14725
+A Long Desert Trail~
+You stand on a well-traveled path through the desert.  Going west would
+eventually lead back to Midgaard.  Going east, would lead you further into
+the desert.  Looking south or west reveals nothing but endless dunes of
+sand.  
+~
+0 0 0
+D1
+~
+~
+0 0 14726
+D3
+~
+~
+0 0 14724
+S
+#14726
+A Long Desert Trail~
+You stand on a well-traveled path through the desert.  Going west would
+eventually lead back to Midgaard.  Going east, would lead you further into
+the desert.  Looking south or west reveals nothing but endless dunes of
+sand.  
+~
+0 0 0
+D1
+~
+~
+0 0 14727
+D3
+~
+~
+0 0 14725
+S
+#14727
+A Long Desert Trail~
+You stand on a well-traveled path through the desert.  Going west would
+eventually lead back to Midgaard.  Going south, would lead you further into
+the desert.  Looking north you see a faint glimpse of, lit torches?  Looking
+up, you notice what looks to be a hole in the very sky above you.  It is
+very near, near enough to climb up into....  
+~
+0 0 0
+D0
+~
+~
+0 0 14100
+D2
+~
+~
+0 0 14728
+D3
+~
+~
+0 0 14726
+D4
+~
+~
+0 0 11400
+S
+#14728
+A Long Desert Trail~
+You stand on a well-traveled path through the desert.  Going north would
+eventually lead back to Midgaard.  Going south will lead you further into
+the desert.  Looking either east or west reveals little more than wind-blown
+dunes of sand.  
+~
+0 0 0
+D0
+~
+~
+0 0 14727
+D2
+~
+~
+0 0 14729
+S
+#14729
+A Long Desert Trail~
+You stand on a well-traveled path through the desert.  Going north would
+eventually lead back to Midgaard.  Going south will lead you further into
+the desert.  Looking either east or west reveals little more than wind-blown
+dunes of sand.  
+~
+0 0 0
+D0
+~
+~
+0 0 14728
+D2
+~
+~
+0 0 14730
+S
+#14730
+A Long Desert Trail~
+You stand on a well-traveled path through the desert.  Going north would
+eventually lead back to Midgaard.  Going south will lead you further into
+the desert.  Looking either east or west reveals little more than wind-blown
+dunes of sand.  
+~
+0 0 0
+D0
+~
+~
+0 0 14729
+D2
+~
+~
+0 0 14731
+S
+#14731
+A Long Desert Trail~
+You stand on a well-traveled path through the desert.  Going north would
+eventually lead back to Midgaard.  Going east will lead you further into the
+desert.  Looking either south or west reveals little more than wind-blown
+dunes of sand.  
+~
+0 0 0
+D0
+~
+~
+0 0 14730
+D1
+~
+~
+0 0 14732
+S
+#14732
+A Long Desert Trail~
+You stand on a well-traveled path through the desert.  Going west would
+eventually lead back to Midgaard.  Going east will lead you further into the
+desert.  Looking either north or south reveals little more than wind-blown
+dunes of sand.  
+~
+0 0 0
+D1
+~
+~
+0 0 14733
+D3
+~
+~
+0 0 14731
+S
+#14733
+A Long Desert Trail~
+You stand on a well-traveled path through the desert.  Going west would
+eventually lead back to Midgaard.  Going east will lead you further into the
+desert.  Looking either north or south reveals little more than wind-blown
+dunes of sand.  
+~
+0 0 0
+D1
+~
+~
+0 0 14734
+D3
+~
+~
+0 0 14732
+S
+#14734
+A Long Desert Trail~
+You stand on a well-traveled path through the desert.  Going west would
+eventually lead back to Midgaard.  Going east will lead you further into the
+desert.  Looking either north or south reveals little more than wind-blown
+dunes of sand.  
+~
+0 0 0
+D1
+~
+~
+0 0 14735
+D3
+~
+~
+0 0 14733
+S
+#14735
+A Long Desert Trail~
+You stand on a well-traveled path through the desert.  Going west would
+eventually lead back to Midgaard.  Going east will lead you further into the
+desert.  Looking either north or south reveals little more than wind-blown
+dunes of sand.  
+~
+0 0 0
+D1
+~
+~
+0 0 14736
+D3
+~
+~
+0 0 14734
+S
+#14736
+A Long Desert Trail~
+You stand on a cliff in the desert.  Going west would eventually lead
+back to Midgaard.  Going down will lead you further out into the desert. 
+Looking around reveals little more than wind-blown dunes of sand.  
+~
+0 0 0
+D3
+~
+~
+0 0 14735
+D5
+~
+~
+0 0 14737
+S
+#14737
+A Long Desert Trail~
+You stand at the base of a cliff in the desert.  Climbing the cliff would
+eventually lead you back to Midgaard.  Going east will lead you further out
+into the desert.  Looking around reveals little more than wind-blown dunes
+of sand.  
+~
+0 0 0
+D1
+~
+~
+0 0 14738
+D4
+~
+~
+0 0 14736
+S
+#14738
+A Long Desert Trail~
+You stand on a well-traveled path through the desert.  Going west would
+eventually lead back to Midgaard.  Going east will lead you further into the
+desert.  Looking around you reveals little more than wind-blown dunes of
+sand.  
+~
+0 0 0
+D1
+~
+~
+0 0 14739
+D3
+~
+~
+0 0 14737
+S
+#14739
+A Long Desert Trail~
+You stand on a well-traveled path through the desert.  Going west would
+eventually lead back to Midgaard.  Going east will lead you further into the
+desert.  Looking around you reveals little more than wind-blown dunes of
+sand.  
+~
+0 0 0
+D1
+~
+~
+0 0 14740
+D3
+~
+~
+0 0 14738
+S
+#14740
+A Long Desert Trail~
+You stand on a well-traveled path in the desert.  Looking east, you see
+the outskirts of New Thalos.  There is a trail running north along side of
+the city limits.  There is also a path leading west out into the desert,
+towards Midgaard.  
+~
+0 0 0
+D0
+~
+~
+0 0 14775
+D1
+~
+~
+0 0 9669
+D3
+~
+~
+0 0 14739
+S
+#14741
+Under The Desert Sky~
+You stand on a rugged path through the desert.  The winds have died down
+considerably in this vicinity.  Looking west, you see the path continue on
+across the sand.  Going east will lead you back to Midgaard.  
+~
+0 0 0
+D1
+~
+~
+0 0 14718
+D3
+~
+~
+0 0 14742
+S
+#14742
+Under The Desert Sky~
+You stand on a rugged path through the desert.  The winds have died down
+considerably in this vicinity.  Looking west, you see the path continue on
+across the sand.  Going east will lead you back to Midgaard.  
+~
+0 0 0
+D1
+~
+~
+0 0 14741
+D3
+~
+~
+0 0 14743
+S
+#14743
+Under The Desert Sky~
+You stand on a rugged path through the desert.  The winds have died down
+considerably in this vicinity.  Looking west, you see the path continue on
+across the sand.  Going east will lead you back to Midgaard.  
+~
+0 0 0
+D1
+~
+~
+0 0 14742
+D3
+~
+~
+0 0 14744
+S
+#14744
+Under The Desert Sky~
+You stand on a rugged path through the desert.  The winds have died down
+considerably in this vicinity.  Looking west, you see the path continue on
+across the sand.  Going east will lead you back to Midgaard.  
+~
+0 0 0
+D1
+~
+~
+0 0 14743
+D3
+~
+~
+0 0 14745
+S
+#14745
+Under The Desert Sky~
+You stand on a rugged path through the desert.  The winds have died down
+considerably in this vicinity.  To the south, you can barely see a path
+going into what looks to be a sandstorm.  Looking west, you see the path
+continue on across the sand.  Going east will lead you back to Midgaard.  
+~
+0 0 0
+D1
+~
+~
+0 0 14744
+D2
+~
+~
+0 0 14746
+D3
+~
+~
+0 0 14752
+S
+#14746
+Braving The Sandstorm~
+You stand in the middle of a tremendous sandstorm.  High winds
+continually batter your body as you try to get your bearings.  Looking
+around, you see little more than sand riding the strong currents of air. 
+The path continues both north and south.  
+~
+0 0 0
+D0
+~
+~
+0 0 14745
+D2
+~
+~
+0 0 14747
+S
+#14747
+Braving The Sandstorm~
+You stand in the middle of a tremendous sandstorm.  High winds
+continually batter your body as you try to get your bearings.  Looking
+around, you see little more than sand riding the strong currents of air. 
+The path continues both north and south.  
+~
+0 0 0
+D0
+~
+~
+0 0 14746
+D2
+~
+~
+0 0 14748
+S
+#14748
+Braving The Sandstorm~
+You stand in the middle of a tremendous sandstorm.  High winds
+continually batter your body as you try to get your bearings.  Looking
+around, you see little more than sand riding the strong currents of air. 
+The path continues both north and south.  
+~
+0 0 0
+D0
+~
+~
+0 0 14747
+D2
+~
+~
+0 0 14749
+S
+#14749
+Braving The Sandstorm~
+You stand in the middle of a tremendous sandstorm.  High winds
+continually batter your body as you try to get your bearings.  Looking
+around, you see little more than sand riding the strong currents of air. 
+The path continues both north and south.  
+~
+0 0 0
+D0
+~
+~
+0 0 14748
+D2
+~
+~
+0 0 14750
+D5
+~
+~
+0 0 19200
+S
+#14750
+Braving The Sandstorm~
+You stand in the middle of a tremendous sandstorm.  High winds
+continually batter your body as you try to get your bearings.  Looking
+around, you see little more than sand riding the strong currents of air. 
+The path continues both north and south.  
+~
+0 0 0
+D0
+~
+~
+0 0 14749
+D2
+~
+~
+0 0 14751
+S
+#14751
+Braving The Sandstorm~
+You stand in the middle of a tremendous sandstorm.  High winds
+continually batter your body as you try to get your bearings.  Looking
+around, you see little more than sand riding the strong currents of air. 
+The path continues north.  To the south, you can faintly see what looks to
+be a city.  
+~
+0 0 0
+D0
+~
+~
+0 0 14750
+D2
+~
+~
+0 0 8001
+S
+#14752
+Under The Desert Sky~
+You stand on a rugged path through the desert.  The winds have died down
+considerably in this vicinity.  Looking west, you see the path continue on
+across the sand.  Going east will lead you back to Midgaard.  
+~
+0 0 0
+D1
+~
+~
+0 0 14745
+D3
+~
+~
+0 0 14753
+S
+#14753
+Under The Desert Sky~
+You stand on a rugged path through the desert.  The winds have died down
+considerably in this vicinity.  Looking west, you see the path continue on
+across the sand.  Going east will lead you back to Midgaard.  
+~
+0 0 0
+D1
+~
+~
+0 0 14752
+D3
+~
+~
+0 0 14754
+S
+#14754
+Under The Desert Sky~
+You stand on a rugged path through the desert.  The winds have died down
+considerably in this vicinity.  Looking west, you see the path continue on
+across the sand.  Going east will lead you back to Midgaard.  
+~
+0 0 0
+D1
+~
+~
+0 0 14753
+D3
+~
+~
+0 0 14755
+S
+#14755
+Under The Desert Sky~
+You stand on a rugged path through the desert.  The winds have died down
+considerably in this vicinity.  Looking west, you see the path continue on
+across the sand.  Going east will lead you back to Midgaard.  
+~
+0 0 0
+D1
+~
+~
+0 0 14754
+D3
+~
+~
+0 0 14756
+S
+#14756
+Under The Desert Sky~
+You stand on a rugged path through the desert.  The winds have died down
+considerably in this vicinity.  Looking west, you see the path continue on
+across the sand.  Going east will lead you back to Midgaard.  
+~
+0 0 0
+D1
+~
+~
+0 0 14755
+D3
+~
+~
+0 0 14757
+S
+#14757
+Under The Desert Sky~
+You stand on a rugged path through the desert.  The winds have died down
+considerably in this vicinity.  Looking west, you see the path continue on
+across the sand.  Going east will lead you back to Midgaard.  
+~
+0 0 0
+D1
+~
+~
+0 0 14756
+D3
+~
+~
+0 0 14758
+S
+#14758
+Under The Desert Sky~
+You stand on a rugged path through the desert.  The winds have died down
+considerably in this vicinity.  Looking west, you see the path continue on
+across the sand.  Going east will lead you back to Midgaard.  
+~
+0 0 0
+D1
+~
+~
+0 0 14757
+D3
+~
+~
+0 0 14759
+S
+#14759
+Under The Desert Sky~
+You stand on a rugged path through the desert.  The winds have died down
+considerably in this vicinity.  Looking south, you see the path continue on
+across the sand.  Going east will lead you back to Midgaard.  
+~
+0 0 0
+D1
+~
+~
+0 0 14758
+D2
+~
+~
+0 0 14760
+S
+#14760
+Under The Desert Sky~
+You stand on a rugged path through the desert.  The winds have died down
+considerably in this vicinity.  Looking south, you see the path continue on
+across the sand.  Going north will lead you back to Midgaard.  
+~
+0 0 0
+D0
+~
+~
+0 0 14759
+D2
+~
+~
+0 0 14761
+S
+#14761
+Under The Desert Sky~
+You stand on a rugged path through the desert.  The winds have died down
+considerably in this vicinity.  Looking south, you see the path continue on
+across the sand.  Going north will lead you back to Midgaard.  
+~
+0 0 0
+D0
+~
+~
+0 0 14760
+D2
+~
+~
+0 0 14762
+S
+#14762
+Under The Desert Sky~
+You stand on a rugged path through the desert.  The winds have died down
+considerably in this vicinity.  Looking south, you see the path run straight
+into a sand dune.  Going north will lead you back to Midgaard.  Looking
+west, you see a path stretch out further into the desert.  
+~
+0 0 0
+D0
+~
+~
+0 0 14761
+D2
+~
+~
+0 0 14768
+D3
+~
+~
+0 0 14763
+S
+#14763
+Under The Desert Sky~
+You stand on a rugged path through the desert.  Looking around, you see
+little more than sand dunes being born and destroyed by the constant winds
+that batter them.  Going east will eventually lead you back to Midgaard. 
+Going west leads you further out into the desert.  
+~
+0 0 0
+D1
+~
+~
+0 0 14762
+D3
+~
+~
+0 0 14764
+S
+#14764
+Under The Desert Sky~
+You stand on a rugged path through the desert.  Looking around, you see
+little more than sand dunes being born and destroyed by the constant winds
+that batter them.  Going east will eventually lead you back to Midgaard. 
+Going west leads you further out into the desert.  
+~
+0 0 0
+D1
+~
+~
+0 0 14763
+D3
+~
+~
+0 0 14765
+S
+#14765
+On A Bridge~
+Looking down upon the mighty Filthy River, you just aren't suprised that
+such a foul and thick, slowly moving mass of sludge has no problem going
+through a desert.  The river is just simply too thick with grime to
+evaporate.  The thick layer of sludge above the river shields it from the
+desert heat.  Besides, there's more water in the desert than in that
+poor-excuse of a river!  
+~
+0 0 0
+D1
+~
+~
+0 0 14764
+D3
+~
+~
+0 0 14766
+S
+#14766
+On A Bridge~
+Looking down upon the mighty Filthy River, you just aren't suprised that
+such a foul and thick, slowly moving mass of sludge has no problem going
+through a desert.  The river is just simply too thick with grime to
+evaporate.  The thick layer of sludge above the river shields it from the
+desert heat.  Besides, there's more water in the desert than in that
+poor-excuse of a river!  
+~
+0 0 0
+D1
+~
+~
+0 0 14765
+D3
+~
+~
+0 0 14767
+S
+#14767
+Under The Desert Sky~
+You stand on a rugged path in the desert.  All around you are dunes of
+sand being born and destroyed by the relentless winds buffeting them.  Going
+east will eventually lead you to Midgaard.  Looking west, you see outskirts
+of the City of Anon.  
+~
+0 0 0
+D1
+~
+~
+0 0 14766
+D3
+~
+~
+0 0 31019
+S
+#14768
+Crossing The Dunes~
+You stand on a tall dune of sand.  Looking around, you see more and more
+dunes like the one you stand on now.  The ground drops off suddenly several
+feet to the east and west of your position.  Climbing down those cliffs
+would be pure suicide, which leaves you with only 2 ways to go.  North, and
+south, 
+~
+0 0 0
+D0
+~
+~
+0 0 14762
+D2
+~
+~
+0 0 14769
+S
+#14769
+Crossing The Dunes~
+You stand on a tall dune of sand.  Looking around, you see more and more
+dunes like the one you stand on now.  The ground drops off suddenly several
+feet to the east and west of your position.  Climbing down those cliffs
+would be pure suicide, which leaves you with only 2 ways to go.  North, and
+south, 
+~
+0 0 0
+D0
+~
+~
+0 0 14768
+D2
+~
+~
+0 0 14770
+S
+#14770
+Crossing The Dunes~
+You stand on a tall dune of sand.  Looking around, you see more and more
+dunes like the one you stand on now.  The ground drops off suddenly several
+feet to the east and west of your position.  Climbing down those cliffs
+would be pure suicide, which leaves you with only 2 ways to go.  North, and
+south, 
+~
+0 0 0
+D0
+~
+~
+0 0 14769
+D2
+~
+~
+0 0 14771
+S
+#14771
+Crossing The Dunes~
+You stand on a tall dune of sand.  Looking around, you see more and more
+dunes like the one you stand on now.  The ground drops off suddenly several
+feet to the east and west of your position.  Climbing down those cliffs
+would be pure suicide, which leaves you with only 2 ways to go.  North, and
+south, 
+~
+0 0 0
+D0
+~
+~
+0 0 14770
+D2
+~
+~
+0 0 14772
+S
+#14772
+Crossing The Dunes~
+You stand on a tall dune of sand.  Looking around, you see more and more
+dunes like the one you stand on now.  The ground drops off suddenly several
+feet to the east and west of your position.  Climbing down those cliffs
+would be pure suicide, which leaves you with only 2 ways to go.  North, and
+south, 
+~
+0 0 0
+D0
+~
+~
+0 0 14771
+D2
+~
+~
+0 0 14773
+D4
+~
+~
+0 0 13801
+S
+#14773
+Crossing The Dunes~
+You stand on a tall dune of sand.  Looking around, you see more and more
+dunes like the one you stand on now.  The ground drops off suddenly several
+feet to the east and west of your position.  Climbing down those cliffs
+would be pure suicide, which leaves you with only 2 ways to go.  North, and
+south, 
+~
+0 0 0
+D0
+~
+~
+0 0 14772
+D2
+~
+~
+0 0 14774
+S
+#14774
+Crossing The Dunes~
+You stand on a tall dune of sand.  Looking around, you see more and more
+dunes like the one you stand on now.  The ground drops off suddenly several
+feet to the west of your position.  Climbing down the cliff would be pure
+suicide.  North will lead you across the sand dunes.  Looking east, you
+notice the faint outline of old ruins.  , 
+~
+0 0 0
+D0
+~
+~
+0 0 14773
+D1
+~
+~
+0 0 8700
+S
+#14775
+New Thalos Way~
+You stand on a path that winds itself around the town of New Thalos. 
+This path, commonly reffered to as 'New Thalos Way', is a mixed composition
+of sand, rock, and loose dirt.  Various trees can be seen dotting the
+landscape as you walk by.  The path leads both north and south.  
+~
+0 0 0
+D0
+~
+~
+0 0 14776
+D2
+~
+~
+0 0 14740
+S
+#14776
+New Thalos Way~
+You stand on a path that winds itself around the town of New Thalos. 
+This path, commonly reffered to as 'New Thalos Way', is a mixed composition
+of sand, rock, and loose dirt.  Various trees can be seen dotting the
+landscape as you walk by.  The path leads both north and south.  
+~
+0 0 0
+D0
+~
+~
+0 0 14777
+D2
+~
+~
+0 0 14775
+S
+#14777
+New Thalos Way~
+You stand on a path that winds itself around the town of New Thalos. 
+This path, commonly reffered to as 'New Thalos Way', is a mixed composition
+of sand, rock, and loose dirt.  Various trees can be seen dotting the
+landscape as you walk by.  The path leads both north and south.  
+~
+0 0 0
+D0
+~
+~
+0 0 14778
+D2
+~
+~
+0 0 14776
+S
+#14778
+New Thalos Way~
+You stand on a path that winds itself around the town of New Thalos. 
+This path, commonly reffered to as 'New Thalos Way', is a mixed composition
+of sand, rock, and loose dirt.  Various trees can be seen dotting the
+landscape as you walk by.  The path leads both north and south.  
+~
+0 0 0
+D0
+~
+~
+0 0 14779
+D2
+~
+~
+0 0 14777
+S
+#14779
+New Thalos Way~
+You stand on a path that winds itself around the town of New Thalos. 
+This path, commonly reffered to as 'New Thalos Way', is a mixed composition
+of sand, rock, and loose dirt.  Various trees can be seen dotting the
+landscape as you walk by.  The path leads both east and south.  
+~
+0 0 0
+D1
+~
+~
+0 0 14780
+D2
+~
+~
+0 0 14778
+S
+#14780
+New Thalos Way~
+You stand on a path that winds itself around the town of New Thalos. 
+This path, commonly reffered to as 'New Thalos Way', is a mixed composition
+of sand, rock, and loose dirt.  Various trees can be seen dotting the
+landscape as you walk by.  The path leads both east and west.  
+~
+0 0 0
+D1
+~
+~
+0 0 14781
+D3
+~
+~
+0 0 14779
+S
+#14781
+New Thalos Way~
+You stand on a path that winds itself around the town of New Thalos. 
+This path, commonly reffered to as 'New Thalos Way', is a mixed composition
+of sand, rock, and loose dirt.  Various trees can be seen dotting the
+landscape as you walk by.  The path leads both east and west.  
+~
+0 0 0
+D1
+~
+~
+0 0 14782
+D3
+~
+~
+0 0 14780
+S
+#14782
+New Thalos Way~
+You stand on a path that winds itself around the town of New Thalos. 
+This path, commonly reffered to as 'New Thalos Way', is a mixed composition
+of sand, rock, and loose dirt.  Various trees can be seen dotting the
+landscape as you walk by.  The path leads both east and west.  
+~
+0 0 0
+D1
+~
+~
+0 0 14783
+D3
+~
+~
+0 0 14781
+S
+#14783
+New Thalos Way~
+You stand on a path that winds itself around the town of New Thalos. 
+This path, commonly reffered to as 'New Thalos Way', is a mixed composition
+of sand, rock, and loose dirt.  Various trees can be seen dotting the
+landscape as you walk by.  The path leads both east and west.  
+~
+0 0 0
+D1
+~
+~
+0 0 14784
+D3
+~
+~
+0 0 14782
+S
+#14784
+New Thalos Way~
+You stand on a path that winds itself around the town of New Thalos. 
+This path, commonly reffered to as 'New Thalos Way', is a mixed composition
+of sand, rock, and loose dirt.  Various trees can be seen dotting the
+landscape as you walk by.  The path leads both east and west.  
+~
+0 0 0
+D1
+~
+~
+0 0 14699
+D3
+~
+~
+0 0 14783
+S
+#14799
+Last room of southern paths~
+~
+0 4 0
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

@@ -1,0 +1,2651 @@
+#AREADATA
+Name Paradise Island~
+Builders None~
+VNUMs 29200 29299
+Credits ( 60 130) {rMercutio {Y* {WParadise Island{x~
+Security 9
+End
+
+
+
+#MOBILES
+#29200
+tribal warrior~
+A Tribal Warrior~
+{DA shadow flits by the corner of your vision.{x
+~
+A muscular warrior, he appears to be quite primative.
+~
+human~
+ASTW BJPQV 1000 0
+95 250 1d1+20000 1d1+999 4d285+380 punch
+-28 -28 -28 -28
+ADEFHK BLQZ HM K
+stand stand male 12940
+AHMV ABCDEFGHIJK medium unknown
+#29201
+jungle spider~
+A {GJ{gu{Dng{gl{Ge {DS{rp{Di{rd{De{rr{x~
+A HUGE Spider stands here, guarding her babies.
+~
+HUGE and {Ddark{x...  It's probably not a good idea
+to mess with her or her babies.
+~
+unique~
+ABTWc DFJOVa -1000 0
+100 480 1d1+32000 1d1+999 3d240+240 bite
+-80 -80 -80 -50
+AHKR BILM AJP CDHKNY
+stand stand female 4000
+ABHPc ACDEFKV giant unknown
+#29202
+Geloni armorer shopkeeper blacksmith forge~
+Geloni~
+{WParadise Island's{x armorer stand here, ready to sell you stuff!
+~
+A lean mean killing machine, and Darouu's older brother...  Don't mess
+with him.
+~
+human~
+AB DFJZ 0 0
+160 1920 1d1+-3072 1d1+999 5d640+960 none
+-48 -48 -48 -48
+0 ABCDEGHIJKLMNOPQRTXYZ 0 0
+stand stand none 2147483647
+ACHMV ABCDEFGHIJK giant unknown
+#29203
+sailor bill~
+{WBig Sailor Bill{x~
+{WBig Sailor Bill{x is here.
+~
+He's a big ass sailor, just like the name says...
+and ugly too...
+and his name is {WBill{x...
+~
+human~
+AB DFVc 0 0
+135 1620 1d1+-23072 1d1+999 4d675+810 none
+-40 -40 -40 -40
+0 ABCDEFGHIKLNOPQRTXYZ 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK huge unknown
+#29204
+crazy jack~
+{BCrazy Jack{x~
+A shaman is here thinking,{m '{CWhy don't they ever take the stairs?!{m'{x
+~
+He's pretty funky looking with that monkey sitting on his head.
+~
+human~
+AB DFIV 0 0
+160 1920 1d1+-7680 1d1+999 6d533+960 none
+-48 -48 -48 -48
+0 ABDEFGHIJKLMNOPQRTXYZ 0 0
+stand stand male 2147483647
+AHMV ABCDEFGHIJK giant unknown
+M GREET 29202 hi~
+#29205
+leopard~
+A Leopard~
+{xA black cat stands where, hunting critters.
+~
+~
+cat~
+ACF JVZ 0 0
+75 450 1d1+30000 1d1+999 1d675+225 none
+-22 -22 -22 -22
+FH I J FGH
+stand stand male 10000
+AGV ACDEFHJKQUV small unknown
+#29206
+roc gaint~
+A {WGiant {CRoc{x~
+A HUGE bird screams and attacks!
+~
+~
+song bird~
+ABFRW Tb 0 0
+15 30 1d1+800 1d1+999 4d12+15 peck
+-4 -4 -4 -4
+EFH J HIKMR EFG
+stand stand female 750
+AGW ACDEFHKP huge unknown
+#29207
+bob elder village chief~
+Bob~
+The Elder stands here, smoking and dusting himself off.
+~
+He looks a little {Dcharred{x...
+~
+human~
+ABJKRWb V 500 0
+160 1920 1d1+-3072 66d20+10000 2d1600+960 punch
+-48 -48 -48 -48
+AFHJK ABCDEFGHIJKLMNOPQRTXYZ 0 0
+stand stand male 8000
+AHMV ABCDEFGHIJK medium unknown
+#29208
+weaponsmith pete~
+Pete~
+{WParadise Island's {xweaponsmith is here, waiting to seel you stuff!
+~
+Another brother of Darouu, and a fine blacksmith.
+~
+human~
+AB DFJV 500 0
+160 1920 1d1+-3072 1d1+999 2d1600+960 none
+-48 -48 -48 -48
+0 ABCDEFGHIJKLMNOPQRTXYZ 0 0
+stand stand male 2147483647
+AHMV ABCDEFGHIJK medium unknown
+#29209
+garduan~
+Garduan~
+Garduan stands here, cleaning cups and tending a Bar-B-Q pit.
+~
+A tall and beautiful female elf, her hair is dark red and pulled back in
+a ponytail.  Her slender hips and ample bosom make her a sight to behold,
+not to mention her glowing eyes, and that 4 inch dagger that just went up
+alongside your throat.
+*Whoops*
+Maybe you were staring a bit too hard...
+~
+human~
+AB 0 500 0
+160 1920 1d1+-3072 1d1+999 3d1066+960 none
+-48 -48 -48 -48
+A ABCDEFGHIJKLMNOPQRTXYZ 0 0
+stand stand female 8000
+0 0 medium unknown
+F for AHMV
+F par ABCDEFGHIJK
+#29210
+ryan~
+Ryan~
+A scottsman stands here, playing his bagpipes at the sky.
+~
+Long red hair, napped up in dreads in some spots, a long red beard...
+Bristling with muscles...  He is the incarnation of a scottish highlander...
+~
+human~
+ABJKRTWb DFJNVac 1000 0
+135 500 1d1+7856 1d1+999 1d2700+810 punch
+-40 -40 -40 -40
+ADFHO EIJKLOQRXYZ BNT ADFGHMP
+stand stand none 6750
+AHMV ABCDEFGHIJK medium unknown
+#29211
+mountain wyvern~
+A Mountain Wyvern~
+A large dragonbird flys about here.
+~
+It looks ugly and it's coming straight for YOU!
+~
+wyvern~
+AFGRW DFT 0 0
+65 390 1d1+26000 1d1+999 4d146+195 claw
+-19 -19 -19 -19
+CFH L 0 S
+stand stand none 12000
+ABGZ ACDEFHJKQVX medium unknown
+#29212
+white wolf~
+{WA White Wolf{x~
+A HUGE white wolf stands here, looking at you.
+~
+It's HUGE.. Jeeze, it's probably bigger than a dragon.
+~
+wolf~
+ATW JVZ 1000 0
+80 480 1d1+20000 1d1+999 2d360+240 none
+-24 -24 -24 -24
+FH IJLYZ 0 ADHMN
+stand stand female 15000
+AGV ACDEFJKQV huge unknown
+#29213
+assassin ryo~
+Ryo~
+An assassin stands here, guarding the gate.
+~
+He is one with the shadows.
+~
+human~
+ABGSW BDFHPQVc 0 0
+130 1956 1d1+-1680 1d1+999 2d1630+978 none
+-48 -48 -48 -48
+FGHIK B EIOQ MNRZ
+stand stand male 40000
+GHMV ABCDEFHJK medium unknown
+F for A
+F par GI
+#29214
+shin goki master assassin~
+Shin Goki~
+A shadow flits and fades.
+~
+Stop jumping at shadows, idjit.  Instead of killing, try asking for a
+{Gjob{x.
+~
+modron~
+ABJKSYb BDFHJNPQVac 1000 0
+163 1 1300d10+500 1900d10+500 1d1+1 punch
+-100 -100 -100 -200
+EFHK BEHIJKLMNOPQRTXYZ BEHIJKLMNOPQRTXYZ JKP
+stand stand none 293022
+ACHKMc AD tiny unknown
+F off QR
+F par BCGHJK
+M SPEECH 29214 job~
+M GIVE 29214 29256~
+M GIVE 29215 29256~
+M SPEECH 29201 hi,~
+#0
+
+
+
+#OBJECTS
+#29200
+vine whip~
+a {GV{yin{De W{gh{wi{Dp{x~
+A long peice of vine is here.~
+Vine~
+weapon BSTY AN
+whip 60 5 slash 0
+90 50 0 P
+#29201
+face paint camoflage~
+{GC{Dam{yo{gfla{yg{ge F{Ga{gce{Dpai{gn{yt{x~
+Some smudges of paint are here.~
+Paint~
+jewelry BG AE
+0 0 0 0 0
+70 0 1000 P
+A
+18 50
+A
+19 50
+A
+13 100
+A
+14 300
+#29202
+jungle spider web~
+a {GJ{gu{Dng{gl{Ge {DS{rp{Di{rd{De{rr{D'{rs {WW{we{Wb{x~
+A GIANT spider web~
+Webbing~
+furniture ABGNST AP
+ABCD FHIJKL HK EHI EHI
+1 1 0 P
+#29203
+jungle spider leg~
+a {GJ{gu{Dng{gl{Ge {DS{rp{Di{rd{De{rr{D'{rs {ML{me{Dg{x~
+A jungle spider's leg lies here.~
+Exo-Skeleton~
+weapon BCJLSTY AN
+sword 70 5 slash 0
+90 150 20 P
+A
+19 50
+A
+18 50
+A
+12 -100
+A
+3 -2
+#29204
+island breastplate~
+{c[>{WI{Cs{Bl{Ga{Yn{Rd {GB{gr{Ge{ga{Gs{gt{Gp{gl{Ga{gt{Ge{c<]{x~
+A breastplate made for true warriors lies here.~
+Adamantium~
+armor TY ADF
+CFG CFG CFG ABDG 0
+80 2 90000 P
+A
+13 500
+A
+5 4
+#29205
+island helmet~
+{c[>{WI{Cs{Bl{Ga{Yn{Rd {RH{re{Rl{rm{Re{rt{c<]{x~
+A helmet made for true warriors lies here.~
+Adamantium~
+armor TY AE
+ABDG ABDG ABDG BEF 0
+80 1 60000 P
+A
+3 3
+A
+13 100
+#29206
+island neckguard~
+{c[>{WI{Cs{Bl{Ga{Yn{Rd {BN{be{Bc{bk{Bg{bu{Ba{br{Bd{c<]{x~
+A neckguard made for true warriors is here.~
+Adamantium~
+armor TY AC
+CDEF CDEF CDEF ACDF 0
+80 1 30000 P
+A
+13 100
+A
+4 3
+#29207
+island bracer~
+{c[>{WI{Cs{Bl{Ga{Yn{Rd {YB{yr{Ya{yc{Ye{yr{c<]{x~
+A bracer made for true warriors lies here.~
+Adamantium~
+armor TY AM
+BEF BEF BEF ABF 0
+80 1 15000 P
+A
+18 50
+A
+2 4
+#29208
+island leggings~
+{c[>{WI{Cs{Bl{Ga{Yn{Rd {WL{we{Wg{wg{Wi{wn{Wg{ws{c<]{x~
+Some leggings made for true warriors lie here.~
+Adamantium~
+armor TY AF
+ABDG ABDG ABDG BEF 0
+80 1 50000 P
+A
+1 4
+#29209
+island backplate~
+{c[>{WI{Cs{Bl{Ga{Yn{Rd {DB{Ya{Dc{Yk{Dp{Yl{Da{Yt{De{c<]{x~
+A backplate made for true warriors lies here.~
+Adamantium~
+armor TY AR
+CFG CFG CFG CFG 0
+80 1 80000 P
+#29210
+island boots~
+{c[>{WI{Cs{Bl{Ga{Yn{Rd {DB{wo{Do{wt{Ds{c<]{x~
+Some boots made for true warriors are here.~
+Adamantium~
+armor TY AG
+CDEF CDEF CDEF CDEF 0
+80 1 50000 P
+A
+14 1500
+#29211
+island sleeves~
+{c[>{WI{Cs{Bl{Ga{Yn{Rd {CS{cl{Ce{ce{Cv{ce{Cs{c<]{x~
+A pair of sleeves made for a true warrior lie here.~
+Adamantium~
+armor TY AI
+ABDG ABDG ABDG ABDG 0
+80 1 40000 P
+A
+1 4
+#29212
+island belt~
+{c[>{W-{C={B-{G={Y-{R<{D:I:{R>{Y-{G={B-{C={W-{c<]{x~
+A warrior's moneybelt lies here.~
+Adamantium~
+container TY AL
+100 A 0 400 0
+80 1 10000 P
+A
+1 1
+#29213
+key sea portal~
+{WKey {bto {Bthe {cSea {CPortal{x~
+A beautiful white coral key is here.~
+Coral~
+key B AO
+0 0 0 0 0
+50 0 10000 P
+#29214
+portal dark~
+{DA Dark Portal{x~
+{DA Dark Portal {xis here, humming with power.~
+Snot~
+portal B P
+0 0 A ADEHKL 0
+50 2000 0 P
+#29215
+angel blood~
+{WAngel {rB{Rl{ro{Ro{rd{x~
+{WA glowing flask of {rb{Rl{ro{Ro{rd{W lies here.{x~
+Angel's Blood~
+potion A AO
+200 'bless' 'frenzy' 'haste' ''
+100 10 90000 P
+#29216
+potion dark power~
+{wPotion {mof {DDark {RPower{x~
+An evil potion lies here, bubbling away merrily.~
+Sulpher & Brimstone~
+potion BCEGJTY AO
+200 '' 'stone skin' '' 'reserved'
+100 5 50000 P
+#29217
+potion holy light~
+{WPotion {Gof {BHoly {YLight{x~
+A ray of light is here, illuminating a holy potion.~
+Pain and Suffering~
+potion AGIKY AO
+200 'sanctuary' 'armor' 'shield' 'reserved'
+100 5 50000 P
+#29218
+crazy jack staff boppin~
+{BCrazy Jack's {WStaff {Gof {MBoppin{C'{x~
+You'll NEVER SEE THIS because you never beat JACK! MUHAHAHAHAHAHA!~
+Stuff~
+wand BC AO
+500 1 1 '' 0
+130 1 1 P
+#29219
+staff wolf~
+{WStaff of the {YWolf{x~
+A fur covered staff lies here.~
+Oak and Wolf Skin~
+staff BY AO
+150 10 10 '' 0
+100 30 1000000 P
+#29220
+warrior ring~
+{DWarrior {WRing{x~
+A glowing ring lies here.~
+DRAGON BONE~
+armor BHSY AB
+CDFGHIJKLMNOPQRSTUVWXYZabcdef CDFGHIJKLMNOPQRSTUVWXYZabcdef CDFGHIJKLMNOPQRSTUVWXYZabcdef BCDE 0
+130 1 1000000 P
+A
+13 2000
+A
+19 -35
+A
+18 -35
+A
+4 -10
+A
+5 -10
+A
+3 -10
+A
+2 5
+A
+1 5
+A
+12 -500
+A
+14 -500
+#29221
+mage ring~
+{WMage {CRing{x~
+A dark ring lies here, humming merrily.~
+PIXIE DUST~
+armor AHSY AB
+BD BD BD CDEHIJKLMNOPQRSTUVWXYZabcdef 0
+130 0 1000000 P
+A
+18 -35
+A
+19 -35
+A
+13 -1000
+A
+12 2000
+A
+5 -10
+A
+1 -10
+A
+4 -10
+A
+2 5
+A
+3 5
+#29222
+desk~
+a desk~
+A reading desk stands here.~
+Wood~
+container ST 0
+500 AC 0 100 500
+160 2000 0 P
+#29223
+note pad~
+{xA note pad{x~
+A note pad is here. It might be useful to {Wlook{w at the {Wfirst page{x.~
+PostIt!~
+trash C AO
+0 0 0 0 0
+1 1 10 P
+E
+next~
+10th The Month of War, Year of Futility.  I knew it was the same,
+breed...  But I never expected it to perhaps be the same bird.  I went down
+to the cliffs today and through a cave I knew about as a child, on the upped
+southern side of the cliffs.  As I pulled back the {gvines{x the same
+familar musty smell hit me.  I went into the cave to investigate, and sure
+enough, there was the Roc, in all it's glory.  What an exciting time...  We
+had thought the Roc to be extinct after the darkness took hold of have lake.
+Now it appears that the one I saw, of one of it's descendants escaped before
+that vile descration.
+~
+E
+first~
+7th the Month of War, Year of Futility.  I was walking down by the cliffs
+today and saw a huge bird flying about, scooping fish from the water.  As I
+looked upon it, I remembered back to my younger days in Keiron, when I was
+an apprentice under Vermillion.  My first week in town, Vermillion and I
+went to Haven Lake to see a bird of this same sort, atop Haven Mountian.  I
+wonder if this bird is of the same breed?  <{WNext Page{x>
+~
+E
+read~
+7th the Month of War, Year of Futility.  I was walking down by the cliffs
+today and saw a huge bird flying about, scooping fish from the water.  As I
+looked upon it, I remembered back to my younger days in Keiron, when I was
+an apprentice under Vermillion.  My first week in town, Vermillion and I
+went to Haven Lake to see a bird of this same sort, atop Haven Mountian.  I
+wonder if this bird is of the same breed?  <{WNext Page{x>
+~
+#29224
+blood fountain~
+{DF{co{Du{cn{Dt{ca{Di{cn {Do{mf {RB{rl{Ro{ro{Rd{x~
+A dark fountain is here, flowing with blood.~
+Dead People~
+fountain CGST P
+-1 -1 'blood' 0 0
+200 1000 0 P
+#29225
+roc feather~
+{c<{wA {WRo{Cc{W's {CFe{wat{Whe{Cr{c>{x~
+A Huge glowing feather is here.~
+Roc Feather~
+weapon 0 AN
+sword 150 1 slash G
+10 50 1 P
+#29226
+smoldering hole~
+{Da {DS{Rm{Do{Yl{Dd{Re{Dr{Yi{Dn{Rg{D Hole{x~
+{x~
+unknown~
+portal 0 P
+0 D A BDGJMNO 0
+1 0 0 P
+#29227
+air portal key~
+{WKey {bto {Bthe {cAir {CPortal{x~
+A coral key lies here.~
+coral~
+key BVY AO
+0 0 0 0 0
+50 1 10000 P
+#29228
+thief ring~
+{DThief {RRing{x~
+A thief's ring lies here.~
+Grey Mouser Hair~
+armor BCHSY AB
+CDFGHIJKLMNOPQRSTUVWXYZabcdef CDFGHIJKLMNOPQRSTUVWXYZabcdef CDFGHIJKLMNOPQRSTUVWXYZabcdef BCDE 0
+130 0 1000000 P
+A
+14 1000
+A
+12 -2000
+A
+14 1000
+A
+2 5
+A
+5 -10
+A
+4 -10
+A
+3 -10
+A
+1 5
+A
+18 -50
+#29229
+ranger ring~
+{GRanger {gRing{x~
+A ranger ring lies here.~
+Wood~
+armor AHTY AB
+CDFGHIJKLMNOPQRSTUVWXYZabcdef CDFGHIJKLMNOPQRSTUVWXYZabcdef CDFGHIJKLMNOPQRSTUVWXYZabcdef CDFGHIJKLMNOPQRSTUVWXYZabcdef 0
+130 0 1000000 P
+A
+3 -10
+A
+19 -30
+A
+18 30
+A
+1 5
+A
+2 -10
+A
+5 -10
+A
+4 -10
+A
+14 -1500
+A
+13 1000
+A
+12 1000
+#29230
+nauglimer broadsword~
+{DNau{cgli{Wmer {DBro{cads{Wword{x~
+A sharp looking broadsword lies here.~
+Nauglimer ;)~
+weapon TY AN
+sword 250 1 slash A
+65 125 550000 P
+#29231
+hunter ring~
+{DVampire {WHunter {cRing{x~
+A hunter ring lies here~
+Vampire Bone~
+armor ATY AB
+CDFGHIJKLMNOPQRSTUVWXYZabcdef CDFGHIJKLMNOPQRSTUVWXYZabcdef BCEFGHIJKLMNOPQRSTUVWXYZabcdef BCDGHIJKLMNOPQRSTUVWXYZabcdef 0
+130 0 1000000 P
+A
+19 50
+A
+18 -50
+A
+3 -10
+A
+5 -10
+A
+4 -10
+A
+1 5
+A
+2 10
+A
+13 2000
+A
+14 -1250
+A
+12 -1250
+#29232
+monk ring~
+{RMonk {WRing{x~
+A monk ring lies here.~
+Silk~
+armor BTY AB
+BFGHIJKLMNOPQRSTUVWXYZabcdef BFGHIJKLMNOPQRSTUVWXYZabcdef BFGHIJKLMNOPQRSTUVWXYZabcdef ABCD 0
+130 0 1000000 P
+A
+1 5
+A
+2 15
+A
+3 -10
+A
+5 -10
+A
+4 -10
+A
+19 -50
+A
+18 50
+A
+14 1500
+A
+12 -500
+A
+13 -1000
+#29233
+druid ring~
+{gDruid {GRing{x~
+A druid ring lies here.~
+Wood~
+armor ATY AB
+CDFGHIJKLMNOPQRSTUVWXYZabcdef CDFGHIJKLMNOPQRSTUVWXYZabcdef CDFGHIJKLMNOPQRSTUVWXYZabcdef BCDGHIJKLMNOPQRSTUVWXYZabcdef 0
+130 0 1000000 P
+A
+1 15
+A
+2 -5
+A
+3 -10
+A
+5 -10
+A
+4 -10
+A
+19 -50
+A
+18 -50
+A
+13 -1000
+A
+14 500
+A
+12 1000
+#29234
+nauglimer claw~
+{DNau{cgli{Wmer {DC{cl{Waw{x~
+A wicked looking claw rests here.~
+unknown~
+weapon TY AN
+exotic 250 1 claw A
+65 40 300000 P
+#29235
+nauglimer dagger~
+{DNau{cgli{Wmer {DDa{cgg{Wer{x~
+A long deadly dagger rests here.~
+Nauglimer ;)~
+weapon TY AN
+dagger 250 1 pierce A
+65 40 450000 P
+#29236
+nauglimer axe~
+{DNau{cgli{Wmer {DA{cx{We{x~
+A sharp looking axe rests here.~
+Nauglimer ;)~
+weapon TY AN
+axe 250 1 cleave A
+65 125 600000 P
+#29237
+nauglimer whip~
+{DNau{cgli{Wmer {DW{ch{Wip{x~
+A sturdy looking whip lies here.~
+Nauglimer ;)~
+weapon TY AN
+whip 250 1 slash A
+65 40 250000 P
+#29238
+nauglimer mace~
+{DNau{cgli{Wmer {DM{ca{Wce{x~
+A good looking mace lies here.~
+Nauglimer ;)~
+weapon TY AN
+mace 250 1 pound A
+65 125 600000 P
+#29239
+nauglimer staff~
+{DNau{cgli{Wmer {DS{cta{Wff{x~
+A heavy shod staff lies here.~
+unknown~
+weapon TY AN
+polearm 250 1 smash A
+65 40 450000 P
+#29240
+crazy jack leather office~
+{yLeather {DRecliner{x~
+A large leather recliner is here.~
+leather~
+furniture GISTY P
+A ABCDEFGHIJKLMNOPQRSTUVWXYZabcde EHL EIJKN EIJKN
+1 0 0 P
+#29241
+desk~
+{ym{Do{yh{Da{yg{Do{yn{Dy{W desk{x~
+A desk is here.~
+wood~
+container 0 P
+10000 AC 0 1000 10000
+1 0 0 P
+#29242
+cooler~
+cooler~
+A cooler is here.~
+Wood~
+container T P
+10000 AC 0 1000 10000
+1 0 0 P
+#29243
+dagger newbieness~
+{WDagger {wof {DNewbieness{x~
+A sharp looking thingy rests here, looking fairly useless.~
+Godly Foot Fungus~
+weapon ABGSTY AN
+dagger 1 100 pierce D
+1 5 0 P
+#29244
+black claymore~
+{DA Black Claymore{x~
+A huge claymore rests here.~
+Steel~
+weapon ABITY AN
+sword 100 5 cleave DEF
+130 215 10000 P
+A
+2 -5
+A
+1 5
+A
+14 -400
+A
+12 200
+A
+13 200
+#29245
+scottish kilt~
+{cA S{rco{gtt{bis{ch K{ril{gt{x~
+A large peice of flannel cloth lies here.~
+Flannel~
+armor TY AF
+CDEHIJKLMNOPQRSTUVWXYZabcdef CDEHIJKLMNOPQRSTUVWXYZabcdef CDEHIJKLMNOPQRSTUVWXYZabcdef EFGJKLMNOPQRSTUVWXYZabcdef 0
+131 10 254000 P
+#29246
+deerskin shirt~
+{yDeerskin Shirt{x~
+A hide shirt lies here.~
+unknown~
+armor 0 AD
+BFHJKLMNOPQRSTUVWXYZabcdef BFHJKLMNOPQRSTUVWXYZabcdef BFHJKLMNOPQRSTUVWXYZabcdef BDFGIJKLMNOPQRSTUVWXYZabcdef 0
+131 20 132300 P
+A
+18 -50
+A
+19 50
+#29247
+bagpipes pipes~
+{gA set of Bagpipes{x~
+A large bloated deer lays here, filled with spears, and screaming in pain.~
+Deerskin~
+treasure BT AO
+0 0 0 0 0
+131 0 500000 P
+#29248
+shot absinthe~
+a Shot of Absinthe~
+A shot glass full of green liquid is here.~
+tin~
+drink 0 AO
+5 5 'absinthe' 0 0
+1 1 120 P
+#29249
+mug ale~
+a Mug of Ale~
+A mug of ale is here.~
+tin~
+drink 0 AO
+10 10 'ale' 0 0
+1 1 400 P
+#29250
+steak~
+a Bar-B-Q Steak~
+A steak is here.~
+Meat~
+food 0 AO
+AB CE 0 0 0
+1 4 200 P
+#29251
+chicken wings~
+some Chicken Wings~
+Some chicken wings lay here.~
+chicken~
+food 0 AO
+AB CE 0 0 0
+1 1 250 P
+#29252
+white portal~
+{WAir Portal{x~
+{WA White Portal{x is here, humming with power.~
+air~
+portal B P
+0 0 A 0 0
+1 10000 0 P
+#29253
+gate key~
+{WA Gate Key{x~
+A large steel key lies here.~
+steel~
+key V AO
+0 0 0 0 0
+130 1 12000 P
+#29254
+Katana~
+{DNinja {wKatana{X~
+A long sharp blade lies here.~
+unknown~
+weapon CTY AN
+sword 14 13 slash D
+130 32 2600 P
+#29255
+healthpac health 1~
+{R+{WHEALTH{R+{x~
+A healthpac(tm) lies here.~
+Gods Urine~
+potion ABU AO
+500 'refresh' '' '' 'reserved'
+162 1 1 P
+#29256
+jungle spider head~
+{GJ{gu{Dng{gl{Ge {DS{rp{Di{rd{De{rr{D'{rs {YH{ye{Ya{yd{x~
+A {GJ{gu{Dng{gl{Ge {DS{rp{Di{rd{De{rr{D'{rs {YH{ye{Ya{yd{x lies here.~
+head~
+armor UV AE
+BD BD BD BD 0
+80 1 1 P
+#0
+
+
+
+#ROOMS
+#29200
+{C A {ySandy {CBe{Wa{Cch{x~
+{yWaves crash and the sun shines down.  Altogether, a very beautiful
+stretch of beach.  The jungle is to the north, and the beach continues west
+and east.{x
+~
+0 0 10
+D0
+~
+~
+0 0 29202
+D1
+~
+~
+0 0 29201
+D2
+~
+~
+0 0 29245
+D4
+~
+~
+0 0 405
+S
+#29201
+{CA {ySandy {CBe{Wa{Cch{x~
+{yWaves crash and the sun shines down.  Altogether, a very beautiful
+stretch of beach.  The jungle is to the north, and the beach continues west
+and east.  {x
+~
+0 0 10
+D0
+~
+~
+0 0 29204
+D1
+~
+~
+0 0 29212
+D3
+~
+~
+0 0 29200
+S
+#29202
+{rJungle Floor{x~
+{gThe Jungle floor here is littered with dead branches and leaves, and
+the rank smell of decay is everywhere.  Despite that, beautiful and
+dangerous looking flowers grow all around, and small animals can be seen
+roaming about in the underbrush.  {x
+~
+0 0 3
+D0
+~
+~
+3 0 29205
+D1
+~
+~
+0 0 29204
+D2
+~
+~
+0 0 29200
+D3
+~
+~
+0 0 29262
+S
+#29203
+{rJungle Floor 2{x~
+~
+0 0 0
+D2
+~
+~
+0 0 29202
+S
+#29204
+{rJungle Floor{x~
+{gThe Jungle floor here is littered with dead branches and leaves, and
+the rank smell of decay is everywhere.  Despite that, beautiful and
+dangerous looking flowers grow all around, and small animals can be seen
+roaming about in the underbrush.  {x
+~
+0 0 3
+D0
+~
+~
+0 0 29259
+D2
+~
+~
+0 0 29201
+D3
+~
+~
+0 0 29202
+S
+#29205
+{rJungle Floor{x~
+{gThe Jungle floor here is littered with dead branches and leaves, and
+the rank smell of decay is everywhere.  Despite that, beautiful and
+dangerous looking flowers grow all around, and small animals can be seen
+roaming about in the underbrush.  {x
+~
+0 0 3
+D0
+~
+~
+0 0 29206
+D1
+~
+~
+0 0 29259
+D2
+~
+~
+3 0 29202
+D3
+~
+~
+0 0 29261
+S
+#29206
+{rJungle Floor{x~
+{gThe Jungle floor here is littered with dead branches and leaves, and
+the rank smell of decay is everywhere.  Despite that, beautiful and
+dangerous looking flowers grow all around, and small animals can be seen
+roaming about in the underbrush.  {x
+~
+0 0 3
+D0
+~
+~
+0 0 29210
+D1
+~
+~
+0 0 29260
+D2
+~
+~
+0 0 29205
+D3
+~
+~
+0 0 29207
+S
+#29207
+{rJungle Floor{x~
+{gThe Jungle floor here is littered with dead branches and leaves, and
+the rank smell of decay is everywhere.  Despite that, beautiful and
+dangerous looking flowers grow all around, and small animals can be seen
+roaming about in the underbrush.  {x
+~
+0 0 3
+D0
+~
+~
+0 0 29209
+D1
+~
+~
+0 0 29206
+D2
+~
+~
+0 0 29261
+D3
+~
+~
+0 0 29208
+D5
+~
+~
+0 0 29211
+S
+#29208
+{rJungle Floor{x~
+{gThe Jungle floor here is littered with dead branches and leaves, and
+the rank smell of decay is everywhere.  Despite that, beautiful and
+dangerous looking flowers grow all around, and small animals can be seen
+roaming about in the underbrush.  {x
+~
+0 0 3
+D0
+~
+~
+0 0 29264
+D1
+~
+~
+0 0 29207
+D2
+~
+~
+0 0 29265
+S
+#29209
+{rJungle Floor{x~
+{gThe Jungle floor here is littered with dead branches and leaves, and
+the rank smell of decay is everywhere.  Despite that, beautiful and
+dangerous looking flowers grow all around, and small animals can be seen
+roaming about in the underbrush.  {x
+~
+0 0 3
+D1
+~
+~
+0 0 29210
+D2
+~
+~
+0 0 29207
+D3
+~
+~
+0 0 29264
+S
+#29210
+north brush~
+{gThe Jungle floor here is littered with dead branches and leaves, and
+the brush to the north gives way to a large {ywooden gate{g.  Despite that,
+beautiful and dangerous looking flowers grow all around, and small animals
+can be seen roaming about in the underbrush.  {x
+~
+0 0 3
+E
+brush~
+{GThe tangle of brush gets lighter here...  Maybe you could push it
+aside?  {x
+~
+D0
+~
+gate~
+3 29253 29283
+D1
+~
+~
+0 0 29263
+D2
+~
+~
+0 0 29206
+D3
+~
+~
+0 0 29209
+S
+#29211
+{RP{ru{Rn{rj{Ri {rP{Ri{rt{x~
+You fall...
+     and fall.....
+          and fall.....
+               and go *SPLAT* as you land on a freshly carved Punji Stake...
+~
+0 8197 0
+S
+#29212
+{CA {ySandy {CBe{Wa{Cch{x~
+{yWaves crash and the sun shines down.  Altogether, a very beautiful
+stretch of beach.  The Beach continues west and you can climb up to a tall
+cliff face.  {x
+~
+0 0 10
+D3
+~
+~
+0 0 29201
+D4
+~
+~
+0 0 29213
+S
+#29213
+{rA Cliff above the {CBe{Wa{Cch{x~
+This cliff is COVERED in long {gvines{w for you to climb on.  It's not too
+high yet though.  Only about 50 feet up.  You can climb back down to the
+beach, climb farther up the cliff, or climb across the face to the north and
+south.
+~
+0 0 5
+D0
+~
+~
+0 0 29214
+D2
+~
+~
+0 0 29215
+D4
+~
+~
+0 0 29216
+D5
+~
+~
+0 0 29212
+S
+#29214
+{rA Cliff in the {GJungle Treetops{x~
+{G This cliff is littered with long {gvines{G.  There are less here
+because the shade from the treetops blocks the light to the cliffside.  The
+treetops are only about three feet away, and you keep thinking that you see
+something glinting behind the leaves.  You can climb south to the cliff that
+brought you up from the beach or climb farther up the cliff.  {x
+~
+0 0 5
+D2
+~
+~
+0 0 29213
+D4
+~
+~
+0 0 29217
+S
+#29215
+{rA Cliff above the {BO{cc{Ce{ca{Bn{x~
+This cliff is COVERED in long {gvines{x for you to climb on.  It's not
+too high yet though.  Only about 50 feet down, straight into the sparkling
+{Bo{cc{Ce{ca{Bn{x.  You can climb north to the cliff that brought you up
+from the beach or climb farther up this cliff.
+~
+0 0 5
+D0
+~
+~
+0 0 29213
+D4
+~
+~
+0 0 29218
+S
+#29216
+{rA Cliff WAY above the {CBe{Wa{Cch{x~
+The {gvines{x are getting a little thinner here...  Might want to watch
+your grip!  It's starting to get pretty high too!  Probably about a hundred
+feet down, straight to the soft {ysand{x of the {Cbe{Wa{Cch{x...  Probably
+wouldn't be so soft falling from this high up, though!  You can go north or
+south to the sides of the cliff, or go back down a little lower if your
+scared of hights...  You can also go up, to the last bit of the cliff you
+can see from here.
+~
+0 0 5
+D0
+~
+~
+0 0 29217
+D2
+~
+~
+0 0 29218
+D4
+~
+~
+0 0 29219
+D5
+~
+~
+0 0 29213
+S
+#29217
+{rA Cliff above the {GJungle Treetops{x~
+The {gvines{x are getting a little thinner here...  It's starting to get
+pretty high, too!  Probably about a hundred feet down, straight to the
+{gjungle floor{x.  Better watch your grip!  That could hurt falling through
+all those trees...  You can go south to the main cliff, down into the tops
+of the trees, or follow a ridgeline north.
+~
+0 0 5
+D0
+~
+~
+0 0 29269
+D2
+~
+~
+0 0 29216
+D5
+~
+~
+0 0 29214
+S
+#29218
+{rA Cliff WAY above the {BO{cc{Ce{ca{Bn{x~
+The {gvines{x are getting a little thinner here...  Might want to watch
+your grip!  It's starting to get pretty high too!  Probably about a hundred
+feet down, straight into the sparkling {Bo{cc{Ce{ca{Bn{x.  You can go north
+to the main part of the cliff, or go back down a little lower if your scared
+of hights...  There is also a strange cave you can enter to the east.
+~
+0 0 5
+D0
+~
+~
+0 0 29216
+D1
+~
+~
+0 0 29250
+D5
+~
+~
+0 0 29215
+S
+#29219
+{rTop of the Cliff{x~
+This cliff is a little different...  You can see that the {gvines{x here are
+wrapped with a {Ddark cord{x to keep them from breaking, probably because 
+they get used
+alot.  To the east you can see the entrance to a {Wv{ri{bl{Cl{Ga{Yg{Me{x of 
+some sort.
+Going back down will get you to the lower cliff, and eventually to the
+{ybeach{x.
+~
+0 0 5
+D1
+~
+~
+0 0 29220
+D5
+~
+~
+0 0 29216
+S
+#29220
+{WParadise Village Entrance{x~
+{M {MThis is the main gate of {WParadise Village{x{M, if you could call
+it a gate.  It consists of 2 guards, an attack crab, and 2 HUGE {gpalm
+{Gtrees{M on either side of the path.  You can go back west to the top of
+the cliff, or west to enter the city.  {x
+~
+0 0 1
+D1
+~
+~
+0 0 29221
+D3
+~
+~
+0 0 29219
+S
+#29221
+{WParadise Village's Main Path{x~
+{MThis is the main path through {WParadise Village{M.  All around you
+{gpalm {gtrees{M are standing tall on the sides of the path, and small
+jungle animals dart about on the ground and in the {Gtree{W-{gtops{M.  To
+the north is some sort of shop, and to the south is the path to the
+{WE{Bl{Cd{Ge{Yr{R'{Ds{M house.  The path through town continues east and
+west{x.
+~
+0 0 1
+D0
+~
+~
+0 0 29222
+D1
+~
+~
+0 0 29229
+D2
+~
+~
+0 0 29223
+D3
+~
+~
+0 0 29220
+S
+#29222
+{WParadise Village's Armor Shop{x~
+{cArmor is hanging all over the walls in this store, and it looks like
+most of it is made out of stuff Geloni found around the island.  You can
+stay here and buy something, or go back south to the main road.  {x
+~
+0 0 0
+D2
+~
+~
+0 0 29221
+S
+#29223
+{WPath to the E{Bl{Cd{Ge{Yr{R'{Ds{W House{x~
+{MAll around you are beautiful flowers and other colorful plants, making
+this a very spirit lifting environment, indeed.  To the east is the
+{WE{Bl{Cd{Ge{Yr{R'{Ds{M house, and to the west is a HUGE {Gpalm {Gtree{M.
+Back to the north is the main path.  {X
+~
+0 0 1
+D0
+~
+~
+0 0 29221
+D1
+~
+~
+0 0 29224
+D3
+~
+~
+0 0 29227
+S
+#29224
+{WInside the E{Bl{Cd{Ge{Yr{R'{Ds{W House{x~
+{cThis house is sparsly appointed.  The thatched roof leaves the sun to
+shine through in some spots and the straw floors feel soft underfoot.  To
+the east is a bedroom, and to the south is a study.  {x
+~
+0 0 0
+D1
+~
+~
+0 0 29226
+D2
+~
+~
+0 0 29225
+D3
+~
+~
+0 0 29223
+S
+#29225
+{WInside the E{Bl{Cd{Ge{Yr{R'{Ds {WHouse{x~
+{cSimple accomidations seem to be the standard in this room...  Books
+line the walls, and a desc with an oil lamp on it is in the center of the
+room.  The only exit is north to the main entrance.  {x
+~
+0 0 0
+D0
+~
+~
+0 0 29224
+S
+#29226
+{WThe E{Bl{Cd{Ge{Yr{R'{Ds {WBedroom{x~
+{cA small cot rests in one corner, and the straw on the floor is matted
+with blood and burnt.  There is also a {Dhole{c in the roof.  Going west
+will lead you back to the the front room.  {x
+~
+0 0 0
+E
+hole~
+A large black hole is here, smoldering throught the roof...
+~
+D3
+~
+~
+0 0 29224
+S
+#29227
+{WThe Base of a HUGE {gPalm {GTree{x~
+{gA HUGE palm tree is here, gently swaying in the breeze.  There seems to
+be something WAY up in the top that might be worth checking out.  {x {gYou
+can go up the tree, or back east to the path.  {x
+~
+0 0 1
+D1
+~
+~
+0 0 29223
+D4
+~
+~
+0 0 29228
+S
+#29228
+{W50 Feet Up{x~
+{g From here the stuff at the bottom of the tree is still pretty close.
+It's still pretty high though.  You can climb down or up from here.  {x
+~
+0 0 1
+D4
+~
+~
+0 0 29241
+D5
+~
+~
+0 0 29227
+S
+#29229
+{WParadise Village's Main Path{x~
+{MThis is the main path through {WParadise Village{M.  All around you
+{gpalm trees{M are standing tall on the sides of the path, and small jungle
+animals dart about on the ground and in the {Gtree{w-{gtops{M.  {x {MThe
+path continues east and west.  {x
+~
+0 0 1
+D1
+~
+~
+0 0 29230
+D3
+~
+~
+0 0 29221
+S
+#29230
+{WParadise Village's Main Path{x ~
+{MThis is the main path through {WParadise Village{M.  All around you
+{gpalm trees{M are standing tall on the sides of the path, and small jungle
+animals dart about on the ground and in the {Gtree{w-{gtops{M.  The path
+continues east and west.  The {GWeaponsmith{M is to the south, and a {rPub{M
+is to the north.  {x
+~
+0 0 1
+D0
+~
+~
+0 0 29231
+D1
+~
+~
+0 0 29234
+D2
+~
+~
+0 0 29233
+D3
+~
+~
+0 0 29229
+S
+#29231
+{rGarduan's Pub{x~
+{cA long flagged bar is the only thing you see in this room, other than a
+bunch of bar stools.  The smell of smoke stands heavy in the air, smelling
+sweet and potent...  What could that smell be?  {x
+~
+0 0 0
+D1
+~
+~
+1 0 29232
+D2
+~
+~
+0 0 29230
+S
+#29232
+{rThe Meat Locker{x~
+{cCattle, pigs, {Cchickens, b{Wear, wolf, rabbi{Ct, shark, whal{ce, elf,
+human...  {cAll eventual{Cly end up h{Were, in Garduan{C's meat cooler.  {c
+Corpses hang all {caround the ro{Com, and yo{Wu can almost t{Cell from the
+sh{capes what animals they {cused to be.  {x
+~
+0 0 0
+D3
+~
+~
+1 0 29231
+S
+#29233
+{WParadise Island's Weapon Shop{x~
+{cYou are in the Weapon shop.  All kinds of destructive utensils are
+displayed in the room, from daggers to exotic weapons, the variety leaves
+you with your mouth open.  The exit out of the shop goes back north.  {x
+~
+0 0 0
+D0
+~
+~
+0 0 29230
+S
+#29234
+{WParadise Village's Main Path{x~
+{MThis is the main path through {WParadise Village{M.  All around you
+{gpalm trees{M are standing tall on the sides of the path, and small jungle
+animals dart about on the ground and in the {Gtree{w-{gtops{M.  The path
+continues east and west.  {x
+~
+0 0 1
+D1
+~
+~
+0 0 29235
+D3
+~
+~
+0 0 29230
+S
+#29235
+{WParadise Village's Main Path{x~
+{MThis is the main path through {WParadise Village{M.  All around you
+{gpalm trees{M are standing tall on the sides of the path, and small jungle
+animals dart about on the ground and in the {Gtree{w-{gtops{M.  The path
+continues west and east.  To the north and south are empty houses.  {x
+~
+0 0 1
+D0
+~
+~
+1 0 29236
+D1
+~
+~
+0 0 29238
+D2
+~
+~
+0 0 29237
+D3
+~
+~
+0 0 29234
+S
+#29236
+House for sale~
+It's a house for sale, Idjit!
+~
+0 0 0
+D2
+~
+~
+1 0 29235
+S
+#29237
+House for sale~
+It's a house for sale, Idjit!
+~
+0 0 0
+D0
+~
+~
+0 0 29235
+S
+#29238
+{WParadise Village's Main Path{x~
+{MThis is the main path through {WParadise Village{M.  All around you
+{gpalm trees{M are standing tall on the sides of the path, and small jungle
+animals dart about on the ground and in the {Gtree{w-{gtops{M.  The path
+continues west.  To the north is an empty houses, and to the east is a small
+clearing.  {x
+~
+0 0 1
+D0
+~
+~
+1 0 29240
+D1
+~
+~
+0 0 29239
+D3
+~
+~
+0 0 29235
+S
+#29239
+{WThe clearing at the end of the Path{x~
+{GThis is the end of the cliff on which paradise village is perched.  It
+ends in a lush clearing, with a beautiful view of the valley, which is
+thousands of feet below in this side.  In the center of the clearing is a
+large marble fountain spewing water and making a rainbow in the gentle
+breeze.  {x
+~
+0 0 3
+D3
+~
+~
+0 0 29238
+S
+#29240
+House for sale~
+It's a house for sale, Idjit!
+~
+0 0 0
+D2
+~
+~
+1 0 29238
+S
+#29241
+{W100 Feet Up{x~
+{g The things you left behind on the ground are starting to look pretty
+hazy from this high up...  Might want to watch your handholds in stead of
+the scenery, Adventurer...  That thing you saw from the ground is starting
+to take shape, although it's just a big brown shape.  {x {gYou can continue
+to climb up or down.  {x
+~
+0 0 1
+D4
+~
+~
+0 0 29242
+D5
+~
+~
+0 0 29228
+S
+#29242
+{W150 Feet Up{x~
+{gMan...  You can barely SEE the ground from here, let alone make out
+what's there.  It would probably be detrimantal to your health if you
+slipped from this high.  The brown thing you saw at the top of the tree now
+appears to be a big square of boards in the top of the tree.  {x {x {gYou
+can keep going up or down.  {x
+~
+0 0 1
+D4
+~
+~
+0 0 29243
+D5
+~
+~
+0 0 29241
+S
+#29243
+{W200 Feet Up{x~
+{gYou are WAY above the island now...  Almost in the clouds!  The bottom
+of the tree looks about as skinny as a pencil from here.  The brown thing
+you was from below in now definately a wood floor...  You can go up to enter
+it or down to the bottom of the tree.  {x
+~
+0 0 1
+D4
+~
+~
+0 0 29244
+D5
+~
+~
+0 0 29242
+S
+#29244
+{WTop of a HUGE {gPalm {GTree{x~
+{cThis small, one room treehouse overlooks the WHOLE island...  You can
+see everything from here.  There a potions lining the walls, and a display
+case full of magical looking devices.  It comes to mind to wonder WHY in the
+WORLD someone would put a shop at the top of a tree like this...  {x
+~
+0 0 0
+D4
+~
+~
+1 0 29268
+D5
+~
+~
+0 0 29243
+S
+#29245
+{WThe Docks{x~
+{cThis is the Paradise Island Docks...  Strangly you never see any
+/-Ships-/ here...  You can go north to the beach, or east into the ticket
+shack.  {x
+~
+0 0 1
+D0
+~
+~
+0 0 29200
+D1
+~
+~
+0 0 29246
+D2
+~
+~
+0 0 29247
+S
+#29246
+{WTicket Shack!~
+{cThis is a fairly plain looking building, with nothing but a simple
+counter inside it.  A gruff looking man stands behind the counter, looking
+at you and scratching his beard.  {x {cThere is a {Wsign {con the back wall.
+{x
+~
+0 0 0
+E
+sign~
+{WDestinations!
+{cEarth {CPortal{x - {yInner Lair{x
+
+~
+E
+sign~
+~
+D3
+~
+~
+0 0 29245
+S
+#29247
+{WEnd of the Docks{x~
+{cThis is the end of the Paradise Island Docks...  Strangly you never see
+any /-Ships-/ here...  You do, however, see a small room to the east.  {x
+~
+0 0 1
+D0
+~
+~
+0 0 29245
+D1
+~
+~
+3 29213 29248
+D2
+~
+~
+3 29227 29267
+S
+#29248
+{WSea {BPortal {CRoom{x~
+The darkness of the {WSea {BPortal{x beacons from the center of the room.
+~
+0 0 0
+D3
+~
+~
+3 29213 29247
+S
+#29250
+{DInside the cliffside cave~
+{DIt's really dark and musty in here.  The walls of the cave are smooth
+and moist.  The cave entrance is west, and east goes deeper into the
+mountain.  {x
+~
+0 0 0
+D1
+~
+~
+0 0 29251
+D3
+~
+~
+0 0 29218
+S
+#29251
+{DInside the cliffside cave~
+{DIt's really dark and musty in here.  The walls of the cave are smooth
+and moist.  The cave entrance is west, and east goes deeper into the
+mountain.  {x
+~
+0 0 0
+D1
+~
+~
+0 0 29252
+D3
+~
+~
+0 0 29250
+S
+#29252
+{DInside the cliffside cave~
+{DIt's really dark and musty in here.  The walls of the cave are smooth
+and moist.  The cave entrance is a ways back west, and east goes deeper into
+the mountain.  {x {DTo the north, flowing liquid can be heard.  {x
+~
+0 0 0
+D0
+~
+~
+0 0 29253
+D1
+~
+~
+0 0 29254
+D3
+~
+~
+0 0 29251
+S
+#29253
+{DNasferatu's Hole{x~
+{DOH WOW!  That's a fountain full of BLOOD!  What a find, if you've got a
+friend who's a vampire.  The only exit is back south to the main cave.  {x
+~
+0 0 0
+D2
+~
+~
+0 0 29252
+S
+#29254
+{DInside the cliffside cave~
+{DIt's really dark and musty in here.  The walls of the cave are smooth
+and moist.  The cave entrance is WAY back west, and to the south is a spot
+of light.  {x
+~
+0 0 0
+D2
+~
+~
+0 0 29255
+D3
+~
+~
+0 0 29252
+S
+#29255
+{DInside the cliffside cave~
+{DIt's really dark and musty in here.  The walls of the cave are smooth
+and moist.  North will take you back toward the fountain, and to the south
+another exit to the cave.  {x
+~
+0 0 0
+D0
+~
+~
+0 0 29254
+D2
+~
+~
+0 0 29256
+S
+#29256
+{xThe South Cliff{x~
+It's WAY the hell up above the {bo{Bc{Ce{Ba{bn{x here, and the only thing
+that would slow you down, should you fall, is a small leadge beneath you.
+There seems to be some type of large {ynest{x down there, too.  {x
+~
+0 0 5
+D0
+~
+~
+0 0 29255
+D5
+~
+~
+0 0 29257
+S
+#29257
+{WThe {CRo{Wc{r'{Ws {yNest{x~
+It's pretty far above the {bo{Bc{Ce{Ba{bn{x here, and you can look out
+over the water for MILES...  Unfourtunately you wont have time to look right
+now because a bird is about to snap your head off from behind.  {x
+~
+0 0 5
+D4
+~
+~
+0 0 29256
+S
+#29258
+{WRoof of the Elder's House{x~
+{MStanding on top of the roof, you can see almost all of the village...
+That is if there wasn't so much {Ws{Dmo{wke{x {Mcoming from the straw
+underfoot.  You can go back down from here into the Elder's bedroom{x
+~
+0 0 1
+D5
+~
+~
+0 0 29226
+S
+#29259
+{rJungle Floor{x~
+{gThe Jungle floor here is littered with dead branches and leaves, and
+the rank smell of decay is everywhere.  Despite that, beautiful and
+dangerous looking flowers grow all around, and small animals can be seen
+roaming about in the underbrush.  {x
+~
+0 0 0
+D0
+~
+~
+0 0 29260
+D2
+~
+~
+0 0 29204
+D3
+~
+~
+0 0 29205
+S
+#29260
+{rJungle Floor{x~
+{gThe Jungle floor here is littered with dead branches and leaves, and
+the rank smell of decay is everywhere.  Despite that, beautiful and
+dangerous looking flowers grow all around, and small animals can be seen
+roaming about in the underbrush.  {x
+~
+0 0 0
+D0
+~
+~
+0 0 29263
+D2
+~
+~
+0 0 29259
+D3
+~
+~
+0 0 29206
+S
+#29261
+{rJungle Floor{x~
+{gThe Jungle floor here is littered with dead branches and leaves, and
+the rank smell of decay is everywhere.  Despite that, beautiful and
+dangerous looking flowers grow all around, and small animals can be seen
+roaming about in the underbrush.  {x
+~
+0 0 0
+D0
+~
+~
+0 0 29207
+D1
+~
+~
+0 0 29205
+D2
+~
+~
+0 0 29262
+D3
+~
+~
+0 0 29265
+S
+#29262
+{rJungle Floor{x~
+{gThe Jungle floor here is littered with dead branches and leaves, and
+the rank smell of decay is everywhere.  Despite that, beautiful and
+dangerous looking flowers grow all around, and small animals can be seen
+roaming about in the underbrush.  {x
+~
+0 0 0
+D0
+~
+~
+0 0 29261
+D1
+~
+~
+0 0 29202
+D3
+~
+~
+0 0 29266
+S
+#29263
+{rJungle Floor{x~
+{gThe Jungle floor here is littered with dead branches and leaves, and
+the rank smell of decay is everywhere.  Despite that, beautiful and
+dangerous looking flowers grow all around, and small animals can be seen
+roaming about in the underbrush.  {x
+~
+0 0 0
+D2
+~
+~
+0 0 29260
+D3
+~
+~
+0 0 29210
+S
+#29264
+{rJungle Floor{x~
+{gThe Jungle floor here is littered with dead branches and leaves, and
+the rank smell of decay is everywhere.  Despite that, beautiful and
+dangerous looking flowers grow all around, and small animals can be seen
+roaming about in the underbrush.  {x
+~
+0 0 0
+D1
+~
+~
+0 0 29209
+D2
+~
+~
+0 0 29208
+S
+#29265
+{rJungle Floor{x~
+{gThe Jungle floor here is littered with dead branches and leaves, and
+the rank smell of decay is everywhere.  Despite that, beautiful and
+dangerous looking flowers grow all around, and small animals can be seen
+roaming about in the underbrush.  {x
+~
+0 0 0
+D0
+~
+~
+0 0 29208
+D1
+~
+~
+0 0 29261
+D2
+~
+~
+0 0 29266
+S
+#29266
+{rJungle Floor{x~
+{gThe Jungle floor here is littered with dead branches and leaves, and
+the rank smell of decay is everywhere.  Despite that, beautiful and
+dangerous looking flowers grow all around, and small animals can be seen
+roaming about in the underbrush.  {x
+~
+0 0 0
+D0
+~
+~
+0 0 29265
+D1
+~
+~
+0 0 29262
+S
+#29267
+{WAir {BPortal {CRoom{X~
+~
+0 0 0
+D0
+~
+~
+3 29227 29247
+S
+#29268
+{BCrazy Jack's {WOffice{x~
+{WA huge {ym{Do{yh{Da{yg{Do{yn{Dy{W desk sits in the middle of the room.
+Behind it is a big cooshie {yleather{W office chair, and in front there are
+two chairs for {BJack's{W Guests.  A cot and a cooler are in the far corner
+of the room, and 10 foot long by 3 foot tall {Dchalk board{W is mounted on
+the wall.  The only exit is {Cdown{W.  {x
+~
+0 0 0
+E
+chalk~
+{y|"""""""""""""""""""""""""""""""""""""""""""""""""""""|
+{y||"""""""""""""""""""""""""""""""""""""""""""""""""""||
+{y||{WParadise Island was Created by Mercutio to be used {y||
+{y||{Won Chronicles of the Blade: Unity of Worlds. If you{y||
+{y||{Wwish to port this area to another mud, ask a       {y||
+{y||{Wquestion, give a compliment, or gripe... My e-mail {y||
+{y||{Wis and always will be: Locust_36@hotmail.com       {y||
+{y||{WHave fun and be safe!                              {y||
+{y||{WMercutio                                           {y||
+{y||{W(c) Thor Solterbeck/Genji Sword Ltd. 11/05/2000    {y||
+{y||===================================================||
+{y|_____________________________________________________|{x
+~
+E
+chalk~
+motd
+~
+D5
+~
+~
+1 0 29244
+S
+#29269
+{rA Mountain Ridgeline{x~
+{DThe top of this ridge extends like a {rknife{wblade{D all the way to
+the uppermost {Wp{Ye{Ga{Bk{D of the mountains.  Ravines a thousand or more
+feet deep extend from both sides down into {glush {Ggreen {Wvalleys{D, and
+the only choice you have is to follow the ridge to it's end, or go back.  {x
+~
+0 0 5
+D0
+~
+~
+0 0 29270
+D2
+~
+~
+0 0 29217
+S
+#29270
+{rA Mountain Ridgeline{x~
+{DThe top of this ridge extends like a {rknife{wblade{D all the way to
+the uppermost {Wp{Ye{Ga{Bk{D of the mountains.  Ravines a thousand or more
+feet deep extend from both sides down into {glush {Ggreen {Wvalleys{D, and
+the only choice you have is to follow the ridge to it's end, or go back.  {x
+~
+0 0 5
+D1
+~
+~
+0 0 29271
+D2
+~
+~
+0 0 29269
+S
+#29271
+{rA Mountain Ridgeline{x~
+{DThe top of this ridge extends like a {rknife{wblade{D all the way to
+the uppermost {Wp{Ye{Ga{Bk{D of the mountains.  Ravines a thousand or more
+feet deep extend from both sides down into {glush {Ggreen {Wvalleys{D, and
+the only choice you have is to follow the ridge to it's end, or go back.  {x
+~
+0 0 5
+D0
+~
+~
+0 0 29272
+D3
+~
+~
+0 0 29270
+S
+#29272
+{rA Mountain Ridgeline{x~
+{DThe top of this ridge extends like a {rknife{wblade{D all the way to
+the uppermost {Wp{Ye{Ga{Bk{D of the mountains.  Ravines a thousand or more
+feet deep extend from both sides down into {glush {Ggreen {Wvalleys{D, and
+the only choice you have is to follow the ridge to it's end, or go back.  {x
+~
+0 0 5
+D2
+~
+~
+0 0 29271
+D4
+~
+~
+0 0 29273
+S
+#29273
+{rA Mountain Ridgeline{x~
+{DThe top of this ridge extends like a {rknife{wblade{D all the way to
+the uppermost {Wp{Ye{Ga{Bk{D of the mountains.  Ravines a thousand or more
+feet deep extend from both sides down into {glush {Ggreen {Wvalleys{D, and
+the only choice you have is to follow the ridge to it's end, or go back.  {x
+~
+0 0 5
+D0
+~
+~
+0 0 29274
+D5
+~
+~
+0 0 29272
+S
+#29274
+{rA Mountain Ridgeline{x~
+{DThe top of this ridge extends like a {rknife{wblade{D all the way to
+the uppermost {Wp{Ye{Ga{Bk{D of the mountains.  Ravines a thousand or more
+feet deep extend from both sides down into {glush {Ggreen {Wvalleys{D, and
+the only choice you have is to follow the ridge to it's end, or go back.  {x
+~
+0 0 5
+D2
+~
+~
+0 0 29273
+D4
+~
+~
+0 0 29275
+S
+#29275
+{rEnd of the Ridgeline{x~
+{DThis is the end of the ridge.  The view from here is awesome.
+Extending miles in every direction are the valley filled with {gvegitation{D
+and you can even see the {ybe{Ca{ych{D from here.  A huge {wboulder{D sits
+at the top of the trail, flanked by two two spires that run out over the
+edge of the cliffs on both sides.  The only exit is {csouth{D.  {x
+~
+0 0 5
+D0
+~
+boulder~
+1 0 29276
+D5
+~
+~
+0 0 29274
+S
+#29276
+{WThe Top of the Mountain{x~
+{WThe top of this mountain is covered in snow, and due to the elevation
+is frigid.  Jagged {Drocks{W and {cspires{W poke through the snow in odd
+places, constantly being covered and uncovered by the gusting {Cwinds{W.  {x
+~
+0 0 5
+D0
+~
+~
+0 0 29277
+D1
+~
+~
+0 0 29278
+D2
+~
+~
+1 0 29275
+D3
+~
+~
+0 0 29279
+S
+#29277
+{WThe Top of the Mountain{x~
+{WThe top of this mountain is covered in snow, and due to the elevation
+is frigid.  Jagged {Drocks{W and {cspires{W poke through the snow in odd
+places, constantly being covered and uncovered by the gusting {Cwinds{W.  {x
+~
+0 0 5
+D0
+~
+~
+0 0 29282
+D1
+~
+~
+0 0 29280
+D2
+~
+~
+0 0 29276
+D3
+~
+~
+0 0 29281
+S
+#29278
+{WThe Top of the Mountain{x~
+{WThe top of this mountain is covered in snow, and due to the elevation
+is frigid.  Jagged {Drocks{W and {cspires{W poke through the snow in odd
+places, constantly being covered and uncovered by the gusting {Cwinds{W.  {x
+~
+0 0 5
+D0
+~
+~
+0 0 29280
+D3
+~
+~
+0 0 29276
+S
+#29279
+{WThe Top of the Mountain{x~
+{WThe top of this mountain is covered in snow, and due to the elevation
+is frigid.  Jagged {Drocks{W and {cspires{W poke through the snow in odd
+places, constantly being covered and uncovered by the gusting {Cwinds{W.  {x
+~
+0 0 5
+D0
+~
+~
+0 0 29281
+D1
+~
+~
+0 0 29276
+S
+#29280
+{WThe Top of the Mountain{x~
+{WThe top of this mountain is covered in snow, and due to the elevation
+is frigid.  Jagged {Drocks{W and {cspires{W poke through the snow in odd
+places, constantly being covered and uncovered by the gusting {Cwinds{W.  {x
+~
+0 0 5
+D2
+~
+~
+0 0 29278
+D3
+~
+~
+0 0 29277
+S
+#29281
+{WThe Top of the Mountain{x~
+{WThe top of this mountain is covered in snow, and due to the elevation
+is frigid.  Jagged {Drocks{W and {cspires{W poke through the snow in odd
+places, constantly being covered and uncovered by the gusting {Cwinds{W.  {x
+~
+0 0 5
+D1
+~
+~
+0 0 29277
+D2
+~
+~
+0 0 29279
+S
+#29282
+{WThe Top of the Mountain{x~
+{WThis is absolutely the highest place on the mountain.  The snow lies
+deep here, crunching underfoot, and your breath comes in ragged steaming
+gasps.  You notice that the {Csky{W is espically clear here, and you can see
+down thousands of feet into the fertile {ggreen {Gvalleys{W of the island.
+Every few seconds a gust of wind comes rushing up from the valleys to greet
+you head on, and try to blow you off the mountains crusted head.  {x
+~
+0 8192 5
+D2
+~
+~
+0 0 29277
+S
+#29283
+A Stoney Path~
+Evenly laid stones now support your feet, leading up to a small building.
+The path leads north to the buiding and south to the jungle.
+~
+0 0 1
+D0
+~
+~
+0 0 29284
+D2
+~
+brush~
+3 0 29210
+S
+#29284
+Before the Temple~
+You stand in a small foyer in the front of the temple.  A large rice
+paper sliding door is ahead of you, standing open.  You can enter by going
+north, or go south to the path that leads back to the jungle.
+~
+0 0 0
+D0
+~
+~
+0 0 29285
+D2
+~
+~
+0 0 29283
+S
+#29285
+The Temple of the Assassin~
+Swords, Gis, and other various tools line the walls in this small dark
+room.  The floors are covered with a thick bamboo mat, as are the walls.  In
+the back of the room is a small table, just high enough to be at hip level
+when sitting on your heels.  The table is covered with a peice of black
+cloth, and inscense and candles burn away merrily on top of it.  The only
+exit is back to the south.  {x
+~
+0 0 0
+D2
+~
+~
+0 0 29284
+S
+#0
+
+
+
+#SPECIALS
+M 29213 spec_thief
+M 29214 spec_thief
+S
+
+
+
+#RESETS
+D 0 29210 0 2
+D 0 29231 1 2
+D 0 29232 3 2
+D 0 29235 0 1
+D 0 29236 2 1
+D 0 29238 0 1
+D 0 29240 2 1
+D 0 29244 4 2
+D 0 29247 1 2
+D 0 29247 2 2
+D 0 29248 3 2
+D 0 29267 0 2
+D 0 29268 5 2
+D 0 29275 0 1
+D 0 29276 2 1
+D 0 29283 2 2
+M 0 29200 10 29202 20 Load A Tribal Warrior
+E 0 29200 0 16 A {gv{yin{de w{gh{wi{dp{x is loaded wielded of A Tribal Warrior
+E 0 29201 0 6 {gc{dam{yo{gfla{yg{ge f{ga{gce{dpai{gn{yt{x is loaded over the head of A Tribal Warrior
+M 0 29205 5 29202 30 Load A Leopard
+M 0 29200 10 29206 20 Load A Tribal Warrior
+E 0 29200 0 16 A {gv{yin{de w{gh{wi{dp{x is loaded wielded of A Tribal Warrior
+E 0 29201 0 6 {gc{dam{yo{gfla{yg{ge f{ga{gce{dpai{gn{yt{x is loaded over the head of A Tribal Warrior
+M 0 29205 5 29206 30 Load A Leopard
+M 0 29200 10 29208 20 Load A Tribal Warrior
+E 0 29200 0 16 A {gv{yin{de w{gh{wi{dp{x is loaded wielded of A Tribal Warrior
+E 0 29201 0 6 {gc{dam{yo{gfla{yg{ge f{ga{gce{dpai{gn{yt{x is loaded over the head of A Tribal Warrior
+M 0 29205 5 29208 30 Load A Leopard
+M 0 29200 10 29209 20 Load A Tribal Warrior
+E 0 29200 0 16 A {gv{yin{de w{gh{wi{dp{x is loaded wielded of A Tribal Warrior
+E 0 29201 0 6 {gc{dam{yo{gfla{yg{ge f{ga{gce{dpai{gn{yt{x is loaded over the head of A Tribal Warrior
+M 0 29205 5 29209 30 Load A Leopard
+M 0 29213 1 29210 1 Load Ryo
+E 0 29254 0 16 {dninja {wkatana{x is loaded wielded of Ryo
+E 0 29253 0 17 {wa gate key{x is loaded held in the hands of Ryo
+M 0 29201 1 29214 1 Load A {GJ{gu{Dng{gl{Ge {DS{rp{Di{rd{De{rr{x
+E 0 29203 0 16 A {gj{gu{dng{gl{ge {ds{rp{di{rd{de{rr{d'{rs {ml{me{dg{x is loaded wielded of A {GJ{gu{Dng{gl{Ge {DS{rp{Di{rd{De{rr{x
+G 0 29202 0 A {gj{gu{dng{gl{ge {ds{rp{di{rd{de{rr{d'{rs {ww{we{wb{x is given to A {GJ{gu{Dng{gl{Ge {DS{rp{Di{rd{De{rr{x
+G 0 29256 0 {gj{gu{dng{gl{ge {ds{rp{di{rd{de{rr{d'{rs {yh{ye{ya{yd{x is given to A {GJ{gu{Dng{gl{Ge {DS{rp{Di{rd{De{rr{x
+M 0 29202 1 29222 1 Load Geloni
+G 0 29204 0 {c[>{wi{cs{bl{ga{yn{rd {gb{gr{ge{ga{gs{gt{gp{gl{ga{gt{ge{c<]{x is given to Geloni
+G 0 29206 0 {c[>{wi{cs{bl{ga{yn{rd {bn{be{bc{bk{bg{bu{ba{br{bd{c<]{x is given to Geloni
+G 0 29209 0 {c[>{wi{cs{bl{ga{yn{rd {db{ya{dc{yk{dp{yl{da{yt{de{c<]{x is given to Geloni
+G 0 29208 0 {c[>{wi{cs{bl{ga{yn{rd {wl{we{wg{wg{wi{wn{wg{ws{c<]{x is given to Geloni
+G 0 29212 0 {c[>{w-{c={b-{g={y-{r<{d:i:{r>{y-{g={b-{c={w-{c<]{x is given to Geloni
+G 0 29211 0 {c[>{wi{cs{bl{ga{yn{rd {cs{cl{ce{ce{cv{ce{cs{c<]{x is given to Geloni
+G 0 29207 0 {c[>{wi{cs{bl{ga{yn{rd {yb{yr{ya{yc{ye{yr{c<]{x is given to Geloni
+G 0 29205 0 {c[>{wi{cs{bl{ga{yn{rd {rh{re{rl{rm{re{rt{c<]{x is given to Geloni
+G 0 29210 0 {c[>{wi{cs{bl{ga{yn{rd {db{wo{do{wt{ds{c<]{x is given to Geloni
+O 0 29222 0 29225 A desk loaded to {WInside the E{Bl{Cd{Ge{Yr{R'{Ds {WHouse{x
+P 0 29223 1 29222 1 {xa note pad{x put inside {xA note pad{x
+P 0 29243 1 29222 1 {wdagger {wof {dnewbieness{x put inside {WDagger {wof {DNewbieness{x
+O 0 29226 0 29226 {da {ds{rm{do{yl{dd{re{dr{yi{dn{rg{d hole{x loaded to {WThe E{Bl{Cd{Ge{Yr{R'{Ds {WBedroom{x
+M 0 29209 1 29231 1 Load Garduan
+G 0 29248 0 A shot of absinthe is given to Garduan
+G 0 29249 0 A mug of ale is given to Garduan
+G 0 29250 0 A bar-b-q steak is given to Garduan
+G 0 29251 0 Some chicken wings is given to Garduan
+M 0 29208 1 29233 1 Load Pete
+G 0 29230 0 {dnau{cgli{wmer {dbro{cads{wword{x is given to Pete
+G 0 29234 0 {dnau{cgli{wmer {dc{cl{waw{x is given to Pete
+G 0 29235 0 {dnau{cgli{wmer {dda{cgg{wer{x is given to Pete
+G 0 29236 0 {dnau{cgli{wmer {da{cx{we{x is given to Pete
+G 0 29237 0 {dnau{cgli{wmer {dw{ch{wip{x is given to Pete
+G 0 29238 0 {dnau{cgli{wmer {dm{ca{wce{x is given to Pete
+G 0 29239 0 {dnau{cgli{wmer {ds{cta{wff{x is given to Pete
+M 0 29204 1 29244 1 Load {BCrazy Jack{x
+G 0 29215 0 {wangel {rb{rl{ro{ro{rd{x is given to {BCrazy Jack{x
+G 0 29216 0 {wpotion {mof {ddark {rpower{x is given to {BCrazy Jack{x
+G 0 29217 0 {wpotion {gof {bholy {ylight{x is given to {BCrazy Jack{x
+G 0 29219 0 {wstaff of the {ywolf{x is given to {BCrazy Jack{x
+G 0 29220 0 {dwarrior {wring{x is given to {BCrazy Jack{x
+G 0 29221 0 {wmage {cring{x is given to {BCrazy Jack{x
+G 0 29228 0 {dthief {rring{x is given to {BCrazy Jack{x
+E 0 29218 0 17 {bcrazy jack's {wstaff {gof {mboppin{c'{x is loaded held in the hands of {BCrazy Jack{x
+G 0 29229 0 {granger {gring{x is given to {BCrazy Jack{x
+G 0 29231 0 {dvampire {whunter {cring{x is given to {BCrazy Jack{x
+G 0 29232 0 {rmonk {wring{x is given to {BCrazy Jack{x
+G 0 29233 0 {gdruid {gring{x is given to {BCrazy Jack{x
+M 0 29203 1 29246 1 Load {WBig Sailor Bill{x
+G 0 29213 0 {wkey {bto {bthe {csea {cportal{x is given to {WBig Sailor Bill{x
+G 0 29227 0 {wkey {bto {bthe {cair {cportal{x is given to {WBig Sailor Bill{x
+O 0 29214 0 29248 {da dark portal{x loaded to {WSea {BPortal {CRoom{x
+O 0 29224 0 29253 {df{co{du{cn{dt{ca{di{cn {do{mf {rb{rl{ro{ro{rd{x loaded to {DNasferatu's Hole{x
+M 0 29206 1 29257 1 Load A {WGiant {CRoc{x
+E 0 29225 0 16 {c<{wa {wro{cc{w's {cfe{wat{whe{cr{c>{x is loaded wielded of A {WGiant {CRoc{x
+M 0 29207 1 29258 1 Load Bob
+M 0 29200 5 29261 20 Load A Tribal Warrior
+E 0 29200 0 16 A {gv{yin{de w{gh{wi{dp{x is loaded wielded of A Tribal Warrior
+E 0 29201 0 6 {gc{dam{yo{gfla{yg{ge f{ga{gce{dpai{gn{yt{x is loaded over the head of A Tribal Warrior
+M 0 29205 10 29261 30 Load A Leopard
+M 0 29205 10 29263 30 Load A Leopard
+M 0 29200 5 29266 20 Load A Tribal Warrior
+E 0 29200 0 16 A {gv{yin{de w{gh{wi{dp{x is loaded wielded of A Tribal Warrior
+E 0 29201 0 6 {gc{dam{yo{gfla{yg{ge f{ga{gce{dpai{gn{yt{x is loaded over the head of A Tribal Warrior
+M 0 29205 10 29266 30 Load A Leopard
+O 0 29252 0 29267 {wair portal{x loaded to {WAir {BPortal {CRoom{X
+O 0 29240 0 29268 {yleather {drecliner{x loaded to {BCrazy Jack's {WOffice{x
+O 0 29241 0 29268 {ym{do{yh{da{yg{do{yn{dy{w desk{x loaded to {BCrazy Jack's {WOffice{x
+O 0 29242 0 29268 Cooler loaded to {BCrazy Jack's {WOffice{x
+M 0 29211 3 29269 10 Load A Mountain Wyvern
+M 0 29211 5 29271 10 Load A Mountain Wyvern
+M 0 29211 5 29272 10 Load A Mountain Wyvern
+M 0 29211 5 29273 10 Load A Mountain Wyvern
+M 0 29211 5 29274 10 Load A Mountain Wyvern
+M 0 29211 5 29275 10 Load A Mountain Wyvern
+M 0 29212 3 29276 7 Load {WA White Wolf{x
+M 0 29212 3 29277 7 Load {WA White Wolf{x
+M 0 29212 3 29278 7 Load {WA White Wolf{x
+M 0 29212 3 29279 7 Load {WA White Wolf{x
+M 0 29212 3 29280 7 Load {WA White Wolf{x
+M 0 29212 3 29281 7 Load {WA White Wolf{x
+M 0 29210 1 29282 1 Load Ryan
+E 0 29244 0 16 {da black claymore{x is loaded wielded of Ryan
+E 0 29245 0 7 {ca s{rco{gtt{bis{ch k{ril{gt{x is loaded on the legs of Ryan
+E 0 29246 0 5 {ydeerskin shirt{x is loaded on the body of Ryan
+E 0 29247 0 17 {ga set of bagpipes{x is loaded held in the hands of Ryan
+M 0 29214 1 29285 1 Load Shin Goki
+E 0 29254 0 16 {dninja {wkatana{x is loaded wielded of Shin Goki
+S
+
+
+
+#SHOPS
+29202 0 0 9 9 9 110 90 0 23
+29203 0 18 0 0 0 110 90 0 23
+29204 0 0 9 3 10 110 90 0 23
+29208 0 0 0 5 5 110 90 0 23
+29209 0 13 0 0 0 100 90 0 23
+0
+
+
+
+#MOBPROGS
+#29200
+~
+#29201
+~
+#29202
+~
+#29214
+say So, you want some work, eh $n?
+say Go find me a big spider and bring me it's head...
+~
+#29215
+say HEY!! That's just what I needed for my stew tonight!
+squeal
+say Now take this and get out of mah house, Shippen-Jiahaetsu!
+give 500 gold $n
+push %n south
+~
+#0
+
+#HELPS
+0 'PARADISE ISLAND'~
+{yNice island area with a town of shops and homes for rent.  Would fit
+nicely in any sea ;){x 
+ 
+{rParadise Island: Built/Donated by Mercutio
+http://creatia.funcity.org
+telnet://creatia.funcity.org:7500{x
+~
+
+-1 $~
+
+#$

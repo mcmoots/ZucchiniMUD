@@ -1,0 +1,530 @@
+
+#AREA ~
+
+
+#MOBILES
+#4300
+toruloquimint word spirit~
+Toruloquimint~
+Toruloquimint the "Word Spirit" dwells in this archive.
+~
+The archive of the Belltower is inhabited by a "word spirit" called the
+Toruloquimint.  It appears to be the protector of its sacred texts, and has
+the ability to translate writing into any language.
+~
+66 2 800 S
+39 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#4301
+Bellmaster Bell Master~
+The Bellmaster~
+The Bellmaster focuses singularly on his mission.
+~
+The Bellmaster's task is to ring the bell atop the tower once daily.  He is an
+aged man, and a bit slow to move about.  He became the Bellmaster after the
+passing of the previous one, countless years ago.
+~
+64 128 650 S
+50 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#4302
+demon informant~
+a demon informant~
+A demon informant stands in a daze.
+~
+This demon came here to spy on the Bellmaster for his unholy master.  She just
+seems to stand here in a trance.  It might be related to the strange looking
+gloves she is wearing.
+~
+192 65536 -550 S
+45 0 0 0d0+0 0d0+0
+0 0
+8 8 2
+#4303
+guardian spirit~
+a guardian spirit~
+A spirit stands guard at this tomb.
+~
+Either this is the spirit of the previous Bellmaster or some other benevolent
+spirit that guards this grave.  It will attack anyone that tries to defile
+this grave.
+~
+66 2 200 S
+48 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+#0
+
+
+#OBJECTS
+#4300
+translation scroll~
+a translation scroll~
+This scroll can translate anything into a language you can comprehend.~
+~
+2 2 1
+3 53 0 0
+4 1000 0
+#4301
+Toruloquimint candle~
+Toruloquimint's candle~
+Toruloquimint's candle emits a warm glow.~
+~
+1 1 1
+0 0 -1 0
+6 1000 0
+A
+4 2
+A
+19 -1
+A
+12 15
+#4302
+Toruloquimint's staff~
+Toruloquimint's staff~
+A simple staff used by Toruloquimint looks ancient.~
+~
+4 1026 16385
+23 7 7 15
+21 1000 0
+A
+12 27
+#4303
+glowing note~
+a glowing note~
+This glowing note has an interesting message written on it.~
+~
+13 1 1
+0 0 0 0
+3 1000 0
+E
+message written important~
+The note is written in an unknown language, but you hear a voice in your head
+say the following:
+
+"When you hear nothing but silence, and then a faint ringing in your ears,
+that is the sound of the Belltower resonating across Eternity."
+~
+#4304
+wooden cabinet~
+a wooden cabinet~
+Surprisingly, this decades old cabinet looks as if it were never used.~
+~
+15 4 0
+50 5 0 0
+40 1000 0
+#4305
+tin oats~
+a tin of oats~
+This tin is filled with boring oats.~
+~
+19 0 1
+6 0 0 0
+8 1000 0
+#4306
+jar peaches~
+a jar of peaches~
+A jar is filled with tasty peaches.~
+~
+19 0 1
+4 0 0 0
+6 1000 0
+#4307
+flask ale~
+a flask of ale~
+A glass flask is filled with a dark ale.~
+~
+17 0 1
+7 7 4 0
+6 1000 0
+#4308
+Belltower's brass bell~
+the Belltower's brass bell~
+Once a day, the Bellmaster rings the Belltower's huge brass bell.~
+~
+12 2 0
+0 0 0 0
+100 1000 0
+#4309
+peach tree~
+a peach tree~
+A peach tree grows tall in the distance.~
+~
+12 4 0
+0 0 0 0
+900 1000 0
+#4310
+eye spirit~
+the guardian spirit's eyes~
+The eyes of the guardian spirit can see impurity.~
+~
+3 0 16385
+15 2 3 18
+7 1000 0
+A
+3 1
+#4311
+robe resistance~
+the robe of resistance~
+This robe is made specifically to resist magical effects.~
+~
+9 1024 9
+0 0 0 0
+8 1000 0
+A
+13 -40
+A
+24 -15
+A
+23 -6
+A
+21 -6
+A
+12 40
+#4312
+gloves peace~
+gloves of peace~
+Gloves designed to pacify the wearer sit here.~
+~
+9 4608 129
+12 0 0 0
+10 1000 0
+A
+18 -9
+A
+19 -9
+#0
+
+
+#ROOMS
+#4300
+On the Path to the Belltower~
+Here in an isolated corner of the world sits the Belltower.  Though its
+origins are a complete mystery- nobody knows who built it, or when- it has
+been recognized as sacred and holy, with a bell that seems to have some
+mysterious properties or power.  Along with its origins, the bell's power is
+also known by none.
+
+Nearby glows a light blue rune.
+~
+43 1028 2
+D1
+
+~
+~
+0 0 4301
+E
+light blue rune~
+The Belltower, created by Bouchart for Merc, March 2009.
+~
+S
+#4301
+Path Around the Belltower~
+A small circle of stones sits a few feet from the western wall of the
+Belltower.  Although very small, each about the size of an apple, they are far
+too heavy to be lifted or even moved.
+~
+43 0 2
+D0
+
+~
+~
+0 0 4302
+D2
+
+~
+~
+0 0 4313
+D3
+
+~
+~
+0 0 4300
+E
+stone stones~
+These stones could not possibly be natural in origin; they are just too heavy!
+~
+S
+#4302
+Quiet Pathway~
+A tombstone stands, with its writing too weathered to be read.  It might be
+the resting place of the former keeper of this site.  While the ground around
+the tombstone looks like ordinary dirt and earth, it is extremely hard. 
+Excavating the grave would be impossible.
+~
+43 0 2
+D1
+
+~
+~
+0 0 4303
+D2
+
+~
+~
+0 0 4301
+S
+#4303
+Path of Meditation~
+The air here makes a slight humming sound, and feels unusually warm.  It feels
+quite soothing, but at the same time its unnatural presence is discomforting.
+~
+43 0 2
+D1
+
+~
+~
+0 0 4304
+D3
+
+~
+~
+0 0 4302
+S
+#4304
+Junction~
+Parts of the ground here are covered in thick moss.  It feels very comfortable
+walking across it.  Insects crawl around this place.  Some head north, but
+then turn around, as if repelled by some force.
+~
+43 0 2
+D0
+
+~
+~
+0 0 4314
+D1
+
+~
+simple wooden door~
+1 0 4305
+D2
+
+~
+~
+0 0 4306
+D3
+
+~
+~
+0 0 4303
+S
+#4305
+Bellmaster's Hut~
+The Bellmaster's hut is not nearly as simple as it appears to be.  This hut
+contains a nothing but a clean bedroll, a table and chair, and a cabinet. 
+According to tradition, the Bellmaster's few worldly possessions are passed
+down to his successor after his death.  Yet after so many years, everything in
+this hut, and the hut itself, appear to be in brand new condition, as if
+unaffected by the passage of time.
+~
+43 8 0
+D3
+
+~
+~
+0 0 4304
+S
+#4306
+The Ivy Covered Tower Wall~
+Ivy covers the eastern wall of the tower.  A careful observer would notice
+that the ivy actually moves, albeit slowly.  Perhaps it is trying to hide
+something?  But perhaps it is just swaying in the breeze.
+~
+43 0 2
+D0
+
+~
+~
+0 0 4304
+D2
+
+~
+~
+0 0 4307
+S
+#4307
+Silent Passage~
+Tree leaves sway in the wind, but there is no sound.  Nothing.  Not even your
+own footsteps make noise here.
+~
+43 0 2
+D0
+
+~
+~
+0 0 4306
+D3
+
+~
+~
+0 0 4308
+S
+#4308
+Belltower Entryway~
+The entrance to the Belltower to the north is but a simple arched entryway. 
+On the arch is some writing, in what one might think is the same message in
+several different languages.
+~
+43 0 2
+D0
+
+~
+~
+0 0 4309
+D1
+
+~
+~
+0 0 4307
+D3
+
+~
+~
+0 0 4313
+E
+writing message language~
+Some of the writing is decipherable.  It reads:
+
+"The Bell is not holy or sacred.  The Sound is."
+~
+S
+#4309
+Belltower Entrance~
+The Belltower itself is a simple stone building.  It was first discovered about
+fifty years ago, but nobody knows who built it or with what means.  The
+Belltower is about one hundred feet tall, and apparently has a basement, as a
+hatch cover leads down.
+~
+43 8 0
+D2
+
+~
+~
+0 0 4308
+D4
+
+~
+~
+0 0 4311
+D5
+
+~
+hatch cover~
+1 0 4310
+S
+#4310
+Belltower Basement~
+The basement of this Belltower is used to archive old texts.  The words on the
+texts, written in unknown languages, glow light blue.  They appear to have
+great importance, but their true meaning may have been lost over the ages, or
+perhaps not lost, but hidden.
+~
+43 9 0
+D4
+
+~
+~
+0 0 4309
+S
+#4311
+Belltower Staircase~
+The Bellmaster must ascend and descend these many steps once a day to ring the
+bell.  Given the Bellmaster's age, this is no easy task, but his entire life
+is dedicated to accomplishing his duty.  About every twenty steps or so is a
+small alcove with a bench, so that the weary Bellmaster may rest.
+~
+43 8 0
+D4
+
+~
+~
+0 0 4312
+D5
+
+~
+~
+0 0 4309
+S
+#4312
+The Bell~
+Atop the tower is a large brass bell.  It looks ordinary at first, but it
+seems to make a slight ringing sound, even when completely motionless.  There
+is a strange sense of calm in this place.
+~
+43 1032 0
+D5
+
+~
+~
+0 0 4311
+S
+#4313
+Tranquil Passage~
+A small circular reflecting pool sits here with clear, clean water.  It appears
+to be but a few inches deep.  This place is perfect for relaxation or
+contemplation.
+~
+43 0 2
+D0
+
+~
+~
+0 0 4301
+D1
+
+~
+~
+0 0 4308
+S
+#4314
+Garden~
+Vegetables and beans are grown in this small garden.  There are potatoes,
+carrots, and several beanstalks.  No ants, beetles, or insects of any type
+crawl around here.
+~
+43 4 2
+D2
+
+~
+~
+0 0 4304
+S
+#0
+
+
+#RESETS
+D 0 4304 1 1  * Junction
+D 0 4309 5 1  * Belltower Entrance
+O 0 4304 1 4305  * a wooden cabinet -> Bellmaster's Hut
+O 0 4308 1 4312  * the Belltower's brass bell -> The Bell
+O 0 4309 1 4314  * a peach tree -> Garden
+P 0 4305 1 4304  * a tin of oats -> a wooden cabinet
+P 0 4306 1 4304  * a jar of peaches -> a wooden cabinet
+P 0 4307 1 4304  * a flask of ale -> a wooden cabinet
+M 0 4300 1 4310  * Toruloquimint -> Belltower Basement
+G 0 4303 1  * a glowing note
+G 0 4300 1  * a translation scroll
+E 0 4302 1 17  * Toruloquimint's staff
+E 0 4301 1 0  * Toruloquimint's candle
+M 0 4301 1 4305  * The Bellmaster -> Bellmaster's Hut
+E 0 4311 1 5  * the robe of resistance
+M 0 4302 1 4307  * a demon informant -> Silent Passage
+E 0 4312 1 9  * gloves of peace
+M 0 4303 1 4302  * a guardian spirit -> Quiet Pathway
+G 0 4310 1  * the guardian spirit's eyes
+S
+
+
+#SHOPS
+0
+
+
+#SPECIALS
+M 4303 spec_cast_mage  * a guardian spirit
+S
+
+#$
+

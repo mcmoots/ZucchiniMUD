@@ -1,0 +1,658 @@
+
+	Here is a little snippet I've made to turn unusable,
+	old-style Envy 2.0 areas into cool Rom 2.4-compatible
+	areas :) . You need OLC for 2.4 to make this thing work.
+
+	First, copy envy.h to your Rom24/src dir.
+
+	In merc.h , find 'Area flags'. Add this nice new flag :
+
+#define		AREA_ENVY	8	/* Envy area */
+
+	Now, find 'Local booting procedures' in the top of db.c,
+	and add these declarations :
+
+void	load_envy_mob	args( ( FILE *fp ) );
+void	load_envy_obj	args( ( FILE *fp ) );
+void	load_envy_res	args( ( FILE *fp ) );
+long	envy_to_rom_aff	( long envyaff );
+
+	Go to boot_db and find these lines :
+
+		else if ( !str_cmp( word, "SOCIALS"  ) ) load_socials (fpArea);
+		else if ( !str_cmp( word, "SPECIALS" ) ) load_specials(fpArea);
+
+	Now, add these lines before those two :
+
+		else if ( !str_cmp( word, "ENVYMOB"  ) ) load_envy_mob(fpArea);
+		else if ( !str_cmp( word, "ENVYOBJ"  ) ) load_envy_obj(fpArea);
+		else if ( !str_cmp( word, "ENVYRES"  ) ) load_envy_res(fpArea);
+
+	Go to load_rooms and find this block of code :
+
+		switch ( locks )
+		{
+		case 1: pexit->exit_info = EX_ISDOOR;               
+			pexit->rs_flags  = EX_ISDOOR;		     break;
+		case 2: pexit->exit_info = EX_ISDOOR | EX_PICKPROOF;
+			pexit->rs_flags  = EX_ISDOOR | EX_PICKPROOF; break;
+		case 3: pexit->exit_info = EX_ISDOOR | EX_NOPASS;    
+			pexit->rs_flags  = EX_ISDOOR | EX_NOPASS;    break;
+		case 4: pexit->exit_info = EX_ISDOOR|EX_NOPASS|EX_PICKPROOF;
+			pexit->rs_flags  = EX_ISDOOR|EX_NOPASS|EX_PICKPROOF;
+			break;
+		}
+
+	REPLACE IT with this new block :
+
+		if (!IS_SET(area_last->area_flags,AREA_ENVY))
+			switch ( locks )
+			{
+			case 1: pexit->exit_info = EX_ISDOOR;                break;
+			case 2: pexit->exit_info = EX_ISDOOR | EX_PICKPROOF; break;
+			case 3: pexit->exit_info = EX_ISDOOR | EX_NOPASS;    break;
+			case 4: pexit->exit_info = EX_ISDOOR|EX_NOPASS|EX_PICKPROOF;
+				break;
+			}
+		else	/* Envy area */
+			switch( locks )
+			{
+			case 1: pexit->exit_info = EX_ISDOOR;	break;
+			case 2: pexit->exit_info = EX_ISDOOR | EX_PICKPROOF;	break;
+			case 3: pexit->exit_info = EX_ISDOOR;	break;
+			case 4: pexit->exit_info = EX_ISDOOR | EX_PICKPROOF;	break;
+			case 5: pexit->exit_info = EX_ISDOOR | EX_NOPASS;	break;
+			case 6: pexit->exit_info = EX_ISDOOR | EX_PICKPROOF | EX_NOPASS;	break;
+			case 7: pexit->exit_info = EX_ISDOOR | EX_NOPASS;	break;
+			case 8: pexit->exit_info = EX_ISDOOR | EX_PICKPROOF | EX_NOPASS;	break;
+			}
+
+		pexit->rs_flags = pexit->exit_info;
+
+	At the end of the file stick these new functions :
+
+#include "envy.h"
+
+/*
+ * Snarf a mob section.  old style 
+ */
+void load_envy_mob( FILE *fp )
+{
+    MOB_INDEX_DATA *pMobIndex;
+    /* for race updating */
+    int race;
+
+    if ( !area_last )   /* OLC */
+    {
+        bug( "Load_mobiles: no #AREA seen yet.", 0 );
+        exit( 1 );
+    }
+
+    for ( ; ; )
+    {
+	sh_int vnum;
+	char letter;
+	int iHash;
+
+	letter				= fread_letter( fp );
+	if ( letter != '#' )
+	{
+	    bug( "Load_mobiles: # not found.", 0 );
+	    exit( 1 );
+	}
+
+	vnum				= fread_number( fp );
+	if ( vnum == 0 )
+	    break;
+
+	fBootDb = FALSE;
+	if ( get_mob_index( vnum ) != NULL )
+	{
+	    bug( "Load_mobiles: vnum %d duplicated.", vnum );
+	    exit( 1 );
+	}
+	fBootDb = TRUE;
+
+	pMobIndex			= alloc_perm( sizeof(*pMobIndex) );
+	pMobIndex->vnum			= vnum;
+        pMobIndex->area                 = area_last;               /* OLC */
+	pMobIndex->new_format		= FALSE;
+	pMobIndex->player_name		= fread_string( fp );
+	pMobIndex->short_descr		= fread_string( fp );
+	pMobIndex->long_descr		= fread_string( fp );
+	pMobIndex->description		= fread_string( fp );
+
+	pMobIndex->long_descr[0]	= UPPER(pMobIndex->long_descr[0]);
+	pMobIndex->description[0]	= UPPER(pMobIndex->description[0]);
+
+	pMobIndex->act			= fread_flag( fp ) | ACT_IS_NPC;
+	pMobIndex->affected_by		= envy_to_rom_aff( fread_flag( fp ) );
+	pMobIndex->pShop		= NULL;
+	pMobIndex->alignment		= fread_number( fp );
+	letter				= fread_letter( fp );
+	pMobIndex->level		= number_fuzzy( fread_number( fp ) );
+
+	/*
+	 * The unused stuff is for imps who want to use the old-style
+	 * stats-in-files method.
+	 */
+					  fread_number( fp );	/* Unused */
+					  fread_number( fp );	/* Unused */
+					  fread_number( fp );	/* Unused */
+	/* 'd'		*/		  fread_letter( fp );	/* Unused */
+					  fread_number( fp );	/* Unused */
+	/* '+'		*/		  fread_letter( fp );	/* Unused */
+					  fread_number( fp );	/* Unused */
+					  fread_number( fp );	/* Unused */
+	/* 'd'		*/		  fread_letter( fp );	/* Unused */
+					  fread_number( fp );	/* Unused */
+	/* '+'		*/		  fread_letter( fp );	/* Unused */
+					  fread_number( fp );	/* Unused */
+        pMobIndex->wealth               = fread_number( fp )/20;	
+	/* xp can't be used! */		  fread_number( fp );	/* Unused */
+	pMobIndex->start_pos		= fread_number( fp );	/* Unused */
+
+	pMobIndex->default_pos		= pMobIndex->start_pos;	/* Unused */
+
+  	if (pMobIndex->start_pos < POS_SLEEPING)
+	    pMobIndex->start_pos = POS_STANDING;
+	if (pMobIndex->default_pos < POS_SLEEPING)
+	    pMobIndex->default_pos = POS_STANDING;
+
+	/*
+	 * Back to meaningful values.
+	 */
+	race                            = race_lookup( fread_string( fp ) );
+	pMobIndex->sex			= fread_number( fp );
+
+    	/* compute the race BS */
+ 
+	pMobIndex->race = race;
+
+   	if ( pMobIndex->race == 0 )
+   	{
+            /* fill in with blanks */
+	    bug( "Load_mobiles: vnum %d bad race.", vnum );
+            pMobIndex->race = race_lookup("human");
+            pMobIndex->off_flags = OFF_DODGE|OFF_DISARM|OFF_TRIP|ASSIST_VNUM;
+            pMobIndex->imm_flags = 0;
+            pMobIndex->res_flags = 0;
+            pMobIndex->vuln_flags = 0;
+            pMobIndex->form = FORM_EDIBLE|FORM_SENTIENT|FORM_BIPED|FORM_MAMMAL;
+            pMobIndex->parts = PART_HEAD|PART_ARMS|PART_LEGS|PART_HEART|
+                               PART_BRAINS|PART_GUTS;
+    	}
+    	else
+    	{
+            pMobIndex->off_flags = OFF_DODGE|OFF_DISARM|OFF_TRIP|ASSIST_RACE|
+                                   race_table[race].off;
+            pMobIndex->imm_flags = race_table[race].imm;
+            pMobIndex->res_flags = race_table[race].res;
+            pMobIndex->vuln_flags = race_table[race].vuln;
+            pMobIndex->form = race_table[race].form;
+            pMobIndex->parts = race_table[race].parts;
+    	}
+
+	if ( letter != 'S' )
+	{
+	    bug( "Load_mobiles: vnum %d non-S.", vnum );
+	    exit( 1 );
+	}
+
+	convert_mobile( pMobIndex );                           /* ROM OLC */
+
+	SET_BIT(area_last->area_flags,AREA_ENVY);
+
+	iHash			= vnum % MAX_KEY_HASH;
+	pMobIndex->next		= mob_index_hash[iHash];
+	mob_index_hash[iHash]	= pMobIndex;
+	top_mob_index++;
+        top_vnum_mob = top_vnum_mob < vnum ? vnum : top_vnum_mob;  /* OLC */
+        assign_area_vnum( vnum );                                  /* OLC */
+	kill_table[URANGE(0, pMobIndex->level, MAX_LEVEL-1)].number++;
+    }
+
+    return;
+}
+
+/*
+ * Snarf an obj section.  old style 
+ */
+void load_envy_obj( FILE *fp )
+{
+    OBJ_INDEX_DATA *pObjIndex;
+
+    if ( !area_last )   /* OLC */
+    {
+        bug( "Load_objects: no #AREA seen yet.", 0 );
+        exit( 1 );
+    }
+
+    for ( ; ; )
+    {
+	sh_int vnum;
+	char letter;
+	char *value[4];
+	int iHash;
+
+	letter				= fread_letter( fp );
+	if ( letter != '#' )
+	{
+	    bug( "Load_objects: # not found.", 0 );
+	    exit( 1 );
+	}
+
+	vnum				= fread_number( fp );
+	if ( vnum == 0 )
+	    break;
+
+	fBootDb = FALSE;
+	if ( get_obj_index( vnum ) != NULL )
+	{
+	    bug( "Load_objects: vnum %d duplicated.", vnum );
+	    exit( 1 );
+	}
+	fBootDb = TRUE;
+
+	pObjIndex			= alloc_perm( sizeof(*pObjIndex) );
+	pObjIndex->vnum			= vnum;
+        pObjIndex->area                 = area_last;            /* OLC */
+	pObjIndex->new_format		= FALSE;
+	pObjIndex->reset_num	 	= 0;
+	pObjIndex->name			= fread_string( fp );
+	pObjIndex->short_descr		= fread_string( fp );
+	pObjIndex->description		= fread_string( fp );
+	/* Action description */	  fread_string( fp );
+
+	pObjIndex->short_descr[0]	= LOWER(pObjIndex->short_descr[0]);
+	pObjIndex->description[0]	= UPPER(pObjIndex->description[0]);
+	pObjIndex->material		= str_dup("none");
+
+	pObjIndex->item_type		= fread_number( fp );
+	pObjIndex->extra_flags		= fread_number( fp );
+	pObjIndex->wear_flags		= fread_number( fp );
+	value[0]			= fread_string( fp );
+	value[1]			= fread_string( fp );
+	value[2]			= fread_string( fp );
+	value[3]			= fread_string( fp );
+	pObjIndex->value[4]		= 0;
+	pObjIndex->level		= 0;
+	pObjIndex->condition 		= 100;
+	pObjIndex->weight		= fread_number( fp );
+	pObjIndex->cost			= fread_number( fp );	/* Unused */
+	/* Cost per day */		  fread_number( fp );
+
+
+	if (pObjIndex->item_type == ITEM_WEAPON)
+	{
+	    if (is_name("two",pObjIndex->name) 
+	    ||  is_name("two-handed",pObjIndex->name) 
+	    ||  is_name("claymore",pObjIndex->name))
+		SET_BIT(pObjIndex->value[4],WEAPON_TWO_HANDS);
+	}
+
+	for ( ; ; )
+	{
+	    char letter;
+
+	    letter = fread_letter( fp );
+
+	    if ( letter == 'A' )
+	    {
+		AFFECT_DATA *paf;
+
+		paf			= alloc_perm( sizeof(*paf) );
+		paf->where		= TO_OBJECT;
+		paf->type		= -1;
+		paf->level		= 20; /* RT temp fix */
+		paf->duration		= -1;
+		paf->location		= fread_number( fp );
+		paf->modifier		= fread_number( fp );
+		paf->bitvector		= 0;
+		paf->next		= pObjIndex->affected;
+		pObjIndex->affected	= paf;
+		top_affect++;
+	    }
+
+	    else if ( letter == 'E' )
+	    {
+		EXTRA_DESCR_DATA *ed;
+
+		ed			= alloc_perm( sizeof(*ed) );
+		ed->keyword		= fread_string( fp );
+		ed->description		= fread_string( fp );
+		ed->next		= pObjIndex->extra_descr;
+		pObjIndex->extra_descr	= ed;
+		top_ed++;
+	    }
+
+	    else
+	    {
+		ungetc( letter, fp );
+		break;
+	    }
+	}
+
+	/*
+	 * Translate spell "slot numbers" to internal "skill numbers."
+	 */
+	switch ( pObjIndex->item_type )
+	{
+	default:
+	    pObjIndex->value[0] = atoi( value[0] );
+	    pObjIndex->value[1] = atoi( value[1] );
+	    pObjIndex->value[2] = atoi( value[2] );
+	    pObjIndex->value[3] = atoi( value[3] );
+	    break;
+
+	case ITEM_PILL:
+	case ITEM_POTION:
+	case ITEM_SCROLL:
+	    pObjIndex->value[0] = atoi( value[0] );
+	    pObjIndex->value[1] = skill_lookup( value[1] );
+	    pObjIndex->value[2] = skill_lookup( value[2] );
+	    pObjIndex->value[3] = skill_lookup( value[3] );
+	    break;
+
+	case ITEM_STAFF:
+	case ITEM_WAND:
+	    pObjIndex->value[0] = atoi( value[0] );
+	    pObjIndex->value[1] = atoi( value[1] );
+	    pObjIndex->value[2] = atoi( value[2] );
+	    pObjIndex->value[3] = skill_lookup( value[3] );
+	    break;
+	}
+
+	iHash			= vnum % MAX_KEY_HASH;
+	pObjIndex->next		= obj_index_hash[iHash];
+	obj_index_hash[iHash]	= pObjIndex;
+	top_obj_index++;
+        top_vnum_obj = top_vnum_obj < vnum ? vnum : top_vnum_obj;   /* OLC */
+        assign_area_vnum( vnum );                                   /* OLC */
+    }
+
+    return;
+}
+
+/*
+ * Snarf a reset section.
+ */
+void load_envy_res( FILE *fp )
+{
+    RESET_DATA *pReset;
+    int         iLastRoom = 0;
+    int         iLastObj  = 0;
+
+    if ( !area_last )
+    {
+	bug( "Load_resets: no #AREA seen yet.", 0 );
+	exit( 1 );
+    }
+
+    for ( ; ; )
+    {
+	ROOM_INDEX_DATA *pRoomIndex;
+	EXIT_DATA *pexit;
+	char letter;
+
+	if ( ( letter = fread_letter( fp ) ) == 'S' )
+	    break;
+
+	if ( letter == '*' )
+	{
+	    fread_to_eol( fp );
+	    continue;
+	}
+
+	pReset		= alloc_perm( sizeof(*pReset) );
+	pReset->command	= letter;
+	/* if_flag */	  fread_number( fp );
+	pReset->arg1	= fread_number( fp );
+	pReset->arg2	= fread_number( fp );
+	pReset->arg3	= (letter == 'G' || letter == 'R')
+			    ? 0 : fread_number( fp );
+
+	if ( letter == 'M' )
+	{
+		pReset->arg4 = pReset->arg2;
+		pReset->arg2 = 30;
+	}
+
+	if ( letter == 'P' )
+	{
+		pReset->arg2 = 5;
+		pReset->arg4 = 1;
+	}		
+
+        fread_to_eol( fp );
+
+	/*
+	 * Validate parameters.
+	 * We're calling the index functions for the side effect.
+	 */
+	switch ( letter )
+	{
+	default:
+	    bug( "Load_resets: bad command '%c'.", letter );
+	    exit( 1 );
+	    break;
+
+	case 'M':
+	    get_mob_index  ( pReset->arg1 );
+            if ( ( pRoomIndex = get_room_index ( pReset->arg3 ) ) )
+            {
+                new_reset( pRoomIndex, pReset );
+                iLastRoom = pReset->arg3;
+            }
+	    break;
+
+	case 'O':
+	    get_obj_index ( pReset->arg1 );
+            if ( ( pRoomIndex = get_room_index ( pReset->arg3 ) ) )
+            {
+                new_reset( pRoomIndex, pReset );
+                iLastObj = pReset->arg3;
+            }
+	    break;
+
+	case 'P':
+	    get_obj_index  ( pReset->arg1 );
+            if ( ( pRoomIndex = get_room_index ( iLastObj ) ) )
+            {
+                new_reset( pRoomIndex, pReset );
+            }
+	    break;
+
+	case 'G':
+	case 'E':
+	    get_obj_index (pReset->arg1);
+            if ( ( pRoomIndex = get_room_index ( iLastRoom ) ) )
+            {
+                new_reset( pRoomIndex, pReset );
+                iLastObj = iLastRoom;
+            }
+	    break;
+
+	case 'D':
+	    pRoomIndex = get_room_index( pReset->arg1 );
+
+	    if ( pReset->arg2 < 0
+	    ||   pReset->arg2 > 5
+            || !pRoomIndex
+	    || !( pexit = pRoomIndex->exit[pReset->arg2] )
+	    || !IS_SET( pexit->rs_flags, EX_ISDOOR ) )
+	    {
+		bug( "Load_resets: 'D': exit %d not door.", pReset->arg2 );
+		exit( 1 );
+	    }
+
+            switch ( pReset->arg3 )
+            {
+                default:
+                    bug( "Load_resets: 'D': bad 'locks': %d." , pReset->arg3);
+                case 0: break;
+                case 1: SET_BIT( pexit->rs_flags, EX_CLOSED );
+			SET_BIT( pexit->exit_info, EX_CLOSED ); break;
+                case 2: SET_BIT( pexit->rs_flags, EX_CLOSED | EX_LOCKED );
+                	SET_BIT( pexit->exit_info, EX_CLOSED | EX_LOCKED ); break;
+            }
+
+	    break;
+
+	case 'R':
+	    pRoomIndex		= get_room_index( pReset->arg1 );
+
+	    if ( pReset->arg2 < 0 || pReset->arg2 > 6 )
+	    {
+		bug( "Load_resets: 'R': bad exit %d.", pReset->arg2 );
+		exit( 1 );
+	    }
+
+            if ( pRoomIndex )
+                new_reset( pRoomIndex, pReset );
+
+	    break;
+	}
+
+    }
+
+    return;
+}
+
+long envy_to_rom_aff( long envyaff )
+{
+	int i = 0, temp = 0;
+	
+	while ( aff_change[i].envy != 0	)
+		{
+			if (IS_SET(envyaff,aff_change[i].envy))
+				if (aff_change[i].rom)
+					SET_BIT(temp,aff_change[i].rom);
+			++i;
+		}
+		
+	return temp;
+}
+
+	Whew :) . And the last, but not least...in tables.c find this
+	block :
+
+const struct flag_type area_flags[] =
+{
+    {	"none",			AREA_NONE,		FALSE	},
+    {	"changed",		AREA_CHANGED,		TRUE	},
+    {	"added",		AREA_ADDED,		TRUE	},
+    {	"loading",		AREA_LOADING,		FALSE	},
+    {	NULL,			0,			0	}
+};
+
+	Replace it with this block (or just add the new area flag) :
+
+const struct flag_type area_flags[] =
+{
+    {	"none",			AREA_NONE,		FALSE	},
+    {	"changed",		AREA_CHANGED,		TRUE	},
+    {	"added",		AREA_ADDED,		TRUE	},
+    {	"loading",		AREA_LOADING,		FALSE	},
+    {	"envy",			AREA_ENVY,		FALSE	},
+    {	NULL,			0,			0	}
+};
+
+	Now, just add your Envy areas to your area.lst, and
+	MAKE SURE you modify the following things in your
+	Envy areas :
+
+	** You must recreate the header for those areas. It's
+	   not that hard. Follow these steps :
+
+	   - Move the credits that are in the same line
+	     of the #AREA declaration of the area to a 3th line.
+
+	   - Create a second header line with the filename of
+	     the area you're adding, followed with a ~.
+	     (ie, if you're adding midgaard.are, your new line
+	     should look like :
+
+midgaard.are~
+
+	   - Create a third header line with the FULL name of
+	     the area you're adding, followed with a ~.
+	     (ie, if you're adding midgaard.are, the new line
+	     should look like :
+
+Midgaard~
+
+	    - Now, in the 3rd line you must have the credits
+	      that were on the first line of the original area
+	      file. With midgaard.are, you should have something
+	      like :
+
+{ All } Diku    Midgaard~
+
+	    - Create a 4th header line with the vnum range of the
+	      Envy area. For example, midgaard starts with vnum
+	      3000 and ends with 3399. So your new line should be :
+
+3000 3399
+
+	    - At last, just replace #MOBILES with #ENVYMOB, #OBJECTS
+	      with #ENVYOBJ, and #RESETS with #ENVYRES.
+
+	    I know that this isn't the easiest method for porting Envy
+	    areas, so here is another example, this one's is with
+	    circus.are that comes with the stock Envy 2.0 pack.
+
+	1) Add circus.are at the end of your area.lst.
+
+	2) Edit circus.are .
+
+	3) Replace :
+
+#AREA     { 1 12} Binky   The Circus~
+
+	   with this Rom 2.4-compatible block :
+
+#AREA
+circus.are~
+The Circus~
+{ 1 12} Binky   The Circus~
+4400 4499
+
+	4) Now replace #MOBILES with #ENVYMOB, #OBJECTS with #ENVYOBJ,
+	   and #RESETS with #ENVYRES.
+
+	5) Of course, you need to fix the exits that lead to nonexistant
+	   rooms (this is something you need to do with almost every area
+	   you add, or the mud won't boot, saying something like :
+
+[*****] BUG: Get_room_index: bad vnum 2172
+
+	   This error was taken directly from circus.are, so you must
+	   go to room #4401 and delete that exit (that means, delete
+	   this block :
+
+D0
+~
+~
+0 0 2172
+
+	   And it's done. Now, boot the mud, it will give something
+	   like 5 errors of non-existant races (Envy comes with lots
+	   of races that Rom doesn't have), these mobs will be
+	   converted into humans. Log in, do an asave world, and reboot.
+	   Now go to the new areas and check that nothing strange
+	   happened (yes, do a 'goto 4401'). BTW, the ticket clerk
+	   won't sell you anything because the ticket cost is set
+	   to 0 ...OEDIT it to set it to any number > 0.
+
+	Well, sorry for the incrompehensible phrases, I speak
+	spanish, so writing in english is VERY difficult to me.
+	This worked wonders for me, I've ported five areas from
+	the stock envy package with excellent results. If you
+	liked this snippet, just send email. Of course, feel free
+	to share this with others.
+
+						Ivan
+
+E-mail : pvillanu@choapa.cic.userena.cl
+         itoledo@ramses.centic.utem.cl (down till March)

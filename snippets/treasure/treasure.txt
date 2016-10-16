@@ -1,0 +1,371 @@
+/* Treasure Chests and Lockpicks */
+
+/* Here's a piece of code that may throw some confusion into your
+ * MUD. Human mobiles may drop a treasure chest when they are struck
+ * down, offering players the opportunity to pick them up and pick
+ * them with a lockpick, gathering wealth and power beyond their
+ * wildest imaginations...
+ *
+ * Ok, so it really just tosses a few coins and gems in a box and
+ * lets players have something to do with their spare time.
+ */
+ 
+/* This is what I'd consider to be a moderately difficult snippet
+ * to add. You have to edit a few different files, including the
+ * Makefile, add a new item type, and set up a shop to sell the
+ * new item type.
+ *
+ * AWW is a ROM based MUD, and this snippet is pulled from it. It
+ * should work with any Diku style base with a bit of tweaking.
+ * As usual, I cant garauntee it will work for you, but if you
+ * have troubles with it, I will try to help.
+ *
+ * Dalsor, aka Eric
+ * dalsor@cfl.rr.com
+ */
+ 
+/* Files to edit:
+ */
+
+/*
+ * merc.h, mud.h, or whatever your main header is.
+ * Add the following somewhere in the #defines for item types.
+ */
+
+#define ITEM_TREASURECHEST       45 /* for treasure code -Dal */
+#define ITEM_LOCKPICK            46 /* used for picking locks */
+
+/* Add these pretty much anywhere you like.
+ */
+
+#define stc send_to_char
+#define ptc printf_to_char
+
+#define TRAP_BOOMER (A)
+#define TRAP_GASSER (B)
+#define TRAP_BLADE  (C)
+#define TRAP_NEEDLE (D)
+#define TRAP_MANA   (E)
+#define TRAP_FIRE   (F)
+#define TRAP_ACID   (G)
+
+
+/* In act_info.c or where you have your do_look function, add
+ * the following in the 'in' switch. Right before or right
+ * after the CONTAINER case is a good spot.
+ */
+ 
+case ITEM_TREASURECHEST:
+if ( IS_SET(obj->value[1], CONT_CLOSED) )
+{
+stc( "It is closed.\n\r", ch );
+break;
+}
+act( "$p holds:", ch, obj, NULL, TO_CHAR );
+show_list_to_char( obj->contains, ch, TRUE, TRUE );
+break;
+
+/* In act_obj, or where you have your do_get function, add
+ * the following mess of code. Feel free to remove the junk
+ * for pits... I dont use em, but am too lazy to remove it.
+ * Put this in the get all switch for container->item_type
+ * somewhere near the CONTAINER case.
+ */
+	case ITEM_TREASURECHEST:
+		if ( IS_SET(container->value[1], CONT_CLOSED) )
+		{
+		    act( "{cThe $d is closed.", ch, NULL, container->name, TO_CHAR );
+		    return;
+		}
+
+		if ( str_cmp( arg1, "all" ) && str_prefix( "all.", arg1 ) )
+		{
+	    /* 'get obj container' */
+		    obj = get_obj_list( ch, arg1, container->contains );
+		    if ( obj == NULL )
+		    {
+				act( "{cI see nothing like that in the $T.",ch, NULL, arg2, TO_CHAR );
+				return;
+		    }
+		    get_obj( ch, obj, container );
+		}
+		else
+		{
+		    /* 'get all container' or 'get all.obj container' */
+		    found = FALSE;
+		    for ( obj = container->contains; obj != NULL; obj = obj_next )
+		    {
+				obj_next = obj->next_content;
+				if ( ( arg1[3] == '\0' || is_name( &arg1[4], obj->name ) )
+				&&   can_see_obj( ch, obj ) )
+				{
+				    found = TRUE;
+				    if (container->pIndexData->vnum == OBJ_VNUM_PIT
+				    &&  !IS_IMMORTAL(ch))
+				    {
+						stc( "{cDon't be so greedy!\n\r",ch);
+						return;
+				    }
+				    get_obj( ch, obj, container );
+				}
+		    }
+
+	    if ( !found )
+	    {
+			if ( arg1[3] == '\0' )
+			    act( "{cI see nothing in the $T.",ch, NULL, arg2, TO_CHAR );
+			else
+			    act( "{cI see nothing like that in the $T.",ch, NULL, arg2, TO_CHAR );
+	    }
+
+    return;
+	}
+
+/* in do_put, add some redundancy to see if the character is putting
+ * something in a valid container. Hackish, yes, I know... Put this
+ * right before the check for CONT_CLOSED
+ */
+
+    if ( container->item_type != ITEM_CONTAINER )
+    {
+	    if ( container->item_type != ITEM_TREASURECHEST )
+	    {
+			stc( "{cThat's not a container.\n\r", ch );
+			return;
+		}
+    }
+
+/* And after the check for can_drop_obj in the same function...
+ */
+
+	    if ( obj->item_type == ITEM_TREASURECHEST )
+	    {
+  		stc( "{cCannot put a container in a treasure chest.\n\r",ch);
+    	return;
+	    }
+	    if ( obj->item_type == ITEM_TREASURECHEST && container->item_type == ITEM_TREASURECHEST )
+	    {
+  		stc( "{cCannot put a treasure chest in a treasure chest.\n\r",ch);
+    	return;
+	    }
+
+/* Now in act_move, or where your do_open function is, add this before
+ * where is checks for CONT_CLOSED
+ */ 
+ 
+	if ( obj->item_type != ITEM_CONTAINER )
+	{
+		if ( obj->item_type != ITEM_TREASURECHEST )
+	    {
+			stc( "{cThat's not a container.\n\r{c", ch );
+			return;
+		}
+	}
+	
+/* Now add this right after the check for CONT_LOCKED, just a few
+ * lines below. If you really want to get dirty, replace the BOOM
+ * line with a damage function, inflict some poison, chop off a
+ * limb, or some other good wholesome fun. This is in here in case
+ * we ever get around to making characters disarm the boxes before
+ * they pick them.
+ */
+
+	if ( obj->item_type == ITEM_TREASURECHEST )
+	{
+		if ( obj->value[3] > 0 )
+		stc("BOOM! hehehe.\n\r",ch);
+	}
+
+/* In do_close, add the following code right before the check for
+ * CONT_CLOSED
+ */
+
+	if ( obj->item_type != ITEM_CONTAINER )
+	{
+		if ( obj->item_type != ITEM_TREASURECHEST )
+	    {
+			stc( "{cThat's not a container.\n\r{c", ch );
+			return;
+		}
+	}
+
+/* In do_lock, add this before the check for CONT_CLOSED
+ */
+
+	if ( obj->item_type != ITEM_CONTAINER )
+	{
+		if ( obj->item_type != ITEM_TREASURECHEST )
+	    {
+			stc( "{cThat's not a container.\n\r{c", ch );
+			return;
+		}
+	}
+
+/* In do_unlock, add this before the check for ITEM_CONTAINER and CONT_CLOSED
+ */
+
+	if ( obj->item_type == ITEM_TREASURECHEST )
+    {
+		stc( "{cYou unlock the treasure chest.\n\r{c", ch );
+		stc( "{cWe now check to see if it's trapped, and if so, if it's disarmed.\n\r{c", ch );
+		stc( "{cIf not, make loud scary noises and go boom!\n\r{c", ch );
+		return;
+	}
+
+/* In do_pick, add the following (look familiar?) before CONT_CLOSED
+ */
+
+	if ( obj->item_type != ITEM_CONTAINER )
+	{
+		if ( obj->item_type != ITEM_TREASURECHEST )
+	    {
+			stc( "{cThat's not a container.\n\r{c", ch );
+			return;
+		}
+	}
+
+/* And then right after CONT_PICKPROOF, add the following. If you decide not
+ * to make lock picking a skill, remove the checks for it. If you do not have
+ * a REFLEX stat, replace it with DEXTERITY or whatever. If you need to debug
+ * it, remove the comments from ptc. You can add the lockpicking element to
+ * your DEX struct if need be, or well, it's your code, do whatever you want
+ * to with it. :)
+ */
+ 
+	if ( obj->item_type == ITEM_TREASURECHEST )
+	{
+		int lock_diff = obj->value[2];
+		int result = number_range(chance*8/12,chance)+ref_app[get_curr_stat(ch,STAT_REF)].lockpicking;
+		result += pick->condition / 10;
+		if ( result < lock_diff )
+		{
+			ptc(ch,"You attempt to pick the lock on %s, but fail.\n\r",obj->short_descr);
+			/*ptc(ch,"Result was %d chance, and you needed to go over %d lock_diff.\n\r", result, lock_diff);*/
+			obj->value[2] -= ref_app[get_curr_stat(ch,STAT_REF)].lockpicking / 10;
+			if ( number_percent() > number_percent() + ref_app[get_curr_stat(ch,STAT_REF)].lockpicking )
+			{
+				act("You wince as you feel your lockpick bend inside the lock.",ch,NULL,NULL,TO_CHAR);
+				act("You hear a wince from $n as $e tests $s skill at lockpicking.",ch,NULL,NULL,TO_ROOM);
+				pick->condition -= number_range(1,3);
+				if ( pick->condition < 1 )
+				{
+					act("With a *snap* your lockpick breaks off inside the lock.",ch,NULL,NULL,TO_CHAR);
+					act("You hear a *snap* and a muttered curse from $n as $s lockpick breaks in two.",ch,NULL,NULL,TO_ROOM);
+					extract_obj ( pick );
+				}
+			}
+			check_improve(ch,gsn_pick_lock,FALSE,9);
+			return;
+		}
+	}
+
+/* If you use auction code, I would recomment placing a check in it when people
+ * get info on an auctioned item so they will know if it's empty or not. Do this
+ * to foil slackers who try to auction boxes that contain nada.
+ */
+ 
+	case ITEM_TREASURECHEST:
+	if ( obj->contains == NULL )
+		stc("The treasure chest is empty, unfortunately.\n\r",ch);
+		break;
+
+/* In const.c add the following two lines to the item_type struct
+ */
+
+	{   ITEM_TREASURECHEST,   "treasurechest"},
+	{   ITEM_LOCKPICK,        "lockpick"     },
+
+/* In db.c add these two lines under ITEM_FOUNTAIN in create_object
+ */
+ 
+    case ITEM_TREASURECHEST:
+    case ITEM_LOCKPICK:
+
+/* In fight.c somewhere near the top, but after the declarations,
+ * add this function, but make sure to change it to reflect your
+ * human race names.
+ */
+
+void    make_treasure_chest args( ( CHAR_DATA *ch, CHAR_DATA *victim, int level ) );
+ 
+bool is_human( CHAR_DATA *ch )
+{
+	if (!IS_NPC(ch)) return FALSE;
+	if (ch->race == race_lookup("andor")
+	|| ch->race == race_lookup("amador")
+	|| ch->race == race_lookup("illian")
+	|| ch->race == race_lookup("shienar")
+	|| ch->race == race_lookup("domani")
+	|| ch->race == race_lookup("aiel")
+	|| ch->race == race_lookup("ogier")
+	|| ch->race == race_lookup("tairen")
+	|| ch->race == race_lookup("cairhien")
+	|| ch->race == race_lookup("seanchan")
+	|| ch->race == race_lookup("altara")
+	|| ch->race == race_lookup("trolloc")
+	|| ch->race == race_lookup("tarvalon")
+	|| ch->race == race_lookup("arafel")
+	|| ch->race == race_lookup("tarabon")
+	|| ch->race == race_lookup("kandor")
+	|| ch->race == race_lookup("mayene")
+	|| ch->race == race_lookup("tworiver")
+	|| ch->race == race_lookup("malkier"))
+	return TRUE;
+	else return FALSE;
+}
+
+/* Again in fight.c in damage, after the person is dead, let's check
+ * to see if they drop a treasure chest.
+ */
+ 
+	int chance = number_percent();
+	int chance_diff = number_range(1,victim->level) / 2;
+	if ( chance < chance_diff )
+	{
+		if (is_human(victim) && !IS_NPC(ch))
+		{
+		make_treasure_chest(ch, victim, victim->level);
+		}
+	}
+
+/* In handler.c, in item_type_name, add these two lines.
+ */
+ 
+    case ITEM_TREASURECHEST: return "treasure chest";
+    case ITEM_LOCKPICK:     return "lockpick";
+
+/* In olc_act.c in show_obj_values, add this. You dont have
+ * to do this, since you really dont want your builders making
+ * treasure chests, but it is here to give you an idea of what
+ * the v#s look like for the chest objects.
+ */
+ 
+	case ITEM_TREASURECHEST:
+	    ptc(ch,
+		"{C[{cv0{C]{c Silver:       {C[{c%d{C]{c\n\r"
+		"{C[{cv1{C]{c Flags:        {C[{c%s{C]{c\n\r"
+		"{C[{cv2{C]{c Lock Diff: %s {C[{c%d{C]{c\n\r"
+		"{C[{cv3{C]{c Trap Type     {C[{c%d{C]{c\n\r"
+		"{C[{cv4{C]{c Trap Dmg      {C[{c%d{C]{c\n\r",
+		obj->value[0],
+		flag_string( container_flags, obj->value[1] ),
+		obj->value[2],
+		obj->value[3],
+		obj->value[4] );
+	    break;
+
+	case ITEM_LOCKPICK:
+	    ptc(ch,
+		"{C[{cv0{C]{c Strength:     {C[{c%d{C] {c1-100\n\r",
+		obj->value[0]);
+	    break;
+
+/* After this, you're gonna want to upload the two files random.c
+ * and treasure2.c
+ * Put the .o includes in your Makefile and make CLEAN!
+ * Make a new shop somewhere in your MUD and let the shopkeep sell
+ * lockpicks for a reasonable sum.
+ *
+ * I dont think I've left anything out, but chances are I did. If
+ * you have troubles, remember the email address at the top.
+ */

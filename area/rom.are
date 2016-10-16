@@ -1,0 +1,433 @@
+#HELPS
+-1 NEWBIE INFO~
+Hello there, and welcome to Zucchini!  You have been equipped with a newbie
+guide, which explains the differences between our world and other,
+suspiciously similar worlds you may or may not have visited. Please read 
+it, it's useful.
+
+You have also been given some candy. We recommend that you eat it.
+
+Type 'equipment' to see what you are wielding, 'spells' to see your spells,
+'skills' to see your skills, and 'commands' for a list of commands. Help is
+available on most commands and abilities.
+
+Please type 'help rules' to see the Rules of Zucchini.
+~
+
+-1 DIKU~
+Original game idea, concept, and design:
+
+Katja Nyboe               [Superwoman] (katz@freja.diku.dk)
+Tom Madsen              [Stormbringer] (noop@freja.diku.dk)
+Hans Henrik Staerfeldt           [God] (bombman@freja.diku.dk)
+Michael Seifert                 [Papi] (seifert@freja.diku.dk)
+Sebastian Hammer               [Quinn] (quinn@freja.diku.dk)
+
+
+Developed at: DIKU -- The Department of Computer Science
+                      at the University of Copenhagen.
+
+
+~
+
+-1 LAG~
+Twas dial-up, and the failing mudders did toil and struggle in the fray
+All checksummed were the compressed files
+And the man pages, outdate
+Beware the Internet my son,
+The noise that hangs, the lag that kills
+Beware the Usenet news, and shun the frivolous mud with frills
+So took his his mudding client in hand
+Longtime the virtual foe he sought
+So rested he by the T1s three and paused a while in swap
+And as in disk-drive swap he stayed,
+The Internet, with lags of fame
+Came packetwise through the T1 line
+And error-checked as it came
+One two one two and through and through, the mudding client went kill -9
+He left it dead and with it's core he went a tracing back
+And hath thou slain the Internet?
+Come to my arms my disk-based bot!
+Oh lag-free day, callooh callay, he chortled in his joy
+Twas dial-up, and the failing mudders did toil and struggle in the fray
+All checksummed were the compressed files
+And the man pages, outdate.
+~
+
+-1 WIZLIST~
+{g[{GHigh Wank Priestess{g]{x Kazeus      
+~
+
+-1 ROM~
+ROM started in early February 1993, using Merc 1.0 code. In July of 1993,  
+ROM II was started, eventually replacing the original ROM.  ROM was up for
+a little over a year, after which the code (version 2.3) was released,
+and various other ROM muds were started, including Rivers of Mud under
+a new management (Zump's ROM), at rom.org 9000.
+
+Alander's current project is Athen, the sequel to the ROM code. It can
+be found on Rehobaom's Legacy, at hypercube.org 9000.
+
+The following people contributed to the ROM flavor of the merc base code:
+
+Socials --
+    Kelsey and Liralen
+
+New, Improved Valhalla --
+    Liralen
+
+Puff's new special proc and improved poofin/poofout code --
+    Seth
+
+Maps and map shop --
+    Ezra, Regnan (Olympus)
+
+Nirvana zone --
+    Forstall (mobiles rewritten by Alander)
+
+Mob Factory --
+    Pinkfloyd (originally written for ROM, mobiles rewritten by Alander)
+
+Geographically correct Midgaard (tm) --
+    Alander
+
+Ideas and playtesting --
+    Thousands of dedicated mudders around the world
+
+The New Thalos area was donated by Onivel of Jedi, who was also the originator
+of the ASCII flags used in the zone files
+
+Beta testing --
+    Ken Blosser, Doug Araya, and Sherene Neil all helped with bugs reports
+    and suggestions, saving a lot of headaches
+
+Bug reports --
+    Thanks to Shad Muegge, Jerome Despret, Phoenix, Will Hongach,
+    Erwin S. Andreasen, Adam Debus and especially Gary Turkington
+    (author of the ROM FAQ) for help spotting bugs
+
+ROM 2.4 was developed during my time with Moosehead mud, and the release
+shares many of the features I wrote while I was there.  Additional code
+was written by Seth Scott (the new poofin/poofout), and many contributions
+and ideas from the Merc list were used.  Portions of Rusty's work on
+Moosehead also remain.
+
+The new features of 2.4 were largely produced in bull sessions with
+Gabrielle Taylor and Brian Moore, without whom this release wouldn't
+have happened.  In particular, the new privacy code, furniture, and
+wiznet are the results of Gabrielle's ideas.
+
+Changes to the standard diku mob and object format, as well as the changes
+to Merc 2.1 source code, were done by Alander over many a late night of
+hair-pulling. Hope you enjoy it.
+
+(my apologies if anyone was forgotten in this list)
+
+See also: {gdiku credits merc snippets maps{x
+~
+
+-1 IMMORTAL IMMORT GOD WIZARD WIZ~
+'Immortal' (often, simply, 'imm') refers to players who have reached
+the highest attainable levels in the game.  Here, anyone of level 52
+or higher is an 'immortal.'  Immortals are capable of exceeding the
+usual game rules, in more drastic and pervasive ways as levels increase;
+examples range from teleportation and invisibility to mortal sight to
+creation of objects, removal of a player's privileges (channels,
+ability to move, or even ability to log in), and ability to promote
+players to immortality.
+
+Since immortals can wreak havoc with game balance, they are (ideally)
+a carefully-chosen and policed group.  An absolute rule of immortal
+behavior is that no immortal can aid or assist any player without
+explicit permission from the higher ranks; in other words, please
+don't ask an immortal to help you kill a mob, gather EQ, etc.
+
+The duties of immortals, and even the very reasons for their existence,
+are topics of continual and heated debate in various MUD forums, and are
+fraught with misconceptions, poor examples, and outrageous hypocrisies. :)
+~
+
+-1 SOCIALS~
+This is a partial list of social shorthands for Zucchini:
+ 
+{gPlayful{x                                   {gGestures{x
+bounce dance hop tease tickle zerbert     applaud clap snap hug pat nudge tip
+pie yeehaw tag discodance silly purr      thank curtsey bow wave beckon nod
+flex squeal tackle flip sing serenade     poke twiddle shake shrug eyebrow whip
+flip sing strut yodel mischievous         bearhug highfive stretch sage point
+
+{gNice{x                                      {gFlirty{x
+cackle laugh giggle chuckle chortle       kiss fondle grope lick nibble caress 
+snicker rofl polite grin smile beam       snuggle cuddle nuzzle french stroke 
+smirk agree toast cheer support tank      love ruffle squeeze stare hand flirt
+comfort                                   wink wiggle massage spank pinch lust
+                                          flash undress strip tongue bkiss tie
+{gMean{x                                      flutter goose pant embrace peck rose  
+growl snarl frown glare pissed voodoo     make sweep rub propose
+claw bite slap knee whap pound leer
+accuse threaten raspberry bonk bird       {gSubmissive{x
+liver charge scream curse spit moon       apologize accept cringe shiver beg
+snowball noogie laces moon ogg punch      grovel pray worship duck flinch run
+judge criticize snort roll flare head     plead scuff twitch cower
+ 
+{gCranky{x                                    {gBodily Functions{x
+sigh cry sob whine grumble fume sulk      burp cough puke fart hiccup sneeze
+pout aargh yae yowl sniff groan moan      snore faint slobber drool bleed
+mutter cramp                              adjust scratch starve yawn
+
+{gOther{x
+daydream view meditate contemplate ponder boggle wonder confused mull lightbulb 
+worry hush cover beer bcatch stagger passout romeo camel blush squirm wince moo
+bark howl babble ramble insane conspire gack gasp anticipate shudder wrist buff
+powertrip comb wrestle grimace tight blink bat innocent wait peer insane boast
+collapse spam type brb life homework lag
+
+For a complete list, type "socials".
+~
+
+-1 MERC~
+This mud is based on Merc 2.1, created by Furey, Hatchet, and Kahn.  
+Merc 2.1 is available as Merc_21.tar.gz from ftp.tcp.com and 
+ftp.math.okstate.edu.
+E-mail to 'majordomo@webnexus.com' to join the merc mailing list.
+
+Thanks to ...
+  ... Diku Mud for starting it all.
+  ... The Free Software Foundation and DJ Delorie for kick-ass tools.
+  ... Copper Mud and Alfa Mud for releasing their code and worlds.
+  ... Aod of Generic for ... well, everything.  You're a hoopy frood, Aod.
+  ... Alander for many ideas and contributions.
+  ... John Brothers of Silly for permission to use Silly code and worlds.
+  ... Zrin for administering the mailing list.
+  ... Abaddon for proofreading our comm.c.
+  ... Hind, Quin, Vic, Diavolo, Oleg, Trienne, and others for porting help.
+  ... Diavolo, Grodyn, Morgenes, and others for code and bug fixes.
+  ... Raff, Doctor, VampLestat, Nirrad, Tyrst, PinkF, Chris, Glop for worlds.
+  ... the players and imps of Mud Dome, Final Mud, Mud Lite, Vego Mud, Rivers
+      of Mud, Ruhr Mud, and Mystic Realms for bug reports, ideas, new code,
+      and hours of enjoyment.
+
+See also: {gdiku rom credits snippets maps{x
+~
+
+-1 MAP MAPS~
+Thanks to Ezra for drawing the originals of several maps on ROM.
+
+See also: {gdiku merc rom credits snippets{x
+~
+
+-1 GREETING~
+.                          
+{GWelcome to Zucchini!{x
+{gWe don't need no stinkin' ascii art.{x
+
+Zucchini is based on ROM Version 2.4 beta.
+ROM 2.4 copyright (c) 1993-1998 Russ Taylor. Based on MERC 2.1 code by 
+Hatchet, Furey, and Kahn. Original DikuMUD by Hans Staerfeldt, Katja Nyboe, 
+Tom Madsen, Michael Seifert, and Sebastian Hammer. 
+
+By what name do you wish to be known? ~
+
+-1 MOTD~
+{G*{x You are responsible for knowing the rules (type 'rules').  
+  Ignorance of the rules is no excuse. Play nice.
+{G*{x Important commands: help, commands, note
+{G*{x Use the delete command to erase unwanted characters
+  
+[Hit Return to continue]
+~
+
+52 IMOTD~
+Welcome Immortal!
+
+You are responsible for following the laws of immortal behavior. These can
+be found by typing 'help laws' or 'help commandments'.
+
+{R*{x Asking for promotion is grounds for instant deletion.
+
+{R*{x Type 'help jobs' to get some idea of what you should be doing.
+
+ [Hit Return to continue]
+~
+
+52 JOBS~
+This is a partial list of what a god of any given level should be doing. It is
+not complete yet.
+
+{gFuzzy Banana Monkeys{x:(52-55)
+Be cute, cuddly and entertaining. Run quests, roleplay if you like, help out 
+mortals in need (not mortals who beg - be nice, but firm, and brush up on 
+dependency theory).
+
+{gConstructor Monkeys{x:(56-57)
+Build things and make them work. New areas, more mob programs, better 
+descriptions for shoddy stock areas, typo patrol, et cetera. Solicit complaints
+and suggestions from the mortals if you're bored.
+
+{gShit-Throwing Monkeys{x:(58-60)
+Keep the mud fun for all by nullifying all the non-fun people. If there are no
+non-fun people, run a quest or build something or do something else
+productive. Whatever.
+
+Not fulfilling the roles of your office can result in "sideways 
+promotion" to mortal status, or outright deletion.
+~
+
+-1 PKILL PKILLING PKILLER 'PLAYER KILLING' PSTEAL PSTEALING 'PLAYER STEALING'~
+Player killing and player stealing are allowed to all clan members 
+(including loners), provided the victim is is within 8 levels of the
+character and is also in a clan.  This will flag you as a "killer" or
+"thief", allowing any character to attack, and also provoking action
+from the city guard.
+~
+
+52 COMMANDMENTS LAWS 'GOD RULES'~
+.
+1)  Do not kill mortals, do not kill mortals, do not kill mortals.
+    This includes transferring/summoning them to aggressive mobs.
+ 
+2)  Do not cheat for ANY mortal in ANY way, especially your own. 
+    Unless of course you LIKE deletion. Yes this includes tanking,
+    healing/restoring, casting protection spells <armor, sanct>,    
+    and softening up or altering mobs.
+ 
+3)  Do not transfer or summon mobs to mortals or mortals to mobs.
+    They have legs, if they want to kill a mob, they can easily
+    go there themselves.
+ 
+4)  DO NOT use reboot.  <--- Note, simple English.
+ 
+5)  Do not give out free equipment.  You don't need to win brownie
+    points with the mortals.  Quest are fine but handing out items
+    isn't.
+ 
+6)  A note on quests: Quests are a good thing, more or less, BUT 
+    do not give out overly extravagant prizes.  Exercise some 
+    common sense here folks.  Do not load items more than 4 levels
+    below their normal level (i.e. no level 5 ogre gauntlets).
+ 
+7)  Do not undermine the authority of a higher level god.  If you 
+    see that someone has been frozen or nochannelled do not restore
+    their privileges.  They are being punished for a reason.
+ 
+8)  Do not try to overrule each other.  
+ 
+9) Trusted mortals:  Do not use your god powers to help your mortal
+    character.  If you do, your trust will be taken away.
+
+~
+
+-1 RULES~
+These are the rules of Zucchini.  For other matters, use common sense.
+
+{R*{x We are all here to have fun. It's just a mud. Don't take anything too
+  seriously, and don't be obnoxious.
+
+{R*{x Multiple logins, multiple characters - it's all good if you're not
+  participating in pkill. You may not have multiple pkill logins, or even
+  multiple logins with one character who is pk and one who is not. You may not
+  assist your pk characters with any of your other characters, by any
+  arrangement.
+ 
+{R*{x No kill stealing.  This means you cannot attack a mob someone else is 
+  fighting, unless they ask you to. Also avoid attacking fleeing mobs.
+
+{R*{x Cheating will not be tolerated.  This includes accepting favors from gods
+  and exploiting bugs. If you find a bug, report it, then do not use it. We
+  usually give a nice finder's fee anyway.
+
+{R*{x Changes to these rules are at the discretion of the immortals, and may be
+  done without warning, notice, or even evidence of sanity.
+~
+
+0 SUICIDE DELETE~
+Use the delete command to erase unwanted characters, so the name will be
+available for use.  This command must be typed twice to delete a character,
+and you cannot be forced to delete.  Typing delete with an argument will
+return your character to 'safe' status if you change your mind after the
+first delete.
+~
+
+0 HEALER~
+The healer decided to grab a quick buck, and now charges for his heals.  Some
+services are still free to players of level 10 or below, however.  To see
+a full listing of the healer's services, type 'heal' at his residence. To
+receive healing, bring plenty of money, and type 'heal <spell>'.
+~
+
+-1 GAIN~
+The gain command is used to learn new skills, once the proper trainer has 
+been found. The following options can be used with gain:
+
+gain list:    list all groups and skills that can be learned
+gain points:  lower your creation points by 1 (costs two trains)
+gain <name>:  add a skill or skill group, at the listed cost
+gain convert: turns 10 practices into one training session
+
+Gaining new skills on Zucchini costs cold hard zlotys, NOT trains.
+Gained skills and groups do NOT increase your experience per level or total
+number of creation points. 
+~
+
+0 SKILLS SPELLS~
+The skills and spells commands are used to display your character's list
+of available skills (or spells, as the case may be).  They are listed in
+order of level, with mana cost (for spells) or percentage (for skills)
+listed where applicable.
+~
+
+0 OUTFIT~
+The outfit command, usable by levels 5 and below, equips your character with
+a new set of sub issue gear (banner, weapon, helmet, shield, and vest), 
+courtesy of the Mayor's warehouses.  Only empty equipment slots are affected.
+~
+
+0 AUTO AUTOLIST AUTOLOOT AUTOGOLD AUTOSAC AUTOEXIT AUTOASSIST AUTOSPLIT AUTOALL~
+Zucchini uses various automatic actions to ease the boredom of always splitting
+gold and sacrificing corpses.  The commands are as follows:
+
+autolist  : list all automatic actions
+autoloot  : take all equipment from dead mobiles
+autogold  : take all gold from dead mobiles
+autosac	  : sacrifice dead monsters (if autoloot is on, only empty corpses)
+autoexit  : display room exits upon entering a room
+autosplit : split up spoils from combat among your group members
+autoassit : makes you help group members in combat
+autoall   : turns all autos on or off at once
+
+Typing a command sets the action , typing it again removes it. Use
+autoall on|off to save yourself some keystrokes.
+~
+
+-1 CLAN~
+A Clan is a collection of players, united to follow and further a common cause.
+For now, there are no clans on Zucchini - we're going to code a custom clan
+system, but we need to do marketing research first. Kazeus has never gotten
+heavy into the clan systems of any muds she's played.
+
+If you would like to create or join a clan, please write a reasoned, thoughtful
+note to the imms explaining what kind of clan system you would like to see, and
+why.
+~
+
+-1 PRICES PRICE~
+Obsolete help file needs to be replaced, just as soon as we get a real 
+clan system.
+~
+
+-1 COUNT~
+The count command displays the number of people (that you can see) logged
+into the mud.  It also displays the highest number observed that day, if
+it is higher.
+~
+
+-1 AFFECTS AFFECT~
+This command is used to show all the spells affecting your character. At
+low levels, only the spell name will be displayed, at higher levels the
+effects and duration of the spell will also be shown.  Spell effects
+are no longer shown on score (this can be changed by using 'show' command).
+~
+
+-1 $~
+
+#$

@@ -1,0 +1,30 @@
+#HELPS
+60 AREALINKS~
+Syntax: arealinks [vnum|area|all] [filename]
+
+AREALINKS, with no arguments, gives a listing of all of the rooms that
+link to a different area from the area you are currently in.
+
+AREALINKS with a room vnum provided will provide all links from the
+area that the vnum is in.  Note that the room does not have to exist, but
+merely has to be a vnum within the area's vnum range.
+
+AREALINKS with an area name will list all of the links to different areas
+from that area.
+
+AREALINKS with the all option will list the areas one by one, their vnum
+ranges, and all their links to different areas.
+
+AREALINKS also provides an optional filename argument which allows you to
+output all of the information into a file in the area directory in
+the shell rather that outputting it to the screen.  Of course, you still
+need shell access to be able to read the file created.
+
+This function and help file were originally written by Kyless on The
+Mind's Eye (slaughterdog@yahoo.com).
+~
+
+0 $~
+
+
+#$

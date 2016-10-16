@@ -1,0 +1,468 @@
+#AREADATA
+Name        Seven Samurai~
+Builders    Bolt~
+VNUMs       1700 1799
+Security    8
+Credits     None~
+End
+
+
+
+#MOBILES
+#0
+
+
+
+#OBJECTS
+#0
+
+
+
+#ROOMS
+#1700
+Approaching the rice paddy~
+A dirt path winds its way through the rice paddies.  The paddies on either side glint gently in the sun.  The rice is just about ready to harvest. The road continues on towards a small village in the distance.
+~
+0 0 2
+D1
+~
+~
+0 0 1701
+S
+#1701
+A path through the rice paddy~
+This path has been raised up from the surrounding fields, which have been
+subsequently flooded with water, in order to let the rice grow.  The path
+continues toward a small group of huts in the east.
+~
+0 0 0
+D0
+~
+~
+0 0 1703
+D1
+~
+~
+0 0 1702
+D2
+~
+~
+0 0 1705
+D3
+~
+~
+0 0 1700
+S
+#1702
+A path through the rice paddy~
+~
+0 0 0
+D0
+~
+~
+0 0 1707
+D1
+~
+~
+0 0 1711
+D2
+~
+~
+0 0 1709
+D3
+~
+~
+0 0 1701
+S
+#1703
+Rice Paddy~
+~
+0 0 0
+D0
+~
+~
+0 0 1704
+D1
+~
+~
+0 0 1707
+D2
+~
+~
+0 0 1701
+S
+#1704
+Rice Paddy~
+~
+0 0 0
+D1
+~
+~
+0 0 1708
+D2
+~
+~
+0 0 1703
+S
+#1705
+Rice Paddy~
+~
+0 0 0
+D0
+~
+~
+0 0 1701
+D1
+~
+~
+0 0 1709
+D2
+~
+~
+0 0 1706
+S
+#1706
+Rice Paddy~
+~
+0 0 0
+D0
+~
+~
+0 0 1705
+D1
+~
+~
+0 0 1710
+S
+#1707
+Rice Paddy~
+~
+0 0 0
+D0
+~
+~
+0 0 1708
+D2
+~
+~
+0 0 1702
+D3
+~
+~
+0 0 1703
+S
+#1708
+Rice Paddy~
+~
+0 0 0
+D2
+~
+~
+0 0 1707
+D3
+~
+~
+0 0 1704
+S
+#1709
+Rice Paddy~
+~
+0 0 0
+D0
+~
+~
+0 0 1702
+D2
+~
+~
+0 0 1710
+D3
+~
+~
+0 0 1705
+S
+#1710
+Rice Paddy~
+~
+0 0 0
+D0
+~
+~
+0 0 1709
+D3
+~
+~
+0 0 1706
+S
+#1711
+the Village Outskirts~
+~
+0 0 0
+D1
+~
+~
+0 0 1712
+D3
+~
+~
+0 0 1702
+S
+#1712
+A path in the village~
+~
+0 0 0
+D1
+~
+~
+0 0 1713
+D3
+~
+~
+0 0 1711
+S
+#1713
+The Village Center~
+This is the center of the village.  Perhaps a dozen people live in these
+small huts.  Living off the rice they grow, and living only to grow the
+rice, it is a wonder this village hasn't been abandoned.  The dirt path
+continues north and south between the houses.  
+~
+0 0 0
+D0
+~
+~
+0 0 1714
+D2
+~
+~
+0 0 1722
+D3
+~
+~
+0 0 1712
+S
+#1714
+~
+~
+0 0 0
+D0
+~
+~
+0 0 1715
+D2
+~
+~
+0 0 1713
+S
+#1715
+~
+~
+0 0 0
+D0
+~
+~
+0 0 1716
+D1
+~
+~
+0 0 1721
+D2
+~
+~
+0 0 1714
+D3
+~
+~
+0 0 1720
+S
+#1716
+~
+~
+0 0 0
+D0
+~
+~
+0 0 1717
+D1
+~
+~
+0 0 1719
+D2
+~
+~
+0 0 1715
+D3
+~
+~
+0 0 1718
+S
+#1717
+The Village Elder's House~
+~
+0 0 0
+D2
+~
+~
+0 0 1716
+S
+#1718
+A small house~
+~
+0 0 0
+D1
+~
+~
+0 0 1716
+S
+#1719
+A small house~
+~
+0 0 0
+D3
+~
+~
+0 0 1716
+S
+#1720
+A small house~
+~
+0 0 0
+D1
+~
+~
+0 0 1715
+S
+#1721
+A small house~
+~
+0 0 0
+D3
+~
+~
+0 0 1715
+S
+#1722
+~
+~
+0 0 0
+D0
+~
+~
+0 0 1713
+D2
+~
+~
+0 0 1723
+S
+#1723
+~
+~
+0 0 0
+D0
+~
+~
+0 0 1722
+D1
+~
+~
+0 0 1724
+D2
+~
+~
+0 0 1726
+D3
+~
+~
+0 0 1725
+S
+#1724
+A small house~
+~
+0 0 0
+D3
+~
+~
+0 0 1723
+S
+#1725
+A small house~
+~
+0 0 0
+D1
+~
+~
+0 0 1723
+S
+#1726
+~
+~
+0 0 0
+D0
+~
+~
+0 0 1723
+D1
+~
+~
+0 0 1727
+D2
+~
+~
+0 0 1729
+D3
+~
+~
+0 0 1728
+S
+#1727
+A small house~
+~
+0 0 0
+D3
+~
+~
+0 0 1726
+S
+#1728
+A small house~
+~
+0 0 0
+D1
+~
+~
+0 0 1726
+S
+#1729
+A Humble Shrine~
+~
+0 0 0
+D0
+~
+~
+0 0 1726
+S
+#1799
+~
+~
+0 4 0
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

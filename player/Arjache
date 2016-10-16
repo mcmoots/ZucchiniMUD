@@ -1,0 +1,138 @@
+#PLAYER
+Name Arjache~
+Id   1381038400
+LogO 1381044652
+Vers 1
+Prom <%hhp %mm %vmv> ~
+Race hooloovoo~
+Sex  2
+Levl 52
+God Xena~
+Sec  0
+Plyd 6252
+Scro 22
+Room 3001
+HMV  452 466 359 359 406 406
+Cash 0
+Balance 0
+Exp  52000
+Brownie 0
+Quest_Curr 0
+Act  QT
+AfBy TU
+Comm NOP
+Pos  8
+Prac 56
+Trai 57
+Save  -1
+Alig  750
+Hit   1
+ACs 95 95 95 99
+Attr 10 18 13 12 11
+AMod 0 0 0 0 0
+Pass chiujhuwemupnasu~
+Titl  the {gHappy Cucumber{x~
+Pnts 7
+TSex 2
+LLev 0
+HMVP 466 359 406
+Cnd  13 23 26 47
+Coloura     007 013 005 001 013
+Colourb     013 003 002 006 003
+Colourc     113 002 002 002 001
+Colourd     006 007 002 006 006
+Coloure     011 002 003 001 017
+Colourf     002 002 012 012 012
+Colourg     017 015 011 017 017
+Boards       5 General 0 Ideas 0 Announce 0 Bugs 0 Personal 0 
+Sk 50 'reserved'
+Gr 'rom basics'
+i3invis	0
+IMCPerm      0
+IMCFlags     256
+End
+
+#O
+Vnum 3716
+Nest 0
+Cond 0
+Wear 0
+Cost 0
+Val  0 0 147 0 0
+End
+
+#O
+Vnum 3703
+Nest 0
+Cond 0
+Wear 5
+Cost 0
+End
+
+#O
+Vnum 3701
+Nest 0
+Cond 0
+Wear 16
+Cost 0
+End
+
+#O
+Vnum 3704
+Nest 0
+Cond 0
+Wear 11
+Cost 0
+End
+
+#O
+Vnum 3162
+Nest 0
+Cond 0
+Wear -1
+Cost 500
+End
+
+#O
+Vnum 3723
+Nest 0
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 3732
+Nest 0
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 3724
+Nest 0
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1431
+Nest 0
+Cond 0
+Wear -1
+Cost -400
+Val  1 0 5 0 0
+End
+
+#O
+Vnum 3000
+Nest 0
+Cond 0
+Wear -1
+Cost 75
+Val  300 264 1 0 0
+End
+
+#END

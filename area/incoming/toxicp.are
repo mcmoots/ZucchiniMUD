@@ -1,0 +1,2345 @@
+#AREADATA
+Name        Toxic Pond~
+Builders    Totoro~
+VNUMs       25100 25199
+Security    9
+Credits     { ?  ?} Totoro  Toxic Pond~
+End
+
+
+
+#MOBILES
+#25110
+vulture~
+{Da v{wu{Wtu{wr{De{x~
+{D                      A v{wu{Wltu{wr{De {Wis perched on a branch of a gnarly {wtr{Dee.{x
+~
+~
+song bird~
+AB T -1000 0
+60 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+FH 0 B H
+sit stand none 0
+AGW ACDEFHKP medium none
+#25113
+tree gnarly~
+{Da {wg{Wnarly tr{we{De{x~
+{D                    A g{wna{Wrly tree stands at the edge of the t{wra{Dil.{x
+~
+~
+human~
+ABT 0 1000 0
+0 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 AB B 0
+stand stand none 0
+AHMV ABCDEFGHIJK medium none
+M grall 70 100~
+#25114
+snail~
+{Da G{wI{yA{WNT SN{yA{wI{DL{x~
+{D       A G{wI{yA{WNT SN{yA{wI{DL {wc{Clings to a {wr{Wo{wc{Dk.{x
+~
+~
+human~
+ABT 0 0 0
+60 0 1d1+1 0d0+0 0d0+0 none
+0 0 0 0
+C AB I HK
+stand stand male 0
+AHMV ABCDEFGHIJKQ medium none
+M death 25114 100~
+#25119
+pike fish~
+{Da G{wI{WANT PI{wK{DE{x~
+{D       A L{wA{WRGE FI{wS{DH {ws{Cwims he{wr{De.{x
+~
+~
+human~
+AT 0 0 0
+60 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+CFH ABI H K
+stand stand male 0
+AHMV ABCDEFGHIJKOQX large none
+#25124
+giant crab~
+{Da {RG{wI{rA{wN{RT {RC{wR{rA{wB{x~
+{D   A {RC{wR{rA{wB is {chere carrying her {weg{Dgs.{x
+~
+~
+dragon~
+ABF JT 0 0
+65 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+CK AB BEH FI
+stand stand female 0
+AHZ ACDEFGHIJKPQUVX medium none
+#25128
+frog guard~
+{Da {gf{Grog {gg{Gu{Wa{Gr{gd{x~
+{D   A {gf{Grog {wpa{Ctrols the area o{wn a {Ms{we{Wahor{ws{Me{D.{x
+~
+~
+dog~
+AT 0 0 0
+68 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+CFHIKN AB I K
+stand stand male 65
+AGV ACDEFHJKUV medium none
+#25130
+octopus~
+{Da {rG{RI{wA{WNT OCTO{wP{RU{rS{x~
+{D   A {rG{RI{wA{WNT OCTO{wP{RU{rS {wh{Cides among the roc{wk{Ds.{x
+~
+~
+human~
+ABT 0 0 0
+70 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+EKNO AB I HK
+stand stand female 0
+AHMV ABCDEFGHIJKN giant none
+#25131
+stingray~
+{Da S{wT{WINGR{wA{DY{x~
+{D          A S{wT{WINGR{wA{DY {wg{Clides through the w{wat{Der.{x
+~
+~
+human~
+AT 0 0 0
+65 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+CFM AB I HK
+stand stand none 0
+AHMVb ABCDEFGHIJKOQ large none
+#25138
+clown fish~
+{Da {Yc{Rl{Yo{Rw{Yn {Rf{Yi{Rs{Yh{x~
+{D     A {Rf{Yi{Rs{Yh {wi{Cs honking a ho{wr{Dn.{x
+~
+~
+human~
+AB 0 0 0
+65 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+FK AB I K
+stand stand male 0
+AHMVb ABCDEFGHIJKOQ medium none
+M random 25138 5~
+#25139
+stilt fish~
+{Da {Ys{wt{Yi{wl{Yt {wf{Yi{ws{Yh{x~
+{D                    A {Yf{wi{Ys{wh {wo{Cn stilts is doing a juggling a{wc{Dt.{x
+~
+~
+human~
+ABT 0 1000 0
+65 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+FIN AB I HK
+stand stand male 0
+AHMV ABCDEFGHIJKQX medium none
+M random 25139 5~
+#25140
+guard frog~
+{Da {gf{Grog {gg{Gu{wa{Gr{gd.{x~
+{D          A {gf{Grog {gg{Gu{wa{Gr{gd {ws{Cits in the seaweeds waiting to go on du{wt{Dy.{x
+~
+~
+human~
+ABT 0 0 0
+68 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+CFIKN AB I HK
+stand stand male 0
+AHMV ABCDEFGHIJKL medium none
+#25141
+frog captain bloat boab~
+{gC{GA{WPTA{GI{gN B{GOAB {gB{GLOAT{x~
+{D  A L{wARGE {gF{GROG {Csits in a bed of sea{wwe{Ded.{x
+~
+~
+dragon~
+ABT JT 0 0
+70 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+CFIKN AB BEH FI
+stand stand male 0
+AHZ ACDEFGHIJKPQUVX medium none
+M random 25141 5~
+#25142
+silver dollar fish banker~
+{Da s{wil{Wver dollar {wfi{Dsh{x~
+{D    A {wmo{Cney changer swims {whe{Dre.{x
+~
+~
+human~
+ABd DFZ 0 0
+100 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 AB 0 0
+stand stand male 0
+AHMV ABCDEFGHIJK medium none
+M grall 25142 100~
+#25143
+no name~
+{Da g{wu{Wlper sha{wr{Dk{x~
+{D          A s{wh{Wa{wr{Dk {wi{Cs here drinking heavi{wl{Dy.{x
+~
+~
+human~
+ABT 0 0 0
+65 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 AB I HK
+stand stand male 0
+AHMV ABCDEFGHIJKOQX medium none
+M random 25143 1~
+#25144
+crab armourer shopkeeper~
+{Da {Rc{Dr{Wa{Rb{x~
+{D   A {Rc{Dr{Wa{Rb {ws{Cits behind a count{we{Dr.{x
+~
+~
+modron~
+AB J 0 0
+100 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+QR BMNPQ FHIK E
+stand stand none 9999
+ABGHO ABCGHJK medium none
+M grall 25144 100~
+#25145
+guitarfish fish~
+{Da g{wu{Witarfi{ws{Dh{x~
+{D                 A f{wi{Ws{wh i{Cs playing an instrume{wn{Dt.{x
+~
+~
+human~
+ABT 0 0 0
+65 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+F AB I HK
+stand stand male 0
+AHMV ABCDEFGHIJKOQX medium none
+M random 25145 5~
+#25146
+monkfish healer fish~
+{Da {ym{wo{Wnkfi{ws{yh{x~
+{D          A {ym{wo{Wnkfi{ws{yh {ws{Cwims before an alt{wa{Dr.{x
+~
+~
+human~
+ABa DFHZ 1000 0
+100 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 AB 0 0
+stand stand male 0
+AHMV ABCDEFGHIJK medium none
+M grall 25146 100~
+#25147
+lionfish~
+{Da {Cl{Wi{Co{Wn{Cf{Wi{Cs{Wh{x~
+{D            A {Cf{Wi{Cs{Wh {ws{Ctands here roari{wn{Dg.{x
+~
+~
+human~
+ABT 0 0 0
+65 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+FK AB I K
+stand stand male 0
+AHMVb ABCDEFGHIJKOQX medium none
+M random 25147 5~
+#25148
+drum fish~
+{Da d{wr{Yu{wm {Df{wi{Ys{wh{x~
+{D                A {Df{wi{Ys{wh i{Cs here playing the dru{wm{Ds.{x
+~
+~
+human~
+ABT 0 1000 0
+65 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 AB I HK
+stand stand male 0
+AHMV ABCDEFGHIJKOQX medium none
+M random 25148 5~
+#25149
+trumpet fish~
+{Da {Ctr{Mu{Wm{Mp{Cet f{Mi{Ws{Mh{x~
+{D            A {Cf{Mi{Ws{Mh {wi{Cs here playing a trump{we{Dt.{x
+~
+~
+human~
+ABT 0 1000 0
+65 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+FKN AB I HK
+stand stand male 0
+AHMV ABCDEFGHIJKOQX medium none
+M random 25149 5~
+#25150
+pool fish~
+{Da p{wo{Yo{Wl f{Yi{ws{Dh{x~
+{D                    A f{Yi{Ws{Yh {wi{Cs playing nine ba{wl{Dl.{x
+~
+~
+human~
+ABT 0 0 0
+65 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+F AB I HK
+stand stand male 0
+AHMVb ABCDEFGHIJKOQX medium none
+M random 25150 3~
+#25151
+lobster~
+{Da {rl{wo{Rb{rs{Rt{we{rr{x~
+{D                    A {rl{wo{Rb{rs{Rt{we{rr {wh{Cides in the plan{wt{Ds.{x
+~
+~
+human~
+ABT 0 0 0
+67 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+CEFK AB I HK
+stand stand female 0
+AHMQV ABCDEFGHIJKQU medium none
+#25152
+dart fish~
+{Da d{wa{Wrt fi{ws{Dh{x~
+{D                              A f{wi{Ws{wh i{Cs playing a game of dar{wt{Ds.{x
+~
+~
+human~
+ABT 0 0 0
+65 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+F AB I HK
+stand stand male 0
+AHMV ABCDEFGHIJKOQX medium none
+M random 25152 3~
+#25153
+alewife fish~
+{Dan {ga{Gl{we{Wwife f{wi{Gs{gh{x~
+{D               A {gf{Gi{ws{Wh {wi{Cs serving drin{wk{Ds.{x
+~
+~
+human~
+ABT 0 0 0
+65 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+F AB I HK
+stand stand female 0
+AHMV ABCDEFGHIJKOQX medium none
+M random 25153 3~
+#25154
+hagfish fish~
+{Da {mh{Ma{wg{Wf{wi{Ms{mh{x~
+{D     An {we{Wel-{Clike {mf{Mi{ws{Wh {Cis coiled on the roc{wk{Ds.{x
+~
+~
+human~
+ABT 0 0 0
+67 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+FK AB I HK
+stand stand female 0
+AHMVb ABCDEFGHIJKOQ medium none
+M act 25154 looks at you~
+#25155
+crab~
+{Da {rG{RI{wA{rNT C{RR{wA{rB{x~
+{D               A {rG{RI{wA{rNT C{RR{wA{rB {wh{Cides among the {gs{Ge{wa{Ww{we{Ge{gd.{x
+~
+~
+human~
+ABT 0 0 0
+68 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+CEFK AB I H
+stand stand female 0
+AHMV ABCDEFGHIJKU large none
+#25156
+tigershark shark~
+{Da t{yi{wg{Wer sh{wa{yr{Dk{x~
+{D               A t{yi{wg{Wer sh{wa{yr{Dk {wcr{Cuises through the {war{Dea.{x
+~
+~
+human~
+AT 0 0 0
+63 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+CFM AB BI HK
+stand stand male 0
+AHMVb ABCDEFGHIJKOQV medium none
+M entry 25161 100~
+M grall 25161 100~
+#25157
+knighfish fish~
+{Da k{wn{Wightfi{ws{Dh{x~
+{D     A k{wn{Wightfi{ws{Dh {wst{Cands here guarding the {wKi{Dng.{x
+~
+~
+human~
+ABT 0 0 0
+68 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+CEFIKN AB I HK
+stand stand male 65
+AHMV ABCDEFGHIJKOQX medium none
+#25158
+piranha~
+{Da p{wi{Wran{wh{Da{x~
+{D  A p{wi{Wran{wh{Da {ws{Cwims around the ar{we{Da.{x
+~
+~
+human~
+ABF 0 0 0
+65 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+FP AB I HK
+stand stand female 0
+AHMVb ABCDEFGHIJKOQX medium none
+M random 25158 100~
+#25159
+fish king blorb gobar~
+{DK{wi{Wng {GB{Yl{Go{Yr{Gb {YG{Go{Yb{Ga{Yr{x~
+{D  A {wla{Crge {YK{GI{YN{GG{YF{GI{YS{GH {Csits on a th{wro{Dne.{x
+~
+~
+snake~
+ABT 0 1000 0
+70 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+CFKPU ABI L HI
+sit stand male 70
+AGXYc ABDEFKLOQVX large none
+M kill 25159 100~
+M death 25156 5~
+#25160
+soldierfish fish~
+{Da {cs{Co{wl{Wdierf{wi{Cs{ch{x~
+{D          A {cs{Co{wl{Wdierf{wi{Cs{ch {wp{Catrols Aquar{wi{Da.{x
+~
+~
+human~
+ABT 0 0 0
+67 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+F AB I HK
+stand stand male 0
+AHMV ABCDEFGHIJKOQX medium none
+M entry 25160 100~
+#25161
+soldierfish fish~
+{Da {cs{Co{wl{Wdierf{wi{Cs{ch{x~
+{D          A {cs{Co{wl{Wdierf{wi{Cs{ch {ws{Cwims around the barrac{wk{Ds.{x
+~
+~
+human~
+ABT 0 1000 0
+67 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+F AB I HK
+stand stand male 0
+AHMV ABCDEFGHIJKOQX medium none
+#25162
+seahorse~
+{Da {Ms{we{Wahor{ws{Me{x~
+{D     A {Ms{we{Wahor{ws{Me {wsw{Wims h{wer{De.{x
+~
+~
+fido~
+ABT DFZb 0 0
+60 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+CFR AB H C
+stand stand male 0
+ABGV ACDEFHIJKQV medium none
+#25163
+sweeper fish~
+{Da {ys{Yw{we{Weper f{wi{Ys{yh{x~
+{D               A {ys{Yw{we{Weper f{wi{Ys{yh {wi{Cs looking for discarded ite{wm{Ds.{x
+~
+~
+human~
+ACT 0 1000 0
+60 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+F AB I HK
+stand stand male 0
+AHMV ABCDEFGHIJKOQ medium none
+#25166
+black catfish~
+{Da b{wla{Wck cat{wfi{Dsh{x~
+{D       A c{wat{Wf{wis{Dh {Cswims he{wr{De.{x
+~
+~
+cat~
+ABT Z 0 0
+60 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+FHN AB I HK
+stand stand female 0
+AGV ACDEFHJKQUV medium none
+#25167
+witch flounder shopkeeper~
+{Da {ww{Witch flound{we{Dr{x~
+{D  A s{wh{Wopkeep{we{Dr {Cswims behind a count{we{Dr.{x
+~
+~
+human~
+ABT DFZ 0 0
+100 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 AB I 0
+stand stand female 99999
+AHMV ABCDEFGHIJK medium none
+#25168
+shopkeeper swordtail fish~
+{Da {cs{Cw{wo{Wrdt{wa{Ci{cl{x~
+{D                           A {cs{Ch{wo{Wpkee{wp{Ce{cr {ws{Cwims behind a stone count{we{Dr.{x
+~
+~
+human~
+ABT 0 1000 0
+100 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+F AB I HK
+stand stand female 999999
+AHMV ABCDEFGHIJKOQ medium none
+M grall 25168 100~
+#25169
+barfish bartender~
+{DA {yb{Ya{Wr{Wf{wi{Ys{yh{x~
+{D       A {yb{Ya{wr{Wten{wd{Ye{yr {ws{Cwims behind a count{we{Dr.{x
+~
+~
+human~
+ABT 0 1000 0
+65 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+CF AB I HK
+stand stand male 0
+AHMV ABCDEFGHIJKOQ medium none
+#25175
+herring red~
+{Da {rr{Re{wd {Wherr{wi{Rn{rg{x~
+{D     A {rf{Ri{ws{Wh {ws{Cwims around the ar{we{Da.{x
+~
+~
+human~
+AT 0 0 0
+60 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+F AB I HK
+stand stand male 0
+AHMV ABCDEFGHIJKOQ medium none
+M act 25175 looks at you.~
+#25176
+triggerfish fish~
+{Da {mt{Mr{wi{Wggerf{wi{Ms{mh{x~
+{D            A {mf{Mi{ws{Wh {wh{Cides in the hole, using it's dorsal fin to hold it{wse{Dlf.{x
+~
+~
+human~
+ABT 0 0 0
+70 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+CFM AB I HK
+stand stand male 0
+AHMVb ABCDEFGHIJKOQX large none
+#25177
+wrasse fish~
+{Da {Mw{Cr{was{Cs{Me{x~
+{D                  A {Mf{Ci{ws{Ch {ws{Cwims around the ar{we{Da.{x
+~
+~
+human~
+AT 0 0 0
+62 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+F AB I HK
+stand stand female 0
+AHMVb ABCDEFGHIJKOQX medium none
+#25179
+hammerhead shark~
+{Da h{wamm{Werhead s{whar{wk{x~
+{D               A h{wamm{Werhead s{whar{wk c{Circles the ar{we{Da.{x
+~
+~
+human~
+AT 0 0 0
+68 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+CFM AB I HK
+stand stand female 0
+AHMVb ABCDEFGHIJKOQ medium none
+#25181
+fish fangfish~
+{Da G{wI{WA{wN{DT FA{wN{WGF{wI{DSH{x~
+{D     A G{wI{WA{wN{DT FA{wN{WGF{wI{DSH {wci{Crcles the area, hunting for {wfo{Dod.{x
+~
+~
+human~
+ABT 0 0 0
+70 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+CFM AB I HK
+stand stand male 0
+AHMVb ABCDEFGHIJKOQVX medium none
+#0
+
+
+
+#OBJECTS
+#25114
+shell~
+{Ds{wh{Wards of a {ws{yh{We{yl{Dl{x~
+{D          A {wsh{Cattered snail shell lies {whe{Dre.{x~
+none~
+trash 0 A
+0 0 0 0 0
+1 2 0 P
+#25139
+spear ~
+{Da s{wh{Wa{wr{Dk {ws{Wlayer spe{wa{Dr{x~
+{D       A {ws{Wpear lies he{wr{De.{x~
+none~
+weapon 0 AN
+staff 0 0 pierce 0
+60 3 200 P
+#25140
+whale sword bone~
+{Da w{wh{Wa{wl{De {wb{Wone swo{wr{Dd{x~
+{D        A {wb{Wone lies he{wr{De.{x~
+none~
+weapon 0 AN
+sword 0 0 slash 0
+65 5 300 P
+#25141
+no name~
+{Da{wn {ga{Gl{wl{Wigator b{we{Gl{gt{x~
+{D        a {gb{Ge{wl{Wt {wl{Wies he{wr{De.{x~
+none~
+armor 0 AL
+0 0 0 0 0
+65 2 150 P
+#25142
+cape kelp~
+{Da {gkelp c{Gl{wo{Ga{gk{x~
+{D        A {wl{Warge {gkelp {Wleaf lies he{wr{De.{x~
+none~
+armor 0 AK
+0 0 0 0 0
+60 3 100 P
+#25143
+turtle shell~
+{Da {gt{Gu{wr{Wtle sh{we{Gl{gl{x~
+{D    A {wl{Warge {gs{Gh{we{Gl{gl {Wlies he{wr{De.{x~
+none~
+armor 0 AD
+0 0 0 0 0
+65 5 150 P
+#25144
+limpet shell helmet~
+{Da {wl{Wimpet she{wl{Dl{x~
+{D     A {wco{Wnically-shaped shell lies h{wer{De.{x~
+none~
+armor 0 AE
+A A A A 0
+60 5 100 P
+#25151
+shark's fin~
+{Da s{wh{Wark's f{wi{Dn{x~
+{D       A {wd{Worsal fin lies he{wr{De.{x~
+none~
+pill 0 A
+60 502 0 0 0
+60 5 2400 P
+#25159
+cloak~
+{Da {mr{Mo{wy{Wal cl{wo{Ma{mk{x~
+{D     A {mc{Ml{Wo{Ma{mk {wl{Wies he{wr{De.{x~
+none~
+armor 0 AK
+0 0 0 0 0
+70 5 200 P
+#25164
+squid ink~
+{ys{Yo{wm{We squid {wi{Yn{yk{x~
+{D      A {wv{Wial of ink sits he{wr{De.{x~
+none~
+potion 0 A
+60 39 0 0 0
+60 2 2400 P
+#25165
+oysterbed bed~
+{Da{wn {Woyster b{we{Dd{x~
+{D        A {wla{Crge oyster bed is stretches across this {wro{Dom.{x~
+none~
+furniture 0 0
+BD 0 KL BDEFGH 0
+0 0 0 P
+#25166
+seaweed potion~
+{Da {gs{Ge{wa{Ww{we{Ge{gd {Dp{wo{Wti{wo{Dn{x~
+{D     A {wv{Wial lies he{wr{De.{x~
+none~
+potion 0 A
+60 28 0 0 0
+60 10 2400 P
+#25167
+stone mace~
+{Da s{wt{Wo{wn{De {wm{Wa{wc{De{x~
+{D         A {ws{Wtone fastened to a handle lies he{wr{De.{x~
+none~
+weapon 0 AN
+mace 0 0 pound 0
+65 0 300 P
+#25168
+shark tooth dagger~
+{Da s{wh{War{wk'{Ds {wt{Wooth dagg{we{Dr{x~
+{D      A {wl{Warge sharp tooth lies he{wr{De.{x~
+none~
+weapon 0 AN
+dagger 0 0 stab 0
+60 3 200 P
+#0
+
+
+
+#ROOMS
+#25100
+{DD{wa{Wmp Tra{wi{Dl{x~
+{gGn{Ga{grly t{yr{Ge{ges s{yt{Ga{gnd {Din {wa s{Wea of overgrow{wn re{Deds {ggr{Go{gw{yi{gng a{yl{Go{gng t{yh{ge {Ge{gdge o{yf{x
+{gt{yh{ge pa{yt{ghw{Ga{gy.  T{yh{ge {Duneve{wn t{Wrail, filled wit{wh ho{Dles, {ghave c{Ga{gp{yt{gur{Ge{gd t{yh{ge c{Go{go{yl{x
+{gr{Ga{ginw{Ga{yt{gger in t{yh{Ge {gcre{Dvi{wces. ~
+0 4 0
+D0
+~
+~
+0 0 25101
+S
+#25101
+{DN{wa{Wrrow Pa{wt{Dh{x~
+{gT{yh{Ge {gveg{Ge{yt{gati{Go{gn g{yr{gowing {Dalo{wng {Wthe fringes has in{wvad{Ded {gt{yh{Ge {groc{yk{gy tr{Ga{gil. T{yh{ge{x
+{gb{yr{Ga{gnc{yh{Ge{gs of t{yh{ge gn{Ga{gr{yl{gy t{Dree{ws e{Wxtend out, reaching {wint{Do {gthe p{Ga{yt{gh, {Ga{gt{yt{gemp{yt{ging{x
+{gto sn{Ga{yr{ge an{yy{Go{gne pass{yi{gng {Dby {wor {Wso it seems. The chi{wrpi{Dng {Go{yf {gcric{yk{Ge{yt{gs eman{Ga{yt{ge{x
+{gf{yr{Go{gm t{yh{ge overg{yr{Go{gwn re{Ge{yd{gs.  {DA {wsl{Wow drifting mist h{wang{Ds {gov{Ge{gr t{yh{Ge {ga{yr{gea.{x
+~
+0 0 0
+D1
+~
+~
+0 0 25102
+D2
+~
+~
+0 0 25100
+S
+#25102
+{DO{wl{Wd Ga{wt{De{x~
+{gP{Ga{gr{yt{gial{yl{gy hidd{Ge{gn in {yt{gh{Ge {Dtal{wl g{Wrass, a dilapi{wdat{Ded {Go{yl{gd f{Ge{gnce, s{yt{Ga{gnds {yt{go{x
+{gn{Go{yr{gth.  An {Go{yl{gd gnar{yl{gy tre{De's {wbo{Wugh, shedding ti{wny {gl{Ge{gaves on{yt{Go {gt{yh{ge g{yr{Go{gund,{x
+{greac{yh{Ge{gs over t{yh{Ge {gwood{Ge{gn {Dent{wry. {WA loud chorus of {gc{yr{gick{Ge{yt{gs c{yh{girping can b{Ge{x
+{yh{geard a{yl{gl ar{Go{gund. A s{yi{ggn {Dis {wnai{Wled to the bol{we of {gt{yh{ge tre{Ge{g. A {yf{Ge{gnce {yr{guns{x
+{ge{Ga{gs{yt {gand wes{yt {gbe{yt{gwe{Gen t{yh{Ge {Dden{wse {Wreeds.{x
+~
+0 0 0
+E
+sign~
+{x
+{R      WARNING! {YTOXIC WASTE AREA. DO NOT ENTER!{x
+{x
+~
+D0
+~
+gate~
+1 0 25103
+D3
+~
+~
+0 0 25101
+S
+#25103
+{DI{wn{Wside Ga{wt{De{x~
+{gThe vegetation is {gov{Ge{yr{ggr{Go{ywn {Dan{wd h{Was invaded the pathway, c{wausin{Dg it{x
+{gn{Ga{yr{gr{Go{gw. A {yf{Ge{gw mu{yt{Ga{yt{Ge{gd p{yl{Ga{yn{yt{gs Dwi{wth {Weerie looking flowers grow {wamong {Dthe{x
+{gs{yh{grubb{Ge{gr{yy a{yl{Go{gng t{yh{Ge {gedg{Ge{ys{g. T{yh{Ge g{yr{go{Wund is dotted with holes fi{wlled {Dwith {x
+{ga g{yr{Ge{genis{yh {gliquid which s{Ge{gem {yt{Go {wglo{Ww in this mist covered ar{wea. A{Dn old{x
+{gc{yr{Ge{gak{yy {gga{yt{ge s{yt{Ga{gnds t{Go {yt{ghe s{Go{gu{yt{gh.{x{x 
+~
+0 0 2
+D1
+~
+~
+0 0 25104
+D2
+~
+gate~
+1 0 25102
+S
+#25104
+{DN{wo{Wisy Tra{wi{Dl{x~
+{DT{whe lo{Wng reeds growing along the fr{wing{Des {Go{yf {gth{Ge {gpa{yt{gh l{Ge{gan in{yt{Go {gt{yh{Ge {gacc{Ge{gss{x
+{Dma{wking {Wit difficult to see down the tr{wail{D. {gG{yl{Go{gwing g{yr{ge{Ge{gn subs{yt{Ga{gnce d{Go{yt{gs t{yh{ge{x
+{Dpa{wthway {Wleading north and west.  A noi{wsy {gc{yh{girping {Go{yf {gcrick{Ge{yt{gs fi{yl{gls t{yh{Ge {gair{x
+{Dthe {wair {Wmoistened by a slow drifting {wcur{Dtain {Go{yf {gmis{yt.{x{x
+~
+0 0 0
+D0
+~
+~
+0 0 25105
+D3
+~
+~
+0 0 25103
+S
+#25105
+{DE{wd{Wge of Wat{we{Dr {Y[{CToxic Pond{Y]{x~
+{DT{whe tr{Wail encircles a large pool of water with blobs of green fl{woatin{Dg on{x
+{Dit{ws sur{Wface. The drifting substance glows brightly bobbing up and d{wown o{Dver{x
+{Dthe {wexpa{Wnding rings of waves caused by frogs diving into the water. {w A {Dfew {x
+{gdr{Ga{ggon{yf{gli{Ge{gs {yh{gover {Go{gve{yr {Dth{we {Wpond before f{wlyi{Dng {Go{gf{yf{g.  C{yh{girping, cr{Go{ga{yk{ging, {Ga{gnd{x
+{Go{yt{gher n{Go{gises c{Ga{gn be he{Ga{Drd {we{Wchoing throug{wh t{Dhi{gs mis{yt {gc{Go{gve{yr{Ge{gd a{yr{Ge{ga.{x
+~
+0 0 0
+D1
+~
+~
+0 0 25107
+D2
+~
+~
+0 0 25104
+D3
+~
+~
+0 0 25106
+S
+#25106
+{DE{wd{Wge of Wat{we{Dr {Y[{CToxic Pond{Y]{x~
+{gR{Go{gc{yk{gs and a d{Ge{gnse {Dwal{wl of {Wreeds make it impossible to continue {wwest{D. A{x
+{ggnar{yl{gy tr{Ge{ge s{yt{gands {Don {wthe s{Wouthern fringe, shedding its tiny leave{ws on{Dto{x
+{gt{yh{Ge {gpa{yt{gh. A b{yr{gigh{yt{Dly {wglowi{Wng green waste lines the water's edge. In{wsec{Dts{x
+{gd{Ga{gr{yt {gfr{Go{gm p{yl{Ga{gce t{Go {gp{yl{Ga{gce, whi{yl{Ge {gamphibi{Go{gus anim{Ga{yl{gs sp{yl{Ga{gsh in{yt{Go {yt{gh{Ge {gwa{yt{Ge{yr.{x
+{gT{yh{Ge {yl{Go{gud sounds {Go{yf {gchirping c{Ga{gn b{Ge {yh{Ge{gard em{Ga{gna{yt{ging {yf{gr{Go{gm t{yh{Ge {yt{gal{yl {ggr{Ga{gss.{x
+~
+0 0 0
+D1
+~
+~
+0 0 25105
+S
+#25107
+{DE{wd{Wge of Wat{we{Dr {Y[{CToxic Pond{Y]{x~
+{DA{w few p{Wuddles of glowing liquid fills the crevices along the {wtrail{D. A{x
+{Dgna{wrly t{Wree, a beehive attached to one of its branches, stands i{wn a s{Dea{x
+{Dof o{wvergr{Wown reeds.  The sounds of the pond life echo through t{whis a{Drea{x
+{gbus{yt{gling with {Ga{yc{gtivity. A curt{Ga{gin {Go{yf {gmist drif{yt{gs sl{Go{gwl{yy {gacr{Go{gss t{yh{ge p{Go{gnd,{x
+{gfilt{Ge{gring {Go{gu{yt {gsome {Go{yf {gth{Ge {yl{gight.{x
+~
+0 0 0
+D1
+~
+~
+0 0 25108
+D3
+~
+~
+0 0 25105
+S
+#25108
+{DE{wd{Wge of Wat{we{Dr {Y[{CToxic Pond{Y]{x~
+{DA{w few {Wcolonies of mushrooms, shad{wed {Dby {gt{yh{Ge {gta{yl{gl r{Ge{geds, g{yr{Go{gw a{yl{Go{gng t{yh{Ge{x
+{Dout{wer f{Wringe of the trail. Ants and {woth{Der {gins{Ge{gc{yt{gs h{Ga{gve m{Ga{gde a {yh{Go{gme o{yf {Ga{x
+{Dho{wllow {Wlog of a tree feld by lightnin{wg.  {gA g{yr{geen g{yl{gowing subs{yt{Ga{gnce d{Go{yt{gs{x
+{Dth{we pa{Wth extending north and west. A {wru{Dstling {gs{Go{gund o{yf {ganim{Ga{yl{gs {yf{Go{grag{yi{gng{x
+{gem{Ga{gna{yt{Ge{gs {yf{grom t{yh{Ge {goverg{yr{Go{gwn veg{Ge{gta{yt{gion.  A s{yl{Go{gw dri{yf{gting mist, b{yl{Ga{gnke{yts{x
+{ga{yr{gea, fi{yl{gt{Ge{gring ou{yt{g m{Go{gst o{yf {gt{yh{Ge {glig{yh{gt.{x
+~
+0 0 0
+D0
+~
+~
+0 0 25109
+D3
+~
+~
+0 0 25107
+S
+#25109
+{DE{wd{Wge of Wat{we{Dr {Y[{CToxic Pond{Y]{x~
+{gT{yi{gny p{Go{go{yl{gs of bright gl{Go{gwing ma{yt{Ge{gria{yl {Ddot{w the {Wrocky pathway runn{wing al{Dong{x
+{ga p{Go{gnd.  T{yh{Ge {gp{Go{gnd li{yf{ge consists {Go{yf {gunus{Dual {winse{Wcts, animals, and pl{wants o{Ddd{x
+{gw{yh{gich s{Ge{gem {yt{go have mu{yt{Ga{gted ov{Ge{gr t{yh{ge ye{Dars. {wAn {Wold gnarly tree, its b{wranche{Ds{x
+{gre{Ga{gc{yh{ging over t{yh{Ge {gp{Ga{yt{gh, s{yt{gands a{yl{Go{gng th{De wes{wter{Wn fringe of the trai{wl.  Ta{Dll{x
+{greeds par{yt{gi{Ga{gll{yy {gcover {yt{gh{Ge {gt{yr{gunk, w{yh{gich see{Dm t{wo f{Worm a face, of th{we old b{Dent{x
+{gw{Go{goden s{Ge{gn{yt{gine{yl{g.{x
+~
+0 0 0
+D1
+~
+~
+0 0 25110
+D2
+~
+~
+0 0 25108
+S
+#25110
+{DE{wd{Wge of Wat{we{Dr {Y[{CToxic Pond{Y]{x~
+{DA{w rust{Wed metal barrel, partially conce{wale{Dd, {gh{Ga{gs b{Ge{gen le{yf{gt in t{yh{Ge {gta{yl{gl{x
+{Dree{wds.  {WA glowing rivulet from the old co{wnta{Diner {gf{yl{Go{gws acr{Go{gss t{yh{Ge {gt{yr{Ga{gil,{x
+{Ddrip{wping {Wslowly into the pond. Globs of {wthe {gg{yr{Ge{gen subs{yt{Ga{gnce b{Go{gbs in {yt{gh{Ge{x
+{gw{Ga{yt{ger, dri{yf{gting {Ga{gim{yl{Ge{gssl{yy{g.  Drippings {Go{yf {gth{Ge {gtoxic ma{yt{Ge{grial he{Ga{gds n{Go{gr{yt{gh {x
+{gand w{Ge{gs{yt{g.{x
+~
+0 0 0
+D0
+~
+~
+0 0 25111
+D3
+~
+~
+0 0 25109
+S
+#25111
+{DE{wd{Wge of Wat{we{Dr {Y[{CToxic Pond{Y]{x~
+{DA{wn occ{Wasional splash can be heard as th{we am{Dphi{gbi{Go{gus anim{Ga{yl{gs en{yt{Ge{gr t{yh{Ge{x
+{Dwa{wter. {WTheir noisy sounds, along with the {wchir{Dpi{gng {Go{yf {gcric{yk{Ge{yt{gs, fill t{yh{ge{x
+{Da{wrea. {WSmall pools of green substance lie g{wlowi{Dng {gon t{yh{Ge {groc{yk{gy s{yh{Go{gres {Go{yf{x
+{Da {wpond. {WTall grass and gnarly trees stan{wd alo{Dng {gtyh{Ge {geast{Ge{grn edg{Ge {go{yf {gt{yh{ge{x
+{Dtra{wil.{x
+~
+0 0 0
+D0
+~
+~
+0 0 25112
+D2
+~
+~
+0 0 25110
+S
+#25112
+{DE{wd{Wge of Wat{we{Dr {Y[{CToxic Pond{Y]{x~
+{DT{whe re{Weds, growing along the edge of th{we pat{Dh, {gh{Ga{gve bec{Go{gme {yt{goo hig{yh{g {Ga{gnd{x
+{Dar{we sta{Wrting to bend toward the water.  Tr{wails {Dof {ga b{yr{gightl{yy{g gl{Go{gwing g{yr{Ge{gen{x
+{Ds{wubsta{Wnce dots the trail revealing a colony {wof {gmus{yh{gro{Go{gms g{yr{Go{gwing on {Ga {gdead{x
+{Dlo{wg lyi{Wng on the fringe.  Insects dart bac{wk and {yf{Go{grt{yh {gand t{yh{Ge {gnois{yy {gs{Go{gunds{x
+{Dof {wthe c{Wrickets and frogs echo across thi{ws mis{Dty {ga{yr{Ge{ga.{x
+~
+0 0 0
+D0
+~
+~
+0 0 25113
+D2
+~
+~
+0 0 25111
+S
+#25113
+{DG{wl{Wowing Pa{wt{Dh {Y[{CToxic Pond{Y]{x~
+{DT{whis a{Wrea is covered with a green substanc{we whi{Dch {gg{yl{Go{gws brigh{yt{gl{yy.  {gM{Ge{yt{gal{x
+{Dba{wrrels{W, some partially rusted with holes, a {wfew t{Dip{gp{Ge{gd ov{Ge{yr{g, are {yl{Ge{gft {yh{ger{Ge{x
+{Ds{wcatte{Wred around the area.  Some of the large {wcont{Dai{gne{yr{gs s{yt{gand c{Go{gncea{yl{ged in{x
+{Dth{we tal{Wl overgrown shrubbery.  A gnarly tree{w, its {Dtru{gn{yk {gl{Go{go{yk{ging like {Ga {gface,{x
+{Dgro{wws at {Wthe edge of the water.{x
+~
+0 0 0
+D2
+~
+~
+0 0 25112
+S
+#25114
+{CWater {Y[{CToxic Pond{Y]{x~
+{DT{whis i{Cs a rock formation rising from the floor of the pond{w, gen{Dtly{x
+{Dsl{woping {Cdown to the west. The water is cool and clear but visib{wili{Dty{x
+{Di{ws poor {Cbecause of the limited light here.  A few lily plants c{wlin{Dg{x
+{Dto {wthe {Crocks and extend up and out of the pond. Bubble rise fr{wom {Dthe {x
+{Dthe {wterr{Cain below.{x
+~
+0 0 0
+D5
+~
+~
+0 0 25115
+S
+#25115
+{CWater {Y[{CToxic Pond{Y]{x~
+{DT{whe ro{Ccks form a natural formation of steps leading up to the {weast {Dand{x
+{Ddo{wwn to {Cthe south from here.  The water is clear, but visibility {wis po{Dor{x
+{Dfr{wom th{Ce lack of light.  Plants cling to the rocks, anchoring the{wmselv{Des{x
+{Dwit{wh the{Cir roots.  The pond seems deeper than it looks from the {woutsi{Dde.{x
+~
+0 0 0
+D4
+~
+~
+0 0 25114
+D5
+~
+~
+0 0 25116
+S
+#25116
+{CWater {Y[{CToxic Pond{Y]{x~
+{DThe{w pathw{Cay sneaks through a line of aquatic plants clinging to the sides{x
+{Dof {wthe jag{Cged formation.  The long leaves of the plants wave back and forth,{x
+{Dslowl{wy movin{Cg with the water current. The lighting is not very good, making{x
+{Dvisibi{wlity po{Cor.  The algae covered trail continues up and east.{x  
+~
+0 0 0
+D1
+~
+~
+0 0 25117
+D4
+~
+~
+0 0 25115
+S
+#25117
+{CWater {Y[{CToxic Pond{Y]{x~
+{CA colonnade of aquatic plants line both sides of the pathway cove{wred w{Dith{x
+{Calgae.  Their long leaves drift back and forth in rhythm with the cu{wrre{Dnts.{x
+{CMost of the light is blocked out by the large lily pads floating h{wigh {Dabove.{x
+{Chigh above.  An occasional splash from above disrupts the calm of th{we w{Dater.{x 
+~
+0 0 0
+D3
+~
+~
+0 0 25116
+D5
+~
+~
+0 0 25118
+S
+#25118
+{DF{wl{Woor of Po{wn{Dd {Y[{CToxic Pond{Y]{x~
+{DT{whe ro{Gugh fl{go{Gor {go{Gf {Cthe pond is covered with sludge {Gaccumul{ga{Gt{ge{Gd {go{wver m{Dany{x
+{Dages. {wA tow{ge{Gring {Crock formation looms all around except {Gt{go {Gth{ge s{go{Gut{wh w{Dhere{x
+{Dthe pa{wthw{Gay li{ge{Gs {Cbetween a forest of aquatic plants. A {Gs{ge{Gt {go{Gf sto{wne sta{Dirs,{x
+{Dnatur{wally f{go{Grm{ge{Gd b{Cy the rocks, climbs the mountain up {Gt{go {Gth{ge {Gw{ge{Gs{wt.{x  
+~
+0 0 0
+D2
+~
+~
+0 0 25119
+D4
+~
+~
+0 0 25117
+S
+#25119
+{DM{wu{Wddy Flo{wo{Dr {Y[{CToxic Pond{Y]{x~
+{DA{w dens{Ge g{ga{Grd{ge{Gn {go{Gf {Caquatic plants line the path, {Gs{ge{Gpar{ga{Gting th{ge {Gac{wcess {Dway{x
+{Dfr{wom t{Gh{ge {Gmount{ga{Gins {Cof jagged rocks on both sides. {GHigh {ga{Gb{go{Gve, {ga{G d{wark fi{Dgure{x
+{Dslo{wwly ci{Grcl{ge{Gs {go{Gne {Cof the peaks looming to the east. {GAlg{ga{Ge p{ga{Gints {wthe ro{Dcky{x
+{Dform{watio{Gns {ga{Gn {ga{Grr{ga{Gy {Cof green hues.  The water moves {Gsl{go{Gwly {ga{Gs th{we pond {Dlife {x
+{Dac{wtivi{Gti{ge{Gs g{go {Gon {Call around.{x
+~
+0 0 0
+D0
+~
+~
+0 0 25118
+D2
+~
+~
+0 0 25120
+S
+#25120
+{DF{wo{Wot of Mounta{wi{Dn {Y[{CToxic Pond{Y]{x~
+{DPl{wankt{go{Gns {ga{Gnd {Cphytoplanktons drift aimlessly around {Gth{ge {Gp{go{Gnd, c{warrie{Dd by{x
+{Dthe {wwater {Gm{go{Gvem{ge{Gnt{C.  Gardens of aquatic plants grow at {Gth{ge {Gb{ga{Gs{ge {wof the {Dhigh{x
+{Dmoun{wtai{Gns l{go{Goming {go{Gn {Cboth sides of the muddy trail. To {Gthe {gs{Gouth, {wa n{Datural{x
+{Dsto{wne bri{Gdg{ge {Glink{gs {Cthe two rocky formations.  A school {go{Gf tiny {wfishes {Ddarts{x
+{Doff {win a dif{Gf{ge{Gr{ge{Gnt {Cdirection.{x
+~
+0 0 0
+D0
+~
+~
+0 0 25119
+D2
+~
+~
+0 0 25121
+S
+#25121
+{DB{we{Wneath A Brid{wg{De {Y[{CToxic Pond{Y]{x~
+{DTh{we pat{Yhw{ya{Yy is c{yo{Yver{ye{Yd {Cwith mud and is lined with {Yaqu{ya{Ytic {wplants w{Dith{x
+{Dext{wended {Yt{ye{Ynrils r{ye{Yaching {Cout. Overhead, a stone bri{Ydg{ye{Y c{yo{Ynn{ye{wcts the {Dtwo{x
+{Dmoun{wtain{Ys l{yo{Yoming t{yo {Cthe east and west.  Schools of t{yi{Yny fish{ye{ws swim {Dby,{x
+{Dth{wen da{Yrt {yo{Yff in {Cdifferent directions. The water is {Ybr{ya{Ycki{ys{Yh mi{wxing {Dwith{x
+{Dsalt{wwate{Yr {ye{Ynt{ye{Yring {Cfrom somewhere.{x
+~
+0 0 0
+D0
+~
+~
+0 0 25120
+D2
+~
+~
+0 0 25122
+S
+#25122
+{DR{wo{Wcky Pa{wt{Dh {Y[{CToxic Pond{Y]{x~
+{DA{w mudd{Cy and rocky pathway abut here in the shadows {ro{Yf tw{ro {Yhigh m{wounta{Dins{x
+{Dloo{wming {Cto the east and northwest.  Gardens of plants, {Yc{ro{Ynce{ra{Yling {ra {wco{Dlony{x
+{Dca{wmouf{Claged waterlife, grow at the base of the rocky {Ystru{rc{Ytur{re{Ys. A na{wtu{Dral{x
+{Dbri{wdge {Carches over the trail to the north.  The access {Yc{ro{Yntinu{re{Ys n{ro{wrth {Dand{x
+{Dwest {wthr{Cough the rough terrain.  A hole in the hides {Yb{re{Yhind th{re{Y s{re{Ya{wweed {Dto{x
+{Dth{we east.{x
+~
+0 0 0
+D0
+~
+~
+0 0 25121
+D1
+~
+~
+0 0 25170
+D3
+~
+~
+0 0 25123
+S
+#25123
+{DR{wo{Wcky Pa{wt{Dh {Y[{CToxic Pond{Y]{x~
+{DT{whe wa{Cter current circulates the planktons and phytoplanktons, {wdrif{Dting{x
+{Dal{wong t{Cill they are gobbled up for food.  The terrain is rough and {wlof{Dty{x
+{Dm{wounta{Cins loom to the north and south.  Schools of tiny fishes dar{wt pas{Ds{x
+{Dh{were, {Crushing off to another destination, making sure not to be e{waten {Dby{x
+{Dot{wher l{Carger animals. To the south, a mouth opens to a cave in t{whe ro{Dcky{x
+{Dfor{wmatio{Cn.{x
+~
+0 0 0
+D1
+~
+~
+0 0 25122
+D2
+~
+~
+0 0 25124
+D3
+~
+~
+0 0 25125
+S
+#25124
+{DD{wa{Wrk Ca{wv{De {Y[{CToxic Pond{Y]{x~
+{DT{whe wa{cter swirls in this large dark cavern formed in the moun{wtains{Dide.{x 
+{DBo{wnes a{cnd skulls can be seen partially buried in the sandy flo{wor. D{Dented{x
+{Da{wrmor an{cd shattered weapons lie scattered around the area.  A {wfew pl{Dants{x
+{Dgr{wow near {cthe rear wall where the occupant of this cave hides.{x
+~
+0 12 0
+D0
+~
+~
+0 0 25123
+S
+#25125
+{DR{wo{Wcky Pa{wt{Dh {Y[{CToxic Pond{Y]{x~
+{DT{whe {Yr{go{Ycky p{ga{Yth sn{ga{Yk{ge{Ys {Cthrough a terrain filled {Ywith t{go{Yw{ge{Yring m{wounta{Dins{x
+{Dri{wsin{Yg {ga{Yll {ga{Yr{go{Yund.  G{ga{Yr{Cdens of aquatic plants, enc{Yr{go{Yach int{go {Yth{we pathw{Day{x
+{Dfil{wled {Ywith h{go{Yl{ge{Ys. Th{ge{C long tendrils reach out f{Yr{go{Ym th{ge{Y edg{ge{Ys, m{ga{wkin{Dg an{x
+{Datte{wmpt {Yt{go {Ysn{ga{Yr{ge {Yany {Cunsuspecting prey passing by.{x
+~
+0 0 0
+D0
+~
+~
+0 0 25126
+D1
+~
+~
+0 0 25123
+S
+#25126
+{DR{wo{Wcky Pa{wt{Dh {Y[{CToxic Pond{Y]{x~
+{DT{wrails {Cmeet in a junction before heading off in three direction{ws.  H{Digh,{x
+{Dro{wcky fo{Crmations, towering all around, dwarves everthing here. Lar{wge wo{Drn{x
+{Ds{wtones, {Cpartially covered by the sandy floor, lie at the base of t{whe da{Drk{x
+{Dma{wssive {Cmountains.  The sheer walls are rough and fill with holes{w.  A {Dfew{x
+{Dlea{wfy pla{Cnts grow sparsely in this area.{x
+~
+0 0 0
+D0
+~
+~
+0 0 25134
+D2
+~
+~
+0 0 25125
+D3
+~
+~
+0 0 25127
+S
+#25127
+{DR{wo{Wcky Pa{wt{Dh {Y[{CToxic Pond{Y]{x~
+{DT{whis p{Cathway splits the high mountains rising to the water's surfa{wce ab{Dove.{x
+{DGa{wrdens {Cof underwater plants grow beneath the shadows of the stone gu{wardia{Dns {x
+{Dp{wrotec{Cting the access. Seaweeds also thrive on the lofty ledges of th{we she{Der{x
+{Dwa{wlls.  {CA water current moves through here, animating the long leave{ws of {Dthe{x
+{Dsub{wmerge{Cd flora.{x
+~
+0 0 0
+D1
+~
+~
+0 0 25126
+D3
+~
+~
+0 0 25128
+S
+#25128
+{DR{wo{Wcky Pa{wt{Dh {Y[{CToxic Pond{Y]{x~
+{DT{whe sa{Gndy p{Wa{Gthw{Wa{Gy {Cdivides the mountains, continuing north, east, a{wnd so{Duth.{x
+{DThe {wtoweri{Gng b{Wa{Grri{We{Grs {Csupport clumps of aquatic plants on their lofty {wledg{Des.{x
+{DGa{wrdens {Wo{Gf s{We{Gawe{We{Gd {Calso grow along their base separating them from th{we tra{Dil.{x
+{DThe {wlong {Gt{We{Gndr{Wi{Gls {Ccome alive, animated by the water current passing {wthrou{Dgh.{x
+~
+0 0 0
+D0
+~
+~
+0 0 25131
+D1
+~
+~
+0 0 25127
+D2
+~
+~
+0 0 25129
+S
+#25129
+{DD{wa{Wngerous Pa{wt{Dh {Y[{CAquaria{Y]{x~
+{DT{wrails {Mof sh{Ya{Mtt{Ye{Mr{Ye{Md {Cweapons, crushed armor, skulls, and {Mb{Yo{Mn{Ye{Ms he{Ya{wded w{Dest,{x
+{Dlie {whalf-{Mb{Yu{Mri{Ye{Md in th{Ye {Csandy pathway. Some of the litter {Msit p{Ya{Mrti{Ya{Ml{wly hi{Ddden{x
+{Din {wthe {Mg{Ya{Mrd{Ye{Mns gr{Yo{Mwing {Cat the base of the sheer walls {Mcli{Ym{Mb{Yi{Mng fr{Yo{Mm {wthe {Drocky{x
+{Dfri{wnges. {MAn {Yo{Mcc{Ya{Msion{Ya{Ml {Crush of water emanates from the west{Y a{Ms s{Yo{Mm{Ye{Mthi{wng hu{Dge{x
+{Dst{wirs {Ya{Mb{Yo{Mut in th{Ya{Mt {Cdirection.{x
+~
+0 0 0
+D0
+~
+~
+0 0 25128
+D3
+~
+~
+0 0 25130
+S
+#25130
+{DE{wn{Wd of Pa{wt{Dh {Y[{CAquaria{Y]{x~
+{DL{warge {Gj{Ya{Ggg{Ye{Gd r{Yo{Gcks {Csit in this area where the sandy {Gp{Ya{Gthw{Ya{Gy {Ye{Gnd{ws. Bri{Dght{x
+{Daq{wuat{Gic pl{Ya{Gnts {Ya{Gnch{Yo{Cr themselves to the rough boulders {Gl{Ye{Ganing {Ya{Gga{winst t{Dhe{x
+{Dshe{wer {Gcl{Yi{Gfts. B{Yo{Gn{Ye{Gs, {Cshattered weapons, and shards of {Ya{Grm{Yo{Gr, li{Ye {Gsc{watt{Dered{x
+{Dan{wd par{Gti{Ya{Glly buri{Ye{Cd in the soft floor.{x
+~
+0 0 0
+D1
+~
+~
+0 0 25129
+S
+#25131
+{DR{wo{Wcky Pa{wt{Dh {Y[{CToxic Pond{Y]{x~
+{DT{whe sa{Yndy p{Ra{Ythw{Ra{Yy {Clies between two sheer cliffs climbing {Yt{Ro{Yw{Ra{Yrd th{we surf{Dace{x
+{Dof {wthe {Yw{Ra{Yt{Re{Yr. Aqu{Ra{Ytic {Cplants grow across the face of the {Ym{Ro{Yunt{Ra{Yins {Ra{Ys w{Re{wll {Das{x
+{Dalo{wng {Yth{Re{Yir b{Ra{Ys{Re{Y.  {CRocks lie concealed in the gardens, {Yanch{Ro{Yring {Ra {Yf{Re{Yw {wof {Dthe{x
+{Dseaw{weeds. {YTh{Re {Yl{Ro{Yng {Cleaves react to the water's movement {Yfl{Ro{Ywing thr{Ro{Yu{wgh.{x
+~
+0 0 0
+D0
+~
+~
+0 0 25132
+D2
+~
+~
+0 0 25128
+S
+#25132
+{DR{wo{Wcky Pa{wt{Dh {Y[{CToxic Pond{Y]{x~
+{DT{whis s{ma{Mndy tr{ma{Mil {Csneaks pass the high mountains {Mgu{ma{Mrding t{mh{Mis s{wectio{Dn of{x
+{Dth{we deep {Mp{mo{Mnd.  Bri{Cght, glowing aquatic plants, {Mgr{mo{Mwing {ma{Mt th{me {Mb{ma{Ms{we of {Dthe{x
+{Dshe{wer {Mw{ma{Mlls. Th{me {Ml{Cong tendrils of the flora drift {Maiml{me{Mssly b{ma{Mck a{wnd f{Dorth{x
+{Dmo{wving {Mwith th{me{M fl{mo{Mw {Cof the ocean current.{x  
+~
+0 0 0
+D2
+~
+~
+0 0 25131
+D3
+~
+~
+0 0 25133
+S
+#25133
+{DR{wo{Wcky Pa{wt{Dh {Y[{CToxic Pond{Y]{x~
+{DA{wn arc{Chway of stone blocks frames a pair of wooden doors decora{wted w{Dith{x
+{Dir{won wo{Crk. Thick metal rings are affixed to the black adornment. T{whe wo{Drd{x
+{DA{wQVARI{CA is carved in the curvature of the entry. A current moves t{whe wa{Dter,{x
+{Dan{wimati{Cng the plants growing along the base of the high walls tow{werin{Dg in{x
+{Dall {wdire{Cctions, except east.{x
+~
+0 0 0
+D1
+~
+~
+0 0 25132
+D3
+~
+door~
+1 0 25137
+S
+#25134
+{DR{wo{Wcky Pa{wt{Dh {Y[{CToxic Pond{Y]{x~
+{DT{whis t{Gr{Ya{Gil li{Ye{Gs in {Cthe shadows of two towering {Ym{Wo{Yunt{Wa{Yins ri{Ws{Ying f{wrom b{Doth{x
+{Ded{wges. {GG{Ya{Grd{Ye{Gns {Yo{Gf {Cunderwater plants flourish at the {Yb{Wa{Yse {Wo{Yf th{We {Ysh{We{Yer {wwal{Dls{x
+{Dgua{wrding {Gth{Ye {Gp{Ya{Gthw{Ya{Gy.  {CLarge scattered rocks, {Yst{Wa{Yndi{Wn{Yg {Wa{Yl{Wo{Yng thi{Ws {warea, {Dare{x
+{Dpain{wted {Ggr{Ye{Gen {Yw{Ghi{Yc{Gh {Cspills over onto the rough {Yfl{Wo{Yor. {x 
+~
+0 0 0
+D0
+~
+~
+0 0 25135
+D2
+~
+~
+0 0 25126
+S
+#25135
+{DR{wo{Wcky Pa{wt{Dh {Y[{CToxic Pond{Y]{x~
+{DA{w water{M c{Wu{Mrr{We{Mnt, fl{Wo{Mwi{Wn{Mg {Cfrom the east, disturbs the underwate{wr pla{Dnts{x
+{Dgro{wwing {Wa{Ml{Wo{Mng th{We {Mb{Wa{Mse {Wo{Mf {Cthe mountains.  The movement animates t{whe lo{Dng{x
+{Dte{wndrils {Mof th{We {Maqu{Wa{Mtic g{Wa{Crden, moving them aimlessly.  Rough st{wones {Dlie{x
+{Dsca{wtte{Mr{We{Md {Wa{Ml{Wo{Mng th{We {Mfl{Wo{Mor p{Cainted green with algae.{x
+~
+0 0 0
+D1
+~
+~
+0 0 25136
+D2
+~
+~
+0 0 25134
+S
+#25136
+{DD{we{Wad E{wn{Dd {Y[{CToxic Pond{Y]{x~
+{DT{woweri{Cng walls block the way in three {Ydir{We{Ycti{Wo{Yns. L{Wa{Yrg{We {Yaqu{Wa{Yti{wc pla{Dnts{x
+{Dha{wve at{Ctached themselves to the jagged {Yr{Wo{Ycks ri{Ws{Ying {Wo{Yut {Wo{Yf th{We {Yfl{woor.  {DA{x
+{Ds{wtrong {Ccurrent of salt water enters this {Ys{We{Yct{Wo{Yr fr{Wo{Ym {Wa{Yn ov{We{Yrhe{Wa{Yd {wcondu{Dit {x
+{Dwh{wich p{Cierces the face of the mountain. A {Ys{Wa{Yndy tr{Wa{Yil l{We{Yads w{We{Yst, {wout {Dof{x
+{Dthe {walco{Cve.{x
+~
+0 0 0
+D3
+~
+~
+0 0 25135
+D4
+~
+~
+0 0 25163
+S
+#25137
+{DH{wa{Wllw{wa{Dy {Y[{CAquaria{Y]{x~
+{DF{wluted{C columns, supporting the weight of the ceiling on their abac{wuse{Ds,{x
+{Dst{wand in {Cthe four corners of this short hallway. A green glowing subs{wtan{Dce,{x
+{Dc{wontain{Ced in clear globes, are mounted on the walls to illuminate the {ware{Da.{x
+{DE{wlongat{Ced shadows climb the interior of the passageway. A twin door t{wo t{Dhe {x
+{Dea{wst lea{Cds out of Aquaria, while to the west, an archway to the west {wle{Dads{x
+{Dto {wother {Cparts of the kingdom.{x
+~
+0 8 0
+D1
+~
+door~
+1 0 25133
+D3
+~
+~
+0 0 25138
+S
+#25138
+{DC{wo{Wurtya{wr{Dd {Y[{CAquaria{Y]{x~
+{DT{whis i{Cs a large busy courtyard with exits leading in three directi{wons. {DThe{x
+{Dfl{woor i{Cs paved with large stone tiles closely fitted together.  Light {wente{Drs{x
+{Dt{whe c{Courtyard from an opening above which is also a conduit for saltw{water {Dto{x
+{Den{wter {Cthe realm. A statue of Neptune wielding a trident stands in th{we cen{Dter {x
+{Dof {wthe {Csquare.  Twin fluted columns support a pediment of a portico {wstan{Dding
+{Dto t{whe w{Cest. A banner stretches across the courtyard.{x
+~
+0 8 0
+E
+banner~
+{x
+{W     --<[{CFestival of the {CMoon{W]>--{x
+{x
+~
+D0
+~
+door~
+0 0 25139
+D1
+~
+~
+0 0 25137
+D2
+~
+door~
+0 0 25142
+D3
+~
+door~
+0 0 25147
+S
+#25139
+{DC{wo{Wrrid{wo{Dr {Y[{CAquaria{Y]{x~
+{DA{w brig{Cht, glowing substance is contained in glass orbs and mounte{wd on {Dthe{x
+{Dwal{wl. T{Che toxic material illuminates this arched hallway.  Shadows e{wlonga{Dte{x
+{Dand {wpai{Cnt the walls and ceiling black.  Fluted pillars stand in eac{wh cor{Dner,{x
+{Dwhile {wfl{Cuted half-pillars flank the doors at the end of the passag{De.{x
+~
+0 8 0
+D0
+~
+~
+0 0 25140
+D2
+~
+~
+0 0 25138
+D3
+~
+door~
+1 0 25162
+S
+#25140
+{DB{wa{Wrrac{wk{Ds {Y[{CAquaria{Y]{x~
+{DT{whis i{Cs a large bay with seaweed beds lining the long walls.  Ho{wles in {Dthe{x
+{Dwa{wlls h{Cold the personal belongings of the guards. A glass orb, fill{wed wi{Dth a{x
+{Dg{wlowin{Cg green substance, is mounted over each orifice to illuminate {wthe {Droom.{x
+{DSp{warse {Cclumps of seaweed grow scattered around the quarters.  Larg{we til{Des of{x
+{Dsto{wne, c{Closely fitted together, covers the floor.{x
+~
+0 8 0
+D2
+~
+door~
+0 0 25139
+D3
+~
+door~
+1 0 25141
+S
+#25141
+{DC{wa{Wptain's Quarte{wr{Ds {Y[{CAquaria{Y]{x~
+{DA{w glow{Cing green substance contained in a glass orb illuminates t{whis r{Doom.{x
+{DThe {wlig{Cht reveals a bed, cushioned with layers of leafy kelp, carve{wd out {Dof{x
+{Dsto{wne p{Cushed up against the west wall.  Holes in a wall contain the {wmeag{Der{x
+{Dposs{wessi{Cons of the Captain.  A wooden door to the east leads to a {wbarra{Dcks.{x
+~
+0 8 0
+D1
+~
+door~
+1 0 25140
+S
+#25142
+{DC{wo{Wrrid{wo{Dr {Y[{CAquaria{Y]{x~
+{DT{whis c{Corridor, hewn out of a rock formation, is lit by toxic waste {wglow{Ding{x
+{Din {wglas{Cs orbs mounted on the walls. Large square stones tile the floor {wwhi{Dch{x
+{Dex{wtends {Cin all directions. Small colonies of seaweed grow along the w{walls {Dof{x
+{Dthi{ws arc{Ched passageway. The light projects shadows onto the interior.{x
+~
+0 8 0
+D0
+~
+~
+0 0 25138
+D1
+~
+~
+0 0 25143
+D2
+~
+door~
+0 0 25145
+D3
+~
+door~
+0 0 25144
+S
+#25143
+{DC{wo{Wrrid{wo{Dr {Y[{CAquaria{Y]{x~
+{DS{whadow{Cs elongate and paint the wall as traffic moves through he{wre. {DThe{x
+{Dda{wrk pr{Cojections are created by the light emanating from the green {wtox{Dic{x
+{Dsu{wbstan{Cce contained in the glass orbs mounted on the walls.  The {wroug{Dhly{x
+{Dhew{wn arc{Ched corridor heads off in three direction.{x
+~
+0 8 0
+D1
+~
+~
+0 0 25168
+D2
+~
+door~
+0 0 25146
+D3
+~
+~
+0 0 25142
+S
+#25144
+{DA{wr{Wmou{wr{Dy {Y[{CAquaria{Y]{x~
+{DA{w glowin{Cg material contained in small glass orbs illuminate t{whis s{Dhop.{x 
+{DAlt{whough {Cthe substance is green, it lights the room with a brigh{wt whi{Dte,{x
+{Dexp{wosing {Cthe numerous armor on display. A stone counter, a clump {wof t{Diny{x
+{Dseaw{weed gr{Cowing in the corner where it meets the wall, extends {walon{Dg the{x
+{Dback.{x
+~
+0 8 0
+D1
+~
+~
+0 0 25142
+S
+#25145
+{DB{wa{Wnk of Aquar{wi{Da {Y[{CAquaria{Y]{x~
+{DA {wgree{Cn glowing substance, contained in glass balls mounted on th{we wa{Dlls,{x
+{Dill{wumin{Cates this room.  The light reveals a stone counter extending {wacro{Dss{x
+{Dthe {wbac{Ck of the bank. Clumps of seaweed grow from holes in the stone {wtil{Des{x
+{Dtile{ws wh{Cich pave the floor.  An archway to the north leads to a cor{wrido{Dr.{x
+~
+0 8 0
+D0
+~
+~
+0 0 25142
+S
+#25146
+{DH{we{Wal{we{Dr {Y[{CAquaria{Y]{x~
+{DT{whe wal{Cls are polished smooth and the green glowing substance, c{wontai{Dned{x
+{Din {wglass {Cballs, reflect off them.  The illuminating material emits {wa bri{Dght{x
+{Dw{white l{Cight exposing the runes etched into the interior. Large squa{wre st{Done{x
+{Dti{wles, e{Ctched with a healing symbol, covers the floor. A few leave{ws of {Dkelp{x
+{Dgro{wws in {Ca corner of the room.{x
+~
+0 8 0
+D0
+~
+~
+0 0 25143
+S
+#25147
+{DH{wa{Wllw{wa{Dy {Y[{CAquaria{Y]{x~
+{DG{wlass {Cglobes, containing green glowing material, illuminate th{we arc{Dhed{x
+{Dco{wrrido{Cr.  The lighting mounted on the walls reveal undecipherabl{we run{Des{x
+{Det{wched {Cinto the interior.  Large stone tiles cover the walkway ex{wtendi{Dng{x
+{Deas{wt and {Cwest. A few aquatic plants grow along the edges of the {wwalkw{Day.{x
+~
+0 8 0
+D1
+~
+~
+0 0 25138
+D3
+~
+~
+0 0 25148
+S
+#25148
+{DI{wn{Wner Courtya{wr{Dd {Y[{CAquaria{Y]{x~
+{DI{wn the {Ccenter of this large square, stands a statue of Saturn, Go{wd of T{Dime.{x
+{DWi{welding {Ca scythe. His thick moustache flows down to his beard over {whis ba{Dre{x
+{Dc{whest. {CThe courtyard is paved with stone squares with holes allowing {waquat{Dic{x
+{Dpl{wants t{Co thrive.  Light enters from above, a conduit for saltwater {wto en{Dter{x
+{Dfro{wm abov{Ce.{x
+~
+0 8 0
+D1
+~
+~
+0 0 25147
+D3
+~
+~
+0 0 25149
+S
+#25149
+{DC{wo{Wrrid{wo{Dr {Y[{CAquaria{Y]{x~
+{DT{whe co{Crridor is illuminated with glowing green material encased {win gl{Dass{x
+{Dor{wbs mo{Cunted on the walls. The light reveals doors beneath archways {wto t{Dhe{x
+{Dno{wrth a{Cnd south.  Aquatic plants, waving slowly with a light water {wcurr{Dent,{x
+{Dgro{ww on {Crocks sitting at the edges of the stone tiled pathway.{x
+~
+0 8 0
+D0
+~
+~
+0 0 25150
+D1
+~
+~
+0 0 25148
+D2
+~
+~
+0 0 25164
+D3
+~
+~
+0 0 25160
+S
+#25150
+{DH{wa{Wllw{wa{Dy {Y[{CAquaria{Y]{x~
+{DG{wlass {Cglobes, filled with glowing green material, illuminate thi{ws are{Da of{x
+{Dth{we arc{Ched hallway.  The lighting reveals a cell to the north close{wd wit{Dh a{x
+{Dh{weavy {Cportcullis and a door to a service corridor to the west. The {wfloor {Dis{x
+{Dti{wled w{Cith large stone squares laid closely together, providing a {wtigh{Dt fit{x
+{DA d{woor t{Co the south leads to a main corridor.{x
+~
+0 8 0
+D0
+~
+~
+0 0 25152
+D1
+~
+door~
+1 0 25151
+D2
+~
+~
+0 0 25149
+D3
+~
+~
+0 0 25156
+S
+#25151
+{DH{wo{Wlding Ce{wl{Dl {Y[{CAquaria{Y]{x~
+{DA{w few p{Cieces of shellfish lie scattered around the cell filled wi{wth ro{Dcks{x
+{Dsit{wting {Cpartially buried in a sandy floor. Seaweed and algae cover t{whe la{Drge{x
+{Djag{wged s{Ctones scattered around the room.  The chamber is lit with a {wglowi{Dng{x
+{Dtoxi{wc mat{Cerial contained in sealed glass globes. The only way out i{ws to {Dthe{x
+{Dwest.{x
+~
+0 8 0
+D3
+~
+~
+1 0 25150
+S
+#25152
+{DH{wa{Wllw{wa{Dy {Y[{CAquaria{Y]{x~
+{DG{wlass {Cglobes of glowing green material, illuminating the passage{wway, {Dare{x
+{Dmo{wunted {Con the walls.  Seaweed grows near the doors lying to the no{wrth a{Dnd{x
+{Dwe{wst an{Cd a portcullis to the east.  Large square stones tiles the {wfloo{Dr of{x
+{Dthi{ws hal{Clway continuing to the south.{x
+~
+0 8 0
+D0
+~
+~
+0 0 25154
+D1
+~
+door~
+1 0 25153
+D2
+~
+~
+0 0 25150
+D3
+~
+~
+0 0 25155
+S
+#25153
+{DH{wo{Wlding Ce{wl{Dl {Y[{CAquaria{Y]{x~
+{DS{whards {Cof shell from crustaceans lie half-buried in {gt{Gh{we s{Ga{gn{wd cove{Dred{x
+{Dfl{woor. A{Cquatic plants, including algae, cover the jagge{gd {wr{Wo{wc{Gk{gs {wsitti{Dng
+{Dar{wound t{Che cell. A soft light is emitted by the green g{gl{Go{ww{Wi{wn{Gg {wmater{Dial{x
+{Denc{wased i{Cn the glass globes mounted on the walls.{x
+~
+0 8 0
+D3
+~
+~
+1 0 25152
+S
+#25154
+{DS{wu{Wpply Ro{wo{Dm {Y[{CAquaria{Y]{x~
+{DT{wools l{Cie scattered around the room with some long unused half-{wburie{Dd in{x
+{Dth{we sand{C. Redit The room is illuminated by glowing green material {wconta{Dined{x
+{Din {wglass {Cglobes mounted on the walls.  Elongated shadows stretch {wacros{Ds the{x
+{Dflo{wor and {Cup the walls.{x
+~
+0 8 0
+D2
+~
+~
+0 0 25152
+S
+#25155
+{DS{we{Wrvants Quarte{wr{Ds {Y[{CAquaria{Y]{x~
+{DSe{waweeds, {cancho{Cring themselves to rocks half-buried in {cthe {wsandy {Dfloor,{x
+{Dswa{wy back a{cnd fo{Crth with the current. A few sea urchins c{cling {wto the {Drocks{x
+{Dres{wisting t{che ci{Crculating water. A minimal amount of glow{cing o{wrbs ke{Dep the{x
+{Dligh{wting in {cthe q{Cuarters low. Algae paints the walls an {carra{wy of gr{Deen.{x
+~
+0 8 0
+D1
+~
+~
+0 0 25152
+S
+#25156
+{DS{we{Wrvice Corrid{wo{Dr {Y[{CAquaria{Y]{x~
+{DG{wlass {Cglobes of glowing green material illuminates this arched {whall{Dway.{x 
+{DSe{wrvant{Cs use this corridor to carry food to the King.  Stones, anc{whori{Dng{x
+{Ds{weawee{Cds and other aquatic plants, crowd the passageway paved with {wlar{Dge {x
+{Dst{wone t{Ciles.  The long leaves slowly sway with the movement of th{we wa{Dter {x
+{Dcur{wrent {Cpassing through.{x
+~
+0 8 0
+D1
+~
+~
+0 0 25150
+D3
+~
+~
+0 0 25157
+S
+#25157
+{DS{we{Wrvice Corrid{wo{Dr {Y[{CAquaria{Y]{x~
+{DT{whis i{Cs a narrow corridor lit by a few globes of glowing green {wmater{Dial.{x 
+{DTh{we elo{Cngated shadows paint the walls black.  The oversized King s{wqueez{Des{x
+{Dth{wrough {Chere to get to and from the throne room and his quarters. {wSeaw{Deed{x
+{Dgro{wws al{Cong the base of the walls.{x
+~
+0 8 0
+D0
+~
+door~
+0 0 25158
+D1
+~
+~
+0 0 25156
+D2
+~
+~
+0 0 25159
+S
+#25158
+{DK{wi{Wng's Chamb{we{Dr {Y[{CAquaria{Y]{x~
+{DT{whis i{cs a dark hole filled with rocks covered with aquatic plant{ws alm{Dost{x
+{Dbl{wockin{cg the entire entrance.  Other leafy kelp plants grow from th{we san{Ddy{x
+{Dfl{woor.  {cA few large pieces of crustacean meat lie on the sand while {wa fe{Dw{x
+{Dtin{wy mor{csels float slowly around.  A conduit feeds the room with s{waltwa{Dter.{x
+~
+0 8 0
+D2
+~
+~
+0 0 25157
+S
+#25159
+{DT{wh{Wrone Ro{wo{Dm {Y[{CAquaria{Y]{x~
+{DA{w ston{Ce throne, draped with seaweed, sits in a large open oyster {wshell{D. A{x
+{Dgia{wnt p{Cearl illuminates the room with multicolors reflecting from th{we sol{Did{x
+{Dca{wsing{C. Aquatic plants, waving slowly back and forth, grow around th{we she{Dll.
+{DLar{wge s{Ctone tiles pave the floor.  Fluted pillars stand in each cor{wner w{Dith{x
+{Dthe {wweig{Cht of the ceiling on their abacuses.{x
+~
+0 8 0
+D0
+~
+door~
+0 0 25157
+D1
+~
+~
+0 0 25160
+S
+#25160
+{DA{wn{Wtechamb{we{Dr {Y[{CAquaria{Y]{x~
+{DT{whis i{Cs a small hall leading to a throne room through an archwa{wy to {Dthe{x
+{Dwe{wst.  {CAn archway to the east, heads out to a corridor which conti{wnues {Dto{x
+{Dt{whe in{Cner courtyard. A fluted column stands in each corner of the {wchamb{Der{x
+{Dsu{wpport{Cing the ceiling.  Seaweed grows from round holes left in t{whe st{Done{x
+{Dtil{wes of {Cthe floor.{x
+~
+0 8 0
+D1
+~
+~
+0 0 25149
+D3
+~
+~
+0 0 25159
+S
+#25161
+{DG{wu{Ward Barrac{wk{Ds {Y[{CAquaria{Y]{x~
+{DT{whis l{Carge room is illuminated with glass orbs filled with a green s{wubsta{Dnce.{x
+{DTh{we glo{Cbes of toxic material are mounted around the interior, revealing {wclum{Dps{x
+{Dof {waqua{Ctic plants lining the base of the walls.  Square stone tiles fi{wnish {Dthe{x
+{Dinn{wer se{Cction of the floor.{x
+~
+0 8 0
+D0
+~
+~
+0 0 25166
+S
+#25162
+{DS{wt{Wab{wl{De {Y[{CAquaria{Y]{x~
+{DA{wquati{Cc plants anchor themselves to the jagged rocks lying ar{wound {Dthe{x
+{Dst{wable.  {CA bed of coral covers part of the sandy bottom revealed {wby t{Dhe{x
+{Dgl{wobes {Cof glowing toxic material mounted on the walls. A sligh{wt curr{Dent,{x
+{Dpas{wsing {Cthrough the latticed stone door, move in and out.{x
+~
+0 8 0
+D1
+~
+~
+1 0 25139
+S
+#25163
+{DG{wr{Wated Openi{wn{Dg {Y[{CToxic Pond{Y]{x~
+{DA {wlarge {Ccylindrica{wl condu{Cit {wh{Cas{w b{Cee{wn {Cdu{wg out of th{Ce side of the {wmount{Dain{x
+{Dto {wthe no{Crth.  A st{wone gr{Cat{win{wg, c{Cov{wer{Ced {ww{Cit{wh {Cal{wgae, m{Cakes it imposs{wible {Dto
+{Dpr{woceed {Cthrough th{wis la{Crg{we {Cop{wen{Cin{wg.  Oc{Cca{wsi{Con{wal{Cly{w, a c{Current of salt {wwate{Dr{x
+{Drus{whes pa{Css here, f{weeding {Ci{wnt{Co {wth{Ce {wpo{Cnd{w.  {CA {wf{Cew {wseawe{Ced plants grow {won t{Dhe{x
+{Dledg{we of t{Che tunnel.  {wSmall {Ca{wqu{Cat{wi{Cc {Ca{wni{Cma{wls {Ca{wre able {Cto slip betwe{wen th{De {x
+{Dslats.{x
+~
+0 4 0
+D5
+~
+~
+0 0 25136
+S
+#25164
+{DC{wo{Wrrid{wo{Dr {Y[{CAquaria{Y]{x~
+{DO{wrbs o{Yf gr{Re{Yen gl{Ro{Ywi{Rn{Yg {Cmaterial, mounted on the {Gw{Ya{Glls, ill{Yu{Gmin{wate t{Dhis{x
+{Dar{wched {Yh{Ra{Yllw{Ra{Yy. Aqu{Ra{Ytic {Cplants grow along the base {Yo{Gf th{Ye {Gw{Ya{Glls {wpaint{Ded{x
+{Dwi{wth {Ysh{Ra{Yd{Ro{Yws.  An {Ru{Ynd{Re{Yrw{Ra{Cter current animates the {Ys{Ge{Ya{Gwe{Ye{Gds sw{Ya{Gy{wing b{Dack {x
+{Dand {wf{Ro{Yrth.{x
+~
+0 0 0
+D0
+~
+~
+0 0 25149
+D1
+~
+~
+0 0 25165
+D2
+~
+~
+0 0 25166
+S
+#25165
+{DT{wh{We Oyster B{we{Dd {Y[{CAquaria{Y]{x~
+{DT{whis c{Cave is filled with jagged rocks sitting on a sandy floor. Lo{wng le{Dafy{x
+{Dse{waweed{Cs slowly drift back and forth as a water current passes throug{wh her{De.{x
+{DA {wfew o{Cysters cling to the substratum, while others lie on the botto{wm. Sm{Dall{x
+{Dla{wnt{Wernfi{wsh{Des {Cswim back and forth illuminating this room.{x
+~
+0 0 0
+D2
+~
+~
+0 0 25169
+D3
+~
+~
+0 0 25164
+S
+#25166
+{DC{wo{Wrrid{wo{Dr {Y[{CAquaria{Y]{x~
+{DT{whe ar{Gch{We{Gd h{Wa{Gllw{Wa{Gy {Cis illuminated with toxic green {Ys{Mu{Ybst{Ma{Ync{Me {Yc{Mo{Yn{wtaine{Dd in{x
+{Dgl{wass gl{Wo{Gb{We{Gs.  Th{We {Corbs, mounted on the walls, reveal {Yth{Me {Ys{Me{Yawe{Me{Yds {wancho{Dred{x
+{Don {wthe {Gr{Wo{Gcks {Wa{Gl{Wo{Gng {Cthe edge of the walkway.  An under{Yw{Ma{Yt{Me{Yr curr{Me{Ynt {wanima{Dtes{x
+{Dthe {wlong {Gfing{We{Grs {Wo{Gf {Cthe aquatic plants, causing them {Yt{Mo {Ysw{Ma{Yy b{Ma{Yck {wand f{Dorth.{x
+~
+0 0 0
+D0
+~
+~
+0 0 25164
+D2
+~
+~
+0 0 25161
+D3
+~
+~
+0 0 25167
+S
+#25167
+{DW{wi{Wtch's D{we{Dn {Y[{CAquaria{Y]{x~
+{DA{w shor{Mt c{Wo{Munt{We{Mr {Cstretches across the back of the shop {Gl{Yi{Gt b{Yy{G gr{Ye{wen to{Dxic{x
+{Dglo{wwing {Mm{Wa{Mt{We{Mri{Wa{Ml {Ccontained in glass orbs. An assortment {Yo{Gf c{Yo{Gl{Yo{Gr{Ye{Gd {wpotio{Dns{x
+{Dsit {won {Msh{We{Mlv{We{Ms h{We{Mwn {Cout of the rough walls moss-covered {Gw{Ya{Glls. C{Yo{Gl{Yo{wnie{Ds of{x
+{Daqua{wtic {Mpl{Wa{Mnts gr{Wo{Mw{C on the clusters of rocks covering the {Gs{Ya{Gnd{Yy{G fl{woor.{x
+~
+0 0 0
+D1
+~
+~
+0 0 25166
+S
+#25168
+{DW{we{Wapons Sh{wo{Dp {Y[{CAquaria{Y]{x~
+{DG{wreen {Cglowing material, captured in glass orbs, {Yr{Me{Yv{We{Yal th{Me {Wi{Yn{wterio{Dr of{x
+{Dth{wis ch{Camber.  Seaweed, anchored by moss-covered {Yr{Mo{Wc{Yks, sl{Mo{Ywly {Ws{wway b{Dack{x
+{Da{wnd fo{Crth, animated by the current passing through {Yh{We{Yr{Me{Y.  Sh{Ma{Yd{Wo{Yw{ws of {Dthe{x
+{Dlo{wng pl{Cants project onto the walls, painting it {Ybl{Ma{Yck.  {WA {Yf{Me{Yw{M s{whell{Ds sit{x
+{Dthe {wsand{Cy floor.{x
+~
+0 8 0
+D3
+~
+~
+0 0 25143
+S
+#25169
+{DT{wh{We {yS{Ya{wn{Wd {wB{Ya{yr {Y[{CAquaria{Y]{x~
+{DL{wittle {Yo{Grbs, fill{Ye{Gd {Cwith glowing green {Rm{Wa{Rt{We{Rri{Wa{Rl, ar{We {Rm{wo{Runt{We{wd on {Dthe{x
+{Dwa{wlls. {GTh{Ye {Gsm{Ya{Gll {Cglobes keep the lighting {Rdim, b{Wu{Rt w{We{Rll {We{Rn{Wo{Rugh {wto s{Dee{x
+{Dt{whe {Gint{Ye{Gri{Yo{Gr {Yo{Gf {Cthe bar. A stone counter {Rstr{We{Rtch{We{Rs {Wa{Rcr{Wo{Rss th{We {wback {Dof{x
+{Dth{we {Gt{Ya{Gv{Ye{Grn cl{Yu{Gtt{Ye{Cred by aquatic plants and {Rr{Wo{Rck{Ws{R.  A f{We{Rw tabl{wes, l{Deft{x
+{Din {wno {Gp{Ya{Grtic{Yu{Gl{Ya{Gr {Corder, sit on the sandy floor.{x
+~
+0 8 0
+D0
+~
+~
+0 0 25165
+S
+#25170
+{yS{Ya{wn{Wdy P{wa{Yt{yh {Y[{CToxic Pond{Y]{x~
+{DA{w hole, {Yh{Gi{Ydd{Ge{Yn b{Gy {Caquatic plants, pierces a rock {Yf{Go{Yrm{Ga{Yti{Go{Yn r{Gi{Ys{Gi{Yn{wg to {Dthe{x
+{Dwest.  {wThe {Ys{Ga{Yndy p{Ga{Yth {Csneaks between two sheer walls {Yl{Go{Yoming {Go{Yn b{Go{Yt{wh s{Dides.{x 
+{DGar{wdens {Go{Yf s{Ge{Yawe{Ge{Yd {Cgrow along the edges of the access {Yw{Ga{Yy c{Go{Ynt{Gi{Ynu{wing no{Drth.{x
+{DG{wreen {Ygl{Go{Ywing m{Ga{Yt{Ge{Yri{Ga{Yl, {Cdotting the area, provides {Yl{Gi{Yght{Gi{Yng h{Ge{Yr{Ge{Y.{x
+~
+0 0 0
+D0
+~
+~
+0 0 25171
+D3
+~
+~
+0 0 25122
+S
+#25171
+{DS{wa{Wndy Pa{wt{Dh {Y[{CToxic Pond{Y]{x~
+{DG{warden{Ms {Wo{Mf {Wa{Mqu{Wa{Mtic {Cplants grow on the rocks jutting {Wo{Mut fr{Wo{Mm th{We {wbase {Dof{x
+{Dthe {wsh{Me{We{Mr w{Wa{Mll{Ws{M. A f{We{Mw {Cclumps grow on the ledges carved {Mint{Wo {Mth{We {Mm{Wo{Mu{wntai{Dns.
+{DTh{we gia{Mnt b{Wa{Mrri{We{Mrs {Cforce the sandy trail to bend toward {Mth{We {Me{Wa{Mst a{wnd s{Douth.{x
+{DThe {wwater {Mis {Wa {Mb{Wi{Mt {Csaltier through this channel.{x
+~
+0 0 0
+D1
+~
+~
+0 0 25172
+D2
+~
+~
+0 0 25170
+S
+#25172
+{DB{we{Wnd in Pa{wt{Dh {Y[{CToxic Pond{Y]{x~
+{DT{whe lo{Gng t{Ye{Gndr{Yi{Gls {Cof the aquatic plants, growing {Ral{Wo{Rng th{We {Rb{Wa{Rs{we of {Dthe{x
+{Dhi{wgh walls, {Gext{Ye{Gnd {Cinto the pathway.  The outstretched {Rl{We{Rav{We{Rs sw{Wa{wy slo{Dwly{x
+{Dbac{wk and {Gf{Yo{Grth, {Canimated by an underwater current. {RT{Wi{Rny cr{Wu{Rst{Wa{Rc{We{wans lea{Dve{x
+{Dprin{wts {Gi{Yn {Gth{Ye {Gs{Ya{Gndy {Cfloor as they scurry into holes {Ri{Wn {Rth{We {Rr{Wo{Rck{ws, qui{Dckly{x
+{Dav{woid {Gc{Ya{Gpt{Yu{Gr{Ge{Y.{x
+~
+0 0 0
+D0
+~
+~
+0 0 25173
+D3
+~
+~
+0 0 25171
+S
+#25173
+{DR{wo{Wcky Pa{wt{Dh {Y[{CToxic Path{Y]{x~
+{DT{whe ba{Ws{Me {Wof th{Me {Ctowering mountains, standing along {Gth{Ye {Gfr{Yi{Gng{Ye{Gs, {wexte{Dnds{x
+{Di{wnto t{Wh{Me {Wp{Ma{Wthw{Ma{Wy, {Cmaking it rough. A narrow strip of {Gs{Ya{Gnd li{Ye{Gs {Ya{Gc{wross t{Dhe{x
+{Dru{wgged {Wfl{Mo{Wor h{Me{Wad{Mi{Wng {Cnorth and south. Aquatic plants {Ganch{Yo{Gr th{Ye{Gms{Ye{Gl{wve{Ds to{x
+{Dthe {wrocks, {Wf{Mi{Wght{Mi{Wng {Cthe force of the underwater curre{Gnt.{x
+~
+0 0 0
+D0
+~
+~
+0 0 25174
+D2
+~
+~
+0 0 25172
+S
+#25174
+{DJ{wu{Wnction of Pat{wh{Ds {Y[{CToxic Pond{Y]{x~
+{DA {wpath, {Ccutting through the wall of a high {Rm{Yo{Runt{Ya{Rin t{Yo {Rth{Ye {Rw{Ye{Rs{wt, me{Dets{x
+{Dwi{wth an {Caccess way continuing north and south. {RTh{Ye {Rb{Ya{Rs{Ye {Rof th{Ye {Rm{Yo{Ru{wntai{Dns{x
+{Dext{wend {Cinto the trail, creating a rocky floor {Rc{Yo{Rv{Ye{Rr{Ye{Rd sp{Ya{Rrs{Ye{Rly wi{wth {Dsand.{x
+{DThe {waquatic {Cplants cling to the rugged terrain, {Rr{Ye{Rsist{Yi{Rng th{Ye{R un{wder{Dwater {x
+{Dcurr{went {Cflowing through this area.{x
+~
+0 0 0
+D0
+~
+~
+0 0 25177
+D2
+~
+~
+0 0 25173
+D3
+~
+~
+0 0 25175
+S
+#25175
+{DA{wl{Wco{wv{De {Y[{CToxic Pond{Y]{x~
+{DT{whis a{Gr{We{Ga {Wi{Gs {Wa{Glm{Wo{Gst {Ccircular-shaped causing the underwater cu{wrrent {Dto{x
+{Dsw{wirl {Ga{Wn{Gd p{Wu{Gsh {Wi{Gts{We{Glf {Cback east. The foot of the high walls exte{wnd in{Dto{x
+{Dt{whe sandy {Gfl{Wo{Gor {Wi{Gn th{We {Ccenter.  A hole, almost hidden by aquatic {wplan{Dts,{x
+{Dpi{werces {Gth{We {Gt{Wo{Gw{We{Gring f{Wa{Gce {Cof the mountain to the south. Moss pa{wints {Dthe{x
+{Drim {wof {Gth{We {Gop{We{Gn{Wi{Gng, {Ccoloring it with different shades of green.{x
+~
+0 0 0
+D1
+~
+~
+0 0 25174
+D2
+~
+~
+0 0 25176
+S
+#25176
+{DL{wa{Wrge Ho{wl{De {Y[{CToxic Pond{Y]{x~
+{DL{warge {Yr{Go{Ycks, {Ga{Ynch{Go{Yrs {Cfor aquatic plants, are {Mcr{Wa{Mmm{We{Md int{Wo {Mth{Wi{Ms {whole {Din{x
+{Dth{we s{Yid{Ge {Yof th{Ge {Ym{Go{Yunt{Ga{Yin. {CUnderwater moss covers {Mth{We {Mr{Wo{Mck{Ws {Mun{Wi{Mnh{Wa{Mbi{wte{Dd by{x
+{Dsea{wweeds. {YGl{Go{Ybul{Ge{Ys {Go{Yf {Cgreen glowing material, {Md{Wo{Mtt{Wi{Mng th{We {Ms{Wa{Mnd{Wy {Mfl{woor {Dand {x
+{Dro{wcks, {Ypr{Go{Yvid{Ge{Ys l{Gi{Yght {Cin this hole.  The fishes {Wa{Mnd {Wo{Mth{We{Mr {Wa{Mnim{Wa{Ml{ws pe{Dck at{x
+{Dthe {wtoxic {Ys{Gu{Ybst{Ga{Ync{Ge{Y, {Ceating it.{x
+~
+0 0 0
+D0
+~
+~
+0 0 25175
+S
+#25177
+{DR{wo{Wcky Pa{wt{Dh {Y[{CToxic Path{Y]{x~
+{DH{wigh {Ym{Go{Yunt{Ga{Yin w{Ga{Ylls {Cguard the rugged path passing {Mthr{Wo{Mugh, h{We{Mad{Wi{wng no{Drth{x
+{Dan{wd south.  {YTh{Ge {Yr{Go{Yck{Gy {Cfoot of the barriers extends {Wi{Mnt{Wo {Mth{We {Mn{Wa{Mrr{Wo{Mw{We{wd flo{Dor,{x
+{Dlea{wving {Ga {Yn{Ga{Yrr{Go{Yw str{Gi{Yp {Cof sand in passage.  Holes fill {Mth{We {Mt{We{Mrr{Wa{Mi{Wn {Mu{wse{Dd as{x
+{Danch{wors {Yb{Gy {Yth{Ge {Yaq{Gu{Yati{Gc {Cplants.  {x
+~
+0 0 0
+D0
+~
+~
+0 0 25178
+D2
+~
+~
+0 0 25174
+S
+#25178
+{DJ{wu{Wnction in Pa{wt{Dh {Y[{CToxic Pond{Y]{x~
+{DA{wn occ{Casional rush of water can be felt coming {Gfr{Wo{Gm th{We {Gn{Wo{Grth w{where {Dthe{x
+{Dmo{wuntai{Cn has collapsed.  The ocean current flows {Gthr{Wo{Gugh, m{Wo{Gv{Wi{Gng t{whe {Dlong{x
+{Dt{wendri{Cls of the aquatic plants reaching into the {Gp{Wa{Gthw{Wa{Gy. Pr{Wi{Gnts {Wa{Gr{we le{Dft{x
+{Din {wthe {Csandy floor where crustaceans scurry to their {Gh{Wa{Gv{We{Gns, {Wa{Gv{Wo{widing {Dthe{x
+{Dcap{wture {Cby another animal higher up the food chain.{x
+~
+0 0 0
+D0
+~
+~
+0 0 25182
+D2
+~
+~
+0 0 25177
+D3
+~
+~
+0 0 25179
+S
+#25179
+{DA{wn{Wcient Rui{wn{Ds {Y[{CToxic Pond{Y]{x~
+{DA {wfew w{Gid{We {Gst{We{Gp{Ws {Cof a buried staircase, covered by large rocks, {wappea{Dr to{x
+{Dle{wad up {Gt{Wo{Gw{Wa{Grd th{We {Cwest.  Large pillars, now shattered into many pi{weces, {Dlie{x
+{Dhal{wf-bu{Gri{We{Gd {Wi{Gn t{Wh{Ge {Csandy floor. Parts of a pediment lie among the r{wuins {Dwith{x
+{Dthe {wlet{Gt{We{Grs  T   L  {Ccarved into them. Clumps of seaweed grow aroun{wd th{De area.{x
+~
+0 0 0
+D0
+~
+~
+0 0 25181
+D1
+~
+~
+0 0 25178
+D2
+~
+~
+0 0 25180
+S
+#25180
+{DW{wa{Wll of Anna{wl{Ds {Y[{CToxic Pond{Y]{x~
+{DT{whe {Gw{Ya{Gll{Ys h{Ga{Yv{Ge {Cbeen highly polished to a smooth {Mf{Yi{Mn{Yi{Msh, {Ya{Mnd r{Yu{Mn{Ye{ws car{Dved{x 
+{Din{wto {Gth{Ye{Gm. Th{Ye {Cancient writings have eroded and {Mr{Ye{Mm{Ya{Min u{Yn{Md{Ye{Mciph{Ye{Mr{Ya{Mb{wle. T{Dhe{x
+{Dhal{wf-pi{Gll{Ya{Grs fr{Ya{Gm{Yi{Gng {Ceach tablet, worn by the water {Ya{Mcti{Yo{Mn, h{Ya{Mv{Ye {Ml{Yo{Mst {wmo{Dst{x
+{Dof {wits {Gd{Ye{Gt{Ya{Gil{Ys {Cover the centuries. Aquatic plants, {Ya{Mnch{Yo{Mr{Yi{Mng th{Ye{Mms{Ye{wlve{Ds to{x
+{Dro{wcks, {Ggr{Yo{Gw {Ya{Gt {Cthe base of the large murals.{x
+~
+0 0 0
+D0
+~
+~
+0 0 25179
+S
+#25181
+{DO{wl{Wd Rui{wn{Ds {Y[{CToxic Pond{Y]{x~
+{DS{whards {Yo{Wf s{Yt{Wo{Yn{We {Care scattered among large remnants {Yo{Gf p{Yi{Gll{Ya{Grs {Yw{Gh{wich h{Dave{x
+{Dcoll{wapsed {Yc{We{Yn{Wt{Yu{Wr{Yi{We{Ys {Cago. Most of the symbols on the {Gc{Yo{Gl{Yu{Gmns h{Ya{Gv{Ye {weroded {Dand{x
+{Dthe {wdetai{Yl{Ws a{Yr{We {Cbarely noticeable.  The shattered {Gp{Ya{Grt{Ys {Gof {Ya {Gp{Ye{Gdime{wnt,{D some{x
+{Dha{wlf-bu{Yr{Wi{Ye{Wd{Y, a{Wr{Ye {Calso strewn around the area.  A {Gcr{Yu{Gmpl{Ye{Gd m{Yo{Gunt{Ya{Gin h{was le{Dft{x
+{Dbou{wlders, {Yc{Wo{Yv{We{Yr{We{Yd {Cwith aquatic plants, sitting across {Gth{Ye {Gs{Ya{Gnd{Yy {wfloor.  {DThe{x
+{Dle{wtte{Yr{Ws{Y, A{WN{YT   A      {CIS, hardly decipherable, are {Gc{Ya{Grv{Ye{Gd i{Yn{Gt{Yo {Gth{Ye {wsect{Dions{x
+{Dof {wthe {Yb{Wr{Yo{Wk{Ye{Wn s{Yt{Wo{Yn{We {Cgable.{x
+~
+0 0 0
+D2
+~
+~
+0 0 25179
+S
+#25182
+{DD{we{Wad E{wn{Dd {Y[{CToxic Pond{Y]{x~
+{DA{wn ava{Rl{Wa{Rnch{We {Rh{Wa{Rs {Cleft large boulders stacked {Ypr{Ge{Yc{Ga{Yri{Go{Yusly t{Go {Yt{whe no{Drth. {x
+{DSa{wltwater {Rs{We{Rep{Ws {Rthr{Wo{Rugh {Cthe small openings left {Yb{Ge{Ytw{G{Yen th{Ge {Yst{Go{Yn{Ge{ws. On{Dce a{x
+{Dpart {wof {Rth{We {Roc{We{Ran, th{Wi{Rs {Carea has been cut off {Yfr{Go{Ym it, l{Ge{Yav{Gi{Yng {wit isol{Dated.{x
+{DDe{wnse {Rg{Wa{Rrd{We{Rns {Wo{Rf {Caquatic plants grow on the {Yr{Gu{Ygg{Ge{Yd t{Ge{Yrr{Ga{Yin.{x
+~
+0 0 0
+D2
+~
+~
+0 0 25178
+S
+#25199
+~
+~
+0 4 0
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+D 0 25102 0 1
+D 0 25103 2 1
+D 0 25133 3 1
+D 0 25137 1 1
+D 0 25139 3 1
+D 0 25140 3 1
+D 0 25141 1 1
+D 0 25150 1 1
+D 0 25151 3 1
+D 0 25152 1 1
+D 0 25153 3 1
+D 0 25162 1 1
+M 0 25110 1 25110 1
+M 0 25113 1 25113 1
+M 0 25114 10 25114 1
+M 0 25177 6 25116 1
+M 0 25114 10 25116 1
+M 0 25156 3 25117 1
+M 0 25114 10 25117 1
+M 0 25114 10 25118 1
+M 0 25128 10 25118 2
+M 0 25131 2 25119 1
+M 0 25119 6 25119 1
+M 0 25163 3 25120 1
+M 0 25114 10 25120 1
+M 0 25179 5 25121 1
+M 0 25119 6 25121 1
+M 0 25114 10 25122 1
+M 0 25128 10 25122 2
+M 0 25128 10 25122 2
+M 0 25177 6 25123 1
+M 0 25119 6 25123 1
+M 0 25124 1 25124 1
+M 0 25114 10 25125 1
+M 0 25179 5 25126 1
+M 0 25128 10 25126 2
+M 0 25128 10 25126 2
+M 0 25163 3 25127 1
+M 0 25114 10 25127 1
+M 0 25128 10 25128 2
+M 0 25128 10 25128 2
+M 0 25177 6 25129 1
+M 0 25130 1 25130 1
+M 0 25131 2 25131 1
+M 0 25119 6 25131 1
+M 0 25156 3 25134 1
+M 0 25119 6 25134 1
+M 0 25177 6 25135 1
+M 0 25114 10 25135 1
+M 0 25128 10 25135 2
+M 0 25128 10 25135 2
+M 0 25179 5 25136 1
+M 0 25114 10 25136 1
+M 0 25119 6 25136 1
+M 0 25160 8 25137 1
+M 0 25160 8 25138 1
+M 0 25145 1 25138 1
+M 0 25149 1 25138 1
+M 0 25147 1 25138 1
+M 0 25139 1 25138 1
+M 0 25148 1 25138 1
+M 0 25138 1 25138 1
+M 0 25140 5 25140 5
+M 0 25140 5 25140 5
+M 0 25140 5 25140 5
+M 0 25140 5 25140 5
+M 0 25140 5 25140 5
+M 0 25141 1 25141 1
+M 0 25160 8 25142 1
+M 0 25144 1 25144 1
+E 0 25141 -1 -1
+E 0 25143 -1 -1
+E 0 25142 -1 -1
+E 0 25144 -1 -1
+M 0 25142 1 25145 1
+M 0 25146 1 25146 1
+M 0 25163 3 25147 1
+M 0 25160 8 25147 1
+M 0 25160 8 25148 1
+M 0 25160 8 25149 1
+M 0 25151 5 25151 5
+M 0 25151 5 25151 5
+M 0 25151 5 25151 5
+M 0 25151 5 25151 5
+M 0 25151 5 25151 5
+M 0 25155 5 25153 5
+M 0 25155 5 25153 5
+M 0 25155 5 25153 5
+M 0 25155 5 25153 5
+M 0 25155 5 25153 5
+M 0 25157 2 25159 2
+M 0 25157 2 25159 2
+M 0 25159 1 25159 1
+M 0 25154 1 25160 1
+M 0 25161 5 25161 5
+M 0 25161 5 25161 5
+M 0 25161 5 25161 5
+M 0 25161 5 25161 5
+M 0 25161 5 25161 5
+M 0 25162 10 25162 10
+M 0 25162 10 25162 10
+M 0 25162 10 25162 10
+M 0 25162 10 25162 10
+M 0 25162 10 25162 10
+M 0 25162 10 25162 10
+M 0 25162 10 25162 10
+M 0 25162 10 25162 10
+M 0 25162 10 25162 10
+M 0 25162 10 25162 10
+M 0 25160 8 25164 1
+O 0 25165 -1 25165
+M 0 25160 8 25166 1
+M 0 25166 1 25167 1
+M 0 25167 1 25167 1
+E 0 25166 -1 -1
+E 0 25164 -1 -1
+E 0 25151 -1 -1
+M 0 25168 1 25168 1
+E 0 25167 -1 -1
+E 0 25140 -1 -1
+E 0 25168 -1 -1
+E 0 25139 -1 -1
+M 0 25169 1 25169 1
+M 0 25153 1 25169 1
+M 0 25143 1 25169 1
+M 0 25152 1 25169 1
+M 0 25150 1 25169 1
+M 0 25177 6 25172 1
+M 0 25156 3 25173 1
+M 0 25179 5 25173 1
+M 0 25175 1 25175 1
+M 0 25176 1 25176 1
+M 0 25177 6 25177 1
+M 0 25179 5 25179 1
+M 0 25181 1 25181 1
+S
+
+
+
+#SHOPS
+25144 9 0 0 0 0 100 75 0 23
+25167 10 0 0 0 0 100 75 0 23
+25168 5 0 0 0 0 100 75 0 23
+0
+
+
+
+#$

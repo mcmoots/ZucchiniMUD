@@ -1,0 +1,33 @@
+#HELPS
+
+0 VOMIT~
+Syntax: vomit
+
+Learning to vomit on cue is a somewhat arcane skill, normally reserved for
+bulimics. However, it can come in handy if you need to swallow a pill {Wright
+now{x or else.
+
+The vomit skill also teaches your body to automatically reject some poisons,
+and expel them before they can do any damage.
+~
+
+0 BUTCHER~
+Syntax: butcher <corpse>
+
+Knowing how to carve up a piece of game into delicious steaks comes in handy,
+sometimes. Like when you just killed something, and you want a steak.
+~
+
+-1 WANDS STAVES SCROLLS~
+Magical items require training to use properly.  If your character lacks the
+necessary skill to use an item, you will fail, possibly destroying it.  The
+item skills are as follows:
+
+scrolls		The reading of magical scrolls and books (see 'help recite')
+staves		The use of staves and similar devices (see 'help brandish')
+wands		The use of wands and similar items (see 'help zap') 
+~
+
+0 $~
+
+#$

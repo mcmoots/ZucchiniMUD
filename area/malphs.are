@@ -1,0 +1,859 @@
+#AREADATA
+Name Malphs~
+Builders None~
+VNUMs 130 169
+Levels 30 40
+Credits {g[{G30 40{g]{x Kazeus   Malphs~
+Security 1
+End
+
+
+
+#ZMOBILES
+#130
+mabel woman~
+Mabel~
+A middle-aged woman is here, ringing up your groceries.
+~
+She has a thick mat of curls on her head, so perfectly coiffed it must
+have come from a 1950s hairdressing machine.  Her name tag reads "Mabel".  
+~
+human~
+ABG 0 200 0
+32 32 65d10+324 32d10+85 10d3+21 laser
+-11 -11 -11 -5
+0 0 0 0
+stand stand female 30
+AHMV ABCDEFGHIJK medium unknown
+'(null)'
+#131
+stoner~
+a stoner~
+A shaggy-haired, giggling stoner is here looking for munchies.
+~
+A strong marijuana odor hangs off this stoner like a cloak.  It's almost
+enough to bring on a contact high.  
+~
+human~
+AG d 0 0
+30 30 61d10+304 30d10+85 10d3+20 scratch
+-10 -10 -10 -4
+0 0 0 0
+stand stand either 10
+AHMV ABCDEFGHIJK medium unknown
+'munchies'
+#132
+Jo Marie~
+Jo Marie~
+Jo Marie is here bagging groceries.
+~
+Jo Marie is a woman of average build with a long, salt'n'pepper mullet
+stuck to her head like a fuzzy leech.  
+~
+human~
+AG 0 0 0
+33 33 67d11+334 33d10+85 11d3+21 karma
+-12 -12 -12 -5
+0 0 0 0
+stand stand female 20
+AHMV ABCDEFGHIJK medium unknown
+'(null)'
+#133
+activist~
+an activist~
+An activist is here, waving a petition in your face.
+~
+With a loud voice and an earnest expression, this activist looks quite
+intimidating.  
+~
+human~
+ABG 0 250 0
+35 35 71d11+354 35d10+85 11d3+22 yell
+-13 -13 -13 -6
+0 P 0 0
+stand stand either 40
+AHMV ABCDEFGHIJK medium unknown
+'(null)'
+#0
+
+
+
+#ZOBJECTS
+#130
+can yams~
+a can of yams~
+A slightly dented can of yams is sitting here.~
+unknown~
+food 0 AO
+B A 0 0 0
+1 5 1 P
+#131
+can chicken noodle soup~
+a can of chicken noodle soup~
+A can of hearty chicken noodle soup is sitting here.~
+unknown~
+potion GI A
+30 'heal' 'heal' 'reserved' 'reserved'
+30 2 4 P
+#132
+bottle orange juice~
+a bottle of orange juice~
+A small bottle of fresh orange juice is here.~
+unknown~
+potion G A
+30 'cure disease' 'reserved' 'reserved' 'reserved'
+30 2 5 P
+#133
+bag cereal frutios~
+a bag of Frutios~
+A bag of sugary Frutios cereal is lying here.~
+unknown~
+food 0 A
+0 A 0 0 0
+1 1 4 P
+#134
+mullet~
+Jo Marie's mullet~
+A grizzled mullet is squirming around.~
+unknown~
+armor 0 AE
+CD CD CD ABD 0
+32 33 36 P
+A
+3 -1
+#135
+cracker garlic~
+a garlic cracker~
+A small garlic cracker is sitting here.~
+bread~
+food 0 AO
+0 0 0 0 0
+0 0 0 P
+#136
+petition~
+a petition~
+An official petition to place Proposition Eleventy-Eight on the ballot sits here.~
+paper~
+trash 0 AO
+0 0 0 0 0
+0 0 0 P
+#0
+
+
+
+#ZROOMS
+#130
+Parking Lot~
+An expanse of cracked asphalt covers the ground between Wall Road and the
+beige brick of Malphs supermarket.  Cars, wagons, and wheelbarrows sit in
+disorderly clusters around tall painted lamp-posts.  The parking lot
+continues north and south, and opens onto Wall Road to the west.  You can
+enter Malphs to the east.  
+~
+0 0 1
+D0
+~
+~
+0 0 131
+D1
+~
+~
+0 0 134
+D2
+~
+~
+0 0 132
+D3
+~
+~
+0 0 3259
+S
+#131
+Parking Lot~
+A low brick wall runs along the edge of the parking lot here, separating
+it from the traffic on Wall Road.  Scraggly vegetation grows at the bottom
+of the wall, spreading outward along cracks in the pavement.  The parking
+lot continues to the north and south, and you can enter Malphs to the east. 
+~
+0 0 1
+D0
+~
+~
+0 0 167
+D1
+~
+~
+0 0 159
+D2
+~
+~
+0 0 130
+S
+#132
+Parking Lot~
+Faded lines run criss-cross along a stretch of cracked asphalt,
+delineating rows of oddly sized parking spaces.  Cars are scarce in this
+part of the lot, and plastic bags tumble freely about.  The parking lot
+continues north and east.  
+~
+0 0 1
+D0
+~
+~
+0 0 130
+D1
+~
+~
+0 0 133
+S
+#133
+Recycling Center~
+A small tin-roofed building sits lightly atop the pavement here.  It is
+decorated with swirling blue and green portraits of whales, trees, and
+smiling flowers, and a sign that says "Re-Planet Recycling".  You can enter
+the building to the south, and the parking lot continues east and west.  
+~
+0 0 1
+D1
+~
+~
+0 0 163
+D2
+~
+~
+0 0 168
+D3
+~
+~
+0 0 132
+S
+#134
+Entrance to Malphs~
+A small, bland portico covers the entrance to the supermarket.  Shopping
+carts lie in disordered clumps all around you, filled with torn-up coupon
+booklets.  You can enter the store to the east, while the parking lot is
+west.  
+~
+0 0 0
+D1
+~
+~
+0 0 135
+D3
+~
+~
+0 0 130
+S
+#135
+Entrance to Malphs~
+A ring of flyer racks and garish seasonal specials surrounds the double
+automatic doors to Malphs.  Peppy music plays from tinny speakers in the
+ceiling, and fluorescent lighting illuminates the dirt on your clothes to
+great advantage.  The checkout lines are north, the deli is south, and the
+junk food aisle is east.  You can leave the store to the west.  
+~
+0 8 0
+D0
+~
+~
+0 0 136
+D1
+~
+~
+0 0 141
+D2
+~
+~
+0 0 140
+D3
+~
+~
+0 0 134
+S
+#136
+End of the Checkout Lines~
+A bewildering array of half-full shopping carts, confused customers, and
+"courtesy clerks" crowds the small space between the end of the checkout
+lines, and the locked glass cabinet full of cigarettes.  The exit to the
+parking lot is south, you can fight your way upstream through a checkout
+lane to the west, and there are more checkout lines north.
+~
+0 8 0
+D0
+~
+~
+0 0 137
+D2
+~
+~
+0 0 135
+D3
+~
+~
+0 0 139
+S
+#137
+Checkout Lines~
+~
+0 8 0
+D0
+~
+~
+0 0 146
+D1
+~
+~
+0 0 144
+D2
+~
+~
+0 0 136
+D3
+~
+~
+0 0 138
+S
+#138
+Checkout Lanes~
+~
+0 8 0
+D0
+~
+~
+0 0 147
+D1
+~
+~
+0 0 137
+D2
+~
+~
+0 0 139
+S
+#139
+Checkout Lanes~
+~
+0 8 0
+D0
+~
+~
+0 0 138
+D1
+~
+~
+0 0 136
+S
+#140
+Deli~
+~
+0 8 0
+D0
+~
+~
+0 0 135
+D1
+~
+~
+0 0 142
+S
+#141
+Junk Food~
+~
+0 8 0
+D0
+~
+~
+0 0 143
+D1
+~
+~
+0 0 157
+D2
+~
+~
+0 0 142
+D3
+~
+~
+0 0 135
+S
+#142
+Bakery~
+~
+0 8 0
+D0
+~
+~
+0 0 141
+D1
+~
+~
+0 0 158
+D3
+~
+~
+0 0 140
+S
+#143
+Cleaning Products~
+~
+0 8 0
+D0
+~
+~
+0 0 144
+D1
+~
+~
+0 0 156
+D2
+~
+~
+0 0 141
+D3
+~
+~
+0 0 136
+S
+#144
+Cereals~
+~
+0 8 0
+D0
+~
+~
+0 0 145
+D1
+~
+~
+0 0 155
+D2
+~
+~
+0 0 143
+D3
+~
+~
+0 0 137
+S
+#145
+Cooking Products~
+~
+0 8 0
+D0
+~
+~
+0 0 148
+D1
+~
+~
+0 0 154
+D2
+~
+~
+0 0 144
+D3
+~
+~
+0 0 146
+S
+#146
+Express Line~
+~
+0 8 0
+D1
+~
+~
+0 0 145
+D2
+~
+~
+0 0 137
+D3
+~
+~
+0 0 147
+S
+#147
+Express Lane~
+~
+0 8 0
+D1
+~
+~
+0 0 146
+D2
+~
+~
+0 0 138
+S
+#148
+Rice, Beans and Pasta~
+~
+0 8 0
+D0
+~
+~
+0 0 149
+D1
+~
+~
+0 0 153
+D2
+~
+~
+0 0 145
+S
+#149
+Canned Fruits and Vegetables~
+~
+0 8 0
+D0
+~
+~
+0 0 150
+D1
+~
+~
+0 0 152
+D2
+~
+~
+0 0 148
+S
+#150
+Produce~
+A light mist fills the air here, leaping from tiny nozzles on the shelves
+to cover all the produce with an appetizing dewy glow.  Row upon row of
+green, glistening vegetables sparkle under fluorescent lamps.  There are
+canned goods in an aisle to the south, and dairy products to the east, while the garden center lies west.  
+~
+0 8 0
+D1
+~
+~
+0 0 151
+D2
+~
+~
+0 0 149
+D3
+~
+~
+0 0 159
+S
+#151
+Dairy~
+~
+0 8 0
+D2
+~
+~
+0 0 152
+D3
+~
+~
+0 0 150
+S
+#152
+Meat~
+~
+0 8 0
+D0
+~
+~
+0 0 151
+D2
+~
+~
+0 0 153
+D3
+~
+~
+0 0 149
+S
+#153
+Poultry~
+~
+0 8 0
+D0
+~
+~
+0 0 152
+D2
+~
+~
+0 0 154
+D3
+~
+~
+0 0 148
+S
+#154
+Sample Counter~
+~
+0 8 0
+D0
+~
+~
+0 0 153
+D1
+~
+~
+0 0 160
+D2
+~
+~
+0 0 155
+D3
+~
+~
+0 0 145
+S
+#155
+Fish~
+~
+0 8 0
+D0
+~
+~
+0 0 154
+D2
+~
+~
+0 0 156
+D3
+~
+~
+0 0 144
+S
+#156
+Liquor~
+~
+0 8 0
+D0
+~
+~
+0 0 155
+D2
+~
+~
+0 0 157
+D3
+~
+~
+0 0 143
+S
+#157
+Liquor~
+~
+0 8 0
+D0
+~
+~
+0 0 156
+D2
+~
+~
+0 0 158
+D3
+~
+~
+0 0 141
+S
+#158
+Photo Center~
+~
+0 8 0
+D0
+~
+~
+0 0 157
+D3
+~
+~
+0 0 142
+S
+#159
+Floral Center~
+The artificially strengthened scent of roses and dirt assails you as you
+enter this giant display of decorative plants.  Plastic-wrapped bouquets
+fill a large rack on the north wall, and philodendron tendrils descend a
+pyramid of colorful plastic pots in the middle of the floor.  The produce
+section is east, and you can leave the store to the west.  
+~
+0 8 0
+D1
+~
+~
+0 0 150
+D3
+~
+~
+0 0 131
+S
+#160
+Stockroom~
+~
+0 8 0
+D0
+~
+~
+0 0 161
+D1
+~
+~
+0 0 164
+D2
+~
+~
+0 0 162
+D3
+~
+~
+0 0 154
+S
+#161
+Office~
+~
+0 8 0
+D2
+~
+~
+0 0 160
+S
+#162
+Stockroom~
+~
+0 0 0
+D0
+~
+~
+0 0 160
+S
+#163
+Dumpsters~
+Three green, dented dumpsters squat on the pavement here, draped by a
+thin layer of candy wrappers and cigarette butts.  The beige brick edifice
+of Malphs lies to the northeast, while the parking lot continues north and
+west.  
+~
+0 0 0
+D0
+~
+~
+0 0 164
+D3
+~
+~
+0 0 133
+S
+#164
+Parking Lot~
+~
+0 0 0
+D0
+~
+~
+0 0 165
+D2
+~
+~
+0 0 163
+D3
+~
+~
+0 0 160
+S
+#165
+Parking Lot~
+~
+0 0 0
+D2
+~
+~
+0 0 164
+D3
+~
+~
+0 0 166
+S
+#166
+Parking Lot~
+A jumble of white arrows spreads over the pavement here at the north
+entrance to the Malphs parking lot.  A steady trickle of traffic flows in
+from Wall Road to the north, and fills the lot to the east and west.  
+~
+0 0 0
+D0
+~
+~
+0 0 3261
+D1
+~
+~
+0 0 165
+D3
+~
+~
+0 0 167
+S
+#167
+Parking Lot~
+Cars are scarce in this part of the lot, and plastic bags tumble freely
+about the pavement.  The quiet hum of Wall Road is audible to the west and
+north, but a low brick wall blocks passage in that direction.  The parking
+lot continues east and south.  
+~
+0 0 1
+D1
+~
+~
+0 0 166
+D2
+~
+~
+0 0 131
+S
+#168
+Re-Planet~
+This small room is full of gigantic bins piled high with sorted garbage. 
+A faint smell of stale beer drifts up from the glass bins, and a more subtle
+odor of generic grease fills the rest of the room.  The only exit is north. 
+~
+0 8 0
+D0
+~
+~
+0 0 133
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 0 133 1 134 1 Load an activist
+E 0 136 0 17 A petition is loaded held in the hands of an activist
+M 0 132 1 138 1 Load Jo Marie
+E 0 134 0 6 Jo marie's mullet is loaded over the head of Jo Marie
+M 0 130 1 139 1 Load Mabel
+M 0 131 1 141 1 Load a stoner
+G 0 133 0 A bag of frutios is given to a stoner
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#0
+
+#$

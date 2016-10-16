@@ -1,0 +1,805 @@
+#AREADATA
+Name NetHack~
+Builders None~
+VNUMs 170 199
+Levels 10 15
+Credits {g[{G10 25{g]{x Kazeus   Nethack~
+Security 1
+End
+
+
+
+#ZMOBILES
+#170
+sewer rat~
+the sewer rat~
+A sewer rat is sniffling here.
+~
+The rat is dark grey, with a dirty brown marking on its back shaped like
+the letter {yr{x.  
+~
+cat~
+AFG Z 0 0
+11 11 23d3+101 11d9+60 2d5+7 bite
+2 2 2 4
+FH 0 0 0
+stand stand either 0
+AGV ACDEFHJKQUV medium unknown
+'(null)'
+#171
+newt~
+the newt~
+A newt is slithering along the edge of the wall.
+~
+The newt's eyes have a peculiar yellow glow, far outshining the rest of
+its drab body.  {Y:{x 
+~
+lizard~
+AFGH 0 0 0
+10 10 21d3+91 10d9+60 2d5+7 none
+3 3 3 5
+0 0 L I
+stand stand either 0
+AGXc ACDEFHKQV medium unknown
+'(null)'
+#172
+lichen~
+the lichen~
+A large lichen clings to the stones.
+~
+The lichen is backlit by an eerie glow, and forms a bright green {GF{x on
+the floor.  
+~
+human~
+ABG 0 0 0
+9 9 19d3+82 9d9+60 2d4+6 drain
+3 3 3 5
+0 0 0 0
+stand stand none 0
+Ac 0 medium unknown
+'none'
+F for HMV
+F par ABCDEFGHIJK
+#173
+jackal~
+the jackal~
+A jackal is prowling around.
+~
+The jackal's mottled, mangy coat is patterned with a dirty brown {yd{x.
+~
+cat~
+AFG Z 0 0
+14 14 29d4+128 14d9+60 3d4+9 bite
+0 0 0 3
+FH 0 0 0
+stand stand either 0
+AGV ACDEFHJKQUV medium unknown
+'(null)'
+#174
+rat giant~
+a giant rat~
+A giant rat is prowling, nose to the floor.
+~
+The giant rat is maybe two feet long, with a dirty brown {yr{x on its back.
+~
+cat~
+AFG Z 0 0
+13 13 27d4+132 13d10+85 4d3+11 bite
+0 0 0 3
+FH 0 0 0
+stand stand none 0
+AGV ACDEFHJKQUV medium unknown
+'(null)'
+#175
+acid blob~
+an acid blob~
+An acid blob is blobbing here.
+~
+The blob is emblazoned with a swirling green {gb{x.
+~
+school monster~
+AGU 0 0 0
+15 15 31d5+152 15d10+85 5d3+12 acbite
+0 0 0 2
+0 K 0 0
+stand stand none 0
+Sc EF medium unknown
+'(null)'
+F imm AB
+F vul C
+F for AMV
+F par ABCDHJKQU
+#176
+guard~
+the vault guard~
+Suddenly, one of the vault's guards appears!
+~
+The guard looks impassive, with a blue {B@{x instead of a face.
+~
+human~
+AG 0 0 0
+25 25 52d9+253 25d11+95 9d2+24 none
+-8 -8 -8 -3
+0 0 0 0
+stand stand either 100
+AHMV ABCDEFGHIJK medium unknown
+'(null)'
+M GRALL 170 100~
+M SPEECH 171 croesus~
+M RANDOM 172 1~
+M DELAY 173 100~
+#0
+
+
+
+#ZOBJECTS
+#170
+orcish spear~
+an orcish spear~
+A crude spear lies on the floor.~
+unknown~
+weapon 0 AN
+staff 1 9 pierce 0
+6 7 10 P
+#171
+boulder~
+the boulder~
+A large, featureless boulder sits here.~
+unknown~
+furniture 0 0
+B CEFGHI E ACFG ACFG
+0 0 0 P
+#172
+statue grid bug~
+a statue of a grid bug~
+You see here a statue of a grid bug.~
+unknown~
+furniture 0 0
+0 CFG O 0 0
+0 0 0 P
+#173
+large box~
+a large box~
+You see here a large box.~
+unknown~
+container 0 A
+200 AC 0 10 100
+1 50 5 P
+#174
+iron ring~
+an iron ring~
+A heavy iron ring lies here.~
+unknown~
+jewelry 0 AB
+0 0 0 0 0
+10 2 10 P
+A
+1 1
+#175
+scroll kirje~
+a scroll labeled KIRJE~
+You see here a scroll labeled KIRJE.~
+unknown~
+scroll 0 A
+10 'identify' 'reserved' 'reserved' 'reserved'
+10 2 20 P
+#176
+fountain~
+a fountain~
+There is a fountain here.~
+unknown~
+fountain 0 0
+-1 -1 'water' 0 0
+0 0 0 P
+#177
+trap portal~
+a teleportation trap~
+You escape a teleportation trap.~
+unknown~
+portal G 0
+0 0 C BEFH 0
+0 0 0 P
+#178
+dollar sign money gold~
+a shiny gold dollar sign~
+A shiny gold {Y${x lies on the ground.~
+gold~
+treasure 0 A
+0 0 0 0 0
+0 75 200 P
+#0
+
+
+
+#ZROOMS
+#170
+A Dungeon of Doom~
+You are in a plain stone room, with blank stone walls and a speckled
+stone floor.  A dim light floats through the air, coming from no discernible
+source and vanishing as it flows through small openings in the walls.  There
+are large holes in the walls to the west and south, and a staircase leads
+up.  
+~
+0 10 0
+D2
+~
+~
+0 0 172
+D3
+~
+~
+0 0 173
+D4
+~
+~
+0 0 3921
+S
+#171
+A Closet of Doom~
+This small niche in the rock is barely big enough to fit you.  Dust and
+pebbles lie in an even grid along the floor.  
+~
+0 11 0
+D2
+~
+~
+ABCI 0 193
+S
+#172
+A Hallway of Doom~
+A dark, narrow corridor runs to the west through the Dungeons of Doom. 
+Tiny rivulets of clear water run down cracks in the wall, and meek little
+drips echo in the distance.  A foggy grey light is visible through a hole in
+the wall to the north.  
+~
+0 11 0
+D0
+~
+~
+0 0 170
+D3
+~
+~
+0 0 175
+S
+#173
+A Hallway of Doom~
+A narrow, dark corridor twists east and south through the Dungeons of Doom.
+The floor is marked with a regular cross-hatch pattern of scratches.
+~
+0 11 0
+D1
+~
+~
+0 0 170
+D2
+~
+~
+0 0 174
+S
+#174
+A Hallway of Doom~
+A dark corridor runs north and south through the Dungeons of Doom. 
+Shallow grooves mark a faint grid on the otherwise featureless floor, and a
+musty light fills a room to the west.  
+~
+0 11 0
+D0
+~
+~
+0 0 173
+D2
+~
+~
+0 0 175
+D3
+~
+~
+0 0 176
+S
+#175
+A Hallway of Doom~
+Two dim hallways meet in a T junction here; dank, featureless corridors
+lead to the east, south and west.  The air smells of wet rock and mold.  
+~
+0 11 0
+D0
+~
+~
+0 0 174
+D1
+~
+~
+0 0 172
+D3
+~
+~
+0 0 177
+S
+#176
+A Dungeon of Doom~
+You are in a plain stone room, with blank stone walls and a speckled
+stone floor.  A musty light hangs in the air, coming from no discernible
+source and vanishing suddenly as it flows through small openings in the
+walls.  A staircase down is here, and there are crude holes in the walls to
+the east and south.  
+~
+0 10 0
+D1
+~
+~
+0 0 174
+D2
+~
+~
+0 0 177
+D5
+~
+~
+0 0 184
+S
+#177
+A Hallway of Doom~
+You are in a blank, featureless tunnel carved out of bland gray stone. 
+Pale light seeps in from a hole in the wall to the north, while the tunnel
+continues east.  Faint scratching sounds echo in the darkness.  
+~
+0 11 0
+D0
+~
+~
+0 0 176
+D1
+~
+~
+0 0 175
+S
+#178
+A Vault of Menace~
+This is the belly of a cold, echoing darkness.  A dim light shines off
+patches of moisture on the stone walls.  There are no exits.  
+~
+0 11 0
+D1
+~
+~
+ABC 0 179
+S
+#179
+A Dungeon of Doom~
+You are in a plain stone room, with blank stone walls and a speckled
+stone floor.  A musty light hangs in the air, coming from no discernible
+source and vanishing suddenly as it flows through small openings in the
+walls.  There's a large hole in the wall to the east.  
+~
+0 10 0
+D1
+~
+~
+0 0 180
+D3
+~
+~
+ABC 0 178
+S
+#180
+A Hallway of Doom~
+A dark, narrow corridor twists north and west through the Dungeons of
+Doom.  The floor is marked with a regular cross-hatch pattern of scratches. 
+~
+0 11 0
+D0
+~
+~
+0 0 181
+D3
+~
+~
+0 0 179
+S
+#181
+A Hallway of Doom~
+Uneven stones pave the floor of this corridor, which runs east and south
+through walls of rough rock.  Dust and pebbles lie in an even grid along the
+floor.  
+~
+0 11 0
+D1
+~
+~
+0 0 182
+D2
+~
+~
+0 0 180
+S
+#182
+A Dungeon of Doom~
+You are in a plain stone room, with blank stone walls and a speckled
+stone floor.  The air smells faintly of blood.  There are holes in the wall
+to the west and south.  
+~
+0 10 0
+D2
+~
+~
+0 0 183
+D3
+~
+~
+0 0 181
+S
+#183
+A Dungeon of Doom~
+You are in a plain stone room, with blank stone walls and a speckled
+stone floor.  Skittering scratching sounds echo faintly in the distance.  A
+rough hewn doorway leads north.  
+~
+0 10 0
+D0
+~
+~
+0 0 182
+S
+#184
+A Dungeon of Doom~
+You are in a plain stone room, with blank stone walls and a speckled
+stone floor.  A musty light hangs in the air, coming from no discernible
+source and vanishing suddenly as it flows through small openings in the
+walls.  A jagged hole in the south wall leads to utter darkness.  
+~
+0 10 0
+D2
+~
+~
+0 0 185
+D4
+~
+~
+0 0 176
+S
+#185
+A Hallway of Doom~
+Uneven stones pave the intersection of two dark hallways, twisting in all
+directions through the Dungeons of Doom.  Tiny rivulets of clear water run
+down cracks in the wall.  
+~
+0 11 0
+D0
+~
+~
+0 0 184
+D1
+~
+~
+0 0 196
+D2
+~
+~
+0 0 186
+D3
+~
+~
+0 0 197
+S
+#186
+A Dungeon of Doom~
+You are in a plain stone room, with blank stone walls and a speckled
+stone floor.  A gray light hangs in the air, coming from no discernible
+source and vanishing suddenly as it flows through small openings in the
+walls.  Dark doorways loom to the north and east.  
+~
+0 10 0
+D0
+~
+~
+0 0 185
+D1
+~
+~
+0 0 187
+S
+#187
+A Hallway of Doom~
+A short, dark corridor runs east and west through the Dungeons of Doom. 
+At both ends of the hall are rough-edged doorways, illuminated by a faint
+gray light.  
+~
+0 11 0
+D1
+~
+~
+0 0 188
+D3
+~
+~
+0 0 186
+S
+#188
+A Dungeon of Doom~
+You are in a plain stone room, with blank stone walls and a speckled
+stone floor.  A faint light hangs in the air, coming from no discernible
+source and vanishing suddenly as it flows through small openings in the
+walls.  Exits are north, east and west.  
+~
+0 10 0
+D0
+~
+~
+0 0 196
+D1
+~
+~
+0 0 189
+D3
+~
+~
+0 0 187
+S
+#189
+A Hallway of Doom~
+A narrow corridor runs south and west through the Dungeons of Doom. 
+Faint crosshatched grooves mark the floor.  A chill seeps in from the walls,
+and sibilant scratches echo through the darkness.  
+~
+0 11 0
+D2
+~
+~
+0 0 190
+D3
+~
+~
+0 0 188
+S
+#190
+A Hallway of Doom~
+A dark, narrow corridor twists north and east through the Dungeons of
+Doom.  The smell of damp limestone fills the air, while a cool breeze rushes
+through the hall.  
+~
+0 11 0
+D0
+~
+~
+0 0 189
+D1
+~
+~
+0 0 191
+S
+#191
+A Dungeon of Doom~
+You are in a plain stone room, with blank stone walls and a speckled
+stone floor.  A dim light hangs in the air, coming from no discernible
+source and vanishing suddenly as it flows through small openings in the
+walls.  Larger openings lead north and west to darkness.  
+~
+0 10 0
+D0
+~
+~
+0 0 192
+D3
+~
+~
+0 0 190
+S
+#192
+A Hallway of Doom~
+You are at a bend in a dim stone hallway leading south and west.  You
+hear the footsteps of a guard on patrol.  
+~
+0 11 0
+D2
+~
+~
+0 0 191
+D3
+~
+~
+0 0 193
+S
+#193
+A Dungeon of Doom~
+You are in a plain stone room, with blank stone walls and a speckled
+stone floor.  A musty light hangs in the air, coming from no discernible
+source and vanishing suddenly as it flows through small openings in the
+walls.  Larger holes have been roughly hewn in the east and west walls. 
+Something is engraved on the floor here.  
+~
+0 10 0
+E
+engraving~
+AD ??RAR?UM
+~
+D0
+~
+~
+ABCI 0 171
+D1
+~
+~
+0 0 192
+D3
+~
+~
+0 0 194
+S
+#194
+A Hallway of Doom~
+You are in a dim stone hallway.  Dust lines the floor in a rough grid. 
+To the east, you can see a faint light.  
+~
+0 11 0
+D1
+~
+~
+0 0 193
+D3
+~
+~
+0 0 195
+S
+#195
+A Dungeon of Doom~
+You are in a plain stone room, with blank stone walls and a speckled
+stone floor.  A musty light hangs in the air, coming from no discernible
+source and vanishing suddenly as it flows through small openings in the
+walls.  To the east and south lies an echoing darkness.  
+~
+0 10 0
+D1
+~
+~
+0 0 194
+D2
+~
+~
+0 0 196
+S
+#196
+A Hallway of Doom~
+You are in a dark stone corridor.  Very faint misty lights shine to the
+north and south, and there is a dark, empty passage to the west.  
+~
+0 11 0
+D0
+~
+~
+0 0 195
+D2
+~
+~
+0 0 188
+D3
+~
+~
+0 0 185
+S
+#197
+A Hallway of Doom~
+You are in a plain, rough-hewn stone hallway that runs east and south. 
+Dust lies in an even grid on the floor.  You hear the splashing of a naiad. 
+~
+0 11 0
+D1
+~
+~
+0 0 185
+D2
+~
+~
+0 0 198
+S
+#198
+A Hallway of Doom~
+Uneven stones cover the bottom of this dark hallway.  A faint light is
+visible through a rough hole in the rock to the west, and the hallway leads
+into darkness to the north.  
+~
+0 11 0
+D0
+~
+~
+0 0 197
+D3
+~
+~
+0 0 199
+S
+#199
+A Dungeon of Doom~
+You are in a plain stone room, with blank stone walls and a speckled
+stone floor.  A dull light hangs in the air, coming from no discernible
+source and vanishing suddenly as it flows through small openings in the
+walls.  The only exit is east.  
+~
+0 10 0
+D1
+~
+~
+0 0 198
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+D 0 171 2 2
+D 0 178 1 2
+D 0 179 3 2
+D 0 193 0 2
+O 0 177 0 171 A teleportation trap loaded to A Closet of Doom
+O 0 171 0 172 The boulder loaded to A Hallway of Doom
+M 0 170 2 173 2 Load the sewer rat
+M 0 176 1 178 1 Load the vault guard
+O 0 178 0 178 A shiny gold dollar sign loaded to A Vault of Menace
+O 0 173 0 179 A large box loaded to A Dungeon of Doom
+P 0 170 1 173 1 An orcish spear put inside an orcish spear
+P 0 174 1 173 1 An iron ring put inside an iron ring
+M 0 173 1 179 1 Load the jackal
+O 0 172 0 179 A statue of a grid bug loaded to A Dungeon of Doom
+O 0 172 0 183 A statue of a grid bug loaded to A Dungeon of Doom
+M 0 172 1 183 1 Load the lichen
+M 0 173 1 185 1 Load the jackal
+M 0 174 1 186 1 Load a giant rat
+O 0 175 0 188 A scroll labeled kirje loaded to A Dungeon of Doom
+O 0 176 0 191 A fountain loaded to A Dungeon of Doom
+M 0 173 2 191 2 Load the jackal
+P 0 174 1 173 1 An iron ring put inside an iron ring
+P 0 174 1 173 1 An iron ring put inside an iron ring
+P 0 174 1 173 1 An iron ring put inside an iron ring
+O 0 170 0 195 An orcish spear loaded to A Dungeon of Doom
+O 0 173 0 199 A large box loaded to A Dungeon of Doom
+M 0 175 1 199 1 Load an acid blob
+S
+
+
+
+#SHOPS
+0
+
+
+
+#ZMPROGS
+#170
+Guard greeting~
+say Hello stranger, who are you?
+~
+#171
+Guard Croesus~
+say Oh, yes, of course. Sorry to have disturbed you.
+Mob cancel
+mob purge guard
+~
+#172
+Guard unknown~
+say I don't know you.
+IF carries $n 178
+say Most likely your shiny gold {Y${x was stolen from this vault.
+say Please drop that {Y${x and follow me.
+Mob delay 15
+ELSE
+say Please follow me.
+Mob call 173
+ENDIF
+~
+#173
+Guard action~
+IF carries $n 178
+say So be it, rogue!
+kill $n
+ELSE
+Mob gtransfer $n 183
+Mob echoat $n Suddenly, the guard disappears.
+ENDIF
+~
+#0
+
+#$

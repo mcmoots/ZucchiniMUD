@@ -1,0 +1,3568 @@
+#Area
+Druid.are~
+Druids Grove~
+{95 111} Florin Druids Grove~
+2800 2899
+
+#Rooms
+#2800
+|n|ySandy Beach|n~
+|n|yThere are footprints in the sand leading in several directions. To the
+west you see a glow through the trees.  No one else is in sight.|n
+~
+0 0 2
+D3
+~
+~
+0 0 2801
+D9
+~
+~
+0 0 17171
+S
+
+#2801
+Near some trees~
+|n|gYou are standing next to a number of tall skinny trees with odd looking
+fruit hanging from the branches. To the north you see a glowing light.|n 
+~
+0 0 3
+D0
+~
+~
+0 0 2802
+D1
+~
+~
+0 0 2800
+S
+
+#2802
+Strange Path~
+|n|gYou are walking between a number of odd looking trees. To the south is a
+beach. A strange glow is coming from the north.|n 
+~
+0 0 3
+D0
+~
+~
+0 0 2804
+D2
+~
+~
+0 0 2801
+S
+
+#2803
+Moist~
+|n|mThe sponge-like texture of this substance seems to engulf your body.
+It has a distinct squishy, moist feel to it, and for a moment you consider 
+it may be a living organism, you get a sense that it is protecting you 
+somehow. You feel like your slowly moving through it, although in which
+direction it is impossible to tell. Perhaps you will be free of it soon.|n
+~
+0 ANY 2828
+E
+Tele~
+HELP!!!!!!!
+~ 
+S
+
+#2804
+A Shadowy Mist~
+|n|mA shadowy mist surrounds you. The mist is bright with colors that twist
+with billowing hues splashing in and out of the vapor. Then at times the 
+vapor suddenly becomes as dark as night. The floor here is solid, but your 
+head brushes up against the wet spongy substance. It is quiet, but at the 
+same time you hear sounds echoing in the distance.|n
+~
+0 AN 1
+D0
+~
+~
+0 0 2805
+D1
+~
+~
+0 0 2806
+D2
+~
+~
+0 0 2807
+D3
+~
+~
+0 0 2808
+D4
+~
+~
+0 0 2803
+X
+...Steel ringing against steel, droning chants, muffled footsteps and the   
+occasional blood-curdling scream...
+~
+S
+
+#2805
+A Shadowy Mist~
+|n|mA shadowy mist surrounds you. The mist is bright with colors that twist
+with billowing hues splashing in and out of the vapor. Then at times the 
+vapor suddenly becomes as dark as night. The floor here is solid, but your 
+head brushes up against the wet spongy substance. It is quiet, but at the 
+same time you hear sounds echoing in the distance.|n
+~
+0 AN 0 
+D0
+~
+~
+0 0 2805
+D1
+~
+~
+0 0 2809
+D2
+~
+~
+0 0 2805
+D3
+~
+~
+0 0 2810
+D4
+~
+~
+0 0 2803
+X
+...Steel ringing against steel and the scent of the arboreal...
+~
+S
+
+#2806
+A Shadowy Mist~
+|n|mA shadowy mist surrounds you. The mist is bright with colors that twist 
+with billowing hues splashing in and out of the vapor. Then at times the 
+vapor suddenly becomes as dark as night. The floor here is solid, but your 
+head brushes up against the wet spongy substance. It is quiet, but at the 
+same time you hear sounds echoing in the distance.|n
+~
+0 AN 0
+D0
+~
+~
+0 0 2809
+D1
+~
+~
+0 0 2806
+D2
+~
+~
+0 0 2811
+D3
+~
+~
+0 0 2806
+D4
+~
+~
+0 0 2803
+X
+...Steel upon steel, stealthy footsteps, forms unreal...
+~
+S
+
+#2807
+A Shadowy Mist~
+|n|mA shadowy mist surrounds you. The mist is bright with colors that twist 
+with billowing hues splashing in and out of the vapor. Then at times the 
+vapor suddenly becomes as dark as night. The floor here is solid, but your 
+head brushes up against the wet spongy substance. It is quiet, but at the 
+same time you hear sounds echoing in the distance.|n
+~
+0 AN 0
+D0
+~
+~
+0 0 2807
+D1
+~
+~
+0 0 2811
+D2
+~
+~
+0 0 2807
+D3
+~
+~
+0 0 2812
+D4
+~
+~
+0 0 2803
+X
+...The sizzle of power, silence mocking, now its louder...
+~
+S
+
+#2808
+A Shadowy Mist~
+|n|mA shadowy mist surrounds you. The mist is bright with colors that twist 
+with billowing hues splashing in and out of the vapor. Then at times the 
+vapor suddenly becomes as dark as night. The floor here is solid, but your 
+head brushes up against the wet spongy substance. It is quiet, but at the 
+same time you hear sounds echoing in the distance.|n
+~
+0 AN 0
+D0
+~
+~
+0 0 2810
+D1
+~
+~
+0 0 2808
+D2
+~
+~
+0 0 2812
+D3
+~
+~
+0 0 2808
+D4
+~
+~
+0 0 2803
+X
+...Nature clashes, the mind enhances, prayers are answered...
+~
+S
+
+#2809
+A Shadowy Mist~
+|n|mA shadowy mist surrounds you. The mist is bright with colors that twist 
+with billowing hues splashing in and out of the vapor. Then at times the 
+vapor suddenly becomes as dark as night. The floor here is solid, but your 
+head brushes up against the wet spongy substance. It is quiet, but at the 
+same time you hear sounds echoing in the distance.|n
+~
+0 AN 0
+D0
+~
+~
+0 0 2809
+D1
+~
+~
+0 0 2814
+D2
+~
+~
+0 0 2806
+D3
+~
+~
+0 0 2805
+D4
+~
+~
+0 0 2803
+X
+...The sounds of battle, holy cries of devotion...
+~
+S
+
+#2810
+A Shadowy Mist~
+|n|mA shadowy mist surrounds you. The mist is bright with colors that twist 
+with billowing hues splashing in and out of the vapor. Then at times the 
+vapor suddenly becomes as dark as night. The floor here is solid, but your 
+head brushes up against the wet spongy substance. It is quiet, but at the 
+same time you hear sounds echoing in the distance.|n
+~
+0 AN 0 
+D0
+~
+~
+0 0 2813
+D1
+~
+~
+0 0 2805
+D2
+~
+~
+0 0 2808
+D3
+~
+~
+0 0 2810
+D4
+~
+~
+0 0 2803
+X
+...The forces of nature and the hunt through the trees...
+~
+S
+
+#2811
+A Shadowy Mist~
+|n|mA shadowy mist surrounds you. The mist is bright with colors that twist 
+with billowing hues splashing in and out of the vapor. Then at times the 
+vapor suddenly becomes as dark as night. The floor here is solid, but your 
+head brushes up against the wet spongy substance. It is quiet, but at the 
+same time you hear sounds echoing in the distance.|n
+~
+0 AN 0 
+D0
+~
+~
+0 0 2806
+D1
+~
+~
+0 0 2811
+D2
+~
+~
+0 0 2815
+D3
+~
+~
+0 0 2807
+D4
+~
+~
+0 0 2803
+X
+...When the footsteps do desist, melted forms leap from the mist...
+S
+
+#2812
+A Shadowy Mist~
+|n|mA shadowy mist surrounds you. The mist is bright with colors that twist 
+with billowing hues splashing in and out of the vapor. Then at times the 
+vapor suddenly becomes as dark as night. The floor here is solid, but your 
+head brushes up against the wet spongy substance. It is quiet, but at the 
+same time you hear sounds echoing in the distance.|n
+~
+0 AN 0 
+D0
+~
+~
+0 0 2808
+D1
+~
+~
+0 0 2807
+D2
+~
+~
+0 0 2812
+D3
+~
+~
+0 0 2816
+D4
+~
+~
+0 0 2803
+X
+...Holy chants and signs of dabbling in the shroud of high enchanting...
+~
+S
+
+#2813
+A Shadowy Mist~
+|n|mA shadowy mist surrounds you. The mist is bright with colors that twist 
+with billowing hues splashing in and out of the vapor. Then at times the 
+vapor suddenly becomes as dark as night. The floor here is solid, but your 
+head brushes up against the wet spongy substance. It is quiet, but at the 
+same time you hear sounds echoing in the distance.|n
+~
+0 AN 0 
+D0
+~
+~
+0 0 2817
+D1
+~
+~
+0 0 2818
+D2
+~
+~
+0 0 2808
+D3
+~
+~
+0 0 2813
+D4
+~
+~
+0 0 2803
+X
+...The scent of the forest pervades your senses...
+~
+S
+
+#2814
+A Shadowy Mist~
+|n|mA shadowy mist surrounds you. The mist is bright with colors that twist 
+with billowing hues splashing in and out of the vapor. Then at times the 
+vapor suddenly becomes as dark as night. The floor here is solid, but your 
+head brushes up against the wet spongy substance. It is quiet, but at the 
+same time you hear sounds echoing in the distance.|n
+~
+0 AN 0 
+D0
+~
+~
+0 0 2814
+D1
+~
+~
+0 0 2819
+D2
+~
+~
+0 0 2820
+D3
+~
+~
+0 0 2805
+D4
+~
+~
+0 0 2803
+X
+...Sword upon shield, the battle to wield no one here shall yield...
+~
+S
+
+#2815
+A Shadowy Mist~
+|n|mA shadowy mist surrounds you. The mist is bright with colors that twist 
+with billowing hues splashing in and out of the vapor. Then at times the 
+vapor suddenly becomes as dark as night. The floor here is solid, but your 
+head brushes up against the wet spongy substance. It is quiet, but at the 
+same time you hear sounds echoing in the distance.|n
+~
+0 AN 0 
+D0
+~
+~
+0 0 2806
+D1
+~
+~
+0 0 2815
+D2
+~
+~
+0 0 2821
+D3
+~
+~
+0 0 2822
+D4
+~
+~
+0 0 2803
+X
+...Stealthy shadows, shadows forming, deep within the mist contorting...
+~
+S
+
+#2816
+A Shadowy Mist~
+|n|mA shadowy mist surrounds you. The mist is bright with colors that twist 
+with billowing hues splashing in and out of the vapor. Then at times the 
+vapor suddenly becomes as dark as night. The floor here is solid, but your 
+head brushes up against the wet spongy substance. It is quiet, but at the 
+same time you hear sounds echoing in the distance.|n
+~
+0 AN 0 
+D0
+~
+~
+0 0 2823
+D1
+~
+~
+0 0 2807
+D2
+~
+~
+0 0 2816
+D3
+~
+~
+0 0 2824
+D4
+~
+~
+0 0 2803
+X
+...Incense burns, your mind it yearns the power it turns...
+~
+S
+
+#2817
+A Shadowy Mist~
+|n|mA shadowy mist surrounds you. The mist is bright with colors that twist 
+with billowing hues splashing in and out of the vapor. Then at times the 
+vapor suddenly becomes as dark as night. The floor here is solid, but your 
+head brushes up against the wet spongy substance. It is quiet, but at the 
+same time you hear sounds echoing in the distance.|n
+~
+0 AN 0 
+D0
+~
+~
+0 0 2813
+D1
+~
+~
+0 0 2825
+D2
+~
+~
+0 0 2810
+D3
+~
+~
+0 0 2817
+D4
+~
+~
+0 0 2803
+X
+...The scent of the forest pervades your senses...
+~
+S
+
+#2818
+A Shadowy Mist~
+|n|mA shadowy mist surrounds you. The mist is bright with colors that twist 
+with billowing hues splashing in and out of the vapor. Then at times the 
+vapor suddenly becomes as dark as night. The floor here is solid, but your 
+head brushes up against the wet spongy substance. It is quiet, but at the 
+same time you hear sounds echoing in the distance.|n
+~
+0 AN 0 
+D0
+~
+~
+0 0 2825
+D1
+~
+~
+0 0 2827
+D2
+~
+~
+0 0 2818
+D3
+~
+~
+0 0 2818
+D4
+~
+~
+0 0 2803
+X
+...The scent of the forest pervades your senses...
+~
+S
+
+#2819
+A Shadowy Mist~
+|n|mA shadowy mist surrounds you. The mist is bright with colors that twist 
+with billowing hues splashing in and out of the vapor. Then at times the 
+vapor suddenly becomes as dark as night. The floor here is solid, but your 
+head brushes up against the wet spongy substance. It is quiet, but at the 
+same time you hear sounds echoing in the distance.|n
+~
+0 AN 0 
+D0
+~
+~
+0 0 2819
+D1
+~
+~
+0 0 2809
+D2
+~
+~
+0 0 2829
+D3
+~
+~
+0 0 2814
+D4
+~
+~
+0 0 2803
+X
+...Sword upon shield, the battle to wield no one here shall yield...
+~
+S
+
+#2820
+A Shadowy Mist~
+|n|mA shadowy mist surrounds you. The mist is bright with colors that twist 
+with billowing hues splashing in and out of the vapor. Then at times the 
+vapor suddenly becomes as dark as night. The floor here is solid, but your 
+head brushes up against the wet spongy substance. It is quiet, but at the 
+same time you hear sounds echoing in the distance.|n
+~
+0 AN 0 
+D0
+~
+~
+0 0 2820
+D1
+~
+~
+0 0 2829
+D2
+~
+~
+0 0 2830
+D3
+~
+~
+0 0 2820
+D4
+~
+~
+0 0 2803
+X
+...Sword upon shield, the battle to wield no one here shall yield...
+~
+S
+
+#2821
+A Shadowy Mist~
+|n|mA shadowy mist surrounds you. The mist is bright with colors that twist 
+with billowing hues splashing in and out of the vapor. Then at times the 
+vapor suddenly becomes as dark as night. The floor here is solid, but your 
+head brushes up against the wet spongy substance. It is quiet, but at the 
+same time you hear sounds echoing in the distance.|n
+~
+0 AN 0 
+D0
+~
+~
+0 0 2811
+D1
+~
+~
+0 0 2821
+D2
+~
+~
+0 0 2815
+D3
+~
+~
+0 0 2822
+D4
+~
+~
+0 0 2803
+X
+...Stealthy shadows, shadows forming, deep within the mist contorting...
+~
+S
+
+#2822
+A Shadowy Mist~
+|n|mA shadowy mist surrounds you. The mist is bright with colors that twist 
+with billowing hues splashing in and out of the vapor. Then at times the 
+vapor suddenly becomes as dark as night. The floor here is solid, but your 
+head brushes up against the wet spongy substance. It is quiet, but at the 
+same time you hear sounds echoing in the distance.|n
+~
+0 AN 0 
+D0
+~
+~
+0 0 2831
+D1
+~
+~
+0 0 2821
+D2
+~
+~
+0 0 2833
+D3
+~
+~
+0 0 2822
+D4
+~
+~
+0 0 2803
+X
+...Stealthy shadows, shadows forming, deep within the mist contorting...
+~
+S
+
+#2823
+A Shadowy Mist~
+|n|mA shadowy mist surrounds you. The mist is bright with colors that twist 
+with billowing hues splashing in and out of the vapor. Then at times the 
+vapor suddenly becomes as dark as night. The floor here is solid, but your 
+head brushes up against the wet spongy substance. It is quiet, but at the 
+same time you hear sounds echoing in the distance.|n
+~
+0 AN 0 
+D1
+~
+~
+0 0 2823
+D2
+~
+~
+0 0 2823
+D3
+~
+~
+0 0 2834
+D4
+~
+~
+0 0 2803
+X
+...Incense burns, your mind it yearns the power it turns...
+~
+S
+
+#2824
+A Shadowy Mist~
+|n|mA shadowy mist surrounds you. The mist is bright with colors that twist 
+with billowing hues splashing in and out of the vapor. Then at times the 
+vapor suddenly becomes as dark as night. The floor here is solid, but your 
+head brushes up against the wet spongy substance. It is quiet, but at the 
+same time you hear sounds echoing in the distance.|n
+~
+0 AN 0 
+D0
+~
+~
+0 0 2834
+D1
+~
+~
+0 0 2812
+D2
+~
+~
+0 0 2835
+D3
+~
+~
+0 0 2816
+D4
+~
+~
+0 0 2803
+X
+...Incense burns, your mind it yearns the power it turns...
+~
+S
+
+#2825
+A Shadowy Mist~
+|n|mA shadowy mist surrounds you. The mist is bright with colors that twist 
+with billowing hues splashing in and out of the vapor. Then at times the 
+vapor suddenly becomes as dark as night. The floor here is solid, but your 
+head brushes up against the wet spongy substance. It is quiet, but at the 
+same time you hear sounds echoing in the distance.|n
+~
+0 AN 0 
+D0
+~
+~
+0 0 2826
+D1
+~
+~
+0 0 2825
+D2
+~
+~
+0 0 2818
+D3
+~
+~
+0 0 2817
+D4
+~
+~
+0 0 2803
+X
+...The scent of the forest pervades your senses...
+~
+S
+
+#2826
+The Glade of the Druids~
+You hear the familiar drone of many druids in earthly worship in front of 
+the altar. There is a large man cloaked in a glowing suit of leather armor 
+standing before you!
+~
+0 AN 3
+D2
+~
+~
+0 0 2825
+S
+
+#2827
+A Green Forest~
+|n|gYou stumble headlong through the mist, and find yourself nearly tripping
+ver a protruding root.  The ground is solid, and leafy trees rise up to
+form a green canopy.|n  
+~
+0 AN 3
+D0
+~
+~
+0 0 2836
+D3
+~
+~
+0 0 2818
+S
+
+#2828
+Moist~
+|n|mThe sponge-like texture of this substance seems to engulf your body. It
+has a distinct squishy, moist feel to it, and for a moment you consider 
+that it may be a living organism, for you get a sense that it is protecting
+you somehow.  You feel like your body is slowly moving through it, although
+in which direction it is impossible to tell.  Perhaps you will be free of 
+it soon.|n
+~
+0 ANY 2804 0
+E
+Tele~
+HELP!!!!!!
+~
+S
+
+#2829
+A Shadowy Mist~
+|n|mA shadowy mist surrounds you. The mist is bright with colors that twist
+with billowing hues splashing in and out of the vapor. Then at times the 
+vapor suddenly becomes as dark as night. The floor here is solid, but your 
+head brushes up against the wet spongy substance. It is quiet, but at the
+same time you hear sounds echoing in the distance.|n
+~
+0 AN 0 3
+D0
+~
+~
+0 0 2819
+D2
+~
+~
+0 0 2829
+D3
+~
+~
+0 0 2820
+D4
+~
+~
+0 0 2803
+X
+...Sword upon shield, the battle to wield no one here shall yield...
+~
+S
+#2830
+A Shadowy Mist~
+|n|mA shadowy mist surrounds you. The mist is bright with colors that twist
+with billowing hues splashing in and out of the vapor. Then at times the 
+vapor suddenly becomes as dark as night. The floor here is solid, but your 
+head brushes up against the wet spongy substance. It is quiet, but at the 
+same time you hear sounds echoing in the distance.|n
+~
+0 AN 0
+D0
+~
+~
+0 0 2820
+
+#2831
+A Shadowy Mist~
+|n|mA shadowy mist surrounds you. The mist is bright with colors that twist 
+with billowing hues splashing in and out of the vapor. Then at times the 
+vapor suddenly becomes as dark as night. The floor here is solid, but your 
+head brushes up against the wet spongy substance. It is quiet, but at the 
+same time you hear sounds echoing in the distance.|n
+~
+0 AN 0 
+D0
+~
+~
+0 0 2831
+D1
+~
+~
+0 0 2831
+D2
+~
+~
+0 0 2822
+D3
+~
+~
+0 0 2832
+D4
+~
+~
+0 0 2803
+X
+...Stealthy shadows, shadows forming, deep within the mist contorting...
+~
+S
+
+#2832 
+A Shadowy Mist~
+|n|mA shadowy mist surrounds you. The mist is bright with colors that twist 
+with billowing hues splashing in and out of the vapor. Then at times the 
+vapor suddenly becomes as dark as night. The floor here is solid, but your 
+head brushes up against the wet spongy substance. It is quiet, but at the 
+same time you hear sounds echoing in the distance.|n
+~
+0 AN 0
+D1 
+~
+~
+0 0 2831
+S
+
+#2833
+The Melting Room~
+You step out of the mist and find that you have entered something even more 
+unreal.  Solid walls surround you, yet they are of an undulating substance 
+that you find hard to fathom.  They seem to pulsate irregularly, as if 
+alive!  Suddenly, a figure rises up out of the seething floor right before 
+you! 
+~
+0 AN 0
+D0
+~
+~
+0 0 2822
+S
+
+#2834
+A Shadowy Mist~
+|n|mA shadowy mist surrounds you. The mist is bright with colors that twist
+with billowing hues splashing in and out of the vapor. Then at times the
+vapor suddenly becomes as dark as night. The floor here is solid, but your
+head brushes up against the wet spongy substance. It is quiet, but at the
+same time you hear sounds echoing in the distance.|n
+~
+0 AN 0 
+D0
+~
+~
+0 0 2834
+D1
+~
+~
+0 0 2823
+D2
+~
+~
+0 0 2824
+D4
+~
+~
+0 0 2803
+X
+...Incense burns, your mind it yearns the power it turns...
+~
+S
+
+#2835
+Room of Incense~
+You smell the familiar scent of incense throughout this oblong shaped
+chamber.  All along the walls are glass cabinets holding various jars
+of incense and spices.  
+~
+0 AN 0
+D0
+~
+~
+0 0 2824
+S
+
+#2836
+The holy grove~
+|n|gYou are standing amidst the ancient oaks and poplars in the holy grove
+You feel a strange sensation of well being and relief seeps through you, as
+if great burdens have been lifted from your shoulders. From here,
+friendly-looking paths lead east and south.|n
+~
+0 AN 3
+D1
+~
+~
+0 0 2837
+D2
+~
+~
+0 0 2839
+S
+
+#2837
+The holy grove~
+|n|gYou are standing amidst the ancient oaks and poplars in the holy grove. 
+You feel unusually happy here, as if great burdens have been lifted from your
+shoulders. From here, pleasant-looking paths lead east, west and south.|n
+~
+0 AN 3
+D1
+~
+~
+0 0 2838
+D2
+~
+~
+0 0 2840
+D3
+~
+~
+0 0 2836
+S
+
+#2838
+A clearing in the woods~
+|n|gThe path leads into a clearing. Somehow, this place seems powerful and 
+different from the rest of the forest, as if something is severely strained
+in the fabric of reality here. The path continues to the north and east, but
+small trails lead off in other directions.|n
+~
+0 AN 3
+D2
+~
+~
+0 0 2841
+D3
+~
+~
+0 0 2837
+S
+
+#2839
+The holy grove~
+|n|gYou are standing amidst the ancient oaks and poplars in the holy grove.
+You feel calm and relaxed here, as if great burdens have been lifted from
+your shoulders. From here, pleasant-looking paths lead east, north and
+south.|n
+~
+0 AN 3
+D0
+~
+~
+0 0 2836
+D1
+~
+~
+0 0 2840
+D2
+~
+~
+0 0 2842
+S
+
+#2840
+The sacred glade~
+|n|gYou are standing in the middle of the sacred glades. This where the
+citizens from nearby towns come to celebrate the spring, where farmers come
+to pray for a bountiful harvest in the fall, and where lovers stroll in
+summer. You feel the seasons of remembered happiness and joy taking your
+sorrows and worries away from you, leaving you calm and invigorated, ready
+for the world.|n 
+~
+0 AN 3
+D0
+~
+~
+0 0 2837
+D1
+~
+~
+0 0 2841
+D2
+~
+~
+0 0 2843
+D3
+~
+~
+0 0 2839
+S
+
+#2841
+The holy grove~
+|n|gYou are standing amidst the ancient oaks and poplars in the holy grove.
+You can feel a strange sensation of joy and calm seeping through you, as if
+great burdens have been lifted from your shoulders.|n 
+~
+0 AN 3
+D0
+~
+~
+0 0 2838
+D3
+~
+~
+0 0 2840
+S
+
+#2842
+The holy grove~
+|n|gYou are standing amidst the tall, majestic trees in the southern end of
+the holy grove. Paths lead north and east. Here you feel joy and happiness,
+as if the world's troubles no longer really matter.|n
+~
+0 AN 3
+D0
+~
+~
+0 0 2839
+S
+
+#2843
+Path to Shadow Mist~
+|n|gYou have reached the base of the path leading to Shadow Mist. The
+mysterious castle of Shadow Mist is above you. A faint path leads to
+the west through the forest. There are strange noises coming from the
+west.|n 
+~
+0 AN 2
+D1
+~
+~
+0 0 2844
+D3
+~
+~
+0 0 2845
+D4
+~
+~
+0 0 2853
+S
+
+#2844
+Faint Path~
+|n|gThe path here is a faint track leading west deeper into the woods
+and towards a cliff face. A stream flows nearby, winding its way through
+the forest.|n
+~
+0 AN 3
+D3
+~
+~
+0 0 2843
+S
+
+#2845
+The Woods~
+|n|gThe woods here are getting deeper and darker. The path still runs
+parallel to the cliff face. Was that the wind just now or some hideous
+creature waiting in ambush for you?|n
+~
+0 AN 3
+D1
+~
+~
+0 0 2843
+D3
+~
+~
+0 0 2846
+S
+
+#2846
+The Path~
+|n|gThe path through the woods here is almost impossible to follow. The
+cliff face still lies to the north. To the east you can see the path get
+a little wider. To the west the path is almost impassable. In the distance
+you hear the mournful cry of a wolf.|n
+~
+0 AN 3
+D1
+~
+~
+0 0 2845
+D3
+~
+~
+0 0 2847
+S
+
+#2847
+Shadow Mist Forest~
+|n|gYou are in the middle of the Shadow Mist forest, the woods here are
+very thick and there is a wolf howling in the distance. The path runs
+east and west.|n
+~
+0 AN 3
+D1
+~
+~
+0 0 2846
+D3
+~
+~
+0 0 2848
+S
+
+#2848
+The Path Turns~
+|n|gThe path here appears to end. The brush to the west is completely
+impassable. To the east you can just barely see how you got here. A
+small path leads into the cliff face.|n
+~
+0 AN 3
+D0
+~
+~
+0 0 2849
+D1
+~
+~
+0 0 2847
+S
+
+#2849
+The Cliff Face~
+The path leads deeper into the cliff face. The walls of the cave seem to
+press in on you, as if some unseen presence was trying to keep you out.
+A feeling of dread washes over you as you move forward.
+~
+0 AN 4
+D0
+~
+~
+0 0 2850
+D2
+~
+~
+0 0 2848
+S
+
+#2850
+A Small Tunnel~
+|i|xThe cave walls are getting closer as you move deeper into the cave.
+The air seems to be getting stagnant. The dreadful feeling is even worse
+here.|n
+~
+0 AN 4
+D0
+~
+~
+0 0 2851
+D2
+~
+~
+0 0 2849
+S
+
+#2851
+The End of the Tunnel~
+|i|xThe tunnel seems to end here. The feeling of dread here is almost
+unbearable. The air seems to be hot and stagnant.|n 
+~
+0 AN 4
+D1
+~
+secret~
+1 0 2852
+D2
+~
+~
+0 0 2850
+S
+
+#2852
+Secret Passage Into the Keep~
+You have stumbled into the secret passage leading into the Druid's Keep.
+There is a set of stair here leading upward. The heat seems to flow
+downward. You wonder what is causing all this heat.
+~
+0 AN 0
+D3
+~
+door~
+1 0 2851
+D4
+~
+~
+0 0 2854
+S
+
+#2853
+The Path to Shadow Mist~
+You are about halfway up the cliff to Shadow Mist. The view here is
+remarkable. It doesn't appear like many people come this way. Perhaps
+it would be wise to turn back now.
+~
+0 AN 5
+D4
+~
+~
+0 0 2876
+D5
+~
+~
+0 0 2843
+S
+
+#2854
+The Secret Stairway into Shadow Mist~
+You have reached the top of the stairway. The temperature is more
+comfortable. A darkened hallway leads to the west.
+~
+0 AN 0
+D1
+~
+~
+0 0 2855
+D5
+~
+~
+0 0 2852
+S
+
+#2855
+Passage Under Shadow Mist~
+A thick layer of dust of the floor reinforces that not many people pass
+this way. The passage here is a small corridor leading east and west.
+~
+0 AN 0
+D1
+~
+~
+0 0 2856
+D3
+~
+~
+0 0 2854
+S
+
+#2856
+Passage Under Shadow Mist~
+The dust of the floor is not as thick here. A warm draft and an unearthly 
+glow come from under the door in the north wall. To the west the corridor
+is dark and dusty.
+~
+0 AN 0
+D0
+~
+door~
+1 0 2857
+D1
+~
+~
+0 0 2863
+D3
+~
+~
+0 0 2855
+S
+
+#2857
+|n|rWalkway Over the Furnace|n~
+|n|rYou are standing on a walkway over the huge furnace that heats Shadow
+Mist. It is very hot here, but not unbearable. The walkway leads north
+over the furnace, and south to a door in the wall. Whew..It seems like
+it's getting hotter in here, perhaps you should get moving.|n
+~
+0 ANY 2862 0
+D0
+~
+~
+0 0 2858
+D2
+~
+door~
+1 0 2856
+E
+tele~
+MOVE!!!
+~
+S
+
+#2858
+|n|rWalkway Over the Furnace|n~
+|n|rYou are on a walkway over the huge furnace that heats Shadow Mist.
+It is really hot here but not so hot that it is unbearable. The walkway
+leads south over the furnace. There is a door in the east wall. It is
+getting warmer in here, perhaps you should get out of here while you
+can.|n
+~
+0 ANY 2859 0
+D1
+~
+~
+1 0 2864
+D2
+door~
+~
+1 0 2857
+E
+tele~
+MOVE!
+~
+S
+
+#2859
+|n|rThe Room Gets Hotter|n~
+|n|rThe temperature has risen several degrees. The heat has now become 
+unbearable. It would be best to get out of this room NOW!!!!|n
+~
+0 ANY 2860 0
+D1
+~
+door~
+1 0 2864
+D2
+~
+~
+0 0 2862
+E
+tele~
+MOVE NOW!
+~
+S
+
+#2860
+|n|rThe Flames Engulf You~
+The flames come roaring over the railing of the walkway and turn you 
+into a charred corpse. Next time you come this way, I advise you to 
+move faster.|n
+~
+0 A 0
+S
+
+#2861
+|n|rThe Flames Engulf You|n~
+|n|rThe flames come roaring over the railing of the walkway and turn you
+into a charred corpse. Next time you'll know that when it says NOW it 
+means NOW!!|n
+~
+0 A 0
+S
+
+#2862
+|n|rThe Room Gets Hotter|n~
+|n|rThe room has gotten much hotter in the past few minutes. Every fiber
+of your being screams at you to get the hell out of this room. NOW!!|n
+~
+0 ANY 2861 0
+D0
+~
+~
+0 0 2859
+D2
+~
+door~
+1 0 2856
+E
+tele~
+MOVE NOW!!
+~
+S
+
+#2863
+Passage Under Shadow Mist~
+The passage here is still dark but gets lighter to the east. There is less
+dust on the floor here than there is to the west. You hear voices from from 
+the east. You wonder who else would want to be down here in this dank awful
+place.
+~
+0 AN 0
+D1
+~
+~
+0 0 2866
+D3
+~
+~
+0 0 2856
+S
+
+#2864
+Passage Under Shadow Mist~
+This room is apparently never used much. It is very dark and a layer of dust
+coats the floor. There are two doors leading out of this place. One to the
+north, and one to the west. An eerie glow shines under the door to the west.
+~
+0 AN 0
+D0
+~
+door~
+1 0 2865
+D3
+~
+steel~
+1 0 2858
+S
+
+#2865
+The Secret Staircase~
+This is apparently a secret room. There is a staircase leading up into the 
+castle. There is a doorway to the east. There seems to be a warm draft coming
+from the south.
+~
+0 AN 0
+D1
+~
+door~
+1 0 2873
+D2
+~
+secret~
+1 0 2864
+D4
+~
+~
+0 0 2881
+S
+
+#2866
+Passage Under Shadow Mist~
+A pair of torches light this section of the hallway. The hallway leads to 
+the east and west. The hallway is very dark and dusty to the west. To the
+east the hallway gets lighter and you hear voices from that direction.
+~
+0 AN 0
+D1
+~
+~
+0 0 2867
+D3
+~
+~
+0 0 2863
+S
+
+#2867
+Passage Under Shadow Mist~
+The passage turns here leading north and west. Torches hang on the wall 
+lighting your way. The corridor is rather dank here and you hear voices 
+coming from the north.
+~
+0 AN 0
+D0
+~
+~
+0 0 2868
+D3
+~
+~
+0 0 2866
+S
+
+#2868
+The Dungeon of Shadow Mist~
+Torches hang on the walls here. The smell of rot and decay hang heavily 
+in the air. Doors to the east and west lead to small cells. The corridor 
+leads to the north and south.
+~
+0 AN 0
+D0
+~
+~
+0 0 2871
+D1
+~
+east~
+4 2800 2870
+D2
+~
+~
+0 0 2867
+D3
+~
+west~
+4 2800 2869
+S
+
+#2869
+A Small Cell~
+This room smells badly of rot. The straw underfoot is damp and sticky. 
+The stone walls are badly scratched and marked. There are no windows in
+this room. The door to the east is heavily reinforced and is probably 
+locked.
+~
+0 AN 0
+D1
+~
+door~
+4 2800 2868
+S
+
+#2870
+A Small Cell~
+The most oppressive thing about this room is not the dampness of the 
+straw It's not the lack of windows or light either. The worst thing 
+about this room is the nasty smell. The only possible egress from the 
+room is a reinforced door to the east.
+~
+0 AN 0
+D3
+~
+door~
+4 2800 2868
+S
+
+#2871
+The Dungeon of Shadow Mist~
+Torches hang on the rough hewn stone walls. The corridor leads to the north
+and south. 
+~
+0 AN 0
+D0
+~
+~
+0 0 2872
+D2
+~
+~
+0 0 2868
+S
+
+#2872
+The Dungeon of Shadow Mist~
+The dungeon corridor ends here. Cells lie to the north, east and west.
+Torches hang on the wall, shedding their smoky light on this dismal scene.
+~
+0 AN 0
+D0
+~
+north~
+4 2800 2875
+D1
+~
+east~
+4 2800 2874
+D2
+~
+~
+0 0 2871
+D3
+~
+west~
+4 2800 2873
+S
+
+#2873
+A Small Cell~
+The smell of rot in this cell is almost unbearable. The floor of the cell
+is lined with rotting straw. A heavily reinforced door is set in the east
+wall. A draft seems to come from the west wall.
+~
+0 AN 0
+D1
+~
+door~
+4 2800 2872
+D3
+~
+secret~
+1 0 2865
+S
+
+#2874
+A Small Cell~
+It's surprising how much smell can come from such a small room. There are
+windows at all in this cell. The floor is covered with heaps of decaying 
+straw. The only feature in the otherwise empty walls is the door to the 
+west.
+~
+0 AN 0
+D3
+~
+door~
+4 2800 2872
+S
+
+#2875
+A Small Cell~
+The hard stone walls are almost completely featureless, save the large 
+reinforced door in the south wall.
+~
+0 AN 0
+D2
+~
+door~
+4 2800 2872
+S
+
+#2876
+The End of the Path~
+You have reached the end of the path to the Druid's Keep of Shadow Mist. 
+The view over the mountains here is breathtaking. The Druid's Keep is even 
+more awesome. 
+~
+0 AN 4
+D0
+~
+~
+0 0 2877
+D5
+~
+~
+0 0 2853
+S
+
+#2877
+The Gate to Shadow Mist~
+Before you the ruined stone walls and towers of Shadow Mist rise toward the 
+sky to be lost in the clouds. A huge gate stands before you. The path down 
+the mountain lies to the south.
+~
+0 AN 2
+D0
+~
+gate~
+1 0 2878
+D2
+~
+~
+0 0 2876
+S
+
+#2878
+The Library Antechamber~
+The size of this room is amazing. The vaulted ceilings must be at least 20
+feet high. The walls are covered in mystic runes carved in an ancient
+language that you are unable to comprehend. The gate out of Shadow Mist
+lies to the south, and the entrance to the Library lies to the north.
+~
+0 AN 0
+D0
+~
+door~
+1 0 2879
+
+D1
+~
+secret~
+4 2864 2886
+D2
+~
+gate~
+4 0 2877
+S
+#2879
+The Druid's Library~
+The walls of this place are covered with bookshelves. Scanning along the
+spines of some of the books you discover that none of them are marked!
+~
+0 AN 0
+D0
+~
+~
+0 0 2880
+D1
+~
+~
+0 0 2885
+D2
+~
+door~
+1 0 2878
+D3
+~
+~
+0 0 2882
+S
+
+#2880
+The Druid's Library~
+There are bookshelves all along the walls here. 
+~
+0 AN 0
+D2
+~
+~
+0 0 2879
+D3
+~
+secret~
+1 0 2881
+S
+
+#2881
+The Secret Staircase~
+The staircase leads upward to the higher levels of the Keep, and down into 
+the murky depths of the dungeons below Shadow Mist. Looking at the walls 
+you see empty torch brackets, as if this staircase has been forgotten.
+~
+0 AN 0
+D1
+~
+door~
+1 0 2880
+D4
+~
+~
+0 0 2889
+D5
+~
+~
+0 0 2865
+S
+
+#2882
+The Druid's Library~
+Bookshelves line the north and south walls. The Druid's have spent time and
+effort compiling knowledge in these books.
+~
+0 AN 0
+D2
+~
+secret~
+4 2854 2883
+D1
+~
+~
+0 0 2879
+S
+
+#2883
+Base of the Tower~
+This small room is at the bottom of the towers. A winding spiral staircase 
+leads up from here.
+~
+0 AN 0
+D0
+~
+door~
+4 2854 2882
+D4
+~
+~
+0 0 2887
+S
+
+#2884
+Bottom of the Stairway~
+You are standing at the base of a hidden stairway that leads up to the next 
+level of the Library. The stairway has been carved out of the rock.
+~
+0 AN 0
+D2
+~
+door~
+1 0 2885
+D4
+~
+~
+0 0 2893
+S
+
+#2885
+The Druid's Library~
+There are bookshelves on the north and south walls here. The books here 
+Seem to be older than the rest of the books in the Library. The Library 
+Could easily contain the life histories of every person who has ever 
+lived here.
+~
+0 AN 0
+D0
+~
+secret~
+1 0 2884
+D3
+~
+~
+0 0 2879
+S
+
+#2886
+Base of the Tower~
+This is a small and obviously very secret room in the Druid's Keep. 
+A spiral staircase leads upward into the darkness.
+~
+0 AN 0
+D3
+~
+door~
+4 2864 2878
+D4
+~
+~
+0 0 2891
+S
+
+#2887
+A Landing in the Tower~
+You are standing on a landing about midway up the tower.  Stairs lead
+up and down into darkness. A doorway in the northern wall connects the
+tower with the main part of the Keep.
+~
+0 AN 0
+D0
+~
+door~
+4 2854 2888
+D4
+~
+~
+0 0 2894
+D5
+~
+~
+0 0 2883
+S
+
+#2888
+End of the Hallway~
+You are at the western end of a short hallway over the Library of the 
+Druid's. A door with heavy iron bands and a magical lock is set in the 
+southern wall. The hallway leads east into darkness.
+~
+0 AN 0
+D0
+~
+secret~
+1 0 2889
+D1
+~
+~
+0 0 2890
+D2
+~
+door~
+4 2854 2887
+S
+
+#2889
+Top of the Secret Staircase~
+You have finally reached the top of the stairs. This small dark room has
+obviously not been used in quite some time. There is a door in the
+southern wall.
+~
+0 AN 0
+D2
+~
+door~
+1 0 2888
+D5
+~
+~
+0 0 2881
+S
+
+#2890
+A Hallway Over the Library~
+You are standing in the middle of a very short hallway over the Library
+of the Druid's. The hallway leads east and west into darkness. Some light 
+seems to filter in from above.
+~
+0 AN 0
+D1
+~
+~
+0 0 2892
+D3
+~
+~
+0 0 2888
+D4
+~
+secret trap~
+1 0 2896
+S
+
+#2891
+A Landing in the Tower~
+You are on a landing about halfway up the tower. A door in the northern
+wall connects this tower with the rest of the Keep. The stairs lead up 
+and down into darkness. You sense great evil coming from above.
+~
+0 AN 0
+D0
+~
+door~
+4 2864 2892
+D4
+~
+~
+0 0 2895
+D5
+~
+~
+0 0 2886
+S
+
+#2892
+End of the Hallway~
+You are at the end of a hallway that runs west over top of the Druid's
+Library. There is a door in the south wall. The lock on the door is unlike
+any you have every seen. The key hole seems to just be a slit in the wall
+beside the door. Some writing on the east wall draws your attention.
+~
+0 AN 0
+D0
+~
+~
+0 0 2893
+D2
+~
+door~
+4 2864 2891
+D3
+~
+~
+0 0 2890
+E
+writing~
+              Only the holder of the Sword of Truth
+                        May open the Door
+              And partake in the Treasures that lie
+                              Beyond
+~
+S
+
+#2893
+The Top of the Stairs~
+You are at the top of the stairs. The passage leads south from here, and
+the stairs lead downward into darkness.
+~
+0 AN 0
+D2
+~
+~
+0 0 2892
+D5
+~
+~
+0 0 2884
+S
+
+#2894
+The Top of the Tower of Truth~
+This room is flooded with ethereal light. A feeling of goodness and truth
+washes over you. You sense great and powerful magic emanating from all 
+corners of this room.
+~
+0 AN 0
+D5
+~
+~
+0 0 2887
+S
+
+#2895
+The Top of the Tower of Deceit~
+You sense great evil emanating from the very rock in this room. An unearthly
+darkness engulfs this room. A large portion of the east wall has been torn 
+away revealing a dizzying drop to the earth below.
+~
+0 AN 0
+D1
+~
+~
+0 0 2897
+D5
+~
+~
+0 0 2891
+S
+
+#2896
+The Secret Library of the Druid's~
+You have found the secret library of the Druid's. Many of the books here are
+bound shut with magical locks that no mortal could ever open.  The walls of 
+this room glow with an eerie light.
+~
+0 AN 0
+D5
+~
+secret trap~
+1 0 2890
+S
+
+#2897
+You step out off the ledge.~
+It's Not the Fall That Kills You it's the Sudden Stop at The Bottom.
+~
+0 ANY 1054 0
+E
+tele~
+OPPS!!
+~
+S
+
+#0
+
+#Objects
+#2800
+dungeon key~
+an ugly iron key~
+A large simple looking iron key has been carelessly left here.~
+iron~
+key Q A
+0 0 0 0 0
+101 1 10 P
+
+#2801
+sword shadow bearer~
+A sword of the shadow Bearers~
+An Evil looking blade bearing the mark of the skull has been dropped here.~
+steel~
+weapon GHMYZ AN
+sword 10 21 slash C
+101 100 1000 P
+A
+18 10
+A
+19 10
+
+#2802
+cloak shadow bearer~
+a cloak of The shadow Bearers~
+A black cloak with a red skull emblazoned on it has been discarded here.~
+wool~
+armor GSZ AK 
+0 10 10 10 0
+101 20 2000 P
+A
+17 -15
+A
+12 250
+A
+31
+A
+41 
+
+#2803
+helm shadow bearers~
+A shadow Bearer's helm~
+A helm bearing the symbol of The Skull has fallen to the ground here.~
+mithril~
+armor GHMYZ AE
+35 35 35 25 0
+101 30 4000 P
+A
+19 12
+
+#2804
+robe druid~
+A Druid's robe~
+A worn grey robe has been been left lying on the floor.~
+wool~
+armor GHMSZ AK
+40 40 40 40 0
+103 30 500 P
+A
+31
+A
+41 
+
+#2805
+druid staff~
+A druidic staff~
+A wooden staff carved with mystic runes lies here.~
+wood~
+weapon GHMSYZ AN 
+polearm 35 35 pound 0
+103 50 5000 P
+A
+12 200
+A
+31 
+A
+41
+
+#2806
+druid ring~
+a Druid's ring~
+A ring of silver with gold runes is barely visible in the dust here.~
+metal~
+armor AFGHMYZ AB
+25 25 25 25 0
+103 1 1500 P
+A
+12 150
+A
+20 -10
+
+#2807
+druid history tome~
+The book of druid history~
+A heavy leatherbound tome with mystic runes on it has been left here.~
+paper~
+Container GST AO 
+10 AC 0 5 50
+111 50 500 P
+
+#2808
+druid flame~
+A small |i|bblue flame|n~
+A small |i|blue flame|n burns cooly on the ground.~
+fire~
+light GHMSYZ AO
+0 0 -1 0 0
+111 30 1000 P
+A
+12 100
+A
+20 12
+
+#2809
+jailers whip bull~
+A black bull whip~
+A black coil of leather has been left behind.~
+soft leather~
+weapon GHMSYZ AN
+whip 5 10 10 whip 0
+101 20 3500 P
+A
+3 -3
+A
+1 2
+
+#2810
+black elfstone~
+A small elfstone~
+A small black stone lays here, absorbing the power around it.~
+stone~
+warpstone CFGQSTY AO
+0 0 0 0 0
+111 5 1000 P
+
+#2811
+uniform prisoners~
+a prisoners uniform~
+A pile of rags lies in the corner.~
+wool~
+armor HMSTZ AD
+25 25 25 20 0
+95 20 1000 P
+A
+17 10
+
+#2812
+ginseng plant~
+a clove of |yginseng|n~
+A small plant grows here. It smells a little like garlic.~
+earth~
+treasure OS A0 
+0 0 0 0
+105 2 250 P
+
+#2813
+goosefoot plant~
+a sprig of |wgoosefoot|n~
+A strange looking plant grows here. Its leaves look like webbed feet.~
+earth~
+trash OS A0
+0 0 0 0
+105 2 250 P
+
+#2814
+reed straw~
+a |i|yreed|n~
+A hollow |yreed|n grows here.~
+earth~
+trash OS A0
+0 0 0 0
+105 2 250 P
+
+#2815
+hellebore plant~
+a stalk of |mhellebore|n~
+Some hellebore grows here.~
+earth~
+trash OS A0
+0 0 0 0
+105 2 250 P
+
+#2816
+black lotus plant~
+a |i|xblack lotus |gplant|n~
+A |i|xblack and evil looking plant grows here.|n~
+earth~
+pill ES AO 
+105 'death kiss' 0 0 0
+101 2 250 P
+
+#2817
+crimson weed plant~
+a shoot of |rcrimson weed|n~
+A plant of the truest |rcrimson|n grows here.~
+earth~
+pill S AO
+101 'curse' 0 0 0
+105 2 250 P
+
+#2818
+juniper berries bush~
+some |gjuniper |i|rberries|n~
+A |gjuniper bush|n grows nearby.~
+earth~
+pill S AO 
+101 'poison' 0 0 0
+105 2 250 P
+
+#2819
+dogwood plant~
+a |i|yDogwood plant|n~
+A |i|yplant with sparkling orange petals grows from out of the bushes.|n~
+earth~
+trash OS 0
+0 0 0 0
+0 0 0 P
+
+#2820
+dwarf clover plant~
+a |i|gdwarf clover|n~
+A |i|gtiny flowering clover grows underneath your feet.|n~
+earth~
+trash OS 0
+0 0 0 0
+0 0 0 P
+
+#2821
+ice plant~
+an |i|bice plant|n~
+A |i|bcrystalized |n|gplant|n grows here. It appears to be made of ice.~
+earth~
+pill GHS AO
+101 'icicle' 0 0
+100 2 2500 P
+
+#2822
+swamp lily plant~
+|i|ca swamp lily|n~
+|i|cAn ornately flowered plant grows here, standing out from all others.|n~
+earth~
+trash OS A0
+0 0 0 0 0
+105 0 0 P
+
+#2823
+golden bell plant~
+a |i|ygolden bell |gplant|n~
+|i|yA plant flowering tiny bells rings softly in the wind here.|n~
+earth~
+trash OS 0
+0 0 0 0 0
+0 0 0 P
+
+#2824
+english ivy plant~
+some |genglish ivy|n~
+Some small |gemerald ivy|n crawls up the trees here.~
+earth~
+trash OS 0
+0 0 0 0 0
+0 0 0 P
+
+#2825
+ginger plant~
+a sprig of |i|gginger|n~
+A sprig of a spicy |i|gemerald plant|n grows here.~
+earth~
+trash SO A0
+0 0 0 0 0
+105 0 0 P
+
+#2826
+cattail cat tail plant~
+a |ycattail stalk|n~
+|yA plant that looks like a cat's tail rattles in the wind here.|n~
+earth~
+trash OS A0
+0 0 0 0 0
+105 0 0 P
+
+#2827
+amazon sword plant~
+an |i|wamazon sword |gplant|n~
+A |gplant|n with leaves as sharp as swords grows here.~
+earth~
+trash OS 0
+0 0 0 0 0
+0 0 0 P
+
+#2828
+faerie flower plant~
+a |i|mfaerie flower|n~
+A flower shaped like a colorful |i|mfaerie|n lies here.~
+earth~
+trash OS A0
+0 0 0 0 0
+105 0 0 P
+
+#2829
+barrel cactus plant~
+a |ybarrel cactus|n~
+A |gplant |n|shaped like a |ybarrel|n with spines grows here.~
+earth~
+trash OS 0
+0 0 0 0 0
+0 0 0 P
+
+#2830
+duck weed plant yellow~
+a clump of |i|yduck weed|n~
+A clump of |i|yyellow leaves|n glow vibrantly in the sun.~
+earth~
+trash SO 0
+0 0 0 0 0
+105 0 0 P
+
+#2831
+shadow plant~
+a |mshadow |gplant|n~
+|mA mysterious plant grows hidden in the shadows here.|n~
+earth~
+pill GT AO
+101 'shadow rot' 0 0
+101 2 5000 P
+
+#2832
+night jasmin plant~
+|i|wa strand of night blooming jasmin|n~
+|wA long vine with petals the color of the moon grows here.|n~
+earth~
+trash OS A0
+0 0 0 0 0
+105 0 0 P
+
+#2833
+loam clod silver comp~
+|i|xsilver loam clod|n~
+|i|xA clump of soil lies here, streaked with flecks of silver.|n~
+earth~
+money OT A
+1000 0 0 0 0
+0 0 0 P
+E
+loam clump soil~
+|i|xThe soil looks particularly rich, and is streaked with flecks of silver
+ore.|n
+~
+
+#2834
+potion light red bottle~
+A light |i|rred|n potion~
+A light |i|rred|n bottle is lying here~
+glass~
+potion GT AO
+101 'heal' 0 0 0
+101 6 15000 P
+
+#2835
+mace~
+a mace~
+A mace lies here.~
+steel~
+weapon M AN
+mace 8 17 crush 0
+103 50 2000 P
+
+#2836
+druid charm magic~
+The Druid's charm~
+A small clasp of twigs and moss lays woven into a wristband.~
+hemp~
+armor GQT AM
+15 15 15 15 0
+111 8 2000 P
+A
+12 150
+A
+13 100
+
+#2837
+staff wooden~
+a wooden staff~
+You see a wooden staff on the floor.~
+wood~
+weapon HMSZ AN
+polearm 35 5 smash 0
+105 60 5000 P
+E
+staff wooden~
+This oaken staff is very hefty but balanced.
+~
+
+#2838
+robe brown cloth~
+a brown robe~
+Some brown cloth is on the floor.~
+wool~
+armor GHTZ AK
+25 25 25 25 0
+105 60 1100 P
+E
+robe brown cloth~
+This robe is rough, but appears quite durable.
+~
+A
+12 100
+
+#2839
+bookshelves~
+Bookshelves line the walls~
+~
+wood~
+container CO 0
+100 ABCD 0 20 75
+101 80 4000 P
+
+#2840
+jar~
+a |i|cspice |yjar|n~
+A small unlabeled |i|cspice |yjar|n is standing here.~
+glass~
+container AST AO  
+5 1 -1 0
+1 10 1
+
+#2841
+bookshelf~
+Bookshelves line the walls~
+~
+wood~
+container CO 0
+100 ABCD 0 20 75
+101 80 4000 P
+
+#2842
+bookshelves~
+Bookshelves line the walls~
+~
+wood~
+container CO 0
+100 ABCD 0 20 75
+101 80 4000 P
+
+#2843
+bookshelves~
+Bookshelves are lining the walls~
+~
+wood~
+container CO 0
+100 ABCD 0 20 75
+101 80 4000 P
+
+#2844
+bookshelves~
+a bookshelves~
+Wooden bookshelves lining the walls~
+wood~
+container CO 0
+100 ABCD 0 20 75
+0 0 0 P
+
+#2845
+jar~
+a |i|yspice |gjar|n~
+A small unlabeled |i|yspice |gjar|n is standing here.~
+glass~
+container AST AO  
+5 1 -1 0
+1 10 1
+
+#2846
+book magik~
+A book of |rMagik|n~
+|rA dusty tome glows with power.|n~
+paper~
+treasure ABST AO
+0 0 0 0
+105 10 2000 P
+E
+book tome~
+This ancient book predates the Second Wars, and is created of
+magik.  You feel in awe of its mighty powers.
+~
+
+#2847
+animal hide~
+A tanned animal hide~
+A tanned animal hide floats in the mist within.~
+hard leather~
+portal GOT 0
+0 0 A 5801 0
+
+#2848
+noble banner~
+A noble banner~
+A noble banner floats in the mist within.~
+cloth~
+portal GOT 0
+0 0 A 9402 0
+
+#2849
+tree~
+A Lively tree~
+A lively tree floats in the mist within.~
+wood~
+portal GOT 0
+0 0 A 19812 0
+
+#2850
+holy symbol~
+A Holy Symbol~
+A bright holy symbol floats in the mist within.~
+metal~
+portal GOT 0
+0 0 A 16233 0
+
+#2851
+huge sword~
+A huge sword~
+A huge sword floats in the mist within.~
+steel~
+portal GOT 0
+0 0 A 2903 0
+
+#2852
+flowing mass~
+A flowing mass~
+A flowing mass flows in the mist within.~
+energy~
+portal GOT 0
+0 0 A 8421 0
+
+#2853
+small dagger~
+A small dagger~
+A small dagger floats in the mist within.~
+steel~
+portal GOT 0
+0 0 A 18150 0
+
+#2854
+tower key~
+a mithril key~
+A key made of the finest mithril has been left here.~
+mithril~
+key DQ A
+0 0 0 0 0
+101 1 10 P
+
+#2855
+Book~
+A Book covered in runes~
+A Large book covered in faded runes has been left here.~
+paper~
+container AGSY AO 
+10 ABCD 0 5 50
+95 100 1500 P
+
+#2856
+Book~
+A Book covered in runes~
+A Large book covered in faded runes has been left here.~
+paper~
+container AGSY AO 
+10 ABCD 0 5 50
+95 100 1500 P
+
+#2857
+Book~
+A Book covered in runes~
+A Large book covered in faded runes has been left here.~
+paper~
+container AGSY AO 
+10 ABCD 0 5 50
+95 100 1500 P
+
+#2858
+Book~
+A Book covered in runes~
+A Large book covered in faded runes has been left here.~
+paper~
+container AGSY AO 
+10 ABCD 0 5 50
+95 100 1500 P
+
+#2859
+Satin Bookmarker~
+Satin ribbons braided into a bookmarker.~
+Several satin ribbons braided into a bookmarker lies here.~
+silk~
+treasure CHTU AO
+0 0 0 0 0
+95 1 500 P
+
+#2860
+Velvet Bookmarker~
+Velvet ribbons braided into a bookmarker.~
+Several velvet ribbons braided into a bookmarker lies here.~
+silk~
+treasure CHTU AO
+0 0 0 0 0
+95 1 500 P
+
+#2861
+gold bookmarker~
+A gold bookmarker in the shape of a Unicorn.~
+A gold bookmarker in the shape of a Unicorn lies here.~
+gold~
+treasure CHTUY AO
+0 0 0 0 0
+111 1 500 P
+
+#2862
+silver bookmarker~
+A silver bookmarker in the shape of a oak leaf.~
+A silver bookmarker in the shape of a oak leaf lies here.~
+silver~
+treasure CHTUY AO
+0 0 0 0 0 
+95 1 500 P
+
+#2863
+bronze bookmarker~
+A bronze bookmarker in the shape of a rose.~
+A bronze bookmarker in the shape of a rose lies here.~
+bronze~
+treasure CHTUY AO
+0 0 0 0 0
+95 1 500 P
+
+#2864
+sword truth~
+The Sword of Truth~
+The Sword of Truth lies here.~
+mithril~
+weapon GKMT AN
+sword 10 20 slash DE 
+105 100 5000 P
+A
+18 10
+A
+19 10
+A
+20 5
+A
+1 -5
+F
+A 0 0 CVc
+
+#2865 
+sword decit~
+The Sword of Decit~
+The Sword of Decit lies here.~
+mithril~
+weapon GJMT AN
+sword 10 20 slash DE 
+105 100 5000 P
+A
+18 10
+A
+19 10
+A
+20 5
+A
+1 -5
+F
+A 0 0 GVc
+
+#2866
+charred corpse~
+Charred Corpse~
+A Charred Corpse lies here.~
+clay~
+container T 0
+100 ABCDHI 2866 50 50
+100 1000 0 P
+
+#2867
+flesh~
+Flesh~
+A small piece of charred flesh lies here.~
+food~
+food QT A
+5 4 0 0 0 
+95 10 45 P
+
+#2868
+altar~
+stone altar~
+~
+stone~
+container O 0 
+100 0 0 50 50  
+105 300 0 P 
+
+#2869
+glass cabinet~
+a Glass Cabinet~
+A glass cabinet is here filled with spices.~
+glass~
+container T 0
+100 0 0 50 50
+100 0 0 P
+
+#S
+
+#0
+
+
+#MOBILES
+#2800
+wolf grey~
+the large, grey wolf~
+A large, grey wolf is here, glaring hungrily at you.
+~
+The large, grey wolf eyes you with interest while licking its lips.
+~
+wolf~
+ABCF EFHJZc 0 0
+95 90 50d13+13400 50d13+13400 7d10+65 bite  
+-65 -65 -65 -65
+ANU AB IO HJS
+stand  stand either 8000
+0 0 small 0
+X
+The large, grey wolf eyes you with interest while licking its lips.~ 
+
+#2801
+shadow druid~
+a shadow druid~
+A shadow druid is here doing many acts of evil.
+~
+This creature may have been human once but has been so twisted by its evil
+doings that is no longer resembles any normal creature.
+~
+elf~
+ABFO BGHJL -100 0
+101 95 50D12+11500 50D12+10000 9D9+72 slash
+-80 -80 -80 -80 
+EFG AB IOP HJS 
+stand stand male 10000
+0 0 medium 0  
+
+#2802
+shadow druid jailer~
+The shadow druid jailer~
+The jailer of the shadow druids stands here abusing his prisoners.
+~
+The jailer has had a horrible life. The only way he can make his life look
+good is to make others miserable. This is a creature who really enjoys his
+job.
+~
+human~
+ABFH BDFHLPQ -100 O
+101 90 50d12+14500 50d12+14500 9d9+72 whip
+-70 -70 -70 -70
+AFJ AB I HS
+stand stand male 9000
+0 0 medium 0
+
+#2803
+shadow druid wanderer~
+a shadow druid wanderer~
+A shadow druid wanders around here looking for evil things to do.
+~
+The shadow druid wanderer might have been human once, but he has been so 
+twisted by his evil deeds that he is human no longer.
+~
+elf~
+ABFO BEGHLQ 0 0
+101 91 50D11+14100 50D11+14100 9D9+72 slash
+-72 -72 -72 -72 
+AFG AB IM HJ
+stand stand male 8000
+0 0 medium 0  
+
+#2804
+prisoner~
+a prisoner~
+A prisoner runs around here trying to escape.
+~
+This poor man has been to hell and back. You feel very sorry for him, maybe
+you should put him out of his misery.
+~
+human~
+ABH HPQ O O
+95 85 50d10+13400  50d10+13400 7d10+65 scream
+-65 -65 -65 -65
+FIJN AB I S
+stand stand male 9000
+0 0 medium 0
+
+#2805
+druid guard~
+a druid guard~
+A druid guardsman stands here keeping a silent watch.
+~
+The druid guardsman looks very dignified standing here in his grey robes.
+He doesn't look at all like the person you'd want to be messing with.
+~
+elf~
+ABT EFHLPQZ 0 0 
+101 93 50d12+14500 50d12+14500 9d9+74 charge
+-76 -76 -76 -76
+AGH AB EFG LQ
+stand stand male 10000
+0 0 medium 0  
+
+#2806
+druid librarian~
+a druid librarian~
+A druid librarian quietly searches for a missing tome.
+~
+This frail old women looks rather weak. For all her weakness though she 
+could show you a thing or two about fighting, and would probably beat you
+in a one on one fight.
+~
+manx~
+ABH CDEFGHJL 0 0
+103 93 50d13+15000 50d13+15000 7d12+76 mind
+-80 -80 -80 -80
+AFG AB MNP LQ
+stand stand female 10000
+0 0 medium 0  
+
+#2807
+mystic guard druid~
+a mystic druid guard~
+A mystic druid guard stands watch over the keep here.
+~
+This man appears to be really powerful and a formidable opponent. His 
+eyes betray a hidden power that he commands.
+~
+human~ 
+ABFT BCDEFGHLPQZ 0 0 
+103 93 50d13+15000 50d13+15000 7d12+76 magic
+-80 -80 -80 -80
+AGH AB NP M
+stand stand male 10000
+0 0 medium 0  
+
+#2808
+allanon~
+Allanon~
+Allanon stands before you, druid fire crackling from his fingertips.
+~
+A formidable man, all of seven feet all, with raven hair and beard to match.
+His piercing blue eyes look right through you.  This is not a man to be 
+taken lightly.
+~
+human~
+ABFR CDEFGHLZ 0 0 
+111 100 50d30+22600 50d30+22000 10d10+99 magic
+-99 -99 -99 -99
+AG AB MNP LQ
+stand stand male 10000
+0 0 medium 0  
+
+#2809
+hierophant~
+The Hierophant~
+The old Hierophant of the holy grove is here, gathering hollies.
+~
+He is a very old man, wearing an old robe; but from the glint in his clear
+blue eyes you can see that He is aware and wise to the traps and pitfalls 
+of the world.
+~
+human~
+ABH CDEFGHL -100 0
+101 95 50D11+14100 50D11+14100 9D9+72 magic
+-84 -84 -84 -84 
+EFIJ AB HIP J 
+stand stand male 10000
+0 0 medium 0  
+
+#2810
+hierophant~
+The Hierophant~
+The old Hierophant of the holy grove is here, gathering ivy.
+~
+She is a very old woman, dressed in an old gown; but from the glint in her
+clear blue eyes you can see that She is aware of the world, and wise to 
+its traps and pitfalls.
+~
+human~
+ABH CDEFGHL -100 0
+101 95 50D11+14100 50D11+14100 9D9+72 magic
+-84 -84 -84 -84 
+EFIJ AB HIP J
+stand stand female 10000
+0 0 medium 0
+
+#2811
+elder druid~
+an elder druid~
+An elder druid stands here, watching the local flora and wildlife.
+~
+He looks ageless, as do all druids. His grey beard contrasts strongly with
+his lack of wrinkles.
+~
+elf~
+ABQ CDEFGHL -100 0
+105 95 50D15+16300 50D15+16300 9D10+80 magic
+-84 -84 -84 -84 
+FGIJ AB HIMNP FJ
+stand stand male 10000
+0 0 medium 0
+
+#2812
+elder druidess~
+an elder druidess~
+An elder druidess stands here, watching the local fauna and feeding rabbits.
+~
+She looks ageless, as do all druids.  She smiles a beautiful smile at you.
+~
+elf~
+ABR CDEFGHL -100 0
+105 95 50D15+16300 50D15+16300 9D10+80 magic
+-84 -84 -84 -84 
+FGIJ AB HIMNP FJ
+stand stand female 10000
+0 0 medium 0
+
+#2813
+doe~
+a doe~
+A doe is here, munching on grass.
+~
+This peaceful creature looks at you with big dark eyes.  Her nose twitches
+as she sniffs at you, but she goes back to chewing some grass.
+~
+horse~
+ABH HL O O
+95 85 50d10+13400 50d10+13400 8d9+67 chomp
+FIJN AB I HJ
+stand stand female 9000
+0 0 small 0
+X
+This peaceful creature looks at you with big dark eyes.~
+
+#2814
+deer~
+a deer~
+A deer is here, staring back at you.
+~
+The deer looks angered at your intrusion. 
+~
+horse~
+ABH HL O O
+95 85 50d10+13400 50d10+13400 8d9+67 chomp
+FIJN AB I HJ
+stand stand male 9000
+0 0 small 0
+X
+The deer looks angered at your intrusion~
+
+#2815
+stag deer large~
+a stag~
+A large deer stag is here, protecting his territory.
+~
+He eyes you with contained anger. You'd better leave him alone!
+~
+horse~
+ABH HL O O
+95 85 50d10+13400 50d10+13400 8d9+67 chomp
+FIJN AB I HJ
+stand stand male 9000
+0 0 small 0
+X
+He eyes you with contained anger.~
+
+#2816
+bunny rabbit~
+a small bunny~
+A small bunny is here, poking from bush to bush.
+~
+This bunny looks so adorable, you wished you had one just like this!
+~
+rabbit~
+ABH HL O O
+95 85 50d10+13400 50d10+13400 8d9+67 claw
+FIJN AB I H
+stand stand male 9000
+0 0 small 0
+
+#2817
+snake~
+a harmless snake~
+A small snake slithers between the grass.
+~
+Upon careful inspection, you are sure it is NOT a cobra!
+~
+snake~
+ABH BHPQ O O
+95 85 50d10+13400 50d10+13400 8d9+67 bite
+FH AB LM HI
+stand stand male 9000
+0 0 small 0
+
+#2818
+druid~
+a druid~
+A druid is here in meditation.
+~
+He doesn't like you bothering him, but is too polite to ask you to leave.
+~
+human~
+AFR BCDEFGHL 0 0
+101 91 50D11+14100 50D11+14100 9D9+72 magic
+-76 -76 -76 -76 
+ABEFGI AB HIJMNP FG
+stand stand male 8000
+0 0 medium 0  
+
+#2819
+druidess~
+a druidess~
+A druidess is here, peering at you.
+~
+She wonders why you are staring at her, and how you got in here.
+~
+human~
+ABFR BCDEFGHL 0 0
+101 91 50D11+14100 50D11+14100 9D9+72 magic
+-76 -76 -76 -76 
+AEFGI AB HIJMNP FG
+stand stand female 8000
+0 0 medium 0  
+
+#2920
+lesser shadow~
+A Lesser Shadow~
+A low Shadow Lord seeks vengeance for his imprisonment.
+~
+A black form lunges forward out of the shadows! It is a Shadow Lord,
+lesser known of the breed. It is still a force to be reckoned with, 
+perhaps that is why it has been trapped here for so many centuries. 
+A master of magik, the Shadow had devoted the greater part of its 
+existence to the study of the malign arcane. True steel will give 
+the lord cause for concern.
+~
+human~
+ABFR BCDEFGHLPQZ 0 0 
+105 100 50d15+16300 50d15+16300 9d10+80 magic
+-84 -84 -84 -84
+AG AB MOP N
+stand stand male 10000
+0 0 medium 0  
+
+#2821l
+shaanril high mage~
+Shaanril the mage~
+Shaanril, the mage, leafs through a large ancient tome.
+~
+Even though the mage looks old and tired, you can clearly see the vast 
+amounts of knowledge she possesses. She is wearing fine magic clothing
+and is surrounded by a blue shimmering aura.
+~
+human~
+FBHR BCDEFGHLPQZ 0 0 
+105 93 50d15+16300 50d15+163000 9d10+80 magic
+-80 -80 -80 -80
+AGH AB NOP M 
+stand stand male 10000
+0 0 medium 0  
+
+#2822
+otho high cleric~
+Otho the cleric~
+Otho, the cleric, stands here preaching the word.
+~
+You have no doubt that this cleric is truly close to your god.
+Otho has a peaceful loving look, and is surrounded by a white aura.
+~
+human~
+ABFHQ BCDEFGHLPQZ 0 0 
+103 93 50d13+15000 50d13+15000 7d12+76 magic
+-80 -80 -80 -80
+AG AB LMNPQ HI
+stand stand female 10000
+0 0 medium 0  
+
+#2823
+artemis high druid~
+Artemis the druid~
+Artemis, the druid, throws berries into a pot.
+~
+Queen of all druid kind, Artemis led the forces that destroyed a horde
+of invading ogre's which threatened the forest.  Her powers are great
+and reinforced by the strength of nature.
+~
+human~
+AFR BCDEFGHLPQZ 0 0 
+111 100 50d30+22600 50d30+22600 10d10+99 magic
+-99 -99 -99 -99
+ABG AB LMNPO HI
+stand stand female 10000
+0 0 medium 0  
+
+#2824
+shadow mist~
+A Shadow Mist~
+A swirling mist floats in the center of the room.
+~
+A swirling mist creating shadows though out the room. 
+~
+human~
+ABF BCDEFGHLPQZ 0 0 
+103 93 50d13+15000 50d13+15000 7d12+76 wail
+-80 -80 -80 -80
+AG AB MNP LQ
+stand stand male 10000
+0 0 medium 0  
+
+#0
+
+#Resets
+M 0 2800  4  2848   1     * WOLF
+*
+M 0 2800  4  2849   1     * WOLF
+*
+M 0 2800  4  2853   1     * WOLF
+*
+M 0 2801  6  2868   2     * SHADOW DRUID
+E 1 2801 10    16           * SWORD SHADOW
+E 1 2802 10    12           * CLOAK SHADOW
+E 1 2803 10     6           * HELM SHADOW
+*
+M 0 2801  6  2868   2     * SHADOW DRUID
+E 1 2801 10    16           * SWORD SHADOW
+E 1 2802 10    12           * CLOAK SHADOW
+E 1 2803 10     6           * HELM SHADOW
+*
+M 0 2801  6  2872   1      * SHADOW DRUID
+E 1 2801 10    16            * SWORD SHADOW
+E 1 2802 10    12            * CLOAK SHADOW
+E 1 2803 10     6            * HELM SHADOW
+*
+M 0 2802  1  2872   1      * SHADOW JAILER
+E 1 2803 10     6            * HELM SHADOW
+E 1 2809 10    16            * WHIP BULL
+E 1 2802 10    12            * CLOAK SHADOW
+G 1 2800  1                  * DUNGEON KEY
+*
+M 0 2803  2  2871   2      * SHADOW WANDERER
+E 1 2801 10    16          * SWORD SHADOW
+E 1 2802 10    12            * CLOAK SHADOW
+E 1 2803 10     6            * HELM SHADOW
+*
+M 0 2804  5  2869   1      * PRISONER
+E 1 2811 10     5            * UNIFORM
+*
+M 0 2804  5  2870   1      * PRISONER
+E 1 2811 10     5            * UNIFORM
+*
+M 0 2804  5  2873   1      * PRISONER
+E 1 2811 10     5            * UNIFORM
+*
+M 0 2804  5  2874   1      * PRISONER
+E 1 2811 10     5            * UNIFORM
+* 
+M 0 2804  5  2875   1      * PRISONER
+E 1 2811 10     5           * UNIFORM
+*
+M 0 2805  6  2877   1      * Druid Guard
+G 1 2854  3                  * Tower Key
+*
+M 0 2805  6  2882   1      * DRUID GUARD
+E 1 2804 10    12            * ROBE DRUID
+E 1 2805 10    16            * STAFF DRUID
+E 1 2806 10     1            * RING DRUID
+*
+M 0 2805  6  2878   1      * DRUID GUARD
+E 1 2804 10    12            * ROBE DRUID
+E 1 2805 10    16            * STAFF DRUID
+E 1 2806 10     1            * RING DRUID
+G 1 2833 10     4            * SILVER CLOD
+*
+M 0 2805  6  2880   1      * DRUID GUARD
+E 1 2804 10    12            * ROBE DRUID
+E 1 2805 10    16            * STAFF DRUID
+E 1 2806 10     1            * RING DRUID
+*
+M 0 2805  6  2885   1      * DRUID GUARD
+E 1 2804 10    12            * ROBE DRUID
+E 1 2805 10    16            * STAFF DRUID
+E 1 2806 10     1            * RING DRUID
+*
+M 0 2806  4  2879   1      * DRUID LIBRARIAN
+*
+M 0 2806  4  2880   1      * DRUID LIBRARIAN
+*
+M 0 2806  4  2885   1      * DRUID LIBRARIAN
+*
+M 0 2807  4  2888   1      * MYSTIC GUARD
+E 1 2835 10    16            * Mace
+*
+M 0 2807  4  2888   1      * MYSTIC GUARD
+E 1 2835 10    16            * Mace
+G 1 2833 10                  * CLOD
+*
+M 0 2807  4  2892   2      * MYSTIC GUARD
+E 1 2835 10    16            * Mace
+*
+M 0 2808  1  2894   1      * ALLANON
+E 1 2808 10     0            * DRUID FLAME 
+E 1 2836 10    14            * DRUID CHARM
+G 1 2810 10                  * BLACK ELFSTONE
+E 1 2807  5    17            * Book
+P 1 2861  5  2807             * Gold Marker
+*
+M 0 2809  1  2840   1      * HIEROPHANT MALE
+E 1 2837 10    16            * STAFF WOODEN
+E 1 2838 10    12            * ROBE BROWN
+G 1 2812 10                  * GINSENG 
+G 1 2813 10                  * GOOSEFOOT
+G 1 2816 10                  * BLACK LOTUS
+*
+M 0 2810  2  2835   1      * HIEROPHANT FEMALE
+E 1 2837 10     16           * STAFF WOODEN
+E 1 2838 10     12           * ROBE BROWN
+G 1 2818 10                  * JUNIPER BERRIES
+G 1 2822 10                  * SWAMP LILY
+*
+M 0 2811  2  2826   1      * ELDER DRUID 
+E 1 2837 10    16            * STAFF WOODEN
+G 1 2825 10                  * GINGER 
+G 1 2826 10                  *CATTAIL
+*
+M 0 2812  4  2839   1     * ELDER DRUIDESS
+E 1 2837 10    16           * STAFF WOODEN
+G 1 2832 10                 * NIGHT JASMIN
+G 1 2828 10                 * FAERIE FLOWER
+*
+M 0 2813  4  2840   1     * DOE
+*
+M 0 2813  4  2838   1     * DOE
+*
+M 0 2814  4  2841   1     * DEER
+*
+M 0 2815  4  2838   1     * STAG
+*
+M 0 2816  4  2838   1     * RABBIT
+*
+M 0 2816  4  2841   1     * RABBIT
+*
+M 0 2816  4  2842   1     * RABBIT
+*
+M 0 2817  4  2841   1     * SNAKE
+*
+M 0 2817  4  2837   1     * SNAKE 
+*
+M 0 2817  4  2827   1     * SNAKE 
+* 
+M 0 2818  4  2842   1     * DRUID
+G 1 2814                    * REED STRAW
+G 1 2815                    * HELLEBORE
+*
+M 0 2818  4  2838   1     * DRUID
+G 1 2815                    * HELLEBORE
+*
+M 0 2818  4  2836   1     * DRUID
+G 1 2817                    * CRIMSON WEED
+*
+M 0 2819  4  2844   1     * DRUIDESS
+*
+M 0 2819  4  2841   1     * DRUIDESS
+*
+M 0 2819  4  2837   1     * DRUIDESS
+*
+M 0 2820  2  2833   1     * Lesser Shadow
+G 1 2846 10                 * Book Majik
+*
+M 0 2821  2  2894   1     * SHAANRIL
+*
+M 0 2822  2  2884   1     * OTHO HIGH CLERIC
+G 1 2834                    * Red Potion 
+*
+M 0 2823  2  2896   1     * ARTEMIS HIGH DRUID
+*
+M 0 2824  6  2804   1     * SHADOW MIST
+*
+M 0 2824  6  2807   1     * SHADOW MIST
+*
+M 0 2824  6  2831   1     * SHADOW MIST
+*
+M 0 2824  6  2820   1     * SHADOW MIST
+*
+M 0 2824  6  2822   1     * SHADOW MIST
+*
+M 0 2824  6  2818   2     * SHADOW MIST
+*
+O  0 2817 10 2837           * Crimson Weed
+*
+O  0 2819  1 2801           * Dogwood
+*
+O  0 2820  1 2838           * Clover
+*
+O  0 2821  1 2848           * Ice Plant
+*
+O  0 2823  2 2840           * Golden Bell
+*
+O  0 2824  1 2843           * English Ivy
+*
+O  0 2827  1 2845           * Amazon Sword 
+*
+O  0 2828  2 2802           * Faerie Plant
+*
+O  0 2829  1 2844           * Barrel Cactus
+*
+O  0 2830  1 2839           * Duck Weed
+*
+O  0 2831  1 2846           * Shadow Plant
+*
+O  0 2869  1 2835           * Glass Cabinet
+P  1 2840 10 2869   1         * Spice Jar
+P  1 2845 10 2869   1         * Spice Jar
+*
+O  0 2839  1 2879           * Bookcase
+P  1 2855  5 2839             * Book
+P  1 2859  1 2855   1          * Satin Marker
+*
+O  0 2841  1 2880           * Bookcase
+P  1 2856  1 2841             * Book
+P  1 2860  1 2856   1          * Velvet Marker
+*
+O  0 2842  1 2882           * Bookcase
+P  1 2857  1 2842             * Book
+P  1 2862  1 2857   1          * Silver Marker
+*
+O  0 2843  1 2885           * Bookcase
+P  1 2858  1 2843            * Book
+P  1 2863  1 2858   1         * Bronze Marker
+*
+O  0 2844  1 2896           * Bookcase
+*
+O  0 2868  1 2826           * Altar
+P 10 2864  1 2867   1        * Sword of Truth
+*
+O  1 2866  1 2861   1       * Corpse
+P 10 2865  1 2865   1        * Sword of Decit
+*
+O  0 2867  1 2862   1       * Flesh
+*
+O  0 2847  1 2818           * Animal Hide Portal
+*
+O  0 2848  1 2829           * Banner Portal
+*
+O  0 2849  1 2825           * Tree Portal
+*
+O  0 2850  1 2823           * Holy Symbol Portal
+*
+O  0 2851  1 2820           * Sword Portal
+*
+O  0 2852  1 2822           * Mass Portal
+*
+O  0 2853  1 2831           * Dagger Portal
+*
+D 0 2851   1   1            * The End of the Tunnel east closed
+D 0 2852   3   1            * Secret Passage inot the Keep west closed
+D 0 2856   0   1            * Passage Under Shadow Mist north closed
+D 0 2857   2   1            * Walkway Over the Furnace south closed
+D 0 2858   1   1            * Walkway Over the Furnace east closed
+D 0 2858   2   1            * Walkway Over the Furnace south closed
+D 0 2859   1   1            * The Room Gets Hotter east closed
+D 0 2862   2   1            * The Room Gets Hotter south closed
+D 0 2864   1   1            * Passage Under Shadow Mist north closed
+D 0 2864   3   1            * Passage Under Shadow Mist west closed
+D 0 2865   1   1            * The Secret Staircase east closed
+D 0 2865   2   1            * The Secret Staircase south closed
+D 0 2868   1   2            * The Dungeon of Shadow Mist east closed & locked 
+D 0 2868   3   2            * The Dungeon of Shadow Mist west closed & locked
+D 0 2869   1   2            * A Small Cell east closed & locked
+D 0 2870   3   2            * A Small Cell west closed & locked 
+D 0 2872   0   2            * The Dungeon of Shadow Mist north closed & locked
+D 0 2872   1   2            * The Dungeon of Shadow Mist east closed & locked
+D 0 2872   3   2            * The Dungeon of Shadow Mist west closed & locked
+D 0 2873   1   2            * A Small Cell east closed & locked
+D 0 2873   3   1            * A Small Cell west closed
+D 0 2874   3   2            * A Small Cell west closed & locked
+D 0 2875   2   2            * A Small Cell south closed & locked
+D 0 2877   0   1            * The Gate to Shadow Mist north closed
+D 0 2878   0   1            * The Library Antechamber north closed
+D 0 2878   1   2            * The Library Antechamber east closed & locked
+D 0 2878   2   1            * The Library Antechamber south closed
+D 0 2879   2   1            * The Druid's Library closed
+D 0 2880   3   1            * The Druid's Library west closed
+D 0 2881   1   1            * The Secret Staircase east closed
+D 0 2882   2   2            * The Druid's Library south closed & locked
+D 0 2883   0   2            * Base of the Tower north closed & locked
+D 0 2884   2   1            * Bottom of the Stairway south closed
+D 0 2885   0   1            * The Druid's Library north closed
+D 0 2886   3   2            * Base of the Tower west closed & locked
+D 0 2887   0   2            * A Landing in the Tower north closed & locked
+D 0 2888   0   1            * End of the Hallway north closed 
+D 0 2888   2   2            * End of the Hallway south closed & locked
+D 0 2889   2   1            * Top of the Secret Staircase south closed 
+D 0 2890   4   1            * A Hallway Over the Library closed
+D 0 2891   0   2            * A Landing in the Tower north closed & locked
+D 0 2892   2   2            * End of the Hallway south closed & locked
+D 0 2896   5   1            * The secret Library of the Druid's closed
+*
+R 0 2804   5                * A Shadowy Mist
+R 0 2805   5                * A Shadowy Mist
+R 0 2806   5                * A Shadowy Mist
+R 0 2807   5                * A Shadowy Mist
+R 0 2808   5                * A Shadowy Mist
+R 0 2809   5                * A Shadowy Mist
+R 0 2810   5                * A Shadowy Mist
+R 0 2811   5                * A Shadowy Mist
+R 0 2812   5                * A Shadowy Mist
+R 0 2813   5                * A Shadowy Mist
+R 0 2814   5                * A Shadowy Mist
+R 0 2815   5                * A Shadowy Mist
+R 0 2816   5                * A Shadowy Mist
+R 0 2817   5                * A Shadowy Mist
+R 0 2818   5                * A Shadowy Mist
+R 0 2819   5                * A Shadowy Mist
+R 0 2820   5                * A Shadowy Mist
+R 0 2821   5                * A Shadowy Mist
+R 0 2822   5                * A Shadowy Mist
+R 0 2823   5                * A Shadowy Mist
+R 0 2824   5                * A Shadowy Mist
+R 0 2825   5                * A Shadowy Mist
+R 0 2829   4                * A Shadowy Mist
+R 0 2831   5                * A Shadowy Mist
+R 0 2834   4                * A Shadowy Mist
+*
+S
+
+#Shops
+0
+
+#Specials
+M 2801 spec_cast_undead      * Shadow Druid
+M 2803 spec_cast_undead      * Druid Wanderer
+M 2808 spec_cast_mage        * Allanon 
+M 2811 spec_cast_cleric      * Elder Druid
+M 2812 spec_cast_mage        * Elder Druidess
+M 2818 spec_cast_mage        * Druid
+M 2819 spec_cast_mage        * Druidess
+M 2820 spec_cast_mage        * Lessor Shadow
+M 2821 spec_cast_mage        * Shaaril
+M 2822 spec_cast_cleric      * Otho
+M 2823 spec_cast_mage        * Artemis
+S
+
+#$

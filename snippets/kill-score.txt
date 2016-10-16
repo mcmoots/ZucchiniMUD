@@ -1,0 +1,85 @@
+/***************************************************************************\
+[*]    ___    ____   ____   __   __  ____ [*]   ROGUE: ROM With Attitude  [*]
+[*]   /#/ )  /#/  ) /#/  ) /#/  /#/ /#/   [*]    All rights reserved      [*]
+[*]  /#/ <  /#/  / /#/ _  /#/  /#/ /#/--  [*]   Copyright(C) 2000-2001    [*]
+[*] /#/   \(#(__/ (#(__/ (#(__/#/ (#(___  [*] Kenneth Conley (Mendanbar)  [*]
+[*]  Expression of Digital Creativity..   [*]  scmud@mad.scientist.com    [*]
+[-]---------------------------------------+-+-----------------------------[-]
+[*] File: kill_score.c                                                    [*]
+[*] Usage: tracking a players deaths and kills                            [*]
+[*] From: rogue.dyn.dhs.org:3033                                          [*]
+\***************************************************************************/
+
+This is just a real simple and easy snippet for tracking the number of
+kills and what type of kills a player makes. This is a lot of fun and
+makes great for boasting about how bad@$$ you are >;}
+
+Mob Kills    : How many mobs a player has killed.
+Mob Deaths   : How many mobs have killed the player.
+Player Kills : How many players the player has killed.
+Player Deaths: How many players have killed the player.
+
+On SCMud I added the pk/pd to the report command which would report
+to everyone in the room how many players you have killed etc. The
+players use this to see if someone has done enough killing to join
+their clans, become commanders of the clan, and a host of other things.
+
+You only need to change four files: act_info.c, save.c, fight.c, merc.h
+
+// act_info.c -> do_score
++    if (!IS_NPC(ch))
++    {
++	sprintf(buf, "Mob Kills:    %4d.  Mob Deaths:    %4d.\n\r",
++	ch->mkill, ch->mdeath);
++	send_to_char(buf, ch);
++	sprintf(buf, "Player Kills: %4d.  Player Deaths: %4d.\n\r",
++	ch->pkill, ch->pdeath);
++	send_to_char(buf, ch);
++    }
+
+// fight.c -> raw_kill
+    stop_fighting( victim, TRUE );
++    if (IS_NPC(victim) && !IS_NPC(ch)) ch->mkill++;
++    if (!IS_NPC(victim) && IS_NPC(ch)) victim->mdeath++;
++    if (!IS_NPC(victim) && !IS_NPC(ch) && ch != victim)
++    {
++	ch->pkill++;
++	victim->pdeath++;
++    }
+
+// save.c
++    fprintf( fp, "PkPdMkMd %d %d %d %d\n",
++	ch->pkill, ch->pdeath, ch->mkill, ch->mdeath );
+    fprintf( fp, "HMV  %d %d %d %d %d %d\n",
+
+// down more in save.c
+    ch->pcdata->condition[COND_HUNGER]  = 48;
++    ch->pkill                           = 0;
++    ch->pdeath                          = 0;
++    ch->mkill                           = 0;
++    ch->mdeath                          = 0;
+
+// down even more in save.c
+	    KEY( "Prac",        ch->practice,           fread_number( fp ) );
++	    if ( !str_cmp( word, "PkPdMkMd" ) )
++	    {
++		ch->pkill	= fread_number( fp );
++		ch->pdeath	= fread_number( fp );
++		ch->mkill	= fread_number( fp );
++		ch->mdeath	= fread_number( fp );
++		fMatch = TRUE;
++		break;
++	    }
+
+// merc.h -> struct char_data
+    int		wait;
+    int		daze;
++    int	pkill;
++    int	pdeath;
++    int	mkill;
++    int	mdeath;
+
+-------
+Compile, reboot, and enjoy!
+-Mendanbar <scmud@mad.scientist.com>
+telnet://rogue.dyn.dhs.org:3033

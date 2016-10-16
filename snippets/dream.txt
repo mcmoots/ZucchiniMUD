@@ -1,0 +1,449 @@
+Dream Code v 1.0 by Andrew Tolmasoff (Belgarath/Phate131)
+
+This code is pretty much self explanitory, it is rather
+basic right now, but I will improve on it as time progresses.
+It's pretty much self explanitory...You go to sleep...and it has
+5 dreams to pick from with 5 events in each, when one finishes
+It randomly generates which dream will come up next.
+
+There are 2 nightmares which will cause you to wake up, but this
+code is clean and rather simple once again. Feel free to improve on
+it and please email me at bmudmrc@hotmail.com if you liked this code!
+
+This was put in my Rom2.4 (QuickMUD Advanced code) so it should work
+on most Rom/Rot codes.
+
+
+-[Merc.h]-
+
+In struct char_data:
+
+Under:
+    sh_int             trust;
+Add:
+    sh_int	           dreamp;
+    sh_int	           dreamn;
+
+End char_data;
+
+Under:
+	#define PULSE_AREA          (120 * PULSE_PER_SECOND)
+Add:
+	#define PULSE_DREAM	    (45 * PULSE_PER_SECOND)
+
+-[End merc.h]-
+
+-[Save.c]-
+
+in fwrite_char():
+
+Under:
+	    fprintf (fp, "Sec  %d\n", ch->pcdata->security);    /* OLC */
+Add:
+	    fprintf (fp, "Drep %d\n", ch->dreamp);
+	    fprintf (fp, "Dren %d\n", ch->dreamn);
+
+
+in fread_char();
+
+Under:
+	                KEY ("Desc", ch->description, fread_string (fp));
+Add:
+	                KEY ("Drep",	ch->dreamp,	fread_number( fp ) );
+	                KEY ("Dren",	ch->dreamn,	fread_number( fp ) );
+
+-[End Save.c]-
+
+-[Update.c]-
+
+With all the other defines, add:
+
+	#include "dream.h"
+
+At the top with all the other declarations:
+
+Under:
+	void aggr_update args ((void));
+Add:
+	void dream_update( void );
+
+in update_handler:
+
+Under:
+	    static int pulse_music;
+Add:
+	    static int pulse_dream;
+
+Anywhere in Update Handler before    aggr_update ();:
+
+Add:
+
+    if ( --pulse_dream <= 0 )
+    {
+        pulse_dream = PULSE_DREAM;
+        dream_update();
+    }
+
+-[End Update.c]-
+
+-[act_move.c]-
+
+With all the other defines, add:
+
+	#include "dream.h"
+
+In do_sleep:
+
+Replace:
+
+                if (IS_SET (obj->value[2], SLEEP_AT))
+                {
+                    act ("You go to sleep at $p.", ch, obj, NULL, TO_CHAR);
+                    act ("$n goes to sleep at $p.", ch, obj, NULL, TO_ROOM);
+                }
+                else if (IS_SET (obj->value[2], SLEEP_ON))
+                {
+                    act ("You go to sleep on $p.", ch, obj, NULL, TO_CHAR);
+                    act ("$n goes to sleep on $p.", ch, obj, NULL, TO_ROOM);
+                }
+                else
+                {
+                    act ("You go to sleep in $p.", ch, obj, NULL, TO_CHAR);
+                    act ("$n goes to sleep in $p.", ch, obj, NULL, TO_ROOM);
+                }
+
+With:
+                if (IS_SET (obj->value[2], SLEEP_AT))
+                {
+                    act ("You go to sleep at $p.", ch, obj, NULL, TO_CHAR);
+                    act ("$n goes to sleep at $p.", ch, obj, NULL, TO_ROOM);
+		    dream_reset(ch);
+                }
+                else if (IS_SET (obj->value[2], SLEEP_ON))
+                {
+                    act ("You go to sleep on $p.", ch, obj, NULL, TO_CHAR);
+                    act ("$n goes to sleep on $p.", ch, obj, NULL, TO_ROOM);
+		    dream_reset(ch);
+                }
+                else
+                {
+                    act ("You go to sleep in $p.", ch, obj, NULL, TO_CHAR);
+                    act ("$n goes to sleep in $p.", ch, obj, NULL, TO_ROOM);
+		    dream_reset(ch);
+                }
+
+end Do_sleep();
+
+In do_stand:
+
+Replace:
+            if (obj == NULL)
+            {
+                send_to_char ("You wake and stand up.\n\r", ch);
+                act ("$n wakes and stands up.", ch, NULL, NULL, TO_ROOM);
+                ch->on = NULL;
+            }
+            else if (IS_SET (obj->value[2], STAND_AT))
+            {
+                act_new ("You wake and stand at $p.", ch, obj, NULL, TO_CHAR,
+                         POS_DEAD);
+                act ("$n wakes and stands at $p.", ch, obj, NULL, TO_ROOM);
+            }
+            else if (IS_SET (obj->value[2], STAND_ON))
+            {
+                act_new ("You wake and stand on $p.", ch, obj, NULL, TO_CHAR,
+                         POS_DEAD);
+                act ("$n wakes and stands on $p.", ch, obj, NULL, TO_ROOM);
+            }
+            else
+            {
+                act_new ("You wake and stand in $p.", ch, obj, NULL, TO_CHAR,
+                         POS_DEAD);
+                act ("$n wakes and stands in $p.", ch, obj, NULL, TO_ROOM);
+            }
+
+With:
+
+            if (obj == NULL)
+            {
+                send_to_char ("You wake and stand up.\n\r", ch);
+                act ("$n wakes and stands up.", ch, NULL, NULL, TO_ROOM);
+		dream_kill(ch);
+                ch->on = NULL;
+            }
+            else if (IS_SET (obj->value[2], STAND_AT))
+            {
+                act_new ("You wake and stand at $p.", ch, obj, NULL, TO_CHAR,
+                         POS_DEAD);
+                act ("$n wakes and stands at $p.", ch, obj, NULL, TO_ROOM);
+		dream_kill(ch);
+            }
+            else if (IS_SET (obj->value[2], STAND_ON))
+            {
+                act_new ("You wake and stand on $p.", ch, obj, NULL, TO_CHAR,
+                         POS_DEAD);
+                act ("$n wakes and stands on $p.", ch, obj, NULL, TO_ROOM);
+		dream_kill(ch);
+            }
+            else
+            {
+                act_new ("You wake and stand in $p.", ch, obj, NULL, TO_CHAR,
+                         POS_DEAD);
+                act ("$n wakes and stands in $p.", ch, obj, NULL, TO_ROOM);
+		dream_kill(ch);
+            }
+
+-[End act_move.c]-
+
+-[Place this for dream.c]-
+
+/***************************************************************************
+ *  Original Diku Mud copyright (C) 1990, 1991 by Sebastian Hammer,        *
+ *  Michael Seifert, Hans Henrik Strfeldt, Tom Madsen, and Katja Nyboe.    *
+ *                                                                         *
+ *  Merc Diku Mud improvments copyright (C) 1992, 1993 by Michael          *
+ *  Chastain, Michael Quan, and Mitchell Tse.                              *
+ *                                                                         *
+ *  In order to use any part of this Merc Diku Mud, you must comply with   *
+ *  both the original Diku license in 'license.doc' as well the Merc       *
+ *  license in 'license.txt'.  In particular, you may not remove either of *
+ *  these copyright notices.                                               *
+ *                                                                         *
+ *  Much time and thought has gone into this software and you are          *
+ *  benefitting.  We hope that you share your changes too.  What goes      *
+ *  around, comes around.                                                  *
+ **************************************************************************/
+
+/***************************************************************************
+ *   ROM 2.4 is copyright 1993-1998 Russ Taylor                            *
+ *   ROM has been brought to you by the ROM consortium                     *
+ *       Russ Taylor (rtaylor@hypercube.org)                               *
+ *       Gabrielle Taylor (gtaylor@hypercube.org)                          *
+ *       Brian Moore (zump@rom.org)                                        *
+ *   By using this code, you have agreed to follow the terms of the        *
+ *   ROM license, in the file Rom24/doc/rom.license                        *
+ **************************************************************************/
+/***************************************************************************
+ *   DREAM.C BY ANDREW TOLMASOFF 2004 (C) QuickMUD Advanced                *
+ ***************************************************************************/
+
+/*   QuickMUD - The Lazy Man's ROM - $Id: act_info.c,v 1.3 2000/12/01 10:48:33 ring0 Exp $ */
+
+#if defined(macintosh)
+#include <types.h>
+#else
+#include <sys/types.h>
+#include <sys/time.h>
+#endif
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <ctype.h>
+#include <time.h>
+#include "merc.h"
+#include "interp.h"
+#include "magic.h"
+#include "recycle.h"
+#include "tables.h"
+#include "lookup.h"
+#include "dream.h"
+
+
+void dream_update(void)
+{
+    DESCRIPTOR_DATA *d;
+    CHAR_DATA *ch;
+
+    for ( d = descriptor_list; d != NULL; d = d->next )
+    {
+        if (d->character != NULL && d->connected == CON_PLAYING)
+        {
+
+        ch = d->character;
+
+        if(IS_NPC(ch))
+                return;
+                
+		// If the character is asleep.
+		if(!IS_AWAKE(ch))
+		{
+			if(ch->dreamn == 0)
+			{
+				switch(ch->dreamp)
+				{
+				    case 0:
+					send_to_char("You are having Dream #1, Part #1.\n\r", ch);
+					ch->dreamp++;
+					break;
+				    case 1:
+					send_to_char("You are having Dream #1, Part #2.\n\r", ch);
+					ch->dreamp++;
+					break;
+				    case 2:
+					send_to_char("You are having Dream #1, Part #3.\n\r", ch);
+					ch->dreamp++;
+					break;
+				    case 3:
+					send_to_char("You are having Dream #1, Part #4.\n\r", ch);
+					ch->dreamp++;
+					break;
+				    case 4:
+					send_to_char("You are having Dream #1, Part #5.\n\r", ch);
+					dream_reset(ch);
+					break;
+				}
+			}
+			else if(ch->dreamn == 1)
+			{
+				switch(ch->dreamp)
+				{
+				    case 0:
+					send_to_char("You are having Dream #2, Part #1.\n\r", ch);
+					ch->dreamp++;
+					break;
+				    case 1:
+					send_to_char("You are having Dream #2, Part #2.\n\r", ch);
+					ch->dreamp++;
+					break;
+				    case 2:
+					send_to_char("You are having Dream #2, Part #3.\n\r", ch);
+					ch->dreamp++;
+					break;
+				    case 3:
+					send_to_char("You are having Dream #2, Part #4.\n\r", ch);
+					ch->dreamp++;
+					break;
+				    case 4:
+					send_to_char("You are having Dream #2, Part #5.\n\r", ch);
+					dream_reset(ch);
+					break;
+				}
+			}
+			// This dream is a Nightmare!
+			else if(ch->dreamn == 2)
+			{
+				switch(ch->dreamp)
+				{
+				    case 0:
+					send_to_char("You are having Dream #3, Part #1.\n\r", ch);
+					ch->dreamp++;
+					break;
+				    case 1:
+					send_to_char("You are having Dream #3, Part #2.\n\r", ch);
+					ch->dreamp++;
+					break;
+				    case 2:
+					send_to_char("You are having Dream #3, Part #3.\n\r", ch);
+					ch->dreamp++;
+					break;
+				    case 3:
+					send_to_char("You are having Dream #3, Part #4.\n\r", ch);
+					ch->dreamp++;
+					break;
+				    case 4:
+					send_to_char("You are having Dream #3, Part #5.\n\r", ch);
+					send_to_char("\n\r\n\r{RYou wake up in a cold sweat, breathing deeply.{x\n\r", ch);
+					do_function(ch, &do_wake, "");
+					dream_kill(ch);
+					break;
+				}
+			}
+			else if(ch->dreamn == 3)
+			{
+				switch(ch->dreamp)
+				{
+				    case 0:
+					send_to_char("You are having Dream #4, Part #1.\n\r", ch);
+					ch->dreamp++;
+					break;
+				    case 1:
+					send_to_char("You are having Dream #4, Part #2.\n\r", ch);
+					ch->dreamp++;
+					break;
+				    case 2:
+					send_to_char("You are having Dream #4, Part #3.\n\r", ch);
+					ch->dreamp++;
+					break;
+				    case 3:
+					send_to_char("You are having Dream #4, Part #4.\n\r", ch);
+					ch->dreamp++;
+					break;
+				    case 4:
+					send_to_char("You are having Dream #4, Part #5.\n\r", ch);
+					dream_reset(ch);
+					break;
+				}
+			}
+			// Also a Nightmare!
+			else if(ch->dreamn == 4)
+			{
+				switch(ch->dreamp)
+				{
+				    case 0:
+					send_to_char("You are having Dream #5, Part #1.\n\r", ch);
+					ch->dreamp++;
+					break;
+				    case 1:
+					send_to_char("You are having Dream #5, Part #2.\n\r", ch);
+					ch->dreamp++;
+					break;
+				    case 2:
+					send_to_char("You are having Dream #5, Part #3.\n\r", ch);
+					ch->dreamp++;
+					break;
+				    case 3:
+					send_to_char("You are having Dream #5, Part #4.\n\r", ch);
+					ch->dreamp++;
+					break;
+				    case 4:
+					send_to_char("You are having Dream #5, Part #5.\n\r", ch);
+					send_to_char("\n\r\n\r{RYou wake up in a cold sweat, breathing deeply.{x\n\r", ch);
+					do_function(ch, &do_wake, "");
+					dream_kill(ch);
+					break;
+				}
+			}
+
+		
+		}
+		else
+		{
+		}
+
+        }
+    }
+    return;
+}
+
+void dream_reset(CHAR_DATA *ch)
+{
+
+	ch->dreamp = 0;
+	ch->dreamn = number_range(0,4);
+	save_char_obj(ch);
+	return;
+}
+
+void dream_kill(CHAR_DATA *ch)
+{
+	ch->dreamp = 0;
+	ch->dreamn = 0;
+	save_char_obj(ch);
+	return;
+}
+
+-[End Dream.c]-
+
+-[Put this for Dream.h]-
+
+void dream_updade(void);
+void dream_reset(CHAR_DATA *ch);
+void dream_kill(CHAR_DATA *ch);
+
+-[End dream.h]-
+
+Now, make clean and that should be all you need.
+
+If you have any problems, please email me and I will fix them RIGHT away!
+
+Belgarath

@@ -1,0 +1,28 @@
+BUG: Fill up last_command w/ repetitions of buggy command.
+BUG: Last_command.txt should not contain mobprog commands.
+
+spec_lolcat: Asks for cheezburger.
+
+area command should not list areas w/ builder "unlinked"
+
+mob command: teach
+
+Object special functions?
+
+Surrealist laffy taffy: Eat it and it tells you a randomly generated joke.
+Random potions/scrolls/etc.: Nethack-style object description switching - based on hash of character name?
+
+secret pizza! delivery service + prize if you find it.
+	- need some way to randomize the location every time it's found
+
+fountain of choose-your-own liquid: say "coffee" and it spurts coffee
+
+more prizes for the autoquestor (incl. skills)
+
+more body parts should do things
+	-horns make you horny
+
+tantrum skill
+	-like berserking, but less powerful. also, a little bit of damage from screams.
+	-OFF_TANTRUM flag for mobs
+	-learn the skill from the spoiled brat in dwarven daycare

@@ -1,0 +1,208 @@
+FILE				AUTHOR		NAME						STATUS
+mirrealm.are		Aegis		Ancient Greece				Incoming
+hclock.are			Aegis		Haunted Clock Tower			Incoming
+grave.are			Alfa		*Graveyard					Running			
+grove.are			Alfa		*Holy Grove					Running
+moria.are			Alfa		*Moria						Rejected
+ofcol.are			Alfa		*Ofcol						Rejected
+warzone.are			Ambrix		The War Zone				Rejected
+astral.are			Andersen	*Astral/Githyanki			Rejected
+pyramid.are			Andersen	*The Great Pyramid			Rejected
+abyss2.are			Anon		The Abyss					Rejected
+dragon2.are			Anon		DragonSpyre					Rejected
+dwarven.are			Anon		*Dwarven Kingdom			Running
+enfan.are			Anon		Ershteep City				Rejected
+king.are			Anon		King's Castle				Incoming
+zoo2.are			Anon		Midgaard Zoo				Running
+eastern.are			Anon		*Sands of Sorrow			Rejected
+silver.are			Anon		SilverDale					Rejected
+antioch.are			Antioch		The Lawn					Incoming
+island.are			Argoesh		Island of Illusion			Rejected
+keep.are			Argoesh		Keep						Rejected
+gstrong.are			Badaxe		Goblin Stronghold			Incoming
+ciquala2.are		Binky		Ciquala's Lair				Rejected
+circus.are			Binky		The Circus					Running
+amragorne.are		Blade		Amragorne					Incoming
+gandahar.are		Blade		Gandahar					Incoming
+labyr56.are			Blade		Labyrinth of Kronos			Incoming
+lindon.are			Blade		Lindon						Incoming
+sol51.are			Blade		Solace						Incoming
+Darkness.are		Blizzard	Darkness					Rejected
+takshrin.are		Blizzard	Shrine of Tahkien			Incoming
+volcano.are			Blizzard	Volcano						Rejected
+water.are			Blizzard	Water Nymphs				Rejected
+sevens.are			Bolt		Seven Samurai				Incoming
+shaolin.are			Boom		Shaolin Temple				Rejected
+aswamp.are			Ceran		Arkham Swamps				Rejected
+beholder.are		Ceran		Beholder Corps				Running
+carnival.are		Ceran		Strange Carnival			Rejected
+heaven.are			Chance		Heaven						Rejected
+avalonch.are		Chipper		Avalon						Running
+camelot1.are		Chipper		Camelot						Running
+talonvle.are		Chipper		Gilda & the Dragon			Incoming
+mahntor.are			Chris		*The Keep of Mahn-Tor		Running
+newthalos.are		Conner		*New Thalos					Running
+air.are				Copper		*In the Air					Rejected
+chapel.are			Copper		*Chapel Catacombs			Running
+midennir.are		Copper		*Miden'nir					Rejected
+plains.are			Copper		*Plains of the North		Rejected
+erealms.are			Daz			Elven Realms				Rejected
+haon.are			Diku		*Haon Dor					Running
+midgaard.are		Diku		*Midgaard					Running
+redferne.are		Diku		*Redferne's Residence		Rejected
+sewer.are			Diku		*Sewer						Running
+amity.are			Dimi		Amity						Incoming
+pitt.are			Dimi		Sidhonia					Incoming
+peeks.are			Dimi		Twin Peeks					Incoming
+galaxy.are			Doctor		Galaxy						Running	
+hvymetal.are		Draven		Heavy Metal					Incoming
+blah.are			Draven		Laka'Rhi'Nata				Incoming
+drow.are			Drkside		*Drow City					Rejected
+thalos.are			Drkside		*Thalos						Running
+dylan.are			Dylan		*Dylan's Area				Rejected
+mall.are			Ebola		The Midgaard Mall			Running
+steab.are			Eirin		Steab						Incoming
+weaverei.are		Eirin		The DreamWeaver's Path		Incoming
+chess2.are			Exxon		Chessboard of Midgaard		Running
+emforest.are		FeaR		Emerald Forest				Incoming
+prison.are			Flar		Prison of Midgaard			Incoming
+86druid.are			Florin		Druids Grove				Incoming
+druidgrove.are		Florin		Druids Grove				Incoming
+chessbrd.are		Freak		Chessboard					Running
+leprach.are			Freak		Leprechaun Village			Rejected
+nirvana.are			Fstall		*Nirvana					Running
+dream.are			Furey		*Machine Dreams				Running
+weed.are			Garth		Cannabis					Incoming
+marsh.are			Generic		*Old Marsh					Running
+olympus.are			Generic		*Olympus					Rejected
+smurf.are			Generic		*Smurf Village				Running
+haven2.are			Genjuro		Haven Lake					Incoming
+mega1.are			Glop		*Mega-City One				Rejected
+tree.are			Glop		Yggdrasil					Incoming
+funhouse.are		Gorzak		Fun House					Incoming
+beach.are			Grehyton	The Beach					Incoming
+dock.are			Grehyton	Calinth Docks				Rejected
+bfield.are			Grehyton	Caverns						Incoming
+demise.are			Grehyton	Death Room					Rejected
+deli.are			Grehyton	Deliverance					Rejected
+river.are			Grehyton	Durgas River				Incoming
+east.are			Grehyton	Eastern Road				Rejected
+path.are			Grehyton	The Hidden Path				Rejected
+kang.are			Grehyton	Kang Village				Rejected
+keyroom.are			Grehyton	Keyroom						Rejected
+tower.are			Grehyton	The Tower					Incoming
+newtown.are			Grehyton	Newbie Town					Incoming
+north.are			Grehyton	Northern Road				Rejected
+edearth.are	Grehyton/Chadros	DearthWood					Rejected
+wdearth.are	Grehyton/Chadros	DearthWood					Rejected
+school.are			Hatchet		*Mud School					Running
+ofcol2.are			Hatchet		*New Ofcol					Rejected
+valley.are			Hatchet		*Valley of the Elves		Rejected
+dara.are			Helt		Darathorn's Pit				Rejected
+hilg.are			Hilgamar	New Area					Rejected
+abyss_118.are		Honey		The Abyss					Rejected
+tisland.are			Insane		Treasure Isle				Rejected
+atlantis.are		Jaromir		Atlantis					Rejected
+calinth.are			JHolland	Calinth II					Rejected
+jurina.are			Jurina		Jurina's Area				Incoming
+mirror.are			Kahn		*Old Thalos					Rejected
+Caverns.are			Kandahar	Caverns Through Time		Rejected
+enchice.are			Kandahar	Enchanted Ice Caps			Incoming
+fragrant.are		Kandahar	Fragrant Harbour			Incoming
+Gambling.are		Kandahar	Gambling Hall				Rejected
+gdhoo.are			Kandahar	Glen Dhoo					Running
+heroretr.are		Kandahar	Hall of Heroes				Rejected
+mthydra.are			Kandahar	Mt. Hydrag'orn				Incoming
+mystmoon.are		Kandahar	Mystic Moon					Running
+KOlympus.are		Kandahar	Olympus						Incoming
+shadval.are			Kandahar	Shadow Valley				Incoming
+tournam.are			Kandahar	Tournament Grounds			Incoming
+museum.are			Kazeus		Children's Museum			Unfinished
+econnect.are		Kazeus		Eastern Trade Road			Running
+malphs.are			Kazeus		Malphs						Unfinished
+nethack.are			Kazeus		Nethack						Running
+earthves.are		Killed		The Show					Rejected
+peast.are			Lelana		Eastern Forests				Incoming
+pnorth.are			Lelana		Northern Mountains			Incoming
+psouth.are			Lelana		Southern Desert				Incoming
+pwest.are			Lelana		Western Plains				Incoming
+gillign2.are		Lenny		Gilligan's Island			Incoming
+lennysho.are		Lenny		Lenny's House				Rejected
+sesamest.are		Lenny		Sesame Street				Incoming
+ARMAG.ARE			Lok			Armageddon					Rejected
+camelot.are			Lok			Camelot						Incoming
+freeport.are		Lok			Freeport					Incoming
+isles.are			Lok			Pirate Isles				Incoming
+shield.are			Lok			The Shielding				Rejected
+swroad.are			Lotherius	SW Road						Rejected
+arachnos.are		Mahatma		*Arachnos					Running
+haven.are			Mahatma		Little Haven				Rejected
+newbie2.are			Maynard		Newbie Zone					Rejected
+trollden.are		Merc		*Troll Den					Running
+mercutio.are		Mercutio	Paradise Island				Incoming
+mirror2.are			Merri		Mirror Realm				Incoming
+bandit.are			Morgion		Bandit Area					Incoming
+dark2.are			Mort		Dark Continent				Incoming
+nation.are			Mort		Goblin Nation				Incoming
+aliens2.are			Mull		Aliens/Hadley's Hope		Rejected
+reef144.are			Myretha		Coral Reef					Running
+adesert.are			Myretha		The Desert					Rejected
+ephradle.are		Mystery		The Caverns of Ephradle		Rejected
+florin.are			Nebseni		Florin						Running
+dunemaze.are		Nikol		Dunarian Mazes				Incoming
+harhaken.are		Nikol		Harhaken					Incoming
+istai.are			Nikol		Zhaman Fort					Incoming
+zoology.are			Og			Mud School Museum			Running
+partbody.are		Papilla		Body Parts Castle			Incoming
+ocean.are			Picard		The River					Incoming
+mobfact.are			PinkF		*Mob Factory				Running
+shire.are			Poohb		*The Shire					Rejected
+quifael.are			Quifael		*Quifael's Area				Running
+cage2.are			Rainman		Cage and Aquarium			Incoming
+aresch75.are		Rajani		Aresch						Incoming
+aviary74.are		Rajani		Aviary						Incoming
+hood.are			Raff		*Dangerous Neighborhood		Running
+catacomb.are		Raff		*Dwarven Catacombs			Running
+canyon.are			Raff		*Elemental Canyon			Running
+acastle_123.are		Roth		The Hobgoblin Keep			Running
+lich.are			Ryzen		Lich Tower					Running
+daycare.are			Sandman		*Dwarven Daycare			Running
+amazon.are			Sebek		The Amazon Jungle			Incoming
+rain.are			Sebek		The Rain Forest				Rejected
+under2.are			Silence		UnderDark					Incoming
+hitower.are			Skylar		*High Tower of Sorcery		Rejected
+aarak2.are			Slash		Aarakokran City				Running
+tohell.are			Strahd		*Descent to Hell			Running
+solace.are			Strahd		Solace						Incoming
+white.are			Strahd		Temple of the White Lotus	Rejected
+pilgri.are			Thirzah		The PIlgrimage				Incoming
+toxicp.are			Totoro		Toxic Pond					Incoming
+gragh.are			Twig		Graghtok's Lair				Incoming
+wyvern.are			Tyrst		*Wyvern's Tower				Rejected
+citadel.are			Unknown		Citadel of the Undead		Incoming
+gnome.are			Vougon		*Gnome Village				Rejected
+draconia.are		Wench		*Dragon Tower				Rejected
+dawn.are			Wink		City of Dawn				Rejected
+drmscp.are			Wink		Dreamscape					Running
+xar1.are			Xar			Nedgregaard Keep			Incoming
+titan.are			Xavier		Valley of the Titans		Rejected
+animal.are			Yaegar		Animaland					Running
+anonplis.are		Yaegar		Anonopolis					Rejected
+tcwnn.are			Yaegar		The City of Anon			Incoming
+tcwnn2.are			Yaegar		The Walls of Anon			Incoming
+bazaar.are			Yaegar		The Bazaar					Rejected
+crusher.are		Yaegar/Sandman	Crusher's Playpen			Incoming
+donjon.are		Yaegar/Aurorix	The Dungeon					Rejected
+sfield.are			Yaegar		Fields						Incoming
+firetop2.are		Yaegar		Firetop Mountain			Rejected
+gtown.are			Yaegar		Ghost Town					Rejected
+warkeep.are			Yaegar		The Keep of the Warlock		Incoming
+warner.are		Yaegar/Aurorix	Looney Tunes				Incoming
+madanon.are			Yaegar		The Madness of Anon			Rejected
+mirkwd2.are			Yaegar		Mirkwood					Incoming
+beatles.are			Yaegar		Pepperland					Buggy
+pblood.are			Yaegar		The Plains of Blood			Rejected
+alice.are			Yaegar		Wonderland					Incoming
+divsouls.are		Ydri		Divided Souls				Incoming
+DRAKYRI.ARE			Ydri		Drakyri Isle				Rejected	
+gerighelm.are		Zarchon		Great Town of Gerighelm		Rejected

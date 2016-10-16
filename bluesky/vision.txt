@@ -1,0 +1,10 @@
+"Unlock" new areas - not using the level system, but by requiring skills, puzzle-solving, etc. which roughly correlate with levels, but require additional effort. Provides goals.
+
+1. No classes. None. No limits on any character's potential. But there
+should be *some* reward for specialization...
+
+2. Skills/spells must be learned one at a time, in various ways&places
+   - brain system was good, but too limited.
+
+3. Antisocial mode: no interaction, just blowing off steam. No contact
+between antisocial and other players. Not allowed for pkers.

@@ -1,0 +1,628 @@
+/*
+Random Exits v1.0 by Ryan Jennings (r-jenn@shaw.ca) (08/06/2003)
+
+Required for patch: ROM24b6 with OLC1.81, then move this 
+		    file to the src directory and type 
+		    'patch < rexits.patch'.
+
+In Game Syntax: reset 1 random 0 world
+			- adds a random exit to a random room in the world.
+	        reset 1 random north area 
+			- adds an exit north to a random room in the area.
+		reset 1 random 4
+			- switches 4 exits in the room (Stock OLC).
+
+		Exits will change every time the room is reset!
+		Good for random clan hall entrances, ect.
+
+Notes: EX_TEMP flag prevents exits from saving, so make sure
+       its not ever set on anything important.
+*/
+diff -ur src/act_info.c new/act_info.c
+--- src/act_info.c	Sun Jun  8 15:17:53 2003
++++ new/act_info.c	Sun Jun  8 15:47:02 2003
+@@ -1350,7 +1350,11 @@
+ 	    if ( fAuto )
+ 	    {
+ 		strcat( buf, " " );
++        if(IS_SET(pexit->exit_info, EX_TEMP))
++            strcat(buf, "(");
+ 		strcat( buf, dir_name[door] );
++        if(IS_SET(pexit->exit_info, EX_TEMP))
++            strcat(buf, ")");
+ 	    }
+ 	    else
+ 	    {
+diff -ur src/db.c new/db.c
+--- src/db.c	Sun Jun  8 15:20:13 2003
++++ new/db.c	Sun Jun  8 15:46:55 2003
+@@ -430,6 +430,7 @@
+     pArea->max_vnum	= fread_number(fp);
+     pArea->age		= 15;
+     pArea->nplayer	= 0;
++    pArea->version  = 0;
+     pArea->empty	= FALSE;
+ 
+     if ( !area_first )
+@@ -503,6 +504,7 @@
+     pArea->min_vnum        = 0;
+     pArea->max_vnum        = 0;
+     pArea->area_flags   = 0;
++    pArea->version      = 0;
+ /*  pArea->recall       = ROOM_VNUM_TEMPLE;        ROM OLC */
+ 
+     for ( ; ; )
+@@ -519,6 +521,7 @@
+              KEY( "Security", pArea->security, fread_number( fp ) );
+             break;
+            case 'V':
++            KEY( "Version", pArea->version, fread_number( fp ) );
+             if ( !str_cmp( word, "VNUMs" ) )
+             {
+                 pArea->min_vnum = fread_number( fp );
+@@ -1000,8 +1003,9 @@
+ 	/* if_flag */	  fread_number( fp );
+ 	pReset->arg1	= fread_number( fp );
+ 	pReset->arg2	= fread_number( fp );
+-	pReset->arg3	= (letter == 'G' || letter == 'R')
+-			    ? 0 : fread_number( fp );
++	pReset->arg3	= (letter == 'G' || (letter == 'R'
++        && area_last->version < 1)) ? 0 : 
++            fread_number( fp );
+ 	pReset->arg4	= (letter == 'P' || letter == 'M')
+ 			    ? fread_number(fp) : 0;
+ 			  fread_to_eol( fp );
+@@ -1150,7 +1154,6 @@
+ 	    else if ( letter == 'D' )
+ 	    {
+ 		EXIT_DATA *pexit;
+-		int locks;
+ 
+ 		door = fread_number( fp );
+ 		if ( door < 0 || door > 5 )
+@@ -1164,24 +1167,33 @@
+ 		pexit->keyword		= fread_string( fp );
+ 		pexit->exit_info	= 0;
+                 pexit->rs_flags         = 0;                    /* OLC */
+-		locks			= fread_number( fp );
++        if(area_last->version < 1)
++        {
++            int locks = fread_number( fp );
++            switch ( locks )
++            {
++            case 1:
++                pexit->rs_flags  = EX_ISDOOR;		     break;
++            case 2:
++                pexit->rs_flags  = EX_ISDOOR | EX_PICKPROOF; break;
++            case 3:
++                pexit->rs_flags  = EX_ISDOOR | EX_NOPASS;    break;
++            case 4:
++                pexit->rs_flags  = EX_ISDOOR|EX_NOPASS|EX_PICKPROOF;
++                break;
++            }
++        }
++        else
++            pexit->rs_flags = fread_flag(fp);
++
++        if(IS_SET(pexit->rs_flags, EX_TEMP))
++            REMOVE_BIT(pexit->rs_flags, EX_TEMP);
++
++        pexit->exit_info = pexit->rs_flags;
+ 		pexit->key		= fread_number( fp );
+ 		pexit->u1.vnum		= fread_number( fp );
+ 		pexit->orig_door	= door;			/* OLC */
+ 
+-		switch ( locks )
+-		{
+-		case 1: pexit->exit_info = EX_ISDOOR;               
+-			pexit->rs_flags  = EX_ISDOOR;		     break;
+-		case 2: pexit->exit_info = EX_ISDOOR | EX_PICKPROOF;
+-			pexit->rs_flags  = EX_ISDOOR | EX_PICKPROOF; break;
+-		case 3: pexit->exit_info = EX_ISDOOR | EX_NOPASS;    
+-			pexit->rs_flags  = EX_ISDOOR | EX_NOPASS;    break;
+-		case 4: pexit->exit_info = EX_ISDOOR|EX_NOPASS|EX_PICKPROOF;
+-			pexit->rs_flags  = EX_ISDOOR|EX_NOPASS|EX_PICKPROOF;
+-			break;
+-		}
+-
+ 		pRoomIndex->exit[door]	= pexit;
+ 		top_exit++;
+ 	    }
+@@ -1881,12 +1893,23 @@
+                 int d0;
+                 int d1;
+ 
+-                for ( d0 = 0; d0 < pReset->arg2 - 1; d0++ )
++                switch (pReset->arg3)
+                 {
+-                    d1                   = number_range( d0, pReset->arg2-1 );
+-                    pExit                = pRoomIndex->exit[d0];
+-                    pRoomIndex->exit[d0] = pRoomIndex->exit[d1];
+-                    pRoomIndex->exit[d1] = pExit;
++                default:
++                    for (d0 = 0; d0 < pReset->arg2 - 1; d0++)
++                    {
++                        d1 = number_range(d0, pReset->arg2 - 1);
++                        pExit = pRoomIndex->exit[d0];
++                        pRoomIndex->exit[d0] = pRoomIndex->exit[d1];
++                        pRoomIndex->exit[d1] = pExit;
++                    }
++                    break;
++                case 1:
++                    add_random_exit(pRoomIndex, pReset, TRUE);
++                    break;
++                case 2:
++                    add_random_exit(pRoomIndex, pReset, FALSE);
++                    break;
+                 }
+             }
+             break;
+diff -ur src/db2.c new/db2.c
+--- src/db2.c	Sun Jun  8 15:15:05 2003
++++ new/db2.c	Sun Jun  8 15:47:47 2003
+@@ -41,6 +41,7 @@
+ #include "db.h"
+ #include "tables.h"
+ #include "lookup.h"
++#include "olc.h"
+ 
+ extern int flag_lookup args((const char *name, const struct flag_type *flag_table));
+ 
+@@ -920,4 +921,143 @@
+     ++newmobs;
+ 
+     return;
++}
++
++int reset_door(RESET_DATA * pReset, bool fRandom)
++{
++	if (pReset && pReset->command == 'R')
++	{
++		if (pReset->arg2 > 0 && pReset->arg2 <= MAX_DIR)
++		{
++			return pReset->arg2 - 1;
++		}
++		else if (fRandom && pReset->arg4 > 0 && pReset->arg4 <= MAX_DIR)
++		{
++			return pReset->arg4 - 1;
++		}
++	}
++	return -1;
++}
++
++int open_exit(ROOM_INDEX_DATA * toRoom, ROOM_INDEX_DATA * pRoom,
++			  RESET_DATA * pReset)
++{
++	int door;
++
++	if ((door = reset_door(pReset, FALSE)) != -1)
++	{
++		if (toRoom->exit[rev_dir[door]] != NULL)
++			return -1;
++
++		return door;
++	}
++	for (door = 0; door < MAX_DIR; door++)
++	{
++		if (!toRoom->exit[rev_dir[door]] && !pRoom->exit[door])
++			return door;
++	}
++	return -1;
++}
++
++void clean_temp_exit(ROOM_INDEX_DATA * pRoom, int door)
++{
++	ROOM_INDEX_DATA *pToRoom;
++
++	if (!pRoom || door < 0 || door >= MAX_DIR ||
++		pRoom->exit[door] == NULL
++		|| !IS_SET(pRoom->exit[door]->exit_info, EX_TEMP))
++		return;
++
++	if ((pToRoom = pRoom->exit[door]->u1.to_room) != NULL)
++	{
++		int rev = rev_dir[door];
++
++		if (pToRoom->exit[rev]
++			&& IS_SET(pToRoom->exit[rev]->exit_info, EX_TEMP))
++		{
++			free_exit(pToRoom->exit[rev]);
++			pToRoom->exit[rev] = NULL;
++		}
++	}
++
++	free_exit(pRoom->exit[door]);
++	pRoom->exit[door] = NULL;
++}
++
++void clean_entrance(ROOM_INDEX_DATA * pRoom, RESET_DATA * pReset)
++{
++	int door;
++
++	if (!pRoom)
++		return;
++
++	if ((door = reset_door(pReset, TRUE)) != -1)
++	{
++		clean_temp_exit(pRoom, door);
++		return;
++	}
++	for (door = 0; door < MAX_DIR; door++)
++	{
++		clean_temp_exit(pRoom, door);
++	}
++}
++
++void add_random_exit(ROOM_INDEX_DATA * pRoom, RESET_DATA * pReset, bool Area)
++{
++	EXIT_DATA *pExit, *toExit;
++	ROOM_INDEX_DATA *toRoom;
++	int door, rev, safe = 0;
++	int minvn, maxvn;
++
++	if (!pRoom)
++		return;
++
++	if (Area)
++	{
++		minvn = pRoom->area->min_vnum;
++		maxvn = pRoom->area->max_vnum;
++	}
++	else
++	{
++		minvn = 2;
++		maxvn = top_vnum_room;
++	}
++
++	clean_entrance(pRoom, pReset);
++
++	for (;;)
++	{
++		toRoom = get_room_index(number_range(minvn, maxvn));
++		if (toRoom != NULL && !IS_SET(toRoom->room_flags, ROOM_PRIVATE)
++			&& !IS_SET(toRoom->room_flags, ROOM_SOLITARY)
++			&& !IS_SET(toRoom->room_flags, ROOM_IMP_ONLY)
++			&& !IS_SET(toRoom->room_flags, ROOM_GODS_ONLY)
++			&& !IS_SET(toRoom->room_flags, ROOM_HEROES_ONLY)
++			&& !IS_SET(toRoom->room_flags, ROOM_NEWBIES_ONLY)
++			&& IS_NULLSTR(toRoom->owner) && (Area || !toRoom->clan)
++			&& (door = open_exit(toRoom, pRoom, pReset)) != -1)
++			break;
++		if (safe++ > top_room)
++			return;
++	}
++
++	pExit = new_exit();
++	pExit->u1.to_room = toRoom;
++	pExit->orig_door = door;
++	SET_BIT(pExit->rs_flags, EX_TEMP);
++	SET_BIT(pExit->exit_info, EX_TEMP);
++	pRoom->exit[door] = pExit;
++
++	rev = rev_dir[door];
++	toExit = new_exit();
++	toExit->u1.to_room = pRoom;
++	toExit->orig_door = rev;
++	SET_BIT(toExit->rs_flags, EX_TEMP);
++	SET_BIT(toExit->exit_info, EX_TEMP);
++	toRoom->exit[rev] = toExit;
++
++	// arg4 doesn't save so we can use it to keep track
++	// of random exit doors
++	if (pReset && pReset->arg4 != -1)
++		pReset->arg4 = door + 1;
+ }
+diff -ur src/merc.h new/merc.h
+--- src/merc.h	Sun Jun  8 15:15:05 2003
++++ new/merc.h	Sun Jun  8 15:46:59 2003
+@@ -1146,6 +1146,7 @@
+ #define EX_INFURIATING		      (J)
+ #define EX_NOCLOSE		      (K)
+ #define EX_NOLOCK		      (L)
++#define EX_TEMP               (M)
+ 
+ 
+ 
+@@ -1676,6 +1677,7 @@
+     int			vnum;		/* OLC */ /* Area vnum  */
+     int			area_flags;	/* OLC */
+     int			security;	/* OLC */ /* Value 1-9  */
++    int         version;
+ };
+ 
+ 
+@@ -2250,6 +2252,8 @@
+ void	bug		args( ( const char *str, int param ) );
+ void	log_string	args( ( const char *str ) );
+ void	tail_chain	args( ( void ) );
++int reset_door args((RESET_DATA * pReset, bool fRandom));
++void add_random_exit args((ROOM_INDEX_DATA * pRoom, RESET_DATA * pReset, bool Area));
+ 
+ /* effect.c */
+ void	acid_effect	args( (void *vo, int level, int dam, int target) );
+@@ -2465,6 +2469,9 @@
+ #define         AREA_CHANGED    1	/* Area has been modified. */
+ #define         AREA_ADDED      2	/* Area has been added to. */
+ #define         AREA_LOADING    4	/* Used for counting in db.c */
++
++/* Area file version */
++#define         AREA_VERSION    1   /* Use to make changes to area file format */
+ 
+ #define MAX_DIR	6
+ #define NO_FLAG -99	/* Must not be used in flags or stats. */
+diff -ur src/olc.c new/olc.c
+--- src/olc.c	Sun Jun  8 15:15:28 2003
++++ new/olc.c	Sun Jun  8 15:47:04 2003
+@@ -1165,9 +1165,13 @@
+ 		continue;
+ 	    }
+ 
+-	    sprintf( buf, "R[%5d] Exits are randomized in %s\n\r",
+-		pReset->arg1, pRoomIndex->name );
+-	    strcat( final, buf );
++        sprintf(buf, "R[%5d] Set to randomize %s %s.\n\r",
++                pReset->arg1,
++                pReset->arg3 == 0 ? "exits" : pReset->arg2 ==
++                0 ? "any available exit" : dir_name[pReset->arg2 - 1],
++                pReset->arg3 == 0 ? "in room" : pReset->arg3 ==
++                1 ? "to this area" : "to the world");
++        strcat(final, buf);
+ 
+ 	    break;
+ 	}
+@@ -1222,6 +1226,23 @@
+     return;
+ }
+ 
++int get_direction(const char *arg)
++{
++	if (!str_cmp(arg, "n") || !str_cmp(arg, "north"))
++		return DIR_NORTH;
++	if (!str_cmp(arg, "e") || !str_cmp(arg, "east"))
++		return DIR_EAST;
++	if (!str_cmp(arg, "s") || !str_cmp(arg, "south"))
++		return DIR_SOUTH;
++	if (!str_cmp(arg, "w") || !str_cmp(arg, "west"))
++		return DIR_WEST;
++	if (!str_cmp(arg, "u") || !str_cmp(arg, "up"))
++		return DIR_UP;
++	if (!str_cmp(arg, "d") || !str_cmp(arg, "down"))
++		return DIR_DOWN;
++
++	return -1;
++}
+ 
+ 
+ void do_resets( CHAR_DATA *ch, char *argument )
+@@ -1328,6 +1349,7 @@
+ 	    }
+ 
+ 	    free_reset_data( pReset );
++        SET_BIT(ch->in_room->area->area_flags, AREA_CHANGED);
+ 	    send_to_char( "Reset deleted.\n\r", ch );
+ 	}
+ 	else
+@@ -1431,21 +1453,49 @@
+ 	    send_to_char( "Reset added.\n\r", ch );
+ 	}
+ 	else
+-	if (!str_cmp( arg2, "random") && is_number(arg3))
+-	{
+-		if (atoi(arg3) < 1 || atoi(arg3) > 6)
+-			{
+-				send_to_char("Invalid argument.\n\r", ch);
+-				return;
+-			}
+-		pReset = new_reset_data ();
+-		pReset->command = 'R';
+-		pReset->arg1 = ch->in_room->vnum;
+-		pReset->arg2 = atoi(arg3);
+-		add_reset( ch->in_room, pReset, atoi( arg1 ) );
+-		SET_BIT( ch->in_room->area->area_flags, AREA_CHANGED );
+-		send_to_char( "Random exits reset added.\n\r", ch);
+-	}
++	if (!str_cmp(arg2, "random"))
++    {
++        int door;
++
++        if (is_number(arg3))
++        {
++            door = atoi(arg3);
++        }
++        else
++        {
++            if ((door = get_direction(arg3)) != -1)
++                door++;
++        }
++
++        if (door < 0 || door > 6)
++        {
++            send_to_char("Invalid argument.\n\r", ch);
++            return;
++        }
++
++        if (door == 0
++            && (IS_NULLSTR(arg4) || !is_exact_name(arg4, "area world")))
++        {
++            send_to_char("Invalid or missing argument.\n\r", ch);
++            return;
++        }
++        if (is_exact_name(arg4, "area world") && door > 0
++            && ch->in_room->exit[door - 1] != NULL)
++        {
++            send_to_char("There is already an exit in that direction.\n\r", ch);
++            return;
++        }
++        pReset = new_reset_data();
++        pReset->command = 'R';
++        pReset->arg1 = ch->in_room->vnum;
++        pReset->arg2 = door;
++        pReset->arg3 =
++            !str_cmp(arg4, "area") ? 1 : !str_cmp(arg4, "world") ? 2 : 0;
++        add_reset(ch->in_room, pReset, atoi(arg1));
++        SET_BIT(ch->in_room->area->area_flags, AREA_CHANGED);
++        send_to_char("Random exits reset added.\n\r", ch);
++        return;
++    }
+ 	else
+ 	{
+ 	send_to_char( "Syntax: RESET <number> OBJ <vnum> <wear_loc>\n\r", ch );
+@@ -1454,6 +1504,7 @@
+ 	send_to_char( "        RESET <number> MOB <vnum> [max #x area] [max #x room]\n\r", ch );
+ 	send_to_char( "        RESET <number> DELETE\n\r", ch );
+ 	send_to_char( "        RESET <number> RANDOM [#x exits]\n\r", ch);
++	send_to_char( "        RESET <number> RANDOM <exit|0> area|world\n\r", ch);
+ 	}
+     }
+ 
+diff -ur src/olc_act.c new/olc_act.c
+--- src/olc_act.c	Sun Jun  8 15:15:28 2003
++++ new/olc_act.c	Sun Jun  8 15:47:07 2003
+@@ -1241,7 +1241,17 @@
+ }
+ 
+ 
++bool check_reset_exit(ROOM_INDEX_DATA * pRoom, int door)
++{
++	RESET_DATA *pReset;
+ 
++	for (pReset = pRoom->reset_first; pReset; pReset = pReset->next)
++	{
++		if (reset_door(pReset, FALSE) == door)
++			return TRUE;
++	}
++	return FALSE;
++}
+ 
+ /* Local function. */
+ bool change_exit( CHAR_DATA *ch, char *argument, int door )
+@@ -1347,6 +1357,11 @@
+ 	EXIT_DATA *pExit;
+ 	ROOM_INDEX_DATA *toRoom;
+ 
++    if (check_reset_exit(pRoom, door))
++    {
++        send_to_char("There is a random exit reset already using that direction.\n\r", ch);
++        return FALSE;
++    }
+ 	if ( arg[0] == '\0' || !is_number( arg ) )
+ 	{
+ 	    send_to_char( "Syntax:  [direction] link [vnum]\n\r", ch );
+@@ -1393,6 +1408,11 @@
+     {
+ 	char buf[MAX_STRING_LENGTH];
+ 	
++    if (check_reset_exit(pRoom, door))
++    {
++        send_to_char("There is a random exit reset already using that direction.\n\r", ch);
++        return FALSE;
++    }
+ 	if ( arg[0] == '\0' || !is_number( arg ) )
+ 	{
+ 	    send_to_char( "Syntax: [direction] dig <vnum>\n\r", ch );
+@@ -1409,6 +1429,11 @@
+     {
+ 	ROOM_INDEX_DATA *toRoom;
+ 
++    if (check_reset_exit(pRoom, door))
++    {
++        send_to_char("There is a random exit reset already using that direction.\n\r", ch);
++        return FALSE;
++    }
+ 	if ( arg[0] == '\0' || !is_number( arg ) )
+ 	{
+ 	    send_to_char( "Syntax:  [direction] room [vnum]\n\r", ch );
+diff -ur src/olc_save.c new/olc_save.c
+--- src/olc_save.c	Sun Jun  8 15:22:49 2003
++++ new/olc_save.c	Sun Jun  8 15:46:52 2003
+@@ -479,6 +479,7 @@
+     EXTRA_DESCR_DATA *pEd;
+     EXIT_DATA *pExit;
+     int iHash;
++    char buf[MAX_STRING_LENGTH];
+     int door;
+ 
+     fprintf( fp, "#ROOMS\n" );
+@@ -504,9 +505,8 @@
+                 for( door = 0; door < MAX_DIR; door++ )	/* I hate this! */
+                 {
+                     if ( ( pExit = pRoomIndex->exit[door] )
+-                          && pExit->u1.to_room )
++                          && pExit->u1.to_room && !IS_SET(pExit->rs_flags, EX_TEMP))
+                     {
+-			int locks = 0;
+ 
+ 			/* HACK : TO PREVENT EX_LOCKED etc without EX_ISDOOR
+ 			   to stop booting the mud */
+@@ -523,29 +523,10 @@
+ 			else
+ 				REMOVE_BIT(pExit->rs_flags, EX_ISDOOR);
+ 
+-			/* THIS SUCKS but it's backwards compatible */
+-			/* NOTE THAT EX_NOCLOSE NOLOCK etc aren't being saved */
+-			if ( IS_SET( pExit->rs_flags, EX_ISDOOR ) 
+-			&& ( !IS_SET( pExit->rs_flags, EX_PICKPROOF ) ) 
+-		    	&& ( !IS_SET( pExit->rs_flags, EX_NOPASS ) ) )
+-			    locks = 1;
+-			if ( IS_SET( pExit->rs_flags, EX_ISDOOR )
+-			&& ( IS_SET( pExit->rs_flags, EX_PICKPROOF ) )
+-		        && ( !IS_SET( pExit->rs_flags, EX_NOPASS ) ) )
+-			    locks = 2;
+-			if ( IS_SET( pExit->rs_flags, EX_ISDOOR )
+-			&& ( !IS_SET( pExit->rs_flags, EX_PICKPROOF ) )
+-		        && ( IS_SET( pExit->rs_flags, EX_NOPASS ) ) )
+-			    locks = 3;
+-			if ( IS_SET( pExit->rs_flags, EX_ISDOOR )
+-			&& ( IS_SET( pExit->rs_flags, EX_PICKPROOF ) )
+-		        && ( IS_SET( pExit->rs_flags, EX_NOPASS ) ) )
+-			    locks = 4;
+-
+                         fprintf( fp, "D%d\n",      pExit->orig_door );
+                         fprintf( fp, "%s~\n",      fix_string( pExit->description ) );
+                         fprintf( fp, "%s~\n",      pExit->keyword );
+-                        fprintf( fp, "%d %d %d\n", locks,
++                        fprintf( fp, "%s %d %d\n", fwrite_flag(pExit->rs_flags, buf),
+                                                    pExit->key,
+                                                    pExit->u1.to_room->vnum );
+                     }
+@@ -627,7 +608,7 @@
+                 for( door = 0; door < MAX_DIR; door++ )
+                 {
+                     if ( ( pExit = pRoomIndex->exit[door] )
+-                          && pExit->u1.to_room 
++                          && pExit->u1.to_room && !IS_SET(pExit->rs_flags, EX_TEMP)
+                           && ( IS_SET( pExit->rs_flags, EX_CLOSED )
+                           || IS_SET( pExit->rs_flags, EX_LOCKED ) ) )
+ #if defined( VERBOSE )
+@@ -751,9 +732,9 @@
+ 
+ 	case 'R':
+             pRoom = get_room_index( pReset->arg1 );
+-	    fprintf( fp, "R 0 %d %d Randomize %s\n", 
++	    fprintf( fp, "R 0 %d %d %d Randomize %s\n", 
+ 	        pReset->arg1,
+-                pReset->arg2,
++                pReset->arg2, pReset->arg3,
+                 pRoom->name );
+             break;
+             }
+@@ -812,9 +793,9 @@
+ 
+ 	case 'R':
+             pRoom = get_room_index( pReset->arg1 );
+-	    fprintf( fp, "R 0 %d %d\n", 
++	    fprintf( fp, "R 0 %d %d %d\n", 
+ 	        pReset->arg1,
+-                pReset->arg2 );
++                pReset->arg2, pReset->arg3 );
+             break;
+             }
+ #endif
+@@ -940,6 +921,7 @@
+     fprintf( fp, "VNUMs %d %d\n",      pArea->min_vnum, pArea->max_vnum );
+     fprintf( fp, "Credits %s~\n",	 pArea->credits );
+     fprintf( fp, "Security %d\n",         pArea->security );
++    fprintf( fp, "Version %d\n",        AREA_VERSION );
+     fprintf( fp, "End\n\n\n\n" );
+ 
+     save_mobiles( fp, pArea );

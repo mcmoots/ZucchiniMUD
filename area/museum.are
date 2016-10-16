@@ -1,0 +1,362 @@
+#AREADATA
+Name Children's Museum~
+Builders Unlinked~
+VNUMs 12500 12599
+Levels 1 15
+Credits {w[{W 1 15{w]{x Kazeus   Children's Museum~
+Security 9
+End
+
+
+
+#ZMOBILES
+#12501
+child~
+a small child~
+A small child is exploring the museum.
+~
+This kid is totally absorbed in an educational activity, but doesn't seem to be learning very much.
+~
+human~
+AGH 0 15 0
+3 3 7d2+31 3d10+85 1d3+6 scream
+7 7 7 7
+I 0 0 0
+stand stand either 2
+AHMV ABCDEFGHIJK medium unknown
+'none'
+#12502
+globe~
+a globe~
+A globe has a section cut out to display the inside of the earth.
+~
+The interior of the globe has been properly divided into the crust,
+mantle, outer core and inner core.  
+~
+unique~
+AG 0 0 0
+6 6 13d2+61 6d10+85 2d3+8 pound
+5 5 5 6
+O 0 0 0
+stand stand none 0
+AJc F medium unknown
+'none'
+#12503
+clerk~
+a sales clerk~
+A sales clerk is here, waiting to ring up your purchases.
+~
+The clerk looks somewhat bored.
+~
+human~
+AG 0 0 0
+50 50 101d16+506 50d10+85 16d3+30 pound
+-24 -24 -24 -14
+0 0 0 0
+stand stand either 100
+AHMV ABCDEFGHIJK medium unknown
+'none'
+#12504
+child~
+a child~
+A child is wandering around, looking at the exhibits.
+~
+The child's eyes are as big as saucers - some kids are just easy to impress.
+~
+human~
+AG 0 0 0
+5 5 11d2+51 5d10+85 1d5+7 scratch
+5 5 5 7
+I 0 0 0
+stand stand either 1
+AHMV ABCDEFGHIJK medium unknown
+'(null)'
+#0
+
+
+
+#ZOBJECTS
+#12501
+mantle earth~
+the earth's mantle~
+A mantle of molten rock is here.~
+fire~
+armor 0 AK
+AB AB AB B 0
+6 7 2 P
+#12502
+astronaut ice cream~
+astronaut ice cream~
+A foil package of astronaut ice cream is here.~
+ice cream~
+food 0 AO
+A AB 0 0 0
+1 5 3 P
+#12503
+kaleidoscope~
+a kaleidoscope~
+A kaleidoscope rests here, inviting you to play with it.~
+plastic~
+wand 0 AO
+1 1 1 'color spray' 0
+5 5 20 P
+#12504
+amethyst~
+an amethyst~
+A small polished amethyst is here.~
+unknown~
+gem 0 A
+0 0 0 0 0
+1 1 2 P
+#0
+
+
+
+#ZROOMS
+#12501
+Steps of the Children's Museum~
+A set of steps leads up to a small, stately building to the north. 
+Colorful banners hang on the eaves of the building, and from poles spaced at
+regular intervals along the stairs.  
+~
+0 0 1
+E
+banners~
+The banners advertise the current exhibit at the museum, the Interactive
+Stomach.  
+~
+D4
+~
+~
+0 -1 12502
+S
+#12502
+Entrance to the Museum~
+A high-ceilinged hall opens up before you.  Soft light drifts down from
+the ceiling.  An information desk is in the west corner, underneath a large
+map of the museum.  A small gift shop is to the east.  
+~
+0 8 0
+E
+map~
+| Hall  |
+             | Of    |
+             | Space |
+_____________|       |_______________
+
+Hall of Life           Hall of Earth
+_____________         _______________
+             |entrance|~
+D0
+~
+~
+0 -1 12503
+D1
+~
+~
+0 -1 12514
+D5
+~
+~
+0 -1 12501
+S
+#12503
+Intersection~
+You are standing in the intersection of three large hallways leading off
+north, west and east.  The entrance to each hall is marked by a large arch,
+decorated with different themes.  
+~
+0 8 1
+D0
+"HALL OF SPACE" is inscribed upon an arch 
+decorated with stars.~
+~
+0 -1 12504
+D1
+"HALL OF EARTH" is inscribed on an arch decorated
+with volcanoes, and encrusted with pretty rocks.~
+~
+0 -1 12511
+D2
+~
+~
+0 -1 12502
+D3
+"HALL OF LIFE" is inscribed on an arch decorated
+with flowers, cuddly animals, and dinosaurs.~
+~
+0 -1 12508
+S
+#12504
+Hall of Space~
+Sparkling stars hang from the ceiling here, and the walls are painted
+with a mural of planets.  Children wander back and forth between displays.  
+~
+0 8 0
+D0
+~
+~
+0 -1 12505
+D2
+~
+~
+0 -1 12503
+S
+#12505
+Hall of Space~
+You are standing in room #9904.
+~
+0 8 1
+D0
+~
+~
+0 -1 12506
+D2
+~
+~
+0 -1 12504
+S
+#12506
+Hall of Space~
+You are standing in room #9905.
+~
+0 8 1
+D0
+~
+~
+0 -1 12507
+D2
+~
+~
+0 -1 12505
+S
+#12507
+Planetarium~
+You are standing in room #9906.
+~
+0 8 1
+D2
+~
+~
+0 -1 12506
+S
+#12508
+Hall of Life~
+You are standing in room #9907.
+~
+0 8 1
+D1
+~
+~
+0 -1 12503
+D3
+~
+~
+0 -1 12509
+S
+#12509
+Hall of Life~
+You are standing in room #9908.
+~
+0 8 1
+D1
+~
+~
+0 -1 12508
+D3
+~
+~
+0 -1 12510
+S
+#12510
+Hall of Life~
+You are standing in room #9909.
+~
+0 8 1
+D1
+~
+~
+0 -1 12509
+S
+#12511
+Hall of Earth~
+~
+0 8 0
+D1
+~
+~
+0 -1 12512
+D3
+~
+~
+0 -1 12503
+S
+#12512
+Hall of Earth~
+You are standing in room #9911.
+~
+0 8 1
+D1
+~
+~
+0 -1 12513
+D3
+~
+~
+0 -1 12511
+S
+#12513
+Hall of Earth~
+You are standing in room #9912.
+~
+0 8 1
+D3
+~
+~
+0 -1 12512
+S
+#12514
+Gift Shop~
+Lots of shiny educational knick-knacks are arrayed at child's-eye height
+around this small shop.  Pings, buzzes, clacks, and flashes come from all
+around.  The exit is east.  There's a sign on the counter.  
+~
+0 262152 0
+E
+sign~
+To see what's for sale, type "list".  To buy something, type "buy
+<something>".  
+~
+D3
+~
+~
+0 -1 12502
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 0 12503 1 12514 1 Load a sales clerk
+G 0 12504 0 An amethyst is given to a sales clerk
+G 0 12502 0 Astronaut ice cream is given to a sales clerk
+G 0 12503 0 A kaleidoscope is given to a sales clerk
+S
+
+
+
+#SHOPS
+12503 0 0 0 0 0 100 100 0 23
+0
+
+
+
+#MOBPROGS
+#0
+
+#$

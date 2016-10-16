@@ -1,0 +1,21 @@
+Sender  Kazeus~
+Date    Wed Sep 18 09:53:02 2002~
+Stamp   1032368398
+Expire  1037552068
+To      all~
+Subject New Help System~
+Text
+I've put in a new version of the help command that lists all the help entries
+matching your query - so you don't have to page through Color Spray every time
+you want a list of custom color codes.
+ 
+But there's a catch: you can't get at help entries whose keywords form the first
+part of the keywords to another entry. For example, HELP ANSI gives you a choice
+between 'COLOUR COLOR ANSI' and 'COLOUR2 COLOR2 ANSI2' with no way to actually
+read the first colour entry.
+ 
+I could fix the code, or I could just make sure all the help entries have
+unique keywords. HELP COLOR has been changed to HELP COLOR1. If you find any
+other necessary changes, please leave a note on the bug board.
+~
+

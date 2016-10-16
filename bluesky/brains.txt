@@ -1,0 +1,90 @@
+SKILLS WHAT NEED TEACHING MECHANISMS:
+
+1	hide
+1	peek
+1	rescue
+2	backstab
+2 	cure light
+2	detect magic
+3	butcher
+3	dirt kicking
+4	detect good
+4	floating disc
+4	sneak
+5	refresh
+6	cure blindness
+6	continual light
+6	fast healing
+6	lore
+6	meditation
+9	know alignment
+9	locate object
+9	protect evil
+9	protect good
+9	recharge
+10	envenom
+10	night vision
+11	detect invis
+11	weaken
+12	poison
+12	summon
+13	cure critical
+13	cure disease
+13	identify
+13	lightning bolt
+13	teleport
+14	cure poison
+15	control weather
+15	dispel good
+16	calm
+16	dispel magic
+16	enchant armor
+16	heat metal
+17	enchant weapon
+17	gate
+17	plague
+18	berserk
+18	call lightning
+18	cancellation
+18	remove curse
+19	energy drain
+20	flamestrike
+20	sanctuary
+20	tackle
+21	haste
+21	heal
+22	mass invis
+24	pass door
+28	word of recall
+30	acid blast
+30	portal
+31	acid breath
+33	chain lightning
+34	frost breath
+35	nexus
+35	ray of truth
+36	holy word
+38	mass healing
+39	gas breath
+40	fifth attack
+
+Mundane skills, need to write training system:
+axe
+dagger
+flail
+mace
+polearm
+shield block
+spear
+sword
+whip
+disarm
+dodge
+hand to hand
+kick
+parry
+second attack
+trip
+scrolls
+staves
+wands

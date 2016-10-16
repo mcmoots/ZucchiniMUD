@@ -1,0 +1,939 @@
+#AREADATA
+Name Bandit Area~
+Builders Morgion~
+VNUMs 20800 20849
+Credits [0  30] Morgion      Bandit Area~
+Security 7
+End
+
+
+
+#MOBILES
+#20800
+traveler~
+a traveler~
+A traveler is here, searching for a place to rest.
+~
+A tired traveler, dressed in a brown smock, looks around for a place to rest.
+~
+human~
+AGT 0 0 0 0 0
+20 20 41d6+203 20d10+85 6d3+15 none
+-3 -3 -3 0
+FIKN 0 0 0
+stand stand male 1500
+AHMV ABCDEFGHIJK medium unknown
+#20801
+bandit~
+a bandit~
+A bandit is hiding here.
+~
+A dirty bandit glares at you. 
+~
+human~
+ABFGS 0 DQ 0 -200 0
+22 22 45d7+223 22d10+85 7d3+16 none
+-5 -5 -5 0
+EU 0 0 0
+stand stand male 1500
+AHMV ABCDEFGHIJK medium flesh
+#20802
+black tiger~
+a black tiger~
+A black tiger glares at you with bright green eyes.
+~
+A giant black tiger glides towards you. It make not a sound as it attacks.
+~
+cat~
+AFT 0 DFZ 0 0 0
+27 27 55d9+273 27d10+85 9d3+18 claw
+-8 -8 -8 -2
+CDEFH B 0 0
+stand stand female 3000
+AGV ACDEFHJKQUV huge flesh
+#20803
+large red spider~
+a large red spider~
+A giant red spider scurries towards you.
+~
+A giant red spider looks with hunger on you.  Poison drips down its fangs
+as it moves forward.  
+~
+spider~
+ABFT 0 DFJZ 0 0 0
+21 21 43d7+213 21d10+85 7d3+15 bite
+-4 -4 -4 0
+0 L 0 I
+stand stand male 1000
+BP ACEFKV medium unknown
+#20804
+dwarf dwarven cook bandit~
+a dwarven cook~
+A dwarf examines the contents of a black pot.
+~
+A hylar dwarf in a white apron glances up at you.  Ho goes back to
+stirring a pot, that sits in the coals of the fire.  
+~
+hylar~
+ABT 0 J 0 0 0
+26 26 53d8+263 26d10+85 8d3+18 pound
+-7 -7 -7 -2
+EFK 0 LQT IR
+stand stand none 2300
+AHMV ABCDEFGHIJK medium unknown
+#20805
+drunk minotaur bandit~
+a drunk minotaur bandit~
+A drunk minotaur bandit looks around for someone to pound.
+~
+A very drunk minotaur looks at you with contempt.  He staggers toward you
+with murder in his eyes.  
+~
+minotaur~
+AB 0 J 0 0 0
+22 22 45d7+223 22d10+85 7d3+16 punch
+-5 -5 -5 0
+DE 0 Ia K
+stand stand male 1000
+AHMV ABCDEFGHIJK medium unknown
+#20806
+dirty vulture~
+a dirty vulture~
+A large dirty vulture shreeks and attacks.
+~
+A very large vulture dives at you.  Its claws are covered with old
+rotting flesh.  The stench of the beast is overwhelming.  
+~
+water fowl~
+ABT 0 DFTZb 0 0 0
+26 26 53d8+263 26d10+85 8d3+18 claw
+-7 -7 -7 -2
+EF 0 R 0
+stand stand none 0
+AGW ACDEFHKP huge unknown
+#20807
+passed out bandit female~
+a female bandit~
+A human female is passed out here.
+~
+A female bandit lays here passed out.  She has had all of her equipment
+and cloths stolen.  The only thing covering her is a dirty cloth someone
+draped across her.  
+~
+human~
+ABT 0 R 0 0 0
+21 21 43d7+213 21d10+85 7d3+15 none
+-4 -4 -4 0
+0 0 0 0
+stand stand female 10
+AHMV ABCDEFGHIJK medium unknown
+#20808
+bandit archer~
+an ogre archer ~
+A bandit archer practices here.
+~
+An ogre aims a long bow at you.  You notice the bow glows and dripps a
+liquid on the ground.  The liquid had eaten a hole in the deck of the
+platform.  
+~
+goblin~
+ABTU 0 DJZc 0 0 0
+26 26 53d8+263 26d10+85 8d3+18 punch
+-7 -7 -7 -2
+D 0 BEQ CZ
+stand stand male 2900
+ABHMV ABCDEFGHIJKUV medium unknown
+#20809
+female bandit guard~
+a bandit guard~
+A large female stands here, keeping a watchfull eye.
+~
+A female guard glares back at you.  She screems and attacks.  
+~
+human~
+ABT 0 DFZ 0 -200 0
+26 26 53d8+263 26d10+85 8d3+18 none
+-7 -7 -7 -2
+DEFK 0 0 0
+stand stand female 0
+AHMV ABCDEFGHIJK medium unknown
+#20810
+red demon Ytherflame~
+a flaming red demon~
+A flaming red demon strains against invisible restraints.
+~
+A huge flaming demon howls here.  He thrashes against invisible
+restraints.  He has but one thought He must destroy the mage that summoned
+him and anything in his way.  
+~
+dragon~
+ABR 0 DFHJLOTZa F -1000 0
+37 37 75d12+374 37d10+85 12d3+23 slash
+-15 -15 -15 -7
+CEFHIJKN ABLQa E 0
+stand stand male 0
+AHZ ACDEFGHIJKPQUVX large unknown
+F res B
+#20811
+mage bandit tired~
+an elven mage~
+An elven mage stands here chanting words of binding. She shakes with fatigue.
+~
+A elven mage stands here battleling a red demon.  She is barely holding
+her own.  She chants in a steady but trembling voice.  
+~
+silvanesti~
+ABR 0 DFHJTVZa 0 0 0
+29 29 59d9+293 29d10+85 9d3+19 slap
+-9 -9 -9 -3
+EFIK 0 B Z
+stand stand female 2000
+AHMV ABCDEFGHIJK medium unknown
+#20812
+bandit lieutenant~
+a bandit lieutenant~
+A bandit lieutenant stands here.
+~
+A large hobgoblin stands here looking at you.  He grins as he looks at
+you.  He flexes his muscles as approaches you.  An evil grin on his face.  
+~
+hobgoblin~
+ABT 0 DFJZ 0 0 0
+30 30 61d10+304 30d10+85 10d3+20 punch
+-10 -10 -10 -4
+0 0 LQ C
+stand stand male 0
+AHMV ABCDEFGHIJKY medium unknown
+#20813
+Trock the minotaur~
+Trock the minotaur~
+Trock the minotaur glares angrily at you.
+~
+Trock must have just woken up.  He is clan only in a loin cloth.  
+~
+minotaur~
+ABT 0 DFHJZ 0 0 0
+35 35 71d11+354 35d10+85 11d3+22 pound
+-13 -13 -13 -6
+DEFHIK 0 Ia K
+stand stand male 0
+AHMV ABCDEFGHIJK medium unknown
+#0
+
+
+
+#OBJECTS
+#20800
+walking stick~
+a walking stick~
+A gnarled stick used for walking lays here.~
+82
+0
+weapon G AN
+mace 3 9 pound 0
+20 21 1320 P
+A
+19 1
+A
+18 1
+A
+2 2
+#20801
+parrying dagger~
+a parrying dagger~
+A short dagger, with a wide pommel, lays here.~
+2
+0
+weapon 0 AN
+dagger 3 8 slash 0
+22 23 1460 P
+A
+19 1
+A
+18 1
+A
+13 20
+A
+17 -14
+#20802
+small parrying buckler~
+a small buckler~
+A small parrying buckler lays here.~
+2
+0
+armor G AJ
+-4 -4 -4 -2 0
+22 30 1300 P
+A
+1 1
+#20803
+green gem cats eye~
+a green gem~
+A green gem in the shape of a cats eye was left here.~
+44
+0
+wand G AO
+27 5 5 'shield' 0
+27 15 2222 P
+#20804
+tenderizer~
+a tenderizer~
+A long ,well worn, meat tenderizer lays here.~
+82
+2
+weapon 0 AN
+mace 3 10 smash 0
+26 27 1740 P
+A
+18 3
+A
+1 1
+#20805
+cooks apron~
+a white stew stained apron~
+A white stew stained apron lays here.~
+84
+0
+armor G AD
+8 8 8 6 0
+26 15 1900 P
+A
+2 2
+A
+3 1
+#20806
+small pink stone~
+a small pink stone~
+A small pink stone glows here.~
+45
+0
+wand AG AO
+26 15 15 'feast' 0
+26 10 2000 P
+#20807
+longbow bite~
+the black longbow "Bite"~
+A black longbow rests on the ground here.~
+82
+0
+weapon ABGIP AN
+exotic 4 7 acbite EH
+28 29 1880 P
+A
+19 2
+A
+18 2
+#20808
+black leather helm~
+a small black helm~
+A small black leather helm lays here.~
+81
+0
+armor G AE
+8 8 8 2 0
+30 20 1800 P
+A
+5 1
+A
+1 1
+#20809
+ice blue spear~
+an ice blue spear~
+A ice blue spear lays here. A ring of frost surrounds it.~
+2
+122
+weapon 0 AN
+polearm 4 10 chill BEF
+30 31 1890 P
+A
+18 3
+A
+19 3
+A
+17 -10
+#20810
+flaming whip~
+a flaming whip~
+A smoking whip lays here.~
+81
+121
+weapon BG AN
+whip 4 12 blast A
+37 38 2405 P
+A
+18 3
+A
+19 3
+A
+12 30
+A
+17 -7
+#20811
+red dragonskin girth~
+a red dragonskin girth~
+A red dragonskin girth lays here.~
+91
+0
+armor GI AL
+8 8 8 2 0
+37 30 2900 P
+A
+18 3
+A
+19 3
+#20812
+tattered red robes~
+tattered red robes~
+A smoldering and tattered robe rests here.~
+84
+0
+container G AK
+600 0 0 100 70
+27 30 1789 P
+A
+17 -5
+A
+4 2
+A
+18 2
+A
+19 2
+#20813
+enchanted iron dagger~
+an enchanted iron dagger~
+An iron dagger lays here.~
+1
+0
+weapon GHM AN
+dagger 3 12 pierce 0
+27 28 1760 P
+A
+18 3
+A
+19 3
+A
+1 -5
+#20814
+glowing green wand~
+a glowing green wand~
+A green wand lays here.~
+2
+0
+wand AG AO
+30 5 5 'charm person' 0
+30 10 1200 P
+#20815
+granite gauntlets~
+gauntlets of granite~
+A pair of stone gauntlets rests here.~
+45
+0
+armor 0 AH
+7 7 7 1 0
+30 30 1200 P
+A
+19 3
+A
+2 2
+#20816
+two-handed axe nasty~
+a nasty looking axe~
+A huge two-handed axe rests here.~
+2
+82
+weapon 0 AN
+axe 4 11 cleave E
+35 36 2240 P
+A
+18 2
+A
+19 5
+A
+13 10
+#20817
+translucent twig~
+a translucent twig~
+A twig can barely be seen here.~
+82
+123
+wand G AO
+35 5 5 'pass door' 0
+35 7 1500 P
+#0
+
+
+
+#ROOMS
+#20800
+A well used path~
+The trail looks to have been well used.  Bushes along each edge are
+trampled in the mud.  Trees have been cut for fire wood.  The wagon ruts
+have been filled in with sand to make travel for carts easier.  This trail
+has been well maintained.  It leads up a slope to what looks like a plateau.
+~
+0 4 0
+D0
+~
+~
+0 0 6017
+D4
+~
+~
+0 0 20801
+S
+#20801
+Plateau~
+The trail opens up onto a small plateau.  Old campfire signs can be seen
+all over the clearing.  A stack of firewood has been left in the
+northwestern corner.  A large barrel of rainwater is in the center of the
+clearing.  This looks like a great place to camp.  There are thick bushes to
+the south.  An old hollow tree sits to the east, just outside of the
+clearing.  
+~
+0 0 5
+D1
+~
+tree~
+1 0 20802
+D2
+~
+bushes~
+1 0 20803
+D5
+~
+~
+0 0 20800
+S
+#20802
+Inside the tree~
+The inside of this tree has been well used for quite some time.  It gives
+a perfect view of the plateau.  Someone has impatently whittled away most of
+the trees inner rings, leaving piles of wood shavings.  
+~
+0 8 3
+D3
+~
+~
+1 0 20801
+S
+#20803
+In the bushes~
+The inside of the bushes has been carefull hollowed out to let up to
+three humanoid sized people fit in it.  There are small branches cut away
+that allows a full view of the plateau.  At one end of the small carved out
+room there are crossbow bolts stuck into the dirt point down.  This is a
+perfect ambush point.  
+To the south a trail is barely visable in the brush.
+~
+0 0 3
+D0
+~
+~
+1 0 20801
+D2
+~
+~
+0 0 20804
+S
+#20804
+The bandit trail~
+A small well hidden path goes north into some shrubs and south into the
+forest.  Great care has been taken in keeping this path hidden.  Stones have
+been placed just far enough apart as not to draw attention.  Yet close
+enough to leap from one to the next.  Vertually leaving no trace of passage.
+There is a large vine covered tree east off of the path.  
+~
+0 0 3
+D0
+~
+~
+0 0 20803
+D1
+~
+vine~
+1 0 20807
+D2
+~
+~
+0 0 20805
+S
+#20805
+The edge of the clearing~
+The path gets a little wider at this point.  Boot and sandle impressions
+can be seen along the edges of the trail.  The path opens up into a
+clearing.  On the far side of the clearing there appears to be a bit of
+cloth tied to a tree limb.  The trail seems to continue on under the cloth. 
+The trail leads south into the clearing and north along the trail.  
+~
+0 4 3
+D0
+~
+~
+0 0 20804
+D2
+~
+~
+0 0 20806
+S
+#20806
+The pit~
+SWOOOOSSSHHHH!!!!!  The fake ground gives way and drops you into a pit. 
+Pieces of bambo and twigs rain down around you.  The walls are steep and
+covered with some kind of oil.  Bones of other unfortunate souls litter the
+ground.  Something has been gnawing on the leg bone of what looks like it
+use to belong to a minotaur.  By the size of the gnaw marks look to be about
+13 inches across.  
+~
+0 524293 3
+S
+#20807
+Base of tree~
+A very large tree reaches up into the forests canopy hundreds of feet
+above.  Large vines hang loosly about the giant oak.  The oak is high enough
+to make a great scouting position.  Climbing it shouldn't be to hard.  
+~
+0 4 3
+D3
+~
+~
+1 0 20804
+D4
+~
+~
+0 0 20808
+S
+#20808
+Climbing the oak~
+With the horse hair rope hidden with in the vines.  Climbing is fairly
+easy.  There seems to be large sticky strands almost the size of the vines
+mixed in with the rest.  The skeleton of a small humaniod is tangles in the
+sticky strands.  On up the vines is what looks like a platform.  
+~
+0 0 3
+D4
+~
+~
+0 0 20809
+D5
+~
+~
+0 0 20807
+S
+#20809
+Central platform~
+A large platform is built into the center of the oak.  It extends out
+about 30 feet on all sides.  The platform is protected from the elements by
+a canopy of leaves.  The canopy is created by all of the dense trees growing
+in this part of the forest.  Weapon racks are neatly setup around the trunk
+of the tree.  There are other smaller platforms in trees around this one. 
+North is an entrance to the hollow center of the oak.  
+~
+0 0 0
+D0
+~
+~
+0 0 20810
+D5
+~
+~
+0 0 20808
+S
+#20810
+Center of the oak~
+A large deer is cooking over a blazing fire in the center of the room.  A
+large black pot containing various roots and plants bubbles on the coals.  A
+table stands in one corner.  A map of the general area is drawn in charcoal
+on the tables surface.  A red circle is smeared around the plateau.  Casks
+of wine are neatly stacked in another corner.  Exits lead in all directions.
+ 
+ 
+~
+0 0 0
+D0
+~
+~
+0 0 20811
+D1
+~
+~
+0 0 20814
+D2
+~
+~
+0 0 20809
+D3
+~
+~
+0 0 20819
+S
+#20811
+Central platform~
+There are tables and chairs of all shapes and sizes set up here.  Foods
+of every description lie discarded on the tables.  Stains where wine and
+other stronger drinks have been spilled cover the platforms surface.  A cage
+large enough to hold more then a few people hangs from a tree limb.  It
+sways gently in the soft breeze.  
+ 
+ 
+~
+0 0 3
+D0
+~
+~
+0 0 20812
+D2
+~
+~
+0 0 20810
+S
+#20812
+In the air~
+It is a long drop to the forest floor.  It's about 300 feet down.  A drop
+that would surely kill anyone.  The platform to the north has an open sided
+construction on it.  Exits are north to a smaller platform or south to the
+large central platform.  
+~
+0 0 9
+D0
+~
+~
+0 0 20813
+D2
+~
+~
+0 0 20811
+S
+#20813
+Sleeping quarters~
+The open contruction building is built right into the trees trunk.  It
+consists of one large room.  There are large bunks stacked up everywhere. 
+There doesn't seem to be any order in which they are set up.  There are 25
+total beds.  The only visable exit is south.  
+ 
+ 
+~
+0 0 3
+D2
+~
+~
+0 0 20812
+S
+#20814
+Central platform~
+This part of the platform is used for archery and knife throwing
+practice.  There are different size targets set up along the edge of the
+platform.  Each target is humanoid in shape.  From all of the arrows stuck
+in the trees off the edge.  It would seem that the bandits are just learning
+the art of archery.  
+~
+0 0 3
+D1
+~
+~
+0 0 20815
+D3
+~
+~
+0 0 20810
+S
+#20815
+In the air~
+Arrows and broaken throwing knives litter the ground some 300 feet
+below.  A free fall from this height would bring some discomfort.  To the
+east is a small platform with a heavily armored structure on it.  West is
+the central platform.  
+~
+0 0 9
+D1
+~
+~
+0 0 20816
+D3
+~
+~
+0 0 20814
+S
+#20816
+Guarded platform~
+This platform is heavily guarded.  The wood looks to have been proofed
+against fire with a black tar like substance.  Large stones are stacked near
+the edge.  These would crush anything on the ground if dropped on them from
+this height.  Lines have been drawn near the trunk of the tree.  It looks
+like hours of Bones have been played here.  A ladder leads up to a second
+floor.  
+~
+0 8 0
+D3
+~
+~
+0 0 20815
+D4
+~
+~
+0 0 20817
+S
+#20817
+Trocks office~
+A large office fills up the entire second floor.  Comfortable chairs are
+arranged in a semi-circle around a gold trimmed desk.  Rare and exotic rugs
+completely cover the floor.  Weapons of all sorts are hanging fom the walls.
+Under each is a little plaque reading names and dates.  These must have been
+foes conquered by Trock the leader of the Bandits.  There is a ladder
+leading down to the first floor and one leading up to the third.  
+~
+0 8 0
+D4
+~
+~
+0 0 20818
+D5
+~
+~
+0 0 20816
+S
+#20818
+Trock's chambers~
+A bed takes up the center of the room.  It is covered with rare silks and
+furs.  Priceless paintings line the walls.  A weapons and armor rack stands
+empty in the corner.  A large steel banded chest sits at the floor of the
+bed.  There is a ladder leading down to the second level.  
+ 
+~
+0 8200 0
+D5
+~
+~
+0 0 20817
+S
+#20819
+Central platform~
+This part of the platform is used for storage.  Large barrols of pitch
+and oil are stacked next to the oaks trunk.  Stones the size of a ogres head
+are piled in large piles next to the platforms edge.  Racks of weapons stand
+in neat lines.  Oil soaked bags are neatly stacked in rows.  Each bag
+protects armor from rust inducing mist from the forest.  
+~
+0 0 3
+D1
+~
+~
+0 0 20810
+D3
+~
+~
+0 0 20820
+S
+#20820
+In the air~
+Flying 300 feet above the ground can be nerve racking.  A loud roaring
+can be heards from a small platform to the west.  The air vibrates with the
+unearthly screeming.  The sound of boulders rolling down a mountain in a
+landslide sounds friendlier.  Leaves are blown from their branches by the
+howls.  
+~
+0 0 9
+D1
+~
+~
+0 0 20819
+D3
+~
+~
+0 0 20821
+S
+#20821
+Cell~
+A large pentagram takes up most of the platform.  It appears to be a ward
+of holding.  To one edge of the platform is a small table containing flasks,
+herbs and other mage tools.  The smell of brimstone is overwhelming.  
+ 
+ 
+~
+0 8192 3
+D1
+~
+~
+0 0 20820
+S
+#0
+
+
+
+#SPECIALS
+M 20802 spec_nasty
+M 20803 spec_poison
+M 20810 spec_cast_mage
+S
+
+
+
+#RESETS
+D 0 20801 1 1
+D 0 20801 2 1
+D 0 20802 3 1
+D 0 20803 0 1
+D 0 20804 1 1
+D 0 20807 3 1
+M 0 20800 3 20800 1
+E 0 20800 0 16
+M 0 20800 3 20801 1
+E 0 20800 0 16
+M 0 20801 25 20802 1
+E 0 20801 0 16
+E 0 20802 0 11
+M 0 20801 2 20803 25
+M 0 20801 25 20803 2
+E 0 20801 0 16
+E 0 20802 0 11
+M 0 20801 25 20804 1
+E 0 20801 0 16
+E 0 20802 0 11
+M 0 20802 1 20806 1
+E 0 20803 0 17
+M 0 20801 1 20807 1
+E 0 20802 0 11
+M 0 20803 2 20808 1
+M 0 20801 25 20809 1
+E 0 20801 0 16
+E 0 20802 0 11
+M 0 20804 1 20810 1
+E 0 20804 0 16
+E 0 20805 0 5
+E 0 20806 0 17
+M 0 20805 15 20811 2
+M 0 20806 15 20812 2
+M 0 20805 15 20813 1
+M 0 20807 1 20813 1
+M 0 20808 15 20814 2
+E 0 20807 0 16
+M 0 20806 15 20815 1
+M 0 20809 15 20816 2
+E 0 20808 0 6
+E 0 20809 0 16
+M 0 20812 1 20817 1
+E 0 20815 0 9
+M 0 20813 1 20818 1
+G 0 20817 0
+E 0 20816 0 16
+M 0 20805 15 20819 1
+M 0 20806 15 20820 1
+M 0 20810 1 20821 1
+E 0 20810 0 16
+E 0 20811 0 13
+M 0 20811 1 20821 1
+E 0 20812 0 12
+E 0 20813 0 16
+E 0 20814 0 17
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#0
+
+#$
