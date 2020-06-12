@@ -362,7 +362,7 @@ int mud_ansiprompt, mud_ansicolor, mud_telnetga;
 
 /* Set this to the IP address you want to listen on (127.0.0.1 is good for    */
 /* paranoid types who don't want the 'net at large peeking at their MUD)      */
-char *mud_ipaddress = "10.0.1.6";
+char *mud_ipaddress = "0.0.0.0";
 
 int main (int argc, char **argv)
 {

@@ -1,6 +1,9 @@
 .DS_Store
+# MUD runtime data
 log/
 player/
+last_command.txt
+# Compiled stuff
 src/rom
 src/obj
 *.o
