@@ -1,0 +1,6 @@
+.DS_Store
+log/
+player/
+src/rom
+src/obj
+*.o
