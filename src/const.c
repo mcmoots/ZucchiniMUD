@@ -86,6 +86,7 @@ const struct god_type god_table [] =
   {"Eris", "Goddess of Discord"},
   {"Sobek", "the Crocodile God"},
   {"Xena", "Warrior Princess"},
+  {"", ""},
   {NULL, NULL}
 };
 

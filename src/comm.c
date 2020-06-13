@@ -88,7 +88,7 @@ extern int malloc_verify args ((void));
 #define __attribute(x)
 #endif
 
-#if defined(unix)
+#if defined(unix) || defined(__APPLE__)
 #include <signal.h>
 #endif
 
@@ -107,7 +107,7 @@ const char echo_on_str[] = { '\0' };
 const char go_ahead_str[] = { '\0' };
 #endif
 
-#if    defined(unix)
+#if    defined(unix) || defined(__APPLE__)
 #include <fcntl.h>
 #include <netdb.h>
 #include <netinet/in.h>
@@ -320,7 +320,7 @@ bool read_from_descriptor args ((DESCRIPTOR_DATA * d));
 bool write_to_descriptor args ((int desc, char *txt, int length));
 #endif
 
-#if defined(unix)
+#if defined(unix) || defined(__APPLE__)
 void game_loop_unix args ((int control));
 int init_socket args ((int port));
 void init_descriptor args ((int control));
@@ -450,7 +450,7 @@ int main (int argc, char **argv)
     game_loop_mac_msdos ();
 #endif
 
-#if defined(unix)
+#if defined(unix) || defined(__APPLE__)
 
     qmconfig_read(); /* Here so we can set the IP adress. -- JR 05/06/01 */
     if (!fCopyOver)
@@ -496,7 +496,7 @@ int main (int argc, char **argv)
 
 
 
-#if defined(unix)
+#if defined(unix) || defined(__APPLE__)
 int init_socket (int port)
 {
     static struct sockaddr_in sa_zero;
@@ -745,7 +745,7 @@ void game_loop_mac_msdos (void)
 
 
 
-#if defined(unix)
+#if defined(unix) || defined(__APPLE__)
 void game_loop_unix (int control)
 {
     static struct timeval null_time;
@@ -960,7 +960,7 @@ void game_loop_unix (int control)
 
 
 
-#if defined(unix)
+#if defined(unix) || defined(__APPLE__)
 
 void init_descriptor (int control)
 {
@@ -1191,7 +1191,7 @@ bool read_from_descriptor (DESCRIPTOR_DATA * d)
     }
 #endif
 
-#if defined(MSDOS) || defined(unix)
+#if defined(MSDOS) || defined(unix) || defined(__APPLE__)
     for (;;)
     {
         int nRead;

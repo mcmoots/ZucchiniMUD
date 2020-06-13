@@ -60,7 +60,7 @@ extern const char echo_on_str[];
 extern const char go_ahead_str[];
 #endif
 
-#if    defined(unix)
+#if    defined(unix) || defined(__APPLE__)
 #include <fcntl.h>
 #include <netdb.h>
 #include <netinet/in.h>
@@ -80,7 +80,7 @@ bool read_from_descriptor args ((DESCRIPTOR_DATA * d));
 bool write_to_descriptor args ((int desc, char *txt, int length));
 #endif
 
-#if defined(unix)
+#if defined(unix) || defined(__APPLE__)
 void game_loop_unix args ((int control));
 int init_socket args ((int port));
 void init_descriptor args ((int control));
@@ -298,7 +298,7 @@ void nanny (DESCRIPTOR_DATA * d, char *argument)
             break;
 
         case CON_GET_OLD_PASSWORD:
-#if defined(unix)
+#if defined(unix) || defined(__APPLE__)
             write_to_buffer (d, "\n\r", 2);
 #endif
 
@@ -393,7 +393,7 @@ void nanny (DESCRIPTOR_DATA * d, char *argument)
                 case 'y':
                 case 'Y':
                     sprintf (buf,
-                             "New character.\n\rGive me a password for %s: %s",
+                             "New character.\n\rWARNING passwords are stored in plaintext, don't reuse them ever anyway but especially not here.\n\rGive me a password for %s: %s",
                              ch->name, echo_off_str);
                     send_to_desc (buf, d);
                     d->connected = CON_GET_NEW_PASSWORD;
@@ -416,7 +416,7 @@ void nanny (DESCRIPTOR_DATA * d, char *argument)
             break;
 
         case CON_GET_NEW_PASSWORD:
-#if defined(unix)
+#if defined(unix) || defined(__APPLE__)
             write_to_buffer (d, "\n\r", 2);
 #endif
 
@@ -447,7 +447,7 @@ void nanny (DESCRIPTOR_DATA * d, char *argument)
             break;
 
         case CON_CONFIRM_NEW_PASSWORD:
-#if defined(unix)
+#if defined(unix) || defined(__APPLE__)
             write_to_buffer (d, "\n\r", 2);
 #endif
 
@@ -596,7 +596,7 @@ void nanny (DESCRIPTOR_DATA * d, char *argument)
             ch->pcdata->learned[gsn_recall] = 50;
 	    
 			send_to_desc("The following gods are available:\n\r ", d);
-			for( god = 1; god_table[god].name != NULL; god++ )
+			for( god = 1; god_table[god].name != ""; god++ )
 			{
 				sprintf(buf, "%s ", god_table[god].name);
 				send_to_desc(buf, d);
@@ -626,13 +626,13 @@ void nanny (DESCRIPTOR_DATA * d, char *argument)
 			
 			if ( god == 0 )
 			{
-				write_to_buffer(d, "That's not a valid god.\n\r", 0);
-			write_to_buffer(d, "The following gods are available:\n\r", 0);
-			for(god = 1; god_table[god].name != NULL; god++ )
-			{
+                            write_to_buffer(d, "That's not a valid god.\n\r", 0);
+                            write_to_buffer(d, "The following gods are available:\n\r", 0);
+                            for(god = 1; god_table[god].name != ""; god++ )
+                            {
 				sprintf(buf, "%s ", god_table[god].name);
 				send_to_desc(buf, d);
-			}
+                            }
 			write_to_buffer(d, "\n\r", 0);
 			write_to_buffer(d, "Who do you want to worship? ", 0);
 			break;

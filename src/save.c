@@ -124,7 +124,7 @@ void save_char_obj (CHAR_DATA * ch)
     if (ch->desc != NULL && ch->desc->original != NULL)
         ch = ch->desc->original;
 
-#if defined(unix)
+#if defined(unix) || defined(__APPLE__)
     /* create god log */
     if (IS_IMMORTAL (ch) || ch->level >= LEVEL_IMMORTAL)
     {
@@ -808,7 +808,7 @@ bool load_char_obj (DESCRIPTOR_DATA * d, char *name)
     found = FALSE;
     fclose (fpReserve);
 
-#if defined(unix)
+#if defined(unix) || defined(__APPLE__)
     /* decompress if .gz file exists */
     sprintf (strsave, "%s%s%s", PLAYER_DIR, capitalize (name), ".gz");
     if ((fp = fopen (strsave, "r")) != NULL)

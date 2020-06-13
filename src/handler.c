@@ -181,7 +181,7 @@ int god_lookup( const char *name)
 {
 	int god;
 	
-	for( god = 0; god_table[god].name != NULL; god++)
+	for( god = 0; god_table[god].name != ""; god++)
 	{
 		if(LOWER(name[0]) == LOWER(god_table[god].name[0])
 		   && !str_prefix( name, god_table[god].name ) )

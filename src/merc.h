@@ -150,7 +150,7 @@ typedef void SPELL_FUN args( ( int sn, int level, CHAR_DATA *ch, void *vo,
 #define MAX_PC_RACE        10
 #define MAX_RACE_SKILLS	   5
 #define MAX_CLAN           3
-#define MAX_GOD		   9
+#define MAX_GOD		   10
 #define MAX_DAMAGE_MESSAGE 61
 #define MAX_NEWBIE_WEAPON  3
 #define MAX_NEWBIE_CANDY   9
@@ -1098,7 +1098,7 @@ struct    kill_data
 #define ITEM_CLOTHING    11
 #define ITEM_FURNITURE   12
 #define ITEM_TRASH       13
-#define ITEM_BRAINS	 	14
+#define ITEM_BRAINS	 14
 #define ITEM_CONTAINER   15
 
 #define ITEM_DRINK_CON   17
@@ -2275,6 +2275,10 @@ extern  bool				MOBtrigger;
  * These are all very standard library functions,
  *   but some systems have incomplete or non-ansi header files.
  */
+#if defined(__APPLE__)
+char * crypt args( (const char *key, const char *salt) );
+#endif
+
 #if    defined(_AIX)
 char *    crypt        args( ( const char *key, const char *salt ) );
 #endif
@@ -2381,7 +2385,7 @@ char *    crypt        args( ( const char *key, const char *salt ) );
 #define NULL_FILE       "nul"                /* To reserve one stream  */
 #endif
 
-#if defined(unix)
+#if defined(unix) || defined(__APPLE__)
 #define PLAYER_DIR      "../player/"         /* Player files           */
 #define GOD_DIR         "../gods/"           /* list of gods           */
 #define LAST_COMMAND	"../last_command.txt" /* for signal handler    */
