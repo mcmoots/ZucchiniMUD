@@ -5209,6 +5209,7 @@ void do_brainlist(CHAR_DATA *ch, char *argument)
 	FILE *fp;
 	AREA_DATA *pArea;
 	MOB_INDEX_DATA *pMob;
+        OBJ_INDEX_DATA *pObj;
 	char buf[MSL];
 
 	fclose(fpReserve);
@@ -5219,30 +5220,41 @@ void do_brainlist(CHAR_DATA *ch, char *argument)
 		fpReserve = fopen(NULL_FILE, "r");
 		return;
 	}
-
 	
-	/* loop through all the mobs in the world! */
+	/* loop through the world! */
 	for( pArea = area_first; pArea; pArea = pArea->next )
 	{
-		int i = 0;
-		
-		for( i = pArea->min_vnum; i <= pArea->max_vnum; i++)
-		{
-			if( (pMob = get_mob_index(i)) && pMob->brain_content)
-			{
-				if( str_cmp(pMob->brain_content, "none") && str_cmp(pMob->brain_content, "(null)"))
-				{
-					sprintf(buf, "%d %20s\t%s\n", pMob->vnum, pMob->short_descr,
-					pMob->brain_content);
-					fprintf(fp, buf);
-				}
-			}
-		}	
+	    int i = 0;
+            for( i = pArea->min_vnum; i <= pArea->max_vnum; i++)
+            {
+                if( (pMob = get_mob_index(i)) && pMob->brain_content)
+                {
+                    if( str_cmp(pMob->brain_content, "none") && str_cmp(pMob->brain_content, "(null)"))
+                    {
+                        sprintf(buf, "%d %20s\t%s\n", pMob->vnum, pMob->short_descr,
+                        pMob->brain_content);
+                        fprintf(fp, buf);
+                    }
+                }
+                if( (pObj = get_obj_index(i)) && 
+                    (pObj->item_type == ITEM_SCROLL ||
+                     pObj->item_type == ITEM_WAND ||
+                     pObj->item_type == ITEM_STAFF ||
+                     pObj->item_type == ITEM_BRAINS)
+                    && pObj->value[0] > 0
+                    )
+                {
+                    sprintf(buf, "%d %20s\t%s\n", pObj->vnum,
+                            pObj->short_descr, skill_table[pObj->value[0]].name);
+                    fprintf(fp, buf);
+                }
+	    }
 	}
 	
 	fclose(fp);
 	fpReserve = fopen(NULL_FILE, "r");
 }
+
 
 void do_helpcheck (CHAR_DATA *ch, char *argument)
 {
